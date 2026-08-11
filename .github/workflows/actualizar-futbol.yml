@@ -5,6 +5,14 @@ on:
   schedule:
     - cron: "7,37 * * * *"
 
+# Evita que se acumulen corridas simultáneas: si una ejecución programada
+# todavía está corriendo cuando dispara la siguiente, la nueva espera en
+# cola en vez de arrancar en paralelo (y GitHub descarta las que sobran
+# en la cola, así nunca hay 3-4 corridas pisándose al mismo tiempo).
+concurrency:
+  group: actualizar-futbol
+  cancel-in-progress: false
+
 permissions:
   contents: write
 

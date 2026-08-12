@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-11T23:20:52.281382Z",
+  "generated_at": "2026-08-12T00:09:18.486995Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -12,7 +12,7 @@
       "items": 14
     },
     "conmebol.json": {
-      "items": 5
+      "items": 7
     },
     "internacional.json": {
       "items": 0
@@ -21,7 +21,7 @@
       "items": 0
     },
     "latest.json": {
-      "items": 13
+      "items": 15
     }
   },
   "source_status": [
@@ -126,7 +126,7 @@
   ],
   "totals": {
     "items_before_filter": 52,
-    "items_after_filter_dedupe": 19,
+    "items_after_filter_dedupe": 21,
     "web_sources_ok": 14,
     "web_sources_error": 0,
     "social_items": 0

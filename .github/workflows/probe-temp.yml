@@ -5,15 +5,29 @@ jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
-      - name: Buscar tabla en diez.bo
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Instalar deps
+        run: pip install requests beautifulsoup4 lxml
+      - name: Inspeccionar tabla diez.bo
         run: |
-          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
-          for path in "tabla-de-posiciones" "posiciones" "futbol/tabla-de-posiciones" "division-profesional" "futbol"; do
-            code=$(curl -sL -o out.html -w "%{http_code}" -A "$UA" --max-time 15 "https://diez.bo/$path")
-            size=$(wc -c < out.html)
-            hits=$(grep -oic "always ready" out.html || true)
-            echo "$code size=$size hits=$hits  https://diez.bo/$path"
-          done
-          echo "--- links en homepage con 'posicion' o 'tabla' ---"
-          curl -sL -A "$UA" --max-time 15 "https://diez.bo/" -o home.html
-          grep -oiE 'href="[^"]*(posicion|tabla)[^"]*"' home.html | sort -u | head -10
+          python - <<'EOF'
+          import requests
+          from bs4 import BeautifulSoup
+          ua = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
+          r = requests.get("https://diez.bo/futbol/tabla-de-posiciones", headers={"User-Agent": ua}, timeout=20)
+          soup = BeautifulSoup(r.text, "lxml")
+          tables = soup.find_all("table")
+          print("HTTP", r.status_code, "tablas:", len(tables))
+          for i, t in enumerate(tables):
+              rows = []
+              for tr in t.find_all("tr"):
+                  cells = [c.get_text(" ", strip=True) for c in tr.find_all(["th", "td"])]
+                  if cells and any(cells):
+                      rows.append(cells)
+              print(f"--- tabla {i}: {len(rows)} filas ---")
+              for row in rows[:4]:
+                  print("  ", row)
+          EOF

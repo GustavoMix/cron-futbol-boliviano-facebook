@@ -1142,14 +1142,27 @@ def _fix_standings_dg(rows: list[list[str]]) -> list[list[str]]:
     return fixed
 
 
+def _row_logo(tr: Tag, base_url: str) -> str:
+    # El escudo del equipo vive en la celda del nombre (ej. FBF: td.data-name
+    # con un <img data-src="..."> lazy-loaded). Tomamos la primera imagen
+    # "de verdad" de la fila, ignorando placeholders base64 en blanco.
+    for img in tr.find_all("img"):
+        src = img.get("data-src") or img.get("data-lazyloaded-src") or img.get("src") or ""
+        if src and not src.startswith("data:"):
+            return absolute_url(base_url, str(src))
+    return ""
+
+
 def extract_tables(soup: BeautifulSoup, source: dict[str, Any], base_url: str) -> list[Item]:
     out: list[Item] = []
     for idx, table in enumerate(soup.find_all("table")):
         rows = []
+        logos = []
         for tr in table.find_all("tr"):
             cells = [clean_text(c.get_text(" ", strip=True)) for c in tr.find_all(["th", "td"])]
             if cells and any(cells):
                 rows.append(cells)
+                logos.append(_row_logo(tr, base_url))
         if len(rows) < 2:
             continue
         heading = _heading_before(table)
@@ -1169,7 +1182,7 @@ def extract_tables(soup: BeautifulSoup, source: dict[str, Any], base_url: str) -
             published_at=None, scraped_at=utc_now_iso(), source_id=source["id"], source_name=source["name"],
             source_type=source.get("source_type", "web"), source_authority=float(source.get("authority", 0.7)),
             scope=source.get("scope", "general"), competition=source.get("competition", "general"),
-            extra={"rows": rows},
+            extra={"rows": rows, "logos": logos},
         ))
     return out
 

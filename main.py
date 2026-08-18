@@ -15,6 +15,9 @@ class Item:
     text: str = ""
     url: str = ""
     image_url: str = ""
+    video_url: str = ""
+    thumbnail_url: str = ""
+    media_type: str = "none"
     published_at: Optional[str] = None
     scraped_at: Optional[str] = None
     source_id: str = ""
@@ -283,57 +286,590 @@ def dedupe(items: list[Item], threshold: int = 90) -> list[Item]:
 import os
 from difflib import SequenceMatcher
 from typing import Any
-from urllib.parse import quote
-
 
 
 def _similarity(a: str, b: str) -> float:
     return SequenceMatcher(None, a.lower(), b.lower()).ratio()
 
 
-def scrape_facebook(http, cfg: dict[str, Any]) -> tuple[list[Item], list[str]]:
-    token = os.getenv("META_ACCESS_TOKEN", "").strip()
-    version = os.getenv("META_GRAPH_VERSION", "v26.0").strip() or "v26.0"
-    if not cfg.get("enabled", False):
-        return [], []
-    if not token:
-        return [], ["Facebook omitido: falta META_ACCESS_TOKEN."]
+def _fb_public_post_url(href: str) -> bool:
+    h = (href or '').lower()
+    return any(x in h for x in ('/posts/', '/videos/', '/reel/', 'story_fbid='))
 
-    base = f"https://graph.facebook.com/{version}"
+
+def _fb_clean_public_text(text: str) -> str:
+    text = clean_text(text)
+    junk = (
+        'Log in', 'Iniciar sesión', 'Forgot account', '¿Olvidaste la cuenta?',
+        'Create new account', 'Crear cuenta nueva', 'Like Comment Share',
+        'Me gusta Comentar Compartir', 'See more', 'Ver más',
+    )
+    for token in junk:
+        text = text.replace(token, ' ')
+    return clean_text(text)
+
+
+def _fb_canonical_url(url: str) -> str:
+    from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
+    try:
+        parts = urlsplit(url)
+        keep = []
+        for k, v in parse_qsl(parts.query, keep_blank_values=True):
+            if k in {'story_fbid', 'id'}:
+                keep.append((k, v))
+        return urlunsplit((parts.scheme or 'https', parts.netloc or 'www.facebook.com', parts.path, urlencode(keep), ''))
+    except Exception:
+        return url
+
+
+def _scrape_facebook_public_page_http(http, spec: dict[str, Any], progress: str = '') -> tuple[list[Item], list[str]]:
+    from bs4 import BeautifulSoup
+    from urllib.parse import urljoin
+
+    name = spec['name']
+    page_url = (spec.get('url') or '').strip()
+    if not page_url:
+        print(f'{progress} HTTP -> {name}: SIN URL', flush=True)
+        return [], [f'Facebook HTTP {name}: falta URL de página.']
+
+    targets = [page_url.rstrip('/') + '/?sk=posts', page_url]
     out: list[Item] = []
     errors: list[str] = []
-    for spec in cfg.get("page_queries", []):
-        name = spec["name"]
+    seen: set[str] = set()
+
+    print(f'{progress} HTTP -> {name}', flush=True)
+    for attempt, target in enumerate(targets, start=1):
         try:
-            # Requiere Page Public Content Access para consultar páginas ajenas.
-            search_url = f"{base}/pages/search"
-            sr = http.get(search_url, params={"q": name, "fields": "id,name,link", "limit": 10, "access_token": token}).json()
-            candidates = sr.get("data", [])
-            if not candidates:
-                errors.append(f"Facebook: no se encontró página para {name!r}.")
-                continue
-            page = max(candidates, key=lambda p: _similarity(name, p.get("name", "")))
-            page_id = page["id"]
-            fields = "id,message,created_time,permalink_url,full_picture,attachments{media_type,url,title,description}"
-            pr = http.get(f"{base}/{page_id}/posts", params={"fields": fields, "limit": 50, "access_token": token}).json()
-            for post in pr.get("data", []):
-                message = clean_text(post.get("message", ""))
-                att_data = (post.get("attachments") or {}).get("data") or []
-                att_title = clean_text(att_data[0].get("title", "")) if att_data else ""
-                title = message[:180] if message else att_title
-                if not title:
+            print(f'      intento {attempt}/2 ...', end=' ', flush=True)
+            r = http.get(target, headers={
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/152 Safari/537.36',
+                'Accept-Language': 'es-BO,es;q=0.9,en;q=0.5',
+            })
+            soup = BeautifulSoup(r.text, 'lxml')
+            anchors = [a for a in soup.find_all('a', href=True) if _fb_public_post_url(a.get('href', ''))]
+            for a in anchors:
+                href = a.get('href', '')
+                url = _fb_canonical_url(urljoin('https://www.facebook.com', href))
+                if url in seen:
                     continue
-                url = post.get("permalink_url", "")
+                node = a
+                best_text = ''
+                for _ in range(8):
+                    if not getattr(node, 'parent', None):
+                        break
+                    node = node.parent
+                    candidate = _fb_clean_public_text(node.get_text(' ', strip=True))
+                    if 35 <= len(candidate) <= 5000:
+                        best_text = candidate
+                    if len(candidate) > 1000:
+                        break
+                if len(best_text) < 20:
+                    continue
+                required = [normalize_title(str(x)) for x in spec.get('keywords', []) if str(x).strip()]
+                if required:
+                    probe = normalize_title(best_text)
+                    if not any(k in probe for k in required):
+                        continue
+                img = node.find('img') if hasattr(node, 'find') else None
+                image = (img.get('src') or img.get('data-src') or '') if img else ''
                 out.append(Item(
-                    id=stable_id("facebook", post.get("id", "")), kind="social", title=title, text=message,
-                    url=url, image_url=post.get("full_picture", ""), published_at=parse_date(post.get("created_time")),
-                    scraped_at=utc_now_iso(), source_id=f"facebook:{page_id}",
-                    source_name=f"Facebook · {page.get('name', name)}", source_type="facebook",
-                    source_authority=float(spec.get("authority", 0.85)), scope=spec.get("scope", "general"),
-                    competition=spec.get("competition", "general"), extra={"page_id": page_id, "page_name": page.get("name")},
+                    id=stable_id('facebook-public-http', url), kind='social', title=best_text[:180], text=best_text,
+                    url=url, image_url=image, published_at=None, scraped_at=utc_now_iso(),
+                    source_id=f"facebook_http:{normalize_title(name).replace(' ', '_')}",
+                    source_name=f'Facebook · {name}', source_type='facebook_public_http',
+                    source_authority=float(spec.get('authority', 0.80)), scope=spec.get('scope', 'general'),
+                    competition=spec.get('competition', 'general'),
+                    extra={'page_url': page_url, 'collector': 'public_http'},
                 ))
+                seen.add(url)
+            if out:
+                print(f'OK ({len(out)} posts)', flush=True)
+                break
+            print('sin posts visibles', flush=True)
         except Exception as exc:
-            errors.append(f"Facebook {name}: {type(exc).__name__}: {exc}")
+            print(f'ERROR {type(exc).__name__}', flush=True)
+            errors.append(f'Facebook HTTP {name}: {type(exc).__name__}: {exc}')
+    if not out:
+        print(f'      => HTTP SIN DATOS; pasa al navegador.', flush=True)
+    return out, errors
+
+
+def _scrape_facebook_search_index(http, spec: dict[str, Any], limit: int = 8, progress: str = '') -> tuple[list[Item], list[str]]:
+    # Fallback de descubrimiento: consulta el índice público de Bing y conserva solo URLs de Facebook.
+    # No sustituye a Graph API para datos oficiales; sirve para localizar posts públicos indexados.
+    from urllib.parse import urlsplit, quote_plus
+    from xml.etree import ElementTree as ET
+    name = spec.get('name', 'Facebook')
+    page_url = (spec.get('url') or '').strip()
+    print(f'{progress} INDICE -> {name} ...', end=' ', flush=True)
+    if not page_url:
+        return [], [f'Facebook índice {name}: falta URL.']
+    try:
+        path = urlsplit(page_url).path.strip('/').split('/')[0]
+        if not path:
+            return [], [f'Facebook índice {name}: no se pudo obtener slug de página.']
+        extra = ' '.join(str(x) for x in spec.get('keywords', [])[:4]) or 'futbol fútbol Bolivia'
+        query = f'site:facebook.com/{path} {extra}'
+        url = 'https://www.bing.com/search?format=rss&q=' + quote_plus(query)
+        r = http.get(url, headers={'User-Agent': 'Mozilla/5.0', 'Accept': 'application/rss+xml,text/xml,*/*'})
+        root = ET.fromstring(r.text)
+        out = []
+        seen = set()
+        for node in root.findall('.//item'):
+            link = clean_text(node.findtext('link') or '')
+            title = clean_text(node.findtext('title') or '')
+            desc = _fb_clean_public_text(node.findtext('description') or '')
+            pub = clean_text(node.findtext('pubDate') or '')
+            if 'facebook.com' not in link.lower() or not _fb_public_post_url(link):
+                continue
+            link = _fb_canonical_url(link)
+            if link in seen:
+                continue
+            text = clean_text((title + ' ' + desc).strip())
+            if len(text) < 20:
+                continue
+            out.append(Item(
+                id=stable_id('facebook-index', link), kind='social', title=title[:180] or text[:180], text=text,
+                url=link, image_url='', published_at=parse_date(pub) if pub else None, scraped_at=utc_now_iso(),
+                source_id=f"facebook_index:{normalize_title(name).replace(' ', '_')}",
+                source_name=f'Facebook indexado · {name}', source_type='facebook_search_index',
+                source_authority=min(float(spec.get('authority', 0.80)), 0.72), scope=spec.get('scope', 'general'),
+                competition=spec.get('competition', 'general'),
+                extra={'page_url': page_url, 'collector': 'search_index', 'search_engine': 'bing'},
+            ))
+            seen.add(link)
+            if len(out) >= limit:
+                break
+        if out:
+            print(f'OK ({len(out)} posts)', flush=True)
+            return out, []
+        print('SIN POSTS', flush=True)
+        return [], [f'Facebook índice {name}: no encontró posts indexados.']
+    except Exception as exc:
+        print(f'ERROR {type(exc).__name__}', flush=True)
+        return [], [f'Facebook índice {name}: {type(exc).__name__}: {exc}']
+
+def _launch_public_browser(playwright):
+    errors = []
+    for channel in ('msedge', 'chrome'):
+        try:
+            return playwright.chromium.launch(
+                channel=channel,
+                headless=True,
+                args=['--disable-notifications', '--disable-popup-blocking'],
+            ), channel, errors
+        except Exception as exc:
+            errors.append(f'{channel}: {type(exc).__name__}: {exc}')
+    try:
+        return playwright.chromium.launch(
+            headless=True,
+            args=['--disable-notifications', '--disable-popup-blocking'],
+        ), 'playwright-chromium', errors
+    except Exception as exc:
+        errors.append(f'playwright-chromium: {type(exc).__name__}: {exc}')
+    return None, '', errors
+
+
+def _fb_parse_published_date(raw: str | None) -> str | None:
+    # Convierte textos típicos de Facebook (3 min, 11 h, fecha larga) a UTC ISO.
+    from datetime import datetime, timedelta, timezone
+    raw = clean_text(str(raw or ''))
+    if not raw:
+        return None
+    now_local = datetime.now(timezone(timedelta(hours=-4)))  # Bolivia
+    low = raw.lower().strip()
+    if low in {'ahora', 'hace un momento', 'just now'}:
+        return now_local.astimezone(timezone.utc).isoformat().replace('+00:00', 'Z')
+    m = re.fullmatch(r'(?:hace\s+)?(\d+)\s*(?:min|minuto|minutos)', low)
+    if m:
+        return (now_local - timedelta(minutes=int(m.group(1)))).astimezone(timezone.utc).isoformat().replace('+00:00','Z')
+    m = re.fullmatch(r'(?:hace\s+)?(\d+)\s*(?:h|hora|horas)', low)
+    if m:
+        return (now_local - timedelta(hours=int(m.group(1)))).astimezone(timezone.utc).isoformat().replace('+00:00','Z')
+    m = re.fullmatch(r'(?:hace\s+)?(\d+)\s*(?:d|día|dias|días)', low)
+    if m:
+        return (now_local - timedelta(days=int(m.group(1)))).astimezone(timezone.utc).isoformat().replace('+00:00','Z')
+    if raw.isdigit() and len(raw) >= 9:
+        try:
+            return datetime.fromtimestamp(int(raw), tz=timezone.utc).isoformat().replace('+00:00','Z')
+        except Exception:
+            pass
+    try:
+        dt = dateparser.parse(
+            raw,
+            languages=['es','pt','en'],
+            settings={
+                'RELATIVE_BASE': now_local,
+                'RETURN_AS_TIMEZONE_AWARE': True,
+                'TIMEZONE': 'America/La_Paz',
+                'TO_TIMEZONE': 'UTC',
+                'PREFER_DATES_FROM': 'past',
+            },
+        )
+        if dt:
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone(timedelta(hours=-4)))
+            return dt.astimezone(timezone.utc).isoformat().replace('+00:00','Z')
+    except Exception:
+        pass
+    return None
+
+
+def _fb_age_hours(published_at: str | None) -> float | None:
+    if not published_at:
+        return None
+    try:
+        dt = datetime.fromisoformat(published_at.replace('Z', '+00:00')).astimezone(timezone.utc)
+        return round(max(0.0, (datetime.now(timezone.utc) - dt).total_seconds() / 3600.0), 3)
+    except Exception:
+        return None
+
+
+def _fb_engagement(text: str) -> dict[str, Any]:
+    # Lectura orientativa; Facebook cambia el formato, por eso también conservamos raw_text.
+    def _num(raw: str) -> int | None:
+        raw = clean_text(raw).lower().replace(' ', '')
+        raw = raw.replace('.', '').replace(',', '.')
+        mult = 1
+        if raw.endswith('mil'):
+            mult, raw = 1000, raw[:-3]
+        elif raw.endswith('k'):
+            mult, raw = 1000, raw[:-1]
+        try:
+            return int(float(raw) * mult)
+        except Exception:
+            return None
+    out: dict[str, Any] = {}
+    patterns = {
+        'comments': r'([\d.,]+\s*(?:mil|k)?)\s+(?:comentarios?|comments?)',
+        'shares': r'([\d.,]+\s*(?:mil|k)?)\s+(?:compartidos?|veces compartido|shares?)',
+    }
+    for key, pat in patterns.items():
+        m = re.search(pat, text, flags=re.I)
+        if m:
+            n = _num(m.group(1))
+            if n is not None:
+                out[key] = n
+    return out
+
+
+def _fb_post_id(url: str) -> str:
+    for pat in (r'/posts/([^/?#]+)', r'/reel/([^/?#]+)', r'/videos/([^/?#]+)', r'[?&]story_fbid=([^&#]+)'):
+        m = re.search(pat, url or '', flags=re.I)
+        if m:
+            return m.group(1)
+    return stable_id('facebook-url', url)
+
+
+def _scrape_facebook_public_browser(specs: list[dict[str, Any]], cfg: dict[str, Any]) -> tuple[list[Item], list[str]]:
+    try:
+        from playwright.sync_api import sync_playwright
+    except Exception:
+        return [], ['Facebook browser: falta Playwright. Ejecuta INSTALAR_DEPENDENCIAS.bat']
+
+    timeout_ms = int(cfg.get('browser_timeout_seconds', 20)) * 1000
+    initial_wait_ms = int(cfg.get('browser_wait_ms', 2600))
+    scroll_wait_ms = int(cfg.get('scroll_wait_ms', 900))
+    scroll_rounds = max(1, int(cfg.get('scroll_rounds', 5)))
+    max_posts = max(1, int(cfg.get('max_posts_per_page', 8)))
+    recent_hours = max(1, int(cfg.get('recent_hours', 72)))
+    out: list[Item] = []
+    errors: list[str] = []
+    seen: set[str] = set()
+
+    print('\n--- FACEBOOK: NAVEGADOR REAL (Edge/Chrome) ---', flush=True)
+    print(f'Máximo {max_posts} posts/página · filtro {recent_hours} h · {scroll_rounds} scrolls', flush=True)
+    print('Iniciando navegador ...', end=' ', flush=True)
+    with sync_playwright() as p:
+        browser, browser_name, launch_errors = _launch_public_browser(p)
+        if browser is None:
+            print('ERROR', flush=True)
+            errors.append('Facebook browser: no se pudo iniciar Edge/Chrome. ' + ' | '.join(launch_errors[-2:]))
+            return [], errors
+        print(f'OK ({browser_name})', flush=True)
+        try:
+            context = browser.new_context(locale='es-BO', viewport={'width': 1280, 'height': 1800})
+            page = context.new_page()
+            total_specs = len(specs)
+            for idx, spec in enumerate(specs, start=1):
+                name = spec.get('name', 'Facebook')
+                page_url = (spec.get('url') or '').strip()
+                if not page_url:
+                    errors.append(f'Facebook browser {name}: falta URL.')
+                    continue
+                target = page_url.rstrip('/') + '/?sk=posts'
+                print(f'[{idx}/{total_specs}] {name}', flush=True)
+                print('      cargando ...', end=' ', flush=True)
+                try:
+                    page.goto(target, wait_until='domcontentloaded', timeout=timeout_ms)
+                    page.wait_for_timeout(initial_wait_ms)
+                    print('OK', flush=True)
+
+                    # Cierra/acepta banners de cookies cuando aparecen; si no están, no hace nada.
+                    for label in ('Permitir todas las cookies', 'Allow all cookies', 'Aceptar todas las cookies'):
+                        try:
+                            btn = page.get_by_role('button', name=label)
+                            if btn.count() > 0:
+                                btn.first.click(timeout=1000)
+                                page.wait_for_timeout(500)
+                                break
+                        except Exception:
+                            pass
+
+                    last_height = 0
+                    for sr in range(scroll_rounds):
+                        try:
+                            height = page.evaluate('document.body.scrollHeight')
+                            print(f'      scroll {sr+1}/{scroll_rounds} ...', end=' ', flush=True)
+                            page.evaluate('window.scrollBy(0, Math.max(1000, window.innerHeight * 0.90))')
+                            page.wait_for_timeout(scroll_wait_ms)
+                            new_height = page.evaluate('document.body.scrollHeight')
+                            print('OK', flush=True)
+                            if sr >= 2 and new_height == last_height == height:
+                                break
+                            last_height = new_height
+                        except Exception:
+                            print('omitido', flush=True)
+                            break
+
+                    records = page.evaluate(r'''() => {
+                      const isPost = h => h && (h.includes('/posts/') || h.includes('/videos/') || h.includes('/reel/') || h.includes('story_fbid='));
+                      const absolute = h => { try { return new URL(h, location.href).href; } catch(e) { return h || ''; } };
+                      let boxes = Array.from(document.querySelectorAll('[role="article"]'));
+                      if (!boxes.length) {
+                        const links = Array.from(document.querySelectorAll('a[href]')).filter(a => isPost(a.href));
+                        boxes = links.map(a => {
+                          let n=a;
+                          for (let i=0;i<8 && n && n.parentElement;i++) {
+                            n=n.parentElement;
+                            const t=(n.innerText||'').trim();
+                            if (t.length>=60) break;
+                          }
+                          return n;
+                        }).filter(Boolean);
+                      }
+                      const rows=[]; const used=new Set();
+                      for (const box of boxes) {
+                        const anchors=Array.from(box.querySelectorAll('a[href]'));
+                        const link=anchors.find(a => isPost(a.href));
+                        if (!link) continue;
+                        const href=absolute(link.href);
+                        if (used.has(href)) continue;
+                        const text=(box.innerText||'').replace(/\s+/g,' ').trim();
+                        if (text.length<20) continue;
+                        used.add(href);
+
+                        const dateCandidates=[];
+                        for (const el of box.querySelectorAll('abbr,time,a[aria-label],a')) {
+                          const raw=(el.getAttribute('datetime')||el.getAttribute('data-utime')||el.getAttribute('aria-label')||el.textContent||'').replace(/\s+/g,' ').trim();
+                          if (!raw || raw.length>90) continue;
+                          if (/^(ahora|hace un momento|\d+\s*(min|h|d|sem))$/i.test(raw) || /\d{1,2}\s+de\s+[a-záéíóúñ]+/i.test(raw) || /^\d{1,2}\s+[a-z]{3,}/i.test(raw)) dateCandidates.push(raw);
+                        }
+
+                        const imageCandidates=[];
+                        for (const im of box.querySelectorAll('img[src]')) {
+                          const src=im.currentSrc||im.src||'';
+                          if (!src || src.startsWith('data:')) continue;
+                          const area=(im.naturalWidth||im.width||0)*(im.naturalHeight||im.height||0);
+                          if (area < 12000) continue;
+                          imageCandidates.push({src, area});
+                        }
+                        imageCandidates.sort((a,b)=>b.area-a.area);
+                        const images=[...new Set(imageCandidates.map(x=>x.src))].slice(0,6);
+
+                        const videos=[];
+                        for (const v of box.querySelectorAll('video,video source')) {
+                          const src=(v.currentSrc||v.src||v.getAttribute('src')||'').trim();
+                          if (src && !src.startsWith('blob:') && !src.startsWith('data:')) videos.push(src);
+                        }
+                        const posters=Array.from(box.querySelectorAll('video[poster]')).map(v=>v.poster).filter(Boolean);
+                        const type = href.includes('/reel/') ? 'reel' : (href.includes('/videos/') || videos.length || box.querySelector('video')) ? 'video' : images.length ? 'image' : 'text';
+                        rows.push({href, text, dateText: dateCandidates[0]||'', images, videos:[...new Set(videos)].slice(0,3), posters:[...new Set(posters)].slice(0,3), mediaType:type});
+                      }
+                      return rows;
+                    }''')
+
+                    count_before = len(out)
+                    old_skipped = 0
+                    for rec in records:
+                        url = _fb_canonical_url(str(rec.get('href') or ''))
+                        if not url or url in seen:
+                            continue
+                        text = _fb_clean_public_text(str(rec.get('text') or ''))
+                        if len(text) < 20:
+                            continue
+                        required = [normalize_title(str(x)) for x in spec.get('keywords', []) if str(x).strip()]
+                        if required:
+                            probe = normalize_title(text)
+                            if not any(k in probe for k in required):
+                                continue
+                        published_raw = clean_text(str(rec.get('dateText') or ''))
+                        published = _fb_parse_published_date(published_raw)
+                        age_hours = _fb_age_hours(published)
+                        if age_hours is not None and age_hours > recent_hours:
+                            old_skipped += 1
+                            continue
+
+                        images = [str(x) for x in (rec.get('images') or []) if str(x).startswith('http')]
+                        videos = [str(x) for x in (rec.get('videos') or []) if str(x).startswith('http') and not str(x).startswith('blob:')]
+                        posters = [str(x) for x in (rec.get('posters') or []) if str(x).startswith('http')]
+                        media_type = str(rec.get('mediaType') or 'text')
+                        thumb = (posters[0] if posters else (images[0] if images else ''))
+                        image = images[0] if images else thumb
+                        direct_video = videos[0] if videos else ''
+                        stable_video_page = url if media_type in {'video','reel'} else ''
+                        engagement = _fb_engagement(text)
+
+                        out.append(Item(
+                            id=stable_id('facebook-browser', url), kind='social', title=text[:180], text=text,
+                            url=url, image_url=image, video_url=direct_video, thumbnail_url=thumb,
+                            media_type=media_type, published_at=published, scraped_at=utc_now_iso(),
+                            source_id=f"facebook_browser:{normalize_title(name).replace(' ', '_')}",
+                            source_name=f'Facebook · {name}', source_type='facebook_browser_public',
+                            source_authority=float(spec.get('authority', 0.80)), scope=spec.get('scope', 'general'),
+                            competition=spec.get('competition', 'general'),
+                            extra={
+                                'page_url': page_url,
+                                'collector': 'browser_public',
+                                'browser': browser_name,
+                                'post_id': _fb_post_id(url),
+                                'published_raw': published_raw,
+                                'age_hours': age_hours,
+                                'freshness_unknown': published is None,
+                                'media': {
+                                    'type': media_type,
+                                    'images': images,
+                                    'thumbnail_url': thumb,
+                                    'direct_video_urls': videos,
+                                    'video_post_url': stable_video_page,
+                                    'direct_video_url_may_expire': bool(direct_video),
+                                },
+                                'engagement': engagement,
+                            },
+                        ))
+                        seen.add(url)
+                        if len(out) - count_before >= max_posts:
+                            break
+                    found_now = len(out) - count_before
+                    suffix = f' · descartados viejos: {old_skipped}' if old_skipped else ''
+                    if found_now:
+                        print(f'      => OK: {found_now} posts actuales{suffix}', flush=True)
+                    else:
+                        print(f'      => SIN POSTS ACTUALES{suffix}', flush=True)
+                        body = _fb_clean_public_text(page.locator('body').inner_text(timeout=5000))[:260]
+                        if 'iniciar sesión' in body.lower() or 'log in' in body.lower():
+                            errors.append(f'Facebook browser {name}: Meta mostró muro de inicio de sesión; no hubo posts públicos visibles.')
+                        else:
+                            errors.append(f'Facebook browser {name}: página cargó, pero no se detectaron posts actuales visibles.')
+                except Exception as exc:
+                    print(f'      => ERROR {type(exc).__name__}', flush=True)
+                    errors.append(f'Facebook browser {name}: {type(exc).__name__}: {exc}')
+            context.close()
+        finally:
+            browser.close()
+    return out, errors
+
+def scrape_facebook(http, cfg: dict[str, Any]) -> tuple[list[Item], list[str]]:
+    token = os.getenv('META_ACCESS_TOKEN', '').strip()
+    version = os.getenv('META_GRAPH_VERSION', 'v26.0').strip() or 'v26.0'
+    if not cfg.get('enabled', False):
+        return [], []
+
+    mode = str(cfg.get('mode', 'auto')).strip().lower()
+    out: list[Item] = []
+    errors: list[str] = []
+
+    if token and mode in {'auto', 'graph', 'both'}:
+        base = f'https://graph.facebook.com/{version}'
+        for spec in cfg.get('page_queries', []):
+            name = spec['name']
+            try:
+                sr = http.get(f'{base}/pages/search', params={
+                    'q': name, 'fields': 'id,name,link', 'limit': 10, 'access_token': token,
+                }).json()
+                candidates = sr.get('data', [])
+                if not candidates:
+                    errors.append(f'Facebook Graph: no se encontró página para {name!r}.')
+                    continue
+                page_data = max(candidates, key=lambda x: _similarity(name, x.get('name', '')))
+                page_id = page_data['id']
+                fields = 'id,message,created_time,permalink_url,full_picture,attachments{media_type,url,title,description}'
+                pr = http.get(f'{base}/{page_id}/posts', params={'fields': fields, 'limit': 50, 'access_token': token}).json()
+                for post in pr.get('data', []):
+                    message = clean_text(post.get('message', ''))
+                    att_data = (post.get('attachments') or {}).get('data') or []
+                    att_title = clean_text(att_data[0].get('title', '')) if att_data else ''
+                    title = message[:180] if message else att_title
+                    if not title:
+                        continue
+                    out.append(Item(
+                        id=stable_id('facebook', post.get('id', '')), kind='social', title=title, text=message,
+                        url=post.get('permalink_url', ''), image_url=post.get('full_picture', ''),
+                        published_at=parse_date(post.get('created_time')), scraped_at=utc_now_iso(),
+                        source_id=f'facebook:{page_id}', source_name=f"Facebook · {page_data.get('name', name)}",
+                        source_type='facebook', source_authority=float(spec.get('authority', 0.85)),
+                        scope=spec.get('scope', 'general'), competition=spec.get('competition', 'general'),
+                        extra={'page_id': page_id, 'page_name': page_data.get('name'), 'collector': 'graph_api'},
+                    ))
+            except Exception as exc:
+                errors.append(f'Facebook Graph {name}: {type(exc).__name__}: {exc}')
+        if out and mode == 'auto':
+            return out, errors
+
+    specs = cfg.get('public_pages') or cfg.get('page_queries', [])
+    if mode in {'auto', 'public', 'both', 'browser'}:
+        total = len(specs)
+        print(f'Facebook: {total} páginas configuradas.', flush=True)
+
+        # V4: navegador primero. La prueba real mostró HTTP 400 en todas las páginas;
+        # por defecto no perdemos tiempo haciendo 2 solicitudes fallidas por fuente.
+        got, errs = _scrape_facebook_public_browser(specs, cfg)
+        out.extend(got)
+        errors.extend(errs)
+
+        pages_with_items = {normalize_title(x.extra.get('page_url', '')) for x in out if x.kind == 'social'}
+        pending_specs = [s for s in specs if normalize_title(s.get('url','')) not in pages_with_items]
+
+        # HTTP queda como opción de diagnóstico, apagada por defecto.
+        if pending_specs and cfg.get('http_fallback', False):
+            print('\n--- FACEBOOK: HTTP DE RESPALDO ---', flush=True)
+            total_http = len(pending_specs)
+            still_pending = []
+            for idx, spec in enumerate(pending_specs, start=1):
+                got, errs = _scrape_facebook_public_page_http(http, spec, progress=f'[{idx}/{total_http}]')
+                out.extend(got)
+                errors.extend(errs)
+                if not got:
+                    still_pending.append(spec)
+            pending_specs = still_pending
+
+        # Último respaldo: buscador público. No se usa para reemplazar fechas/datos oficiales.
+        if pending_specs and cfg.get('search_index_fallback', True):
+            print('\n--- FACEBOOK: INDICE PUBLICO DE RESPALDO ---', flush=True)
+            total_index = len(pending_specs)
+            for idx, spec in enumerate(pending_specs, start=1):
+                got, errs = _scrape_facebook_search_index(http, spec, int(cfg.get('max_index_posts_per_page', 6)), progress=f'[{idx}/{total_index}]')
+                out.extend(got)
+                errors.extend(errs)
+
+    # Filtro final común para Graph, navegador e índice: evita que una fuente de respaldo
+    # vuelva a introducir publicaciones antiguas. Si no conocemos la fecha, conservamos el item
+    # y marcamos freshness_unknown para que la app pueda decidir.
+    recent_hours = max(1, int(cfg.get('recent_hours', 72)))
+    recent_out: list[Item] = []
+    for item in out:
+        age = _fb_age_hours(item.published_at)
+        if age is not None and age > recent_hours:
+            continue
+        item.extra.setdefault('age_hours', age)
+        item.extra.setdefault('freshness_unknown', item.published_at is None)
+        recent_out.append(item)
+    out = recent_out
+
+    if not token and mode == 'graph':
+        errors.append('Facebook Graph omitido: falta META_ACCESS_TOKEN.')
+    if not out and mode in {'auto', 'public', 'both', 'browser'}:
+        errors.append('Facebook: no se obtuvieron posts visibles. Revisa los errores por página en manifest.json.')
     return out, errors
 
 
@@ -683,6 +1219,53 @@ def _bucket(items: list[Item], scope: str) -> dict[str, Any]:
     }
 
 
+def _structured_quality(item: Item) -> float:
+    rows = item.extra.get('rows') if isinstance(item.extra, dict) else None
+    nrows = len(rows) if isinstance(rows, list) else 0
+    official_bonus = 0.12 if item.source_type in {'federation', 'confederation'} else 0.0
+    kind_bonus = 0.08 if item.kind == 'standings' else 0.03 if item.kind in {'matches','top_scorers'} else 0.0
+    row_bonus = min(0.08, nrows / 250.0)
+    return round(float(item.source_authority) + official_bonus + kind_bonus + row_bonus, 4)
+
+
+def build_current_tables(items: list[Item]) -> dict[str, Any]:
+    """Elige una sola tabla vigente por competición/tipo para que la app no tenga que adivinar."""
+    candidates = [x for x in items if x.scope == 'bolivia' and x.kind in {'standings','table','matches','top_scorers'}]
+    grouped: dict[str, dict[str, list[Item]]] = defaultdict(lambda: defaultdict(list))
+    for x in candidates:
+        logical_kind = 'standings' if x.kind in {'standings','table'} else x.kind
+        grouped[x.competition][logical_kind].append(x)
+    competitions: dict[str, Any] = {}
+    for comp, kinds in grouped.items():
+        chosen: dict[str, Any] = {}
+        for kind, rows in kinds.items():
+            rows = sorted(rows, key=lambda z: (_structured_quality(z), z.scraped_at or ''), reverse=True)
+            if rows:
+                d = rows[0].to_dict()
+                d.setdefault('extra', {})['selection_score'] = _structured_quality(rows[0])
+                d['extra']['selected_as_current'] = True
+                d['extra']['selection_reason'] = 'prioriza fuente oficial/autoridad + tipo de tabla + cantidad de filas'
+                chosen[kind] = d
+        if chosen:
+            competitions[comp] = chosen
+    return {
+        'schema_version': 4,
+        'generated_at': utc_now_iso(),
+        'policy': 'una tabla por competición/tipo; fuentes oficiales tienen prioridad',
+        'competitions': competitions,
+    }
+
+
+def build_app_feed(items: list[Item], limit: int = 250) -> dict[str, Any]:
+    feed = [x for x in items if x.kind in {'news','social','video'}]
+    feed.sort(key=lambda z: (z.rank_score, z.published_at or ''), reverse=True)
+    return {
+        'schema_version': 4,
+        'generated_at': utc_now_iso(),
+        'items': [x.to_dict() for x in feed[:limit]],
+    }
+
+
 def run(config_path: Path, output_dir: Path) -> dict[str, Any]:
     cfg = load_config(config_path)
     settings = cfg.get("settings", {})
@@ -704,6 +1287,7 @@ def run(config_path: Path, output_dir: Path) -> dict[str, Any]:
 
     fb, fb_errors = scrape_facebook(http, cfg.get("facebook", {}))
     items.extend(fb)
+    source_status.append({"id": "facebook", "name": "Facebook (Graph/public web)", "ok": len(fb) > 0, "items": len(fb)})
     errors.extend({"source": "facebook", "error": e} for e in fb_errors)
 
     xs, x_errors = scrape_x(http, cfg.get("x", {}), int(settings.get("max_social_per_query", 50)))
@@ -751,11 +1335,21 @@ def run(config_path: Path, output_dir: Path) -> dict[str, Any]:
         "items": _serialize(latest_items[:200]),
     }
 
+    facebook_items = [x for x in live if x.source_type in {"facebook", "facebook_browser_public", "facebook_search_index", "facebook_public_http"}]
+    facebook_items.sort(key=lambda z: (z.published_at or "", z.rank_score), reverse=True)
+    buckets["facebook_latest.json"] = {
+        "schema_version": 4,
+        "generated_at": utc_now_iso(),
+        "items": _serialize(facebook_items[:200]),
+    }
+    buckets["app_feed.json"] = build_app_feed(live, 250)
+    buckets["current_tables.json"] = build_current_tables(live)
+
     for name, payload in buckets.items():
         json_dump(output_dir / name, payload)
 
     manifest = {
-        "schema_version": 3,
+        "schema_version": 4,
         "generated_at": utc_now_iso(),
         "timezone": settings.get("timezone", "America/La_Paz"),
         "ranking_policy": {

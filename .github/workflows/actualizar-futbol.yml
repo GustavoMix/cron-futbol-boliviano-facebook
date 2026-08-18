@@ -27,6 +27,8 @@ jobs:
           cache: pip
       - name: Instalar dependencias
         run: pip install -r requirements.txt
+      - name: Instalar navegador para Facebook (Playwright)
+        run: python -m playwright install --with-deps chromium
       - name: Ejecutar agregador
         env:
           META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
@@ -38,7 +40,7 @@ jobs:
         run: |
           git config user.name "football-data-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add bolivia.json conmebol.json internacional.json social.json latest.json manifest.json
+          git add bolivia.json conmebol.json internacional.json social.json latest.json manifest.json facebook_latest.json app_feed.json current_tables.json
           git diff --cached --quiet && exit 0
           git commit -m "chore: actualizar datos de fútbol"
           git push

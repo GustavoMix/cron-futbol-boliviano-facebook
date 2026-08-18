@@ -1,0 +1,274 @@
+settings:
+  timezone: America/La_Paz
+  max_news_per_source: 40
+  max_social_per_query: 50
+  keep_days_news: 45
+  keep_days_social: 7
+  user_agent: FutbolBoliviaAggregator/1.0 (+contacto-del-desarrollador)
+web_sources:
+- id: fbf_noticias
+  enabled: true
+  name: Federación Boliviana de Fútbol - Noticias
+  url: https://fbf.com.bo/noticias/
+  scope: bolivia
+  competition: general
+  source_type: federation
+  authority: 1.0
+- id: fbf_profesional
+  enabled: true
+  name: FBF - División Profesional
+  url: https://fbf.com.bo/torneos/division-profesional/
+  scope: bolivia
+  competition: division_profesional
+  source_type: federation
+  authority: 1.0
+- id: fbf_copa_pacena
+  enabled: true
+  name: FBF - Copa Paceña
+  url: https://fbf.com.bo/torneos/copa-pacena/
+  scope: bolivia
+  competition: copa_division_profesional
+  source_type: federation
+  authority: 1.0
+- id: fbf_simon_bolivar
+  enabled: true
+  name: FBF - Copa Simón Bolívar
+  url: https://fbf.com.bo/torneos/copa-simon-bolivar/
+  scope: bolivia
+  competition: simon_bolivar
+  source_type: federation
+  authority: 1.0
+- id: fbf_sub19
+  enabled: true
+  name: FBF - Liga Nacional Sub-19
+  url: https://fbf.com.bo/torneos/liga-nacional-sub-19/
+  scope: bolivia
+  competition: sub19
+  source_type: federation
+  authority: 1.0
+- id: fbf_sub16
+  enabled: true
+  name: FBF - Liga Nacional Sub-16
+  url: https://fbf.com.bo/torneos/liga-nacional-sub-16/
+  scope: bolivia
+  competition: sub16
+  source_type: federation
+  authority: 1.0
+- id: conmebol_libertadores
+  enabled: true
+  name: CONMEBOL Libertadores
+  url: https://www.conmebol.com/libertadores/
+  scope: conmebol
+  competition: libertadores
+  source_type: confederation
+  authority: 1.0
+- id: conmebol_sudamericana
+  enabled: true
+  name: CONMEBOL Sudamericana
+  url: https://www.conmebol.com/sudamericana/
+  scope: conmebol
+  competition: sudamericana
+  source_type: confederation
+  authority: 1.0
+- id: conmebol_sub17
+  enabled: true
+  name: CONMEBOL Sub-17
+  url: https://www.conmebol.com/conmebol-sub-17/
+  scope: conmebol
+  competition: conmebol_sub17
+  source_type: confederation
+  authority: 1.0
+- id: fifa_bolivia
+  enabled: true
+  name: FIFA - Bolivia
+  url: https://www.fifa.com/es/search-results?query=Bolivia
+  scope: internacional
+  competition: seleccion_bolivia
+  source_type: federation
+  authority: 1.0
+- id: fifa_tournaments
+  enabled: true
+  name: FIFA - Torneos
+  url: https://www.fifa.com/en/tournaments/
+  scope: internacional
+  competition: fifa
+  source_type: federation
+  authority: 1.0
+- id: fifa_world_cup
+  enabled: true
+  name: FIFA World Cup
+  url: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+  scope: internacional
+  competition: mundial
+  source_type: federation
+  authority: 1.0
+- id: concacaf_champions_cup
+  enabled: true
+  name: Concacaf Champions Cup
+  url: https://www.concacaf.com/competitions/champions-cup
+  scope: internacional
+  competition: concacaf_champions_cup
+  source_type: confederation
+  authority: 1.0
+- id: concacaf_nations_league
+  enabled: true
+  name: Concacaf Nations League
+  url: https://www.concacaf.com/competitions/nations-league
+  scope: internacional
+  competition: concacaf_nations_league
+  source_type: confederation
+  authority: 1.0
+facebook:
+  enabled: true
+  page_queries:
+  - name: Federación Boliviana de Fútbol
+    scope: bolivia
+    competition: seleccion_bolivia
+    authority: 0.98
+  - name: Club Bolívar
+    scope: bolivia
+    competition: clubes_bolivia
+    authority: 0.92
+  - name: The Strongest
+    scope: bolivia
+    competition: clubes_bolivia
+    authority: 0.92
+  - name: Always Ready
+    scope: bolivia
+    competition: clubes_bolivia
+    authority: 0.9
+  - name: Oriente Petrolero
+    scope: bolivia
+    competition: clubes_bolivia
+    authority: 0.9
+  - name: Blooming
+    scope: bolivia
+    competition: clubes_bolivia
+    authority: 0.9
+  - name: CONMEBOL Libertadores
+    scope: conmebol
+    competition: libertadores
+    authority: 0.98
+  - name: CONMEBOL Sudamericana
+    scope: conmebol
+    competition: sudamericana
+    authority: 0.98
+  mode: auto
+  public_pages:
+  - name: Federación Boliviana de Fútbol
+    url: https://www.facebook.com/LaVerdeOficial/
+    scope: bolivia
+    competition: seleccion_bolivia
+    authority: 0.98
+  - name: Club Bolívar
+    url: https://www.facebook.com/CLUBBOLIVAR/
+    scope: bolivia
+    competition: clubes_bolivia
+    authority: 0.92
+  - name: Club The Strongest
+    url: https://www.facebook.com/clubthestrongestoficial/
+    scope: bolivia
+    competition: clubes_bolivia
+    authority: 0.92
+  - name: Oriente Petrolero
+    url: https://www.facebook.com/cdopetrolero/
+    scope: bolivia
+    competition: clubes_bolivia
+    authority: 0.9
+  - name: Club Blooming
+    url: https://www.facebook.com/ClubBloomingOficial/
+    scope: bolivia
+    competition: clubes_bolivia
+    authority: 0.9
+  - name: Tigo Sports Bolivia
+    url: https://www.facebook.com/TigoSportsBolivia/
+    scope: bolivia
+    competition: general
+    authority: 0.86
+  - name: Futbolmania Bolivia
+    url: https://www.facebook.com/futbolmaniabolivia01/
+    scope: bolivia
+    competition: general
+    authority: 0.8
+  - name: FutbolCanal
+    url: https://www.facebook.com/FutbolCanal/
+    scope: bolivia
+    competition: general
+    authority: 0.8
+  - name: Red Uno de Bolivia
+    url: https://www.facebook.com/RedUnotv/
+    scope: bolivia
+    competition: general
+    authority: 0.78
+    keywords:
+    - fútbol
+    - futbol
+    - deportes
+    - división profesional
+    - division profesional
+    - bolívar
+    - bolivar
+    - the strongest
+    - oriente petrolero
+    - blooming
+    - selección boliviana
+    - seleccion boliviana
+  - name: Club Always Ready
+    url: https://www.facebook.com/ClubAlwaysReady.Bo/
+    scope: bolivia
+    competition: clubes_bolivia
+    authority: 0.9
+  - name: Club Aurora
+    url: https://www.facebook.com/Club.Aurora.Oficial/
+    scope: bolivia
+    competition: clubes_bolivia
+    authority: 0.9
+  - name: Real Tomayapo
+    url: https://www.facebook.com/clubrealtomayapo/
+    scope: bolivia
+    competition: clubes_bolivia
+    authority: 0.88
+  browser_fallback: true
+  browser_timeout_seconds: 18
+  browser_wait_ms: 2400
+  max_posts_per_page: 8
+  search_index_fallback: true
+  max_index_posts_per_page: 4
+  scroll_wait_ms: 850
+  scroll_rounds: 5
+  recent_hours: 72
+  http_fallback: false
+x:
+  enabled: true
+  queries:
+  - query: ("fútbol boliviano" OR "futbol boliviano" OR FBF) lang:es -is:retweet
+    scope: bolivia
+    competition: general
+    authority: 0.72
+  - query: (Bolivia OR "La Verde") (selección OR seleccion) fútbol lang:es -is:retweet
+    scope: bolivia
+    competition: seleccion_bolivia
+    authority: 0.72
+  - query: (Libertadores OR Sudamericana) (Bolívar OR "The Strongest" OR Bolivia) lang:es -is:retweet
+    scope: conmebol
+    competition: clubes_bolivia_internacional
+    authority: 0.72
+youtube:
+  enabled: true
+  queries:
+  - query: futbol boliviano
+    scope: bolivia
+    competition: general
+    authority: 0.68
+  - query: selección boliviana fútbol
+    scope: bolivia
+    competition: seleccion_bolivia
+    authority: 0.68
+  - query: Copa Libertadores Bolivia
+    scope: conmebol
+    competition: libertadores
+    authority: 0.68
+  - query: Copa Sudamericana Bolivia
+    scope: conmebol
+    competition: sudamericana
+    authority: 0.68

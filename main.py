@@ -1110,6 +1110,38 @@ def _heading_before(table: Tag) -> str:
     return clean_text(h.get_text(" ", strip=True) if h else "")
 
 
+def _fix_standings_dg(rows: list[list[str]]) -> list[list[str]]:
+    # Algunas fuentes (ej. fbf.com.bo) publican la columna DG (diferencia de
+    # gol) con un dígito de más por error propio de su sitio (ej. "+111" en
+    # vez de "+11"). En vez de confiar en ese texto, la recalculamos como
+    # GF - GC cuando ambas columnas existen, así el dato siempre es correcto
+    # aunque la fuente tenga un typo.
+    header = rows[0]
+    norm = [clean_text(h).lower() for h in header]
+    try:
+        gf_idx = norm.index("gf")
+        gc_idx = norm.index("gc")
+        dg_idx = norm.index("dg")
+    except ValueError:
+        return rows
+    fixed = [header]
+    for row in rows[1:]:
+        if len(row) <= max(gf_idx, gc_idx, dg_idx):
+            fixed.append(row)
+            continue
+        try:
+            gf = int(re.sub(r"[^\d-]", "", row[gf_idx]) or 0)
+            gc = int(re.sub(r"[^\d-]", "", row[gc_idx]) or 0)
+        except ValueError:
+            fixed.append(row)
+            continue
+        diff = gf - gc
+        new_row = list(row)
+        new_row[dg_idx] = f"+{diff}" if diff > 0 else str(diff)
+        fixed.append(new_row)
+    return fixed
+
+
 def extract_tables(soup: BeautifulSoup, source: dict[str, Any], base_url: str) -> list[Item]:
     out: list[Item] = []
     for idx, table in enumerate(soup.find_all("table")):
@@ -1129,6 +1161,8 @@ def extract_tables(soup: BeautifulSoup, source: dict[str, Any], base_url: str) -
             kind = "matches"
         elif any(x in probe for x in TABLE_HINTS):
             kind = "standings"
+        if kind == "standings":
+            rows = _fix_standings_dg(rows)
         title = heading or f"Tabla {idx + 1}"
         out.append(Item(
             id=stable_id(source["id"], kind, title, str(idx)), kind=kind, title=title, url=base_url,

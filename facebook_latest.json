@@ -1,6 +1,6 @@
 {
   "schema_version": 5,
-  "generated_at": "2026-08-18T20:34:54.181497Z",
+  "generated_at": "2026-08-18T20:50:27.280678Z",
   "groups": [
     {
       "group": "oficiales",
@@ -10,9 +10,9 @@
     },
     {
       "group": "clubes",
-      "last_good_at": "2026-08-18T19:07:50.337668Z",
+      "last_good_at": "2026-08-18T20:50:27.224092Z",
       "last_attempt_ok": true,
-      "items": 4
+      "items": 6
     },
     {
       "group": "medios",
@@ -22,6 +22,100 @@
     }
   ],
   "items": [
+    {
+      "id": "3e7ef005404743ff89b8",
+      "kind": "social",
+      "platform": "facebook",
+      "post_id": "pfbid026sFBZMv4rAMYkoYoUxW2Zo54PJv93dbkV8yVSGfVtXA6du6vQ2Xo1JiDdSqFaDmZl",
+      "title": "Club Aurora 13 min · GOOOOOOOOOL, GOOOOOOOOL DE RODRIGO RAMALLO, A LOS 75 MINUTOS San Antonio (0) (1) #AURORA #… Ver más Todas las reacciones: 73 2 Me gusta Comentar Ver más coment",
+      "text": "Club Aurora 13 min · GOOOOOOOOOL, GOOOOOOOOL DE RODRIGO RAMALLO, A LOS 75 MINUTOS San Antonio (0) (1) #AURORA #… Ver más Todas las reacciones: 73 2 Me gusta Comentar Ver más comentarios Cristian M. Luizaga Saravia Aver si así entiende el dr falso que sin el tronco de rangel estamos mejor Club Aurora 10 min 1",
+      "url": "https://www.facebook.com/Club.Aurora.Oficial/posts/pfbid026sFBZMv4rAMYkoYoUxW2Zo54PJv93dbkV8yVSGfVtXA6du6vQ2Xo1JiDdSqFaDmZl",
+      "post_url": "https://www.facebook.com/Club.Aurora.Oficial/posts/pfbid026sFBZMv4rAMYkoYoUxW2Zo54PJv93dbkV8yVSGfVtXA6du6vQ2Xo1JiDdSqFaDmZl",
+      "image_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.99422-6/778816705_1675843430187614_8121447802098005406_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Mxg_G-cOh-4Q7kNvwHnJLqC&_nc_oc=AdpnZ7LzRiSP2Pj4ziIMzYj8eg2ef3oWlBtXZ8fbfWkW2mzWhiZ85vKsN7rAmeJOCPQ&_nc_zt=14&_nc_ht=scontent-lga3-2.xx&_nc_gid=_8PZXN_RkpqvYKVDaaL0Ng&_nc_ss=7f289&oh=00_AQFGwv-8ksCcuB7mhiTwbwyiLnx2bP_V6CUvDoPNvM0aVA&oe=6A8AB278",
+      "thumbnail_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.99422-6/778816705_1675843430187614_8121447802098005406_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Mxg_G-cOh-4Q7kNvwHnJLqC&_nc_oc=AdpnZ7LzRiSP2Pj4ziIMzYj8eg2ef3oWlBtXZ8fbfWkW2mzWhiZ85vKsN7rAmeJOCPQ&_nc_zt=14&_nc_ht=scontent-lga3-2.xx&_nc_gid=_8PZXN_RkpqvYKVDaaL0Ng&_nc_ss=7f289&oh=00_AQFGwv-8ksCcuB7mhiTwbwyiLnx2bP_V6CUvDoPNvM0aVA&oe=6A8AB278",
+      "video_url": "",
+      "video_post_url": "",
+      "media_type": "image",
+      "published_at": "2026-08-18T20:37:21.149508Z",
+      "scraped_at": "2026-08-18T20:50:21.149587Z",
+      "source_id": "facebook_browser:club_aurora",
+      "source_name": "Facebook · Club Aurora",
+      "source_type": "facebook_browser_public",
+      "source_authority": 0.9,
+      "scope": "bolivia",
+      "competition": "clubes_bolivia",
+      "rank_score": 0.9698,
+      "stale": false,
+      "extra": {
+        "collector": "browser_public",
+        "page_name": "Club Aurora",
+        "page_url": "https://www.facebook.com/Club.Aurora.Oficial/",
+        "group": "clubes",
+        "age_hours": 0.22,
+        "freshness_unknown": false,
+        "media": {
+          "images": [
+            {
+              "url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.99422-6/778816705_1675843430187614_8121447802098005406_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Mxg_G-cOh-4Q7kNvwHnJLqC&_nc_oc=AdpnZ7LzRiSP2Pj4ziIMzYj8eg2ef3oWlBtXZ8fbfWkW2mzWhiZ85vKsN7rAmeJOCPQ&_nc_zt=14&_nc_ht=scontent-lga3-2.xx&_nc_gid=_8PZXN_RkpqvYKVDaaL0Ng&_nc_ss=7f289&oh=00_AQFGwv-8ksCcuB7mhiTwbwyiLnx2bP_V6CUvDoPNvM0aVA&oe=6A8AB278",
+              "width": 512,
+              "height": 640,
+              "alt": "Puede ser una imagen de fútbol, fútbol y texto"
+            }
+          ],
+          "videos": [],
+          "posters": []
+        },
+        "direct_video_is_temporary": false,
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
+      }
+    },
+    {
+      "id": "b04223fab919bd8a4844",
+      "kind": "social",
+      "platform": "facebook",
+      "post_id": "pfbid0DYcdGgVw3hFxvQeYEPKZHtNG2XeMyAuqhXCdGXe5RTMwEFHRiG5ZWfrQys5c5vLml",
+      "title": "Club Deportivo Real Tomayapo 50 min · Comunicado Oficial… Ver más Todas las reacciones: 13 2 Me gusta Comentar Tigor Guz Delicadoditas 21 min",
+      "text": "Club Deportivo Real Tomayapo 50 min · Comunicado Oficial… Ver más Todas las reacciones: 13 2 Me gusta Comentar Tigor Guz Delicadoditas 21 min",
+      "url": "https://www.facebook.com/clubrealtomayapo/posts/pfbid0DYcdGgVw3hFxvQeYEPKZHtNG2XeMyAuqhXCdGXe5RTMwEFHRiG5ZWfrQys5c5vLml",
+      "post_url": "https://www.facebook.com/clubrealtomayapo/posts/pfbid0DYcdGgVw3hFxvQeYEPKZHtNG2XeMyAuqhXCdGXe5RTMwEFHRiG5ZWfrQys5c5vLml",
+      "image_url": "https://scontent-lga3-3.xx.fbcdn.net/v/t39.99422-6/776276412_1394291515961608_6466557774068615500_n.png?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=p526x296&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=pu1LDCMbplYQ7kNvwF0R6yb&_nc_oc=AdrHois5d1HEqlmMZa8VRyBcKx2W5iRxTrUJyI7pzmipU8-oLs6b9fopukeGQrOJzms&_nc_zt=14&_nc_ht=scontent-lga3-3.xx&_nc_gid=zperMgfq6uJvjhuLoquxgg&_nc_ss=7f289&oh=00_AQGeFVmyo-DIwfQ8sINzawfAm14bOYFC-o0rSKwmsGQb7g&oe=6A8AAF36",
+      "thumbnail_url": "https://scontent-lga3-3.xx.fbcdn.net/v/t39.99422-6/776276412_1394291515961608_6466557774068615500_n.png?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=p526x296&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=pu1LDCMbplYQ7kNvwF0R6yb&_nc_oc=AdrHois5d1HEqlmMZa8VRyBcKx2W5iRxTrUJyI7pzmipU8-oLs6b9fopukeGQrOJzms&_nc_zt=14&_nc_ht=scontent-lga3-3.xx&_nc_gid=zperMgfq6uJvjhuLoquxgg&_nc_ss=7f289&oh=00_AQGeFVmyo-DIwfQ8sINzawfAm14bOYFC-o0rSKwmsGQb7g&oe=6A8AAF36",
+      "video_url": "",
+      "video_post_url": "",
+      "media_type": "image",
+      "published_at": "2026-08-18T20:00:26.885447Z",
+      "scraped_at": "2026-08-18T20:50:26.885527Z",
+      "source_id": "facebook_browser:real_tomayapo",
+      "source_name": "Facebook · Real Tomayapo",
+      "source_type": "facebook_browser_public",
+      "source_authority": 0.88,
+      "scope": "bolivia",
+      "competition": "clubes_bolivia",
+      "rank_score": 0.9581,
+      "stale": false,
+      "extra": {
+        "collector": "browser_public",
+        "page_name": "Real Tomayapo",
+        "page_url": "https://www.facebook.com/clubrealtomayapo/",
+        "group": "clubes",
+        "age_hours": 0.83,
+        "freshness_unknown": false,
+        "media": {
+          "images": [
+            {
+              "url": "https://scontent-lga3-3.xx.fbcdn.net/v/t39.99422-6/776276412_1394291515961608_6466557774068615500_n.png?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=p526x296&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=pu1LDCMbplYQ7kNvwF0R6yb&_nc_oc=AdrHois5d1HEqlmMZa8VRyBcKx2W5iRxTrUJyI7pzmipU8-oLs6b9fopukeGQrOJzms&_nc_zt=14&_nc_ht=scontent-lga3-3.xx&_nc_gid=zperMgfq6uJvjhuLoquxgg&_nc_ss=7f289&oh=00_AQGeFVmyo-DIwfQ8sINzawfAm14bOYFC-o0rSKwmsGQb7g&oe=6A8AAF36",
+              "width": 526,
+              "height": 526,
+              "alt": "Puede ser una imagen de fútbol y texto que dice \"COPA PACENA FECHA-1 Bo BON おにおまうと VS a.D.c. ALTOMAY TOИATA PARTIDO SICOENDADO Tomay NISOL ALTAVIDA DA entel gol LEA AGUITAFOM POWER ADE\""
+            }
+          ],
+          "videos": [],
+          "posters": []
+        },
+        "direct_video_is_temporary": false,
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
+      }
+    },
     {
       "id": "b5e3fcd73a8a62825180",
       "kind": "social",
@@ -282,6 +376,53 @@
       }
     },
     {
+      "id": "bc3749248db9cc1ff648",
+      "kind": "social",
+      "platform": "facebook",
+      "post_id": "pfbid0HYMmak3h3bVuurXPeDvB3vYoZBayRP36E6FA7X1amWWFXrkkoxUVhkj92UC4NuHwl",
+      "title": "Club Deportivo Oriente Petrolero 2 h · Comienza nuestro camino en la #CopaPaceña , VAMOS ORIENTE … Ver más Todas las reacciones: 428 4 10 Me gusta Comentar Ver más comentarios Jorg",
+      "text": "Club Deportivo Oriente Petrolero 2 h · Comienza nuestro camino en la #CopaPaceña , VAMOS ORIENTE … Ver más Todas las reacciones: 428 4 10 Me gusta Comentar Ver más comentarios Jorge Alejandro Pierola Jerez Vamos a empezar con todo en la Copa Paceña, ¡ánimo equipo! 1 h",
+      "url": "https://www.facebook.com/cdopetrolero/posts/pfbid0HYMmak3h3bVuurXPeDvB3vYoZBayRP36E6FA7X1amWWFXrkkoxUVhkj92UC4NuHwl",
+      "post_url": "https://www.facebook.com/cdopetrolero/posts/pfbid0HYMmak3h3bVuurXPeDvB3vYoZBayRP36E6FA7X1amWWFXrkkoxUVhkj92UC4NuHwl",
+      "image_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.99422-6/775495434_1618106852984279_8689836324917664720_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=ysfpt0fxJjwQ7kNvwGcdX9S&_nc_oc=AdoOpnxH45b-2vd5GwRbZPhAvtFD8NgbN_h_p0MvFI416q3yUJc-L7iflmqrMk6T8nk&_nc_zt=14&_nc_ht=scontent-lga3-1.xx&_nc_gid=J9-ZMrarVm6hYIpqsaSC_Q&_nc_ss=7f289&oh=00_AQGzN6IjZ7AipO00xi1URmlJTMc7q2X8SkvAevp7j52KdQ&oe=6A8A9D65",
+      "thumbnail_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.99422-6/775495434_1618106852984279_8689836324917664720_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=ysfpt0fxJjwQ7kNvwGcdX9S&_nc_oc=AdoOpnxH45b-2vd5GwRbZPhAvtFD8NgbN_h_p0MvFI416q3yUJc-L7iflmqrMk6T8nk&_nc_zt=14&_nc_ht=scontent-lga3-1.xx&_nc_gid=J9-ZMrarVm6hYIpqsaSC_Q&_nc_ss=7f289&oh=00_AQGzN6IjZ7AipO00xi1URmlJTMc7q2X8SkvAevp7j52KdQ&oe=6A8A9D65",
+      "video_url": "",
+      "video_post_url": "",
+      "media_type": "image",
+      "published_at": "2026-08-18T18:50:09.830811Z",
+      "scraped_at": "2026-08-18T20:50:09.831279Z",
+      "source_id": "facebook_browser:oriente_petrolero",
+      "source_name": "Facebook · Oriente Petrolero",
+      "source_type": "facebook_browser_public",
+      "source_authority": 0.9,
+      "scope": "bolivia",
+      "competition": "clubes_bolivia",
+      "rank_score": 0.952,
+      "stale": false,
+      "extra": {
+        "collector": "browser_public",
+        "page_name": "Oriente Petrolero",
+        "page_url": "https://www.facebook.com/cdopetrolero/",
+        "group": "clubes",
+        "age_hours": 2.0,
+        "freshness_unknown": false,
+        "media": {
+          "images": [
+            {
+              "url": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.99422-6/775495434_1618106852984279_8689836324917664720_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=ysfpt0fxJjwQ7kNvwGcdX9S&_nc_oc=AdoOpnxH45b-2vd5GwRbZPhAvtFD8NgbN_h_p0MvFI416q3yUJc-L7iflmqrMk6T8nk&_nc_zt=14&_nc_ht=scontent-lga3-1.xx&_nc_gid=J9-ZMrarVm6hYIpqsaSC_Q&_nc_ss=7f289&oh=00_AQGzN6IjZ7AipO00xi1URmlJTMc7q2X8SkvAevp7j52KdQ&oe=6A8A9D65",
+              "width": 512,
+              "height": 640,
+              "alt": "Puede ser una imagen de texto que dice \"COPA PACEÑA * HOY HOYJUEGA ORIENTE 작한록 MARTESIRA AGO 20:15HRS HRS HERNANDO HERNANDO-SILES SILES 26 T 대든텐프 영화사 ΠΙΣ 별 を閉店！\""
+            }
+          ],
+          "videos": [],
+          "posters": []
+        },
+        "direct_video_is_temporary": false,
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
+      }
+    },
+    {
       "id": "a83d23aebe6af3cfaf36",
       "kind": "social",
       "platform": "facebook",
@@ -366,53 +507,6 @@
               "width": 512,
               "height": 640,
               "alt": "Puede ser una imagen de perro y texto que dice \"GAMPINA иa4oς τHeςι MAN A THES TRONGEST INGRESA A LA CURVA SUR CON: 1KG. DE CROQUETAS HABILITAREMOS LA PUERTA 7 PARA τυ INGRESO O ADQUIRIENDO τυ ENTRADA EN VENTANILLAS DEL ESTADIO\""
-            }
-          ],
-          "videos": [],
-          "posters": []
-        },
-        "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
-    },
-    {
-      "id": "bc3749248db9cc1ff648",
-      "kind": "social",
-      "platform": "facebook",
-      "post_id": "pfbid0HYMmak3h3bVuurXPeDvB3vYoZBayRP36E6FA7X1amWWFXrkkoxUVhkj92UC4NuHwl",
-      "title": "Club Deportivo Oriente Petrolero 57 min · Comienza nuestro camino en la #CopaPaceña , VAMOS ORIENTE … Ver más Todas las reacciones: 236 5 Me gusta Comentar",
-      "text": "Club Deportivo Oriente Petrolero 57 min · Comienza nuestro camino en la #CopaPaceña , VAMOS ORIENTE … Ver más Todas las reacciones: 236 5 Me gusta Comentar",
-      "url": "https://www.facebook.com/cdopetrolero/posts/pfbid0HYMmak3h3bVuurXPeDvB3vYoZBayRP36E6FA7X1amWWFXrkkoxUVhkj92UC4NuHwl",
-      "post_url": "https://www.facebook.com/cdopetrolero/posts/pfbid0HYMmak3h3bVuurXPeDvB3vYoZBayRP36E6FA7X1amWWFXrkkoxUVhkj92UC4NuHwl",
-      "image_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.99422-6/775495434_1618106852984279_8689836324917664720_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=ysfpt0fxJjwQ7kNvwH630ss&_nc_oc=Adoy0vZ267zgnVV1C9DMHaBnMQnag2b37hx7UiyH_Y2K-FhC9WxVjGhHjxSXb6s0K4o&_nc_zt=14&_nc_ht=scontent-lga3-1.xx&_nc_gid=5Ek4_g--SiNp7s4VDENu3Q&_nc_ss=7f289&oh=00_AQHwtxFpesDw2D4Z8i1MV-R4GiD4jG_53rUjclz_IzkhIg&oe=6A8A6525",
-      "thumbnail_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.99422-6/775495434_1618106852984279_8689836324917664720_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=ysfpt0fxJjwQ7kNvwH630ss&_nc_oc=Adoy0vZ267zgnVV1C9DMHaBnMQnag2b37hx7UiyH_Y2K-FhC9WxVjGhHjxSXb6s0K4o&_nc_zt=14&_nc_ht=scontent-lga3-1.xx&_nc_gid=5Ek4_g--SiNp7s4VDENu3Q&_nc_ss=7f289&oh=00_AQHwtxFpesDw2D4Z8i1MV-R4GiD4jG_53rUjclz_IzkhIg&oe=6A8A6525",
-      "video_url": "",
-      "video_post_url": "",
-      "media_type": "image",
-      "published_at": "2026-08-18T18:10:34.355712Z",
-      "scraped_at": "2026-08-18T19:07:34.355975Z",
-      "source_id": "facebook_browser:oriente_petrolero",
-      "source_name": "Facebook · Oriente Petrolero",
-      "source_type": "facebook_browser_public",
-      "source_authority": 0.9,
-      "scope": "bolivia",
-      "competition": "clubes_bolivia",
-      "rank_score": 0.9625,
-      "stale": false,
-      "extra": {
-        "collector": "browser_public",
-        "page_name": "Oriente Petrolero",
-        "page_url": "https://www.facebook.com/cdopetrolero/",
-        "group": "clubes",
-        "age_hours": 0.95,
-        "freshness_unknown": false,
-        "media": {
-          "images": [
-            {
-              "url": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.99422-6/775495434_1618106852984279_8689836324917664720_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=ysfpt0fxJjwQ7kNvwH630ss&_nc_oc=Adoy0vZ267zgnVV1C9DMHaBnMQnag2b37hx7UiyH_Y2K-FhC9WxVjGhHjxSXb6s0K4o&_nc_zt=14&_nc_ht=scontent-lga3-1.xx&_nc_gid=5Ek4_g--SiNp7s4VDENu3Q&_nc_ss=7f289&oh=00_AQHwtxFpesDw2D4Z8i1MV-R4GiD4jG_53rUjclz_IzkhIg&oe=6A8A6525",
-              "width": 512,
-              "height": 640,
-              "alt": "Puede ser una imagen de texto que dice \"COPA PACEÑA * HOY HOYJUEGA ORIENTE 작한록 MARTESIRA AGO 20:15HRS HRS HERNANDO HERNANDO-SILES SILES 26 T 대든텐프 영화사 ΠΙΣ 별 を閉店！\""
             }
           ],
           "videos": [],
@@ -568,36 +662,36 @@
       "kind": "social",
       "platform": "facebook",
       "post_id": "1314474890536064",
-      "title": "Club Blooming 3 h · ¡𝐒𝐢𝐠𝐮𝐢𝐞𝐧𝐭𝐞 𝐩𝐚𝐫𝐚𝐝𝐚, 𝐒𝐮𝐜𝐫𝐞! #VamosBlooming 0:00 / 0:30 Todas las reacciones: 243 1 7 Me gusta Comentar Marcela Perez Campos Aguante blooming 34 min",
-      "text": "Club Blooming 3 h · ¡𝐒𝐢𝐠𝐮𝐢𝐞𝐧𝐭𝐞 𝐩𝐚𝐫𝐚𝐝𝐚, 𝐒𝐮𝐜𝐫𝐞! #VamosBlooming 0:00 / 0:30 Todas las reacciones: 243 1 7 Me gusta Comentar Marcela Perez Campos Aguante blooming 34 min",
+      "title": "Club Blooming 5 h · ¡𝐒𝐢𝐠𝐮𝐢𝐞𝐧𝐭𝐞 𝐩𝐚𝐫𝐚𝐝𝐚, 𝐒𝐮𝐜𝐫𝐞! #VamosBlooming 0:00 / 0:30 Todas las reacciones: 294 1 8 Me gusta Comentar Marcela Perez Campos Aguante blooming 2 h",
+      "text": "Club Blooming 5 h · ¡𝐒𝐢𝐠𝐮𝐢𝐞𝐧𝐭𝐞 𝐩𝐚𝐫𝐚𝐝𝐚, 𝐒𝐮𝐜𝐫𝐞! #VamosBlooming 0:00 / 0:30 Todas las reacciones: 294 1 8 Me gusta Comentar Marcela Perez Campos Aguante blooming 2 h",
       "url": "https://www.facebook.com/reel/1314474890536064/",
       "post_url": "https://www.facebook.com/reel/1314474890536064/",
-      "image_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t15.5256-10/777850616_1513193497497861_5064089261687173339_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=111&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=n1_9yxZtSOsQ7kNvwEZi7cl&_nc_oc=AdoBLaLyI0m-yo6Xm5jU-spUH_2o1wwXhonuYMqnoXGJssGJrt4n6rOuJEnlOiT9s80&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=ZdrqBH-KtjC-d1Ho3WaFTw&_nc_ss=7f289&oh=00_AQHxxBF9oEzKHSz1NKSDIVop6yRNXONFmtQtPB32lmGOkw&oe=6A8A96F7",
-      "thumbnail_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t15.5256-10/777850616_1513193497497861_5064089261687173339_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=111&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=n1_9yxZtSOsQ7kNvwEZi7cl&_nc_oc=AdoBLaLyI0m-yo6Xm5jU-spUH_2o1wwXhonuYMqnoXGJssGJrt4n6rOuJEnlOiT9s80&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=ZdrqBH-KtjC-d1Ho3WaFTw&_nc_ss=7f289&oh=00_AQHxxBF9oEzKHSz1NKSDIVop6yRNXONFmtQtPB32lmGOkw&oe=6A8A96F7",
+      "image_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t15.5256-10/777850616_1513193497497861_5064089261687173339_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=111&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=n1_9yxZtSOsQ7kNvwFBQZ0G&_nc_oc=AdrI8Lve_w9oiCCNoHlur5RtuJ_VNcwxvGGiPvWvgpxCgbidb5r4kYkZYqaubTLXN64&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=AcG_2p5kZJVaWdPU1kS1Sw&_nc_ss=7f289&oh=00_AQG8NOdz2oZyTmLivJH8G6SQ_5efVBz8PuEx-IQK8EZKJQ&oe=6A8A96F7",
+      "thumbnail_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t15.5256-10/777850616_1513193497497861_5064089261687173339_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=111&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=n1_9yxZtSOsQ7kNvwFBQZ0G&_nc_oc=AdrI8Lve_w9oiCCNoHlur5RtuJ_VNcwxvGGiPvWvgpxCgbidb5r4kYkZYqaubTLXN64&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=AcG_2p5kZJVaWdPU1kS1Sw&_nc_ss=7f289&oh=00_AQG8NOdz2oZyTmLivJH8G6SQ_5efVBz8PuEx-IQK8EZKJQ&oe=6A8A96F7",
       "video_url": "",
       "video_post_url": "https://www.facebook.com/reel/1314474890536064/",
       "media_type": "reel",
-      "published_at": "2026-08-18T16:07:39.647581Z",
-      "scraped_at": "2026-08-18T19:07:39.647855Z",
+      "published_at": "2026-08-18T15:50:15.392958Z",
+      "scraped_at": "2026-08-18T20:50:15.393157Z",
       "source_id": "facebook_browser:club_blooming",
       "source_name": "Facebook · Club Blooming",
       "source_type": "facebook_browser_public",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "clubes_bolivia",
-      "rank_score": 0.942,
+      "rank_score": 0.922,
       "stale": false,
       "extra": {
         "collector": "browser_public",
         "page_name": "Club Blooming",
         "page_url": "https://www.facebook.com/ClubBloomingOficial/",
         "group": "clubes",
-        "age_hours": 3.0,
+        "age_hours": 5.0,
         "freshness_unknown": false,
         "media": {
           "images": [
             {
-              "url": "https://scontent-lga3-1.xx.fbcdn.net/v/t15.5256-10/777850616_1513193497497861_5064089261687173339_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=111&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=n1_9yxZtSOsQ7kNvwEZi7cl&_nc_oc=AdoBLaLyI0m-yo6Xm5jU-spUH_2o1wwXhonuYMqnoXGJssGJrt4n6rOuJEnlOiT9s80&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=ZdrqBH-KtjC-d1Ho3WaFTw&_nc_ss=7f289&oh=00_AQHxxBF9oEzKHSz1NKSDIVop6yRNXONFmtQtPB32lmGOkw&oe=6A8A96F7",
+              "url": "https://scontent-lga3-1.xx.fbcdn.net/v/t15.5256-10/777850616_1513193497497861_5064089261687173339_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=111&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=n1_9yxZtSOsQ7kNvwFBQZ0G&_nc_oc=AdrI8Lve_w9oiCCNoHlur5RtuJ_VNcwxvGGiPvWvgpxCgbidb5r4kYkZYqaubTLXN64&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=AcG_2p5kZJVaWdPU1kS1Sw&_nc_ss=7f289&oh=00_AQG8NOdz2oZyTmLivJH8G6SQ_5efVBz8PuEx-IQK8EZKJQ&oe=6A8A96F7",
               "width": 540,
               "height": 960,
               "alt": ""

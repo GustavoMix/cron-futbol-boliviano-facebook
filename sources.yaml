@@ -22,6 +22,17 @@ web_sources:
   competition: division_profesional
   source_type: federation
   authority: 1.0
+  # El widget de tabla de esa página quedó atrasado varias fechas (verificado
+  # a mano); las noticias de esa misma URL sí sirven, solo se ignora su tabla.
+  skip_tables: true
+- id: promediosinfo_bolivia
+  enabled: true
+  name: Promedios Info - Liga Boliviana
+  url: https://promediosinfo.com/liga/bolivia.html
+  scope: bolivia
+  competition: division_profesional
+  source_type: aggregator
+  authority: 0.9
 - id: fbf_copa_pacena
   enabled: true
   name: FBF - Copa Paceña

@@ -253,24 +253,28 @@ def mark_stale(item: Item, max_days: int) -> None:
 
 def dedupe(items: list[Item], threshold: int = 90) -> list[Item]:
     # Conserva la versión mejor puntuada y registra URLs alternativas en extra.related_sources.
+    # El match de título solo se compara dentro del mismo `kind`: una tabla de
+    # posiciones y una de goleadores de la misma página suelen compartir el
+    # mismo heading (ej. "Primera División 2026"), y sin este filtro por kind
+    # una terminaba "absorbiendo" a la otra como si fueran la misma noticia.
     ranked = sorted(items, key=lambda x: (x.rank_score, x.published_at or ""), reverse=True)
     kept: list[Item] = []
-    normalized: list[str] = []
+    normalized: list[tuple[str, str]] = []
     for item in ranked:
         key = normalize_title(item.title or item.text[:160])
         if not key:
             kept.append(item)
-            normalized.append("")
+            normalized.append(("", item.kind))
             continue
         duplicate_idx = None
-        for i, existing in enumerate(normalized):
-            if existing and ratio(key, existing) >= threshold:
+        for i, (existing, existing_kind) in enumerate(normalized):
+            if existing and existing_kind == item.kind and ratio(key, existing) >= threshold:
                 duplicate_idx = i
                 break
         if duplicate_idx is None:
             item.extra.setdefault("related_sources", [])
             kept.append(item)
-            normalized.append(key)
+            normalized.append((key, item.kind))
         else:
             primary = kept[duplicate_idx]
             primary.extra.setdefault("related_sources", []).append({
@@ -1121,8 +1125,8 @@ def _fix_standings_dg(rows: list[list[str]]) -> list[list[str]]:
     try:
         gf_idx = norm.index("gf")
         gc_idx = norm.index("gc")
-        dg_idx = norm.index("dg")
-    except ValueError:
+        dg_idx = next(i for i, h in enumerate(norm) if h in ("dg", "dif", "diff"))
+    except (ValueError, StopIteration):
         return rows
     fixed = [header]
     for row in rows[1:]:
@@ -1167,12 +1171,22 @@ def extract_tables(soup: BeautifulSoup, source: dict[str, Any], base_url: str) -
             continue
         heading = _heading_before(table)
         probe = (heading + " " + " ".join(rows[0])).lower()
+        header_norm = [clean_text(h).lower() for h in rows[0]]
+        is_assists = "asistencia" in probe
         kind = "table"
-        if any(x in probe for x in SCORER_HINTS):
+        # Señal fuerte y confiable primero: si las columnas son PJ + Pts, es
+        # una tabla de posiciones sí o sí, sin depender de que el heading de
+        # la página diga literalmente "tabla de posiciones" (algunas fuentes
+        # solo ponen el nombre del torneo ahí). Evita además que "Tabla de
+        # asistencias" se confunda con posiciones o goleadores solo por
+        # compartir la palabra "tabla"/"goleador".
+        if "pj" in header_norm and any(p in header_norm for p in ("pts", "puntos")):
+            kind = "standings"
+        elif not is_assists and any(x in probe for x in SCORER_HINTS):
             kind = "top_scorers"
         elif any(x in probe for x in MATCH_HINTS):
             kind = "matches"
-        elif any(x in probe for x in TABLE_HINTS):
+        elif not is_assists and any(x in probe for x in TABLE_HINTS):
             kind = "standings"
         if kind == "standings":
             rows = _fix_standings_dg(rows)
@@ -1213,8 +1227,12 @@ def scrape_web_source(http, source: dict[str, Any]) -> list[Item]:
     items = []
     items.extend(extract_jsonld(soup, source, r.url))
     items.extend(extract_news_cards(soup, source, r.url))
-    items.extend(extract_tables(soup, source, r.url))
-    items.extend(extract_scorer_text(soup, source, r.url))
+    # Algunas fuentes tienen la tabla incrustada desactualizada (ej. el sitio
+    # de la FBF quedó pegado en una fecha vieja del torneo); skip_tables deja
+    # scrapear sus noticias igual, pero no usa su tabla de posiciones/goleadores.
+    if not source.get("skip_tables", False):
+        items.extend(extract_tables(soup, source, r.url))
+        items.extend(extract_scorer_text(soup, source, r.url))
     # Deduplicación exacta local por ID.
     unique = {x.id: x for x in items}
     return list(unique.values())

@@ -118,6 +118,62 @@ web_sources:
   competition: concacaf_nations_league
   source_type: confederation
   authority: 1.0
+- id: reduno_deportes
+  enabled: true
+  name: Red Uno - Super Deportivo
+  url: https://www.reduno.com.bo/deportes
+  scope: bolivia
+  competition: general
+  source_type: media
+  authority: 0.88
+- id: reduno_futbol_boliviano
+  enabled: true
+  name: Red Uno - Fútbol Boliviano
+  url: https://www.reduno.com.bo/tag/futbol-boliviano
+  scope: bolivia
+  competition: division_profesional
+  source_type: media
+  authority: 0.88
+- id: unitel_atodo_deporte
+  enabled: true
+  name: Unitel - A Todo Deporte
+  url: https://futbol.unitel.bo/
+  scope: bolivia
+  competition: general
+  source_type: media
+  authority: 0.88
+- id: unitel_division_profesional
+  enabled: true
+  name: Unitel - División Profesional
+  url: https://futbol.unitel.bo/division-profesional
+  scope: bolivia
+  competition: division_profesional
+  source_type: media
+  authority: 0.88
+- id: diez_futbol
+  enabled: true
+  name: DIEZ - Fútbol
+  url: https://diez.bo/futbol
+  scope: bolivia
+  competition: general
+  source_type: media
+  authority: 0.9
+- id: diez_futbol_boliviano
+  enabled: true
+  name: DIEZ - Fútbol Boliviano
+  url: https://diez.bo/tag/futbol-boliviano
+  scope: bolivia
+  competition: division_profesional
+  source_type: media
+  authority: 0.9
+- id: reduno_stats
+  enabled: true
+  name: Red Uno - Stats Center Bolivia
+  url: https://deportes.reduno.com.bo/html/v3/htmlCenter/data/deportes/futbol/bolivia/statsCenter/
+  scope: bolivia
+  competition: division_profesional
+  source_type: structured_media
+  authority: 0.84
 facebook:
   enabled: true
   page_queries:
@@ -160,41 +216,49 @@ facebook:
     scope: bolivia
     competition: seleccion_bolivia
     authority: 0.98
+    group: oficiales
   - name: Club Bolívar
     url: https://www.facebook.com/CLUBBOLIVAR/
     scope: bolivia
     competition: clubes_bolivia
     authority: 0.92
+    group: oficiales
   - name: Club The Strongest
     url: https://www.facebook.com/clubthestrongestoficial/
     scope: bolivia
     competition: clubes_bolivia
     authority: 0.92
+    group: oficiales
   - name: Oriente Petrolero
     url: https://www.facebook.com/cdopetrolero/
     scope: bolivia
     competition: clubes_bolivia
     authority: 0.9
+    group: clubes
   - name: Club Blooming
     url: https://www.facebook.com/ClubBloomingOficial/
     scope: bolivia
     competition: clubes_bolivia
     authority: 0.9
+    group: clubes
   - name: Tigo Sports Bolivia
     url: https://www.facebook.com/TigoSportsBolivia/
     scope: bolivia
     competition: general
     authority: 0.86
+    group: medios
   - name: Futbolmania Bolivia
     url: https://www.facebook.com/futbolmaniabolivia01/
     scope: bolivia
     competition: general
     authority: 0.8
+    group: medios
   - name: FutbolCanal
     url: https://www.facebook.com/FutbolCanal/
     scope: bolivia
     competition: general
     authority: 0.8
+    group: medios
   - name: Red Uno de Bolivia
     url: https://www.facebook.com/RedUnotv/
     scope: bolivia
@@ -213,33 +277,37 @@ facebook:
     - blooming
     - selección boliviana
     - seleccion boliviana
+    group: medios
   - name: Club Always Ready
     url: https://www.facebook.com/ClubAlwaysReady.Bo/
     scope: bolivia
     competition: clubes_bolivia
     authority: 0.9
+    group: oficiales
   - name: Club Aurora
     url: https://www.facebook.com/Club.Aurora.Oficial/
     scope: bolivia
     competition: clubes_bolivia
     authority: 0.9
+    group: clubes
   - name: Real Tomayapo
     url: https://www.facebook.com/clubrealtomayapo/
     scope: bolivia
     competition: clubes_bolivia
     authority: 0.88
+    group: clubes
   browser_fallback: true
-  browser_timeout_seconds: 18
-  browser_wait_ms: 2400
+  browser_timeout_seconds: 16
+  browser_wait_ms: 1800
   max_posts_per_page: 8
-  search_index_fallback: true
+  search_index_fallback: false
   max_index_posts_per_page: 4
-  scroll_wait_ms: 850
-  scroll_rounds: 5
+  scroll_wait_ms: 750
+  scroll_rounds: 4
   recent_hours: 72
   http_fallback: false
 x:
-  enabled: true
+  enabled: false
   queries:
   - query: ("fútbol boliviano" OR "futbol boliviano" OR FBF) lang:es -is:retweet
     scope: bolivia
@@ -249,12 +317,13 @@ x:
     scope: bolivia
     competition: seleccion_bolivia
     authority: 0.72
-  - query: (Libertadores OR Sudamericana) (Bolívar OR "The Strongest" OR Bolivia) lang:es -is:retweet
+  - query: (Libertadores OR Sudamericana) (Bolívar OR "The Strongest" OR Bolivia)
+      lang:es -is:retweet
     scope: conmebol
     competition: clubes_bolivia_internacional
     authority: 0.72
 youtube:
-  enabled: true
+  enabled: false
   queries:
   - query: futbol boliviano
     scope: bolivia

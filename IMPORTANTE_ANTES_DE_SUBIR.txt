@@ -1,0 +1,13 @@
+ANTES DE SUBIR V5 A GITHUB
+
+1) Copia estos archivos a la RAIZ del repositorio.
+2) Ejecuta PREPARAR_REPO_V5.bat una vez.
+3) Confirma que el workflow viejo .github/workflows/actualizar-futbol.yml ya no existe.
+4) Deben quedar estos cuatro workflows:
+   - facebook-oficiales.yml
+   - facebook-clubes.yml
+   - facebook-medios.yml
+   - web-datos.yml
+5) Haz commit/push.
+
+Si no eliminas el workflow viejo, GitHub seguira ejecutando tambien el cron V4 pesado.

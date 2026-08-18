@@ -1,0 +1,7 @@
+V5.1 RAPIDA
+
+1. Ejecuta PREPARAR_REPO_V5_1.bat.
+2. Haz git add -A, commit y push.
+3. En GitHub Actions usa: FB 1 - Oficiales / FB 2 - Clubes / FB 3 - Medios / WEB 4 - Noticias y datos.
+4. NO ejecutes "Actualizar JSON fútbol": es el workflow viejo.
+5. Los workflows Facebook nuevos NO ejecutan playwright install chromium. Usan Google Chrome ya instalado en ubuntu-latest.

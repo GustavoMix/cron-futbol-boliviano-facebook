@@ -5,19 +5,15 @@ jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
-      - name: Probar flashscore.es
+      - name: Buscar tabla en diez.bo
         run: |
           UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
-          curl -sL -A "$UA" --max-time 20 "https://www.flashscore.es/futbol/bolivia/division-profesional/tabla/" -o page.html
-          echo "SIZE: $(wc -c < page.html)"
-          echo "---Always Ready context---"
-          grep -o '.\{80\}Always Ready.\{200\}' page.html | head -3
-          echo "---tables count---"
-          grep -oc "<table" page.html || true
-          echo "---jornada/round---"
-          grep -oi "jornada [0-9]*\|round [0-9]*" page.html | sort -u | head -5
-      - name: Subir HTML como artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: flashscore-page
-          path: page.html
+          for path in "tabla-de-posiciones" "posiciones" "futbol/tabla-de-posiciones" "division-profesional" "futbol"; do
+            code=$(curl -sL -o out.html -w "%{http_code}" -A "$UA" --max-time 15 "https://diez.bo/$path")
+            size=$(wc -c < out.html)
+            hits=$(grep -oic "always ready" out.html || true)
+            echo "$code size=$size hits=$hits  https://diez.bo/$path"
+          done
+          echo "--- links en homepage con 'posicion' o 'tabla' ---"
+          curl -sL -A "$UA" --max-time 15 "https://diez.bo/" -o home.html
+          grep -oiE 'href="[^"]*(posicion|tabla)[^"]*"' home.html | sort -u | head -10

@@ -1,0 +1,27 @@
+name: Probe temporal de fuentes
+on:
+  workflow_dispatch:
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Probar URLs candidatas
+        run: |
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
+          urls=(
+            "https://promediosinfo.com/liga/bolivia.html"
+            "https://www.futbol24.com/Standings/Bolivia/Division-Profesional/"
+            "https://www.mismarcadores.com/futbol/bolivia/division-profesional/"
+            "https://www.diez.bo"
+            "https://www.tsports.bo"
+            "https://www.futbolyucatan.com"
+            "https://www.golstadium.com/tabla-de-posiciones/bolivia"
+            "https://www.livescore.com/en/football/bolivia/division-profesional/"
+            "https://www.soccerpunter.com/soccer-teams/Bolivia/Division-Profesional"
+            "https://www.90minutos.bo"
+          )
+          for u in "${urls[@]}"; do
+            code=$(curl -s -o /tmp/out.html -w "%{http_code}" -A "$UA" --max-time 15 "$u" || echo "ERR")
+            size=$(wc -c < /tmp/out.html 2>/dev/null || echo 0)
+            echo "$code size=$size  $u"
+          done

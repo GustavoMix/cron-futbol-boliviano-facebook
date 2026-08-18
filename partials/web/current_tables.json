@@ -1,323 +1,12 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-08-18T18:37:25.979663Z",
+  "generated_at": "2026-08-18T19:02:59.120882Z",
   "policy": "una tabla por competición/tipo; fuentes oficiales tienen prioridad",
   "competitions": {
-    "division_profesional": {
-      "standings": {
-        "id": "11b2da80ddc1d0ba05b0",
-        "kind": "standings",
-        "title": "Tabla de Posiciones",
-        "text": "",
-        "url": "https://fbf.com.bo/torneos/division-profesional/",
-        "image_url": "",
-        "video_url": "",
-        "thumbnail_url": "",
-        "media_type": "none",
-        "published_at": null,
-        "scraped_at": "2026-08-18T18:37:17.769529Z",
-        "source_id": "fbf_profesional",
-        "source_name": "FBF - División Profesional",
-        "source_type": "federation",
-        "source_authority": 1.0,
-        "scope": "bolivia",
-        "competition": "division_profesional",
-        "rank_score": 0.8,
-        "stale": false,
-        "extra": {
-          "rows": [
-            [
-              "Pos",
-              "Equipo",
-              "PJ",
-              "G",
-              "E",
-              "P",
-              "GF",
-              "GC",
-              "DG",
-              "Pts"
-            ],
-            [
-              "1",
-              "Always Ready",
-              "5",
-              "4",
-              "1",
-              "0",
-              "11",
-              "3",
-              "+8",
-              "13"
-            ],
-            [
-              "2",
-              "The Strongest",
-              "5",
-              "4",
-              "1",
-              "0",
-              "11",
-              "6",
-              "+5",
-              "13"
-            ],
-            [
-              "3",
-              "Bolívar",
-              "5",
-              "4",
-              "0",
-              "1",
-              "16",
-              "5",
-              "+11",
-              "12"
-            ],
-            [
-              "4",
-              "Aurora",
-              "5",
-              "2",
-              "3",
-              "0",
-              "9",
-              "5",
-              "+4",
-              "9"
-            ],
-            [
-              "5",
-              "CD Oriente Petrolero",
-              "5",
-              "3",
-              "0",
-              "2",
-              "7",
-              "5",
-              "+2",
-              "9"
-            ],
-            [
-              "6",
-              "Blooming",
-              "5",
-              "2",
-              "2",
-              "1",
-              "12",
-              "7",
-              "+5",
-              "8"
-            ],
-            [
-              "7",
-              "Independiente",
-              "5",
-              "2",
-              "2",
-              "1",
-              "8",
-              "9",
-              "-1",
-              "8"
-            ],
-            [
-              "8",
-              "Nacional Potosí",
-              "5",
-              "2",
-              "1",
-              "2",
-              "7",
-              "6",
-              "+1",
-              "7"
-            ],
-            [
-              "9",
-              "C.D. San Antonio",
-              "5",
-              "2",
-              "1",
-              "2",
-              "9",
-              "9",
-              "0",
-              "7"
-            ],
-            [
-              "10",
-              "A.B.B.",
-              "5",
-              "2",
-              "0",
-              "3",
-              "8",
-              "13",
-              "-5",
-              "6"
-            ],
-            [
-              "11",
-              "Rel Potosi",
-              "5",
-              "1",
-              "2",
-              "2",
-              "5",
-              "5",
-              "0",
-              "5"
-            ],
-            [
-              "12",
-              "FC Universitario",
-              "5",
-              "1",
-              "1",
-              "3",
-              "8",
-              "8",
-              "0",
-              "4"
-            ],
-            [
-              "13",
-              "CD Totora Real Oruro",
-              "5",
-              "1",
-              "1",
-              "3",
-              "9",
-              "13",
-              "-4",
-              "4"
-            ],
-            [
-              "14",
-              "G Villarroel CD San José",
-              "5",
-              "0",
-              "2",
-              "3",
-              "5",
-              "8",
-              "-3",
-              "2"
-            ],
-            [
-              "15",
-              "Real Tomayapo",
-              "5",
-              "0",
-              "2",
-              "3",
-              "2",
-              "14",
-              "-12",
-              "2"
-            ],
-            [
-              "16",
-              "CD Guabirá",
-              "5",
-              "0",
-              "1",
-              "4",
-              "5",
-              "16",
-              "-11",
-              "1"
-            ]
-          ],
-          "logos": [
-            "",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-1-400x400.png",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-11-400x400.png",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-3-400x400.png",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-2-400x400.png",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-7-400x400.png",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-4-400x400.png",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-12-400x400.png",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-9-400x400.png",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-13-400x400.png",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-16-400x400.png",
-            "https://fbf.com.bo/wp-content/uploads/2026/04/WhatsApp-Image-2026-04-24-at-11.21.32-400x400.jpeg",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-5-400x400.png",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-15-400x400.png",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-14-400x400.png",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-6-400x400.png",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-8-400x400.png"
-          ],
-          "related_sources": [],
-          "selection_score": 1.268,
-          "selected_as_current": true,
-          "selection_reason": "prioriza fuente oficial/autoridad + tipo de tabla + cantidad de filas"
-        }
-      },
-      "top_scorers": {
-        "id": "596fbfc6abbb79ad3a2e",
-        "kind": "top_scorers",
-        "title": "Tabla de Goleadores",
-        "text": "",
-        "url": "https://fbf.com.bo/torneos/division-profesional/",
-        "image_url": "",
-        "video_url": "",
-        "thumbnail_url": "",
-        "media_type": "none",
-        "published_at": null,
-        "scraped_at": "2026-08-18T18:37:17.770263Z",
-        "source_id": "fbf_profesional",
-        "source_name": "FBF - División Profesional",
-        "source_type": "federation",
-        "source_authority": 1.0,
-        "scope": "bolivia",
-        "competition": "division_profesional",
-        "rank_score": 0.8,
-        "stale": false,
-        "extra": {
-          "rows": [
-            [
-              "5 Goles",
-              "Cauteruccio Rodriguez, Martin (Bolivar)"
-            ],
-            [
-              "4 Goles",
-              "Barbosa Hortencio, Willie (Independiente). Menacho Miranda, Rafael (CD San Antonio). Moreno Martins, Marcelo (CD Oriente Petrolero)."
-            ]
-          ],
-          "logos": [
-            "",
-            "https://fbf.com.bo/wp-content/uploads/2025/09/burguesa-1.png"
-          ],
-          "related_sources": [
-            {
-              "source_name": "FBF - División Profesional",
-              "url": "https://fbf.com.bo/torneos/division-profesional/",
-              "published_at": null
-            },
-            {
-              "source_name": "FBF - Copa Paceña",
-              "url": "https://fbf.com.bo/torneos/copa-pacena/",
-              "published_at": null
-            },
-            {
-              "source_name": "FBF - Copa Paceña",
-              "url": "https://fbf.com.bo/torneos/copa-pacena/",
-              "published_at": null
-            }
-          ],
-          "selection_score": 1.158,
-          "selected_as_current": true,
-          "selection_reason": "prioriza fuente oficial/autoridad + tipo de tabla + cantidad de filas"
-        }
-      }
-    },
     "copa_division_profesional": {
       "standings": {
-        "id": "85665b3c2385b59c51d1",
-        "kind": "table",
+        "id": "fb84a7a3aa60732bae14",
+        "kind": "standings",
         "title": "Grupo D",
         "text": "",
         "url": "https://fbf.com.bo/torneos/copa-pacena/",
@@ -326,7 +15,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-18T18:37:17.884550Z",
+        "scraped_at": "2026-08-18T19:02:46.983563Z",
         "source_id": "fbf_copa_pacena",
         "source_name": "FBF - Copa Paceña",
         "source_type": "federation",
@@ -406,7 +95,134 @@
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-12-400x400.png"
           ],
           "related_sources": [],
-          "selection_score": 1.14,
+          "selection_score": 1.22,
+          "selected_as_current": true,
+          "selection_reason": "prioriza fuente oficial/autoridad + tipo de tabla + cantidad de filas"
+        }
+      },
+      "top_scorers": {
+        "id": "52b39943baafc4f0ad07",
+        "kind": "top_scorers",
+        "title": "Tabla de Goleadores",
+        "text": "",
+        "url": "https://fbf.com.bo/torneos/copa-pacena/",
+        "image_url": "",
+        "video_url": "",
+        "thumbnail_url": "",
+        "media_type": "none",
+        "published_at": null,
+        "scraped_at": "2026-08-18T19:02:46.983752Z",
+        "source_id": "fbf_copa_pacena",
+        "source_name": "FBF - Copa Paceña",
+        "source_type": "federation",
+        "source_authority": 1.0,
+        "scope": "bolivia",
+        "competition": "copa_division_profesional",
+        "rank_score": 0.8,
+        "stale": false,
+        "extra": {
+          "rows": [
+            [
+              "15 Goles",
+              "Alvarez Vargas, Willan Gustavo (Nacional Potosí)"
+            ],
+            [
+              "10 Goles",
+              "Romero Chalas, Dorny Alexander (Bolívar)"
+            ],
+            [
+              "9 Goles",
+              "Arrascaita Iriondo, Jaime Darío (The Strongest) Galindo Suheiro, Samuel (G. Villarroel CD San José) Vásquez Arcila, Antony (CD San Antonio)"
+            ],
+            [
+              "8 Goles",
+              "Bobadilla Cáceres, Héctor Damián (Always Ready)"
+            ],
+            [
+              "7 Goles",
+              "Godoy Viñales, Juan Sinforiano (The Strongest) Posse Yarwa, Franco Luca (Blooming)"
+            ]
+          ],
+          "logos": [
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "related_sources": [
+            {
+              "source_name": "FBF - Copa Paceña",
+              "url": "https://fbf.com.bo/torneos/copa-pacena/",
+              "published_at": null
+            }
+          ],
+          "selection_score": 1.17,
+          "selected_as_current": true,
+          "selection_reason": "prioriza fuente oficial/autoridad + tipo de tabla + cantidad de filas"
+        }
+      }
+    },
+    "division_profesional": {
+      "standings": {
+        "id": "7e96ffc0401afc017381",
+        "kind": "table",
+        "title": "Index of /html/v3/htmlCenter/data/deportes/futbol/bolivia/statsCenter",
+        "text": "",
+        "url": "https://deportes.reduno.com.bo/html/v3/htmlCenter/data/deportes/futbol/bolivia/statsCenter/",
+        "image_url": "",
+        "video_url": "",
+        "thumbnail_url": "",
+        "media_type": "none",
+        "published_at": null,
+        "scraped_at": "2026-08-18T19:02:59.098612Z",
+        "source_id": "reduno_stats",
+        "source_name": "Red Uno - Stats Center Bolivia",
+        "source_type": "structured_media",
+        "source_authority": 0.84,
+        "scope": "bolivia",
+        "competition": "division_profesional",
+        "rank_score": 0.68,
+        "stale": false,
+        "extra": {
+          "rows": [
+            [
+              "",
+              "Name",
+              "Last modified",
+              "Size",
+              "Description"
+            ],
+            [
+              "",
+              "Parent Directory",
+              "",
+              "-",
+              ""
+            ],
+            [
+              "",
+              "teams/",
+              "2026-04-02 17:58",
+              "-",
+              ""
+            ],
+            [
+              "",
+              "teamsList.json",
+              "2026-08-14 16:57",
+              "6.1K",
+              ""
+            ]
+          ],
+          "logos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "related_sources": [],
+          "selection_score": 0.856,
           "selected_as_current": true,
           "selection_reason": "prioriza fuente oficial/autoridad + tipo de tabla + cantidad de filas"
         }

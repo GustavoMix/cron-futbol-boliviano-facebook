@@ -1,6 +1,6 @@
 {
   "schema_version": 5,
-  "generated_at": "2026-08-18T18:52:02.535838Z",
+  "generated_at": "2026-08-18T19:02:59.227626Z",
   "architecture": "3 Facebook groups + 1 web group; staggered schedules; cached last-good Facebook data",
   "facebook_groups": [
     {
@@ -24,19 +24,24 @@
   ],
   "totals": {
     "facebook_items": 6,
-    "web_latest_items": 162,
-    "app_feed_items": 168
+    "web_latest_items": 163,
+    "app_feed_items": 169
   },
   "web": {
-    "generated_at": "2026-08-18T18:37:25.995246Z",
+    "generated_at": "2026-08-18T19:02:59.133180Z",
     "totals": {
-      "items_before_filter": 211,
+      "items_before_filter": 209,
       "items_after_filter_dedupe": 169,
       "web_sources_ok": 21,
-      "web_sources_error": 1,
+      "web_sources_error": 2,
       "social_items": 0
     },
-    "errors": []
+    "errors": [
+      {
+        "source": "promediosinfo_bolivia",
+        "error": "HTTPError: 403 Client Error: Forbidden for url: https://promediosinfo.com/liga/bolivia.html"
+      }
+    ]
   },
   "notes": [
     "Facebook HTTP directo está desactivado.",

@@ -1,13 +1,13 @@
 {
   "schema_version": 5,
-  "generated_at": "2026-08-18T18:37:26.108090Z",
+  "generated_at": "2026-08-18T18:52:02.535838Z",
   "architecture": "3 Facebook groups + 1 web group; staggered schedules; cached last-good Facebook data",
   "facebook_groups": [
     {
       "group": "oficiales",
-      "last_good_at": null,
-      "last_attempt_ok": null,
-      "items": 0
+      "last_good_at": "2026-08-18T18:52:02.471471Z",
+      "last_attempt_ok": true,
+      "items": 3
     },
     {
       "group": "clubes",
@@ -23,9 +23,9 @@
     }
   ],
   "totals": {
-    "facebook_items": 3,
+    "facebook_items": 6,
     "web_latest_items": 162,
-    "app_feed_items": 165
+    "app_feed_items": 168
   },
   "web": {
     "generated_at": "2026-08-18T18:37:25.995246Z",

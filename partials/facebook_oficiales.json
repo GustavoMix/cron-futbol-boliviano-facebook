@@ -1,7 +1,10 @@
 {
   "schema_version": 5,
-  "scope": "social",
-  "generated_at": "2026-08-18T18:52:02.535838Z",
+  "group": "oficiales",
+  "generated_at": "2026-08-18T18:52:02.471483Z",
+  "last_attempt_ok": true,
+  "last_good_at": "2026-08-18T18:52:02.471471Z",
+  "fresh_items_this_run": 3,
   "items": [
     {
       "id": "3d20142ec3d626f60eba",
@@ -98,100 +101,6 @@
       }
     },
     {
-      "id": "02a7d302f9a321db713a",
-      "kind": "social",
-      "platform": "facebook",
-      "post_id": "pfbid02vsLcqD1jccfXv3AJFrYwG5Shjynfao7dgYrE5t5qbMA4EdYrE76Nfi1JeLZybd4jl",
-      "title": "Futbolcanal 2 min · LIGA NACIONAL SUB 15 | TABLA DE POSICIONES S… Ver más 1 Me gusta Comentar",
-      "text": "Futbolcanal 2 min · LIGA NACIONAL SUB 15 | TABLA DE POSICIONES S… Ver más 1 Me gusta Comentar",
-      "url": "https://www.facebook.com/FutbolCanal/posts/pfbid02vsLcqD1jccfXv3AJFrYwG5Shjynfao7dgYrE5t5qbMA4EdYrE76Nfi1JeLZybd4jl",
-      "post_url": "https://www.facebook.com/FutbolCanal/posts/pfbid02vsLcqD1jccfXv3AJFrYwG5Shjynfao7dgYrE5t5qbMA4EdYrE76Nfi1JeLZybd4jl",
-      "image_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/776453549_2189370891615697_2618252065579229265_n.png?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=p526x296&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=u7BlpPhAmRYQ7kNvwE_C1TP&_nc_oc=Adpz5hR6uv8fj4Yu1Y8inyIXaEhoDTV1AA_ORlNOjI_CKXMeRrrrL0_ai3BEdM0y8Yg&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=uxtJz_NRTOOv6MTuZd6nrw&_nc_ss=7f289&oh=00_AQHku9rqjhP_CFQDEp_woOX9dZBbhJHQ8qL5S7p7QqoI7w&oe=6A8A7EE6",
-      "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/776453549_2189370891615697_2618252065579229265_n.png?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=p526x296&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=u7BlpPhAmRYQ7kNvwE_C1TP&_nc_oc=Adpz5hR6uv8fj4Yu1Y8inyIXaEhoDTV1AA_ORlNOjI_CKXMeRrrrL0_ai3BEdM0y8Yg&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=uxtJz_NRTOOv6MTuZd6nrw&_nc_ss=7f289&oh=00_AQHku9rqjhP_CFQDEp_woOX9dZBbhJHQ8qL5S7p7QqoI7w&oe=6A8A7EE6",
-      "video_url": "",
-      "video_post_url": "",
-      "media_type": "image",
-      "published_at": "2026-08-18T17:06:15.123169Z",
-      "scraped_at": "2026-08-18T17:08:15.123239Z",
-      "source_id": "facebook_browser:futbolcanal",
-      "source_name": "Facebook · FutbolCanal",
-      "source_type": "facebook_browser_public",
-      "source_authority": 0.8,
-      "scope": "bolivia",
-      "competition": "general",
-      "rank_score": 0.9437,
-      "stale": false,
-      "extra": {
-        "collector": "browser_public",
-        "page_name": "FutbolCanal",
-        "page_url": "https://www.facebook.com/FutbolCanal/",
-        "group": "medios",
-        "age_hours": 0.03,
-        "freshness_unknown": false,
-        "media": {
-          "images": [
-            {
-              "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/776453549_2189370891615697_2618252065579229265_n.png?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=p526x296&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=u7BlpPhAmRYQ7kNvwE_C1TP&_nc_oc=Adpz5hR6uv8fj4Yu1Y8inyIXaEhoDTV1AA_ORlNOjI_CKXMeRrrrL0_ai3BEdM0y8Yg&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=uxtJz_NRTOOv6MTuZd6nrw&_nc_ss=7f289&oh=00_AQHku9rqjhP_CFQDEp_woOX9dZBbhJHQ8qL5S7p7QqoI7w&oe=6A8A7EE6",
-              "width": 526,
-              "height": 526,
-              "alt": "Puede ser una imagen de texto"
-            }
-          ],
-          "videos": [],
-          "posters": []
-        },
-        "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
-    },
-    {
-      "id": "2e23120fbd1138a2d38d",
-      "kind": "social",
-      "platform": "facebook",
-      "post_id": "pfbid02F3safPdhP8WvSdqtvsVq78wnNxAHDfJ3r2yMXfx2B9m55DKFuhVf58rNc6QpBvRBl",
-      "title": "Tigo Sports Bolivia 1 h · ¡BOLÍVAR JUEGA EL PARTIDO MÁS IMPORTANTE DE LA TEMPORADA! La 'Academia Paceña' que igualó 1 a 1 contra São Paulo en La Paz, buscará hacer historia en el M",
-      "text": "Tigo Sports Bolivia 1 h · ¡BOLÍVAR JUEGA EL PARTIDO MÁS IMPORTANTE DE LA TEMPORADA! La 'Academia Paceña' que igualó 1 a 1 contra São Paulo en La Paz, buscará hacer historia en el Morumb… Ver más Todas las reacciones: 68 6 6 Me gusta Comentar Ver más comentarios Javier Barrios Contreras Se come cinco 59 min Fan destacado Fernando Murillo Javier Barrios Contreras aurillamita ni cuartos..... jajaja 32 min",
-      "url": "https://www.facebook.com/TigoSportsBolivia/posts/pfbid02F3safPdhP8WvSdqtvsVq78wnNxAHDfJ3r2yMXfx2B9m55DKFuhVf58rNc6QpBvRBl",
-      "post_url": "https://www.facebook.com/TigoSportsBolivia/posts/pfbid02F3safPdhP8WvSdqtvsVq78wnNxAHDfJ3r2yMXfx2B9m55DKFuhVf58rNc6QpBvRBl",
-      "image_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/776921701_1585223956306297_8370756609705646374_n.png?stp=dst-jpg_tt6&cstp=mx1638x2048&ctp=s640x640&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=mEn3KoXW99cQ7kNvwEgOIGg&_nc_oc=AdoOzNIhqYQbNA8sq0mcJnHSKqU9mDSRHFoPrQQw0d8O_7b2ug1DTR4SXP_KKdWhk4w&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=Z_9hWythqEAZrqkQdwanRQ&_nc_ss=7f289&oh=00_AQF6JcatQMxYPbh7U5W0uaYHfORWO-aKAMmmq_kIwgoq5w&oe=6A8A59A3",
-      "thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/776921701_1585223956306297_8370756609705646374_n.png?stp=dst-jpg_tt6&cstp=mx1638x2048&ctp=s640x640&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=mEn3KoXW99cQ7kNvwEgOIGg&_nc_oc=AdoOzNIhqYQbNA8sq0mcJnHSKqU9mDSRHFoPrQQw0d8O_7b2ug1DTR4SXP_KKdWhk4w&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=Z_9hWythqEAZrqkQdwanRQ&_nc_ss=7f289&oh=00_AQF6JcatQMxYPbh7U5W0uaYHfORWO-aKAMmmq_kIwgoq5w&oe=6A8A59A3",
-      "video_url": "",
-      "video_post_url": "",
-      "media_type": "image",
-      "published_at": "2026-08-18T16:08:04.001006Z",
-      "scraped_at": "2026-08-18T17:08:04.001477Z",
-      "source_id": "facebook_browser:tigo_sports_bolivia",
-      "source_name": "Facebook · Tigo Sports Bolivia",
-      "source_type": "facebook_browser_public",
-      "source_authority": 0.86,
-      "scope": "bolivia",
-      "competition": "general",
-      "rank_score": 0.9508,
-      "stale": false,
-      "extra": {
-        "collector": "browser_public",
-        "page_name": "Tigo Sports Bolivia",
-        "page_url": "https://www.facebook.com/TigoSportsBolivia/",
-        "group": "medios",
-        "age_hours": 1.0,
-        "freshness_unknown": false,
-        "media": {
-          "images": [
-            {
-              "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/776921701_1585223956306297_8370756609705646374_n.png?stp=dst-jpg_tt6&cstp=mx1638x2048&ctp=s640x640&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=mEn3KoXW99cQ7kNvwEgOIGg&_nc_oc=AdoOzNIhqYQbNA8sq0mcJnHSKqU9mDSRHFoPrQQw0d8O_7b2ug1DTR4SXP_KKdWhk4w&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=Z_9hWythqEAZrqkQdwanRQ&_nc_ss=7f289&oh=00_AQF6JcatQMxYPbh7U5W0uaYHfORWO-aKAMmmq_kIwgoq5w&oe=6A8A59A3",
-              "width": 512,
-              "height": 640,
-              "alt": "Puede ser una imagen de fútbol y texto que dice \"32 SUDAMERICANA tigo igosports sports TRICOLOR ν TRICOLOR TRICOLOR TRICOLOR Иνα 'elgin athon YAR B0 ADEMICON OCTAVOS DE FINAL SUPERE SPFC (PARTIDO DE VUELTA) (BRA) SÃO PAULO Vs И BOLÍVAR (BOL) HOY- MARTES 18/8- 20:30- EN VIVO POR: CANAL tigo sports st代stsreguみ y#acalaadaporlaAT tigo\""
-            }
-          ],
-          "videos": [],
-          "posters": []
-        },
-        "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
-    },
-    {
       "id": "fcb08a21eff99ad17d8d",
       "kind": "social",
       "platform": "facebook",
@@ -237,46 +146,36 @@
         "direct_video_is_temporary": false,
         "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
       }
+    }
+  ],
+  "sources": [
+    {
+      "name": "Federación Boliviana de Fútbol",
+      "url": "https://www.facebook.com/LaVerdeOficial/",
+      "ok": false,
+      "items": 0,
+      "errors": []
     },
     {
-      "id": "2afb01a092a86a198a7d",
-      "kind": "social",
-      "platform": "facebook",
-      "post_id": "pfbid02QZPDps3ZeWX3MxAQBy6RsefLFp6xfMswMPRzo54w2uU13m19g23x7FNps5M5Hy93l",
-      "title": "Henrry Larrea Alurralde Hola buenas noches. 49 sem",
-      "text": "Henrry Larrea Alurralde Hola buenas noches. 49 sem",
-      "url": "https://www.facebook.com/futbolmaniabolivia01/posts/pfbid02QZPDps3ZeWX3MxAQBy6RsefLFp6xfMswMPRzo54w2uU13m19g23x7FNps5M5Hy93l",
-      "post_url": "https://www.facebook.com/futbolmaniabolivia01/posts/pfbid02QZPDps3ZeWX3MxAQBy6RsefLFp6xfMswMPRzo54w2uU13m19g23x7FNps5M5Hy93l",
-      "image_url": "",
-      "thumbnail_url": "",
-      "video_url": "",
-      "video_post_url": "",
-      "media_type": "text",
-      "published_at": null,
-      "scraped_at": "2026-08-18T17:08:09.638373Z",
-      "source_id": "facebook_browser:futbolmania_bolivia",
-      "source_name": "Facebook · Futbolmania Bolivia",
-      "source_type": "facebook_browser_public",
-      "source_authority": 0.8,
-      "scope": "bolivia",
-      "competition": "general",
-      "rank_score": 0.944,
-      "stale": false,
-      "extra": {
-        "collector": "browser_public",
-        "page_name": "Futbolmania Bolivia",
-        "page_url": "https://www.facebook.com/futbolmaniabolivia01/",
-        "group": "medios",
-        "age_hours": null,
-        "freshness_unknown": true,
-        "media": {
-          "images": [],
-          "videos": [],
-          "posters": []
-        },
-        "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+      "name": "Club Bolívar",
+      "url": "https://www.facebook.com/CLUBBOLIVAR/",
+      "ok": true,
+      "items": 1,
+      "errors": []
+    },
+    {
+      "name": "Club The Strongest",
+      "url": "https://www.facebook.com/clubthestrongestoficial/",
+      "ok": true,
+      "items": 1,
+      "errors": []
+    },
+    {
+      "name": "Club Always Ready",
+      "url": "https://www.facebook.com/ClubAlwaysReady.Bo/",
+      "ok": true,
+      "items": 1,
+      "errors": []
     }
   ]
 }

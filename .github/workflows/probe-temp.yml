@@ -1,0 +1,45 @@
+name: Probe temporal de fuentes
+on:
+  workflow_dispatch:
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Instalar deps
+        run: pip install playwright beautifulsoup4 lxml requests
+      - name: Probar promediosinfo con navegador real vs requests
+        run: |
+          python - <<'EOF'
+          import requests
+          ua = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
+          r = requests.get("https://promediosinfo.com/liga/bolivia.html", headers={"User-Agent": ua}, timeout=20)
+          print("REQUESTS:", r.status_code, len(r.text))
+          EOF
+          python - <<'EOF'
+          from playwright.sync_api import sync_playwright
+          from bs4 import BeautifulSoup
+          with sync_playwright() as p:
+              b = p.chromium.launch(channel="chrome", headless=True)
+              page = b.new_context(locale="es-BO").new_page()
+              resp = page.goto("https://promediosinfo.com/liga/bolivia.html", wait_until="domcontentloaded", timeout=30000)
+              page.wait_for_timeout(3000)
+              print("BROWSER:", resp.status if resp else "no-resp")
+              html = page.content()
+              print("SIZE:", len(html))
+              soup = BeautifulSoup(html, "lxml")
+              for i, t in enumerate(soup.find_all("table")):
+                  rows = []
+                  for tr in t.find_all("tr"):
+                      cells = [c.get_text(" ", strip=True) for c in tr.find_all(["th","td"])]
+                      if cells and any(cells):
+                          rows.append(cells)
+                  if rows and len(rows) > 3:
+                      print(f"--- tabla {i} ({len(rows)} filas) ---")
+                      for r in rows[:3]:
+                          print("  ", r)
+              b.close()
+          EOF

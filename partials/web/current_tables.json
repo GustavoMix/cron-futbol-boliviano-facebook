@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-08-18T17:26:06.797489Z",
+  "generated_at": "2026-08-18T18:13:12.260140Z",
   "policy": "una tabla por competición/tipo; fuentes oficiales tienen prioridad",
   "competitions": {
     "division_profesional": {
@@ -15,7 +15,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-18T17:26:00.711238Z",
+        "scraped_at": "2026-08-18T18:13:01.488695Z",
         "source_id": "fbf_profesional",
         "source_name": "FBF - División Profesional",
         "source_type": "federation",
@@ -71,7 +71,7 @@
               "1",
               "16",
               "5",
-              "+111",
+              "+11",
               "12"
             ],
             [
@@ -231,6 +231,25 @@
               "1"
             ]
           ],
+          "logos": [
+            "",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-1-400x400.png",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-11-400x400.png",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-3-400x400.png",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-2-400x400.png",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-7-400x400.png",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-4-400x400.png",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-12-400x400.png",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-9-400x400.png",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-13-400x400.png",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-16-400x400.png",
+            "https://fbf.com.bo/wp-content/uploads/2026/04/WhatsApp-Image-2026-04-24-at-11.21.32-400x400.jpeg",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-5-400x400.png",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-15-400x400.png",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-14-400x400.png",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-6-400x400.png",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-8-400x400.png"
+          ],
           "related_sources": [],
           "selection_score": 1.268,
           "selected_as_current": true,
@@ -248,7 +267,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-18T17:26:00.711769Z",
+        "scraped_at": "2026-08-18T18:13:01.489456Z",
         "source_id": "fbf_profesional",
         "source_name": "FBF - División Profesional",
         "source_type": "federation",
@@ -267,6 +286,10 @@
               "4 Goles",
               "Barbosa Hortencio, Willie (Independiente). Menacho Miranda, Rafael (CD San Antonio). Moreno Martins, Marcelo (CD Oriente Petrolero)."
             ]
+          ],
+          "logos": [
+            "",
+            "https://fbf.com.bo/wp-content/uploads/2025/09/burguesa-1.png"
           ],
           "related_sources": [
             {
@@ -303,7 +326,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-18T17:26:00.824101Z",
+        "scraped_at": "2026-08-18T18:13:01.551717Z",
         "source_id": "fbf_copa_pacena",
         "source_name": "FBF - Copa Paceña",
         "source_type": "federation",
@@ -374,6 +397,13 @@
               "-7",
               "15"
             ]
+          ],
+          "logos": [
+            "",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-8-400x400.png",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-7-400x400.png",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-5-400x400.png",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-12-400x400.png"
           ],
           "related_sources": [],
           "selection_score": 1.14,

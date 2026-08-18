@@ -1,0 +1,178 @@
+{
+  "schema_version": 4,
+  "generated_at": "2026-08-18T16:41:13.495115Z",
+  "timezone": "America/La_Paz",
+  "ranking_policy": {
+    "news_social": "72% frescura + 28% autoridad de fuente",
+    "structured_data": "25% frescura + 75% autoridad de fuente",
+    "dates": "published_at = fecha original; scraped_at = fecha de captura"
+  },
+  "files": {
+    "bolivia.json": {
+      "items": 164
+    },
+    "conmebol.json": {
+      "items": 7
+    },
+    "internacional.json": {
+      "items": 0
+    },
+    "social.json": {
+      "items": 0
+    },
+    "latest.json": {
+      "items": 164
+    },
+    "facebook_latest.json": {
+      "items": 0
+    },
+    "app_feed.json": {
+      "items": 164
+    },
+    "current_tables.json": {
+      "items": 0
+    }
+  },
+  "source_status": [
+    {
+      "id": "fbf_noticias",
+      "name": "Federación Boliviana de Fútbol - Noticias",
+      "ok": true,
+      "items": 3
+    },
+    {
+      "id": "fbf_profesional",
+      "name": "FBF - División Profesional",
+      "ok": true,
+      "items": 9
+    },
+    {
+      "id": "fbf_copa_pacena",
+      "name": "FBF - Copa Paceña",
+      "ok": true,
+      "items": 12
+    },
+    {
+      "id": "fbf_simon_bolivar",
+      "name": "FBF - Copa Simón Bolívar",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "id": "fbf_sub19",
+      "name": "FBF - Liga Nacional Sub-19",
+      "ok": true,
+      "items": 5
+    },
+    {
+      "id": "fbf_sub16",
+      "name": "FBF - Liga Nacional Sub-16",
+      "ok": true,
+      "items": 5
+    },
+    {
+      "id": "conmebol_libertadores",
+      "name": "CONMEBOL Libertadores",
+      "ok": true,
+      "items": 4
+    },
+    {
+      "id": "conmebol_sudamericana",
+      "name": "CONMEBOL Sudamericana",
+      "ok": true,
+      "items": 4
+    },
+    {
+      "id": "conmebol_sub17",
+      "name": "CONMEBOL Sub-17",
+      "ok": true,
+      "items": 4
+    },
+    {
+      "id": "fifa_bolivia",
+      "name": "FIFA - Bolivia",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "id": "fifa_tournaments",
+      "name": "FIFA - Torneos",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "id": "fifa_world_cup",
+      "name": "FIFA World Cup",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "id": "concacaf_champions_cup",
+      "name": "Concacaf Champions Cup",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "id": "concacaf_nations_league",
+      "name": "Concacaf Nations League",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "id": "reduno_deportes",
+      "name": "Red Uno - Super Deportivo",
+      "ok": true,
+      "items": 35
+    },
+    {
+      "id": "reduno_futbol_boliviano",
+      "name": "Red Uno - Fútbol Boliviano",
+      "ok": true,
+      "items": 29
+    },
+    {
+      "id": "unitel_atodo_deporte",
+      "name": "Unitel - A Todo Deporte",
+      "ok": true,
+      "items": 13
+    },
+    {
+      "id": "unitel_division_profesional",
+      "name": "Unitel - División Profesional",
+      "ok": true,
+      "items": 11
+    },
+    {
+      "id": "diez_futbol",
+      "name": "DIEZ - Fútbol",
+      "ok": true,
+      "items": 41
+    },
+    {
+      "id": "diez_futbol_boliviano",
+      "name": "DIEZ - Fútbol Boliviano",
+      "ok": true,
+      "items": 29
+    },
+    {
+      "id": "reduno_stats",
+      "name": "Red Uno - Stats Center Bolivia",
+      "ok": true,
+      "items": 1
+    },
+    {
+      "id": "facebook",
+      "name": "Facebook (Graph/public web)",
+      "ok": false,
+      "items": 0
+    }
+  ],
+  "errors": [],
+  "totals": {
+    "items_before_filter": 211,
+    "items_after_filter_dedupe": 171,
+    "web_sources_ok": 21,
+    "web_sources_error": 1,
+    "social_items": 0
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": 5,
+  "generated_at": "2026-08-18T16:41:13.612859Z",
+  "architecture": "3 Facebook groups + 1 web group; staggered schedules; cached last-good Facebook data",
+  "facebook_groups": [
+    {
+      "group": "oficiales",
+      "last_good_at": null,
+      "last_attempt_ok": null,
+      "items": 0
+    },
+    {
+      "group": "clubes",
+      "last_good_at": null,
+      "last_attempt_ok": null,
+      "items": 0
+    },
+    {
+      "group": "medios",
+      "last_good_at": null,
+      "last_attempt_ok": null,
+      "items": 0
+    }
+  ],
+  "totals": {
+    "facebook_items": 0,
+    "web_latest_items": 164,
+    "app_feed_items": 164
+  },
+  "web": {
+    "generated_at": "2026-08-18T16:41:13.495115Z",
+    "totals": {
+      "items_before_filter": 211,
+      "items_after_filter_dedupe": 171,
+      "web_sources_ok": 21,
+      "web_sources_error": 1,
+      "social_items": 0
+    },
+    "errors": []
+  },
+  "notes": [
+    "Facebook HTTP directo está desactivado.",
+    "Se usa Chrome/Edge del sistema; Chromium de Playwright solo es fallback.",
+    "Si un grupo Facebook falla temporalmente, no se borra el último JSON bueno.",
+    "video_url directo puede caducar; post_url/video_post_url es la referencia estable."
+  ]
+}

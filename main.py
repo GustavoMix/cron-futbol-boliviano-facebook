@@ -1187,6 +1187,22 @@ TEAM_LOGOS: dict[str, str] = {}
 # "matches" y también en "standings" de la misma competición).
 EXTERNAL_LOGO_CACHE: dict[str, str] = {}
 
+# La key pública de pruebas "3" de TheSportsDB es compartida entre todo el
+# mundo que no se registra, y tiene un límite por minuto. Una tanda de ~130
+# equipos sin espaciar los pedidos lo agota a mitad de camino: los primeros
+# equipos (División Profesional, Libertadores) salían bien y los que se
+# procesaban después (Sudamericana, Simón Bolívar) empezaban a fallar por
+# 429 aunque el club sí estuviera en la base — no era que faltara el dato.
+_THESPORTSDB_MIN_INTERVAL = 1.2
+_thesportsdb_last_call = [0.0]
+
+
+def _thesportsdb_throttle() -> None:
+    wait = _THESPORTSDB_MIN_INTERVAL - (time.monotonic() - _thesportsdb_last_call[0])
+    if wait > 0:
+        time.sleep(wait)
+    _thesportsdb_last_call[0] = time.monotonic()
+
 
 def _thesportsdb_team_logo(http, team_name: str) -> str:
     # Primera opción: TheSportsDB es una base de datos deportiva pensada
@@ -1198,6 +1214,7 @@ def _thesportsdb_team_logo(http, team_name: str) -> str:
     # THESPORTSDB_API_KEY si en algún momento se consigue una key propia.
     api_key = os.getenv("THESPORTSDB_API_KEY", "3")
     try:
+        _thesportsdb_throttle()
         resp = http.get(
             f"https://www.thesportsdb.com/api/v1/json/{api_key}/searchteams.php",
             params={"t": team_name},
@@ -1883,10 +1900,19 @@ def build_current_tables(items: list[Item], http: "HttpClient | None" = None) ->
         # y, si ahí tampoco está, en Wikipedia. _merge_matches y
         # _backfill_logos ya leen de TEAM_LOGOS, así que con esto alcanza
         # para que aparezcan en toda la tabla/partido.
-        for name in _collect_missing_team_names(candidates):
+        missing_names = _collect_missing_team_names(candidates)
+        unresolved = []
+        for name in missing_names:
             logo = _lookup_team_logo(http, name)
             if logo:
                 TEAM_LOGOS[normalize_title(name)] = logo
+            else:
+                unresolved.append(name)
+        if missing_names:
+            resolved = len(missing_names) - len(unresolved)
+            print(f"Escudos externos: {resolved}/{len(missing_names)} equipos resueltos (TheSportsDB/Wikipedia).")
+            if unresolved:
+                print(f"Sin escudo tras buscar en TheSportsDB/Wikipedia: {', '.join(unresolved)}")
     grouped: dict[str, dict[str, list[Item]]] = defaultdict(lambda: defaultdict(list))
     for x in candidates:
         logical_kind = 'standings' if x.kind in {'standings','table'} else x.kind

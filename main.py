@@ -1187,12 +1187,13 @@ TEAM_LOGOS: dict[str, str] = {}
 # "matches" y también en "standings" de la misma competición).
 EXTERNAL_LOGO_CACHE: dict[str, str] = {}
 
-# La key pública de pruebas "3" de TheSportsDB es compartida entre todo el
-# mundo que no se registra, y tiene un límite por minuto. Una tanda de ~130
-# equipos sin espaciar los pedidos lo agota a mitad de camino: los primeros
-# equipos (División Profesional, Libertadores) salían bien y los que se
-# procesaban después (Sudamericana, Simón Bolívar) empezaban a fallar por
-# 429 aunque el club sí estuviera en la base — no era que faltara el dato.
+# La key pública de pruebas "3" de TheSportsDB es compartida por cualquiera
+# que no se registre, y en los runners de GitHub Actions (IPs compartidas
+# entre miles de workflows ajenos) resultó poco confiable incluso espaciando
+# los propios pedidos: dos corridas con el mismo código, separadas por 20
+# minutos, dieron resultados distintos (a veces peor) para los mismos
+# equipos. Por eso Wikipedia (sin key compartida) va primero, y TheSportsDB
+# queda como bonus oportunista cuando le toca un momento sin congestión.
 _THESPORTSDB_MIN_INTERVAL = 1.2
 _thesportsdb_last_call = [0.0]
 
@@ -1204,34 +1205,8 @@ def _thesportsdb_throttle() -> None:
     _thesportsdb_last_call[0] = time.monotonic()
 
 
-def _thesportsdb_team_logo(http, team_name: str) -> str:
-    # Primera opción: TheSportsDB es una base de datos deportiva pensada
-    # justo para esto (devuelve el escudo del equipo, "strTeamBadge"), a
-    # diferencia de adivinar la imagen principal de un artículo de Wikipedia
-    # (que puede terminar trayendo la foto de la cancha o de un jugador en
-    # vez del escudo). "3" es la API key pública de pruebas que publica
-    # TheSportsDB, sin necesidad de registrarse; se puede pisar con
-    # THESPORTSDB_API_KEY si en algún momento se consigue una key propia.
-    api_key = os.getenv("THESPORTSDB_API_KEY", "3")
-    try:
-        _thesportsdb_throttle()
-        resp = http.get(
-            f"https://www.thesportsdb.com/api/v1/json/{api_key}/searchteams.php",
-            params={"t": team_name},
-        )
-        teams = resp.json().get("teams") or []
-        for team in teams:
-            badge = clean_text(team.get("strTeamBadge") or "")
-            if badge:
-                return badge
-    except Exception:
-        pass
-    return ""
-
-
 def _wikipedia_club_logo(http, team_name: str) -> str:
-    # Red de contención cuando ni FBF/promediosinfo ni TheSportsDB tienen al
-    # equipo: la tabla de grupos de Wikipedia no trae escudo de club (solo la
+    # La tabla de grupos/llaves de Wikipedia no trae escudo de club (solo la
     # bandera del país en las llaves de Libertadores/Sudamericana), pero la
     # ficha propia del club sí suele traer el escudo como imagen principal
     # del artículo. Se resuelve el artículo por búsqueda y se pide su imagen
@@ -1261,11 +1236,35 @@ def _wikipedia_club_logo(http, team_name: str) -> str:
     return ""
 
 
+def _thesportsdb_team_logo(http, team_name: str) -> str:
+    # TheSportsDB devuelve el escudo directo ("strTeamBadge") en vez de
+    # adivinar la imagen principal de un artículo, así que cuando responde
+    # bien es más preciso que Wikipedia — pero solo se prueba como bonus
+    # (ver comentario de EXTERNAL_LOGO_CACHE) porque su key pública es poco
+    # confiable en runners compartidos. Pisable con THESPORTSDB_API_KEY si
+    # en algún momento se consigue una key propia.
+    api_key = os.getenv("THESPORTSDB_API_KEY", "3")
+    try:
+        _thesportsdb_throttle()
+        resp = http.get(
+            f"https://www.thesportsdb.com/api/v1/json/{api_key}/searchteams.php",
+            params={"t": team_name},
+        )
+        teams = resp.json().get("teams") or []
+        for team in teams:
+            badge = clean_text(team.get("strTeamBadge") or "")
+            if badge:
+                return badge
+    except Exception:
+        pass
+    return ""
+
+
 def _lookup_team_logo(http, team_name: str) -> str:
     key = normalize_title(team_name)
     if key in EXTERNAL_LOGO_CACHE:
         return EXTERNAL_LOGO_CACHE[key]
-    logo = _thesportsdb_team_logo(http, team_name) or _wikipedia_club_logo(http, team_name)
+    logo = _wikipedia_club_logo(http, team_name) or _thesportsdb_team_logo(http, team_name)
     EXTERNAL_LOGO_CACHE[key] = logo
     return logo
 

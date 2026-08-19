@@ -1,6 +1,6 @@
 {
   "schema_version": 5,
-  "generated_at": "2026-08-19T17:08:05.609604Z",
+  "generated_at": "2026-08-19T17:26:19.450701Z",
   "architecture": "3 Facebook groups + 1 web group; staggered schedules; cached last-good Facebook data",
   "facebook_groups": [
     {
@@ -24,22 +24,26 @@
   ],
   "totals": {
     "facebook_items": 54,
-    "web_latest_items": 168,
-    "app_feed_items": 222
+    "web_latest_items": 169,
+    "app_feed_items": 223
   },
   "web": {
-    "generated_at": "2026-08-19T16:31:05.782838Z",
+    "generated_at": "2026-08-19T17:26:19.332315Z",
     "totals": {
       "items_before_filter": 573,
-      "items_after_filter_dedupe": 379,
-      "web_sources_ok": 29,
-      "web_sources_error": 2,
+      "items_after_filter_dedupe": 381,
+      "web_sources_ok": 28,
+      "web_sources_error": 3,
       "social_items": 0
     },
     "errors": [
       {
         "source": "promediosinfo_bolivia",
         "error": "HTTPError: 403 Client Error: Forbidden for url: https://promediosinfo.com/liga/bolivia.html"
+      },
+      {
+        "source": "futboldebolivia_copa_pacena_grupo_c",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.futboldebolivia.net/2026/08/grupo-c-resultados-y-posiciones-copa.html&q=EgQE7KSiGLjOl9QGIi1ZnwMBUs0ZOEX-ccGiejZuA90qfSmcIcb3IkMQV7BP6O9dkjNyjHc-hqAGJWkyAnJSWgFD"
       }
     ]
   },

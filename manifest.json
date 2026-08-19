@@ -1,6 +1,6 @@
 {
   "schema_version": 5,
-  "generated_at": "2026-08-19T03:53:30.845289Z",
+  "generated_at": "2026-08-19T04:39:16.565617Z",
   "architecture": "3 Facebook groups + 1 web group; staggered schedules; cached last-good Facebook data",
   "facebook_groups": [
     {
@@ -28,7 +28,7 @@
     "app_feed_items": 200
   },
   "web": {
-    "generated_at": "2026-08-19T03:53:30.724819Z",
+    "generated_at": "2026-08-19T04:39:16.453937Z",
     "totals": {
       "items_before_filter": 210,
       "items_after_filter_dedupe": 173,

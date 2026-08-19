@@ -1594,6 +1594,14 @@ def _merge_matches(match_items: list[Item]) -> dict[str, Any]:
     merged_rows.sort(key=lambda r: _jornada_num(r[0]))
     sources_used = sorted({v[2] for v in best_by_match.values()})
 
+    # Cada fila de partido tiene DOS equipos (local y visitante), no un solo
+    # nombre por fila como en standings — se agregan 2 columnas más al final
+    # con el escudo de cada uno, buscado por nombre en TEAM_LOGOS.
+    for row in merged_rows:
+        home_logo = TEAM_LOGOS.get(normalize_title(row[1]), "") if len(row) > 1 else ""
+        away_logo = TEAM_LOGOS.get(normalize_title(row[3]), "") if len(row) > 3 else ""
+        row.extend([home_logo, away_logo])
+
     return {
         "kind": "matches",
         "title": "Partidos por fecha",
@@ -1603,7 +1611,7 @@ def _merge_matches(match_items: list[Item]) -> dict[str, Any]:
         "competition": match_items[0].competition if match_items else "",
         "scraped_at": max((it.scraped_at or "" for it in match_items), default=""),
         "extra": {
-            "header": ["Fecha", "Local", "Resultado", "Visitante", "Estadio", "FechaPartido", "Hora"],
+            "header": ["Fecha", "Local", "Resultado", "Visitante", "Estadio", "FechaPartido", "Hora", "LocalLogo", "VisitanteLogo"],
             "rows": merged_rows,
             "selected_as_current": True,
             "selection_reason": "se combina por partido (fecha+equipos) entre todas las fuentes, sin duplicar",

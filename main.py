@@ -1266,6 +1266,69 @@ def extract_scorer_text(soup: BeautifulSoup, source: dict[str, Any], base_url: s
     )]
 
 
+_FECHA_LINE_RE = re.compile(r"^Fecha\s+\d+$", re.I)
+_DATE_LINE_RE = re.compile(
+    r"^(lunes|martes|mi[eé]rcoles|jueves|viernes|s[aá]bado|domingo)\s+\d{1,2}\s+de\s+\w+", re.I
+)
+_TIME_SCORE_RE = re.compile(
+    r"^(?P<hh>\d{1,2}):(?P<mm>\d{2})\s+(?P<home>.+?)\s+(?P<hg>\d+)\s*[-–]\s*(?P<ag>\d+)\s+(?P<away>.+)$"
+)
+_TIME_VS_RE = re.compile(
+    r"^(?P<hh>\d{1,2}):(?P<mm>\d{2})\s+(?P<home>.+?)\s+vs\.?\s+(?P<away>.+)$", re.I
+)
+
+
+def extract_prose_matches(soup: BeautifulSoup, source: dict[str, Any], base_url: str) -> list[Item]:
+    # Fuentes como FutbolDeBolivia.net publican los resultados como texto
+    # suelto ("18:00 Guabira 2 - 1 FC Universitario"), no en una <table> — su
+    # tabla de posiciones real la arma JavaScript, así que no sirve de nada
+    # buscar <table> ahí. En cambio el texto del resultado SÍ es HTML
+    # estático y se puede parsear línea por línea.
+    container = soup.find(class_=re.compile("post-body|entry-content")) or soup
+    text = container.get_text("\n", strip=True)
+    lines = [clean_text(l) for l in text.split("\n") if clean_text(l)]
+
+    by_fecha: dict[str, list[list[str]]] = defaultdict(list)
+    current_fecha = "Fecha 1"
+    current_date = ""
+    for line in lines:
+        if _FECHA_LINE_RE.match(line):
+            current_fecha = line
+            continue
+        if _DATE_LINE_RE.match(line):
+            current_date = line
+            continue
+        m = _TIME_SCORE_RE.match(line)
+        if m:
+            by_fecha[current_fecha].append([
+                m.group("home").strip(), f"{m.group('hg')} – {m.group('ag')}", m.group("away").strip(),
+                "", current_date, f"{m.group('hh')}:{m.group('mm')}",
+            ])
+            continue
+        m = _TIME_VS_RE.match(line)
+        if m:
+            by_fecha[current_fecha].append([
+                m.group("home").strip(), "–", m.group("away").strip(),
+                "", current_date, f"{m.group('hh')}:{m.group('mm')}",
+            ])
+
+    if not by_fecha:
+        return []
+    heading_node = soup.find("h1") or soup.find("title")
+    title_base = clean_text(heading_node.get_text(" ", strip=True))[:120] if heading_node else ""
+    out: list[Item] = []
+    for idx, (fecha, rows) in enumerate(by_fecha.items()):
+        out.append(Item(
+            id=stable_id(source["id"], "matches_prose", fecha, str(idx)), kind="matches",
+            title=f"{title_base} — {fecha}" if title_base else fecha, url=base_url,
+            published_at=None, scraped_at=utc_now_iso(), source_id=source["id"], source_name=source["name"],
+            source_type=source.get("source_type", "web"), source_authority=float(source.get("authority", 0.7)),
+            scope=source.get("scope", "general"), competition=source.get("competition", "general"),
+            extra={"rows": [[fecha], ["Local", "Resultado", "Visitante", "Estadio", "FechaPartido", "Hora"], *rows]},
+        ))
+    return out
+
+
 def scrape_web_source(http, source: dict[str, Any]) -> list[Item]:
     r = http.get(source["url"])
     soup = BeautifulSoup(r.content, "lxml")
@@ -1278,6 +1341,8 @@ def scrape_web_source(http, source: dict[str, Any]) -> list[Item]:
     if not source.get("skip_tables", False):
         items.extend(extract_tables(soup, source, r.url))
         items.extend(extract_scorer_text(soup, source, r.url))
+    if source.get("prose_matches", False):
+        items.extend(extract_prose_matches(soup, source, r.url))
     # Deduplicación exacta local por ID.
     unique = {x.id: x for x in items}
     return list(unique.values())
@@ -1345,38 +1410,105 @@ def _jornada_num(label: str) -> int:
 
 def _merge_matches(match_items: list[Item]) -> dict[str, Any]:
     # A diferencia de standings/top_scorers (una sola tabla vigente), los
-    # partidos vienen en una tabla POR FECHA (Fecha 1, Fecha 2, ...). Hay que
-    # juntarlas todas, no solo quedarse con "la mejor", si no perderíamos 29
-    # de las 30 fechas del torneo.
-    by_source: dict[str, list[Item]] = defaultdict(list)
-    for it in match_items:
-        by_source[it.source_id].append(it)
-    best_source_id = max(by_source, key=lambda sid: sum(_structured_quality(x) for x in by_source[sid]) / len(by_source[sid]))
-    chosen = by_source[best_source_id]
-
-    merged_rows: list[list[str]] = []
-    for it in chosen:
+    # partidos pueden venir repartidos entre varias fuentes que NO se
+    # solapan (ej. FutbolDeBolivia publica Grupo A/B/C/D en 4 páginas
+    # distintas). Elegir "la mejor fuente" y descartar el resto perdería 3
+    # de los 4 grupos. En cambio se combina por PARTIDO (fecha + equipos):
+    # si dos fuentes traen el mismo partido, gana la de mejor puntaje; si
+    # son partidos distintos (otro grupo), se quedan ambos.
+    best_by_match: dict[tuple[str, str, str], tuple[float, list[str], str]] = {}
+    for it in sorted(match_items, key=_structured_quality, reverse=True):
         rows = it.extra.get("rows") if isinstance(it.extra, dict) else None
         if not rows or len(rows) < 3:
             continue
         jornada = clean_text(rows[0][0]) if rows[0] else ""
+        quality = _structured_quality(it)
         for row in rows[2:]:
-            if row:
-                merged_rows.append([jornada, *row])
+            if not row or len(row) < 3:
+                continue
+            key = (normalize_title(jornada), normalize_title(row[0]), normalize_title(row[2]))
+            if key not in best_by_match or quality > best_by_match[key][0]:
+                best_by_match[key] = (quality, [jornada, *row], it.source_name)
+
+    merged_rows = [v[1] for v in best_by_match.values()]
     merged_rows.sort(key=lambda r: _jornada_num(r[0]))
+    sources_used = sorted({v[2] for v in best_by_match.values()})
 
     return {
         "kind": "matches",
         "title": "Partidos por fecha",
-        "source_id": best_source_id,
-        "source_name": chosen[0].source_name,
-        "competition": chosen[0].competition,
-        "scraped_at": max((it.scraped_at or "" for it in chosen), default=""),
+        "source_id": "merged",
+        "source_name": " + ".join(sources_used),
+        "competition": match_items[0].competition if match_items else "",
+        "scraped_at": max((it.scraped_at or "" for it in match_items), default=""),
         "extra": {
             "header": ["Fecha", "Local", "Resultado", "Visitante", "Estadio", "FechaPartido", "Hora"],
             "rows": merged_rows,
             "selected_as_current": True,
-            "selection_reason": "se combinan todas las tablas de fecha de la fuente con mejor puntaje",
+            "selection_reason": "se combina por partido (fecha+equipos) entre todas las fuentes, sin duplicar",
+        },
+    }
+
+
+def _compute_standings_from_matches(matches_table: dict[str, Any]) -> dict[str, Any] | None:
+    # Cuando ninguna fuente trae una tabla de posiciones lista (ej. Copa
+    # Paceña: 365Scores/FutbolDeBolivia arman la suya con JavaScript), se
+    # calcula la nuestra sumando resultado por resultado: 3 pts victoria,
+    # 1 empate, 0 derrota. Solo cuenta partidos que ya tienen marcador
+    # (rows con "Resultado" tipo "N – N"; los pendientes traen "–" solo).
+    rows = matches_table.get("extra", {}).get("rows", [])
+    score_re = re.compile(r"^(\d+)\s*[-–]\s*(\d+)$")
+    stats: dict[str, dict[str, int]] = {}
+
+    def team(name: str) -> dict[str, int]:
+        return stats.setdefault(name, {"pj": 0, "g": 0, "e": 0, "p": 0, "gf": 0, "gc": 0})
+
+    for row in rows:
+        # El merge antepone la fecha: [Fecha, Local, Resultado, Visitante, ...]
+        if len(row) < 4:
+            continue
+        home, resultado, away = row[1], row[2], row[3]
+        m = score_re.match(clean_text(resultado))
+        if not m or not home or not away:
+            continue
+        hg, ag = int(m.group(1)), int(m.group(2))
+        h, a = team(home), team(away)
+        h["pj"] += 1; a["pj"] += 1
+        h["gf"] += hg; h["gc"] += ag
+        a["gf"] += ag; a["gc"] += hg
+        if hg > ag:
+            h["g"] += 1; a["p"] += 1
+        elif hg < ag:
+            a["g"] += 1; h["p"] += 1
+        else:
+            h["e"] += 1; a["e"] += 1
+
+    if not stats:
+        return None
+    table_rows = []
+    for name, s in stats.items():
+        pts = s["g"] * 3 + s["e"]
+        dg = s["gf"] - s["gc"]
+        table_rows.append((pts, dg, s["gf"], name, s))
+    table_rows.sort(key=lambda t: (t[0], t[1], t[2]), reverse=True)
+
+    header = ["Pos", "Equipo", "Pts", "PJ", "G", "E", "P", "GF", "GC", "DG"]
+    out_rows = [header]
+    for pos, (pts, dg, gf, name, s) in enumerate(table_rows, start=1):
+        out_rows.append([str(pos), name, str(pts), str(s["pj"]), str(s["g"]), str(s["e"]), str(s["p"]),
+                          str(s["gf"]), str(s["gc"]), (f"+{dg}" if dg > 0 else str(dg))])
+
+    return {
+        "kind": "standings",
+        "title": "Tabla calculada a partir de resultados",
+        "source_id": "computed",
+        "source_name": f"Calculada desde: {matches_table.get('source_name', '')}",
+        "competition": matches_table.get("competition", ""),
+        "scraped_at": matches_table.get("scraped_at", ""),
+        "extra": {
+            "rows": out_rows,
+            "selected_as_current": True,
+            "selection_reason": "ninguna fuente trae tabla de posiciones lista; se calculó sumando los resultados de matches",
         },
     }
 
@@ -1391,9 +1523,11 @@ def build_current_tables(items: list[Item]) -> dict[str, Any]:
     competitions: dict[str, Any] = {}
     for comp, kinds in grouped.items():
         chosen: dict[str, Any] = {}
+        # "matches" primero: si no hay standings real, se calcula desde acá.
+        if "matches" in kinds:
+            chosen["matches"] = _merge_matches(kinds["matches"])
         for kind, rows in kinds.items():
             if kind == "matches":
-                chosen[kind] = _merge_matches(rows)
                 continue
             if kind == "standings":
                 strong = [z for z in rows if isinstance(z.extra, dict) and z.extra.get("strong_standings")]
@@ -1406,6 +1540,10 @@ def build_current_tables(items: list[Item]) -> dict[str, Any]:
                 d['extra']['selected_as_current'] = True
                 d['extra']['selection_reason'] = 'prioriza fuente oficial/autoridad + tipo de tabla + cantidad de filas'
                 chosen[kind] = d
+        if "standings" not in chosen and "matches" in chosen:
+            computed = _compute_standings_from_matches(chosen["matches"])
+            if computed:
+                chosen["standings"] = computed
         if chosen:
             competitions[comp] = chosen
     return {

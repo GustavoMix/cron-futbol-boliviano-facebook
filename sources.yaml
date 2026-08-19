@@ -41,6 +41,9 @@ web_sources:
   competition: copa_division_profesional
   source_type: federation
   authority: 1.0
+  # Igual que fbf_profesional: su tabla queda atrasada (PJ=14 de una
+  # temporada vieja); se sigue scrapeando noticias pero no su tabla/goleadores.
+  skip_tables: true
 - id: fbf_simon_bolivar
   enabled: true
   name: FBF - Copa Simón Bolívar
@@ -193,6 +196,50 @@ web_sources:
   competition: division_profesional
   source_type: encyclopedia
   authority: 0.92
+- id: futboldebolivia_copa_pacena_grupo_a
+  enabled: true
+  name: FutbolDeBolivia.net - Copa Paceña Grupo A
+  url: https://www.futboldebolivia.net/2026/08/grupo-resultados-y-posiciones-copa.html
+  scope: bolivia
+  competition: copa_division_profesional
+  source_type: media
+  authority: 0.9
+  # Su tabla de posiciones "lista" la arma JavaScript (no está en el HTML);
+  # en cambio los resultados con hora/goles sí son texto plano scrapeable.
+  prose_matches: true
+- id: futboldebolivia_copa_pacena_grupo_b
+  enabled: true
+  name: FutbolDeBolivia.net - Copa Paceña Grupo B
+  url: https://www.futboldebolivia.net/2026/08/grupo-b-resultados-y-posiciones-copa.html
+  scope: bolivia
+  competition: copa_division_profesional
+  source_type: media
+  authority: 0.9
+  # Su tabla de posiciones "lista" la arma JavaScript (no está en el HTML);
+  # en cambio los resultados con hora/goles sí son texto plano scrapeable.
+  prose_matches: true
+- id: futboldebolivia_copa_pacena_grupo_c
+  enabled: true
+  name: FutbolDeBolivia.net - Copa Paceña Grupo C
+  url: https://www.futboldebolivia.net/2026/08/grupo-c-resultados-y-posiciones-copa.html
+  scope: bolivia
+  competition: copa_division_profesional
+  source_type: media
+  authority: 0.9
+  # Su tabla de posiciones "lista" la arma JavaScript (no está en el HTML);
+  # en cambio los resultados con hora/goles sí son texto plano scrapeable.
+  prose_matches: true
+- id: futboldebolivia_copa_pacena_grupo_d
+  enabled: true
+  name: FutbolDeBolivia.net - Copa Paceña Grupo D
+  url: https://www.futboldebolivia.net/2026/08/grupo-d-resultados-y-posiciones-copa.html
+  scope: bolivia
+  competition: copa_division_profesional
+  source_type: media
+  authority: 0.9
+  # Su tabla de posiciones "lista" la arma JavaScript (no está en el HTML);
+  # en cambio los resultados con hora/goles sí son texto plano scrapeable.
+  prose_matches: true
 facebook:
   enabled: true
   page_queries:

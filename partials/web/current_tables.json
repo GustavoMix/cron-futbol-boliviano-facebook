@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-08-19T19:24:47.295765Z",
+  "generated_at": "2026-08-19T20:27:00.413140Z",
   "policy": "una tabla por competición/tipo; fuentes oficiales tienen prioridad",
   "competitions": {
     "division_profesional": {
@@ -11,7 +11,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-08-19T19:24:31.238624Z",
+        "scraped_at": "2026-08-19T20:26:56.491439Z",
         "extra": {
           "header": [
             "Fecha",
@@ -2681,7 +2681,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-19T19:24:31.193731Z",
+        "scraped_at": "2026-08-19T20:26:56.436030Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -2951,7 +2951,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-19T19:24:31.242365Z",
+        "scraped_at": "2026-08-19T20:26:56.495935Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -3047,7 +3047,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-19T19:24:31.243090Z",
+        "scraped_at": "2026-08-19T20:26:56.496751Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -3121,7 +3121,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-19T19:24:31.245190Z",
+        "scraped_at": "2026-08-19T20:26:56.499345Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -3307,7 +3307,7 @@
         "source_name": "Wikipedia - Copa Simón Bolívar 2026",
         "scope": "bolivia",
         "competition": "simon_bolivar",
-        "scraped_at": "2026-08-19T19:24:46.082003Z",
+        "scraped_at": "2026-08-19T20:26:59.033004Z",
         "extra": {
           "header": [
             "Fecha",
@@ -4521,7 +4521,7 @@
         "source_name": "Beni (ABF) + Chuquisaca (ACHF) + Cochabamba (AFC) + Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + La Paz (AFLP) + Oruro (AFO) + Pando (AFP) + Potosí (AFP) + Santa Cruz (ACF) + Tarija (ATF)",
         "scope": "bolivia",
         "competition": "simon_bolivar",
-        "scraped_at": "2026-08-19T19:24:46.085491Z",
+        "scraped_at": "2026-08-19T20:26:59.037374Z",
         "extra": {
           "rows": [
             [
@@ -5440,7 +5440,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-19T19:24:46.677345Z",
+        "scraped_at": "2026-08-19T20:26:59.645754Z",
         "extra": {
           "header": [
             "Fecha",
@@ -5642,7 +5642,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-19T19:24:46.630143Z",
+        "scraped_at": "2026-08-19T20:26:59.589613Z",
         "extra": {
           "rows": [
             [
@@ -6092,7 +6092,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-19T19:24:46.653853Z",
+        "scraped_at": "2026-08-19T20:26:59.619026Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -6180,7 +6180,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-19T19:24:46.654585Z",
+        "scraped_at": "2026-08-19T20:26:59.619959Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -6264,7 +6264,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-19T19:24:47.232110Z",
+        "scraped_at": "2026-08-19T20:27:00.338518Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6642,7 +6642,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-19T19:24:47.152563Z",
+        "scraped_at": "2026-08-19T20:27:00.243321Z",
         "extra": {
           "rows": [
             [
@@ -7092,7 +7092,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-19T19:24:47.194891Z",
+        "scraped_at": "2026-08-19T20:27:00.295296Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -7152,7 +7152,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-19T19:24:47.195317Z",
+        "scraped_at": "2026-08-19T20:27:00.295824Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -7209,10 +7209,10 @@
         "kind": "matches",
         "title": "Partidos por fecha",
         "source_id": "merged",
-        "source_name": "FutbolDeBolivia.net - Copa Paceña Grupo B",
+        "source_name": "FutbolDeBolivia.net - Copa Paceña Grupo A + FutbolDeBolivia.net - Copa Paceña Grupo B + FutbolDeBolivia.net - Copa Paceña Grupo C + FutbolDeBolivia.net - Copa Paceña Grupo D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-08-19T19:24:37.434384Z",
+        "scraped_at": "2026-08-19T20:26:58.274380Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7228,6 +7228,72 @@
           "rows": [
             [
               "Fecha 1",
+              "San Antonio",
+              "0 – 1",
+              "Aurora",
+              "",
+              "Martes 18 de agosto de 2026",
+              "15:00",
+              "",
+              "https://fbf.com.bo/wp-content/uploads/2025/12/1-2-400x400.png"
+            ],
+            [
+              "Fecha 1",
+              "ABB",
+              "–",
+              "Real Potosi",
+              "",
+              "Miercoles 19 de agosto de 2026",
+              "15:00",
+              "",
+              ""
+            ],
+            [
+              "Fecha 1",
+              "Guabira",
+              "2 – 1",
+              "FC Universitario",
+              "",
+              "Martes 18 de Agosto",
+              "18:00",
+              "",
+              "https://fbf.com.bo/wp-content/uploads/2025/12/1-5-400x400.png"
+            ],
+            [
+              "Fecha 1",
+              "The Strongest",
+              "2 – 1",
+              "Oriente Petrolero",
+              "",
+              "Martes 18 de Agosto",
+              "20:00",
+              "https://fbf.com.bo/wp-content/uploads/2025/12/1-11-400x400.png",
+              ""
+            ],
+            [
+              "Fecha 1",
+              "Independiente",
+              "–",
+              "Blooming",
+              "",
+              "Miercoles 19 de agosto",
+              "18:00",
+              "https://fbf.com.bo/wp-content/uploads/2025/12/1-12-400x400.png",
+              "https://fbf.com.bo/wp-content/uploads/2025/12/1-4-400x400.png"
+            ],
+            [
+              "Fecha 1",
+              "GV San Jose",
+              "–",
+              "Bolivar",
+              "",
+              "Miercoles 2 de Septiembre",
+              "15:00",
+              "",
+              "https://fbf.com.bo/wp-content/uploads/2025/12/1-3-400x400.png"
+            ],
+            [
+              "Fecha 1",
               "Nacional Potosi",
               "–",
               "Real Tomayapo",
@@ -7236,17 +7302,6 @@
               "20:00",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-9-400x400.png",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-6-400x400.png"
-            ],
-            [
-              "Fecha 2",
-              "Gualberto Villarroel San Jose",
-              "–",
-              "Real Oruro",
-              "",
-              "Sabado 29 de Agosto",
-              "15:00",
-              "",
-              ""
             ],
             [
               "Fecha 2",
@@ -7272,6 +7327,39 @@
             ],
             [
               "Fecha 2",
+              "San Antonio",
+              "–",
+              "Guabira",
+              "",
+              "Lunes 31 de Agosto",
+              "15:00",
+              "",
+              ""
+            ],
+            [
+              "Fecha 2",
+              "FC Universitario",
+              "–",
+              "Aurora",
+              "",
+              "Martes 1 de septiembre",
+              "19:00",
+              "https://fbf.com.bo/wp-content/uploads/2025/12/1-5-400x400.png",
+              "https://fbf.com.bo/wp-content/uploads/2025/12/1-2-400x400.png"
+            ],
+            [
+              "Fecha 2",
+              "Gualberto Villarroel San Jose",
+              "–",
+              "Real Oruro",
+              "",
+              "Sabado 29 de Agosto",
+              "15:00",
+              "",
+              ""
+            ],
+            [
+              "Fecha 2",
               "Real Tomayapo",
               "–",
               "Independiente",
@@ -7280,10 +7368,140 @@
               "20:00",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-6-400x400.png",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-12-400x400.png"
+            ],
+            [
+              "Fecha 2",
+              "Bolivar",
+              "–",
+              "The Strongest",
+              "",
+              "Domingo 30 de agosto",
+              "17:15",
+              "https://fbf.com.bo/wp-content/uploads/2025/12/1-3-400x400.png",
+              "https://fbf.com.bo/wp-content/uploads/2025/12/1-11-400x400.png"
+            ],
+            [
+              "Fecha 2",
+              "Blooming",
+              "–",
+              "Oriente Petrolero",
+              "",
+              "Domingo 30 de agosto",
+              "19:30",
+              "https://fbf.com.bo/wp-content/uploads/2025/12/1-4-400x400.png",
+              ""
             ]
           ],
           "selected_as_current": true,
           "selection_reason": "se combina por partido (fecha+equipos) entre todas las fuentes, sin duplicar"
+        }
+      },
+      "standings": {
+        "kind": "standings",
+        "title": "Tabla calculada a partir de resultados",
+        "source_id": "computed",
+        "source_name": "Calculada desde: FutbolDeBolivia.net - Copa Paceña Grupo A + FutbolDeBolivia.net - Copa Paceña Grupo B + FutbolDeBolivia.net - Copa Paceña Grupo C + FutbolDeBolivia.net - Copa Paceña Grupo D",
+        "scope": "bolivia",
+        "competition": "copa_division_profesional",
+        "scraped_at": "2026-08-19T20:26:58.274380Z",
+        "extra": {
+          "rows": [
+            [
+              "Pos",
+              "Equipo",
+              "Pts",
+              "PJ",
+              "G",
+              "E",
+              "P",
+              "GF",
+              "GC",
+              "DG"
+            ],
+            [
+              "1",
+              "Guabira",
+              "3",
+              "1",
+              "1",
+              "0",
+              "0",
+              "2",
+              "1",
+              "+1"
+            ],
+            [
+              "2",
+              "The Strongest",
+              "3",
+              "1",
+              "1",
+              "0",
+              "0",
+              "2",
+              "1",
+              "+1"
+            ],
+            [
+              "3",
+              "Aurora",
+              "3",
+              "1",
+              "1",
+              "0",
+              "0",
+              "1",
+              "0",
+              "+1"
+            ],
+            [
+              "4",
+              "FC Universitario",
+              "0",
+              "1",
+              "0",
+              "0",
+              "1",
+              "1",
+              "2",
+              "-1"
+            ],
+            [
+              "5",
+              "Oriente Petrolero",
+              "0",
+              "1",
+              "0",
+              "0",
+              "1",
+              "1",
+              "2",
+              "-1"
+            ],
+            [
+              "6",
+              "San Antonio",
+              "0",
+              "1",
+              "0",
+              "0",
+              "1",
+              "0",
+              "1",
+              "-1"
+            ]
+          ],
+          "selected_as_current": true,
+          "selection_reason": "ninguna fuente trae tabla de posiciones lista; se calculó sumando los resultados de matches",
+          "logos": [
+            "",
+            "",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-11-400x400.png",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-2-400x400.png",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-5-400x400.png",
+            "",
+            ""
+          ]
         }
       }
     }

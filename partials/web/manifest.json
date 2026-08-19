@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-08-19T15:34:45.690764Z",
+  "generated_at": "2026-08-19T16:31:05.782838Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,10 +9,10 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 213
+      "items": 299
     },
     "conmebol.json": {
-      "items": 7
+      "items": 80
     },
     "internacional.json": {
       "items": 0
@@ -21,13 +21,13 @@
       "items": 0
     },
     "latest.json": {
-      "items": 166
+      "items": 168
     },
     "facebook_latest.json": {
       "items": 0
     },
     "app_feed.json": {
-      "items": 166
+      "items": 168
     },
     "current_tables.json": {
       "items": 0
@@ -197,6 +197,24 @@
       "items": 3
     },
     {
+      "id": "wikipedia_simon_bolivar",
+      "name": "Wikipedia - Copa Simón Bolívar 2026",
+      "ok": true,
+      "items": 171
+    },
+    {
+      "id": "wikipedia_libertadores",
+      "name": "Wikipedia - Copa Libertadores 2026",
+      "ok": true,
+      "items": 65
+    },
+    {
+      "id": "wikipedia_sudamericana",
+      "name": "Wikipedia - Copa Sudamericana 2026",
+      "ok": true,
+      "items": 74
+    },
+    {
       "id": "facebook",
       "name": "Facebook (Graph/public web)",
       "ok": false,
@@ -210,9 +228,9 @@
     }
   ],
   "totals": {
-    "items_before_filter": 263,
-    "items_after_filter_dedupe": 220,
-    "web_sources_ok": 26,
+    "items_before_filter": 573,
+    "items_after_filter_dedupe": 379,
+    "web_sources_ok": 29,
     "web_sources_error": 2,
     "social_items": 0
   }

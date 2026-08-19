@@ -39,5 +39,18 @@ jobs:
           git add partials/web facebook_latest.json social.json latest.json app_feed.json current_tables.json bolivia.json conmebol.json internacional.json manifest.json
           git diff --cached --quiet && exit 0
           git commit -m "data: web noticias y tablas"
-          git pull --rebase origin "$GITHUB_REF_NAME"
-          git push origin HEAD:"$GITHUB_REF_NAME"
+
+          # Otros workflows (facebook-*) regeneran y commitean estos mismos
+          # JSON en paralelo; si su push cae justo entre nuestro fetch y
+          # nuestro push, el rebase choca. Reintentamos con fetch fresco en
+          # cada vuelta en vez de rendirnos en el primer choque.
+          for attempt in 1 2 3 4 5; do
+            if git pull --rebase origin "$GITHUB_REF_NAME" && git push origin HEAD:"$GITHUB_REF_NAME"; then
+              exit 0
+            fi
+            echo "Intento $attempt de subir falló (probablemente otro workflow escribió al mismo tiempo); reintentando..."
+            git rebase --abort 2>/dev/null || true
+            sleep $((attempt * 8))
+          done
+          echo "::error::No se pudo subir los datos después de varios intentos (conflicto persistente con otro workflow)."
+          exit 1

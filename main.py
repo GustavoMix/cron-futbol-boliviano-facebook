@@ -1166,13 +1166,51 @@ def _row_logo(tr: Tag, base_url: str) -> str:
     return ""
 
 
+def _table_row_cells(tr: Tag, pending: dict[int, list]) -> list[str]:
+    # Maneja rowspan (ej. Wikipedia: la columna "Fecha" solo aparece una vez
+    # por día y "cubre" varios partidos). Sin esto, las columnas de las filas
+    # siguientes se corren una posición a la izquierda y terminan mezcladas
+    # (la Hora queda donde debería ir la Fecha, etc.).
+    row: dict[int, str] = {}
+    for col in list(pending.keys()):
+        text, remaining = pending[col]
+        row[col] = text
+        remaining -= 1
+        if remaining <= 0:
+            del pending[col]
+        else:
+            pending[col] = [text, remaining]
+    col = 0
+    for cell in tr.find_all(["th", "td"]):
+        while col in row:
+            col += 1
+        text = clean_text(cell.get_text(" ", strip=True))
+        try:
+            colspan = int(cell.get("colspan", 1) or 1)
+        except ValueError:
+            colspan = 1
+        try:
+            rowspan = int(cell.get("rowspan", 1) or 1)
+        except ValueError:
+            rowspan = 1
+        for i in range(colspan):
+            row[col + i] = text
+            if rowspan > 1:
+                pending[col + i] = [text, rowspan - 1]
+        col += colspan
+    if not row:
+        return []
+    return [row.get(i, "") for i in range(max(row.keys()) + 1)]
+
+
 def extract_tables(soup: BeautifulSoup, source: dict[str, Any], base_url: str) -> list[Item]:
     out: list[Item] = []
     for idx, table in enumerate(soup.find_all("table")):
         rows = []
         logos = []
+        pending: dict[int, list] = {}
         for tr in table.find_all("tr"):
-            cells = [clean_text(c.get_text(" ", strip=True)) for c in tr.find_all(["th", "td"])]
+            cells = _table_row_cells(tr, pending)
             if cells and any(cells):
                 rows.append(cells)
                 logos.append(_row_logo(tr, base_url))
@@ -1181,9 +1219,12 @@ def extract_tables(soup: BeautifulSoup, source: dict[str, Any], base_url: str) -
         heading = _heading_before(table)
         probe = (heading + " " + " ".join(rows[0])).lower()
         # Algunas fuentes (ej. Wikipedia) meten una fila-título de una sola
-        # celda ("Fecha 1") antes de la fila real de encabezados; si pasa
-        # eso, la clasificación debe mirar esa segunda fila, no la celda-título.
-        header_row = rows[1] if len(rows[0]) == 1 and len(rows) > 1 else rows[0]
+        # celda ("Fecha 1") antes de la fila real de encabezados; con colspan
+        # expandido esa celda se repite en varias columnas (mismo texto
+        # repetido), no queda en 1 sola celda. Si pasa eso, la clasificación
+        # debe mirar la segunda fila, no la fila-título.
+        is_caption_row = len(set(rows[0])) <= 1
+        header_row = rows[1] if is_caption_row and len(rows) > 1 else rows[0]
         header_norm = [clean_text(h).lower() for h in header_row]
         # Quita puntos/espacios ("Pts." -> "pts") para no perder la señal
         # fuerte solo porque una fuente (ej. Wikipedia) le pone punto a la
@@ -1226,7 +1267,7 @@ def extract_tables(soup: BeautifulSoup, source: dict[str, Any], base_url: str) -
         if kind == "standings":
             rows = _fix_standings_dg(rows)
         title = heading or f"Tabla {idx + 1}"
-        if kind == "matches" and len(rows[0]) == 1 and rows[0][0]:
+        if kind == "matches" and is_caption_row and rows[0][0]:
             # Sin esto, todas las tablas de "Fecha N" de la misma subsección
             # (ej. "Primera vuelta") comparten título y dedupe() las
             # colapsa en una sola, perdiendo 29 de 30 fechas del torneo.

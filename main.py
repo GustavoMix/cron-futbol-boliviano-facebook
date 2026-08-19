@@ -1182,24 +1182,44 @@ def _row_logo(tr: Tag, base_url: str) -> str:
 # existan en otro lado.
 TEAM_LOGOS: dict[str, str] = {}
 
-# Caché en memoria de la búsqueda en Wikipedia (evita repetir la misma
+# Caché en memoria de la búsqueda externa de escudos (evita repetir la misma
 # consulta dos veces dentro de una corrida, ej. un equipo que aparece en
 # "matches" y también en "standings" de la misma competición).
-WIKI_LOGO_CACHE: dict[str, str] = {}
+EXTERNAL_LOGO_CACHE: dict[str, str] = {}
+
+
+def _thesportsdb_team_logo(http, team_name: str) -> str:
+    # Primera opción: TheSportsDB es una base de datos deportiva pensada
+    # justo para esto (devuelve el escudo del equipo, "strTeamBadge"), a
+    # diferencia de adivinar la imagen principal de un artículo de Wikipedia
+    # (que puede terminar trayendo la foto de la cancha o de un jugador en
+    # vez del escudo). "3" es la API key pública de pruebas que publica
+    # TheSportsDB, sin necesidad de registrarse; se puede pisar con
+    # THESPORTSDB_API_KEY si en algún momento se consigue una key propia.
+    api_key = os.getenv("THESPORTSDB_API_KEY", "3")
+    try:
+        resp = http.get(
+            f"https://www.thesportsdb.com/api/v1/json/{api_key}/searchteams.php",
+            params={"t": team_name},
+        )
+        teams = resp.json().get("teams") or []
+        for team in teams:
+            badge = clean_text(team.get("strTeamBadge") or "")
+            if badge:
+                return badge
+    except Exception:
+        pass
+    return ""
 
 
 def _wikipedia_club_logo(http, team_name: str) -> str:
-    # Red de contención cuando ninguna fuente con imágenes (FBF/promediosinfo)
-    # tiene al equipo: la tabla de grupos de Wikipedia no trae escudo de club
-    # (solo la bandera del país en las llaves de Libertadores/Sudamericana),
-    # pero la ficha propia del club sí suele traer el escudo como imagen
-    # principal del artículo. Se resuelve el artículo por búsqueda y se pide
-    # su imagen en la misma llamada (generator=search + prop=pageimages) para
-    # no duplicar requests por equipo.
-    key = normalize_title(team_name)
-    if key in WIKI_LOGO_CACHE:
-        return WIKI_LOGO_CACHE[key]
-    logo = ""
+    # Red de contención cuando ni FBF/promediosinfo ni TheSportsDB tienen al
+    # equipo: la tabla de grupos de Wikipedia no trae escudo de club (solo la
+    # bandera del país en las llaves de Libertadores/Sudamericana), pero la
+    # ficha propia del club sí suele traer el escudo como imagen principal
+    # del artículo. Se resuelve el artículo por búsqueda y se pide su imagen
+    # en la misma llamada (generator=search + prop=pageimages) para no
+    # duplicar requests por equipo.
     try:
         resp = http.get(
             "https://es.wikipedia.org/w/api.php",
@@ -1218,11 +1238,18 @@ def _wikipedia_club_logo(http, team_name: str) -> str:
         for page in pages.values():
             thumb = ((page.get("thumbnail") or {}).get("source")) or ""
             if thumb:
-                logo = thumb
-                break
+                return thumb
     except Exception:
-        logo = ""
-    WIKI_LOGO_CACHE[key] = logo
+        pass
+    return ""
+
+
+def _lookup_team_logo(http, team_name: str) -> str:
+    key = normalize_title(team_name)
+    if key in EXTERNAL_LOGO_CACHE:
+        return EXTERNAL_LOGO_CACHE[key]
+    logo = _thesportsdb_team_logo(http, team_name) or _wikipedia_club_logo(http, team_name)
+    EXTERNAL_LOGO_CACHE[key] = logo
     return logo
 
 
@@ -1852,11 +1879,12 @@ def build_current_tables(items: list[Item], http: "HttpClient | None" = None) ->
     if http is not None:
         # Antes de armar matches/standings: completa TEAM_LOGOS con lo que
         # falte (Libertadores/Sudamericana/Simón Bolívar, o cualquier equipo
-        # de Bolivia que FBF/promediosinfo no traía) buscando en Wikipedia.
-        # _merge_matches y _backfill_logos ya leen de TEAM_LOGOS, así que con
-        # esto alcanza para que aparezcan en toda la tabla/partido.
+        # de Bolivia que FBF/promediosinfo no traía) buscando en TheSportsDB
+        # y, si ahí tampoco está, en Wikipedia. _merge_matches y
+        # _backfill_logos ya leen de TEAM_LOGOS, así que con esto alcanza
+        # para que aparezcan en toda la tabla/partido.
         for name in _collect_missing_team_names(candidates):
-            logo = _wikipedia_club_logo(http, name)
+            logo = _lookup_team_logo(http, name)
             if logo:
                 TEAM_LOGOS[normalize_title(name)] = logo
     grouped: dict[str, dict[str, list[Item]]] = defaultdict(lambda: defaultdict(list))

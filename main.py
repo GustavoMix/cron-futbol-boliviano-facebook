@@ -1205,13 +1205,57 @@ def _thesportsdb_throttle() -> None:
     _thesportsdb_last_call[0] = time.monotonic()
 
 
+def _wikidata_club_logo(http, team_name: str) -> str:
+    # Mejor fuente para esto: Wikidata guarda el escudo del club en una
+    # propiedad estructurada (P154 "logo image"), a diferencia de adivinar
+    # la imagen principal del artículo de Wikipedia. Eso importa porque los
+    # clubes grandes casi siempre tienen su escudo en SVG en Wikipedia, y la
+    # extensión PageImages de Wikipedia IGNORA los SVG al elegir la imagen
+    # de la página — por eso Corinthians/Palmeiras/Boca quedaban sin nada
+    # incluso probando Wikipedia antes que TheSportsDB. Special:FilePath
+    # además renderiza el SVG a PNG al vuelo, así que el resultado sirve
+    # para mostrar en la app tal cual, sin procesar SVG del lado cliente.
+    try:
+        resp = http.get(
+            "https://es.wikipedia.org/w/api.php",
+            params={
+                "action": "query",
+                "generator": "search",
+                "gsrsearch": f"{team_name} club de fútbol",
+                "gsrlimit": 1,
+                "prop": "pageprops",
+                "ppprop": "wikibase_item",
+                "format": "json",
+            },
+        )
+        pages = (resp.json().get("query") or {}).get("pages") or {}
+        qid = ""
+        for page in pages.values():
+            qid = (page.get("pageprops") or {}).get("wikibase_item") or ""
+            if qid:
+                break
+        if not qid:
+            return ""
+        entity_resp = http.get(f"https://www.wikidata.org/wiki/Special:EntityData/{qid}.json")
+        entity = (entity_resp.json().get("entities") or {}).get(qid) or {}
+        claims = (entity.get("claims") or {}).get("P154") or []
+        for claim in claims:
+            filename = (claim.get("mainsnak") or {}).get("datavalue", {}).get("value")
+            if filename:
+                safe = str(filename).strip().replace(" ", "_")
+                return f"https://commons.wikimedia.org/wiki/Special:FilePath/{safe}?width=200"
+    except Exception:
+        pass
+    return ""
+
+
 def _wikipedia_club_logo(http, team_name: str) -> str:
-    # La tabla de grupos/llaves de Wikipedia no trae escudo de club (solo la
-    # bandera del país en las llaves de Libertadores/Sudamericana), pero la
-    # ficha propia del club sí suele traer el escudo como imagen principal
-    # del artículo. Se resuelve el artículo por búsqueda y se pide su imagen
-    # en la misma llamada (generator=search + prop=pageimages) para no
-    # duplicar requests por equipo.
+    # Red de contención cuando el club no tiene item de Wikidata (o no tiene
+    # P154 cargado): la ficha propia del club en Wikipedia suele traer el
+    # escudo como imagen principal del artículo, aunque con la limitación de
+    # SVG que se explica arriba. Se resuelve el artículo por búsqueda y se
+    # pide su imagen en la misma llamada (generator=search + prop=pageimages)
+    # para no duplicar requests por equipo.
     try:
         resp = http.get(
             "https://es.wikipedia.org/w/api.php",
@@ -1264,7 +1308,11 @@ def _lookup_team_logo(http, team_name: str) -> str:
     key = normalize_title(team_name)
     if key in EXTERNAL_LOGO_CACHE:
         return EXTERNAL_LOGO_CACHE[key]
-    logo = _wikipedia_club_logo(http, team_name) or _thesportsdb_team_logo(http, team_name)
+    logo = (
+        _wikidata_club_logo(http, team_name)
+        or _wikipedia_club_logo(http, team_name)
+        or _thesportsdb_team_logo(http, team_name)
+    )
     EXTERNAL_LOGO_CACHE[key] = logo
     return logo
 

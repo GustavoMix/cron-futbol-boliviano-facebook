@@ -1547,6 +1547,7 @@ def _merge_matches(match_items: list[Item]) -> dict[str, Any]:
         "title": "Partidos por fecha",
         "source_id": "merged",
         "source_name": " + ".join(sources_used),
+        "scope": match_items[0].scope if match_items else "",
         "competition": match_items[0].competition if match_items else "",
         "scraped_at": max((it.scraped_at or "" for it in match_items), default=""),
         "extra": {
@@ -1611,6 +1612,7 @@ def _compute_standings_from_matches(matches_table: dict[str, Any]) -> dict[str, 
         "title": "Tabla calculada a partir de resultados",
         "source_id": "computed",
         "source_name": f"Calculada desde: {matches_table.get('source_name', '')}",
+        "scope": matches_table.get("scope", ""),
         "competition": matches_table.get("competition", ""),
         "scraped_at": matches_table.get("scraped_at", ""),
         "extra": {
@@ -1670,6 +1672,7 @@ def _merge_group_standings(items: list[Item]) -> dict[str, Any]:
         "title": "Tabla por grupos",
         "source_id": "merged",
         "source_name": " + ".join(sorted({it.title for _, it in groups})),
+        "scope": groups[0][1].scope,
         "competition": groups[0][1].competition,
         "scraped_at": max((it.scraped_at or "" for it in items), default=""),
         "extra": {

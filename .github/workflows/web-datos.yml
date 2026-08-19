@@ -41,16 +41,22 @@ jobs:
           git commit -m "data: web noticias y tablas"
 
           # Otros workflows (facebook-*) regeneran y commitean estos mismos
-          # JSON en paralelo; si su push cae justo entre nuestro fetch y
-          # nuestro push, el rebase choca. Reintentamos con fetch fresco en
-          # cada vuelta en vez de rendirnos en el primer choque.
-          for attempt in 1 2 3 4 5; do
-            if git pull --rebase origin "$GITHUB_REF_NAME" && git push origin HEAD:"$GITHUB_REF_NAME"; then
+          # JSON en paralelo. No es una carrera de timing: cada corrida
+          # reescribe el archivo COMPLETO con contenido distinto, así que un
+          # rebase choca con el mismo conflicto sin importar cuántas veces
+          # se reintente (ya lo probamos: 5 reintentos, mismo choque las 5).
+          # En vez de perder toda la corrida, se resuelve el conflicto a
+          # favor de nuestra versión (-X ours): el archivo compartido que
+          # "pierda" por un rato se corrige solo en la próxima corrida de
+          # cualquiera de los dos workflows (corren cada 1-2 h).
+          for attempt in 1 2 3; do
+            git fetch origin "$GITHUB_REF_NAME"
+            if git merge --no-edit -X ours "origin/$GITHUB_REF_NAME" && git push origin HEAD:"$GITHUB_REF_NAME"; then
               exit 0
             fi
-            echo "Intento $attempt de subir falló (probablemente otro workflow escribió al mismo tiempo); reintentando..."
-            git rebase --abort 2>/dev/null || true
-            sleep $((attempt * 8))
+            echo "Intento $attempt de subir falló; reintentando..."
+            git merge --abort 2>/dev/null || true
+            sleep $((attempt * 5))
           done
-          echo "::error::No se pudo subir los datos después de varios intentos (conflicto persistente con otro workflow)."
+          echo "::error::No se pudo subir los datos después de varios intentos."
           exit 1

@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-08-19T18:34:47.211407Z",
+  "generated_at": "2026-08-19T18:51:32.201916Z",
   "policy": "una tabla por competición/tipo; fuentes oficiales tienen prioridad",
   "competitions": {
     "division_profesional": {
@@ -11,7 +11,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-08-19T18:34:43.044064Z",
+        "scraped_at": "2026-08-19T18:51:28.271399Z",
         "extra": {
           "header": [
             "Fecha",
@@ -2681,7 +2681,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-19T18:34:42.995020Z",
+        "scraped_at": "2026-08-19T18:51:28.225187Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -2951,7 +2951,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-19T18:34:43.047976Z",
+        "scraped_at": "2026-08-19T18:51:28.274987Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -3017,13 +3017,6 @@
               "6",
               "10",
               "0.6 0"
-            ],
-            [
-              "Última actualización: 3 de agosto de 2026 . [ 4 ]",
-              "Última actualización: 3 de agosto de 2026 . [ 4 ]",
-              "Última actualización: 3 de agosto de 2026 . [ 4 ]",
-              "Última actualización: 3 de agosto de 2026 . [ 4 ]",
-              "Última actualización: 3 de agosto de 2026 . [ 4 ]"
             ]
           ],
           "logos": [
@@ -3034,12 +3027,11 @@
             "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Flag_of_Guatemala.svg/20px-Flag_of_Guatemala.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/20px-Flag_of_Colombia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            ""
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/20px-Flag_of_Colombia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
           ],
           "strong_standings": false,
           "related_sources": [],
-          "selection_score": 0.986,
+          "selection_score": 0.982,
           "selected_as_current": true,
           "selection_reason": "prioriza fuente oficial/autoridad + tipo de tabla + cantidad de filas"
         }
@@ -3055,7 +3047,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-19T18:34:43.048641Z",
+        "scraped_at": "2026-08-19T18:51:28.275508Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -3101,14 +3093,6 @@
               "Bolívar",
               "4",
               "11"
-            ],
-            [
-              "Última actualización: 3 de agosto de 2026 . [ 5 ]",
-              "Última actualización: 3 de agosto de 2026 . [ 5 ]",
-              "Última actualización: 3 de agosto de 2026 . [ 5 ]",
-              "Última actualización: 3 de agosto de 2026 . [ 5 ]",
-              "Última actualización: 3 de agosto de 2026 . [ 5 ]",
-              "Última actualización: 3 de agosto de 2026 . [ 5 ]"
             ]
           ],
           "logos": [
@@ -3117,12 +3101,11 @@
             "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            ""
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
           ],
           "strong_standings": false,
           "related_sources": [],
-          "selection_score": 0.978,
+          "selection_score": 0.974,
           "selected_as_current": true,
           "selection_reason": "prioriza fuente oficial/autoridad + tipo de tabla + cantidad de filas"
         }
@@ -3138,7 +3121,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-19T18:34:43.050860Z",
+        "scraped_at": "2026-08-19T18:51:28.277591Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -3324,7 +3307,7 @@
         "source_name": "Wikipedia - Copa Simón Bolívar 2026",
         "scope": "bolivia",
         "competition": "simon_bolivar",
-        "scraped_at": "2026-08-19T18:34:45.870979Z",
+        "scraped_at": "2026-08-19T18:51:30.832859Z",
         "extra": {
           "header": [
             "Fecha",
@@ -4538,7 +4521,7 @@
         "source_name": "Beni (ABF) + Chuquisaca (ACHF) + Cochabamba (AFC) + Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + La Paz (AFLP) + Oruro (AFO) + Pando (AFP) + Potosí (AFP) + Santa Cruz (ACF) + Tarija (ATF)",
         "scope": "bolivia",
         "competition": "simon_bolivar",
-        "scraped_at": "2026-08-19T18:34:45.874672Z",
+        "scraped_at": "2026-08-19T18:51:30.836295Z",
         "extra": {
           "rows": [
             [
@@ -5457,7 +5440,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-19T18:34:46.472200Z",
+        "scraped_at": "2026-08-19T18:51:31.447813Z",
         "extra": {
           "header": [
             "Fecha",
@@ -5643,7 +5626,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-19T18:34:46.420902Z",
+        "scraped_at": "2026-08-19T18:51:31.397983Z",
         "extra": {
           "rows": [
             [
@@ -6093,7 +6076,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-19T18:34:46.447398Z",
+        "scraped_at": "2026-08-19T18:51:31.422991Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -6181,7 +6164,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-19T18:34:46.448174Z",
+        "scraped_at": "2026-08-19T18:51:31.423647Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -6265,7 +6248,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-19T18:34:47.139383Z",
+        "scraped_at": "2026-08-19T18:51:32.130613Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6611,7 +6594,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-19T18:34:47.050015Z",
+        "scraped_at": "2026-08-19T18:51:32.042052Z",
         "extra": {
           "rows": [
             [
@@ -7061,7 +7044,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-19T18:34:47.097151Z",
+        "scraped_at": "2026-08-19T18:51:32.087336Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -7121,7 +7104,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-19T18:34:47.097627Z",
+        "scraped_at": "2026-08-19T18:51:32.087728Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -7181,7 +7164,7 @@
         "source_name": "FutbolDeBolivia.net - Copa Paceña Grupo A + FutbolDeBolivia.net - Copa Paceña Grupo B + FutbolDeBolivia.net - Copa Paceña Grupo C + FutbolDeBolivia.net - Copa Paceña Grupo D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-08-19T18:34:45.047251Z",
+        "scraped_at": "2026-08-19T18:51:30.105725Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7372,7 +7355,7 @@
         "source_name": "Calculada desde: FutbolDeBolivia.net - Copa Paceña Grupo A + FutbolDeBolivia.net - Copa Paceña Grupo B + FutbolDeBolivia.net - Copa Paceña Grupo C + FutbolDeBolivia.net - Copa Paceña Grupo D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-08-19T18:34:45.047251Z",
+        "scraped_at": "2026-08-19T18:51:30.105725Z",
         "extra": {
           "rows": [
             [

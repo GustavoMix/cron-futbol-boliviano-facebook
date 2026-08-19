@@ -1317,6 +1317,26 @@ def _lookup_team_logo(http, team_name: str) -> str:
     return logo
 
 
+_GENERIC_HEADER_WORDS = {"resultado", "equipo", "local", "visitante", "fecha", "hora", "estadio", "fechapartido"}
+_SCORE_LIKE_RE = re.compile(r"^[\d:\-–\.\s\(\)]+$")
+
+
+def _looks_like_team_name(value: str) -> bool:
+    # Algunas tablas de Wikipedia (rowspan/colspan raros, filas resumen)
+    # producen celdas que NO son un equipo: la columna sale corrida y trae
+    # varios nombres pegados en un solo string, o directamente un marcador
+    # ("1:1") o el propio encabezado ("Resultado"). Sin este filtro esas
+    # celdas se tratan como "equipo sin escudo" y se gastan pedidos externos
+    # buscando algo que no es un club.
+    if not value or len(value) > 50 or len(value.split()) > 8:
+        return False
+    if value.lower() in _GENERIC_HEADER_WORDS:
+        return False
+    if _SCORE_LIKE_RE.match(value):
+        return False
+    return True
+
+
 def _collect_missing_team_names(candidates: list[Item]) -> list[str]:
     # Reúne los nombres de equipo que aparecen en partidos/tablas de esta
     # tanda (columnas "Equipo" en standings, "Local"/"Visitante" en matches)
@@ -1341,6 +1361,8 @@ def _collect_missing_team_names(candidates: list[Item]) -> list[str]:
                 if idx >= len(row):
                     continue
                 name = clean_text(row[idx])
+                if not _looks_like_team_name(name):
+                    continue
                 key = normalize_title(name)
                 if key and key not in TEAM_LOGOS and key not in names:
                     names[key] = name

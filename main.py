@@ -1175,6 +1175,54 @@ def _row_logo(tr: Tag, base_url: str) -> str:
     return ""
 
 
+# Mapa global equipo(normalizado) -> URL de escudo, juntado de CUALQUIER
+# fuente que tenga imágenes reales en sus tablas (ej. FBF). Wikipedia (la
+# fuente principal de tablas ahora) no publica escudos en "Clasificación",
+# así que sin esto la tabla de posiciones queda sin ningún logo aunque sí
+# existan en otro lado.
+TEAM_LOGOS: dict[str, str] = {}
+
+
+def _harvest_team_logos(soup: BeautifulSoup, base_url: str) -> None:
+    for table in soup.find_all("table"):
+        for tr in table.find_all("tr"):
+            logo = _row_logo(tr, base_url)
+            if not logo:
+                continue
+            for cell in tr.find_all(["th", "td"]):
+                text = clean_text(cell.get_text(" ", strip=True))
+                # Nombre de equipo real: texto de varias letras, no un
+                # número/posición/porcentaje ("1", "+8", "34", "0.73").
+                if len(text) >= 3 and re.search(r"[a-zA-ZÀ-ÿ]{3,}", text):
+                    key = normalize_title(text)
+                    if key and key not in TEAM_LOGOS:
+                        TEAM_LOGOS[key] = logo
+                    break
+            else:
+                continue
+
+
+def _backfill_logos(table_dict: dict[str, Any]) -> None:
+    extra = table_dict.get("extra") if isinstance(table_dict.get("extra"), dict) else None
+    if not extra:
+        return
+    rows = extra.get("rows") or []
+    if len(rows) < 2:
+        return
+    header_norm = [clean_text(h).lower() for h in rows[0]]
+    try:
+        name_idx = header_norm.index("equipo")
+    except ValueError:
+        return
+    if any(extra.get("logos") or []):
+        return  # ya trae escudos propios (ej. tabla de FBF); no pisar.
+    logos = [""]  # fila 0 = header, sin logo
+    for row in rows[1:]:
+        name = row[name_idx] if name_idx < len(row) else ""
+        logos.append(TEAM_LOGOS.get(normalize_title(name), ""))
+    extra["logos"] = logos
+
+
 def _table_row_cells(tr: Tag, pending: dict[int, list]) -> list[str]:
     # Maneja rowspan (ej. Wikipedia: la columna "Fecha" solo aparece una vez
     # por día y "cubre" varios partidos). Sin esto, las columnas de las filas
@@ -1436,6 +1484,10 @@ def extract_footballbox_matches(soup: BeautifulSoup, source: dict[str, Any], bas
 def scrape_web_source(http, source: dict[str, Any]) -> list[Item]:
     r = http.get(source["url"])
     soup = BeautifulSoup(r.content, "lxml")
+    # Aparte de si se confía en las stats de esta fuente (skip_tables), sus
+    # escudos sirven igual para "vestir" la tabla de Wikipedia que no trae
+    # imágenes.
+    _harvest_team_logos(soup, r.url)
     items = []
     items.extend(extract_jsonld(soup, source, r.url))
     items.extend(extract_news_cards(soup, source, r.url))
@@ -1718,6 +1770,8 @@ def build_current_tables(items: list[Item]) -> dict[str, Any]:
             computed = _compute_standings_from_matches(chosen["matches"])
             if computed:
                 chosen["standings"] = computed
+        if "standings" in chosen:
+            _backfill_logos(chosen["standings"])
         if chosen:
             competitions[comp] = chosen
     return {

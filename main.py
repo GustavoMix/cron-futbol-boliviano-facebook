@@ -1182,6 +1182,79 @@ def _row_logo(tr: Tag, base_url: str) -> str:
 # existan en otro lado.
 TEAM_LOGOS: dict[str, str] = {}
 
+# Caché en memoria de la búsqueda en Wikipedia (evita repetir la misma
+# consulta dos veces dentro de una corrida, ej. un equipo que aparece en
+# "matches" y también en "standings" de la misma competición).
+WIKI_LOGO_CACHE: dict[str, str] = {}
+
+
+def _wikipedia_club_logo(http, team_name: str) -> str:
+    # Red de contención cuando ninguna fuente con imágenes (FBF/promediosinfo)
+    # tiene al equipo: la tabla de grupos de Wikipedia no trae escudo de club
+    # (solo la bandera del país en las llaves de Libertadores/Sudamericana),
+    # pero la ficha propia del club sí suele traer el escudo como imagen
+    # principal del artículo. Se resuelve el artículo por búsqueda y se pide
+    # su imagen en la misma llamada (generator=search + prop=pageimages) para
+    # no duplicar requests por equipo.
+    key = normalize_title(team_name)
+    if key in WIKI_LOGO_CACHE:
+        return WIKI_LOGO_CACHE[key]
+    logo = ""
+    try:
+        resp = http.get(
+            "https://es.wikipedia.org/w/api.php",
+            params={
+                "action": "query",
+                "generator": "search",
+                "gsrsearch": f"{team_name} club de fútbol",
+                "gsrlimit": 1,
+                "prop": "pageimages",
+                "piprop": "thumbnail",
+                "pithumbsize": "200",
+                "format": "json",
+            },
+        )
+        pages = (resp.json().get("query") or {}).get("pages") or {}
+        for page in pages.values():
+            thumb = ((page.get("thumbnail") or {}).get("source")) or ""
+            if thumb:
+                logo = thumb
+                break
+    except Exception:
+        logo = ""
+    WIKI_LOGO_CACHE[key] = logo
+    return logo
+
+
+def _collect_missing_team_names(candidates: list[Item]) -> list[str]:
+    # Reúne los nombres de equipo que aparecen en partidos/tablas de esta
+    # tanda (columnas "Equipo" en standings, "Local"/"Visitante" en matches)
+    # y todavía no tienen escudo en TEAM_LOGOS.
+    names: dict[str, str] = {}
+    for item in candidates:
+        extra = item.extra if isinstance(item.extra, dict) else None
+        rows = extra.get("rows") if extra else None
+        if not rows or len(rows) < 2:
+            continue
+        header = [clean_text(h).lower() for h in rows[0]]
+        col_indexes = []
+        if "equipo" in header:
+            col_indexes.append(header.index("equipo"))
+        if "local" in header and "visitante" in header:
+            col_indexes.append(header.index("local"))
+            col_indexes.append(header.index("visitante"))
+        if not col_indexes:
+            continue
+        for row in rows[1:]:
+            for idx in col_indexes:
+                if idx >= len(row):
+                    continue
+                name = clean_text(row[idx])
+                key = normalize_title(name)
+                if key and key not in TEAM_LOGOS and key not in names:
+                    names[key] = name
+    return list(names.values())
+
 
 def _harvest_team_logos(soup: BeautifulSoup, base_url: str) -> None:
     for table in soup.find_all("table"):
@@ -1769,13 +1842,23 @@ def _merge_group_standings(items: list[Item]) -> dict[str, Any]:
     }
 
 
-def build_current_tables(items: list[Item]) -> dict[str, Any]:
+def build_current_tables(items: list[Item], http: "HttpClient | None" = None) -> dict[str, Any]:
     """Elige una sola tabla vigente por competición/tipo para que la app no tenga que adivinar."""
     candidates = [
         x for x in items
         if x.scope in {'bolivia', 'conmebol'}
         and x.kind in {'standings', 'table', 'matches', 'top_scorers', 'assists', 'own_goals'}
     ]
+    if http is not None:
+        # Antes de armar matches/standings: completa TEAM_LOGOS con lo que
+        # falte (Libertadores/Sudamericana/Simón Bolívar, o cualquier equipo
+        # de Bolivia que FBF/promediosinfo no traía) buscando en Wikipedia.
+        # _merge_matches y _backfill_logos ya leen de TEAM_LOGOS, así que con
+        # esto alcanza para que aparezcan en toda la tabla/partido.
+        for name in _collect_missing_team_names(candidates):
+            logo = _wikipedia_club_logo(http, name)
+            if logo:
+                TEAM_LOGOS[normalize_title(name)] = logo
     grouped: dict[str, dict[str, list[Item]]] = defaultdict(lambda: defaultdict(list))
     for x in candidates:
         logical_kind = 'standings' if x.kind in {'standings','table'} else x.kind
@@ -1903,7 +1986,7 @@ def run(config_path: Path, output_dir: Path) -> dict[str, Any]:
         "items": _serialize(facebook_items[:200]),
     }
     buckets["app_feed.json"] = build_app_feed(live, 250)
-    buckets["current_tables.json"] = build_current_tables(live)
+    buckets["current_tables.json"] = build_current_tables(live, http)
 
     for name, payload in buckets.items():
         json_dump(output_dir / name, payload)

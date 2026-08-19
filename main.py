@@ -1394,6 +1394,45 @@ def extract_prose_matches(soup: BeautifulSoup, source: dict[str, Any], base_url:
     return out
 
 
+def extract_footballbox_matches(soup: BeautifulSoup, source: dict[str, Any], base_url: str) -> list[Item]:
+    # Copa Libertadores/Sudamericana (fases eliminatorias: llaves, octavos,
+    # etc.) no publican una tabla grande "Fecha N" como la liga local — cada
+    # partido es su PROPIA tablita de 2 filas (marcador + goleadores),
+    # plantilla "footballbox" de Wikipedia (class="vevent"). Hay que juntar
+    # todas esas tablitas sueltas por ronda para poder reusar el mismo merge
+    # de partidos que ya usamos para las fechas de la liga.
+    boxes = [t for t in soup.find_all("table") if "vevent" in (t.get("class") or [])]
+    if not boxes:
+        return []
+    by_round: dict[str, list[list[str]]] = defaultdict(list)
+    for table in boxes:
+        pending: dict[int, list] = {}
+        rows = []
+        for tr in table.find_all("tr"):
+            cells = _table_row_cells(tr, pending)
+            if cells and any(cells):
+                rows.append(cells)
+        if not rows or len(rows[0]) < 4:
+            continue
+        date_time, home, score, away = rows[0][0], rows[0][1], rows[0][2], rows[0][3]
+        stadium = rows[0][4] if len(rows[0]) > 4 else ""
+        round_name = _heading_before(table) or "Fase final"
+        by_round[round_name].append([
+            clean_text(home), clean_text(score), clean_text(away), clean_text(stadium), clean_text(date_time),
+        ])
+    out: list[Item] = []
+    for idx, (round_name, matches) in enumerate(by_round.items()):
+        out.append(Item(
+            id=stable_id(source["id"], "footballbox", round_name, str(idx)), kind="matches",
+            title=round_name, url=base_url, published_at=None, scraped_at=utc_now_iso(),
+            source_id=source["id"], source_name=source["name"], source_type=source.get("source_type", "web"),
+            source_authority=float(source.get("authority", 0.7)), scope=source.get("scope", "general"),
+            competition=source.get("competition", "general"),
+            extra={"rows": [[round_name], ["Local", "Resultado", "Visitante", "Estadio", "FechaPartido"], *matches]},
+        ))
+    return out
+
+
 def scrape_web_source(http, source: dict[str, Any]) -> list[Item]:
     r = http.get(source["url"])
     soup = BeautifulSoup(r.content, "lxml")
@@ -1408,6 +1447,8 @@ def scrape_web_source(http, source: dict[str, Any]) -> list[Item]:
         items.extend(extract_scorer_text(soup, source, r.url))
     if source.get("prose_matches", False):
         items.extend(extract_prose_matches(soup, source, r.url))
+    if source.get("footballbox_matches", False):
+        items.extend(extract_footballbox_matches(soup, source, r.url))
     # Deduplicación exacta local por ID.
     unique = {x.id: x for x in items}
     return list(unique.values())

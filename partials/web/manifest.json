@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-08-19T17:26:19.332315Z",
+  "generated_at": "2026-08-19T17:43:27.667576Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,7 +9,7 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 298
+      "items": 293
     },
     "conmebol.json": {
       "items": 83
@@ -21,13 +21,13 @@
       "items": 0
     },
     "latest.json": {
-      "items": 169
+      "items": 168
     },
     "facebook_latest.json": {
       "items": 0
     },
     "app_feed.json": {
-      "items": 169
+      "items": 168
     },
     "current_tables.json": {
       "items": 0
@@ -175,26 +175,26 @@
     {
       "id": "futboldebolivia_copa_pacena_grupo_a",
       "name": "FutbolDeBolivia.net - Copa Paceña Grupo A",
-      "ok": true,
-      "items": 3
-    },
-    {
-      "id": "futboldebolivia_copa_pacena_grupo_b",
-      "name": "FutbolDeBolivia.net - Copa Paceña Grupo B",
-      "ok": true,
-      "items": 3
-    },
-    {
-      "id": "futboldebolivia_copa_pacena_grupo_c",
-      "name": "FutbolDeBolivia.net - Copa Paceña Grupo C",
       "ok": false,
       "items": 0
     },
     {
-      "id": "futboldebolivia_copa_pacena_grupo_d",
-      "name": "FutbolDeBolivia.net - Copa Paceña Grupo D",
+      "id": "futboldebolivia_copa_pacena_grupo_b",
+      "name": "FutbolDeBolivia.net - Copa Paceña Grupo B",
+      "ok": false,
+      "items": 0
+    },
+    {
+      "id": "futboldebolivia_copa_pacena_grupo_c",
+      "name": "FutbolDeBolivia.net - Copa Paceña Grupo C",
       "ok": true,
       "items": 3
+    },
+    {
+      "id": "futboldebolivia_copa_pacena_grupo_d",
+      "name": "FutbolDeBolivia.net - Copa Paceña Grupo D",
+      "ok": false,
+      "items": 0
     },
     {
       "id": "wikipedia_simon_bolivar",
@@ -227,15 +227,23 @@
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://promediosinfo.com/liga/bolivia.html"
     },
     {
-      "source": "futboldebolivia_copa_pacena_grupo_c",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.futboldebolivia.net/2026/08/grupo-c-resultados-y-posiciones-copa.html&q=EgQE7KSiGLjOl9QGIi1ZnwMBUs0ZOEX-ccGiejZuA90qfSmcIcb3IkMQV7BP6O9dkjNyjHc-hqAGJWkyAnJSWgFD"
+      "source": "futboldebolivia_copa_pacena_grupo_a",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.futboldebolivia.net/2026/08/grupo-resultados-y-posiciones-copa.html&q=EgSs19lKGLDWl9QGIi1uwLtU1tfwgPHLTJF2KLQWHmO-CjGtAQKjt_OcS5-cFM6ZX7K6mnBmKDrDPi0yAnJSWgFD"
+    },
+    {
+      "source": "futboldebolivia_copa_pacena_grupo_b",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.futboldebolivia.net/2026/08/grupo-b-resultados-y-posiciones-copa.html&q=EgSs19lKGLTWl9QGIi3NxrOLl1bRx8ySNNxuF58bfoEsKFIs8RiMJiWsAdwmeiLF7ROIbKUsxtzDq-0yAnJSWgFD"
+    },
+    {
+      "source": "futboldebolivia_copa_pacena_grupo_d",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.futboldebolivia.net/2026/08/grupo-d-resultados-y-posiciones-copa.html&q=EgSs19lKGL3Wl9QGIi2BnYRJc-zGTCuuRISOpG47PJ8xCttb6Jl55yfSO6PRtFZngTaOfTiUyh90mSoyAnJSWgFD"
     }
   ],
   "totals": {
-    "items_before_filter": 573,
-    "items_after_filter_dedupe": 381,
-    "web_sources_ok": 28,
-    "web_sources_error": 3,
+    "items_before_filter": 567,
+    "items_after_filter_dedupe": 376,
+    "web_sources_ok": 26,
+    "web_sources_error": 5,
     "social_items": 0
   }
 }

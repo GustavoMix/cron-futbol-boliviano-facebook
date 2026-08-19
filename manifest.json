@@ -1,6 +1,6 @@
 {
   "schema_version": 5,
-  "generated_at": "2026-08-19T17:43:27.842081Z",
+  "generated_at": "2026-08-19T17:55:27.827121Z",
   "architecture": "3 Facebook groups + 1 web group; staggered schedules; cached last-good Facebook data",
   "facebook_groups": [
     {
@@ -28,30 +28,18 @@
     "app_feed_items": 222
   },
   "web": {
-    "generated_at": "2026-08-19T17:43:27.667576Z",
+    "generated_at": "2026-08-19T17:55:27.715480Z",
     "totals": {
-      "items_before_filter": 567,
-      "items_after_filter_dedupe": 376,
-      "web_sources_ok": 26,
-      "web_sources_error": 5,
+      "items_before_filter": 576,
+      "items_after_filter_dedupe": 382,
+      "web_sources_ok": 29,
+      "web_sources_error": 2,
       "social_items": 0
     },
     "errors": [
       {
         "source": "promediosinfo_bolivia",
         "error": "HTTPError: 403 Client Error: Forbidden for url: https://promediosinfo.com/liga/bolivia.html"
-      },
-      {
-        "source": "futboldebolivia_copa_pacena_grupo_a",
-        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.futboldebolivia.net/2026/08/grupo-resultados-y-posiciones-copa.html&q=EgSs19lKGLDWl9QGIi1uwLtU1tfwgPHLTJF2KLQWHmO-CjGtAQKjt_OcS5-cFM6ZX7K6mnBmKDrDPi0yAnJSWgFD"
-      },
-      {
-        "source": "futboldebolivia_copa_pacena_grupo_b",
-        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.futboldebolivia.net/2026/08/grupo-b-resultados-y-posiciones-copa.html&q=EgSs19lKGLTWl9QGIi3NxrOLl1bRx8ySNNxuF58bfoEsKFIs8RiMJiWsAdwmeiLF7ROIbKUsxtzDq-0yAnJSWgFD"
-      },
-      {
-        "source": "futboldebolivia_copa_pacena_grupo_d",
-        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.futboldebolivia.net/2026/08/grupo-d-resultados-y-posiciones-copa.html&q=EgSs19lKGL3Wl9QGIi2BnYRJc-zGTCuuRISOpG47PJ8xCttb6Jl55yfSO6PRtFZngTaOfTiUyh90mSoyAnJSWgFD"
       }
     ]
   },

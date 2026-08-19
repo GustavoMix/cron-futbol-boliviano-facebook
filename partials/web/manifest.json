@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-08-18T23:21:05.063107Z",
+  "generated_at": "2026-08-19T01:12:15.601078Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,7 +9,7 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 166
+      "items": 167
     },
     "conmebol.json": {
       "items": 7
@@ -21,13 +21,13 @@
       "items": 0
     },
     "latest.json": {
-      "items": 167
+      "items": 168
     },
     "facebook_latest.json": {
       "items": 0
     },
     "app_feed.json": {
-      "items": 167
+      "items": 168
     },
     "current_tables.json": {
       "items": 0
@@ -152,7 +152,7 @@
       "id": "diez_futbol",
       "name": "DIEZ - Fútbol",
       "ok": true,
-      "items": 41
+      "items": 42
     },
     {
       "id": "diez_futbol_boliviano",
@@ -180,8 +180,8 @@
     }
   ],
   "totals": {
-    "items_before_filter": 209,
-    "items_after_filter_dedupe": 173,
+    "items_before_filter": 210,
+    "items_after_filter_dedupe": 174,
     "web_sources_ok": 21,
     "web_sources_error": 2,
     "social_items": 0

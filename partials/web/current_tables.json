@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-08-18T23:21:05.051001Z",
+  "generated_at": "2026-08-19T01:12:15.585182Z",
   "policy": "una tabla por competición/tipo; fuentes oficiales tienen prioridad",
   "competitions": {
     "copa_division_profesional": {
@@ -15,7 +15,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-18T23:20:58.707082Z",
+        "scraped_at": "2026-08-19T01:12:10.005887Z",
         "source_id": "fbf_copa_pacena",
         "source_name": "FBF - Copa Paceña",
         "source_type": "federation",
@@ -111,7 +111,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-18T23:20:58.707272Z",
+        "scraped_at": "2026-08-19T01:12:10.006126Z",
         "source_id": "fbf_copa_pacena",
         "source_name": "FBF - Copa Paceña",
         "source_type": "federation",
@@ -155,6 +155,11 @@
               "source_name": "FBF - Copa Paceña",
               "url": "https://fbf.com.bo/torneos/copa-pacena/",
               "published_at": null
+            },
+            {
+              "source_name": "DIEZ - Fútbol",
+              "url": "https://diez.bo/futbol",
+              "published_at": null
             }
           ],
           "selection_score": 1.17,
@@ -175,7 +180,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-18T23:21:05.028174Z",
+        "scraped_at": "2026-08-19T01:12:15.555813Z",
         "source_id": "reduno_stats",
         "source_name": "Red Uno - Stats Center Bolivia",
         "source_type": "structured_media",

@@ -185,6 +185,14 @@ web_sources:
   competition: division_profesional
   source_type: structured_media
   authority: 0.84
+- id: wikipedia_division_profesional
+  enabled: true
+  name: Wikipedia - División Profesional 2026
+  url: https://es.wikipedia.org/wiki/Primera_Divisi%C3%B3n_de_Bolivia_2026
+  scope: bolivia
+  competition: division_profesional
+  source_type: encyclopedia
+  authority: 0.92
 facebook:
   enabled: true
   page_queries:

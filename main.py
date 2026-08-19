@@ -261,6 +261,15 @@ def dedupe(items: list[Item], threshold: int = 90) -> list[Item]:
     kept: list[Item] = []
     normalized: list[tuple[str, str]] = []
     for item in ranked:
+        # "matches" son muchas tablas pequeñas (una por fecha) con títulos
+        # casi idénticos entre sí ("... — Fecha 1" vs "... — Fecha 2"): el
+        # ratio de similitud de texto las confunde con duplicados y se
+        # pierden fechas enteras del torneo. No tiene sentido dedupear por
+        # título contenido tan parecido a propósito.
+        if item.kind == "matches":
+            kept.append(item)
+            normalized.append(("", item.kind))
+            continue
         key = normalize_title(item.title or item.text[:160])
         if not key:
             kept.append(item)
@@ -349,7 +358,7 @@ def _scrape_facebook_public_page_http(http, spec: dict[str, Any], progress: str 
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/152 Safari/537.36',
                 'Accept-Language': 'es-BO,es;q=0.9,en;q=0.5',
             })
-            soup = BeautifulSoup(r.text, 'lxml')
+            soup = BeautifulSoup(r.content, 'lxml')
             anchors = [a for a in soup.find_all('a', href=True) if _fb_public_post_url(a.get('href', ''))]
             for a in anchors:
                 href = a.get('href', '')
@@ -1171,32 +1180,68 @@ def extract_tables(soup: BeautifulSoup, source: dict[str, Any], base_url: str) -
             continue
         heading = _heading_before(table)
         probe = (heading + " " + " ".join(rows[0])).lower()
-        header_norm = [clean_text(h).lower() for h in rows[0]]
+        # Algunas fuentes (ej. Wikipedia) meten una fila-título de una sola
+        # celda ("Fecha 1") antes de la fila real de encabezados; si pasa
+        # eso, la clasificación debe mirar esa segunda fila, no la celda-título.
+        header_row = rows[1] if len(rows[0]) == 1 and len(rows) > 1 else rows[0]
+        header_norm = [clean_text(h).lower() for h in header_row]
+        # Quita puntos/espacios ("Pts." -> "pts") para no perder la señal
+        # fuerte solo porque una fuente (ej. Wikipedia) le pone punto a la
+        # abreviatura.
+        header_stripped = [re.sub(r"[^a-z]", "", h) for h in header_norm]
         is_assists = "asistencia" in probe
         kind = "table"
+        strong_standings = "pj" in header_stripped and any(p in header_stripped for p in ("pts", "puntos"))
+        # Igual que standings: exigir columnas Local+Visitante evita que una
+        # tabla de curiosidades (ej. "goles en el mismo partido", tripletes)
+        # se cuele como partido real solo por mencionar la palabra "partido".
+        # Además exige que "Local" sea la PRIMERA columna: tablas como
+        # "Autogoles" también tienen Local/Visitante (para decir en qué
+        # partido pasó) pero empiezan con "N.º", no con el equipo local.
+        strong_matches = (
+            bool(header_stripped) and header_stripped[0] == "local"
+            and "visitante" in header_stripped
+        )
         # Señal fuerte y confiable primero: si las columnas son PJ + Pts, es
         # una tabla de posiciones sí o sí, sin depender de que el heading de
         # la página diga literalmente "tabla de posiciones" (algunas fuentes
         # solo ponen el nombre del torneo ahí). Evita además que "Tabla de
         # asistencias" se confunda con posiciones o goleadores solo por
         # compartir la palabra "tabla"/"goleador".
-        if "pj" in header_norm and any(p in header_norm for p in ("pts", "puntos")):
+        if strong_standings:
             kind = "standings"
         elif not is_assists and any(x in probe for x in SCORER_HINTS):
             kind = "top_scorers"
-        elif any(x in probe for x in MATCH_HINTS):
+        elif strong_matches:
             kind = "matches"
+        elif any(x in probe for x in MATCH_HINTS):
+            # Señal débil (solo por palabra clave, sin columnas Local/
+            # Visitante): puede ser una tabla de curiosidades ("goles en el
+            # mismo partido", tripletes, etc.), no un fixture real. La
+            # dejamos como "table" genérica en vez de "matches" para no
+            # ensuciar el merge de partidos.
+            kind = "table"
         elif not is_assists and any(x in probe for x in TABLE_HINTS):
             kind = "standings"
         if kind == "standings":
             rows = _fix_standings_dg(rows)
         title = heading or f"Tabla {idx + 1}"
+        if kind == "matches" and len(rows[0]) == 1 and rows[0][0]:
+            # Sin esto, todas las tablas de "Fecha N" de la misma subsección
+            # (ej. "Primera vuelta") comparten título y dedupe() las
+            # colapsa en una sola, perdiendo 29 de 30 fechas del torneo.
+            title = f"{title} — {clean_text(rows[0][0])}" if title else clean_text(rows[0][0])
         out.append(Item(
             id=stable_id(source["id"], kind, title, str(idx)), kind=kind, title=title, url=base_url,
             published_at=None, scraped_at=utc_now_iso(), source_id=source["id"], source_name=source["name"],
             source_type=source.get("source_type", "web"), source_authority=float(source.get("authority", 0.7)),
             scope=source.get("scope", "general"), competition=source.get("competition", "general"),
-            extra={"rows": rows, "logos": logos},
+            # strong_standings: viene de columnas PJ+Pts reales, no de adivinar
+            # por el título de la sección. build_current_tables la prioriza
+            # por sobre otras tablas "standings" detectadas solo por heading
+            # (ej. "Evolución de la clasificación" también contiene la
+            # palabra "clasificación" pero no es la tabla de puntos).
+            extra={"rows": rows, "logos": logos, "strong_standings": strong_standings},
         ))
     return out
 
@@ -1223,7 +1268,7 @@ def extract_scorer_text(soup: BeautifulSoup, source: dict[str, Any], base_url: s
 
 def scrape_web_source(http, source: dict[str, Any]) -> list[Item]:
     r = http.get(source["url"])
-    soup = BeautifulSoup(r.text, "lxml")
+    soup = BeautifulSoup(r.content, "lxml")
     items = []
     items.extend(extract_jsonld(soup, source, r.url))
     items.extend(extract_news_cards(soup, source, r.url))
@@ -1293,6 +1338,49 @@ def _structured_quality(item: Item) -> float:
     return round(float(item.source_authority) + official_bonus + kind_bonus + row_bonus, 4)
 
 
+def _jornada_num(label: str) -> int:
+    m = re.search(r"\d+", label or "")
+    return int(m.group(0)) if m else 999
+
+
+def _merge_matches(match_items: list[Item]) -> dict[str, Any]:
+    # A diferencia de standings/top_scorers (una sola tabla vigente), los
+    # partidos vienen en una tabla POR FECHA (Fecha 1, Fecha 2, ...). Hay que
+    # juntarlas todas, no solo quedarse con "la mejor", si no perderíamos 29
+    # de las 30 fechas del torneo.
+    by_source: dict[str, list[Item]] = defaultdict(list)
+    for it in match_items:
+        by_source[it.source_id].append(it)
+    best_source_id = max(by_source, key=lambda sid: sum(_structured_quality(x) for x in by_source[sid]) / len(by_source[sid]))
+    chosen = by_source[best_source_id]
+
+    merged_rows: list[list[str]] = []
+    for it in chosen:
+        rows = it.extra.get("rows") if isinstance(it.extra, dict) else None
+        if not rows or len(rows) < 3:
+            continue
+        jornada = clean_text(rows[0][0]) if rows[0] else ""
+        for row in rows[2:]:
+            if row:
+                merged_rows.append([jornada, *row])
+    merged_rows.sort(key=lambda r: _jornada_num(r[0]))
+
+    return {
+        "kind": "matches",
+        "title": "Partidos por fecha",
+        "source_id": best_source_id,
+        "source_name": chosen[0].source_name,
+        "competition": chosen[0].competition,
+        "scraped_at": max((it.scraped_at or "" for it in chosen), default=""),
+        "extra": {
+            "header": ["Fecha", "Local", "Resultado", "Visitante", "Estadio", "FechaPartido", "Hora"],
+            "rows": merged_rows,
+            "selected_as_current": True,
+            "selection_reason": "se combinan todas las tablas de fecha de la fuente con mejor puntaje",
+        },
+    }
+
+
 def build_current_tables(items: list[Item]) -> dict[str, Any]:
     """Elige una sola tabla vigente por competición/tipo para que la app no tenga que adivinar."""
     candidates = [x for x in items if x.scope == 'bolivia' and x.kind in {'standings','table','matches','top_scorers'}]
@@ -1304,6 +1392,13 @@ def build_current_tables(items: list[Item]) -> dict[str, Any]:
     for comp, kinds in grouped.items():
         chosen: dict[str, Any] = {}
         for kind, rows in kinds.items():
+            if kind == "matches":
+                chosen[kind] = _merge_matches(rows)
+                continue
+            if kind == "standings":
+                strong = [z for z in rows if isinstance(z.extra, dict) and z.extra.get("strong_standings")]
+                if strong:
+                    rows = strong
             rows = sorted(rows, key=lambda z: (_structured_quality(z), z.scraped_at or ''), reverse=True)
             if rows:
                 d = rows[0].to_dict()

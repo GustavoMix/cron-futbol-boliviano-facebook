@@ -257,6 +257,12 @@ def dedupe(items: list[Item], threshold: int = 90) -> list[Item]:
     # posiciones y una de goleadores de la misma página suelen compartir el
     # mismo heading (ej. "Primera División 2026"), y sin este filtro por kind
     # una terminaba "absorbiendo" a la otra como si fueran la misma noticia.
+    # Kinds de datos estructurados: se dedupean también por competición, no
+    # solo por kind. Sin esto, "Goleadores" de Libertadores choca contra
+    # "Goleadores" de División Profesional (mismo título casi exacto, kind
+    # igual) y una competición entera se pierde como si fuera "la misma"
+    # tabla que otra.
+    STRUCTURED_KINDS = {'standings', 'table', 'top_scorers', 'assists', 'own_goals'}
     ranked = sorted(items, key=lambda x: (x.rank_score, x.published_at or ""), reverse=True)
     kept: list[Item] = []
     normalized: list[tuple[str, str]] = []
@@ -270,20 +276,21 @@ def dedupe(items: list[Item], threshold: int = 90) -> list[Item]:
             kept.append(item)
             normalized.append(("", item.kind))
             continue
+        dedupe_kind = f"{item.kind}::{item.competition}" if item.kind in STRUCTURED_KINDS else item.kind
         key = normalize_title(item.title or item.text[:160])
         if not key:
             kept.append(item)
-            normalized.append(("", item.kind))
+            normalized.append(("", dedupe_kind))
             continue
         duplicate_idx = None
         for i, (existing, existing_kind) in enumerate(normalized):
-            if existing and existing_kind == item.kind and ratio(key, existing) >= threshold:
+            if existing and existing_kind == dedupe_kind and ratio(key, existing) >= threshold:
                 duplicate_idx = i
                 break
         if duplicate_idx is None:
             item.extra.setdefault("related_sources", [])
             kept.append(item)
-            normalized.append((key, item.kind))
+            normalized.append((key, dedupe_kind))
         else:
             primary = kept[duplicate_idx]
             primary.extra.setdefault("related_sources", []).append({
@@ -1008,6 +1015,8 @@ NEWS_HINTS = ("noticia", "news", "prensa", "article", "post")
 TABLE_HINTS = ("posicion", "posición", "clasificacion", "clasificación", "tabla", "standings")
 SCORER_HINTS = ("goleador", "goleadores", "scorer", "scorers")
 MATCH_HINTS = ("partido", "partidos", "fixture", "resultado", "resultados", "fecha")
+ASSIST_HINTS = ("asistencia", "asistencias", "asistente", "asistentes", "assist")
+OWN_GOAL_HINTS = ("autogol", "autogoles", "own goal", "own goals")
 
 
 def _find_image(node: Tag, base_url: str) -> str:
@@ -1230,9 +1239,20 @@ def extract_tables(soup: BeautifulSoup, source: dict[str, Any], base_url: str) -
         # fuerte solo porque una fuente (ej. Wikipedia) le pone punto a la
         # abreviatura.
         header_stripped = [re.sub(r"[^a-z]", "", h) for h in header_norm]
-        is_assists = "asistencia" in probe
+        is_assists = any(x in probe for x in ASSIST_HINTS)
         kind = "table"
-        strong_standings = "pj" in header_stripped and any(p in header_stripped for p in ("pts", "puntos"))
+        # Torneos de grupos (Libertadores, Sudamericana) publican tablas
+        # comparativas cruzadas ("Tabla de segundos/terceros": comparan los
+        # 2.os o 3.os de cada grupo entre sí para definir clasificados) que
+        # también tienen columnas PJ/Pts pero NO son la tabla de posiciones
+        # de ningún grupo — se descartan explícitamente para que no le ganen
+        # a la tabla real de un grupo (ej. "Grupo A") a la hora de elegir.
+        is_cross_group_table = bool(re.search(r"tabla de (primeros|segundos|terceros|cuartos)", heading.lower()))
+        strong_standings = (
+            not is_cross_group_table
+            and "pj" in header_stripped
+            and any(p in header_stripped for p in ("pts", "puntos"))
+        )
         # Igual que standings: exigir columnas Local+Visitante evita que una
         # tabla de curiosidades (ej. "goles en el mismo partido", tripletes)
         # se cuele como partido real solo por mencionar la palabra "partido".
@@ -1251,8 +1271,12 @@ def extract_tables(soup: BeautifulSoup, source: dict[str, Any], base_url: str) -
         # compartir la palabra "tabla"/"goleador".
         if strong_standings:
             kind = "standings"
-        elif not is_assists and any(x in probe for x in SCORER_HINTS):
+        elif is_assists:
+            kind = "assists"
+        elif any(x in probe for x in SCORER_HINTS):
             kind = "top_scorers"
+        elif any(x in probe for x in OWN_GOAL_HINTS):
+            kind = "own_goals"
         elif strong_matches:
             kind = "matches"
         elif any(x in probe for x in MATCH_HINTS):
@@ -1429,6 +1453,8 @@ def _bucket(items: list[Item], scope: str) -> dict[str, Any]:
         "videos": _serialize(by_kind.get("video", [])),
         "standings": _serialize(by_kind.get("standings", [])),
         "top_scorers": _serialize(by_kind.get("top_scorers", [])),
+        "assists": _serialize(by_kind.get("assists", [])),
+        "own_goals": _serialize(by_kind.get("own_goals", [])),
         "matches": _serialize(by_kind.get("matches", [])),
         "tables": _serialize(by_kind.get("table", [])),
         "competitions": {k: _serialize(sorted(v, key=lambda z: (z.rank_score, z.published_at or ""), reverse=True)) for k, v in by_comp.items()},
@@ -1439,7 +1465,7 @@ def _structured_quality(item: Item) -> float:
     rows = item.extra.get('rows') if isinstance(item.extra, dict) else None
     nrows = len(rows) if isinstance(rows, list) else 0
     official_bonus = 0.12 if item.source_type in {'federation', 'confederation'} else 0.0
-    kind_bonus = 0.08 if item.kind == 'standings' else 0.03 if item.kind in {'matches','top_scorers'} else 0.0
+    kind_bonus = 0.08 if item.kind == 'standings' else 0.03 if item.kind in {'matches','top_scorers','assists','own_goals'} else 0.0
     row_bonus = min(0.08, nrows / 250.0)
     return round(float(item.source_authority) + official_bonus + kind_bonus + row_bonus, 4)
 
@@ -1556,7 +1582,11 @@ def _compute_standings_from_matches(matches_table: dict[str, Any]) -> dict[str, 
 
 def build_current_tables(items: list[Item]) -> dict[str, Any]:
     """Elige una sola tabla vigente por competición/tipo para que la app no tenga que adivinar."""
-    candidates = [x for x in items if x.scope == 'bolivia' and x.kind in {'standings','table','matches','top_scorers'}]
+    candidates = [
+        x for x in items
+        if x.scope in {'bolivia', 'conmebol'}
+        and x.kind in {'standings', 'table', 'matches', 'top_scorers', 'assists', 'own_goals'}
+    ]
     grouped: dict[str, dict[str, list[Item]]] = defaultdict(lambda: defaultdict(list))
     for x in candidates:
         logical_kind = 'standings' if x.kind in {'standings','table'} else x.kind

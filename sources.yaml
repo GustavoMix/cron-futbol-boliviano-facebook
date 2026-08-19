@@ -240,6 +240,30 @@ web_sources:
   # Su tabla de posiciones "lista" la arma JavaScript (no está en el HTML);
   # en cambio los resultados con hora/goles sí son texto plano scrapeable.
   prose_matches: true
+- id: wikipedia_simon_bolivar
+  enabled: true
+  name: Wikipedia - Copa Simón Bolívar 2026
+  url: https://es.wikipedia.org/wiki/Copa_Sim%C3%B3n_Bol%C3%ADvar_2026_(Bolivia)
+  scope: bolivia
+  competition: simon_bolivar
+  source_type: encyclopedia
+  authority: 0.92
+- id: wikipedia_libertadores
+  enabled: true
+  name: Wikipedia - Copa Libertadores 2026
+  url: https://es.wikipedia.org/wiki/Copa_Libertadores_2026
+  scope: conmebol
+  competition: libertadores
+  source_type: encyclopedia
+  authority: 0.92
+- id: wikipedia_sudamericana
+  enabled: true
+  name: Wikipedia - Copa Sudamericana 2026
+  url: https://es.wikipedia.org/wiki/Copa_Sudamericana_2026
+  scope: conmebol
+  competition: sudamericana
+  source_type: encyclopedia
+  authority: 0.92
 facebook:
   enabled: true
   page_queries:

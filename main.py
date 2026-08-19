@@ -1189,6 +1189,13 @@ def _harvest_team_logos(soup: BeautifulSoup, base_url: str) -> None:
             logo = _row_logo(tr, base_url)
             if not logo:
                 continue
+            # Wikipedia pone la BANDERA del país junto al nombre del equipo
+            # en las tablas de fase eliminatoria (Libertadores/Sudamericana:
+            # equipos extranjeros sin escudo en ninguna otra fuente nuestra).
+            # Es la bandera del país, no el escudo del club — mejor no
+            # mostrar nada a mostrar algo engañoso.
+            if "flag_of_" in logo.lower():
+                continue
             for cell in tr.find_all(["th", "td"]):
                 text = clean_text(cell.get_text(" ", strip=True))
                 # Nombre de equipo real: texto de varias letras, no un
@@ -1478,8 +1485,14 @@ def extract_footballbox_matches(soup: BeautifulSoup, source: dict[str, Any], bas
         date_time, home, score, away = rows[0][0], rows[0][1], rows[0][2], rows[0][3]
         stadium = rows[0][4] if len(rows[0]) > 4 else ""
         round_name = _heading_before(table) or "Fase final"
+        # Misma forma de fila que extract_prose_matches (Local/Resultado/
+        # Visitante/Estadio/FechaPartido/Hora), aunque acá no haya una "Hora"
+        # separada (va toda en FechaPartido, ej. "11 de agosto, 21:30").
+        # _merge_matches junta filas de fuentes distintas sin mirar el header
+        # de cada una — si una trae menos columnas, todo lo de después
+        # (escudos incluidos) se corre de lugar.
         by_round[round_name].append([
-            clean_text(home), clean_text(score), clean_text(away), clean_text(stadium), clean_text(date_time),
+            clean_text(home), clean_text(score), clean_text(away), clean_text(stadium), clean_text(date_time), "",
         ])
     out: list[Item] = []
     for idx, (round_name, matches) in enumerate(by_round.items()):
@@ -1489,7 +1502,7 @@ def extract_footballbox_matches(soup: BeautifulSoup, source: dict[str, Any], bas
             source_id=source["id"], source_name=source["name"], source_type=source.get("source_type", "web"),
             source_authority=float(source.get("authority", 0.7)), scope=source.get("scope", "general"),
             competition=source.get("competition", "general"),
-            extra={"rows": [[round_name], ["Local", "Resultado", "Visitante", "Estadio", "FechaPartido"], *matches]},
+            extra={"rows": [[round_name], ["Local", "Resultado", "Visitante", "Estadio", "FechaPartido", "Hora"], *matches]},
         ))
     return out
 

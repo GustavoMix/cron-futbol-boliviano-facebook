@@ -1580,6 +1580,65 @@ def _compute_standings_from_matches(matches_table: dict[str, Any]) -> dict[str, 
     }
 
 
+def _merge_group_standings(items: list[Item]) -> dict[str, Any]:
+    # Torneos por grupos (Libertadores: Grupo A..H) tienen una tabla de
+    # posiciones POR GRUPO, no una sola del torneo entero. Antes se elegía
+    # solo "la mejor" (ganaba 1 de 8 grupos, se perdían los otros 7). Ahora
+    # se junta un grupo por título (ej. "Grupo A"), quedándose con la mejor
+    # versión de CADA grupo si hay más de una fuente, y se concatenan todas
+    # con una columna "Grupo" al frente para no perder el contexto.
+    #
+    # OJO: el merge se hace SOLO entre tablas de la MISMA fuente (misma
+    # página). Si se juntaran tablas de fuentes distintas por título, una
+    # tabla completa de un sitio (ej. "Primera División 2026") y la tabla
+    # completa de otro sitio (ej. "Clasificación") se tratarían como si
+    # fueran "dos grupos" del mismo torneo, duplicando todos los equipos.
+    by_source: dict[str, list[Item]] = defaultdict(list)
+    for it in items:
+        by_source[it.source_id].append(it)
+    best_source_id = max(by_source, key=lambda sid: max(_structured_quality(x) for x in by_source[sid]))
+    items = by_source[best_source_id]
+
+    best_by_group: dict[str, tuple[float, Item]] = {}
+    for it in items:
+        label = clean_text(it.title) or "General"
+        key = normalize_title(label)
+        quality = _structured_quality(it)
+        if key not in best_by_group or quality > best_by_group[key][0]:
+            best_by_group[key] = (quality, it)
+    groups = sorted(best_by_group.values(), key=lambda t: t[1].title)
+
+    if len(groups) <= 1:
+        it = groups[0][1] if groups else items[0]
+        d = it.to_dict()
+        d.setdefault('extra', {})['selection_score'] = _structured_quality(it)
+        d['extra']['selected_as_current'] = True
+        d['extra']['selection_reason'] = 'única tabla de posiciones detectada para esta competición'
+        return d
+
+    base_rows = groups[0][1].extra.get('rows', []) if isinstance(groups[0][1].extra, dict) else []
+    header = base_rows[0] if base_rows else []
+    merged_rows = [["Grupo", *header]]
+    for _, it in groups:
+        rows = it.extra.get('rows', []) if isinstance(it.extra, dict) else []
+        for row in rows[1:]:
+            merged_rows.append([it.title, *row])
+
+    return {
+        "kind": "standings",
+        "title": "Tabla por grupos",
+        "source_id": "merged",
+        "source_name": " + ".join(sorted({it.title for _, it in groups})),
+        "competition": groups[0][1].competition,
+        "scraped_at": max((it.scraped_at or "" for it in items), default=""),
+        "extra": {
+            "rows": merged_rows,
+            "selected_as_current": True,
+            "selection_reason": f"se combinaron {len(groups)} grupos detectados en vez de mostrar uno solo",
+        },
+    }
+
+
 def build_current_tables(items: list[Item]) -> dict[str, Any]:
     """Elige una sola tabla vigente por competición/tipo para que la app no tenga que adivinar."""
     candidates = [
@@ -1602,8 +1661,8 @@ def build_current_tables(items: list[Item]) -> dict[str, Any]:
                 continue
             if kind == "standings":
                 strong = [z for z in rows if isinstance(z.extra, dict) and z.extra.get("strong_standings")]
-                if strong:
-                    rows = strong
+                chosen["standings"] = _merge_group_standings(strong if strong else rows)
+                continue
             rows = sorted(rows, key=lambda z: (_structured_quality(z), z.scraped_at or ''), reverse=True)
             if rows:
                 d = rows[0].to_dict()

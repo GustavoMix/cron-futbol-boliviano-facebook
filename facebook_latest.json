@@ -1,6 +1,6 @@
 {
-  "schema_version": 5,
-  "generated_at": "2026-08-19T19:04:44.756215Z",
+  "schema_version": 6,
+  "generated_at": "2026-08-19T20:32:40.437256Z",
   "groups": [
     {
       "group": "oficiales",
@@ -16,19 +16,71 @@
     },
     {
       "group": "medios",
-      "last_good_at": "2026-08-19T17:08:05.555919Z",
+      "last_good_at": "2026-08-19T19:12:21.029955Z",
       "last_attempt_ok": true,
-      "items": 17
+      "items": 18
     }
   ],
   "items": [
+    {
+      "id": "e75b41e8b8157573ad2c",
+      "kind": "social",
+      "platform": "facebook",
+      "post_id": "836430109464822",
+      "title": "¿ES UN FRACASO PARA BOLÍVAR LA ELIMINACIÓN DE LA COPA SUDAMERICANA?",
+      "text": "¿ES UN FRACASO PARA BOLÍVAR LA ELIMINACIÓN DE LA COPA SUDAMERICANA? En LAB 26 se encendió el debate acerca de la situación de la 'Academia Paceña' en el torneo i",
+      "url": "https://www.facebook.com/reel/836430109464822/",
+      "post_url": "https://www.facebook.com/reel/836430109464822/",
+      "image_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t15.5256-10/777823891_2478203566024887_7978829821955261720_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=fkhYQZxA8BMQ7kNvwFDkAue&_nc_oc=Adq-94sogApq7AzBH87gztWiK8QwvoFOGsGCL_ce3IHOl8pNAfNrLPcsy9T4hVF5mO4&_nc_zt=23&_nc_ht=scontent-sea5-1.xx&_nc_gid=7fk62HIvLHNXtbji_D0eEg&_nc_ss=7f289&oh=00_AQHu6jeyZI6i8gve_x4KfQd3uUQ7NLIAK4EJlXHDZNPMDA&oe=6A8BCFF9",
+      "thumbnail_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t15.5256-10/777823891_2478203566024887_7978829821955261720_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=fkhYQZxA8BMQ7kNvwFDkAue&_nc_oc=Adq-94sogApq7AzBH87gztWiK8QwvoFOGsGCL_ce3IHOl8pNAfNrLPcsy9T4hVF5mO4&_nc_zt=23&_nc_ht=scontent-sea5-1.xx&_nc_gid=7fk62HIvLHNXtbji_D0eEg&_nc_ss=7f289&oh=00_AQHu6jeyZI6i8gve_x4KfQd3uUQ7NLIAK4EJlXHDZNPMDA&oe=6A8BCFF9",
+      "video_url": "",
+      "video_post_url": "https://www.facebook.com/reel/836430109464822/",
+      "media_type": "reel",
+      "published_at": "2026-08-19T18:48:02.679349Z",
+      "scraped_at": "2026-08-19T19:12:02.679829Z",
+      "source_id": "facebook_browser:tigo_sports_bolivia",
+      "source_name": "Facebook · Tigo Sports Bolivia",
+      "source_type": "facebook_browser_public",
+      "source_authority": 0.86,
+      "scope": "bolivia",
+      "competition": "general",
+      "rank_score": 0.9568,
+      "stale": false,
+      "extra": {
+        "collector": "browser_public",
+        "page_name": "Tigo Sports Bolivia",
+        "page_url": "https://www.facebook.com/TigoSportsBolivia/",
+        "group": "medios",
+        "age_hours": 0.4,
+        "freshness_unknown": false,
+        "media": {
+          "images": [
+            {
+              "url": "https://scontent-sea5-1.xx.fbcdn.net/v/t15.5256-10/777823891_2478203566024887_7978829821955261720_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=fkhYQZxA8BMQ7kNvwFDkAue&_nc_oc=Adq-94sogApq7AzBH87gztWiK8QwvoFOGsGCL_ce3IHOl8pNAfNrLPcsy9T4hVF5mO4&_nc_zt=23&_nc_ht=scontent-sea5-1.xx&_nc_gid=7fk62HIvLHNXtbji_D0eEg&_nc_ss=7f289&oh=00_AQHu6jeyZI6i8gve_x4KfQd3uUQ7NLIAK4EJlXHDZNPMDA&oe=6A8BCFF9",
+              "width": 540,
+              "height": 960,
+              "alt": ""
+            }
+          ],
+          "videos": [],
+          "posters": []
+        },
+        "direct_video_is_temporary": false,
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "¿ES UN FRACASO PARA BOLÍVAR LA ELIMINACIÓN DE LA COPA SUDAMERICANA? En LAB 26 se encendió el debate acerca de la situación de la 'Academia Paceña' en el torneo i",
+        "content_quality": 0.7772,
+        "published_date": "2026-08-19"
+      },
+      "published_date": "2026-08-19",
+      "published_display": "19/08/2026"
+    },
     {
       "id": "af460c0bec1812bbef13",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid021oUFFRKRNhkebSFXSbBgppQKYmFbysRAjmcpKNgAvaeJ73KURu7wkvVCE4Bbo24zl",
-      "title": "Club Deportivo Oriente Petrolero 23 min · ¡Bienvenido, Matías Roskopf! T… Ver más Todas las reacciones: 632 11 5 Me gusta Comentar Ver más comentarios Will LP Hinchada más grande? ",
-      "text": "Club Deportivo Oriente Petrolero 23 min · ¡Bienvenido, Matías Roskopf! T… Ver más Todas las reacciones: 632 11 5 Me gusta Comentar Ver más comentarios Will LP Hinchada más grande? Bueeeeeeno si ellos lo dicen - _- 21 min Daniel Montero Melean Will LP si , que hasta los llanos andan pendientes 12 min",
+      "title": "¡Bienvenido, Matías Roskopf! T",
+      "text": "¡Bienvenido, Matías Roskopf! T",
       "url": "https://www.facebook.com/cdopetrolero/posts/pfbid021oUFFRKRNhkebSFXSbBgppQKYmFbysRAjmcpKNgAvaeJ73KURu7wkvVCE4Bbo24zl",
       "post_url": "https://www.facebook.com/cdopetrolero/posts/pfbid021oUFFRKRNhkebSFXSbBgppQKYmFbysRAjmcpKNgAvaeJ73KURu7wkvVCE4Bbo24zl",
       "image_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/778590820_1967551930572398_6243724402488451806_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=88eBLNK31BwQ7kNvwHfwp9E&_nc_oc=Adr31OgvTr8FKk88t-ZDQ78Sb_pl4Ah7LzIZSedeh8V0DU0nW8UA8lSNHh-Q92Tur8k&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=sy5tB7hCkF7ekDYbLWNjMg&_nc_ss=7f289&oh=00_AQG8TlS4adcZhXNZeZZdJgKdS-DIuR3_LIhaqsjlPX9kdw&oe=6A8BDE3D",
@@ -66,16 +118,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "¡Bienvenido, Matías Roskopf! T",
+        "content_quality": 0.3839,
+        "published_date": "2026-08-19"
+      },
+      "published_date": "2026-08-19",
+      "published_display": "19/08/2026"
     },
     {
       "id": "abbdd4698976651ee54d",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid0Gixkt28byRBqCqvEg5v1qdh3vGtDvP1iPzsbZuofejkHnjyrRUB9PJuDa4s1PWu1l",
-      "title": "Club The Strongest 58 min · Con profundo dolor despedimos a Carlos Casso Acha, exdirigente y tricampeón de nuestra institución. … Ver más Todas las reacciones: 331 19 6 Me gusta Co",
-      "text": "Club The Strongest 58 min · Con profundo dolor despedimos a Carlos Casso Acha, exdirigente y tricampeón de nuestra institución. … Ver más Todas las reacciones: 331 19 6 Me gusta Comentar Ver más comentarios Sergio Caceres QDDG 38 min",
+      "title": "Con profundo dolor despedimos a Carlos Casso Acha, exdirigente y tricampeón de nuestra institución.",
+      "text": "Con profundo dolor despedimos a Carlos Casso Acha, exdirigente y tricampeón de nuestra institución.",
       "url": "https://www.facebook.com/clubthestrongestoficial/posts/pfbid0Gixkt28byRBqCqvEg5v1qdh3vGtDvP1iPzsbZuofejkHnjyrRUB9PJuDa4s1PWu1l",
       "post_url": "https://www.facebook.com/clubthestrongestoficial/posts/pfbid0Gixkt28byRBqCqvEg5v1qdh3vGtDvP1iPzsbZuofejkHnjyrRUB9PJuDa4s1PWu1l",
       "image_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/776747183_2193648404747462_2010564612858403912_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=VwgZtRA-iYQQ7kNvwEBEG7h&_nc_oc=Adqfy8ymldaITGfZQeCQ2L79DHgYqZk4oplTGj3EBSpaEQfxqUprNlPRyxp2LjL522s&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=ZdxFYNkiw2IUZaHFGrEvWg&_nc_ss=7f289&oh=00_AQF__J-mhfjvqfgr5nlu7zixRB-FuDlGP8tMaAoTeLdltg&oe=6A8BB547",
@@ -125,16 +182,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "Con profundo dolor despedimos a Carlos Casso Acha, exdirigente y tricampeón de nuestra institución.",
+        "content_quality": 0.4606,
+        "published_date": "2026-08-19"
+      },
+      "published_date": "2026-08-19",
+      "published_display": "19/08/2026"
     },
     {
       "id": "a62a3242a9e0722aad3c",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid0AuwTYb272Y7gsUJdmNxYZjcCjEyEodEFFfUKaAXimYbneJQ2vxZHUURD7r6c8Hffl",
-      "title": "Club Bolívar 1 h · ¡ABRÍGATE DE CELESTE Y LLEVA LA PASIÓN A TODAS PARTES! L… Ver más Todas las reacciones: 67 24 1 Me gusta Comentar",
-      "text": "Club Bolívar 1 h · ¡ABRÍGATE DE CELESTE Y LLEVA LA PASIÓN A TODAS PARTES! L… Ver más Todas las reacciones: 67 24 1 Me gusta Comentar",
+      "title": "¡ABRÍGATE DE CELESTE Y LLEVA LA PASIÓN A TODAS PARTES! L",
+      "text": "¡ABRÍGATE DE CELESTE Y LLEVA LA PASIÓN A TODAS PARTES! L",
       "url": "https://www.facebook.com/CLUBBOLIVAR/posts/pfbid0AuwTYb272Y7gsUJdmNxYZjcCjEyEodEFFfUKaAXimYbneJQ2vxZHUURD7r6c8Hffl",
       "post_url": "https://www.facebook.com/CLUBBOLIVAR/posts/pfbid0AuwTYb272Y7gsUJdmNxYZjcCjEyEodEFFfUKaAXimYbneJQ2vxZHUURD7r6c8Hffl",
       "image_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/776554898_1003751546034423_5357992913683275298_n.png?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=p526x296&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=i7ohpce55OwQ7kNvwFuAXaH&_nc_oc=AdoAgfTMZcQXaRdvKBxTUEBwMuyPK_4zhZ2p62E24HeUVmsfJOOrxZnAZPJ4FljOthg&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=jBCZneB8IDRrD0zk79hAEg&_nc_ss=7f289&oh=00_AQGeTrvsTyoWHEFTFmTdNz2kdBLKrECo8S8FfHyiABEmfA&oe=6A8BD130",
@@ -172,16 +234,73 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "¡ABRÍGATE DE CELESTE Y LLEVA LA PASIÓN A TODAS PARTES! L",
+        "content_quality": 0.0,
+        "published_date": "2026-08-19"
+      },
+      "published_date": "2026-08-19",
+      "published_display": "19/08/2026"
+    },
+    {
+      "id": "f523458be0a825d95507",
+      "kind": "social",
+      "platform": "facebook",
+      "post_id": "pfbid0cr6Cuvz3TfdxYVFrh5KTUk3LEdSMc25Zpou6kuQQr9wscC2Vbk34YsTCpw2CFSrdl",
+      "title": "DIVPRO FUTSAL | LOS GOLEADORES TRAS LA FECHA 6 T",
+      "text": "DIVPRO FUTSAL | LOS GOLEADORES TRAS LA FECHA 6 T",
+      "url": "https://www.facebook.com/FutbolCanal/posts/pfbid0cr6Cuvz3TfdxYVFrh5KTUk3LEdSMc25Zpou6kuQQr9wscC2Vbk34YsTCpw2CFSrdl",
+      "post_url": "https://www.facebook.com/FutbolCanal/posts/pfbid0cr6Cuvz3TfdxYVFrh5KTUk3LEdSMc25Zpou6kuQQr9wscC2Vbk34YsTCpw2CFSrdl",
+      "image_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.99422-6/777855283_1385187447111132_5895929170662210416_n.png?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=p526x296&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=lMwzRuBBVOMQ7kNvwE8igQe&_nc_oc=Adobz4-KBGo6eW8jdluKKUFKeM7U8WqDtCsVTRJBN35CfVxXnP15pt9jOXR9qHw5pGE&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=0OerqBTB6Fvqq0FRVCHV5g&_nc_ss=7f289&oh=00_AQFn1xWP7rEX1BXZ_qotX_H7tEtXEohwLGyXYPZqGuycag&oe=6A8BE0EC",
+      "thumbnail_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.99422-6/777855283_1385187447111132_5895929170662210416_n.png?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=p526x296&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=lMwzRuBBVOMQ7kNvwE8igQe&_nc_oc=Adobz4-KBGo6eW8jdluKKUFKeM7U8WqDtCsVTRJBN35CfVxXnP15pt9jOXR9qHw5pGE&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=0OerqBTB6Fvqq0FRVCHV5g&_nc_ss=7f289&oh=00_AQFn1xWP7rEX1BXZ_qotX_H7tEtXEohwLGyXYPZqGuycag&oe=6A8BE0EC",
+      "video_url": "",
+      "video_post_url": "",
+      "media_type": "image",
+      "published_at": "2026-08-19T17:12:14.687759Z",
+      "scraped_at": "2026-08-19T19:12:14.687849Z",
+      "source_id": "facebook_browser:futbolcanal",
+      "source_name": "Facebook · FutbolCanal",
+      "source_type": "facebook_browser_public",
+      "source_authority": 0.8,
+      "scope": "bolivia",
+      "competition": "general",
+      "rank_score": 0.924,
+      "stale": false,
+      "extra": {
+        "collector": "browser_public",
+        "page_name": "FutbolCanal",
+        "page_url": "https://www.facebook.com/FutbolCanal/",
+        "group": "medios",
+        "age_hours": 2.0,
+        "freshness_unknown": false,
+        "media": {
+          "images": [
+            {
+              "url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.99422-6/777855283_1385187447111132_5895929170662210416_n.png?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=p526x296&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=lMwzRuBBVOMQ7kNvwE8igQe&_nc_oc=Adobz4-KBGo6eW8jdluKKUFKeM7U8WqDtCsVTRJBN35CfVxXnP15pt9jOXR9qHw5pGE&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=0OerqBTB6Fvqq0FRVCHV5g&_nc_ss=7f289&oh=00_AQFn1xWP7rEX1BXZ_qotX_H7tEtXEohwLGyXYPZqGuycag&oe=6A8BE0EC",
+              "width": 526,
+              "height": 526,
+              "alt": "Puede ser una imagen de ‎fútbol, fútbol y ‎texto que dice \"‎LIGA DIVPRO FUTSAL TABLA DE GOLEADOR H MIGUEL PADILLA ملب 17 Futsal ANDUVER ZAMBRANO 8 CRISTIANROSALES EDUARDO DA SILVA LUCHO GONZALES+ 8 7 7 6 6 6 芝血 DIEGO SAAVEDRA از 5 RUBENSANDI RUBENSA ALANVALDA C fútbol fútbolCANAL CANAL‎\"‎‎"
+            }
+          ],
+          "videos": [],
+          "posters": []
+        },
+        "direct_video_is_temporary": false,
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "DIVPRO FUTSAL | LOS GOLEADORES TRAS LA FECHA 6 T",
+        "content_quality": 0.7039,
+        "published_date": "2026-08-19"
+      },
+      "published_date": "2026-08-19",
+      "published_display": "19/08/2026"
     },
     {
       "id": "afd8d9a7c41fa6bbb29a",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid0XktuC7wE5LsMyMy2ZTshXdDufefKV1ouxENivdFerdGydj9TatANSLfhFGc7jbi5l",
-      "title": "Federación Boliviana de Fútbol 2 h · Designación arbitral | Copa Paceña - Fecha 1 … Ver más Todas las reacciones: 9 3 Me gusta Comentar",
-      "text": "Federación Boliviana de Fútbol 2 h · Designación arbitral | Copa Paceña - Fecha 1 … Ver más Todas las reacciones: 9 3 Me gusta Comentar",
+      "title": "Designación arbitral | Copa Paceña - Fecha 1",
+      "text": "Designación arbitral | Copa Paceña - Fecha 1",
       "url": "https://www.facebook.com/LaVerdeOficial/posts/pfbid0XktuC7wE5LsMyMy2ZTshXdDufefKV1ouxENivdFerdGydj9TatANSLfhFGc7jbi5l",
       "post_url": "https://www.facebook.com/LaVerdeOficial/posts/pfbid0XktuC7wE5LsMyMy2ZTshXdDufefKV1ouxENivdFerdGydj9TatANSLfhFGc7jbi5l",
       "image_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/780087897_1579772337148512_8158072474537936785_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s590x590&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=woN32dZPAMUQ7kNvwHpf9D8&_nc_oc=AdotSMslz4SiZbZ0I7vxxiq5KpD_o-rNZWZ5XJE1N_nSr2v1JeHH-KNnZ0MnGdQtqdo&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=LCoWg_EI1oD7NZG74_pIRA&_nc_ss=7f289&oh=00_AQGpS_lwNcf5I5R9roeEFiRMuP0GogseAL387gAP0KKL2w&oe=6A8BD09A",
@@ -225,63 +344,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
-    },
-    {
-      "id": "f523458be0a825d95507",
-      "kind": "social",
-      "platform": "facebook",
-      "post_id": "pfbid0cr6Cuvz3TfdxYVFrh5KTUk3LEdSMc25Zpou6kuQQr9wscC2Vbk34YsTCpw2CFSrdl",
-      "title": "Futbolcanal 29 min · DIVPRO FUTSAL | LOS GOLEADORES TRAS LA FECHA 6 T… Ver más Todas las reacciones: 4 1 Me gusta Comentar",
-      "text": "Futbolcanal 29 min · DIVPRO FUTSAL | LOS GOLEADORES TRAS LA FECHA 6 T… Ver más Todas las reacciones: 4 1 Me gusta Comentar",
-      "url": "https://www.facebook.com/FutbolCanal/posts/pfbid0cr6Cuvz3TfdxYVFrh5KTUk3LEdSMc25Zpou6kuQQr9wscC2Vbk34YsTCpw2CFSrdl",
-      "post_url": "https://www.facebook.com/FutbolCanal/posts/pfbid0cr6Cuvz3TfdxYVFrh5KTUk3LEdSMc25Zpou6kuQQr9wscC2Vbk34YsTCpw2CFSrdl",
-      "image_url": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.99422-6/777855283_1385187447111132_5895929170662210416_n.png?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=p526x296&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=lMwzRuBBVOMQ7kNvwHsb9jS&_nc_oc=Adoc_5WVYkyUmoIbOxCBffclq20AT66ADB2wZpBF1atmaRvFWj1DwhFUoUi2beol7kc&_nc_zt=14&_nc_ht=scontent-atl3-2.xx&_nc_gid=FWBxP1bSIkHTAgMM3a4xLg&_nc_ss=7f289&oh=00_AQHZsF_pCYk-epS0DTRp09kartv4svIYGHB5OD9CHed3NA&oe=6A8BA8AC",
-      "thumbnail_url": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.99422-6/777855283_1385187447111132_5895929170662210416_n.png?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=p526x296&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=lMwzRuBBVOMQ7kNvwHsb9jS&_nc_oc=Adoc_5WVYkyUmoIbOxCBffclq20AT66ADB2wZpBF1atmaRvFWj1DwhFUoUi2beol7kc&_nc_zt=14&_nc_ht=scontent-atl3-2.xx&_nc_gid=FWBxP1bSIkHTAgMM3a4xLg&_nc_ss=7f289&oh=00_AQHZsF_pCYk-epS0DTRp09kartv4svIYGHB5OD9CHed3NA&oe=6A8BA8AC",
-      "video_url": "",
-      "video_post_url": "",
-      "media_type": "image",
-      "published_at": "2026-08-19T16:38:59.379789Z",
-      "scraped_at": "2026-08-19T17:07:59.379894Z",
-      "source_id": "facebook_browser:futbolcanal",
-      "source_name": "Facebook · FutbolCanal",
-      "source_type": "facebook_browser_public",
-      "source_authority": 0.8,
-      "scope": "bolivia",
-      "competition": "general",
-      "rank_score": 0.9392,
-      "stale": false,
-      "extra": {
-        "collector": "browser_public",
-        "page_name": "FutbolCanal",
-        "page_url": "https://www.facebook.com/FutbolCanal/",
-        "group": "medios",
-        "age_hours": 0.48,
-        "freshness_unknown": false,
-        "media": {
-          "images": [
-            {
-              "url": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.99422-6/777855283_1385187447111132_5895929170662210416_n.png?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=p526x296&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=lMwzRuBBVOMQ7kNvwHsb9jS&_nc_oc=Adoc_5WVYkyUmoIbOxCBffclq20AT66ADB2wZpBF1atmaRvFWj1DwhFUoUi2beol7kc&_nc_zt=14&_nc_ht=scontent-atl3-2.xx&_nc_gid=FWBxP1bSIkHTAgMM3a4xLg&_nc_ss=7f289&oh=00_AQHZsF_pCYk-epS0DTRp09kartv4svIYGHB5OD9CHed3NA&oe=6A8BA8AC",
-              "width": 526,
-              "height": 526,
-              "alt": "Puede ser una imagen de ‎fútbol, fútbol y ‎texto que dice \"‎LIGA DIVPRO FUTSAL TABLA DE GOLEADOR H MIGUEL PADILLA ملب 17 Futsal ANDUVER ZAMBRANO 8 CRISTIANROSALES EDUARDO DA SILVA LUCHO GONZALES+ 8 7 7 6 6 6 芝血 DIEGO SAAVEDRA از 5 RUBENSANDI RUBENSA ALANVALDA C fútbol fútbolCANAL CANAL‎\"‎‎"
-            }
-          ],
-          "videos": [],
-          "posters": []
-        },
-        "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "Designación arbitral | Copa Paceña - Fecha 1",
+        "content_quality": 0.6994,
+        "published_date": "2026-08-19"
+      },
+      "published_date": "2026-08-19",
+      "published_display": "19/08/2026"
     },
     {
       "id": "f11458aee4966c5621dd",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid0ntWRQkz8TK1o5kDvH9eg3opmynXRtdt5vsCyBUrGvwcY9jGAbSrg3iYypwW41dhLl",
-      "title": "Club Deportivo Oriente Petrolero 49 min · No somos la mitad + 1. Somos todos, menos algunos.… Ver más Todas las reacciones: 416 10 11 Me gusta Comentar Ver más comentarios Tavo Mel",
-      "text": "Club Deportivo Oriente Petrolero 49 min · No somos la mitad + 1. Somos todos, menos algunos.… Ver más Todas las reacciones: 416 10 11 Me gusta Comentar Ver más comentarios Tavo Melgar Es por liga ! Vamos todos al tahuichi y a sumar de a 3 42 min 4",
+      "title": "No somos la mitad + 1. Somos todos, menos algunos.",
+      "text": "No somos la mitad + 1. Somos todos, menos algunos.",
       "url": "https://www.facebook.com/cdopetrolero/posts/pfbid0ntWRQkz8TK1o5kDvH9eg3opmynXRtdt5vsCyBUrGvwcY9jGAbSrg3iYypwW41dhLl",
       "post_url": "https://www.facebook.com/cdopetrolero/posts/pfbid0ntWRQkz8TK1o5kDvH9eg3opmynXRtdt5vsCyBUrGvwcY9jGAbSrg3iYypwW41dhLl",
       "image_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.99422-6/773603588_1037627945833604_7308366763450901960_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=D4RSvRnRCLIQ7kNvwEGHycr&_nc_oc=Adong9DEtf_csll4NJal2sG9T0BXTDb3717nOUl80n_2WEnRedL0dKWvthEWtzYKwGs&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=1r8hQt7Lcws1Mg_Ds0e-uQ&_nc_ss=7f289&oh=00_AQEeCy79tA3bMGwPlPieysBRwcH7SOFKist6HgcFm2ulIg&oe=6A8BB181",
@@ -331,16 +408,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "No somos la mitad + 1. Somos todos, menos algunos.",
+        "content_quality": 0.4061,
+        "published_date": "2026-08-19"
+      },
+      "published_date": "2026-08-19",
+      "published_display": "19/08/2026"
     },
     {
       "id": "83f79d23b18c3b94c5f2",
       "kind": "social",
       "platform": "facebook",
       "post_id": "28184359907868380",
-      "title": "Club Aurora 3 h · TODO POR NUESTROS COLORES Vamos el sábado al Capriles y no dejemos de alentar Sigamos el camino juntos #… Ver más 0:00 / 1:23 Todas las reacciones: 139 6 8 Me gus",
-      "text": "Club Aurora 3 h · TODO POR NUESTROS COLORES Vamos el sábado al Capriles y no dejemos de alentar Sigamos el camino juntos #… Ver más 0:00 / 1:23 Todas las reacciones: 139 6 8 Me gusta Comentar Ver más comentarios Lmcf Mauricio Cf Hace falta una parrilla, porque VACIOS SOBRAN 2 h 1 Andres Guzman Lmcf Mauricio Cf? Aqui no te darán la atención q no te dan en tu casa clefita 2 h",
+      "title": "TODO POR NUESTROS COLORES Vamos el sábado al Capriles y no dejemos de alentar Sigamos el camino juntos #",
+      "text": "TODO POR NUESTROS COLORES Vamos el sábado al Capriles y no dejemos de alentar Sigamos el camino juntos #",
       "url": "https://www.facebook.com/reel/28184359907868380/",
       "post_url": "https://www.facebook.com/reel/28184359907868380/",
       "image_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t15.5256-10/775375386_1346439067515286_4781601089434284774_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=108&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=UiVMxSsPuYoQ7kNvwENO3W-&_nc_oc=Adqk1-UieiGKanibouPQL51RxbtxsWGnrZcrcczfz6PvirogNwsNo0TIMSJX3AbTV5c&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&_nc_gid=oO68nINFO_HvMHSPW-Cr8w&_nc_ss=7f289&oh=00_AQFf2In_pIrzk2YooZ3MGKPaXOIYB8L8f7v81NpvKaUJ-A&oe=6A8BDC93",
@@ -378,16 +460,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "TODO POR NUESTROS COLORES Vamos el sábado al Capriles y no dejemos de alentar Sigamos el camino juntos #",
+        "content_quality": 0.4661,
+        "published_date": "2026-08-19"
+      },
+      "published_date": "2026-08-19",
+      "published_display": "19/08/2026"
     },
     {
       "id": "8b8960441f6bccb063a8",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid02oA1pJKFxrHdoD3YYwowK1U2SgyM7ajwkbyC3cBCgkRi4oyjNiQq4sQp1MEbK4rT1l",
-      "title": "Tigo Sports Bolivia 2 h · ¡CONTINÚAN LOS OCTAVOS! Hoy se definen a 2 clasificados más a la siguiente ronda de la Conmebol Sudamericana y se juega el partidazo de ida entre Independ",
-      "text": "Tigo Sports Bolivia 2 h · ¡CONTINÚAN LOS OCTAVOS! Hoy se definen a 2 clasificados más a la siguiente ronda de la Conmebol Sudamericana y se juega el partidazo de ida entre Independiente S… Ver más Todas las reacciones: 29 5 Me gusta Comentar",
+      "title": "¡CONTINÚAN LOS OCTAVOS! Hoy se definen a 2 clasificados más a la siguiente ronda de la Conmebol Sudamericana y se juega el partidazo de ida entre…",
+      "text": "¡CONTINÚAN LOS OCTAVOS! Hoy se definen a 2 clasificados más a la siguiente ronda de la Conmebol Sudamericana y se juega el partidazo de ida entre Independiente S",
       "url": "https://www.facebook.com/TigoSportsBolivia/posts/pfbid02oA1pJKFxrHdoD3YYwowK1U2SgyM7ajwkbyC3cBCgkRi4oyjNiQq4sQp1MEbK4rT1l",
       "post_url": "https://www.facebook.com/TigoSportsBolivia/posts/pfbid02oA1pJKFxrHdoD3YYwowK1U2SgyM7ajwkbyC3cBCgkRi4oyjNiQq4sQp1MEbK4rT1l",
       "image_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-6/778034232_1062213833228450_756114256441729262_n.jpg?stp=dst-jpg_tt6&cstp=mx1676x2048&ctp=s640x640&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=_dTFC8GfJIkQ7kNvwHRSDOk&_nc_oc=Adp1FoiHL8Xs1n98crCFRh135xy2eWod5EMspgQyc-LyQjw4TkZy_iMdMK4po45DNEw&_nc_zt=23&_nc_ht=scontent-atl3-1.xx&_nc_gid=fbS_S5HhyoxxDqB3IUGsaw&_nc_ss=7f289&oh=00_AQHXPyasqcps64VKXMJklAs0yf3MD8gh8K3-fc2JYj9Zpw&oe=6A8BC88C",
@@ -425,16 +512,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "¡CONTINÚAN LOS OCTAVOS! Hoy se definen a 2 clasificados más a la siguiente ronda de la Conmebol Sudamericana y se juega el partidazo de ida entre Independiente S",
+        "content_quality": 0.81,
+        "published_date": "2026-08-19"
+      },
+      "published_date": "2026-08-19",
+      "published_display": "19/08/2026"
     },
     {
       "id": "5b9ede75fe9aab182858",
       "kind": "social",
       "platform": "facebook",
       "post_id": "1642238927470039",
-      "title": "Futbolcanal está transmitiendo en vivo. 27 min · FIFA ARENA LA PAZ estreno de esta cancha por favor ahí lo VIVO 68 Todas las reacciones: 11 2 1 Me gusta Comentar Compartir Rodrigo ",
-      "text": "Futbolcanal está transmitiendo en vivo. 27 min · FIFA ARENA LA PAZ estreno de esta cancha por favor ahí lo VIVO 68 Todas las reacciones: 11 2 1 Me gusta Comentar Compartir Rodrigo Salinas También son los primeros en malversar los recursos de conmebol xd 6 min Morales Roberto Tanto por una cancha pequeña, mucho show para eso, que hace el alcalde colgándose de un regalo de la FIFA 18 min",
+      "title": "FIFA ARENA LA PAZ estreno de esta cancha por favor ahí lo VIVO 68",
+      "text": "FIFA ARENA LA PAZ estreno de esta cancha por favor ahí lo VIVO 68",
       "url": "https://www.facebook.com/FutbolCanal/videos/1642238927470039/",
       "post_url": "https://www.facebook.com/FutbolCanal/videos/1642238927470039/",
       "image_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t15.5256-10/779179773_1804651113856580_3522635405458028918_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=110&ccb=1-7&_nc_sid=df2c94&_nc_ohc=oZFbSyVehyEQ7kNvwHxPErf&_nc_oc=AdpU7Ez4Dj8tFdXr4KeJ3wk0ZjHkOruAm_UHmfO5a2R6NghYTstmqgy2rDiXbDrHkTg&_nc_zt=23&_nc_ht=scontent-lhr11-1.xx&_nc_gid=NsqfB6XRvsBi5fTLv6mXcQ&_nc_ss=7f289&oh=00_AQFrTikSM6Yb1I7zjTPrTaUMXrmM6vqL3Un6_87RVe1ing&oe=6A8B9A71",
@@ -472,16 +564,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "FIFA ARENA LA PAZ estreno de esta cancha por favor ahí lo VIVO 68",
+        "content_quality": 0.4228,
+        "published_date": "2026-08-19"
+      },
+      "published_date": "2026-08-19",
+      "published_display": "19/08/2026"
     },
     {
       "id": "ef412e9271e76c0fae43",
       "kind": "social",
       "platform": "facebook",
       "post_id": "2069068640402957",
-      "title": "Club The Strongest 32 min · ¡Buenos días, familia atigrada! Revive los mejores momentos de ayer. Por… Ver más 0:00 / 0:49 Todas las reacciones: 95 4 2 Me gusta Comentar",
-      "text": "Club The Strongest 32 min · ¡Buenos días, familia atigrada! Revive los mejores momentos de ayer. Por… Ver más 0:00 / 0:49 Todas las reacciones: 95 4 2 Me gusta Comentar",
+      "title": "¡Buenos días, familia atigrada! Revive los mejores momentos de ayer. Por",
+      "text": "¡Buenos días, familia atigrada! Revive los mejores momentos de ayer. Por",
       "url": "https://www.facebook.com/reel/2069068640402957/",
       "post_url": "https://www.facebook.com/reel/2069068640402957/",
       "image_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t15.5256-10/780648480_1074663272168189_5539516334136924077_n.jpg?stp=dst-jpg_tt6&cstp=mx1076x1920&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=vRzCqc9a_zEQ7kNvwGRdNsD&_nc_oc=AdrqejpUxQyCln9bGPyF8dUYgb4A4w-EBGRE8b292dUBTxYQUcIJX4fButpqznmNilM&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=F5CNT88_6SVDpcb8AmHF4A&_nc_ss=7f289&oh=00_AQH2zaVeBAAvtXv1k2r8WoRcf34EajeWLF-Hi23iiY3dZA&oe=6A8B980B",
@@ -519,16 +616,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "¡Buenos días, familia atigrada! Revive los mejores momentos de ayer. Por",
+        "content_quality": 0.0,
+        "published_date": "2026-08-19"
+      },
+      "published_date": "2026-08-19",
+      "published_display": "19/08/2026"
     },
     {
       "id": "2a4b62ed6c8c9cff34a3",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid02X3WACrMNxGJ9iB35FJgFUJY1r8SEgX1yWb77dQG2S7XA5F47ZL6vUJ4nsJBr6HcSl",
-      "title": "Club Aurora 1 h · VAMOS POR LA VICTORIA No dejemos de alentar Este sábado juntos alentemos desde la tribuna #Va… Ver más Todas las reacciones: 109 14 2 Me gusta Comentar Ver más co",
-      "text": "Club Aurora 1 h · VAMOS POR LA VICTORIA No dejemos de alentar Este sábado juntos alentemos desde la tribuna #Va… Ver más Todas las reacciones: 109 14 2 Me gusta Comentar Ver más comentarios Fan destacado Saul Vasquez Reyes Umaña, rangel y cordano bajisimos 22 min",
+      "title": "VAMOS POR LA VICTORIA No dejemos de alentar Este sábado juntos alentemos desde la tribuna #Va",
+      "text": "VAMOS POR LA VICTORIA No dejemos de alentar Este sábado juntos alentemos desde la tribuna #Va",
       "url": "https://www.facebook.com/Club.Aurora.Oficial/posts/pfbid02X3WACrMNxGJ9iB35FJgFUJY1r8SEgX1yWb77dQG2S7XA5F47ZL6vUJ4nsJBr6HcSl",
       "post_url": "https://www.facebook.com/Club.Aurora.Oficial/posts/pfbid02X3WACrMNxGJ9iB35FJgFUJY1r8SEgX1yWb77dQG2S7XA5F47ZL6vUJ4nsJBr6HcSl",
       "image_url": "https://scontent-mel1-1.xx.fbcdn.net/v/t39.99422-6/779160477_1742411030303558_3507925451557197732_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=UJ7c61QB8P8Q7kNvwHno0-0&_nc_oc=Adqh8ltR7yoIRi5gjaMTnFwEufu0BNh17oczPrQlk21dlommFVvScSgPCw51EyfiFjc&_nc_zt=14&_nc_ht=scontent-mel1-1.xx&_nc_gid=yhohxJ7ZdpoVgxwkcLlPEQ&_nc_ss=7f289&oh=00_AQFx5oFb9ljlF823UihSjCWM5p7htYpjvh4YbiDxscQCLg&oe=6A8B8A5F",
@@ -566,16 +668,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "VAMOS POR LA VICTORIA No dejemos de alentar Este sábado juntos alentemos desde la tribuna #Va",
+        "content_quality": 0.7539,
+        "published_date": "2026-08-19"
+      },
+      "published_date": "2026-08-19",
+      "published_display": "19/08/2026"
     },
     {
       "id": "0dc45cf64e154df5885e",
       "kind": "social",
       "platform": "facebook",
       "post_id": "1767349474575701",
-      "title": "Club Always Ready transmitió en vivo. 5 h · ALWAYS READY 19 - 08 - 2026 0:00 / 45:15 Todas las reacciones: 13 3 10 Me gusta Comentar Compartir Ver más comentarios Josue Saenz Vamos",
-      "text": "Club Always Ready transmitió en vivo. 5 h · ALWAYS READY 19 - 08 - 2026 0:00 / 45:15 Todas las reacciones: 13 3 10 Me gusta Comentar Compartir Ver más comentarios Josue Saenz Vamos Always Ready 5 h",
+      "title": "ALWAYS READY 19 - 08 - 2026",
+      "text": "ALWAYS READY 19 - 08 - 2026",
       "url": "https://www.facebook.com/ClubAlwaysReady.Bo/videos/1767349474575701/",
       "post_url": "https://www.facebook.com/ClubAlwaysReady.Bo/videos/1767349474575701/",
       "image_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t15.5256-10/779357189_1393449792760347_1089180833378605662_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x720&ctp=s960x960&_nc_cat=110&ccb=1-7&_nc_sid=032300&_nc_ohc=ct0ibCwbWXcQ7kNvwE3GiT6&_nc_oc=AdpzxSARmj4wbErG7s0m0lPfyJD3LciBq_8gTHGGFqHziMu6j1SD18_5sFmkDpzFJnk&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=34DKJ97InDg4XV096mwlCA&_nc_ss=7f289&oh=00_AQF_9xjjlPfgMg8BD0USbSSm-lZOoHJEWXEByL54uXeARQ&oe=6A8BB4D4",
@@ -613,16 +720,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "ALWAYS READY 19 - 08 - 2026",
+        "content_quality": 0.3806,
+        "published_date": "2026-08-19"
+      },
+      "published_date": "2026-08-19",
+      "published_display": "19/08/2026"
     },
     {
       "id": "6399aeb6b7990195a14b",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid0wyfYD36Fh9bEgJuoes2gsS1YiBzYeosZbkGzsqazpNvWsagGFVffFqwWJef3majBl",
-      "title": "Club Deportivo Real Tomayapo 6 h · ¡UN PARTIDO QUE SE JUEGA CON EL CORAZÓN! E… Ver más Todas las reacciones: 69 16 8 Me gusta Comentar Ver más comentarios Fan destacado Janeth Fern",
-      "text": "Club Deportivo Real Tomayapo 6 h · ¡UN PARTIDO QUE SE JUEGA CON EL CORAZÓN! E… Ver más Todas las reacciones: 69 16 8 Me gusta Comentar Ver más comentarios Fan destacado Janeth Fernandez Vamos Real Tomayapo que los puntos se quedan en casa!! 37 min",
+      "title": "¡UN PARTIDO QUE SE JUEGA CON EL CORAZÓN! E",
+      "text": "¡UN PARTIDO QUE SE JUEGA CON EL CORAZÓN! E",
       "url": "https://www.facebook.com/clubrealtomayapo/posts/pfbid0wyfYD36Fh9bEgJuoes2gsS1YiBzYeosZbkGzsqazpNvWsagGFVffFqwWJef3majBl",
       "post_url": "https://www.facebook.com/clubrealtomayapo/posts/pfbid0wyfYD36Fh9bEgJuoes2gsS1YiBzYeosZbkGzsqazpNvWsagGFVffFqwWJef3majBl",
       "image_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/780212030_2161599524432563_1536853392701597898_n.png?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=p526x296&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=FLN-GftQRrgQ7kNvwG5dDxZ&_nc_oc=AdpISdThfOuJMG-ojezlgRWq_K5uw1jVXfpUwOJSpJldkqCOvBIgKDt98SIfqr78pj4&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=XiyjLrwLnlvh3vhkb-O3SA&_nc_ss=7f289&oh=00_AQHZEyRzpp_3NxEnWc5hIMBojOND0b7vYaJg5fCmu-dxgQ&oe=6A8BE12D",
@@ -660,16 +772,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "¡UN PARTIDO QUE SE JUEGA CON EL CORAZÓN! E",
+        "content_quality": 0.6972,
+        "published_date": "2026-08-19"
+      },
+      "published_date": "2026-08-19",
+      "published_display": "19/08/2026"
     },
     {
       "id": "6e69e66ca80f5da358d6",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid034iRCQxdhyEXf5BfpL3Snc26ZA9ckHrz1CGPzpP9gNVvkb93xxgCo8NYeskV11emMl",
-      "title": "Futbolcanal 28 min · LIGA NACIONAL SUB 17 COMPLEMENTO JORNADA 7… Ver más YOUTUBE.COM SUB-17/THE STRONGEST VS ALWAYS READY Todas las reacciones: 1 Me gusta Comentar Compartir",
-      "text": "Futbolcanal 28 min · LIGA NACIONAL SUB 17 COMPLEMENTO JORNADA 7… Ver más YOUTUBE.COM SUB-17/THE STRONGEST VS ALWAYS READY Todas las reacciones: 1 Me gusta Comentar Compartir",
+      "title": "LIGA NACIONAL SUB 17 COMPLEMENTO JORNADA 7 SUB-17/THE STRONGEST VS ALWAYS READY",
+      "text": "LIGA NACIONAL SUB 17 COMPLEMENTO JORNADA 7 SUB-17/THE STRONGEST VS ALWAYS READY",
       "url": "https://www.facebook.com/FutbolCanal/posts/pfbid034iRCQxdhyEXf5BfpL3Snc26ZA9ckHrz1CGPzpP9gNVvkb93xxgCo8NYeskV11emMl",
       "post_url": "https://www.facebook.com/FutbolCanal/posts/pfbid034iRCQxdhyEXf5BfpL3Snc26ZA9ckHrz1CGPzpP9gNVvkb93xxgCo8NYeskV11emMl",
       "image_url": "https://external-sjc3-1.xx.fbcdn.net/emg1/v/t13/498346288315079884?url=https%3A%2F%2Fi.ytimg.com%2Fvi%2FXIsPIvXFevM%2Fmaxresdefault.jpg%3Fv%3D6a85a730&fb_obo=1&utld=ytimg.com&stp=c0.5000x0.5000f_dst-jpg_flffffff_p500x261_q75_tt6&_nc_gid=61q8mABFbDafzW-aJZxCyw&_nc_oc=AdoQVvULYDtg5iTGqtSe6yUNpoU6qrNspM_dIHPLdaW0u4hORLfRhoawMKKQbWL1PW0&ccb=13-1&oh=06_Q3_CASwNO_Izcpd2KorDvccZZd4dmjERtOkOB8y9_YebaAPF&oe=6A879A2F&_nc_sid=e17101",
@@ -707,16 +824,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "LIGA NACIONAL SUB 17 COMPLEMENTO JORNADA 7 SUB-17/THE STRONGEST VS ALWAYS READY",
+        "content_quality": 0.7383,
+        "published_date": "2026-08-19"
+      },
+      "published_date": "2026-08-19",
+      "published_display": "19/08/2026"
     },
     {
       "id": "8cefcc6f3d140b253272",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid0MdTK5yDWNio8D86VuUfLMJs2U4fFZLiK3JUjEV5LiNygbu3quCpjnTynigHrd7E8l",
-      "title": "Club Blooming 6 h · ¡𝐇𝐎𝐘 𝐔́𝐋𝐓𝐈𝐌𝐎 𝐃𝐈́𝐀 𝐃𝐄𝐋 𝐎𝐔𝐓𝐋𝐄𝐓 𝐂𝐄𝐋𝐄𝐒𝐓𝐄! Último día para poder adquir… Ver más Todas las reacciones: 31 3 2 Me gusta Comentar Ver más comentarios Omar Tarihuma Cla",
-      "text": "Club Blooming 6 h · ¡𝐇𝐎𝐘 𝐔́𝐋𝐓𝐈𝐌𝐎 𝐃𝐈́𝐀 𝐃𝐄𝐋 𝐎𝐔𝐓𝐋𝐄𝐓 𝐂𝐄𝐋𝐄𝐒𝐓𝐄! Último día para poder adquir… Ver más Todas las reacciones: 31 3 2 Me gusta Comentar Ver más comentarios Omar Tarihuma Claros El costo de la chamarra negra por favor 2 h",
+      "title": "¡𝐇𝐎𝐘 𝐔́𝐋𝐓𝐈𝐌𝐎 𝐃𝐈́𝐀 𝐃𝐄𝐋 𝐎𝐔𝐓𝐋𝐄𝐓 𝐂𝐄𝐋𝐄𝐒𝐓𝐄! Último día para poder adquir",
+      "text": "¡𝐇𝐎𝐘 𝐔́𝐋𝐓𝐈𝐌𝐎 𝐃𝐈́𝐀 𝐃𝐄𝐋 𝐎𝐔𝐓𝐋𝐄𝐓 𝐂𝐄𝐋𝐄𝐒𝐓𝐄! Último día para poder adquir",
       "url": "https://www.facebook.com/ClubBloomingOficial/posts/pfbid0MdTK5yDWNio8D86VuUfLMJs2U4fFZLiK3JUjEV5LiNygbu3quCpjnTynigHrd7E8l",
       "post_url": "https://www.facebook.com/ClubBloomingOficial/posts/pfbid0MdTK5yDWNio8D86VuUfLMJs2U4fFZLiK3JUjEV5LiNygbu3quCpjnTynigHrd7E8l",
       "image_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/778958069_2294836211277775_8464890906715915938_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Q-JUOTdhPDwQ7kNvwFNdl4u&_nc_oc=AdoEqf5pdPeq-Egk2t-s8dUXBV6PRpS-RzHb3ZxtNs2P6LIJKSRzG7i-28QTMkRFiHQ&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=A_145K1Wr3Wszw2TE0m2Ig&_nc_ss=7f289&oh=00_AQEiG7kF36Yt02mmYs1HmdFnsLTmGd6hDAp8BX7Y3bIQPw&oe=6A8BE890",
@@ -754,16 +876,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "¡𝐇𝐎𝐘 𝐔́𝐋𝐓𝐈𝐌𝐎 𝐃𝐈́𝐀 𝐃𝐄𝐋 𝐎𝐔𝐓𝐋𝐄𝐓 𝐂𝐄𝐋𝐄𝐒𝐓𝐄! Último día para poder adquir",
+        "content_quality": 0.4239,
+        "published_date": "2026-08-19"
+      },
+      "published_date": "2026-08-19",
+      "published_display": "19/08/2026"
     },
     {
       "id": "c056998f35c38ca8b153",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid02RB6W18qsE4UHQV48EbUD72wL8rrtuoCZU12MdcdAsW4RrJDAuVxavb1QtsySKaJXl",
-      "title": "Club Blooming 2 h · ¡𝐇𝐎𝐘 𝐔́𝐋𝐓𝐈𝐌𝐎 𝐃𝐈́𝐀 𝐃𝐄𝐋 𝐎𝐔𝐓𝐋𝐄𝐓 𝐂𝐄𝐋𝐄𝐒𝐓𝐄! Último día para poder adquir… Ver más Todas las reacciones: 23 1 Me gusta Comentar",
-      "text": "Club Blooming 2 h · ¡𝐇𝐎𝐘 𝐔́𝐋𝐓𝐈𝐌𝐎 𝐃𝐈́𝐀 𝐃𝐄𝐋 𝐎𝐔𝐓𝐋𝐄𝐓 𝐂𝐄𝐋𝐄𝐒𝐓𝐄! Último día para poder adquir… Ver más Todas las reacciones: 23 1 Me gusta Comentar",
+      "title": "¡𝐇𝐎𝐘 𝐔́𝐋𝐓𝐈𝐌𝐎 𝐃𝐈́𝐀 𝐃𝐄𝐋 𝐎𝐔𝐓𝐋𝐄𝐓 𝐂𝐄𝐋𝐄𝐒𝐓𝐄! Último día para poder adquir",
+      "text": "¡𝐇𝐎𝐘 𝐔́𝐋𝐓𝐈𝐌𝐎 𝐃𝐈́𝐀 𝐃𝐄𝐋 𝐎𝐔𝐓𝐋𝐄𝐓 𝐂𝐄𝐋𝐄𝐒𝐓𝐄! Último día para poder adquir",
       "url": "https://www.facebook.com/ClubBloomingOficial/posts/pfbid02RB6W18qsE4UHQV48EbUD72wL8rrtuoCZU12MdcdAsW4RrJDAuVxavb1QtsySKaJXl",
       "post_url": "https://www.facebook.com/ClubBloomingOficial/posts/pfbid02RB6W18qsE4UHQV48EbUD72wL8rrtuoCZU12MdcdAsW4RrJDAuVxavb1QtsySKaJXl",
       "image_url": "https://scontent-mel1-1.xx.fbcdn.net/v/t39.99422-6/778958069_2294836211277775_8464890906715915938_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Q-JUOTdhPDwQ7kNvwGJxIC5&_nc_oc=Adql36oI4wETXgccQ9pGLbQTpnAsDCp7Q6SSGrVeYaVaxBZJLCvry2cuj1ZAgf1vXIg&_nc_zt=14&_nc_ht=scontent-mel1-1.xx&_nc_gid=xgrPyjWQNSQE3P_d_fAvkg&_nc_ss=7f289&oh=00_AQFWY_09svqKzXbK66DkDsCQVLEMl4oFztfojTwmm5dYoA&oe=6A8BB050",
@@ -801,16 +928,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "¡𝐇𝐎𝐘 𝐔́𝐋𝐓𝐈𝐌𝐎 𝐃𝐈́𝐀 𝐃𝐄𝐋 𝐎𝐔𝐓𝐋𝐄𝐓 𝐂𝐄𝐋𝐄𝐒𝐓𝐄! Último día para poder adquir",
+        "content_quality": 0.4239,
+        "published_date": "2026-08-19"
+      },
+      "published_date": "2026-08-19",
+      "published_display": "19/08/2026"
     },
     {
       "id": "ca647852c1c7ac0bd398",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid02yTq8LV3AucmW2eBUeyM6qVf8KSVUeePmBMY9hmHGaWsn6R7Fq6oGHBB77cBNaYDAl",
-      "title": "Club Always Ready 26 min · TODOS A VILLA INGENIO A… Ver más Todas las reacciones: 33 2 2 Me gusta Comentar Ver más comentarios Carlos Guerrero Ahora van a adicionar una o dos horas",
-      "text": "Club Always Ready 26 min · TODOS A VILLA INGENIO A… Ver más Todas las reacciones: 33 2 2 Me gusta Comentar Ver más comentarios Carlos Guerrero Ahora van a adicionar una o dos horas hasta que Algays Ready robe el partido 3 min",
+      "title": "TODOS A VILLA INGENIO A",
+      "text": "TODOS A VILLA INGENIO A",
       "url": "https://www.facebook.com/ClubAlwaysReady.Bo/posts/pfbid02yTq8LV3AucmW2eBUeyM6qVf8KSVUeePmBMY9hmHGaWsn6R7Fq6oGHBB77cBNaYDAl",
       "post_url": "https://www.facebook.com/ClubAlwaysReady.Bo/posts/pfbid02yTq8LV3AucmW2eBUeyM6qVf8KSVUeePmBMY9hmHGaWsn6R7Fq6oGHBB77cBNaYDAl",
       "image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.99422-6/777868092_1411504781040983_8951740794522954930_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=o7IuKv4KM7cQ7kNvwG4hFuY&_nc_oc=AdpUpq61_8TPGwxXGvObnrChwes7FA3ZT8pwuvTDUjyGnu8NyLCjQPmY3lkQtWUD_HA&_nc_zt=14&_nc_ht=scontent-iad6-1.xx&_nc_gid=63mKedo_CnauXpR5mDfiBA&_nc_ss=7f289&oh=00_AQE_fN2PXWiJoW6NlDId_Ar5NoNffI7ASIY9kZodlOxHKQ&oe=6A8B63D7",
@@ -848,16 +980,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "TODOS A VILLA INGENIO A",
+        "content_quality": 0.3761,
+        "published_date": "2026-08-19"
+      },
+      "published_date": "2026-08-19",
+      "published_display": "19/08/2026"
     },
     {
       "id": "8472d3088cb2b1561ae9",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid0wm75kVf56ReRWc11J7fiwwDe7gC5h8jbho19CAS2shHihxupa8UiGtuo7fWAuB7cl",
-      "title": "Futbolcanal 5 h · COPA SUDAMERICANA | CONCLUYÓ LA PARTICIPACIÓN DE BOLÍVAR EN LA COPA … Ver más Todas las reacciones: 28 1 Me gusta Comentar",
-      "text": "Futbolcanal 5 h · COPA SUDAMERICANA | CONCLUYÓ LA PARTICIPACIÓN DE BOLÍVAR EN LA COPA … Ver más Todas las reacciones: 28 1 Me gusta Comentar",
+      "title": "COPA SUDAMERICANA | CONCLUYÓ LA PARTICIPACIÓN DE BOLÍVAR EN LA COPA",
+      "text": "COPA SUDAMERICANA | CONCLUYÓ LA PARTICIPACIÓN DE BOLÍVAR EN LA COPA",
       "url": "https://www.facebook.com/FutbolCanal/posts/pfbid0wm75kVf56ReRWc11J7fiwwDe7gC5h8jbho19CAS2shHihxupa8UiGtuo7fWAuB7cl",
       "post_url": "https://www.facebook.com/FutbolCanal/posts/pfbid0wm75kVf56ReRWc11J7fiwwDe7gC5h8jbho19CAS2shHihxupa8UiGtuo7fWAuB7cl",
       "image_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/777854240_29051949607727482_1896749884803798792_n.png?stp=dst-jpg_tt6&cstp=mx720x720&ctp=p526x296&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=P8jGJGTiKRwQ7kNvwFS9MuW&_nc_oc=Adptp22L0_Wtu4YJp9QGpuPAZrl8677y1IngFR47MCs_j3mkznbz9KespSZ4oeZYZ0w&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=M5YysN5TwCIlaJdWJE_IUw&_nc_ss=7f289&oh=00_AQEvAFaE-ueW44ra0RAedz6DajJzOe4yueykyIcVfJl6XQ&oe=6A8B7035",
@@ -895,16 +1032,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "COPA SUDAMERICANA | CONCLUYÓ LA PARTICIPACIÓN DE BOLÍVAR EN LA COPA",
+        "content_quality": 0.725,
+        "published_date": "2026-08-19"
+      },
+      "published_date": "2026-08-19",
+      "published_display": "19/08/2026"
     },
     {
       "id": "90f913f6ce1fa5d74f44",
       "kind": "social",
       "platform": "facebook",
       "post_id": "3271303169924141",
-      "title": "Tigo Sports Bolivia 9 h · \"POR DESCONCENTRACIONES SE NOS VA (EL PARTIDO), DESPUÉS DE EMPATAR)\" Dairo Asprilla delantero de la 'Academia', manifestó alegría por el golazo que marcó,",
-      "text": "Tigo Sports Bolivia 9 h · \"POR DESCONCENTRACIONES SE NOS VA (EL PARTIDO), DESPUÉS DE EMPATAR)\" Dairo Asprilla delantero de la 'Academia', manifestó alegría por el golazo que marcó, por… Ver más 0:00 / 0:51 Todas las reacciones: 966 71 14 Me gusta Comentar",
+      "title": "\"POR DESCONCENTRACIONES SE NOS VA (EL PARTIDO), DESPUÉS DE EMPATAR)\" Dairo Asprilla delantero de la 'Academia', manifestó alegría por el golazo que…",
+      "text": "\"POR DESCONCENTRACIONES SE NOS VA (EL PARTIDO), DESPUÉS DE EMPATAR)\" Dairo Asprilla delantero de la 'Academia', manifestó alegría por el golazo que marcó, por",
       "url": "https://www.facebook.com/reel/3271303169924141/",
       "post_url": "https://www.facebook.com/reel/3271303169924141/",
       "image_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t15.5256-10/780500951_1704736447305043_2193982171080386665_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=jYn4qva6RvYQ7kNvwEej7fY&_nc_oc=AdpZjFaUB0vtkDOIgwwP1jxrIy-rQmFOdq2G8fX6BBY7yvXQYNQ0iU0FKU33uePL9Eo&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&_nc_gid=xeLyNAIcmGY9WyiGij0ORw&_nc_ss=7f289&oh=00_AQF7nEiRpR5QEIWke0gh7hXn5bYslQq5-o6Zcbds_OPjkA&oe=6A8B74D2",
@@ -942,16 +1084,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "\"POR DESCONCENTRACIONES SE NOS VA (EL PARTIDO), DESPUÉS DE EMPATAR)\" Dairo Asprilla delantero de la 'Academia', manifestó alegría por el golazo que marcó, por",
+        "content_quality": 0.81,
+        "published_date": "2026-08-19"
+      },
+      "published_date": "2026-08-19",
+      "published_display": "19/08/2026"
     },
     {
       "id": "494953763014f0177c84",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid0i1sYiFjPqR1pLKYq7fiR64qfVJnTMgd7eJX3yZnCLcvVAVCBNTQnMuQQ7wRBYao2l",
-      "title": "Federación Boliviana de Fútbol 11 h · Resultados – Fecha 1 … Ver más Todas las reacciones: 13 1 Me gusta Comentar",
-      "text": "Federación Boliviana de Fútbol 11 h · Resultados – Fecha 1 … Ver más Todas las reacciones: 13 1 Me gusta Comentar",
+      "title": "Federación Boliviana de Fútbol — Resultados – Fecha 1",
+      "text": "Resultados – Fecha 1",
       "url": "https://www.facebook.com/LaVerdeOficial/posts/pfbid0i1sYiFjPqR1pLKYq7fiR64qfVJnTMgd7eJX3yZnCLcvVAVCBNTQnMuQQ7wRBYao2l",
       "post_url": "https://www.facebook.com/LaVerdeOficial/posts/pfbid0i1sYiFjPqR1pLKYq7fiR64qfVJnTMgd7eJX3yZnCLcvVAVCBNTQnMuQQ7wRBYao2l",
       "image_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/775817522_1743249367105697_2854583849960446598_n.png?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=p526x296&_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=_ZYflXvWIa4Q7kNvwHc1FD7&_nc_oc=AdrBVPCYwC4K7cLcQA1IFtQnX5JiAT6XJIpLjZzyG-j1e72SY7qhYvoPrR609X2O1-c&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=0VIABsYZ8FxcMR0B_ZmoQA&_nc_ss=7f289&oh=00_AQHr1whXqhSidPtYltGYs6fE4QJeTLrWsZND5OhhZF1GXQ&oe=6A8B7A4C",
@@ -989,16 +1136,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "Resultados – Fecha 1",
+        "content_quality": 0.6911,
+        "published_date": "2026-08-19"
+      },
+      "published_date": "2026-08-19",
+      "published_display": "19/08/2026"
     },
     {
       "id": "84f03f3d48d5a932037c",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid02YNc6TwCGP4tuSP7VpyaD9TwVCcwCUJKk4M7TisviLY2xP4DzL5hhewicUDEdJyLFl",
-      "title": "Club Deportivo Oriente Petrolero 10 h · #FinalDelPartido… Ver más Todas las reacciones: 1 mil 176 9 Me gusta Comentar Ver más comentarios Fan destacado William Alejandro Severiche ",
-      "text": "Club Deportivo Oriente Petrolero 10 h · #FinalDelPartido… Ver más Todas las reacciones: 1 mil 176 9 Me gusta Comentar Ver más comentarios Fan destacado William Alejandro Severiche Guibarra Jugaron bien, solo que roldan pasala no seas codicioso. 10 h 68 Ver las 7 respuestas",
+      "title": "#FinalDelPartido",
+      "text": "#FinalDelPartido",
       "url": "https://www.facebook.com/cdopetrolero/posts/pfbid02YNc6TwCGP4tuSP7VpyaD9TwVCcwCUJKk4M7TisviLY2xP4DzL5hhewicUDEdJyLFl",
       "post_url": "https://www.facebook.com/cdopetrolero/posts/pfbid02YNc6TwCGP4tuSP7VpyaD9TwVCcwCUJKk4M7TisviLY2xP4DzL5hhewicUDEdJyLFl",
       "image_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.99422-6/777867235_1827725531718225_1846111380440311844_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=b5gfbOQ8YiAQ7kNvwGl4U2U&_nc_oc=Ado2gjS0ExZQfeDiGa1uC5JwxYvR8bjsyQirENTFe5701-Wbe-t8atztKE9wnhkqbwQ&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=i5ZjA5cmczYHEIw9GaaxbA&_nc_ss=7f289&oh=00_AQExk8VUlbNrgjOgTG72qKNE8uGxjc0w68DywxhngKvQUw&oe=6A8B76F9",
@@ -1036,16 +1188,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "#FinalDelPartido",
+        "content_quality": 0.6683,
+        "published_date": "2026-08-19"
+      },
+      "published_date": "2026-08-19",
+      "published_display": "19/08/2026"
     },
     {
       "id": "a1e8dda71fb1e67c16e8",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid0PDdLjnaC5cS1mMqFrLd94gKx1qhUN1zicm3becrhgZX1KembhxA4Ja8HN5ywZLMpl",
-      "title": "Futbolcanal 2 h · COPA PACEÑA | EL AZUCARERO SUMÓ SUS PRIMERAS UNIDADES EN LA COPA … Ver más Todas las reacciones: 32 1 Me gusta Comentar",
-      "text": "Futbolcanal 2 h · COPA PACEÑA | EL AZUCARERO SUMÓ SUS PRIMERAS UNIDADES EN LA COPA … Ver más Todas las reacciones: 32 1 Me gusta Comentar",
+      "title": "COPA PACEÑA | EL AZUCARERO SUMÓ SUS PRIMERAS UNIDADES EN LA COPA",
+      "text": "COPA PACEÑA | EL AZUCARERO SUMÓ SUS PRIMERAS UNIDADES EN LA COPA",
       "url": "https://www.facebook.com/FutbolCanal/posts/pfbid0PDdLjnaC5cS1mMqFrLd94gKx1qhUN1zicm3becrhgZX1KembhxA4Ja8HN5ywZLMpl",
       "post_url": "https://www.facebook.com/FutbolCanal/posts/pfbid0PDdLjnaC5cS1mMqFrLd94gKx1qhUN1zicm3becrhgZX1KembhxA4Ja8HN5ywZLMpl",
       "image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.99422-6/777851921_1614985753560864_3530478553599178487_n.png?stp=dst-jpg_tt6&cstp=mx1122x1402&ctp=s640x640&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Z6kbFmsSjHUQ7kNvwGnAxNG&_nc_oc=AdqS8v67dAUX8Njbf58vRe6oAl9ihs3ifpBikD74kNUQ4fs_leEcY6Ts5xL-dZA21fA&_nc_zt=14&_nc_ht=scontent-iad3-1.xx&_nc_gid=NYiSGGfPfKQfn-GT4TC4mw&_nc_ss=7f289&oh=00_AQHKWINiXcLAkOmDAD02PlM3E0CRjwlfv9gF7EHuKnDmog&oe=6A8B28C3",
@@ -1083,16 +1240,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "COPA PACEÑA | EL AZUCARERO SUMÓ SUS PRIMERAS UNIDADES EN LA COPA",
+        "content_quality": 0.7217,
+        "published_date": "2026-08-19"
+      },
+      "published_date": "2026-08-19",
+      "published_display": "19/08/2026"
     },
     {
       "id": "d8a42ee120b4d5235ac1",
       "kind": "social",
       "platform": "facebook",
       "post_id": "28122977157334031",
-      "title": "Tigo Sports Bolivia 17 min · ¡TRISTEZA Y LÁGRIMAS EN JUGADORES BOLIVARISTAS LUEGO DE UNA DURA ELIMINACIÓN DE LA CONMEBOL SUDAMERICANA! Disfruta este PARTIDAZO Por Tigo Sports 1 y l",
-      "text": "Tigo Sports Bolivia 17 min · ¡TRISTEZA Y LÁGRIMAS EN JUGADORES BOLIVARISTAS LUEGO DE UNA DURA ELIMINACIÓN DE LA CONMEBOL SUDAMERICANA! Disfruta este PARTIDAZO Por Tigo Sports 1 y la APP . 0:00 / 0:19 Todas las reacciones: 238 41 2 Me gusta Comentar Ver más comentarios Jefferson Lopez Montero Jugando de igual a igual, mientras los que se burlan al año aparecen EMBARGADOS!! 8 min 2",
+      "title": "¡TRISTEZA Y LÁGRIMAS EN JUGADORES BOLIVARISTAS LUEGO DE UNA DURA ELIMINACIÓN DE LA CONMEBOL SUDAMERICANA!",
+      "text": "¡TRISTEZA Y LÁGRIMAS EN JUGADORES BOLIVARISTAS LUEGO DE UNA DURA ELIMINACIÓN DE LA CONMEBOL SUDAMERICANA! Disfruta este PARTIDAZO Por Tigo Sports 1 y la APP .",
       "url": "https://www.facebook.com/reel/28122977157334031/",
       "post_url": "https://www.facebook.com/reel/28122977157334031/",
       "image_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t15.5256-10/777396597_1556445355957205_5545303320382232228_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=111&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=EVnQvc5BbXMQ7kNvwE-lIfj&_nc_oc=AdoNVIHQn805BsTtUzAgGKLnngNpvB0pIH1JH52FwV22q86DKtYWJI_CtUt5qa8uH_0&_nc_zt=23&_nc_ht=scontent-lhr11-1.xx&_nc_gid=wtY3-446FdEMKVUKKAIOFQ&_nc_ss=7f289&oh=00_AQG3g17MnfEOxlG2GBHRhV3tSt9tkwfzyem6iMlzKP1ykA&oe=6A8AED42",
@@ -1130,16 +1292,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "¡TRISTEZA Y LÁGRIMAS EN JUGADORES BOLIVARISTAS LUEGO DE UNA DURA ELIMINACIÓN DE LA CONMEBOL SUDAMERICANA! Disfruta este PARTIDAZO Por Tigo Sports 1 y la APP .",
+        "content_quality": 0.4967,
+        "published_date": "2026-08-19"
+      },
+      "published_date": "2026-08-19",
+      "published_display": "19/08/2026"
     },
     {
       "id": "37d3f7fa6b1edd755dd4",
       "kind": "social",
       "platform": "facebook",
       "post_id": "1553991915839820",
-      "title": "Club The Strongest 10 h · ¡Goooool de Martin Chiatti! 2-1 en el marcador a favor del tigre. #T… Ver más 0:00 / 0:17 Todas las reacciones: 1 mil 32 12 Me gusta Comentar Ver más come",
-      "text": "Club The Strongest 10 h · ¡Goooool de Martin Chiatti! 2-1 en el marcador a favor del tigre. #T… Ver más 0:00 / 0:17 Todas las reacciones: 1 mil 32 12 Me gusta Comentar Ver más comentarios Jorge Murga Farfan ES QUE COMIERON MUCHO EN HUARINA... EL BANQUETITO QUE LOS COSTA LES \"\" OFRECIERON \"\" Y CON LA NEVADA MÁS NO HAY CUERPO QUE AGUANTE 1 h 2",
+      "title": "¡Goooool de Martin Chiatti! 2-1 en el marcador a favor del tigre. #T",
+      "text": "¡Goooool de Martin Chiatti! 2-1 en el marcador a favor del tigre. #T",
       "url": "https://www.facebook.com/reel/1553991915839820/",
       "post_url": "https://www.facebook.com/reel/1553991915839820/",
       "image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t15.5256-10/778291169_1702273281043584_954853811603898153_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=102&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=ZbsCVaMQkl4Q7kNvwGpCFBx&_nc_oc=Adq6r4IH14ohdmEXWoOEtUI8JdEdtjgilsGJKdl2YGvrb3tVGOqpXr6E0xsc1He-Af4&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=PI1BL_DSuw9O-gyEynXGiw&_nc_ss=7f289&oh=00_AQHJ86QjEUgCI45rlyQ4GSiYd6YHw8QRN4pUnWySV27sGQ&oe=6A8B700A",
@@ -1177,16 +1344,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "¡Goooool de Martin Chiatti! 2-1 en el marcador a favor del tigre. #T",
+        "content_quality": 0.4261,
+        "published_date": "2026-08-19"
+      },
+      "published_date": "2026-08-19",
+      "published_display": "19/08/2026"
     },
     {
       "id": "2d9ef7e711f4b5820bc2",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid0UpxuYmZuXxfHF2FuVwCsUEc4qzynmJWLPWN36cF4em7p1V4Y2mN4yY8qE8SjquJkl",
-      "title": "Club Deportivo Oriente Petrolero 12 h · #FinalDelPartido… Ver más Todas las reacciones: 1 mil 180 9 Me gusta Comentar Ver más comentarios Fan destacado William Alejandro Severiche ",
-      "text": "Club Deportivo Oriente Petrolero 12 h · #FinalDelPartido… Ver más Todas las reacciones: 1 mil 180 9 Me gusta Comentar Ver más comentarios Fan destacado William Alejandro Severiche Guibarra Jugaron bien, solo que roldan pasala no seas codicioso. 12 h 70 Ver las 7 respuestas",
+      "title": "#FinalDelPartido",
+      "text": "#FinalDelPartido",
       "url": "https://www.facebook.com/cdopetrolero/posts/pfbid0UpxuYmZuXxfHF2FuVwCsUEc4qzynmJWLPWN36cF4em7p1V4Y2mN4yY8qE8SjquJkl",
       "post_url": "https://www.facebook.com/cdopetrolero/posts/pfbid0UpxuYmZuXxfHF2FuVwCsUEc4qzynmJWLPWN36cF4em7p1V4Y2mN4yY8qE8SjquJkl",
       "image_url": "https://scontent-mel1-1.xx.fbcdn.net/v/t39.99422-6/777867235_1827725531718225_1846111380440311844_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=b5gfbOQ8YiAQ7kNvwH-ZSqO&_nc_oc=AdrZ5aXv-FJ2n8ag95qCYE2-B3PWLiky6NHy1CvL47e40qVQtsz53N6D5ZmdiiJp7mg&_nc_zt=14&_nc_ht=scontent-mel1-1.xx&_nc_gid=Z6GraWHK62B2l9K_o9M0JQ&_nc_ss=7f289&oh=00_AQFnsnZ99YrNGM0U9aI7DoS3upqw8XFMjl8yvBZa4296iw&oe=6A8BAF39",
@@ -1224,16 +1396,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "#FinalDelPartido",
+        "content_quality": 0.6683,
+        "published_date": "2026-08-19"
+      },
+      "published_date": "2026-08-19",
+      "published_display": "19/08/2026"
     },
     {
       "id": "3f47ea3b1c8e6c6d8f8f",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid02FNDiySRqMCJfdXAArjfp2Ud9at5VV23bwGC4FgvemfsSFnxiixe1Qe3xfxMvTHHfl",
-      "title": "Club Bolívar 6 h · Final del partido en el MorumBis Todas las reacciones: 1,7 mil 794 33 Me gusta Comentar Ver más comentarios Fan destacado Daniel Choque Loaiza A pesar de la derr",
-      "text": "Club Bolívar 6 h · Final del partido en el MorumBis Todas las reacciones: 1,7 mil 794 33 Me gusta Comentar Ver más comentarios Fan destacado Daniel Choque Loaiza A pesar de la derrota, Bolívar plantó un buen partido. Lástima que después del golazo de Asprilla para el empate, Echeverría entregó el partido con un error. Arreaga tiene mucho oficio para \"componer\" una defensa que antes era una gelatina y en la últi… Ver más 6 h 63 Miguel Angel Apasa Jauja Daniel Choque Loaiza areaga bajo su nivel ese tiro de esquina parecido al gol en la paz ni lampe ni nadie rechazan pero bueno lucho el partido 5 h",
+      "title": "Final del partido en el MorumBis",
+      "text": "Final del partido en el MorumBis",
       "url": "https://www.facebook.com/CLUBBOLIVAR/posts/pfbid02FNDiySRqMCJfdXAArjfp2Ud9at5VV23bwGC4FgvemfsSFnxiixe1Qe3xfxMvTHHfl",
       "post_url": "https://www.facebook.com/CLUBBOLIVAR/posts/pfbid02FNDiySRqMCJfdXAArjfp2Ud9at5VV23bwGC4FgvemfsSFnxiixe1Qe3xfxMvTHHfl",
       "image_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.99422-6/779308100_1434863725512315_6689422274739965322_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7GbQKWpt9ukQ7kNvwE9o2-e&_nc_oc=Adrn4IEmTOQLypo83a3nY9KtfbJkOwoPLgCJ-9wRI2nHt-6wrPrfg26ip0pR76Wr4JY&_nc_zt=14&_nc_ht=scontent-iad3-2.xx&_nc_gid=ITyOr6y6orFEyGy3K63wHA&_nc_ss=7f289&oh=00_AQHZBe04hbPvea10xjHqHh6Qha-tjDZwtl4jIP2CxDS6Wg&oe=6A8B2727",
@@ -1271,16 +1448,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "Final del partido en el MorumBis",
+        "content_quality": 0.6861,
+        "published_date": "2026-08-19"
+      },
+      "published_date": "2026-08-19",
+      "published_display": "19/08/2026"
     },
     {
       "id": "e6382ee99e49ea3e6230",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid0BpaY4GoUVyn2w56xVC8z9PVQ58LQZunJgjCKVzSzatWTQ6S7mavtGLaU4kvqL6Ubl",
-      "title": "Club Bolívar 12 h · Final del partido en el MorumBis Todas las reacciones: 2,1 mil 919 38 Me gusta Comentar Ver más comentarios Fan destacado Daniel Choque Loaiza A pesar de la der",
-      "text": "Club Bolívar 12 h · Final del partido en el MorumBis Todas las reacciones: 2,1 mil 919 38 Me gusta Comentar Ver más comentarios Fan destacado Daniel Choque Loaiza A pesar de la derrota, Bolívar plantó un buen partido. Lástima que después del golazo de Asprilla para el empate, Echeverría entregó el partido con un error. Arreaga tiene mucho oficio para \"componer\" una defensa que antes era una gelatina y en la últi… Ver más 12 h 89 Ver las 2 respuestas",
+      "title": "Final del partido en el MorumBis",
+      "text": "Final del partido en el MorumBis",
       "url": "https://www.facebook.com/CLUBBOLIVAR/posts/pfbid0BpaY4GoUVyn2w56xVC8z9PVQ58LQZunJgjCKVzSzatWTQ6S7mavtGLaU4kvqL6Ubl",
       "post_url": "https://www.facebook.com/CLUBBOLIVAR/posts/pfbid0BpaY4GoUVyn2w56xVC8z9PVQ58LQZunJgjCKVzSzatWTQ6S7mavtGLaU4kvqL6Ubl",
       "image_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.99422-6/779308100_1434863725512315_6689422274739965322_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=8CE4VC6heN8Q7kNvwGlAPmU&_nc_oc=AdrJUxcXZcNx5h__CQ_GC8x0BiNOWhYcV-8WprZU7PEAj59aCSThK4Im6Hkox3QScpo&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=aSSxdExfnY84mTFpnSHYXQ&_nc_ss=7f289&oh=00_AQFhLWmQhTdkRFkfxE7i8Oaj8up7mSF_pi2I_-qSPgee2g&oe=6A8B97A7",
@@ -1318,16 +1500,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "Final del partido en el MorumBis",
+        "content_quality": 0.6861,
+        "published_date": "2026-08-19"
+      },
+      "published_date": "2026-08-19",
+      "published_display": "19/08/2026"
     },
     {
       "id": "ad18386754bd5080ccef",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid0zo9mPxefnT2RQsAzf68LqrRdgeNMvNXS9D2EafjDua41TeSQXXkAC9Kbj3SXNUxZl",
-      "title": "Club Blooming 1 h · ¡ 𝐌𝐀𝐍̃𝐀𝐍𝐀 𝐔́𝐋𝐓𝐈𝐌𝐎 𝐃𝐈́𝐀 𝐃𝐄𝐋 𝐎𝐔𝐓𝐋𝐄𝐓 𝐂𝐄𝐋𝐄𝐒𝐓𝐄! Mañana último día para poder ad… Ver más Todas las reacciones: 38 1 1 Me gusta Comentar Ruddy Nieto Ase envio a otro ",
-      "text": "Club Blooming 1 h · ¡ 𝐌𝐀𝐍̃𝐀𝐍𝐀 𝐔́𝐋𝐓𝐈𝐌𝐎 𝐃𝐈́𝐀 𝐃𝐄𝐋 𝐎𝐔𝐓𝐋𝐄𝐓 𝐂𝐄𝐋𝐄𝐒𝐓𝐄! Mañana último día para poder ad… Ver más Todas las reacciones: 38 1 1 Me gusta Comentar Ruddy Nieto Ase envio a otro departamento 1 h",
+      "title": "¡ 𝐌𝐀𝐍̃𝐀𝐍𝐀 𝐔́𝐋𝐓𝐈𝐌𝐎 𝐃𝐈́𝐀 𝐃𝐄𝐋 𝐎𝐔𝐓𝐋𝐄𝐓 𝐂𝐄𝐋𝐄𝐒𝐓𝐄! Mañana último día para poder ad",
+      "text": "¡ 𝐌𝐀𝐍̃𝐀𝐍𝐀 𝐔́𝐋𝐓𝐈𝐌𝐎 𝐃𝐈́𝐀 𝐃𝐄𝐋 𝐎𝐔𝐓𝐋𝐄𝐓 𝐂𝐄𝐋𝐄𝐒𝐓𝐄! Mañana último día para poder ad",
       "url": "https://www.facebook.com/ClubBloomingOficial/posts/pfbid0zo9mPxefnT2RQsAzf68LqrRdgeNMvNXS9D2EafjDua41TeSQXXkAC9Kbj3SXNUxZl",
       "post_url": "https://www.facebook.com/ClubBloomingOficial/posts/pfbid0zo9mPxefnT2RQsAzf68LqrRdgeNMvNXS9D2EafjDua41TeSQXXkAC9Kbj3SXNUxZl",
       "image_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.99422-6/779728907_2037949173498140_1565525139694677803_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=7RRfSFea-K0Q7kNvwE4oiCC&_nc_oc=AdqnsTi4eCsguftICkvqaTkANddid2HdsSJT1HercWJXNCyxmsukByVgncpqFPbki7Q&_nc_zt=14&_nc_ht=scontent-dfw6-2.xx&_nc_gid=hEVeGt_f_e6fOgUZR-lK3g&_nc_ss=7f289&oh=00_AQHmscBL4T1GiuqoAZ6s3ZZPEb60ZyjEc219OAoblWqpcw&oe=6A8AF57B",
@@ -1365,16 +1552,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "¡ 𝐌𝐀𝐍̃𝐀𝐍𝐀 𝐔́𝐋𝐓𝐈𝐌𝐎 𝐃𝐈́𝐀 𝐃𝐄𝐋 𝐎𝐔𝐓𝐋𝐄𝐓 𝐂𝐄𝐋𝐄𝐒𝐓𝐄! Mañana último día para poder ad",
+        "content_quality": 0.4328,
+        "published_date": "2026-08-19"
+      },
+      "published_date": "2026-08-19",
+      "published_display": "19/08/2026"
     },
     {
       "id": "52c152ee4ffd5b5ee9a8",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid034Adx1z1HpFi5125XxHtdT1GywMuwZ2rcdt2ZdQWyqUx97TgunPDiEKRwpApdJnBFl",
-      "title": "Club Blooming 9 h · ¡ 𝐌𝐀𝐍̃𝐀𝐍𝐀 𝐔́𝐋𝐓𝐈𝐌𝐎 𝐃𝐈́𝐀 𝐃𝐄𝐋 𝐎𝐔𝐓𝐋𝐄𝐓 𝐂𝐄𝐋𝐄𝐒𝐓𝐄! Mañana último día para poder ad… Ver más Todas las reacciones: 47 1 1 Me gusta Comentar Ruddy Nieto Ase envio a otro ",
-      "text": "Club Blooming 9 h · ¡ 𝐌𝐀𝐍̃𝐀𝐍𝐀 𝐔́𝐋𝐓𝐈𝐌𝐎 𝐃𝐈́𝐀 𝐃𝐄𝐋 𝐎𝐔𝐓𝐋𝐄𝐓 𝐂𝐄𝐋𝐄𝐒𝐓𝐄! Mañana último día para poder ad… Ver más Todas las reacciones: 47 1 1 Me gusta Comentar Ruddy Nieto Ase envio a otro departamento 9 h",
+      "title": "¡ 𝐌𝐀𝐍̃𝐀𝐍𝐀 𝐔́𝐋𝐓𝐈𝐌𝐎 𝐃𝐈́𝐀 𝐃𝐄𝐋 𝐎𝐔𝐓𝐋𝐄𝐓 𝐂𝐄𝐋𝐄𝐒𝐓𝐄! Mañana último día para poder ad",
+      "text": "¡ 𝐌𝐀𝐍̃𝐀𝐍𝐀 𝐔́𝐋𝐓𝐈𝐌𝐎 𝐃𝐈́𝐀 𝐃𝐄𝐋 𝐎𝐔𝐓𝐋𝐄𝐓 𝐂𝐄𝐋𝐄𝐒𝐓𝐄! Mañana último día para poder ad",
       "url": "https://www.facebook.com/ClubBloomingOficial/posts/pfbid034Adx1z1HpFi5125XxHtdT1GywMuwZ2rcdt2ZdQWyqUx97TgunPDiEKRwpApdJnBFl",
       "post_url": "https://www.facebook.com/ClubBloomingOficial/posts/pfbid034Adx1z1HpFi5125XxHtdT1GywMuwZ2rcdt2ZdQWyqUx97TgunPDiEKRwpApdJnBFl",
       "image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.99422-6/779728907_2037949173498140_1565525139694677803_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=7RRfSFea-K0Q7kNvwFlHM5H&_nc_oc=AdqzSuOh0h9eZZ4VXgezxMTYme52x-CUP-OojrcfVD94g05X5i0D33glq_fBeY_1UpM&_nc_zt=14&_nc_ht=scontent-iad3-1.xx&_nc_gid=rq3hvxAam5bQT_7ie6b0Fg&_nc_ss=7f289&oh=00_AQHhznJy0I28m6a3yhXzVsdiEQtqrsMZ9M2rDgyPo21rbA&oe=6A8B65FB",
@@ -1412,16 +1604,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "¡ 𝐌𝐀𝐍̃𝐀𝐍𝐀 𝐔́𝐋𝐓𝐈𝐌𝐎 𝐃𝐈́𝐀 𝐃𝐄𝐋 𝐎𝐔𝐓𝐋𝐄𝐓 𝐂𝐄𝐋𝐄𝐒𝐓𝐄! Mañana último día para poder ad",
+        "content_quality": 0.4328,
+        "published_date": "2026-08-19"
+      },
+      "published_date": "2026-08-19",
+      "published_display": "19/08/2026"
     },
     {
       "id": "daa9135fa645d9c30688",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid0YySm3orXxtUnXyvCLDSMEk2Ru9ju8tZehQTgqWYdrFqzaNBEZKXf6U8W1STGXCjql",
-      "title": "Club Always Ready 9 h · Nada detiene a #LaBanda y el trabajo continúa #L… Ver más +12 Todas las reacciones: 61 8 Me gusta Comentar Ver más comentarios Victor Emmerson La historia d",
-      "text": "Club Always Ready 9 h · Nada detiene a #LaBanda y el trabajo continúa #L… Ver más +12 Todas las reacciones: 61 8 Me gusta Comentar Ver más comentarios Victor Emmerson La historia de los 23 minutos de adición será pues 7 h 1",
+      "title": "Nada detiene a #LaBanda y el trabajo continúa #L",
+      "text": "Nada detiene a #LaBanda y el trabajo continúa #L",
       "url": "https://www.facebook.com/ClubAlwaysReady.Bo/posts/pfbid0YySm3orXxtUnXyvCLDSMEk2Ru9ju8tZehQTgqWYdrFqzaNBEZKXf6U8W1STGXCjql",
       "post_url": "https://www.facebook.com/ClubAlwaysReady.Bo/posts/pfbid0YySm3orXxtUnXyvCLDSMEk2Ru9ju8tZehQTgqWYdrFqzaNBEZKXf6U8W1STGXCjql",
       "image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-6/777854214_1391087806462504_7610134795179125413_n.jpg?stp=dst-jpg_tt6&cstp=mx1638x2048&ctp=s590x590&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=WzQltcWzg0EQ7kNvwEKo5EQ&_nc_oc=AdrNdaQVmNaocoVZVOGhgeGnd_JFlJSTVMRw8rZQlnlyGHbn1_YRTmicY7kU-7V9OTQ&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=Uzi26ywny0MH-6PQBz5ZXg&_nc_ss=7f289&oh=00_AQGB7TZKJaGwoUG2LLJBsrwOV1NkJx8eeliEAkpIej1b0w&oe=6A8B4C34",
@@ -1483,16 +1680,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "Nada detiene a #LaBanda y el trabajo continúa #L",
+        "content_quality": 0.4039,
+        "published_date": "2026-08-19"
+      },
+      "published_date": "2026-08-19",
+      "published_display": "19/08/2026"
     },
     {
       "id": "6ddacaacd424ebd4243e",
       "kind": "social",
       "platform": "facebook",
       "post_id": "1824453101690919",
-      "title": "Tigo Sports Bolivia 36 min · 'TONINO' INTENTA DESDE AFUERA LOGRAR EL EMPATE PARA LA 'ACADEMIA' Disfruta este PARTIDAZO Por Tigo Sports 1 y la APP . 0:00 / 0:23 Todas las reacciones",
-      "text": "Tigo Sports Bolivia 36 min · 'TONINO' INTENTA DESDE AFUERA LOGRAR EL EMPATE PARA LA 'ACADEMIA' Disfruta este PARTIDAZO Por Tigo Sports 1 y la APP . 0:00 / 0:23 Todas las reacciones: 338 1 2 Me gusta Comentar Rildo Caceres Vamos bolivar 12 min",
+      "title": "'TONINO' INTENTA DESDE AFUERA LOGRAR EL EMPATE PARA LA 'ACADEMIA' Disfruta este PARTIDAZO Por Tigo Sports 1 y la APP .",
+      "text": "'TONINO' INTENTA DESDE AFUERA LOGRAR EL EMPATE PARA LA 'ACADEMIA' Disfruta este PARTIDAZO Por Tigo Sports 1 y la APP .",
       "url": "https://www.facebook.com/reel/1824453101690919/",
       "post_url": "https://www.facebook.com/reel/1824453101690919/",
       "image_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t15.5256-10/779455044_1601508164899971_6957213229579728475_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=111&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=3LRIA_WhkbUQ7kNvwEa3iMm&_nc_oc=AdpABmJgYHM6ZITUkbjPbCZME-BFeIM48dMmeVer2316dC4cAV49NhGTCvUQENp3YjQ&_nc_zt=23&_nc_ht=scontent-sea5-1.xx&_nc_gid=09ftHfQONA89rVlgACaWCg&_nc_ss=7f289&oh=00_AQHgdDuRHOGRHA5uIyLFCOHFX3CJVosvTM9eIhvkkjgsHA&oe=6A8AF0BE",
@@ -1530,16 +1732,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "'TONINO' INTENTA DESDE AFUERA LOGRAR EL EMPATE PARA LA 'ACADEMIA' Disfruta este PARTIDAZO Por Tigo Sports 1 y la APP .",
+        "content_quality": 0.7817,
+        "published_date": "2026-08-19"
+      },
+      "published_date": "2026-08-19",
+      "published_display": "19/08/2026"
     },
     {
       "id": "5aac5a1f93a0a7f67538",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid02b3nyRvg1bbFmgAWcefvSkRSxsRVU1mKrYbqpYp1s7zRUvnyqhRAfgXnjAPRyVmPdl",
-      "title": "Club The Strongest 23 min · Comienzo el segundo tiempo Vamos muchos… Ver más Todas las reacciones: 50 1 1 Me gusta Comentar Diego Ronald Recién le pones ganas zago 15 min",
-      "text": "Club The Strongest 23 min · Comienzo el segundo tiempo Vamos muchos… Ver más Todas las reacciones: 50 1 1 Me gusta Comentar Diego Ronald Recién le pones ganas zago 15 min",
+      "title": "Comienzo el segundo tiempo Vamos muchos",
+      "text": "Comienzo el segundo tiempo Vamos muchos",
       "url": "https://www.facebook.com/clubthestrongestoficial/posts/pfbid02b3nyRvg1bbFmgAWcefvSkRSxsRVU1mKrYbqpYp1s7zRUvnyqhRAfgXnjAPRyVmPdl",
       "post_url": "https://www.facebook.com/clubthestrongestoficial/posts/pfbid02b3nyRvg1bbFmgAWcefvSkRSxsRVU1mKrYbqpYp1s7zRUvnyqhRAfgXnjAPRyVmPdl",
       "image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.99422-6/778950246_1429126982605261_2181289492924025518_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=4ZBNACXyk1IQ7kNvwGpaURe&_nc_oc=Adqrz3zO8cY3YMSs3f1q7fMdYndAKCOwsOFQzrzRiCgqOf3E1ox2umDG-K-_cHdv4JU&_nc_zt=14&_nc_ht=scontent-iad6-1.xx&_nc_gid=hPiNzwhDTVabUScN1YxXZA&_nc_ss=7f289&oh=00_AQGcLrfmjzfkwBwfR4tMglUBnixUrCsvH_lXUoP9K3i61w&oe=6A8AD15C",
@@ -1577,16 +1784,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "Comienzo el segundo tiempo Vamos muchos",
+        "content_quality": 0.1739,
+        "published_date": "2026-08-19"
+      },
+      "published_date": "2026-08-19",
+      "published_display": "19/08/2026"
     },
     {
       "id": "9a6908c340874491406e",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid02CwzdTDMDKennqBNyrRisUsbPcPfrpXba8GnyogBYix2xyKpfE4PfEuuksvt3oenGl",
-      "title": "Club Bolívar 27 min · Final de 45 minutos.… Ver más Todas las reacciones: 528 203 6 Me gusta Comentar Ver más comentarios Jose Gonsalez Con saavedra en el equipo nose puede jajaja ",
-      "text": "Club Bolívar 27 min · Final de 45 minutos.… Ver más Todas las reacciones: 528 203 6 Me gusta Comentar Ver más comentarios Jose Gonsalez Con saavedra en el equipo nose puede jajaja 23 min 39",
+      "title": "Final de 45 minutos.",
+      "text": "Final de 45 minutos.",
       "url": "https://www.facebook.com/CLUBBOLIVAR/posts/pfbid02CwzdTDMDKennqBNyrRisUsbPcPfrpXba8GnyogBYix2xyKpfE4PfEuuksvt3oenGl",
       "post_url": "https://www.facebook.com/CLUBBOLIVAR/posts/pfbid02CwzdTDMDKennqBNyrRisUsbPcPfrpXba8GnyogBYix2xyKpfE4PfEuuksvt3oenGl",
       "image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.99422-6/775926336_1625638082326537_3723663020398493977_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=1qEQbF2hGQ8Q7kNvwEdVUf8&_nc_oc=AdoCv25aQ5lteWvAMdzbNOMLwppsmrH62TDc4svWpJkuL6fF4FqbmQIgk6fdGhq-Ytg&_nc_zt=14&_nc_ht=scontent-iad6-1.xx&_nc_gid=rBaJEv1Hq-my-mirGjtA3Q&_nc_ss=7f289&oh=00_AQGGBhWndU0uKIrrjBeFCaeEktp4nkkSytXn7XplB4CK_A&oe=6A8AD036",
@@ -1624,16 +1836,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "Final de 45 minutos.",
+        "content_quality": 0.1228,
+        "published_date": "2026-08-19"
+      },
+      "published_date": "2026-08-19",
+      "published_display": "19/08/2026"
     },
     {
       "id": "ecfcb8addad3934ccacf",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid0335BmAzs8bBmDgemUqDQ7XpDUYcni59QgqwLLriU3oMj7W3Pa9vTcnEMS5H8tq4vml",
-      "title": "Club Deportivo Oriente Petrolero 2 h · Estos son nuestros titulares para enfrentar a #TheStrongest … Ver más Todas las reacciones: 647 41 4 Me gusta Comentar Ver más comentarios Ca",
-      "text": "Club Deportivo Oriente Petrolero 2 h · Estos son nuestros titulares para enfrentar a #TheStrongest … Ver más Todas las reacciones: 647 41 4 Me gusta Comentar Ver más comentarios Carlos Gareca Ojalá que no lo meta a peña 2 h 6",
+      "title": "Estos son nuestros titulares para enfrentar a #TheStrongest",
+      "text": "Estos son nuestros titulares para enfrentar a #TheStrongest",
       "url": "https://www.facebook.com/cdopetrolero/posts/pfbid0335BmAzs8bBmDgemUqDQ7XpDUYcni59QgqwLLriU3oMj7W3Pa9vTcnEMS5H8tq4vml",
       "post_url": "https://www.facebook.com/cdopetrolero/posts/pfbid0335BmAzs8bBmDgemUqDQ7XpDUYcni59QgqwLLriU3oMj7W3Pa9vTcnEMS5H8tq4vml",
       "image_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.99422-6/777824926_1026934090253356_8689117142604637177_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=awzgFS3ARzQQ7kNvwFUg8aB&_nc_oc=AdqeA_s2kV_ftBAptEKUFJd16AEnCFHA6DDh0iDyhFLenK3mErlmDGMjGMzANYPDfo4&_nc_zt=14&_nc_ht=scontent-sjc3-1.xx&_nc_gid=chzUkxCY64i1LsVV7wPRDA&_nc_ss=7f289&oh=00_AQGGKT3SpcPdM6k9wYnFKCpt9FhHEjEFk9k4xt7r817fsA&oe=6A8AD398",
@@ -1671,16 +1888,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "Estos son nuestros titulares para enfrentar a #TheStrongest",
+        "content_quality": 0.7161,
+        "published_date": "2026-08-19"
+      },
+      "published_date": "2026-08-19",
+      "published_display": "19/08/2026"
     },
     {
       "id": "1c26df0372c5703a4122",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid0gxAhzWfdTuzVw2JB5ahA3jmXi6pD2XKZZCR6x8c2zC653HeUJVKfmy8wvF3XCv3Tl",
-      "title": "Federación Boliviana de Fútbol 4 h · Análisis de las jugadas trascendentales de la fecha 14 de la Liga de la División Profesional 2026. #FBFtrabajando #F… Ver más YOUTUBE.COM Análi",
-      "text": "Federación Boliviana de Fútbol 4 h · Análisis de las jugadas trascendentales de la fecha 14 de la Liga de la División Profesional 2026. #FBFtrabajando #F… Ver más YOUTUBE.COM Análisis de las jugadas trascendentales de la Fecha 15 de la Liga de la #DivisiónProfesional 2026 Todas las reacciones: 3 2 Me gusta Comentar Compartir",
+      "title": "Análisis de las jugadas trascendentales de la fecha 14 de la Liga de la División Profesional 2026.",
+      "text": "Análisis de las jugadas trascendentales de la fecha 14 de la Liga de la División Profesional 2026. #FBFtrabajando #F Análisis de las jugadas trascendentales de la Fecha 15 de la Liga de la #DivisiónProfesional 2026",
       "url": "https://www.facebook.com/LaVerdeOficial/posts/pfbid0gxAhzWfdTuzVw2JB5ahA3jmXi6pD2XKZZCR6x8c2zC653HeUJVKfmy8wvF3XCv3Tl",
       "post_url": "https://www.facebook.com/LaVerdeOficial/posts/pfbid0gxAhzWfdTuzVw2JB5ahA3jmXi6pD2XKZZCR6x8c2zC653HeUJVKfmy8wvF3XCv3Tl",
       "image_url": "https://external-ord5-2.xx.fbcdn.net/emg1/v/t13/16089949243651883038?url=https%3A%2F%2Fi.ytimg.com%2Fvi%2FF1fu8hCUfb4%2Fmaxresdefault.jpg&fb_obo=1&utld=ytimg.com&stp=c0.5000x0.5000f_dst-jpg_flffffff_p500x261_q75_tt6&_nc_gid=309WuWIjVf67bQOg3B192g&_nc_oc=Adp_KEtV3B2uuW7DElp0Zoq7Crslnh70NNA0nm872Kg_V7w8n3g0JdFN2_pVaVjfSdE&ccb=13-1&oh=06_Q3_CAX8_qEVYx0WVdUFaDzS7VgnBrw6Ej0B39w1BdOvOf2RX&oe=6A86EE3B&_nc_sid=e17101",
@@ -1718,16 +1940,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "Análisis de las jugadas trascendentales de la fecha 14 de la Liga de la División Profesional 2026. #FBFtrabajando #F Análisis de las jugadas trascendentales de la Fecha 15 de la Liga de la #DivisiónProfesional 2026",
+        "content_quality": 0.81,
+        "published_date": "2026-08-18"
+      },
+      "published_date": "2026-08-18",
+      "published_display": "18/08/2026"
     },
     {
       "id": "dac614c7bd7d9aaf2e3b",
       "kind": "social",
       "platform": "facebook",
       "post_id": "1817263102593278",
-      "title": "Tigo Sports Bolivia 1 h · ¡BOLÍVAR YA SABE DE HACER HISTORIA EN BRASIL! La 'Academia' ya clasificó dos veces en territorio brasileño por fases eliminatorias internacionales de CONM",
-      "text": "Tigo Sports Bolivia 1 h · ¡BOLÍVAR YA SABE DE HACER HISTORIA EN BRASIL! La 'Academia' ya clasificó dos veces en territorio brasileño por fases eliminatorias internacionales de CONMEBO… Ver más 0:00 / 0:47 Todas las reacciones: 109 13 21 Me gusta Comentar Ver más comentarios Jorge Gonzalo Murillo Quiroz Bueno, menos mal que Bolívar tiene al arquero \"octopus\" digo Lampe, no hay de que preocuparse, la suerte del guardameta sigue intacta. vamos celeste veremos de que estas hecho hoy por la noche. 30 min",
+      "title": "¡BOLÍVAR YA SABE DE HACER HISTORIA EN BRASIL! La 'Academia' ya clasificó dos veces en territorio brasileño por fases eliminatorias internacionales de…",
+      "text": "¡BOLÍVAR YA SABE DE HACER HISTORIA EN BRASIL! La 'Academia' ya clasificó dos veces en territorio brasileño por fases eliminatorias internacionales de CONMEBO",
       "url": "https://www.facebook.com/reel/1817263102593278/",
       "post_url": "https://www.facebook.com/reel/1817263102593278/",
       "image_url": "https://scontent-sea1-1.xx.fbcdn.net/v/t15.5256-10/777715715_1744683446731594_4822298647014684753_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=gX7tWhArJxAQ7kNvwF2Cjox&_nc_oc=AdpqauWQOZZMfRUu1q-eXaj3GFSdWkdFALvd8W6awWs2FdGBKUj0iC81OZpGMZUI8ZE&_nc_zt=23&_nc_ht=scontent-sea1-1.xx&_nc_gid=dC5TVIV6IEX8ZQcDv-SVrA&_nc_ss=7f289&oh=00_AQFeAPdOvQwm2kjto_9HijkiaJgP7EK0ZrsH1Wr_PnIFWA&oe=6A8AC8DE",
@@ -1765,16 +1992,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "¡BOLÍVAR YA SABE DE HACER HISTORIA EN BRASIL! La 'Academia' ya clasificó dos veces en territorio brasileño por fases eliminatorias internacionales de CONMEBO",
+        "content_quality": 0.81,
+        "published_date": "2026-08-18"
+      },
+      "published_date": "2026-08-18",
+      "published_display": "18/08/2026"
     },
     {
       "id": "1641ff9ca428daee6beb",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid0ur3C19TB6sksXDbcdnJefreE5BcLS2QjoiKw12uX7Dsqwa48hHa32WphMdn4BGbtl",
-      "title": "Club Bolívar 1 h · El vestuario guarda la calma que existe antes de las grandes noches internacionales L… Ver más +4 Todas las reacciones: 536 23 26 Me gusta Comentar Ver más comen",
-      "text": "Club Bolívar 1 h · El vestuario guarda la calma que existe antes de las grandes noches internacionales L… Ver más +4 Todas las reacciones: 536 23 26 Me gusta Comentar Ver más comentarios Fan destacado Juan C Sullca A sudar la camiseta señores Vamos AKD 53 min 2",
+      "title": "El vestuario guarda la calma que existe antes de las grandes noches internacionales L",
+      "text": "El vestuario guarda la calma que existe antes de las grandes noches internacionales L",
       "url": "https://www.facebook.com/CLUBBOLIVAR/posts/pfbid0ur3C19TB6sksXDbcdnJefreE5BcLS2QjoiKw12uX7Dsqwa48hHa32WphMdn4BGbtl",
       "post_url": "https://www.facebook.com/CLUBBOLIVAR/posts/pfbid0ur3C19TB6sksXDbcdnJefreE5BcLS2QjoiKw12uX7Dsqwa48hHa32WphMdn4BGbtl",
       "image_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/777508178_1528861379256936_8776972178937918931_n.png?stp=dst-jpg_tt6&cstp=mx1600x1066&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7t2spn0kctMQ7kNvwH4wCYN&_nc_oc=Adr-bkzWKwpuW6gZe-X9AoFcqnE79D8NovXXbi161Hy0agYRvwwQ73Hoglld_YjQBlY&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=GMnFEKwZ7j7VPHDCjwBCUQ&_nc_ss=7f289&oh=00_AQFUzo4TOZPqw0kFnfhK1FJs-mQukck_6EeOO7PjbBwI-w&oe=6A8AA9B9",
@@ -1836,16 +2068,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "El vestuario guarda la calma que existe antes de las grandes noches internacionales L",
+        "content_quality": 0.445,
+        "published_date": "2026-08-18"
+      },
+      "published_date": "2026-08-18",
+      "published_display": "18/08/2026"
     },
     {
       "id": "f6cecd9a873bcce0ceb1",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid0XeZVZ8XCPeyDdUNsNbaYLLeLgsjBr2cw1ry7XGkfZEsiTex9iGczLf3acRegfAc3l",
-      "title": "Club Aurora 16 h · FINAL DEL PARTIDO San Antonio (0) (1) #AURORA #… Ver más Todas las reacciones: 827 99 16 Me gusta Comentar Ver más comentarios Benito Orosco DOBLE MERITO DE AURO",
-      "text": "Club Aurora 16 h · FINAL DEL PARTIDO San Antonio (0) (1) #AURORA #… Ver más Todas las reacciones: 827 99 16 Me gusta Comentar Ver más comentarios Benito Orosco DOBLE MERITO DE AURORA SIN TECNICO Y A PURO.. PULMÓN 16 h 25",
+      "title": "FINAL DEL PARTIDO San Antonio (0) (1) #AURORA #",
+      "text": "FINAL DEL PARTIDO San Antonio (0) (1) #AURORA #",
       "url": "https://www.facebook.com/Club.Aurora.Oficial/posts/pfbid0XeZVZ8XCPeyDdUNsNbaYLLeLgsjBr2cw1ry7XGkfZEsiTex9iGczLf3acRegfAc3l",
       "post_url": "https://www.facebook.com/Club.Aurora.Oficial/posts/pfbid0XeZVZ8XCPeyDdUNsNbaYLLeLgsjBr2cw1ry7XGkfZEsiTex9iGczLf3acRegfAc3l",
       "image_url": "https://scontent-sea1-1.xx.fbcdn.net/v/t39.99422-6/778310835_2515587588926911_1620964127255905741_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=pxEFn2cdDocQ7kNvwHxQAEh&_nc_oc=AdolWcS9cE989qo_5Y8EvywogleVjj7muzwPMsWdYbRQ2F1nOd65YMfEncVggGpx0Bs&_nc_zt=14&_nc_ht=scontent-sea1-1.xx&_nc_gid=Eh7nrPQQon8z25NT4jGoFQ&_nc_ss=7f289&oh=00_AQFfrp-FrvKQrQbUdckR3SsCIRGRpl5TkYx4qfUcBaRs_Q&oe=6A8B87AD",
@@ -1883,16 +2120,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "FINAL DEL PARTIDO San Antonio (0) (1) #AURORA #",
+        "content_quality": 0.7028,
+        "published_date": "2026-08-18"
+      },
+      "published_date": "2026-08-18",
+      "published_display": "18/08/2026"
     },
     {
       "id": "9561840005ccfebb2d23",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid0Bks9c9W36Wi4RBN9dmq9a49o76oCT7LHebJnFdhvCJXuTnGycyuKK8zUiB5JLozEl",
-      "title": "Futbolcanal 5 h · COPA PACEÑA | AURORA DEBUTA CON PIE DERECHO … Ver más Todas las reacciones: 17 1 Me gusta Comentar",
-      "text": "Futbolcanal 5 h · COPA PACEÑA | AURORA DEBUTA CON PIE DERECHO … Ver más Todas las reacciones: 17 1 Me gusta Comentar",
+      "title": "COPA PACEÑA | AURORA DEBUTA CON PIE DERECHO",
+      "text": "COPA PACEÑA | AURORA DEBUTA CON PIE DERECHO",
       "url": "https://www.facebook.com/FutbolCanal/posts/pfbid0Bks9c9W36Wi4RBN9dmq9a49o76oCT7LHebJnFdhvCJXuTnGycyuKK8zUiB5JLozEl",
       "post_url": "https://www.facebook.com/FutbolCanal/posts/pfbid0Bks9c9W36Wi4RBN9dmq9a49o76oCT7LHebJnFdhvCJXuTnGycyuKK8zUiB5JLozEl",
       "image_url": "https://scontent-sea1-1.xx.fbcdn.net/v/t39.99422-6/776079482_4642731122720056_1208403453795315954_n.png?stp=dst-jpg_tt6&cstp=mx866x1080&ctp=s640x640&_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=BBMnMQzRNlYQ7kNvwEDkNNO&_nc_oc=AdqMz21vUMdNxbu2hPqaVIOunv3BXzgo4wWSKsjJQn3YjuX52OtKpdHLekclf7fMhw8&_nc_zt=14&_nc_ht=scontent-sea1-1.xx&_nc_gid=jx0IzaDveDSytziJQ9RCXA&_nc_ss=7f289&oh=00_AQGbcLWvWytwf1938CSrUaHVwc-5waJYnyWcpk6cC0pELw&oe=6A8AF289",
@@ -1930,16 +2172,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "COPA PACEÑA | AURORA DEBUTA CON PIE DERECHO",
+        "content_quality": 0.6983,
+        "published_date": "2026-08-18"
+      },
+      "published_date": "2026-08-18",
+      "published_display": "18/08/2026"
     },
     {
       "id": "56bb62be6fbab6552d41",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid02HQ4LTMRku2o6URrAMM4aDymqUNiyuKrbRCpDx9DhiFzbPgNHoNosUtcFjYJhp1Fhl",
-      "title": "Club Deportivo Real Tomayapo 14 h · Comunicado Oficial… Ver más Todas las reacciones: 44 3 7 Me gusta Comentar Ver más comentarios Tigor Guz Delicadoditas 14 h",
-      "text": "Club Deportivo Real Tomayapo 14 h · Comunicado Oficial… Ver más Todas las reacciones: 44 3 7 Me gusta Comentar Ver más comentarios Tigor Guz Delicadoditas 14 h",
+      "title": "Comunicado Oficial",
+      "text": "Comunicado Oficial",
       "url": "https://www.facebook.com/clubrealtomayapo/posts/pfbid02HQ4LTMRku2o6URrAMM4aDymqUNiyuKrbRCpDx9DhiFzbPgNHoNosUtcFjYJhp1Fhl",
       "post_url": "https://www.facebook.com/clubrealtomayapo/posts/pfbid02HQ4LTMRku2o6URrAMM4aDymqUNiyuKrbRCpDx9DhiFzbPgNHoNosUtcFjYJhp1Fhl",
       "image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.99422-6/776276412_1394291515961608_6466557774068615500_n.png?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=p526x296&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=pu1LDCMbplYQ7kNvwEjh0Ed&_nc_oc=Adp5xEVFbEfqKoqrkK0fTPA6SrAippRkbLnqEtr_EMvIJ7QK-0z1JWLywDp4w1QlCSY&_nc_zt=14&_nc_ht=scontent-iad6-1.xx&_nc_gid=qwvekW2hSWP4tLQVR7SAfg&_nc_ss=7f289&oh=00_AQEa1lwFs5ioV4aCRDLIscycmzlIQLHUpzIhlFJHTSP5Nw&oe=6A8B57F6",
@@ -1977,16 +2224,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "Comunicado Oficial",
+        "content_quality": 0.3706,
+        "published_date": "2026-08-18"
+      },
+      "published_date": "2026-08-18",
+      "published_display": "18/08/2026"
     },
     {
       "id": "3e7ef005404743ff89b8",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid026sFBZMv4rAMYkoYoUxW2Zo54PJv93dbkV8yVSGfVtXA6du6vQ2Xo1JiDdSqFaDmZl",
-      "title": "Club Aurora 13 min · GOOOOOOOOOL, GOOOOOOOOL DE RODRIGO RAMALLO, A LOS 75 MINUTOS San Antonio (0) (1) #AURORA #… Ver más Todas las reacciones: 73 2 Me gusta Comentar Ver más coment",
-      "text": "Club Aurora 13 min · GOOOOOOOOOL, GOOOOOOOOL DE RODRIGO RAMALLO, A LOS 75 MINUTOS San Antonio (0) (1) #AURORA #… Ver más Todas las reacciones: 73 2 Me gusta Comentar Ver más comentarios Cristian M. Luizaga Saravia Aver si así entiende el dr falso que sin el tronco de rangel estamos mejor Club Aurora 10 min 1",
+      "title": "GOOOOOOOOOL, GOOOOOOOOL DE RODRIGO RAMALLO, A LOS 75 MINUTOS San Antonio (0) (1) #AURORA #",
+      "text": "GOOOOOOOOOL, GOOOOOOOOL DE RODRIGO RAMALLO, A LOS 75 MINUTOS San Antonio (0) (1) #AURORA #",
       "url": "https://www.facebook.com/Club.Aurora.Oficial/posts/pfbid026sFBZMv4rAMYkoYoUxW2Zo54PJv93dbkV8yVSGfVtXA6du6vQ2Xo1JiDdSqFaDmZl",
       "post_url": "https://www.facebook.com/Club.Aurora.Oficial/posts/pfbid026sFBZMv4rAMYkoYoUxW2Zo54PJv93dbkV8yVSGfVtXA6du6vQ2Xo1JiDdSqFaDmZl",
       "image_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.99422-6/778816705_1675843430187614_8121447802098005406_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Mxg_G-cOh-4Q7kNvwHnJLqC&_nc_oc=AdpnZ7LzRiSP2Pj4ziIMzYj8eg2ef3oWlBtXZ8fbfWkW2mzWhiZ85vKsN7rAmeJOCPQ&_nc_zt=14&_nc_ht=scontent-lga3-2.xx&_nc_gid=_8PZXN_RkpqvYKVDaaL0Ng&_nc_ss=7f289&oh=00_AQFGwv-8ksCcuB7mhiTwbwyiLnx2bP_V6CUvDoPNvM0aVA&oe=6A8AB278",
@@ -2024,16 +2276,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "GOOOOOOOOOL, GOOOOOOOOL DE RODRIGO RAMALLO, A LOS 75 MINUTOS San Antonio (0) (1) #AURORA #",
+        "content_quality": 0.4506,
+        "published_date": "2026-08-18"
+      },
+      "published_date": "2026-08-18",
+      "published_display": "18/08/2026"
     },
     {
       "id": "b5e3fcd73a8a62825180",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid0m3Utpuhtp7jg8orQJKzjwJ9WiVKLfs52ucfM3Wd1XixhYMwyK8q1ZGaukR6cVXvQl",
-      "title": "Club Always Ready está en Estadio De Villa Ingenio. 2 h · La Paz, Departamento de La Paz, Bolivia · Manto blanco sobre nuestro “Titán” #… Ver más Todas las reacciones: 543 84 23 Me",
-      "text": "Club Always Ready está en Estadio De Villa Ingenio. 2 h · La Paz, Departamento de La Paz, Bolivia · Manto blanco sobre nuestro “Titán” #… Ver más Todas las reacciones: 543 84 23 Me gusta Comentar Ver más comentarios Euchz HA No es DE ALWAYS, la cancha es de LOS ALTEÑOS...CARAJ 1 h 14 Ver las 3 respuestas",
+      "title": "La Paz, Departamento de La Paz, Bolivia · Manto blanco sobre nuestro “Titán” #",
+      "text": "La Paz, Departamento de La Paz, Bolivia · Manto blanco sobre nuestro “Titán” #",
       "url": "https://www.facebook.com/ClubAlwaysReady.Bo/posts/pfbid0m3Utpuhtp7jg8orQJKzjwJ9WiVKLfs52ucfM3Wd1XixhYMwyK8q1ZGaukR6cVXvQl",
       "post_url": "https://www.facebook.com/ClubAlwaysReady.Bo/posts/pfbid0m3Utpuhtp7jg8orQJKzjwJ9WiVKLfs52ucfM3Wd1XixhYMwyK8q1ZGaukR6cVXvQl",
       "image_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/778124125_1054879567249620_986061583859716107_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=1&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Wdw9LS2vbJMQ7kNvwHvzv0R&_nc_oc=Adqj6ZJlMUOjQGoxD-E1KOkIWgO3VzZIO0m3w-lRIE9baTG9PKccpb8z2hDFObuSOw0&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=NII-1AntFLD3-FRscLsqRQ&_nc_ss=7f289&oh=00_AQFZ2ZtFl_DpcRhPWTF77prBxm0EMaIDiosnZolidrMr7A&oe=6A8AC674",
@@ -2071,16 +2328,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "La Paz, Departamento de La Paz, Bolivia · Manto blanco sobre nuestro “Titán” #",
+        "content_quality": 0.4372,
+        "published_date": "2026-08-18"
+      },
+      "published_date": "2026-08-18",
+      "published_display": "18/08/2026"
     },
     {
       "id": "b04223fab919bd8a4844",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid0DYcdGgVw3hFxvQeYEPKZHtNG2XeMyAuqhXCdGXe5RTMwEFHRiG5ZWfrQys5c5vLml",
-      "title": "Club Deportivo Real Tomayapo 9 h · Comunicado Oficial… Ver más Todas las reacciones: 43 3 7 Me gusta Comentar Ver más comentarios Tigor Guz Delicadoditas 8 h",
-      "text": "Club Deportivo Real Tomayapo 9 h · Comunicado Oficial… Ver más Todas las reacciones: 43 3 7 Me gusta Comentar Ver más comentarios Tigor Guz Delicadoditas 8 h",
+      "title": "Comunicado Oficial",
+      "text": "Comunicado Oficial",
       "url": "https://www.facebook.com/clubrealtomayapo/posts/pfbid0DYcdGgVw3hFxvQeYEPKZHtNG2XeMyAuqhXCdGXe5RTMwEFHRiG5ZWfrQys5c5vLml",
       "post_url": "https://www.facebook.com/clubrealtomayapo/posts/pfbid0DYcdGgVw3hFxvQeYEPKZHtNG2XeMyAuqhXCdGXe5RTMwEFHRiG5ZWfrQys5c5vLml",
       "image_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.99422-6/776276412_1394291515961608_6466557774068615500_n.png?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=p526x296&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=pu1LDCMbplYQ7kNvwE8CeRm&_nc_oc=AdqV8I49p1u4Xja0x_XShjVPzMchVTrvMEGwnHHup9oVTGjY73SXkHqmxycoOtxT0EE&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=RHf2fYLGi4nEihLgfPNMbA&_nc_ss=7f289&oh=00_AQGciRLiyncwE28wX48-WEOWd9u-YqN5RRfPjqGfJb8WXA&oe=6A8B1FB6",
@@ -2118,16 +2380,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "Comunicado Oficial",
+        "content_quality": 0.3706,
+        "published_date": "2026-08-18"
+      },
+      "published_date": "2026-08-18",
+      "published_display": "18/08/2026"
     },
     {
       "id": "1fa84231a9969b9b7522",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid0dt3edxhDJ8c5iFSnQrFhjoSbAZaeimzm8c7tMXr8e7CNSWtJx1GGT1w4bXeD1Pdil",
-      "title": "Futbolcanal 1 h · LIGA NACIONAL SUB 17 | SUSPENDIDO POR INCLEMENCIAS DEL TIEMPO El… Ver más Todas las reacciones: 19 2 Me gusta Comentar",
-      "text": "Futbolcanal 1 h · LIGA NACIONAL SUB 17 | SUSPENDIDO POR INCLEMENCIAS DEL TIEMPO El… Ver más Todas las reacciones: 19 2 Me gusta Comentar",
+      "title": "LIGA NACIONAL SUB 17 | SUSPENDIDO POR INCLEMENCIAS DEL TIEMPO El",
+      "text": "LIGA NACIONAL SUB 17 | SUSPENDIDO POR INCLEMENCIAS DEL TIEMPO El",
       "url": "https://www.facebook.com/FutbolCanal/posts/pfbid0dt3edxhDJ8c5iFSnQrFhjoSbAZaeimzm8c7tMXr8e7CNSWtJx1GGT1w4bXeD1Pdil",
       "post_url": "https://www.facebook.com/FutbolCanal/posts/pfbid0dt3edxhDJ8c5iFSnQrFhjoSbAZaeimzm8c7tMXr8e7CNSWtJx1GGT1w4bXeD1Pdil",
       "image_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/778172666_1314496237201440_3590757848230937324_n.png?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=p526x296&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=HyAKHJWOD08Q7kNvwE_j9rp&_nc_oc=Ado3sf2DPJJtBXQ2J_Y5A7MTAthI2AJk2H-Hdn-HQaor96UdRKInR7Ry2daJBM6H9G0&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=xSPgZSH_hmvFl7Z_vLeX5A&_nc_ss=7f289&oh=00_AQEOgt3ZfZnVtMpp1uozloOfupt-b2ti8jg3wYE94-5P3A&oe=6A8AA0E0",
@@ -2165,16 +2432,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "LIGA NACIONAL SUB 17 | SUSPENDIDO POR INCLEMENCIAS DEL TIEMPO El",
+        "content_quality": 0.7217,
+        "published_date": "2026-08-18"
+      },
+      "published_date": "2026-08-18",
+      "published_display": "18/08/2026"
     },
     {
       "id": "3937065f86572f9f480b",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid0HKgyjzrjWwd7sQTkDe3jkFtvasdaZAQpYTxd3fa9PbUjhgVqCfwse7uSeJSrDbGkl",
-      "title": "Federación Boliviana de Fútbol 3 h · Designación arbitral | Copa Paceña - Fecha 1 … Ver más Todas las reacciones: 9 1 Me gusta Comentar",
-      "text": "Federación Boliviana de Fútbol 3 h · Designación arbitral | Copa Paceña - Fecha 1 … Ver más Todas las reacciones: 9 1 Me gusta Comentar",
+      "title": "Designación arbitral | Copa Paceña - Fecha 1",
+      "text": "Designación arbitral | Copa Paceña - Fecha 1",
       "url": "https://www.facebook.com/LaVerdeOficial/posts/pfbid0HKgyjzrjWwd7sQTkDe3jkFtvasdaZAQpYTxd3fa9PbUjhgVqCfwse7uSeJSrDbGkl",
       "post_url": "https://www.facebook.com/LaVerdeOficial/posts/pfbid0HKgyjzrjWwd7sQTkDe3jkFtvasdaZAQpYTxd3fa9PbUjhgVqCfwse7uSeJSrDbGkl",
       "image_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-6/776497726_1578993647226381_2737739719210901983_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s590x590&_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=8N5w9tEKs2sQ7kNvwE-eytv&_nc_oc=AdqU-xESGEQzPADTYlGJo5yrhMMRzbVyrV4-7S1WuZHITpmceYxL_QhDfRRMLsjMrEY&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&_nc_gid=ukF9d4Hd9UhKE_TAnr512Q&_nc_ss=7f289&oh=00_AQH-jRMUsPvzJQoSJENmTfczhsIbFwickeEUEPYSNFgRbg&oe=6A8A9AF0",
@@ -2224,16 +2496,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "Designación arbitral | Copa Paceña - Fecha 1",
+        "content_quality": 0.6994,
+        "published_date": "2026-08-18"
+      },
+      "published_date": "2026-08-18",
+      "published_display": "18/08/2026"
     },
     {
       "id": "7c689f2fcfa45bf21f30",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid0NKRbkuovKUrJuvyDhAkPaaDehk55obx1o7mTJ7pbhm7CMzoLfHPpYs3xmgWNQEMDl",
-      "title": "Club Bolívar 1 h · Vamos juntos por otra postal que quede en nuestra memoria para siempre Todas las reacciones: 346 9 9 Me gusta Comentar Ver más comentarios Fan destacado Daglas L",
-      "text": "Club Bolívar 1 h · Vamos juntos por otra postal que quede en nuestra memoria para siempre Todas las reacciones: 346 9 9 Me gusta Comentar Ver más comentarios Fan destacado Daglas Lima Vamos que se puede!!! 9 min",
+      "title": "Vamos juntos por otra postal que quede en nuestra memoria para siempre",
+      "text": "Vamos juntos por otra postal que quede en nuestra memoria para siempre",
       "url": "https://www.facebook.com/CLUBBOLIVAR/posts/pfbid0NKRbkuovKUrJuvyDhAkPaaDehk55obx1o7mTJ7pbhm7CMzoLfHPpYs3xmgWNQEMDl",
       "post_url": "https://www.facebook.com/CLUBBOLIVAR/posts/pfbid0NKRbkuovKUrJuvyDhAkPaaDehk55obx1o7mTJ7pbhm7CMzoLfHPpYs3xmgWNQEMDl",
       "image_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/780445253_1578930647024663_2766982872861616212_n.png?stp=dst-jpg_tt6&cstp=mx1280x851&ctp=s590x590&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=plXUMY_iyB0Q7kNvwFG_sw_&_nc_oc=AdrPgWfKMANJ126X-QlpxNQQfSN2SFZjZ7raje7Xi28pIHeIfP-4JRHhyKITfDwY0pA&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=G3JhlUMKwBfrKF8R4r5CjQ&_nc_ss=7f289&oh=00_AQHxiz-Y4lSu4BEeHqg09Xk9rjcyq7zo1Y3kPF2zcu5OXQ&oe=6A8A78DE",
@@ -2283,16 +2560,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "Vamos juntos por otra postal que quede en nuestra memoria para siempre",
+        "content_quality": 0.4283,
+        "published_date": "2026-08-18"
+      },
+      "published_date": "2026-08-18",
+      "published_display": "18/08/2026"
     },
     {
       "id": "a83d23aebe6af3cfaf36",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid02RjkRTjWUortZFqA5uUSeVu3M2vaaTJqpMPmxdc4LKCQoBQ8bcABSWdj7Tbe2wnWdl",
-      "title": "Tigo Sports Bolivia 2 h · Tigo Bolivia 3 h · ¿Quién ganará? ​… Ver más Todas las reacciones: 43 1 1 Me gusta Comentar Omar Oscar Sao Paulo 46 min",
-      "text": "Tigo Sports Bolivia 2 h · Tigo Bolivia 3 h · ¿Quién ganará? ​… Ver más Todas las reacciones: 43 1 1 Me gusta Comentar Omar Oscar Sao Paulo 46 min",
+      "title": "¿Quién ganará? ​",
+      "text": "¿Quién ganará? ​",
       "url": "https://www.facebook.com/TigoSportsBolivia/posts/pfbid02RjkRTjWUortZFqA5uUSeVu3M2vaaTJqpMPmxdc4LKCQoBQ8bcABSWdj7Tbe2wnWdl",
       "post_url": "https://www.facebook.com/TigoSportsBolivia/posts/pfbid02RjkRTjWUortZFqA5uUSeVu3M2vaaTJqpMPmxdc4LKCQoBQ8bcABSWdj7Tbe2wnWdl",
       "image_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/777153561_1034960432495723_8891137683405712789_n.png?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=p526x296&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=A70wxnPCeuMQ7kNvwHrUMlh&_nc_oc=AdpE1Y2j7jTpQJbSs9fqcVjiT6Xnoixz7YFvCUJU0Ey8miFXziXumlyQXoaGOsYXezc&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=q06ObsuOFy-Q3Ep_ZfhCVQ&_nc_ss=7f289&oh=00_AQHtUvvrLiTDlYGBya714rRlpytpR0pIYin-x0_DzEgVYQ&oe=6A8A87D8",
@@ -2330,16 +2612,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "¿Quién ganará? ​",
+        "content_quality": 0.3683,
+        "published_date": "2026-08-18"
+      },
+      "published_date": "2026-08-18",
+      "published_display": "18/08/2026"
     },
     {
       "id": "0c87099cd1b9cc24ab23",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid0N1d8Msnezkwu4Tw6Fp28dYPKYfNGHKFyG3a8y8cNB2VBfSpBNgo5pKm6eawBzCZZl",
-      "title": "Club Aurora 6 min · INICIA EL PARTIDO San Antonio (0) (0) #AURORA #… Ver más Todas las reacciones: 2 Me gusta Comentar",
-      "text": "Club Aurora 6 min · INICIA EL PARTIDO San Antonio (0) (0) #AURORA #… Ver más Todas las reacciones: 2 Me gusta Comentar",
+      "title": "INICIA EL PARTIDO San Antonio (0) (0) #AURORA #",
+      "text": "INICIA EL PARTIDO San Antonio (0) (0) #AURORA #",
       "url": "https://www.facebook.com/Club.Aurora.Oficial/posts/pfbid0N1d8Msnezkwu4Tw6Fp28dYPKYfNGHKFyG3a8y8cNB2VBfSpBNgo5pKm6eawBzCZZl",
       "post_url": "https://www.facebook.com/Club.Aurora.Oficial/posts/pfbid0N1d8Msnezkwu4Tw6Fp28dYPKYfNGHKFyG3a8y8cNB2VBfSpBNgo5pKm6eawBzCZZl",
       "image_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.99422-6/775869017_1040752795549954_7368332996757606187_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=kDCirZd7-34Q7kNvwEVG8-X&_nc_oc=AdpSvAiuOpGwNgw4WWPuEy0wA9_m1XojhO83QfhuiAJ9P_8IqiVUNlkKJMhetd3gva4&_nc_zt=14&_nc_ht=scontent-lga3-2.xx&_nc_gid=6BEzWHc7XUuQZWVwTevc2Q&_nc_ss=7f289&oh=00_AQGWmwzXv1bIeKoIWsh5iLyZi2fZzrNrcT4M356HcePDcQ&oe=6A8A6F2C",
@@ -2377,16 +2664,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "INICIA EL PARTIDO San Antonio (0) (0) #AURORA #",
+        "content_quality": 0.7028,
+        "published_date": "2026-08-18"
+      },
+      "published_date": "2026-08-18",
+      "published_display": "18/08/2026"
     },
     {
       "id": "bc3749248db9cc1ff648",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid0HYMmak3h3bVuurXPeDvB3vYoZBayRP36E6FA7X1amWWFXrkkoxUVhkj92UC4NuHwl",
-      "title": "Club Deportivo Oriente Petrolero 4 h · Comienza nuestro camino en la #CopaPaceña , VAMOS ORIENTE … Ver más Todas las reacciones: 624 12 15 Me gusta Comentar Ver más comentarios Mau",
-      "text": "Club Deportivo Oriente Petrolero 4 h · Comienza nuestro camino en la #CopaPaceña , VAMOS ORIENTE … Ver más Todas las reacciones: 624 12 15 Me gusta Comentar Ver más comentarios Mauricio Lino Limpias Aguante el verde 1 h",
+      "title": "Comienza nuestro camino en la #CopaPaceña , VAMOS ORIENTE",
+      "text": "Comienza nuestro camino en la #CopaPaceña , VAMOS ORIENTE",
       "url": "https://www.facebook.com/cdopetrolero/posts/pfbid0HYMmak3h3bVuurXPeDvB3vYoZBayRP36E6FA7X1amWWFXrkkoxUVhkj92UC4NuHwl",
       "post_url": "https://www.facebook.com/cdopetrolero/posts/pfbid0HYMmak3h3bVuurXPeDvB3vYoZBayRP36E6FA7X1amWWFXrkkoxUVhkj92UC4NuHwl",
       "image_url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.99422-6/775495434_1618106852984279_8689836324917664720_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=ysfpt0fxJjwQ7kNvwH-N7Ho&_nc_oc=AdpStEU3rvLFkp2-chDodGBqeorcdMaD5XaFHB6wMNNczOsKFRnrunJLeBnvewDzKVM&_nc_zt=14&_nc_ht=scontent-dfw6-1.xx&_nc_gid=kQ0ps_JPOvS-Eb1bIqC4pw&_nc_ss=7f289&oh=00_AQG-5g2-jWV5n75oN1qU_ftvEovPloxkftd0oarLE4RU5w&oe=6A8A9D65",
@@ -2424,16 +2716,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "Comienza nuestro camino en la #CopaPaceña , VAMOS ORIENTE",
+        "content_quality": 0.7139,
+        "published_date": "2026-08-18"
+      },
+      "published_date": "2026-08-18",
+      "published_display": "18/08/2026"
     },
     {
       "id": "3d20142ec3d626f60eba",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid02EAyrGwvimC8yro6WT6EX8do9AJc6jKZ2jsCLwrhmcY5DZ2eySWEu5GTxRNor3Uhtl",
-      "title": "Club The Strongest 4 h · ¡NO LO OLVIDES! Puedes ingresar a la Curva Sur llevando 1 kilo de croquetas para perritos o adquiriendo tu entrada. ¡Sum… Ver más Todas las reacciones: 125",
-      "text": "Club The Strongest 4 h · ¡NO LO OLVIDES! Puedes ingresar a la Curva Sur llevando 1 kilo de croquetas para perritos o adquiriendo tu entrada. ¡Sum… Ver más Todas las reacciones: 125 8 10 Me gusta Comentar Ver más comentarios Vel Vargasr Que bonita campaña para ayudar a los perritos que lo necesitan, es una buena iniciativa 3 h",
+      "title": "¡NO LO OLVIDES! Puedes ingresar a la Curva Sur llevando 1 kilo de croquetas para perritos o adquiriendo tu entrada. ¡Sum",
+      "text": "¡NO LO OLVIDES! Puedes ingresar a la Curva Sur llevando 1 kilo de croquetas para perritos o adquiriendo tu entrada. ¡Sum",
       "url": "https://www.facebook.com/clubthestrongestoficial/posts/pfbid02EAyrGwvimC8yro6WT6EX8do9AJc6jKZ2jsCLwrhmcY5DZ2eySWEu5GTxRNor3Uhtl",
       "post_url": "https://www.facebook.com/clubthestrongestoficial/posts/pfbid02EAyrGwvimC8yro6WT6EX8do9AJc6jKZ2jsCLwrhmcY5DZ2eySWEu5GTxRNor3Uhtl",
       "image_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/775495288_1036915919400416_2800227203439221089_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=huXn0w8pNGEQ7kNvwGUHSVi&_nc_oc=AdoxH24V_Z-j1t3zjZxLQA55jik5Ughgyn-ydow-4VcTA4R9dZJjzD6EkZqehIv9C-I&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=8YlC7SYVlRNKtIaISzVzsA&_nc_ss=7f289&oh=00_AQHARv36QZsYr0bW-HEmTwGfW33XtZ9FXoTpJhU53Ej4Cg&oe=6A8AAEC1",
@@ -2471,16 +2768,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "¡NO LO OLVIDES! Puedes ingresar a la Curva Sur llevando 1 kilo de croquetas para perritos o adquiriendo tu entrada. ¡Sum",
+        "content_quality": 0.4839,
+        "published_date": "2026-08-18"
+      },
+      "published_date": "2026-08-18",
+      "published_display": "18/08/2026"
     },
     {
       "id": "e34aea9aaa10db410581",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid029vGu5tLjjemEiHM1KGdzT4isftjsHNfGeCwLN4dbzZv8LuuaXoUPCstCQjfLnwuFl",
-      "title": "Club Bolívar 1 h · ¡NUESTRAS GUERRERAS PEGARON PRIMERO Y SIGUEN INVICTAS! L… Ver más Todas las reacciones: 238 7 14 Me gusta Comentar",
-      "text": "Club Bolívar 1 h · ¡NUESTRAS GUERRERAS PEGARON PRIMERO Y SIGUEN INVICTAS! L… Ver más Todas las reacciones: 238 7 14 Me gusta Comentar",
+      "title": "¡NUESTRAS GUERRERAS PEGARON PRIMERO Y SIGUEN INVICTAS! L",
+      "text": "¡NUESTRAS GUERRERAS PEGARON PRIMERO Y SIGUEN INVICTAS! L",
       "url": "https://www.facebook.com/CLUBBOLIVAR/posts/pfbid029vGu5tLjjemEiHM1KGdzT4isftjsHNfGeCwLN4dbzZv8LuuaXoUPCstCQjfLnwuFl",
       "post_url": "https://www.facebook.com/CLUBBOLIVAR/posts/pfbid029vGu5tLjjemEiHM1KGdzT4isftjsHNfGeCwLN4dbzZv8LuuaXoUPCstCQjfLnwuFl",
       "image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.99422-6/778226772_1713560063232236_7883944051980278982_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Mq9XRVHzB60Q7kNvwEsszRh&_nc_oc=AdoFmLTSNgYL-V0lBs_PgsAV82ZNrKTEtaSO3Swrk4lkzsoX132GXVoCbuCKNqmL46E&_nc_zt=14&_nc_ht=scontent-iad6-1.xx&_nc_gid=YAP1J9LoFABDu6u59GZSqw&_nc_ss=7f289&oh=00_AQEOg1cXLzLuZssDtnfFG_VCujGYKxtYgirdY_Gb3K3QkQ&oe=6A8A97EF",
@@ -2518,16 +2820,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "¡NUESTRAS GUERRERAS PEGARON PRIMERO Y SIGUEN INVICTAS! L",
+        "content_quality": 0.4128,
+        "published_date": "2026-08-18"
+      },
+      "published_date": "2026-08-18",
+      "published_display": "18/08/2026"
     },
     {
       "id": "02a7d302f9a321db713a",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid02vsLcqD1jccfXv3AJFrYwG5Shjynfao7dgYrE5t5qbMA4EdYrE76Nfi1JeLZybd4jl",
-      "title": "Futbolcanal 2 min · LIGA NACIONAL SUB 15 | TABLA DE POSICIONES S… Ver más 1 Me gusta Comentar",
-      "text": "Futbolcanal 2 min · LIGA NACIONAL SUB 15 | TABLA DE POSICIONES S… Ver más 1 Me gusta Comentar",
+      "title": "LIGA NACIONAL SUB 15 | TABLA DE POSICIONES S 1",
+      "text": "LIGA NACIONAL SUB 15 | TABLA DE POSICIONES S 1",
       "url": "https://www.facebook.com/FutbolCanal/posts/pfbid02vsLcqD1jccfXv3AJFrYwG5Shjynfao7dgYrE5t5qbMA4EdYrE76Nfi1JeLZybd4jl",
       "post_url": "https://www.facebook.com/FutbolCanal/posts/pfbid02vsLcqD1jccfXv3AJFrYwG5Shjynfao7dgYrE5t5qbMA4EdYrE76Nfi1JeLZybd4jl",
       "image_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/776453549_2189370891615697_2618252065579229265_n.png?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=p526x296&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=u7BlpPhAmRYQ7kNvwE_C1TP&_nc_oc=Adpz5hR6uv8fj4Yu1Y8inyIXaEhoDTV1AA_ORlNOjI_CKXMeRrrrL0_ai3BEdM0y8Yg&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=uxtJz_NRTOOv6MTuZd6nrw&_nc_ss=7f289&oh=00_AQHku9rqjhP_CFQDEp_woOX9dZBbhJHQ8qL5S7p7QqoI7w&oe=6A8A7EE6",
@@ -2565,16 +2872,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "LIGA NACIONAL SUB 15 | TABLA DE POSICIONES S 1",
+        "content_quality": 0.7017,
+        "published_date": "2026-08-18"
+      },
+      "published_date": "2026-08-18",
+      "published_display": "18/08/2026"
     },
     {
       "id": "2e23120fbd1138a2d38d",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid02F3safPdhP8WvSdqtvsVq78wnNxAHDfJ3r2yMXfx2B9m55DKFuhVf58rNc6QpBvRBl",
-      "title": "Tigo Sports Bolivia 1 h · ¡BOLÍVAR JUEGA EL PARTIDO MÁS IMPORTANTE DE LA TEMPORADA! La 'Academia Paceña' que igualó 1 a 1 contra São Paulo en La Paz, buscará hacer historia en el M",
-      "text": "Tigo Sports Bolivia 1 h · ¡BOLÍVAR JUEGA EL PARTIDO MÁS IMPORTANTE DE LA TEMPORADA! La 'Academia Paceña' que igualó 1 a 1 contra São Paulo en La Paz, buscará hacer historia en el Morumb… Ver más Todas las reacciones: 68 6 6 Me gusta Comentar Ver más comentarios Javier Barrios Contreras Se come cinco 59 min Fan destacado Fernando Murillo Javier Barrios Contreras aurillamita ni cuartos..... jajaja 32 min",
+      "title": "¡BOLÍVAR JUEGA EL PARTIDO MÁS IMPORTANTE DE LA TEMPORADA!",
+      "text": "¡BOLÍVAR JUEGA EL PARTIDO MÁS IMPORTANTE DE LA TEMPORADA! La 'Academia Paceña' que igualó 1 a 1 contra São Paulo en La Paz, buscará hacer historia en el Morumb",
       "url": "https://www.facebook.com/TigoSportsBolivia/posts/pfbid02F3safPdhP8WvSdqtvsVq78wnNxAHDfJ3r2yMXfx2B9m55DKFuhVf58rNc6QpBvRBl",
       "post_url": "https://www.facebook.com/TigoSportsBolivia/posts/pfbid02F3safPdhP8WvSdqtvsVq78wnNxAHDfJ3r2yMXfx2B9m55DKFuhVf58rNc6QpBvRBl",
       "image_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/776921701_1585223956306297_8370756609705646374_n.png?stp=dst-jpg_tt6&cstp=mx1638x2048&ctp=s640x640&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=mEn3KoXW99cQ7kNvwEgOIGg&_nc_oc=AdoOzNIhqYQbNA8sq0mcJnHSKqU9mDSRHFoPrQQw0d8O_7b2ug1DTR4SXP_KKdWhk4w&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=Z_9hWythqEAZrqkQdwanRQ&_nc_ss=7f289&oh=00_AQF6JcatQMxYPbh7U5W0uaYHfORWO-aKAMmmq_kIwgoq5w&oe=6A8A59A3",
@@ -2612,16 +2924,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "¡BOLÍVAR JUEGA EL PARTIDO MÁS IMPORTANTE DE LA TEMPORADA! La 'Academia Paceña' que igualó 1 a 1 contra São Paulo en La Paz, buscará hacer historia en el Morumb",
+        "content_quality": 0.7706,
+        "published_date": "2026-08-18"
+      },
+      "published_date": "2026-08-18",
+      "published_display": "18/08/2026"
     },
     {
       "id": "45266239440ac66069ff",
       "kind": "social",
       "platform": "facebook",
       "post_id": "1314474890536064",
-      "title": "Club Blooming 7 h · ¡𝐒𝐢𝐠𝐮𝐢𝐞𝐧𝐭𝐞 𝐩𝐚𝐫𝐚𝐝𝐚, 𝐒𝐮𝐜𝐫𝐞! #VamosBlooming 0:00 / 0:30 Todas las reacciones: 330 1 9 Me gusta Comentar Marcela Perez Campos Aguante blooming 4 h",
-      "text": "Club Blooming 7 h · ¡𝐒𝐢𝐠𝐮𝐢𝐞𝐧𝐭𝐞 𝐩𝐚𝐫𝐚𝐝𝐚, 𝐒𝐮𝐜𝐫𝐞! #VamosBlooming 0:00 / 0:30 Todas las reacciones: 330 1 9 Me gusta Comentar Marcela Perez Campos Aguante blooming 4 h",
+      "title": "¡𝐒𝐢𝐠𝐮𝐢𝐞𝐧𝐭𝐞 𝐩𝐚𝐫𝐚𝐝𝐚, 𝐒𝐮𝐜𝐫𝐞! #VamosBlooming",
+      "text": "¡𝐒𝐢𝐠𝐮𝐢𝐞𝐧𝐭𝐞 𝐩𝐚𝐫𝐚𝐝𝐚, 𝐒𝐮𝐜𝐫𝐞! #VamosBlooming",
       "url": "https://www.facebook.com/reel/1314474890536064/",
       "post_url": "https://www.facebook.com/reel/1314474890536064/",
       "image_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t15.5256-10/777850616_1513193497497861_5064089261687173339_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=111&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=n1_9yxZtSOsQ7kNvwExAwbx&_nc_oc=AdoMa6fFplI7YvBLyvV1eT20ZgJmXCosVZ2ZwLEOKymxwxnuqnzOVOhqjecX6Pbg6Xs&_nc_zt=23&_nc_ht=scontent-dfw5-1.xx&_nc_gid=6wc3gSKRXOcm43eYgPILzw&_nc_ss=7f289&oh=00_AQH6qvXWjH8xdQSfmYyksffzKosXAXdQtmQvsOKBh7tU2g&oe=6A8ACF37",
@@ -2659,16 +2976,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "¡𝐒𝐢𝐠𝐮𝐢𝐞𝐧𝐭𝐞 𝐩𝐚𝐫𝐚𝐝𝐚, 𝐒𝐮𝐜𝐫𝐞! #VamosBlooming",
+        "content_quality": 0.395,
+        "published_date": "2026-08-18"
+      },
+      "published_date": "2026-08-18",
+      "published_display": "18/08/2026"
     },
     {
       "id": "fcb08a21eff99ad17d8d",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid037BGGFaYibWgDWUnckUu6yxS77P1WMhe3nMnosEM2HK1TA1W3n7N3BEZTRyWAd8SFl",
-      "title": "Club Always Ready 16 h · PRÓXIMO PARTIDO A… Ver más Todas las reacciones: 422 206 4 Me gusta Comentar Ver más comentarios Richard Ruiz Rojas Debería subir las entradas los partidos",
-      "text": "Club Always Ready 16 h · PRÓXIMO PARTIDO A… Ver más Todas las reacciones: 422 206 4 Me gusta Comentar Ver más comentarios Richard Ruiz Rojas Debería subir las entradas los partidos son más largos jajajajaja 8 h 19",
+      "title": "PRÓXIMO PARTIDO A",
+      "text": "PRÓXIMO PARTIDO A",
       "url": "https://www.facebook.com/ClubAlwaysReady.Bo/posts/pfbid037BGGFaYibWgDWUnckUu6yxS77P1WMhe3nMnosEM2HK1TA1W3n7N3BEZTRyWAd8SFl",
       "post_url": "https://www.facebook.com/ClubAlwaysReady.Bo/posts/pfbid037BGGFaYibWgDWUnckUu6yxS77P1WMhe3nMnosEM2HK1TA1W3n7N3BEZTRyWAd8SFl",
       "image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.99422-6/777048462_1585237623294059_610374730571445323_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=CXZCEjlxw2QQ7kNvwEY44Nt&_nc_oc=Adpu-WwhetLsdOpROfWUfrN5L2IWHKfhLo_KviO96EBZIM3qRZaG9bQiiPSyCku2qMQ&_nc_zt=14&_nc_ht=scontent-iad3-1.xx&_nc_gid=ns9sevVtn_b6hogY2LCQhQ&_nc_ss=7f289&oh=00_AQFQ8mWgaywoU0-YbRT7E1XPwkqTvitK4AcdOwQbx5R_oA&oe=6A8A8EB4",
@@ -2706,16 +3028,21 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "PRÓXIMO PARTIDO A",
+        "content_quality": 0.6694,
+        "published_date": "2026-08-18"
+      },
+      "published_date": "2026-08-18",
+      "published_display": "18/08/2026"
     },
     {
       "id": "a7da57acd99af31e3e35",
       "kind": "social",
       "platform": "facebook",
       "post_id": "pfbid02V35thaAXUMHFfytz5v5wqJfu9q8oLx5SrTtLE6S9QArDVdPaTp46vRvFMxAunK3Dl",
-      "title": "Club Deportivo Real Tomayapo 1 día · ¡ARRANCA UN NUEVO DESAFÍO! De… Ver más Todas las reacciones: 99 14 11 Me gusta Comentar Ver más comentarios Fan destacado Carmen Villarroel Vam",
-      "text": "Club Deportivo Real Tomayapo 1 día · ¡ARRANCA UN NUEVO DESAFÍO! De… Ver más Todas las reacciones: 99 14 11 Me gusta Comentar Ver más comentarios Fan destacado Carmen Villarroel Vamos RealTomayapo!!! 1 día",
+      "title": "¡ARRANCA UN NUEVO DESAFÍO! De",
+      "text": "¡ARRANCA UN NUEVO DESAFÍO! De",
       "url": "https://www.facebook.com/clubrealtomayapo/posts/pfbid02V35thaAXUMHFfytz5v5wqJfu9q8oLx5SrTtLE6S9QArDVdPaTp46vRvFMxAunK3Dl",
       "post_url": "https://www.facebook.com/clubrealtomayapo/posts/pfbid02V35thaAXUMHFfytz5v5wqJfu9q8oLx5SrTtLE6S9QArDVdPaTp46vRvFMxAunK3Dl",
       "image_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.99422-6/778957785_1682275906166815_8501646100522366734_n.png?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=p526x296&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=MBYPzc-msloQ7kNvwHdE4cz&_nc_oc=Adql85vV8hH8NgGNuAv03UMCW6S-q9DxgXlG9JTt-xEXmlClB9fIWzdtH1BTtaYzTi0&_nc_zt=14&_nc_ht=scontent-lga3-1.xx&_nc_gid=PaUghnW1MJaBltsHFsEp3w&_nc_ss=7f289&oh=00_AQF_jGTfTnIyye_IBT-B411AFCpUF-Oy0BhQ8sGgJZ0juw&oe=6A8A88CF",
@@ -2753,8 +3080,13 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "¡ARRANCA UN NUEVO DESAFÍO! De",
+        "content_quality": 0.3828,
+        "published_date": ""
+      },
+      "published_date": "",
+      "published_display": ""
     },
     {
       "id": "2afb01a092a86a198a7d",
@@ -2793,8 +3125,13 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "Henrry Larrea Alurralde Hola buenas noches. 50 sem",
+        "content_quality": 0.4061,
+        "published_date": ""
+      },
+      "published_date": "",
+      "published_display": ""
     },
     {
       "id": "a7f36801cc3ac869e91a",
@@ -2811,7 +3148,7 @@
       "video_post_url": "",
       "media_type": "text",
       "published_at": null,
-      "scraped_at": "2026-08-19T17:07:54.029864Z",
+      "scraped_at": "2026-08-19T19:12:08.929086Z",
       "source_id": "facebook_browser:futbolmania_bolivia",
       "source_name": "Facebook · Futbolmania Bolivia",
       "source_type": "facebook_browser_public",
@@ -2833,8 +3170,13 @@
           "posters": []
         },
         "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.",
+        "summary": "Henrry Larrea Alurralde Hola buenas noches. 50 sem",
+        "content_quality": 0.4061,
+        "published_date": ""
+      },
+      "published_date": "",
+      "published_display": ""
     }
   ]
 }

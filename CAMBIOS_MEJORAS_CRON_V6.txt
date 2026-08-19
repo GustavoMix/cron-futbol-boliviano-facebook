@@ -1,0 +1,92 @@
+CRON FÚTBOL BOLIVIANO — MEJORAS V6
+===================================
+
+OBJETIVO
+-------
+Entregar al front JSON más actual, entendible y listo para mostrar, sin obligar a la app a interpretar texto basura, tablas confundidas con noticias o fases antiguas de torneos.
+
+1) LIBERTADORES / SUDAMERICANA — OCTAVOS -> CUARTOS
+----------------------------------------------------
+- Se corrigió la detección de clasificados a cuartos de final.
+- SOLO cuenta la fase exacta "Octavos de final".
+- En Sudamericana NO se confunde "Eliminatoria de octavos de final" (playoff previo) con los octavos reales.
+- Un equipo NO aparece clasificado después de una sola ida.
+- La serie debe tener sus 2 partidos disputados o una definición por penales explícita.
+- current_tables.json expone:
+    standings.title = "Clasificados a cuartos de final (N/8)"
+    knockout.extra.qualified_count
+    knockout.extra.remaining
+    knockout.extra.qualified_teams
+    knockout.extra.series[]
+- Cada serie indica: partidos jugados, resultado global, estado, ganador y datos visuales de ambos equipos.
+- La tabla antigua de grupos no se pierde: queda en group_standings.
+- Compatibilidad: el front antiguo que solo lee "standings" ya recibe la fase actual cuando existen clasificados confirmados.
+
+2) NOTICIAS — FEED EDITORIAL LIMPIO
+------------------------------------
+- Se eliminó el selector genérico '.card' que estaba capturando widgets de tablas como si fueran noticias.
+- Se detectan y descartan bloques con PJ / Pts / GF / GC / DG y páginas tipo "Resultados y Posiciones".
+- Se limpia "Leer más", "Ver más", reacciones, comentarios, nombres repetidos de página y otros textos de interfaz.
+- Se filtran promociones/merchandising y publicaciones de muy poco valor informativo.
+- app_feed.json exige fecha válida para las noticias: si una pieza no tiene fecha verificable, permanece disponible en salidas amplias pero no ensucia Noticias.
+- app_feed aplica frescura + autoridad de fuente + calidad de contenido para ordenar primero lo más útil y reciente.
+- Se filtran noticias antiguas del feed principal.
+
+3) FECHAS DE NOTICIAS
+---------------------
+- Orden de fecha en español fijado a DMY (día/mes/año).
+- Se agregan campos fáciles para el front:
+    published_at
+    published_date      -> YYYY-MM-DD
+    published_display   -> DD/MM/YYYY
+- DIEZ: recupera fecha/hora desde el Unix timestamp que viene en muchas URLs.
+- DIEZ legacy: también reconoce URLs con YYYY-M-D-H-M-S.
+- Red Uno: recupera fecha/hora codificada en el slug y evita interpretaciones futuras ambiguas.
+- Unitel y cards similares: entiende textos relativos como "Hace 2 horas" / "Hace 12 minutos".
+- Si el listado no trae fecha, el cron puede abrir un número limitado de artículos y recuperar datePublished / article:published_time / <time>.
+
+4) ESCUDOS / PAÍS / FALLBACK VISUAL
+------------------------------------
+- Prioridad visual: ESCUDO REAL > BANDERA DEL PAÍS > vacío.
+- Se amplió el mapa de países para clubes bolivianos, Copa Simón Bolívar y participantes CONMEBOL detectados.
+- current_tables.json agrega team_assets con un índice central de equipos:
+    name
+    country
+    logo_url
+    display_badge_url
+    badge_type = club_logo | country_flag | none
+- standings/group_standings incluyen extra.logos, extra.countries y extra.badge_types.
+- matches mantiene las primeras 9 columnas compatibles y agrega al final:
+    LocalPais
+    VisitantePais
+    LocalBadgeType
+    VisitanteBadgeType
+- También se intenta recolectar escudos reales desde las fuentes oficiales cuando están disponibles.
+
+5) FACEBOOK / SOCIAL
+--------------------
+- Se limpia mejor el nombre de página, tiempo relativo, reacciones, comentarios, YouTube UI y duración de video.
+- Se penalizan saludos, tienda, promociones, "final de 45", inicio de tiempos y ruido de poco valor.
+- Se conservan publicaciones útiles: clasificaciones, eliminaciones, resultados relevantes, fichajes, lesiones, sanciones, alineaciones, árbitros, goleadores, etc.
+- Los títulos muy genéricos reciben contexto cuando hace falta y sin inventar información.
+
+6) JSON Y COMPATIBILIDAD
+------------------------
+- schema_version: 6.
+- Se mantiene la estructura base usada por el front.
+- Las mejoras se agregan como campos extra/compatibles para no obligar a rehacer la app.
+- El ZIP ya incluye los JSON existentes migrados/limpios para que puedas inspeccionar el nuevo formato antes de la próxima ejecución del cron.
+
+7) VERIFICACIONES REALIZADAS
+----------------------------
+- main.py, facebook_worker.py, merge_partials.py y web_worker.py: compilación Python OK.
+- sources.yaml: parseo OK.
+- Prueba KO: una sola ida NO clasifica.
+- Prueba KO: dos partidos con ganador global SÍ clasifican.
+- Prueba Sudamericana: el playoff previo NO se cuenta como cuartos.
+- current_tables.json: todos los equipos del índice actual tienen display_badge_url (escudo o bandera fallback).
+- app_feed.json: las noticias visibles tienen published_date y no contiene el bloque "LIGA 1XBET.TV" que aparecía en la captura.
+
+IMPORTANTE
+----------
+En este entorno no se pudo ejecutar el scraping HTTP/Playwright completo contra todas las webs y Facebook en vivo. Sí se hicieron pruebas de sintaxis, lógica, migración y validación de los JSON existentes. En GitHub Actions, la próxima corrida usará automáticamente la nueva lógica sobre datos en vivo.

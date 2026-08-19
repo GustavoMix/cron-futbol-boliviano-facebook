@@ -1,235 +1,2590 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-08-19T14:33:20.304990Z",
+  "generated_at": "2026-08-19T15:34:45.673460Z",
   "policy": "una tabla por competición/tipo; fuentes oficiales tienen prioridad",
   "competitions": {
-    "copa_division_profesional": {
+    "division_profesional": {
+      "matches": {
+        "kind": "matches",
+        "title": "Partidos por fecha",
+        "source_id": "merged",
+        "source_name": "Wikipedia - División Profesional 2026",
+        "competition": "division_profesional",
+        "scraped_at": "2026-08-19T15:34:43.795918Z",
+        "extra": {
+          "header": [
+            "Fecha",
+            "Local",
+            "Resultado",
+            "Visitante",
+            "Estadio",
+            "FechaPartido",
+            "Hora"
+          ],
+          "rows": [
+            [
+              "Fecha 1",
+              "Bolivar",
+              "5 – 2",
+              "Real Oruro",
+              "Hernando Siles",
+              "3 de abril",
+              "15:00"
+            ],
+            [
+              "Fecha 1",
+              "Independiente Petrolero",
+              "0 – 3",
+              "Nacional Potosí",
+              "Olímpico Patria",
+              "17:15"
+            ],
+            [
+              "Fecha 1",
+              "Blooming",
+              "5 – 0",
+              "Guabirá",
+              "Ramón Aguilera Costas",
+              "19:30"
+            ],
+            [
+              "Fecha 1",
+              "Always Ready",
+              "4 – 0",
+              "Real Tomayapo",
+              "Municipal de El Alto",
+              "4 de abril",
+              "15:00"
+            ],
+            [
+              "Fecha 1",
+              "Real Potosí",
+              "0 – 0",
+              "Aurora",
+              "Víctor Agustín Ugarte",
+              "17:15"
+            ],
+            [
+              "Fecha 1",
+              "San Antonio Bulo Bulo",
+              "2 – 0",
+              "Oriente Petrolero",
+              "Félix Capriles",
+              "19:30"
+            ],
+            [
+              "Fecha 1",
+              "GV San José",
+              "1 – 2",
+              "ABB",
+              "Jesús Bermúdez",
+              "5 de abril",
+              "15:00"
+            ],
+            [
+              "Fecha 1",
+              "Universitario de Vinto",
+              "1 – 2",
+              "The Strongest",
+              "Félix Capriles",
+              "17:15"
+            ],
+            [
+              "Fecha 2",
+              "Guabirá",
+              "2 – 2",
+              "Independiente Petrolero",
+              "Gilberto Parada",
+              "10 de abril",
+              "20:00"
+            ],
+            [
+              "Fecha 2",
+              "ABB",
+              "0 – 2",
+              "Bolívar",
+              "Municipal de El Alto",
+              "11 de abril",
+              "15:00"
+            ],
+            [
+              "Fecha 2",
+              "Nacional Potosí",
+              "1 – 0",
+              "Universitario de Vinto",
+              "Víctor Agustín Ugarte",
+              "17:15"
+            ],
+            [
+              "Fecha 2",
+              "Aurora",
+              "1 – 1",
+              "Always Ready",
+              "Félix Capriles",
+              "19:30"
+            ],
+            [
+              "Fecha 2",
+              "Real Oruro",
+              "2 – 2",
+              "Blooming",
+              "Jesús Bermúdez",
+              "12 de abril",
+              "15:00"
+            ],
+            [
+              "Fecha 2",
+              "The Strongest",
+              "3 – 2",
+              "San Antonio Bulo Bulo",
+              "Hernando Siles",
+              "17:15"
+            ],
+            [
+              "Fecha 2",
+              "Oriente Petrolero",
+              "2 – 1",
+              "GV San José",
+              "Ramón Aguilera Costas",
+              "19:30"
+            ],
+            [
+              "Fecha 2",
+              "Real Tomayapo",
+              "1 – 1",
+              "Real Potosí",
+              "IV Centenario",
+              "13 de abril",
+              "20:00"
+            ],
+            [
+              "Fecha 3",
+              "Universitario de Vinto",
+              "5 – 2",
+              "ABB",
+              "Félix Capriles",
+              "21 de abril",
+              "15:00"
+            ],
+            [
+              "Fecha 3",
+              "GV San José",
+              "1 – 1",
+              "Aurora",
+              "Jesús Bermúdez",
+              "18:00"
+            ],
+            [
+              "Fecha 3",
+              "Bolívar",
+              "1 – 2",
+              "Independiente Petrolero",
+              "Hernando Siles",
+              "20:00"
+            ],
+            [
+              "Fecha 3",
+              "Always Ready",
+              "1 – 0",
+              "Oriente Petrolero",
+              "Municipal de El Alto",
+              "22 de abril",
+              "15:00"
+            ],
+            [
+              "Fecha 3",
+              "Real Potosí",
+              "3 – 0",
+              "Guabirá",
+              "Víctor Agustín Ugarte",
+              "18:00"
+            ],
+            [
+              "Fecha 3",
+              "Blooming",
+              "2 – 1",
+              "Nacional Potosí",
+              "Ramón Aguilera Costas",
+              "20:00"
+            ],
+            [
+              "Fecha 3",
+              "San Antonio Bulo Bulo",
+              "2 – 1",
+              "Real Oruro",
+              "Félix Capriles",
+              "23 de abril",
+              "15:00"
+            ],
+            [
+              "Fecha 3",
+              "Real Tomayapo",
+              "0 – 0",
+              "The Strongest",
+              "IV Centenario",
+              "20:00"
+            ],
+            [
+              "Fecha 4",
+              "Independiente Petrolero",
+              "2 – 1",
+              "Universitario de Vinto",
+              "Olímpico Patria",
+              "24 de abril",
+              "20:00"
+            ],
+            [
+              "Fecha 4",
+              "Nacional Potosí",
+              "1 – 1",
+              "GV San José",
+              "Víctor Agustín Ugarte",
+              "25 de abril",
+              "15:00"
+            ],
+            [
+              "Fecha 4",
+              "ABB",
+              "3 – 2",
+              "Blooming",
+              "Municipal de El Alto",
+              "17:15"
+            ],
+            [
+              "Fecha 4",
+              "Guabirá",
+              "1 – 2",
+              "Always Ready",
+              "Gilberto Parada",
+              "19:30"
+            ],
+            [
+              "Fecha 4",
+              "Real Oruro",
+              "2 – 3",
+              "The Strongest",
+              "Jesús Bermúdez",
+              "26 de abril",
+              "15:00"
+            ],
+            [
+              "Fecha 4",
+              "Bolívar",
+              "6 – 0",
+              "Real Tomayapo",
+              "Hernando Siles",
+              "17:15"
+            ],
+            [
+              "Fecha 4",
+              "Oriente Petrolero",
+              "2 – 0",
+              "Real Potosí",
+              "Ramón Aguilera Costas",
+              "19:30"
+            ],
+            [
+              "Fecha 4",
+              "Aurora",
+              "3 – 1",
+              "San Antonio Bulo Bulo",
+              "Félix Capriles",
+              "27 de abril",
+              "20:00"
+            ],
+            [
+              "Fecha 5",
+              "San Antonio Bulo Bulo",
+              "2 – 2",
+              "Independiente Petrolero",
+              "Félix Capriles",
+              "1 de mayo",
+              "15:00"
+            ],
+            [
+              "Fecha 5",
+              "Real Potosí",
+              "1 – 2",
+              "Real Oruro",
+              "Víctor Agustín Ugarte",
+              "17:15"
+            ],
+            [
+              "Fecha 5",
+              "Always Ready",
+              "3 – 1",
+              "Nacional Potosí",
+              "Municipal de El Alto",
+              "2 de mayo",
+              "15:00"
+            ],
+            [
+              "Fecha 5",
+              "Aurora",
+              "4 – 2",
+              "Guabirá",
+              "Félix Capriles",
+              "17:15"
+            ],
+            [
+              "Fecha 5",
+              "Oriente Petrolero",
+              "3 – 1",
+              "Real Tomayapo",
+              "Ramón Aguilera Costas",
+              "19:30"
+            ],
+            [
+              "Fecha 5",
+              "GV San José",
+              "1 – 2",
+              "Bolívar",
+              "Jesús Bermúdez",
+              "3 de mayo",
+              "15:00"
+            ],
+            [
+              "Fecha 5",
+              "The Strongest",
+              "3 – 1",
+              "ABB",
+              "Hernando Siles",
+              "17:15"
+            ],
+            [
+              "Fecha 5",
+              "Universitario de Vinto",
+              "1 – 1",
+              "Blooming",
+              "Félix Capriles",
+              "4 de mayo",
+              "20:00"
+            ],
+            [
+              "Fecha 6",
+              "Guabirá",
+              "3 – 0",
+              "GV San José",
+              "Gilberto Parada",
+              "9 de mayo",
+              "17:15"
+            ],
+            [
+              "Fecha 6",
+              "Real Tomayapo",
+              "1 – 0",
+              "San Antonio Bulo Bulo",
+              "IV Centenario",
+              "19:30"
+            ],
+            [
+              "Fecha 6",
+              "Independiente Petrolero",
+              "0 – 0",
+              "Always Ready",
+              "Olímpico Patria",
+              "10 de mayo",
+              "15:00"
+            ],
+            [
+              "Fecha 6",
+              "The Strongest",
+              "0 – 0",
+              "Real Potosí",
+              "Hernando Siles",
+              "17:15"
+            ],
+            [
+              "Fecha 6",
+              "Blooming",
+              "0 – 0",
+              "Bolívar",
+              "Ramón Aguilera Costas",
+              "19:30"
+            ],
+            [
+              "Fecha 6",
+              "ABB",
+              "3 – 1",
+              "Oriente Petrolero",
+              "Municipal de El Alto",
+              "11 de mayo",
+              "15:00"
+            ],
+            [
+              "Fecha 6",
+              "Real Oruro",
+              "4 – 1",
+              "Universitario de Vinto",
+              "Jesús Bermúdez",
+              "8 de julio",
+              "18:00"
+            ],
+            [
+              "Fecha 6",
+              "Nacional Potosí",
+              "2 – 0",
+              "Aurora",
+              "Víctor Agustín Ugarte",
+              "9 de julio",
+              "20:00"
+            ],
+            [
+              "Fecha 7",
+              "San Antonio Bulo Bulo",
+              "0 – 2",
+              "Universitario de Vinto",
+              "Félix Capriles",
+              "12 de mayo",
+              "15:00"
+            ],
+            [
+              "Fecha 7",
+              "Aurora",
+              "1 – 1",
+              "Real Oruro",
+              "20:00"
+            ],
+            [
+              "Fecha 7",
+              "Independiente Petrolero",
+              "3 – 1",
+              "Blooming",
+              "Olímpico Patria",
+              "13 de mayo",
+              "18:00"
+            ],
+            [
+              "Fecha 7",
+              "Bolívar",
+              "1 – 1",
+              "Nacional Potosí",
+              "Hernando Siles",
+              "20:00"
+            ],
+            [
+              "Fecha 7",
+              "Always Ready",
+              "0 – 1",
+              "The Strongest",
+              "Municipal de El Alto",
+              "14 de mayo",
+              "15:00"
+            ],
+            [
+              "Fecha 7",
+              "Oriente Petrolero",
+              "2 – 2",
+              "Guabirá",
+              "Ramón Aguilera Costas",
+              "20:00"
+            ],
+            [
+              "Fecha 7",
+              "GV San José",
+              "3 – 2",
+              "Real Tomayapo",
+              "Jesús Bermúdez",
+              "7 de julio",
+              "19:00"
+            ],
+            [
+              "Fecha 7",
+              "Real Potosí",
+              "3 – 1",
+              "ABB",
+              "Víctor Agustín Ugarte",
+              "8 de julio",
+              "20:00"
+            ],
+            [
+              "Fecha 8",
+              "Real Tomayapo",
+              "0 – 2",
+              "Aurora",
+              "IV Centenario",
+              "15 de mayo",
+              "20:00"
+            ],
+            [
+              "Fecha 8",
+              "Universitario de Vinto",
+              "3 – 2",
+              "Bolívar",
+              "Félix Capriles",
+              "16 de mayo",
+              "15:00"
+            ],
+            [
+              "Fecha 8",
+              "Guabirá",
+              "2 – 1",
+              "Nacional Potosí",
+              "Gilberto Parada",
+              "17 de mayo",
+              "19:30"
+            ],
+            [
+              "Fecha 8",
+              "Real Oruro",
+              "0 – 6",
+              "Always Ready",
+              "Jesús Bermúdez",
+              "14 de julio",
+              "18:00"
+            ],
+            [
+              "Fecha 8",
+              "Blooming",
+              "1 – 1",
+              "GV San José",
+              "Ramón Aguilera Costas",
+              "20:30"
+            ],
+            [
+              "Fecha 8",
+              "Real Potosí",
+              "5 – 0",
+              "San Antonio Bulo Bulo",
+              "Víctor Agustín Ugarte",
+              "15 de julio",
+              "18:00"
+            ],
+            [
+              "Fecha 8",
+              "The Strongest",
+              "2 – 1",
+              "Oriente Petrolero",
+              "Hernando Siles",
+              "20:30"
+            ],
+            [
+              "Fecha 8",
+              "ABB",
+              "3 – 1",
+              "Independiente Petrolero",
+              "Municipal de El Alto",
+              "16 de julio",
+              "15:00"
+            ],
+            [
+              "Fecha 9",
+              "Bolívar",
+              "4 – 0",
+              "Guabirá",
+              "Hernando Siles",
+              "17 de julio",
+              "20:00"
+            ],
+            [
+              "Fecha 9",
+              "Always Ready",
+              "4 – 0",
+              "Universitario de Vinto",
+              "Municipal de El Alto",
+              "18 de julio",
+              "15:00"
+            ],
+            [
+              "Fecha 9",
+              "Aurora",
+              "2 – 2",
+              "Oriente Petrolero",
+              "Félix Capriles",
+              "20:30"
+            ],
+            [
+              "Fecha 9",
+              "GV San José",
+              "0 – 0",
+              "The Strongest",
+              "Jesús Bermúdez",
+              "19 de julio",
+              "11:00"
+            ],
+            [
+              "Fecha 9",
+              "Blooming",
+              "1 – 0",
+              "Real Tomayapo",
+              "Ramón Aguilera Costas",
+              "20:30"
+            ],
+            [
+              "Fecha 9",
+              "San Antonio Bulo Bulo",
+              "2 – 1",
+              "ABB",
+              "Félix Capriles",
+              "20 de julio",
+              "15:00"
+            ],
+            [
+              "Fecha 9",
+              "Nacional Potosí",
+              "1 – 4",
+              "Real Oruro",
+              "Víctor Agustín Ugarte",
+              "19:00"
+            ],
+            [
+              "Fecha 9",
+              "Independiente Petrolero",
+              "1 – 2",
+              "Real Potosí",
+              "Olímpico Patria",
+              "21 de julio"
+            ],
+            [
+              "Fecha 10",
+              "San Antonio Bulo Bulo",
+              "1 – 2",
+              "Guabirá",
+              "Félix Capriles",
+              "29 de mayo",
+              "15:00"
+            ],
+            [
+              "Fecha 10",
+              "ABB",
+              "1 – 3",
+              "Always Ready",
+              "Municipal de El Alto",
+              "30 de mayo",
+              "15:00"
+            ],
+            [
+              "Fecha 10",
+              "Oriente Petrolero",
+              "0 – 1",
+              "Blooming",
+              "Ramón Aguilera Costas",
+              "31 de mayo",
+              "16:00"
+            ],
+            [
+              "Fecha 10",
+              "Universitario de Vinto",
+              "1 – 2",
+              "Aurora",
+              "Félix Capriles",
+              "1 de junio",
+              "20:00"
+            ],
+            [
+              "Fecha 10",
+              "Real Oruro",
+              "3 – 1",
+              "GV San José",
+              "Jesús Bermúdez",
+              "11 de julio",
+              "15:00"
+            ],
+            [
+              "Fecha 10",
+              "Real Potosí",
+              "1 – 1",
+              "Nacional Potosí",
+              "Víctor Agustín Ugarte",
+              "12 de julio"
+            ],
+            [
+              "Fecha 10",
+              "The Strongest",
+              "1 – 1",
+              "Bolívar",
+              "Hernando Siles",
+              "17:15"
+            ],
+            [
+              "Fecha 10",
+              "Real Tomayapo",
+              "2 – 1",
+              "Independiente Petrolero",
+              "IV Centenario",
+              "19:30"
+            ],
+            [
+              "Fecha 11",
+              "Aurora",
+              "3 – 2",
+              "ABB",
+              "Félix Capriles",
+              "24 de julio",
+              "19:00"
+            ],
+            [
+              "Fecha 11",
+              "Always Ready",
+              "3 – 1",
+              "San Antonio Bulo Bulo",
+              "Municipal de El Alto",
+              "25 de julio",
+              "15:00"
+            ],
+            [
+              "Fecha 11",
+              "Guabirá",
+              "4 – 1",
+              "Real Oruro",
+              "Gilberto Parada",
+              "17:15"
+            ],
+            [
+              "Fecha 11",
+              "Independiente Petrolero",
+              "1 – 2",
+              "Oriente Petrolero",
+              "Olímpico Patria",
+              "19:30"
+            ],
+            [
+              "Fecha 11",
+              "Blooming",
+              "1 – 1",
+              "The Strongest",
+              "Ramón Aguilera Costas",
+              "26 de julio",
+              "15:00"
+            ],
+            [
+              "Fecha 11",
+              "Bolívar",
+              "2 – 1",
+              "Real Potosí",
+              "Hernando Siles",
+              "17:15"
+            ],
+            [
+              "Fecha 11",
+              "Nacional Potosí",
+              "4 – 1",
+              "Real Tomayapo",
+              "Víctor Agustín Ugarte",
+              "19:30"
+            ],
+            [
+              "Fecha 11",
+              "GV San José",
+              "2 – 1",
+              "Universitario de Vinto",
+              "Jesús Bermúdez",
+              "27 de julio",
+              "15:00"
+            ],
+            [
+              "Fecha 12",
+              "Universitario de Vinto",
+              "1 – 1",
+              "Guabirá",
+              "Félix Capriles",
+              "31 de julio",
+              "15:00"
+            ],
+            [
+              "Fecha 12",
+              "The Strongest",
+              "1 – 1",
+              "Aurora",
+              "Hernando Siles",
+              "17:30"
+            ],
+            [
+              "Fecha 12",
+              "Real Tomayapo",
+              "1 – 1",
+              "ABB",
+              "IV Centenario",
+              "19:00"
+            ],
+            [
+              "Fecha 12",
+              "Real Oruro",
+              "0 – 3",
+              "Independiente Petrolero",
+              "Jesús Bermúdez",
+              "1 de agosto",
+              "15:00"
+            ],
+            [
+              "Fecha 12",
+              "San Antonio Bulo Bulo",
+              "2 – 0",
+              "Blooming",
+              "Félix Capriles",
+              "17:15"
+            ],
+            [
+              "Fecha 12",
+              "Real Potosí",
+              "0 – 0",
+              "GV San José",
+              "Víctor Agustín Ugarte",
+              "2 de agosto",
+              "15:00"
+            ],
+            [
+              "Fecha 12",
+              "Always Ready",
+              "1 – 0",
+              "Bolívar",
+              "Municipal de El Alto",
+              "17:15"
+            ],
+            [
+              "Fecha 12",
+              "Oriente Petrolero",
+              "1 – 0",
+              "Nacional Potosí",
+              "Ramón Aguilera Costas",
+              "19:30"
+            ],
+            [
+              "Fecha 13",
+              "ABB",
+              "4 – 1",
+              "Real Oruro",
+              "Municipal de El Alto",
+              "4 de agosto",
+              "15:00"
+            ],
+            [
+              "Fecha 13",
+              "Independiente Petrolero",
+              "1 – 1",
+              "Aurora",
+              "Olímpico Patria",
+              "18:00"
+            ],
+            [
+              "Fecha 13",
+              "Guabirá",
+              "3 – 0",
+              "Real Tomayapo",
+              "Gilberto Parada",
+              "20:00"
+            ],
+            [
+              "Fecha 13",
+              "GV San José",
+              "0 – 0",
+              "San Antonio Bulo Bulo",
+              "Jesús Bermúdez",
+              "5 de agosto",
+              "15:00"
+            ],
+            [
+              "Fecha 13",
+              "Nacional Potosí",
+              "2 – 3",
+              "The Strongest",
+              "Víctor Agustín Ugarte",
+              "18:00"
+            ],
+            [
+              "Fecha 13",
+              "Bolívar",
+              "2 – 1",
+              "Oriente Petrolero",
+              "Hernando Siles",
+              "20:00"
+            ],
+            [
+              "Fecha 13",
+              "Universitario de Vinto",
+              "0 – 2",
+              "Real Potosí",
+              "Félix Capriles",
+              "6 de agosto",
+              "15:00"
+            ],
+            [
+              "Fecha 13",
+              "Blooming",
+              "0 – 0",
+              "Always Ready",
+              "Ramón Aguilera Costas",
+              "19:30"
+            ],
+            [
+              "Fecha 14",
+              "ABB",
+              "0 – 1",
+              "Guabirá",
+              "Municipal de El Alto",
+              "7 de agosto",
+              "17:15"
+            ],
+            [
+              "Fecha 14",
+              "Real Tomayapo",
+              "1 – 2",
+              "Real Oruro",
+              "IV Centenario",
+              "19:30"
+            ],
+            [
+              "Fecha 14",
+              "San Antonio Bulo Bulo",
+              "2 – 1",
+              "Nacional Potosí",
+              "Félix Capriles",
+              "8 de agosto",
+              "15:00"
+            ],
+            [
+              "Fecha 14",
+              "The Strongest",
+              "1 – 2",
+              "Independiente Petrolero",
+              "Hernando Siles",
+              "17:15"
+            ],
+            [
+              "Fecha 14",
+              "Aurora",
+              "2 – 4",
+              "Bolívar",
+              "Félix Capriles",
+              "19:30"
+            ],
+            [
+              "Fecha 14",
+              "GV San José",
+              "2 – 3",
+              "Always Ready",
+              "Jesús Bermúdez",
+              "9 de agosto",
+              "15:00"
+            ],
+            [
+              "Fecha 14",
+              "Real Potosí",
+              "2 – 0",
+              "Blooming",
+              "Víctor Agustín Ugarte",
+              "17:15"
+            ],
+            [
+              "Fecha 14",
+              "Oriente Petrolero",
+              "5 – 0",
+              "Universitario de Vinto",
+              "Ramón Aguilera Costas",
+              "19:30"
+            ],
+            [
+              "Fecha 15",
+              "Universitario de Vinto",
+              "0 – 1",
+              "Real Tomayapo",
+              "Félix Capriles",
+              "14 de agosto",
+              "15:00"
+            ],
+            [
+              "Fecha 15",
+              "Bolívar",
+              "4 – 1",
+              "San Antonio Bulo Bulo",
+              "Hernando Siles",
+              "20:00"
+            ],
+            [
+              "Fecha 15",
+              "Real Oruro",
+              "2 – 3",
+              "Oriente Petrolero",
+              "Jesús Bermúdez",
+              "15 de agosto",
+              "15:00"
+            ],
+            [
+              "Fecha 15",
+              "Guabirá",
+              "3 – 1",
+              "The Strongest",
+              "Gilberto Parada",
+              "17:15"
+            ],
+            [
+              "Fecha 15",
+              "Blooming",
+              "3 – 0",
+              "Aurora",
+              "Ramón Aguilera Costas",
+              "19:30"
+            ],
+            [
+              "Fecha 15",
+              "Always Ready",
+              "1 – 1",
+              "Real Potosí",
+              "Municipal de El Alto",
+              "16 de agosto",
+              "15:00"
+            ],
+            [
+              "Fecha 15",
+              "Nacional Potosí",
+              "2 – 0",
+              "ABB",
+              "Víctor Agustín Ugarte",
+              "17:15"
+            ],
+            [
+              "Fecha 15",
+              "Independiente Petrolero",
+              "1 – 0",
+              "GV San José",
+              "Olímpico Patria",
+              "19:30"
+            ],
+            [
+              "Fecha 16",
+              "The Strongest",
+              "–",
+              "Universitario de Vinto",
+              "Hernando Siles",
+              "21 de agosto",
+              "18:30"
+            ],
+            [
+              "Fecha 16",
+              "Oriente Petrolero",
+              "–",
+              "San Antonio Bulo Bulo",
+              "Ramón Aguilera Costas",
+              "20:30"
+            ],
+            [
+              "Fecha 16",
+              "ABB",
+              "–",
+              "GV San José",
+              "Municipal de El Alto",
+              "22 de agosto",
+              "15:00"
+            ],
+            [
+              "Fecha 16",
+              "Aurora",
+              "–",
+              "Real Potosí",
+              "Félix Capriles",
+              "17:15"
+            ],
+            [
+              "Fecha 16",
+              "Nacional Potosí",
+              "–",
+              "Independiente Petrolero",
+              "Víctor Agustín Ugarte",
+              "19:30"
+            ],
+            [
+              "Fecha 16",
+              "Real Oruro",
+              "–",
+              "Bolívar",
+              "Jesús Bermúdez",
+              "23 de agosto",
+              "15:00"
+            ],
+            [
+              "Fecha 16",
+              "Guabirá",
+              "–",
+              "Blooming",
+              "Gilberto Parada",
+              "17:15"
+            ],
+            [
+              "Fecha 16",
+              "Real Tomayapo",
+              "–",
+              "Always Ready",
+              "IV Centenario",
+              "19:30"
+            ],
+            [
+              "Fecha 17",
+              "GV San José",
+              "–",
+              "Oriente Petrolero",
+              "Jesús Bermúdez",
+              "25 de agosto",
+              "15:00"
+            ],
+            [
+              "Fecha 17",
+              "Universitario de Vinto",
+              "–",
+              "Nacional Potosí",
+              "Félix Capriles",
+              "19:00"
+            ],
+            [
+              "Fecha 17",
+              "San Antonio Bulo Bulo",
+              "–",
+              "The Strongest",
+              "26 de agosto",
+              "15:00"
+            ],
+            [
+              "Fecha 17",
+              "Real Potosí",
+              "–",
+              "Real Tomayapo",
+              "Víctor Agustín Ugarte",
+              "18:30"
+            ],
+            [
+              "Fecha 17",
+              "Blooming",
+              "–",
+              "Real Oruro",
+              "Ramón Aguilera Costas",
+              "20:30"
+            ],
+            [
+              "Fecha 17",
+              "Always Ready",
+              "–",
+              "Aurora",
+              "Municipal de El Alto",
+              "27 de agosto",
+              "15:00"
+            ],
+            [
+              "Fecha 17",
+              "Independiente Petrolero",
+              "–",
+              "Guabirá",
+              "Olímpico Patria",
+              "18:30"
+            ],
+            [
+              "Fecha 17",
+              "Bolívar",
+              "–",
+              "ABB",
+              "Hernando Siles",
+              "20:30"
+            ],
+            [
+              "Fecha 18",
+              "Real Oruro",
+              "–",
+              "San Antonio Bulo Bulo",
+              "Jesús Bermúdez",
+              "4 de septiembre",
+              "15:00"
+            ],
+            [
+              "Fecha 18",
+              "ABB",
+              "–",
+              "Universitario de Vinto",
+              "Municipal de El Alto",
+              "17:15"
+            ],
+            [
+              "Fecha 18",
+              "Guabirá",
+              "–",
+              "Real Potosí",
+              "Gilberto Parada",
+              "5 de septiembre",
+              "15:00"
+            ],
+            [
+              "Fecha 18",
+              "Aurora",
+              "–",
+              "GV San José",
+              "Félix Capriles",
+              "17:15"
+            ],
+            [
+              "Fecha 18",
+              "Oriente Petrolero",
+              "–",
+              "Always Ready",
+              "Ramón Aguilera Costas",
+              "19:30"
+            ],
+            [
+              "Fecha 18",
+              "Independiente Petrolero",
+              "–",
+              "Bolívar",
+              "Olímpico Patria",
+              "6 de septiembre",
+              "15:00"
+            ],
+            [
+              "Fecha 18",
+              "The Strongest",
+              "–",
+              "Real Tomayapo",
+              "Hernando Siles",
+              "17:15"
+            ],
+            [
+              "Fecha 18",
+              "Nacional Potosí",
+              "–",
+              "Blooming",
+              "Víctor Agustín Ugarte",
+              "20:00"
+            ],
+            [
+              "Fecha 19",
+              "San Antonio Bulo Bulo",
+              "–",
+              "Aurora",
+              "Félix Capriles",
+              "11 de septiembre",
+              "18:00"
+            ],
+            [
+              "Fecha 19",
+              "Real Potosí",
+              "–",
+              "Oriente Petrolero",
+              "Víctor Agustín Ugarte",
+              "20:00"
+            ],
+            [
+              "Fecha 19",
+              "GV San José",
+              "–",
+              "Nacional Potosí",
+              "Jesús Bermúdez",
+              "12 de septiembre",
+              "15:00"
+            ],
+            [
+              "Fecha 19",
+              "The Strongest",
+              "–",
+              "Real Oruro",
+              "Hernando Siles",
+              "17:15"
+            ],
+            [
+              "Fecha 19",
+              "Blooming",
+              "–",
+              "ABB",
+              "Ramón Aguilera Costas",
+              "19:30"
+            ],
+            [
+              "Fecha 19",
+              "Always Ready",
+              "–",
+              "Guabirá",
+              "Municipal de El Alto",
+              "13 de septiembre",
+              "15:00"
+            ],
+            [
+              "Fecha 19",
+              "Universitario de Vinto",
+              "–",
+              "Independiente Petrolero",
+              "Félix Capriles",
+              "17:00"
+            ],
+            [
+              "Fecha 19",
+              "Real Tomayapo",
+              "–",
+              "Bolívar",
+              "IV Centenario",
+              "19:30"
+            ],
+            [
+              "Fecha 20",
+              "Real Oruro",
+              "–",
+              "Real Potosí",
+              "Jesús Bermúdez",
+              "15 de septiembre",
+              "15:00"
+            ],
+            [
+              "Fecha 20",
+              "ABB",
+              "–",
+              "The Strongest",
+              "Municipal de El Alto",
+              "17:15"
+            ],
+            [
+              "Fecha 20",
+              "Guabirá",
+              "–",
+              "Aurora",
+              "Gilberto Parada",
+              "16 de septiembre",
+              "15:00"
+            ],
+            [
+              "Fecha 20",
+              "Nacional Potosí",
+              "–",
+              "Always Ready",
+              "Víctor Agustín Ugarte",
+              "18:30"
+            ],
+            [
+              "Fecha 20",
+              "Blooming",
+              "–",
+              "Universitario de Vinto",
+              "Ramón Aguilera Costas",
+              "20:30"
+            ],
+            [
+              "Fecha 20",
+              "Real Tomayapo",
+              "–",
+              "Oriente Petrolero",
+              "IV Centenario",
+              "17 de septiembre",
+              "18:30"
+            ],
+            [
+              "Fecha 20",
+              "Bolívar",
+              "–",
+              "GV San José",
+              "Hernando Siles",
+              "20:30"
+            ],
+            [
+              "Fecha 20",
+              "Independiente Petrolero",
+              "–",
+              "San Antonio Bulo Bulo",
+              "Olímpico Patria",
+              "18 de septiembre",
+              "19:00"
+            ],
+            [
+              "Fecha 21",
+              "San Antonio Bulo Bulo",
+              "–",
+              "Real Tomayapo",
+              "Félix Capriles",
+              "9 de octubre",
+              "15:00"
+            ],
+            [
+              "Fecha 21",
+              "Universitario de Vinto",
+              "–",
+              "Real Oruro",
+              "10 de octubre"
+            ],
+            [
+              "Fecha 21",
+              "Oriente Petrolero",
+              "–",
+              "ABB",
+              "Ramón Aguilera Costas",
+              "19:30"
+            ],
+            [
+              "Fecha 21",
+              "Real Potosí",
+              "–",
+              "The Strongest",
+              "Víctor Agustín Ugarte",
+              "11 de octubre",
+              "15:00"
+            ],
+            [
+              "Fecha 21",
+              "Aurora",
+              "–",
+              "Nacional Potosí",
+              "Félix Capriles",
+              "17:15"
+            ],
+            [
+              "Fecha 21",
+              "Bolívar",
+              "–",
+              "Blooming",
+              "Hernando Siles",
+              "19:30"
+            ],
+            [
+              "Fecha 21",
+              "GV San José",
+              "–",
+              "Guabirá",
+              "Jesús Bermúdez",
+              "12 de octubre",
+              "15:00"
+            ],
+            [
+              "Fecha 21",
+              "Always Ready",
+              "–",
+              "Independiente Petrolero",
+              "Municipal de El Alto",
+              "17:15"
+            ],
+            [
+              "Fecha 22",
+              "ABB",
+              "–",
+              "Real Potosí",
+              "Municipal de El Alto",
+              "16 de octubre",
+              "15:00"
+            ],
+            [
+              "Fecha 22",
+              "Real Tomayapo",
+              "–",
+              "GV San José",
+              "IV Centenario",
+              "20:00"
+            ],
+            [
+              "Fecha 22",
+              "Real Oruro",
+              "–",
+              "Aurora",
+              "Jesús Bermúdez",
+              "17 de octubre",
+              "15:00"
+            ],
+            [
+              "Fecha 22",
+              "Universitario de Vinto",
+              "–",
+              "San Antonio Bulo Bulo",
+              "Félix Capriles",
+              "17:15"
+            ],
+            [
+              "Fecha 22",
+              "Blooming",
+              "–",
+              "Independiente Petrolero",
+              "Ramón Aguilera Costas",
+              "19:30"
+            ],
+            [
+              "Fecha 22",
+              "Nacional Potosí",
+              "–",
+              "Bolívar",
+              "Víctor Agustín Ugarte",
+              "18 de octubre",
+              "15:00"
+            ],
+            [
+              "Fecha 22",
+              "The Strongest",
+              "–",
+              "Always Ready",
+              "Hernando Siles",
+              "17:15"
+            ],
+            [
+              "Fecha 22",
+              "Guabirá",
+              "–",
+              "Oriente Petrolero",
+              "Gilberto Parada",
+              "19:30"
+            ],
+            [
+              "Fecha 23",
+              "Aurora",
+              "–",
+              "Real Tomayapo",
+              "Félix Capriles",
+              "A determinar"
+            ],
+            [
+              "Fecha 23",
+              "Nacional Potosí",
+              "–",
+              "Guabirá",
+              "Víctor Agustín Ugarte"
+            ],
+            [
+              "Fecha 23",
+              "GV San José",
+              "–",
+              "Blooming",
+              "Jesús Bermúdez"
+            ],
+            [
+              "Fecha 23",
+              "Bolívar",
+              "–",
+              "Universitario de Vinto",
+              "Hernando Siles"
+            ],
+            [
+              "Fecha 23",
+              "Always Ready",
+              "–",
+              "Real Oruro",
+              "Municipal de El Alto"
+            ],
+            [
+              "Fecha 23",
+              "Independiente Petrolero",
+              "–",
+              "ABB",
+              "Olímpico Patria"
+            ],
+            [
+              "Fecha 23",
+              "Oriente Petrolero",
+              "–",
+              "The Strongest",
+              "Ramón Aguilera Costas"
+            ],
+            [
+              "Fecha 23",
+              "San Antonio Bulo Bulo",
+              "–",
+              "Real Potosí",
+              "Dr. Carlos Villegas"
+            ],
+            [
+              "Fecha 24",
+              "Real Oruro",
+              "–",
+              "Nacional Potosí",
+              "Jesús Bermúdez",
+              "A determinar"
+            ],
+            [
+              "Fecha 24",
+              "Real Potosí",
+              "–",
+              "Independiente Petrolero",
+              "Víctor Agustín Ugarte"
+            ],
+            [
+              "Fecha 24",
+              "Universitario de Vinto",
+              "–",
+              "Always Ready",
+              "Municipal de Quillacollo"
+            ],
+            [
+              "Fecha 24",
+              "Guabirá",
+              "–",
+              "Bolívar",
+              "Gilberto Parada"
+            ],
+            [
+              "Fecha 24",
+              "ABB",
+              "–",
+              "San Antonio Bulo Bulo",
+              "Municipal de El Alto"
+            ],
+            [
+              "Fecha 24",
+              "The Strongest",
+              "–",
+              "GV San José",
+              "Hernando Siles"
+            ],
+            [
+              "Fecha 24",
+              "Real Tomayapo",
+              "–",
+              "Blooming",
+              "IV Centenario"
+            ],
+            [
+              "Fecha 24",
+              "Oriente Petrolero",
+              "–",
+              "Aurora",
+              "Ramón Aguilera Costas"
+            ],
+            [
+              "Fecha 25",
+              "Guabirá",
+              "–",
+              "San Antonio Bulo Bulo",
+              "Gilberto Parada",
+              "A determinar"
+            ],
+            [
+              "Fecha 25",
+              "GV San José",
+              "–",
+              "Real Oruro",
+              "Jesús Bermúdez"
+            ],
+            [
+              "Fecha 25",
+              "Independiente Petrolero",
+              "–",
+              "Real Tomayapo",
+              "Olímpico Patria"
+            ],
+            [
+              "Fecha 25",
+              "Bolívar",
+              "–",
+              "The Strongest",
+              "Hernando Siles"
+            ],
+            [
+              "Fecha 25",
+              "Nacional Potosí",
+              "–",
+              "Real Potosí",
+              "Víctor Agustín Ugarte"
+            ],
+            [
+              "Fecha 25",
+              "Aurora",
+              "–",
+              "Universitario de Vinto",
+              "Félix Capriles"
+            ],
+            [
+              "Fecha 25",
+              "Blooming",
+              "–",
+              "Oriente Petrolero",
+              "Ramón Aguilera Costas"
+            ],
+            [
+              "Fecha 25",
+              "Always Ready",
+              "–",
+              "ABB",
+              "Municipal de El Alto"
+            ],
+            [
+              "Fecha 26",
+              "Universitario de Vinto",
+              "–",
+              "GV San José",
+              "Municipal de Quillacollo",
+              "A determinar"
+            ],
+            [
+              "Fecha 26",
+              "Real Oruro",
+              "–",
+              "Aurora",
+              "Jesús Bermúdez"
+            ],
+            [
+              "Fecha 26",
+              "Real Potosí",
+              "–",
+              "Bolívar",
+              "Víctor Agustín Ugarte"
+            ],
+            [
+              "Fecha 26",
+              "The Strongest",
+              "–",
+              "Blooming",
+              "Hernando Siles"
+            ],
+            [
+              "Fecha 26",
+              "San Antonio Bulo Bulo",
+              "–",
+              "Always Ready",
+              "Dr. Carlos Villegas"
+            ],
+            [
+              "Fecha 26",
+              "ABB",
+              "–",
+              "Aurora",
+              "Municipal de El Alto"
+            ],
+            [
+              "Fecha 26",
+              "Oriente Petrolero",
+              "–",
+              "Independiente Petrolero",
+              "Ramón Aguilera Costas"
+            ],
+            [
+              "Fecha 26",
+              "Real Tomayapo",
+              "–",
+              "Nacional Potosí",
+              "IV Centenario"
+            ],
+            [
+              "Fecha 27",
+              "Nacional Potosí",
+              "–",
+              "Oriente Petrolero",
+              "Víctor Agustín Ugarte",
+              "A determinar"
+            ],
+            [
+              "Fecha 27",
+              "Independiente Petrolero",
+              "–",
+              "Real Oruro",
+              "Olímpico Patria"
+            ],
+            [
+              "Fecha 27",
+              "GV San José",
+              "–",
+              "Real Potosí",
+              "Jesús Bermúdez"
+            ],
+            [
+              "Fecha 27",
+              "Bolívar",
+              "–",
+              "Always Ready",
+              "Hernando Siles"
+            ],
+            [
+              "Fecha 27",
+              "ABB",
+              "–",
+              "Real Tomayapo",
+              "Municipal de El Alto"
+            ],
+            [
+              "Fecha 27",
+              "Aurora",
+              "–",
+              "The Strongest",
+              "Félix Capriles"
+            ],
+            [
+              "Fecha 27",
+              "Guabirá",
+              "–",
+              "Universitario de Vinto",
+              "Gilberto Parada"
+            ],
+            [
+              "Fecha 27",
+              "Blooming",
+              "–",
+              "San Antonio Bulo Bulo",
+              "Ramón Aguilera Costas"
+            ],
+            [
+              "Fecha 28",
+              "Real Oruro",
+              "–",
+              "ABB",
+              "Jesús Bermúdez",
+              "A determinar"
+            ],
+            [
+              "Fecha 28",
+              "Real Potosí",
+              "–",
+              "Universitario de Vinto",
+              "Víctor Agustín Ugarte"
+            ],
+            [
+              "Fecha 28",
+              "Aurora",
+              "–",
+              "Independiente Petrolero",
+              "Félix Capriles"
+            ],
+            [
+              "Fecha 28",
+              "Oriente Petrolero",
+              "–",
+              "Bolívar",
+              "Ramón Aguilera Costas"
+            ],
+            [
+              "Fecha 28",
+              "Always Ready",
+              "–",
+              "Blooming",
+              "Municipal de El Alto"
+            ],
+            [
+              "Fecha 28",
+              "The Strongest",
+              "–",
+              "Nacional Potosí",
+              "Hernando Siles"
+            ],
+            [
+              "Fecha 28",
+              "Real Tomayapo",
+              "–",
+              "Guabirá",
+              "IV Centenario"
+            ],
+            [
+              "Fecha 28",
+              "San Antonio Bulo Bulo",
+              "–",
+              "GV San José",
+              "Dr. Carlos Villegas"
+            ],
+            [
+              "Fecha 29",
+              "Independiente Petrolero",
+              "–",
+              "The Strongest",
+              "Olímpico Patria",
+              "A determinar"
+            ],
+            [
+              "Fecha 29",
+              "Nacional Potosí",
+              "–",
+              "San Antonio Bulo Bulo",
+              "Víctor Agustín Ugarte"
+            ],
+            [
+              "Fecha 29",
+              "Universitario de Vinto",
+              "–",
+              "Oriente Petrolero",
+              "Municipal de Quillacollo"
+            ],
+            [
+              "Fecha 29",
+              "Bolívar",
+              "–",
+              "Aurora",
+              "Hernando Siles"
+            ],
+            [
+              "Fecha 29",
+              "Real Oruro",
+              "–",
+              "Real Tomayapo",
+              "Jesús Bermúdez"
+            ],
+            [
+              "Fecha 29",
+              "Always Ready",
+              "–",
+              "GV San José",
+              "Municipal de El Alto"
+            ],
+            [
+              "Fecha 29",
+              "Blooming",
+              "–",
+              "Real Potosí",
+              "Ramón Aguilera Costas"
+            ],
+            [
+              "Fecha 29",
+              "Guabirá",
+              "–",
+              "ABB",
+              "Gilberto Parada"
+            ],
+            [
+              "Fecha 30",
+              "San Antonio Bulo Bulo",
+              "–",
+              "Bolívar",
+              "Dr. Carlos Villegas",
+              "A determinar"
+            ],
+            [
+              "Fecha 30",
+              "GV San José",
+              "–",
+              "Independiente Petrolero",
+              "Jesús Bermúdez"
+            ],
+            [
+              "Fecha 30",
+              "Real Potosí",
+              "–",
+              "Always Ready",
+              "Víctor Agustín Ugarte"
+            ],
+            [
+              "Fecha 30",
+              "ABB",
+              "–",
+              "Nacional Potosí",
+              "Municipal de El Alto"
+            ],
+            [
+              "Fecha 30",
+              "The Strongest",
+              "–",
+              "Guabirá",
+              "Hernando Siles"
+            ],
+            [
+              "Fecha 30",
+              "Aurora",
+              "–",
+              "Blooming",
+              "Félix Capriles"
+            ],
+            [
+              "Fecha 30",
+              "Real Tomayapo",
+              "–",
+              "Universitario de Vinto",
+              "IV Centenario"
+            ],
+            [
+              "Fecha 30",
+              "Oriente Petrolero",
+              "–",
+              "Real Oruro",
+              "Ramón Aguilera Costas"
+            ]
+          ],
+          "selected_as_current": true,
+          "selection_reason": "se combina por partido (fecha+equipos) entre todas las fuentes, sin duplicar"
+        }
+      },
       "standings": {
-        "id": "fb84a7a3aa60732bae14",
+        "id": "5a65e5fe7cddd29df6d2",
         "kind": "standings",
-        "title": "Grupo D",
+        "title": "Clasificación",
         "text": "",
-        "url": "https://fbf.com.bo/torneos/copa-pacena/",
+        "url": "https://es.wikipedia.org/wiki/Primera_Divisi%C3%B3n_de_Bolivia_2026",
         "image_url": "",
         "video_url": "",
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-19T14:33:13.628105Z",
-        "source_id": "fbf_copa_pacena",
-        "source_name": "FBF - Copa Paceña",
-        "source_type": "federation",
-        "source_authority": 1.0,
+        "scraped_at": "2026-08-19T15:34:43.765193Z",
+        "source_id": "wikipedia_division_profesional",
+        "source_name": "Wikipedia - División Profesional 2026",
+        "source_type": "encyclopedia",
+        "source_authority": 0.92,
         "scope": "bolivia",
-        "competition": "copa_division_profesional",
-        "rank_score": 0.8,
+        "competition": "division_profesional",
+        "rank_score": 0.74,
         "stale": false,
         "extra": {
           "rows": [
             [
-              "Pos",
+              "Pos.",
               "Equipo",
+              "Pts.",
               "PJ",
               "G",
               "E",
               "P",
               "GF",
               "GC",
-              "DG",
-              "Pts"
+              "Dif.",
+              "Clasificación"
             ],
             [
               "1",
-              "CD Guabirá",
-              "14",
-              "7",
+              "Always Ready",
+              "34",
+              "15",
+              "10",
               "4",
-              "3",
-              "25",
-              "25",
-              "0",
-              "25"
+              "1",
+              "32",
+              "9",
+              "+23",
+              "Fase de grupos de Copa Libertadores"
             ],
             [
               "2",
-              "CD Oriente Petrolero",
-              "14",
-              "6",
-              "4",
-              "4",
-              "24",
-              "24",
-              "0",
-              "22"
+              "Bolívar",
+              "30",
+              "15",
+              "9",
+              "3",
+              "3",
+              "36",
+              "16",
+              "+20"
             ],
             [
               "3",
-              "FC Universitario",
-              "14",
-              "5",
-              "4",
-              "5",
+              "The Strongest",
+              "27",
+              "15",
+              "7",
+              "6",
+              "2",
               "22",
-              "20",
-              "+2",
-              "19"
+              "17",
+              "+5",
+              "Fase 1 de Copa Libertadores"
             ],
             [
               "4",
-              "Independiente",
-              "14",
+              "Real Potosí",
+              "24",
+              "15",
+              "6",
+              "6",
+              "3",
+              "22",
+              "11",
+              "+11",
+              "Primera fase de Copa Sudamericana"
+            ],
+            [
               "5",
-              "0",
-              "9",
-              "19",
+              "Guabirá",
+              "24",
+              "15",
+              "7",
+              "3",
+              "5",
               "26",
-              "-7",
-              "15"
+              "27",
+              "− 1"
+            ],
+            [
+              "6",
+              "Oriente Petrolero",
+              "23",
+              "15",
+              "7",
+              "2",
+              "6",
+              "25",
+              "20",
+              "+5"
+            ],
+            [
+              "7",
+              "Aurora",
+              "22",
+              "15",
+              "5",
+              "7",
+              "3",
+              "23",
+              "22",
+              "+1",
+              ""
+            ],
+            [
+              "8",
+              "Independiente Petrolero",
+              "22",
+              "15",
+              "6",
+              "4",
+              "5",
+              "22",
+              "21",
+              "+1"
+            ],
+            [
+              "9",
+              "Blooming",
+              "21",
+              "15",
+              "5",
+              "6",
+              "4",
+              "20",
+              "16",
+              "+4"
+            ],
+            [
+              "10",
+              "Nacional Potosí",
+              "18",
+              "15",
+              "5",
+              "3",
+              "7",
+              "22",
+              "21",
+              "+1"
+            ],
+            [
+              "11",
+              "San Antonio Bulo Bulo",
+              "17",
+              "15",
+              "5",
+              "2",
+              "8",
+              "18",
+              "28",
+              "− 10"
+            ],
+            [
+              "12",
+              "Real Oruro",
+              "17",
+              "15",
+              "5",
+              "2",
+              "8",
+              "27",
+              "38",
+              "− 11"
+            ],
+            [
+              "13",
+              "ABB",
+              "16",
+              "15",
+              "5",
+              "1",
+              "9",
+              "24",
+              "31",
+              "− 7"
+            ],
+            [
+              "14",
+              "GV San José",
+              "12",
+              "15",
+              "2",
+              "6",
+              "7",
+              "14",
+              "22",
+              "− 8"
+            ],
+            [
+              "15",
+              "Real Tomayapo",
+              "12",
+              "15",
+              "3",
+              "3",
+              "9",
+              "11",
+              "31",
+              "− 20",
+              "Promoción"
+            ],
+            [
+              "16",
+              "Universitario de Vinto",
+              "11",
+              "15",
+              "3",
+              "2",
+              "10",
+              "17",
+              "31",
+              "− 14",
+              "Descenso de categoría"
             ]
           ],
           "logos": [
             "",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-8-400x400.png",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-7-400x400.png",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-5-400x400.png",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-12-400x400.png"
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
           ],
+          "strong_standings": true,
           "related_sources": [],
-          "selection_score": 1.22,
+          "selection_score": 1.068,
           "selected_as_current": true,
           "selection_reason": "prioriza fuente oficial/autoridad + tipo de tabla + cantidad de filas"
         }
       },
       "top_scorers": {
-        "id": "52b39943baafc4f0ad07",
+        "id": "632bb0cbe40b012edabe",
         "kind": "top_scorers",
-        "title": "Tabla de Goleadores",
+        "title": "Goleadores",
         "text": "",
-        "url": "https://fbf.com.bo/torneos/copa-pacena/",
+        "url": "https://es.wikipedia.org/wiki/Primera_Divisi%C3%B3n_de_Bolivia_2026",
         "image_url": "",
         "video_url": "",
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-19T14:33:13.628432Z",
-        "source_id": "fbf_copa_pacena",
-        "source_name": "FBF - Copa Paceña",
-        "source_type": "federation",
-        "source_authority": 1.0,
+        "scraped_at": "2026-08-19T15:34:43.798132Z",
+        "source_id": "wikipedia_division_profesional",
+        "source_name": "Wikipedia - División Profesional 2026",
+        "source_type": "encyclopedia",
+        "source_authority": 0.92,
         "scope": "bolivia",
-        "competition": "copa_division_profesional",
-        "rank_score": 0.8,
+        "competition": "division_profesional",
+        "rank_score": 0.74,
         "stale": false,
         "extra": {
           "rows": [
             [
-              "15 Goles",
-              "Alvarez Vargas, Willan Gustavo (Nacional Potosí)"
+              "Jugador",
+              "Equipo",
+              "",
+              "Partidos",
+              "Prom."
             ],
             [
-              "10 Goles",
-              "Romero Chalas, Dorny Alexander (Bolívar)"
+              "Martín Cauteruccio",
+              "Bolívar",
+              "8",
+              "11",
+              "0.73"
             ],
             [
-              "9 Goles",
-              "Arrascaita Iriondo, Jaime Darío (The Strongest) Galindo Suheiro, Samuel (G. Villarroel CD San José) Vásquez Arcila, Antony (CD San Antonio)"
+              "Willie Barbosa",
+              "Independiente Petrolero",
+              "8",
+              "12",
+              "0.67"
             ],
             [
-              "8 Goles",
-              "Bobadilla Cáceres, Héctor Damián (Always Ready)"
+              "Juan Fajardo",
+              "ABB",
+              "7",
+              "10",
+              "0.7 0"
             ],
             [
-              "7 Goles",
-              "Godoy Viñales, Juan Sinforiano (The Strongest) Posse Yarwa, Franco Luca (Blooming)"
+              "Marcelo Martins",
+              "Oriente Petrolero",
+              "6",
+              "5",
+              "1.2 0"
+            ],
+            [
+              "Darwin Lom",
+              "The Strongest",
+              "6",
+              "11",
+              "0.55"
+            ],
+            [
+              "Rafael Menacho",
+              "San Antonio Bulo Bulo",
+              "6",
+              "11",
+              "0.55"
+            ],
+            [
+              "Bayron Garcés",
+              "Blooming",
+              "6",
+              "10",
+              "0.6 0"
+            ],
+            [
+              "Última actualización: 3 de agosto de 2026 . [ 4 ]"
             ]
           ],
           "logos": [
-            "",
-            "",
-            "",
-            "",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Soccerball_shade.svg/20px-Soccerball_shade.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/20px-Flag_of_Uruguay.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/20px-Flag_of_Brazil.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/20px-Flag_of_Colombia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Flag_of_Guatemala.svg/20px-Flag_of_Guatemala.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/20px-Flag_of_Colombia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
             ""
           ],
-          "related_sources": [
-            {
-              "source_name": "FBF - Copa Paceña",
-              "url": "https://fbf.com.bo/torneos/copa-pacena/",
-              "published_at": null
-            },
-            {
-              "source_name": "DIEZ - Fútbol",
-              "url": "https://diez.bo/futbol",
-              "published_at": null
-            }
-          ],
-          "selection_score": 1.17,
+          "strong_standings": false,
+          "related_sources": [],
+          "selection_score": 0.986,
           "selected_as_current": true,
           "selection_reason": "prioriza fuente oficial/autoridad + tipo de tabla + cantidad de filas"
         }
       }
     },
-    "division_profesional": {
+    "copa_division_profesional": {
+      "matches": {
+        "kind": "matches",
+        "title": "Partidos por fecha",
+        "source_id": "merged",
+        "source_name": "FutbolDeBolivia.net - Copa Paceña Grupo A + FutbolDeBolivia.net - Copa Paceña Grupo B + FutbolDeBolivia.net - Copa Paceña Grupo C + FutbolDeBolivia.net - Copa Paceña Grupo D",
+        "competition": "copa_division_profesional",
+        "scraped_at": "2026-08-19T15:34:45.643569Z",
+        "extra": {
+          "header": [
+            "Fecha",
+            "Local",
+            "Resultado",
+            "Visitante",
+            "Estadio",
+            "FechaPartido",
+            "Hora"
+          ],
+          "rows": [
+            [
+              "Fecha 1",
+              "San Antonio",
+              "0 – 1",
+              "Aurora",
+              "",
+              "Martes 18 de agosto de 2026",
+              "15:00"
+            ],
+            [
+              "Fecha 1",
+              "ABB",
+              "–",
+              "Real Potosi",
+              "",
+              "Miercoles 19 de agosto de 2026",
+              "15:00"
+            ],
+            [
+              "Fecha 1",
+              "Guabira",
+              "2 – 1",
+              "FC Universitario",
+              "",
+              "Martes 18 de Agosto",
+              "18:00"
+            ],
+            [
+              "Fecha 1",
+              "The Strongest",
+              "2 – 1",
+              "Oriente Petrolero",
+              "",
+              "Martes 18 de Agosto",
+              "20:00"
+            ],
+            [
+              "Fecha 1",
+              "Independiente",
+              "–",
+              "Blooming",
+              "",
+              "Miercoles 19 de agosto",
+              "18:00"
+            ],
+            [
+              "Fecha 1",
+              "GV San Jose",
+              "–",
+              "Bolivar",
+              "",
+              "Miercoles 2 de Septiembre",
+              "15:00"
+            ],
+            [
+              "Fecha 1",
+              "Nacional Potosi",
+              "–",
+              "Real Tomayapo",
+              "",
+              "Miercoles 19 de agosto de 2026",
+              "20:00"
+            ],
+            [
+              "Fecha 2",
+              "Nacional Potosi",
+              "–",
+              "Real Potosi",
+              "",
+              "Sabado 29 de Agosto",
+              "17:15"
+            ],
+            [
+              "Fecha 2",
+              "ABB",
+              "–",
+              "Always Ready",
+              "",
+              "Domingo 30 de Agosto",
+              "15:00"
+            ],
+            [
+              "Fecha 2",
+              "San Antonio",
+              "–",
+              "Guabira",
+              "",
+              "Lunes 31 de Agosto",
+              "15:00"
+            ],
+            [
+              "Fecha 2",
+              "FC Universitario",
+              "–",
+              "Aurora",
+              "",
+              "Martes 1 de septiembre",
+              "19:00"
+            ],
+            [
+              "Fecha 2",
+              "Gualberto Villarroel San Jose",
+              "–",
+              "Real Oruro",
+              "",
+              "Sabado 29 de Agosto",
+              "15:00"
+            ],
+            [
+              "Fecha 2",
+              "Real Tomayapo",
+              "–",
+              "Independiente",
+              "",
+              "Lunes 31 de Agosto",
+              "20:00"
+            ],
+            [
+              "Fecha 2",
+              "Bolivar",
+              "–",
+              "The Strongest",
+              "",
+              "Domingo 30 de agosto",
+              "17:15"
+            ],
+            [
+              "Fecha 2",
+              "Blooming",
+              "–",
+              "Oriente Petrolero",
+              "",
+              "Domingo 30 de agosto",
+              "19:30"
+            ]
+          ],
+          "selected_as_current": true,
+          "selection_reason": "se combina por partido (fecha+equipos) entre todas las fuentes, sin duplicar"
+        }
+      },
       "standings": {
-        "id": "7e96ffc0401afc017381",
-        "kind": "table",
-        "title": "Index of /html/v3/htmlCenter/data/deportes/futbol/bolivia/statsCenter",
-        "text": "",
-        "url": "https://deportes.reduno.com.bo/html/v3/htmlCenter/data/deportes/futbol/bolivia/statsCenter/",
-        "image_url": "",
-        "video_url": "",
-        "thumbnail_url": "",
-        "media_type": "none",
-        "published_at": null,
-        "scraped_at": "2026-08-19T14:33:20.273967Z",
-        "source_id": "reduno_stats",
-        "source_name": "Red Uno - Stats Center Bolivia",
-        "source_type": "structured_media",
-        "source_authority": 0.84,
-        "scope": "bolivia",
-        "competition": "division_profesional",
-        "rank_score": 0.68,
-        "stale": false,
+        "kind": "standings",
+        "title": "Tabla calculada a partir de resultados",
+        "source_id": "computed",
+        "source_name": "Calculada desde: FutbolDeBolivia.net - Copa Paceña Grupo A + FutbolDeBolivia.net - Copa Paceña Grupo B + FutbolDeBolivia.net - Copa Paceña Grupo C + FutbolDeBolivia.net - Copa Paceña Grupo D",
+        "competition": "copa_division_profesional",
+        "scraped_at": "2026-08-19T15:34:45.643569Z",
         "extra": {
           "rows": [
             [
-              "",
-              "Name",
-              "Last modified",
-              "Size",
-              "Description"
+              "Pos",
+              "Equipo",
+              "Pts",
+              "PJ",
+              "G",
+              "E",
+              "P",
+              "GF",
+              "GC",
+              "DG"
             ],
             [
-              "",
-              "Parent Directory",
-              "",
-              "-",
-              ""
+              "1",
+              "Guabira",
+              "3",
+              "1",
+              "1",
+              "0",
+              "0",
+              "2",
+              "1",
+              "+1"
             ],
             [
-              "",
-              "teams/",
-              "2026-04-02 17:58",
-              "-",
-              ""
+              "2",
+              "The Strongest",
+              "3",
+              "1",
+              "1",
+              "0",
+              "0",
+              "2",
+              "1",
+              "+1"
             ],
             [
-              "",
-              "teamsList.json",
-              "2026-08-14 16:57",
-              "6.1K",
-              ""
+              "3",
+              "Aurora",
+              "3",
+              "1",
+              "1",
+              "0",
+              "0",
+              "1",
+              "0",
+              "+1"
+            ],
+            [
+              "4",
+              "FC Universitario",
+              "0",
+              "1",
+              "0",
+              "0",
+              "1",
+              "1",
+              "2",
+              "-1"
+            ],
+            [
+              "5",
+              "Oriente Petrolero",
+              "0",
+              "1",
+              "0",
+              "0",
+              "1",
+              "1",
+              "2",
+              "-1"
+            ],
+            [
+              "6",
+              "San Antonio",
+              "0",
+              "1",
+              "0",
+              "0",
+              "1",
+              "0",
+              "1",
+              "-1"
             ]
           ],
-          "logos": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "related_sources": [],
-          "selection_score": 0.856,
           "selected_as_current": true,
-          "selection_reason": "prioriza fuente oficial/autoridad + tipo de tabla + cantidad de filas"
+          "selection_reason": "ninguna fuente trae tabla de posiciones lista; se calculó sumando los resultados de matches"
         }
       }
     }

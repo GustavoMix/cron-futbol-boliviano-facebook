@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-08-19T14:33:20.320835Z",
+  "generated_at": "2026-08-19T15:34:45.690764Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,7 +9,7 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 166
+      "items": 213
     },
     "conmebol.json": {
       "items": 7
@@ -21,13 +21,13 @@
       "items": 0
     },
     "latest.json": {
-      "items": 167
+      "items": 166
     },
     "facebook_latest.json": {
       "items": 0
     },
     "app_feed.json": {
-      "items": 167
+      "items": 166
     },
     "current_tables.json": {
       "items": 0
@@ -56,7 +56,7 @@
       "id": "fbf_copa_pacena",
       "name": "FBF - Copa Paceña",
       "ok": true,
-      "items": 12
+      "items": 6
     },
     {
       "id": "fbf_simon_bolivar",
@@ -152,7 +152,7 @@
       "id": "diez_futbol",
       "name": "DIEZ - Fútbol",
       "ok": true,
-      "items": 42
+      "items": 41
     },
     {
       "id": "diez_futbol_boliviano",
@@ -165,6 +165,36 @@
       "name": "Red Uno - Stats Center Bolivia",
       "ok": true,
       "items": 1
+    },
+    {
+      "id": "wikipedia_division_profesional",
+      "name": "Wikipedia - División Profesional 2026",
+      "ok": true,
+      "items": 48
+    },
+    {
+      "id": "futboldebolivia_copa_pacena_grupo_a",
+      "name": "FutbolDeBolivia.net - Copa Paceña Grupo A",
+      "ok": true,
+      "items": 3
+    },
+    {
+      "id": "futboldebolivia_copa_pacena_grupo_b",
+      "name": "FutbolDeBolivia.net - Copa Paceña Grupo B",
+      "ok": true,
+      "items": 3
+    },
+    {
+      "id": "futboldebolivia_copa_pacena_grupo_c",
+      "name": "FutbolDeBolivia.net - Copa Paceña Grupo C",
+      "ok": true,
+      "items": 3
+    },
+    {
+      "id": "futboldebolivia_copa_pacena_grupo_d",
+      "name": "FutbolDeBolivia.net - Copa Paceña Grupo D",
+      "ok": true,
+      "items": 3
     },
     {
       "id": "facebook",
@@ -180,9 +210,9 @@
     }
   ],
   "totals": {
-    "items_before_filter": 210,
-    "items_after_filter_dedupe": 173,
-    "web_sources_ok": 21,
+    "items_before_filter": 263,
+    "items_after_filter_dedupe": 220,
+    "web_sources_ok": 26,
     "web_sources_error": 2,
     "social_items": 0
   }

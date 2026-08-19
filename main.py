@@ -1268,9 +1268,15 @@ def extract_tables(soup: BeautifulSoup, source: dict[str, Any], base_url: str) -
         pending: dict[int, list] = {}
         for tr in table.find_all("tr"):
             cells = _table_row_cells(tr, pending)
-            if cells and any(cells):
-                rows.append(cells)
-                logos.append(_row_logo(tr, base_url))
+            if not cells or not any(cells):
+                continue
+            # Wikipedia mete notas tipo "Última actualización: ..." como fila
+            # normal de la tabla (a veces con colspan cubriendo toda la fila);
+            # sin filtrarla, se cuela como si fuera un jugador/equipo más.
+            if any(re.match(r"^(última actualización|actualizado)", c.strip(), re.I) for c in cells):
+                continue
+            rows.append(cells)
+            logos.append(_row_logo(tr, base_url))
         if len(rows) < 2:
             continue
         heading = _heading_before(table)
@@ -1336,14 +1342,21 @@ def extract_tables(soup: BeautifulSoup, source: dict[str, Any], base_url: str) -
             kind = "table"
         elif not is_assists and any(x in probe for x in TABLE_HINTS):
             kind = "standings"
-        if kind == "standings":
-            rows = _fix_standings_dg(rows)
         title = heading or f"Tabla {idx + 1}"
         if kind == "matches" and is_caption_row and rows[0][0]:
             # Sin esto, todas las tablas de "Fecha N" de la misma subsección
             # (ej. "Primera vuelta") comparten título y dedupe() las
             # colapsa en una sola, perdiendo 29 de 30 fechas del torneo.
             title = f"{title} — {clean_text(rows[0][0])}" if title else clean_text(rows[0][0])
+        elif is_caption_row and len(rows) > 1:
+            # Para todo lo que NO sea "matches" (standings/top_scorers/
+            # assists/...) la fila-título ("Tabla de asistencias" repetida
+            # por colspan) no sirve de nada guardada — si se deja, la app
+            # la toma como si fuera el header real de la tabla.
+            rows = rows[1:]
+            logos = logos[1:]
+        if kind == "standings":
+            rows = _fix_standings_dg(rows)
         out.append(Item(
             id=stable_id(source["id"], kind, title, str(idx)), kind=kind, title=title, url=base_url,
             published_at=None, scraped_at=utc_now_iso(), source_id=source["id"], source_name=source["name"],

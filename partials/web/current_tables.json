@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-08-19T22:28:24.103707Z",
+  "generated_at": "2026-08-19T23:31:36.929550Z",
   "policy": "una tabla por competición/tipo; fuentes oficiales tienen prioridad",
   "competitions": {
     "division_profesional": {
@@ -11,7 +11,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-08-19T22:22:37.307126Z",
+        "scraped_at": "2026-08-19T23:23:32.306950Z",
         "extra": {
           "header": [
             "Fecha",
@@ -34,7 +34,7 @@
               "3 de abril",
               "15:00",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-3-400x400.png",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200"
             ],
             [
               "Fecha 1",
@@ -77,7 +77,7 @@
               "Víctor Agustín Ugarte",
               "4 de abril",
               "17:15",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-2-400x400.png"
             ],
             [
@@ -99,7 +99,7 @@
               "Jesús Bermúdez",
               "5 de abril",
               "15:00",
-              "",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               ""
             ],
             [
@@ -165,7 +165,7 @@
               "Jesús Bermúdez",
               "12 de abril",
               "15:00",
-              "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-4-400x400.png"
             ],
             [
@@ -188,7 +188,7 @@
               "12 de abril",
               "19:30",
               "",
-              ""
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
               "Fecha 2",
@@ -199,7 +199,7 @@
               "13 de abril",
               "20:00",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-6-400x400.png",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+              ""
             ],
             [
               "Fecha 3",
@@ -220,7 +220,7 @@
               "Jesús Bermúdez",
               "21 de abril",
               "18:00",
-              "",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-2-400x400.png"
             ],
             [
@@ -253,7 +253,7 @@
               "Víctor Agustín Ugarte",
               "22 de abril",
               "18:00",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "",
               ""
             ],
             [
@@ -276,7 +276,7 @@
               "23 de abril",
               "15:00",
               "",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200"
             ],
             [
               "Fecha 3",
@@ -309,7 +309,7 @@
               "25 de abril",
               "15:00",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-9-400x400.png",
-              ""
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
               "Fecha 4",
@@ -341,7 +341,7 @@
               "Jesús Bermúdez",
               "26 de abril",
               "15:00",
-              "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-11-400x400.png"
             ],
             [
@@ -364,7 +364,7 @@
               "26 de abril",
               "19:30",
               "",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+              ""
             ],
             [
               "Fecha 4",
@@ -396,8 +396,8 @@
               "Víctor Agustín Ugarte",
               "1 de mayo",
               "17:15",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-              ""
+              "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200"
             ],
             [
               "Fecha 5",
@@ -440,7 +440,7 @@
               "Jesús Bermúdez",
               "3 de mayo",
               "15:00",
-              "",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-3-400x400.png"
             ],
             [
@@ -474,7 +474,7 @@
               "9 de mayo",
               "17:15",
               "",
-              ""
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
               "Fecha 6",
@@ -507,7 +507,7 @@
               "10 de mayo",
               "17:15",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-11-400x400.png",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+              ""
             ],
             [
               "Fecha 6",
@@ -539,7 +539,7 @@
               "Jesús Bermúdez",
               "8 de julio",
               "18:00",
-              "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/U_de_Vinto.png/250px-U_de_Vinto.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
@@ -573,7 +573,7 @@
               "12 de mayo",
               "20:00",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-2-400x400.png",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200"
             ],
             [
               "Fecha 7",
@@ -627,7 +627,7 @@
               "Jesús Bermúdez",
               "7 de julio",
               "19:00",
-              "",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-6-400x400.png"
             ],
             [
@@ -638,7 +638,7 @@
               "Víctor Agustín Ugarte",
               "8 de julio",
               "20:00",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "",
               ""
             ],
             [
@@ -682,7 +682,7 @@
               "Jesús Bermúdez",
               "14 de julio",
               "18:00",
-              "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-1-400x400.png"
             ],
             [
@@ -694,7 +694,7 @@
               "14 de julio",
               "20:30",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-4-400x400.png",
-              ""
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
               "Fecha 8",
@@ -704,7 +704,7 @@
               "Víctor Agustín Ugarte",
               "15 de julio",
               "18:00",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "",
               ""
             ],
             [
@@ -770,7 +770,7 @@
               "Jesús Bermúdez",
               "19 de julio",
               "11:00",
-              "",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-11-400x400.png"
             ],
             [
@@ -804,7 +804,7 @@
               "20 de julio",
               "19:00",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-9-400x400.png",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200"
             ],
             [
               "Fecha 9",
@@ -815,7 +815,7 @@
               "21 de julio",
               "19:00",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Escudo_Club_Independiente_Petrolero.png/250px-Escudo_Club_Independiente_Petrolero.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+              ""
             ],
             [
               "Fecha 10",
@@ -869,8 +869,8 @@
               "Jesús Bermúdez",
               "11 de julio",
               "15:00",
-              "",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
               "Fecha 10",
@@ -880,7 +880,7 @@
               "Víctor Agustín Ugarte",
               "12 de julio",
               "15:00",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-9-400x400.png"
             ],
             [
@@ -936,7 +936,7 @@
               "25 de julio",
               "17:15",
               "",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200"
             ],
             [
               "Fecha 11",
@@ -969,7 +969,7 @@
               "26 de julio",
               "17:15",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-3-400x400.png",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+              ""
             ],
             [
               "Fecha 11",
@@ -990,7 +990,7 @@
               "Jesús Bermúdez",
               "27 de julio",
               "15:00",
-              "",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/U_de_Vinto.png/250px-U_de_Vinto.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
@@ -1034,7 +1034,7 @@
               "Jesús Bermúdez",
               "1 de agosto",
               "15:00",
-              "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Escudo_Club_Independiente_Petrolero.png/250px-Escudo_Club_Independiente_Petrolero.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
@@ -1056,8 +1056,8 @@
               "Víctor Agustín Ugarte",
               "2 de agosto",
               "15:00",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-              ""
+              "",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
               "Fecha 12",
@@ -1090,7 +1090,7 @@
               "4 de agosto",
               "15:00",
               "",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200"
             ],
             [
               "Fecha 13",
@@ -1122,7 +1122,7 @@
               "Jesús Bermúdez",
               "5 de agosto",
               "15:00",
-              "",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               ""
             ],
             [
@@ -1156,7 +1156,7 @@
               "6 de agosto",
               "15:00",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/U_de_Vinto.png/250px-U_de_Vinto.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+              ""
             ],
             [
               "Fecha 13",
@@ -1189,7 +1189,7 @@
               "7 de agosto",
               "19:30",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-6-400x400.png",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200"
             ],
             [
               "Fecha 14",
@@ -1232,7 +1232,7 @@
               "Jesús Bermúdez",
               "9 de agosto",
               "15:00",
-              "",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-1-400x400.png"
             ],
             [
@@ -1243,7 +1243,7 @@
               "Víctor Agustín Ugarte",
               "9 de agosto",
               "17:15",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-4-400x400.png"
             ],
             [
@@ -1287,7 +1287,7 @@
               "Jesús Bermúdez",
               "15 de agosto",
               "15:00",
-              "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200",
               ""
             ],
             [
@@ -1321,7 +1321,7 @@
               "16 de agosto",
               "15:00",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-1-400x400.png",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+              ""
             ],
             [
               "Fecha 15",
@@ -1343,7 +1343,7 @@
               "16 de agosto",
               "19:30",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Escudo_Club_Independiente_Petrolero.png/250px-Escudo_Club_Independiente_Petrolero.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-              ""
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
               "Fecha 16",
@@ -1376,7 +1376,7 @@
               "22 de agosto",
               "15:00",
               "",
-              ""
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
               "Fecha 16",
@@ -1387,7 +1387,7 @@
               "22 de agosto",
               "17:15",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-2-400x400.png",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+              ""
             ],
             [
               "Fecha 16",
@@ -1408,7 +1408,7 @@
               "Jesús Bermúdez",
               "23 de agosto",
               "15:00",
-              "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-3-400x400.png"
             ],
             [
@@ -1441,7 +1441,7 @@
               "Jesús Bermúdez",
               "25 de agosto",
               "15:00",
-              "",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               ""
             ],
             [
@@ -1474,7 +1474,7 @@
               "Víctor Agustín Ugarte",
               "26 de agosto",
               "18:30",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-6-400x400.png"
             ],
             [
@@ -1486,7 +1486,7 @@
               "26 de agosto",
               "20:30",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-4-400x400.png",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200"
             ],
             [
               "Fecha 17",
@@ -1529,7 +1529,7 @@
               "Jesús Bermúdez",
               "4 de septiembre",
               "15:00",
-              "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200",
               ""
             ],
             [
@@ -1552,7 +1552,7 @@
               "5 de septiembre",
               "15:00",
               "",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+              ""
             ],
             [
               "Fecha 18",
@@ -1563,7 +1563,7 @@
               "5 de septiembre",
               "17:15",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-2-400x400.png",
-              ""
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
               "Fecha 18",
@@ -1628,7 +1628,7 @@
               "Víctor Agustín Ugarte",
               "11 de septiembre",
               "20:00",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "",
               ""
             ],
             [
@@ -1639,7 +1639,7 @@
               "Jesús Bermúdez",
               "12 de septiembre",
               "15:00",
-              "",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-9-400x400.png"
             ],
             [
@@ -1651,7 +1651,7 @@
               "12 de septiembre",
               "17:15",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-11-400x400.png",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200"
             ],
             [
               "Fecha 19",
@@ -1705,8 +1705,8 @@
               "Jesús Bermúdez",
               "15 de septiembre",
               "15:00",
-              "",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200",
+              ""
             ],
             [
               "Fecha 20",
@@ -1772,7 +1772,7 @@
               "17 de septiembre",
               "20:30",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-3-400x400.png",
-              ""
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
               "Fecha 20",
@@ -1805,7 +1805,7 @@
               "10 de octubre",
               "15:00",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/U_de_Vinto.png/250px-U_de_Vinto.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200"
             ],
             [
               "Fecha 21",
@@ -1826,7 +1826,7 @@
               "Víctor Agustín Ugarte",
               "11 de octubre",
               "15:00",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-11-400x400.png"
             ],
             [
@@ -1859,7 +1859,7 @@
               "Jesús Bermúdez",
               "12 de octubre",
               "15:00",
-              "",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               ""
             ],
             [
@@ -1882,7 +1882,7 @@
               "16 de octubre",
               "15:00",
               "",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+              ""
             ],
             [
               "Fecha 22",
@@ -1893,7 +1893,7 @@
               "16 de octubre",
               "20:00",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-6-400x400.png",
-              ""
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
               "Fecha 22",
@@ -1903,7 +1903,7 @@
               "Jesús Bermúdez",
               "17 de octubre",
               "15:00",
-              "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-2-400x400.png"
             ],
             [
@@ -1991,7 +1991,7 @@
               "Jesús Bermúdez",
               "A determinar",
               "A determinar",
-              "",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-4-400x400.png"
             ],
             [
@@ -2014,7 +2014,7 @@
               "A determinar",
               "A determinar",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-1-400x400.png",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200"
             ],
             [
               "Fecha 23",
@@ -2047,7 +2047,7 @@
               "A determinar",
               "A determinar",
               "",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+              ""
             ],
             [
               "Fecha 24",
@@ -2057,7 +2057,7 @@
               "Jesús Bermúdez",
               "A determinar",
               "A determinar",
-              "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-9-400x400.png"
             ],
             [
@@ -2068,7 +2068,7 @@
               "Víctor Agustín Ugarte",
               "A determinar",
               "A determinar",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Escudo_Club_Independiente_Petrolero.png/250px-Escudo_Club_Independiente_Petrolero.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
@@ -2113,7 +2113,7 @@
               "A determinar",
               "A determinar",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-11-400x400.png",
-              ""
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
               "Fecha 24",
@@ -2156,8 +2156,8 @@
               "Jesús Bermúdez",
               "A determinar",
               "A determinar",
-              "",
-              ""
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200"
             ],
             [
               "Fecha 25",
@@ -2190,7 +2190,7 @@
               "A determinar",
               "A determinar",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-9-400x400.png",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+              ""
             ],
             [
               "Fecha 25",
@@ -2234,7 +2234,7 @@
               "A determinar",
               "A determinar",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/U_de_Vinto.png/250px-U_de_Vinto.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-              ""
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
               "Fecha 26",
@@ -2244,7 +2244,7 @@
               "Jesús Bermúdez",
               "A determinar",
               "A determinar",
-              "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-2-400x400.png"
             ],
             [
@@ -2255,7 +2255,7 @@
               "Víctor Agustín Ugarte",
               "A determinar",
               "A determinar",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-3-400x400.png"
             ],
             [
@@ -2333,7 +2333,7 @@
               "A determinar",
               "A determinar",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Escudo_Club_Independiente_Petrolero.png/250px-Escudo_Club_Independiente_Petrolero.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200"
             ],
             [
               "Fecha 27",
@@ -2343,8 +2343,8 @@
               "Jesús Bermúdez",
               "A determinar",
               "A determinar",
-              "",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              ""
             ],
             [
               "Fecha 27",
@@ -2409,7 +2409,7 @@
               "Jesús Bermúdez",
               "A determinar",
               "A determinar",
-              "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200",
               ""
             ],
             [
@@ -2420,7 +2420,7 @@
               "Víctor Agustín Ugarte",
               "A determinar",
               "A determinar",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/U_de_Vinto.png/250px-U_de_Vinto.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
@@ -2487,7 +2487,7 @@
               "A determinar",
               "A determinar",
               "",
-              ""
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
               "Fecha 29",
@@ -2541,7 +2541,7 @@
               "Jesús Bermúdez",
               "A determinar",
               "A determinar",
-              "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-6-400x400.png"
             ],
             [
@@ -2553,7 +2553,7 @@
               "A determinar",
               "A determinar",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-1-400x400.png",
-              ""
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
               "Fecha 29",
@@ -2564,7 +2564,7 @@
               "A determinar",
               "A determinar",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-4-400x400.png",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+              ""
             ],
             [
               "Fecha 29",
@@ -2596,7 +2596,7 @@
               "Jesús Bermúdez",
               "A determinar",
               "A determinar",
-              "",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Escudo_Club_Independiente_Petrolero.png/250px-Escudo_Club_Independiente_Petrolero.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
@@ -2607,7 +2607,7 @@
               "Víctor Agustín Ugarte",
               "A determinar",
               "A determinar",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-1-400x400.png"
             ],
             [
@@ -2663,7 +2663,7 @@
               "A determinar",
               "A determinar",
               "",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200"
             ]
           ],
           "selected_as_current": true,
@@ -2681,7 +2681,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-19T22:22:37.254144Z",
+        "scraped_at": "2026-08-19T23:23:32.249915Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -2919,7 +2919,7 @@
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-1-400x400.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-3-400x400.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-11-400x400.png",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "",
             "",
             "",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-2-400x400.png",
@@ -2927,9 +2927,9 @@
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-4-400x400.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-9-400x400.png",
             "",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200",
             "",
-            "",
-            "",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-6-400x400.png",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/U_de_Vinto.png/250px-U_de_Vinto.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
           ],
@@ -2951,7 +2951,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-19T22:22:37.311662Z",
+        "scraped_at": "2026-08-19T23:23:32.311560Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -3047,7 +3047,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-19T22:22:37.312361Z",
+        "scraped_at": "2026-08-19T23:23:32.312409Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -3121,7 +3121,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-19T22:22:37.314973Z",
+        "scraped_at": "2026-08-19T23:23:32.314998Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -3307,7 +3307,7 @@
         "source_name": "Wikipedia - Copa Simón Bolívar 2026",
         "scope": "bolivia",
         "competition": "simon_bolivar",
-        "scraped_at": "2026-08-19T22:22:40.238415Z",
+        "scraped_at": "2026-08-19T23:23:33.977432Z",
         "extra": {
           "header": [
             "Fecha",
@@ -3362,7 +3362,7 @@
               "Villa Lourdes",
               "21 de junio",
               "15:00",
-              "",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Club_Deportivo_Quebracho.png/250px-Club_Deportivo_Quebracho.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               ""
             ],
             [
@@ -3428,7 +3428,7 @@
               "Oruro Royal Club",
               "21 de junio",
               "12:00",
-              "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200",
               ""
             ],
             [
@@ -3461,8 +3461,8 @@
               "Estadio Potosí",
               "21 de junio",
               "15:00",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Emblema_del_Club_Universidad_de_Chile.png/250px-Emblema_del_Club_Universidad_de_Chile.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+              "",
+              ""
             ],
             [
               "Fecha 1",
@@ -3495,7 +3495,7 @@
               "20 de junio",
               "14:00",
               "",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Partido_liga_en_diciembre_2019_contra_Tac%C3%B3n.jpg/250px-Partido_liga_en_diciembre_2019_contra_Tac%C3%B3n.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+              ""
             ],
             [
               "Fecha 1",
@@ -3516,7 +3516,7 @@
               "IV Centenario",
               "21 de junio",
               "15:00",
-              "",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag-map_of_Bolivia.svg/250px-Flag-map_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               ""
             ],
             [
@@ -3549,7 +3549,7 @@
               "Olímpico Patria",
               "27 de junio",
               "15:00",
-              "",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Club_Deportivo_Quebracho.png/250px-Club_Deportivo_Quebracho.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               ""
             ],
             [
@@ -3616,7 +3616,7 @@
               "27 de junio",
               "15:00",
               "",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200"
             ],
             [
               "Fecha 2",
@@ -3659,7 +3659,7 @@
               "Estadio Potosí",
               "27 de junio",
               "15:00",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Emblema_del_Club_Universidad_de_Chile.png/250px-Emblema_del_Club_Universidad_de_Chile.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "",
               ""
             ],
             [
@@ -3670,7 +3670,7 @@
               "Víctor Agustín Ugarte",
               "28 de junio",
               "15:00",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "",
               ""
             ],
             [
@@ -3692,7 +3692,7 @@
               "Municipal Distrito 5",
               "30 de junio",
               "10:00",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Partido_liga_en_diciembre_2019_contra_Tac%C3%B3n.jpg/250px-Partido_liga_en_diciembre_2019_contra_Tac%C3%B3n.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "",
               ""
             ],
             [
@@ -3704,7 +3704,7 @@
               "28 de junio",
               "13:30",
               "",
-              ""
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag-map_of_Bolivia.svg/250px-Flag-map_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
               "Fecha 2",
@@ -3748,7 +3748,7 @@
               "4 de julio",
               "12:30",
               "",
-              ""
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Club_Deportivo_Quebracho.png/250px-Club_Deportivo_Quebracho.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
               "Fecha 3",
@@ -3824,7 +3824,7 @@
               "Oruro Royal Club",
               "5 de julio",
               "12:00",
-              "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200",
               ""
             ],
             [
@@ -3858,7 +3858,7 @@
               "4 de julio",
               "15:00",
               "",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Emblema_del_Club_Universidad_de_Chile.png/250px-Emblema_del_Club_Universidad_de_Chile.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+              ""
             ],
             [
               "Fecha 3",
@@ -3869,7 +3869,7 @@
               "5 de julio",
               "15:00",
               "",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+              ""
             ],
             [
               "Fecha 3",
@@ -3891,7 +3891,7 @@
               "4 de julio",
               "15:30",
               "",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Partido_liga_en_diciembre_2019_contra_Tac%C3%B3n.jpg/250px-Partido_liga_en_diciembre_2019_contra_Tac%C3%B3n.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+              ""
             ],
             [
               "Fecha 3",
@@ -3901,7 +3901,7 @@
               "IV Centenario",
               "5 de julio",
               "15:00",
-              "",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag-map_of_Bolivia.svg/250px-Flag-map_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               ""
             ],
             [
@@ -3946,7 +3946,7 @@
               "11 de julio",
               "14:00",
               "",
-              ""
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Club_Deportivo_Quebracho.png/250px-Club_Deportivo_Quebracho.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
               "Fecha 4",
@@ -4023,7 +4023,7 @@
               "13 de julio",
               "14:00",
               "",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200"
             ],
             [
               "Fecha 4",
@@ -4066,8 +4066,8 @@
               "Víctor Agustín Ugarte",
               "13 de julio",
               "15:00",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Emblema_del_Club_Universidad_de_Chile.png/250px-Emblema_del_Club_Universidad_de_Chile.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+              "",
+              ""
             ],
             [
               "Fecha 4",
@@ -4088,7 +4088,7 @@
               "Municipal Distrito 5",
               "12 de julio",
               "15:00",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Partido_liga_en_diciembre_2019_contra_Tac%C3%B3n.jpg/250px-Partido_liga_en_diciembre_2019_contra_Tac%C3%B3n.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "",
               ""
             ],
             [
@@ -4111,7 +4111,7 @@
               "12 de julio",
               "15:00",
               "",
-              ""
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag-map_of_Bolivia.svg/250px-Flag-map_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
               "Fecha 5",
@@ -4144,7 +4144,7 @@
               "18 de julio",
               "15:30",
               "",
-              ""
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Club_Deportivo_Quebracho.png/250px-Club_Deportivo_Quebracho.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
               "Fecha 5",
@@ -4209,7 +4209,7 @@
               "Oruro Royal Club",
               "19 de julio",
               "12:00",
-              "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200",
               ""
             ],
             [
@@ -4254,7 +4254,7 @@
               "18 de julio",
               "15:00",
               "",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Emblema_del_Club_Universidad_de_Chile.png/250px-Emblema_del_Club_Universidad_de_Chile.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+              ""
             ],
             [
               "Fecha 5",
@@ -4265,7 +4265,7 @@
               "19 de julio",
               "10:30",
               "",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+              ""
             ],
             [
               "Fecha 5",
@@ -4287,7 +4287,7 @@
               "18 de julio",
               "15:00",
               "",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Partido_liga_en_diciembre_2019_contra_Tac%C3%B3n.jpg/250px-Partido_liga_en_diciembre_2019_contra_Tac%C3%B3n.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+              ""
             ],
             [
               "Fecha 5",
@@ -4297,7 +4297,7 @@
               "IV Centenario",
               "18 de julio",
               "15:00",
-              "",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag-map_of_Bolivia.svg/250px-Flag-map_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               ""
             ],
             [
@@ -4341,7 +4341,7 @@
               "Olímpico Patria",
               "26 de julio",
               "15:00",
-              "",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Club_Deportivo_Quebracho.png/250px-Club_Deportivo_Quebracho.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               ""
             ],
             [
@@ -4419,7 +4419,7 @@
               "26 de julio",
               "15:00",
               "",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200"
             ],
             [
               "Fecha 6",
@@ -4451,7 +4451,7 @@
               "Estadio Potosí",
               "26 de julio",
               "10:00",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "",
               ""
             ],
             [
@@ -4462,7 +4462,7 @@
               "Estadio Potosí",
               "26 de julio",
               "15:00",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Emblema_del_Club_Universidad_de_Chile.png/250px-Emblema_del_Club_Universidad_de_Chile.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "",
               ""
             ],
             [
@@ -4473,7 +4473,7 @@
               "Andrés Ibáñez",
               "25 de julio",
               "10:00",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Partido_liga_en_diciembre_2019_contra_Tac%C3%B3n.jpg/250px-Partido_liga_en_diciembre_2019_contra_Tac%C3%B3n.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "",
               ""
             ],
             [
@@ -4507,7 +4507,7 @@
               "26 de julio",
               "15:00",
               "",
-              ""
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag-map_of_Bolivia.svg/250px-Flag-map_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ]
           ],
           "selected_as_current": true,
@@ -4521,7 +4521,7 @@
         "source_name": "Beni (ABF) + Chuquisaca (ACHF) + Cochabamba (AFC) + Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + La Paz (AFLP) + Oruro (AFO) + Pando (AFP) + Potosí (AFP) + Santa Cruz (ACF) + Tarija (ATF)",
         "scope": "bolivia",
         "competition": "simon_bolivar",
-        "scraped_at": "2026-08-19T22:22:40.242576Z",
+        "scraped_at": "2026-08-19T23:23:33.981533Z",
         "extra": {
           "rows": [
             [
@@ -5376,23 +5376,7 @@
             "",
             "",
             "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Flag_of_Beni.svg/250px-Flag_of_Beni.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "",
-            "",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Emblema_del_Club_Universidad_de_Chile.png/250px-Emblema_del_Club_Universidad_de_Chile.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Partido_liga_en_diciembre_2019_contra_Tac%C3%B3n.jpg/250px-Partido_liga_en_diciembre_2019_contra_Tac%C3%B3n.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Club_Deportivo_Quebracho.png/250px-Club_Deportivo_Quebracho.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "",
             "",
             "",
@@ -5416,18 +5400,34 @@
             "",
             "",
             "",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Emblema_del_Club_Universidad_de_Chile.png/250px-Emblema_del_Club_Universidad_de_Chile.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "",
-            "",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Partido_liga_en_diciembre_2019_contra_Tac%C3%B3n.jpg/250px-Partido_liga_en_diciembre_2019_contra_Tac%C3%B3n.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "",
             "",
             "",
             "",
             "",
             "",
-            ""
+            "",
+            "",
+            "",
+            "",
+            "",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag-map_of_Bolivia.svg/250px-Flag-map_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
           ]
         }
       }
@@ -5440,7 +5440,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-19T22:22:40.885046Z",
+        "scraped_at": "2026-08-19T23:23:34.625931Z",
         "extra": {
           "header": [
             "Fecha",
@@ -5462,8 +5462,8 @@
               "Estadio Jorge Luis Hirschi , La Plata",
               "11 de agosto, 21:30 ( UTC-3 )",
               "",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Estudiantes_de_la_Plata_crest_%282025%29.svg/250px-Estudiantes_de_la_Plata_crest_%282025%29.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Escudo_Club_Deportivo_Universidad_Cat%C3%B3lica.svg/250px-Escudo_Club_Deportivo_Universidad_Cat%C3%B3lica.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+              "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo-universidad-catolica-chile.png?width=200"
             ],
             [
               "Octavos de final",
@@ -5473,8 +5473,8 @@
               "Claro Arena , Santiago",
               "18 de agosto, 20:30 ( UTC-4 )",
               "",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Escudo_Club_Deportivo_Universidad_Cat%C3%B3lica.svg/250px-Escudo_Club_Deportivo_Universidad_Cat%C3%B3lica.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Estudiantes_de_la_Plata_crest_%282025%29.svg/250px-Estudiantes_de_la_Plata_crest_%282025%29.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo-universidad-catolica-chile.png?width=200",
+              ""
             ],
             [
               "Octavos de final",
@@ -5484,7 +5484,7 @@
               "Estadio Gigante de Arroyito , Rosario",
               "13 de agosto, 21:30 ( UTC-3 )",
               "",
-              "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/RosarioCentral.png?width=200",
               ""
             ],
             [
@@ -5496,7 +5496,7 @@
               "20 de agosto, 21:30 ( UTC-3 )",
               "",
               "",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/RosarioCentral.png?width=200"
             ],
             [
               "Octavos de final",
@@ -5506,8 +5506,8 @@
               "Estadio Mineirão , Belo Horizonte",
               "12 de agosto, 21:30 ( UTC-3 )",
               "",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Cruzeiro_Esporte_Clube_%28logo%29.svg/250px-Cruzeiro_Esporte_Clube_%28logo%29.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Clube_de_Regatas_do_Flamengo_logo.svg/250px-Clube_de_Regatas_do_Flamengo_logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Cruzeiro_Esporte_Clube_(logo).svg?width=200",
+              ""
             ],
             [
               "Octavos de final",
@@ -5517,8 +5517,8 @@
               "Estadio Maracaná , Río de Janeiro",
               "19 de agosto, 21:30 ( UTC-3 )",
               "",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Clube_de_Regatas_do_Flamengo_logo.svg/250px-Clube_de_Regatas_do_Flamengo_logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Cruzeiro_Esporte_Clube_%28logo%29.svg/250px-Cruzeiro_Esporte_Clube_%28logo%29.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+              "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Cruzeiro_Esporte_Clube_(logo).svg?width=200"
             ],
             [
               "Octavos de final",
@@ -5528,8 +5528,8 @@
               "Estadio Manuel Murillo Toro , Ibagué",
               "18 de agosto, 19:30 ( UTC-5 ) [ n. 6 ]",
               "",
-              "",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Tolima_Campeón_2018.png?width=200",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudoindependientedelvalle2023.png?width=200"
             ],
             [
               "Octavos de final",
@@ -5539,8 +5539,8 @@
               "Estadio Banco Guayaquil , Quito",
               "25 de agosto, 19:30 ( UTC-5 ) [ n. 6 ]",
               "",
-              "",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudoindependientedelvalle2023.png?width=200",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Tolima_Campeón_2018.png?width=200"
             ],
             [
               "Octavos de final",
@@ -5550,8 +5550,8 @@
               "Estadio Maião , Mirassol",
               "13 de agosto, 19:00 ( UTC-3 )",
               "",
-              "",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Mirassol_FC_logo.png?width=200",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Liga_Deportiva_Universitaria_de_Quito.png?width=200"
             ],
             [
               "Octavos de final",
@@ -5561,8 +5561,8 @@
               "Estadio Rodrigo Paz Delgado , Quito",
               "20 de agosto, 17:00 ( UTC-5 )",
               "",
-              "",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Liga_Deportiva_Universitaria_de_Quito.png?width=200",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Mirassol_FC_logo.png?width=200"
             ],
             [
               "Octavos de final",
@@ -5616,8 +5616,8 @@
               "Estadio Maracaná , Río de Janeiro",
               "11 de agosto, 19:00 ( UTC-3 )",
               "",
-              "",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Fluminense_logo.gif?width=200",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_del_Club_Independiente_Rivadavia.svg?width=200"
             ],
             [
               "Octavos de final",
@@ -5627,8 +5627,8 @@
               "Estadio Malvinas Argentinas , Mendoza",
               "18 de agosto, 19:00 ( UTC-3 )",
               "",
-              "",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_del_Club_Independiente_Rivadavia.svg?width=200",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Fluminense_logo.gif?width=200"
             ]
           ],
           "selected_as_current": true,
@@ -5642,7 +5642,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-19T22:22:40.829889Z",
+        "scraped_at": "2026-08-19T23:23:34.572057Z",
         "extra": {
           "rows": [
             [
@@ -6046,25 +6046,20 @@
           "selection_reason": "se combinaron 8 grupos detectados en vez de mostrar uno solo",
           "logos": [
             "",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Clube_de_Regatas_do_Flamengo_logo.svg/250px-Clube_de_Regatas_do_Flamengo_logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Estudiantes_de_la_Plata_crest_%282025%29.svg/250px-Estudiantes_de_la_Plata_crest_%282025%29.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Deportivo_Independiente_Medell%C3%ADn_escudo_2026.png/250px-Deportivo_Independiente_Medell%C3%ADn_escudo_2026.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "",
             "",
             "",
             "",
             "",
-            "",
-            "",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Tolima_Campeón_2018.png?width=200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Club_Nacional_de_Football.png?width=200",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/U_de_Vinto.png/250px-U_de_Vinto.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_del_Club_Independiente_Rivadavia.svg?width=200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Fluminense_logo.gif?width=200",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-3-400x400.png",
             "",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Escudo_Club_Deportivo_Universidad_Cat%C3%B3lica.svg/250px-Escudo_Club_Deportivo_Universidad_Cat%C3%B3lica.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Cruzeiro_Esporte_Clube_%28logo%29.svg/250px-Cruzeiro_Esporte_Clube_%28logo%29.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/CABJ70.png/250px-CABJ70.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "",
-            "",
-            "",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Independiente_Santa_Fe_logo.svg/250px-Independiente_Santa_Fe_logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo-universidad-catolica-chile.png?width=200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Cruzeiro_Esporte_Clube_(logo).svg?width=200",
             "",
             "",
             "",
@@ -6073,9 +6068,14 @@
             "",
             "",
             "",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_de_Sporting_Cristal_2025.svg?width=200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Junior_Barranquilla_logo.svg?width=200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Liga_Deportiva_Universitaria_de_Quito.png?width=200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Mirassol_FC_logo.png?width=200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_de_Lanús_(sin_estrellas).svg?width=200",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-1-400x400.png",
-            "",
-            "",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Escudoindependientedelvalle2023.png?width=200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/RosarioCentral.png?width=200",
             "",
             ""
           ]
@@ -6092,7 +6092,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-19T22:22:40.858599Z",
+        "scraped_at": "2026-08-19T23:23:34.600530Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -6180,7 +6180,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-19T22:22:40.859486Z",
+        "scraped_at": "2026-08-19T23:23:34.601411Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -6264,7 +6264,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-19T22:22:41.626942Z",
+        "scraped_at": "2026-08-19T23:23:35.329978Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6287,7 +6287,7 @@
               "23 de julio, 18:00 ( UTC-4 )",
               "",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-3-400x400.png",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Gremio_logo.svg/250px-Gremio_logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Gremio_logo.svg?width=200"
             ],
             [
               "Eliminatoria de octavos de final",
@@ -6297,7 +6297,7 @@
               "Arena do Grêmio , Porto Alegre",
               "30 de julio, 19:00 ( UTC-3 )",
               "",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Gremio_logo.svg/250px-Gremio_logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Gremio_logo.svg?width=200",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-3-400x400.png"
             ],
             [
@@ -6308,7 +6308,7 @@
               "Estadio Nacional , Lima",
               "22 de julio 19:30 ( UTC-5 )",
               "",
-              "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_de_Sporting_Cristal_2025.svg?width=200",
               ""
             ],
             [
@@ -6320,7 +6320,7 @@
               "29 de julio 21:30 ( UTC-3 )",
               "",
               "",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_de_Sporting_Cristal_2025.svg?width=200"
             ],
             [
               "Eliminatoria de octavos de final",
@@ -6330,7 +6330,7 @@
               "Estadio Atanasio Girardot , Medellín",
               "22 de julio, 17:00 ( UTC-5 )",
               "",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Deportivo_Independiente_Medell%C3%ADn_escudo_2026.png/250px-Deportivo_Independiente_Medell%C3%ADn_escudo_2026.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "",
               ""
             ],
             [
@@ -6342,7 +6342,7 @@
               "29 de julio, 19:00 ( UTC-3 )",
               "",
               "",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Deportivo_Independiente_Medell%C3%ADn_escudo_2026.png/250px-Deportivo_Independiente_Medell%C3%ADn_escudo_2026.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+              ""
             ],
             [
               "Eliminatoria de octavos de final",
@@ -6352,7 +6352,7 @@
               "Estadio La Bombonera , Buenos Aires",
               "23 de julio, 21:30 ( UTC-3 )",
               "",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/CABJ70.png/250px-CABJ70.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "",
               ""
             ],
             [
@@ -6364,7 +6364,7 @@
               "30 de julio, 20:30 ( UTC-4 )",
               "",
               "",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/CABJ70.png/250px-CABJ70.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+              ""
             ],
             [
               "Eliminatoria de octavos de final",
@@ -6374,8 +6374,8 @@
               "Estadio Gran Parque Central , Montevideo",
               "21 de julio, 19:00 ( UTC-3 )",
               "",
-              "",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Club_Nacional_de_Football.png?width=200",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_del_Club_Atlético_Tigre.svg?width=200"
             ],
             [
               "Eliminatoria de octavos de final",
@@ -6385,8 +6385,8 @@
               "Estadio José Dellagiovanna , Victoria",
               "28 de julio, 19:00 ( UTC-3 )",
               "",
-              "",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_del_Club_Atlético_Tigre.svg?width=200",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Club_Nacional_de_Football.png?width=200"
             ],
             [
               "Eliminatoria de octavos de final",
@@ -6396,7 +6396,7 @@
               "Estadio El Campín , Bogotá",
               "23 de julio, 19:30 ( UTC-5 )",
               "",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Independiente_Santa_Fe_logo.svg/250px-Independiente_Santa_Fe_logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "",
               ""
             ],
             [
@@ -6408,7 +6408,7 @@
               "30 de julio, 19:00 ( UTC-4 )",
               "",
               "",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Independiente_Santa_Fe_logo.svg/250px-Independiente_Santa_Fe_logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+              ""
             ],
             [
               "Eliminatoria de octavos de final",
@@ -6418,8 +6418,8 @@
               "Estadio Néstor Díaz Pérez , Lanús",
               "22 de julio, 21:30 ( UTC-3 )",
               "",
-              "",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_de_Lanús_(sin_estrellas).svg?width=200",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Escudo_Cienciano.png/250px-Escudo_Cienciano.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
               "Eliminatoria de octavos de final",
@@ -6429,8 +6429,8 @@
               "Estadio Inca Garcilaso de la Vega , Cusco",
               "29 de julio, 19:30 ( UTC-5 )",
               "",
-              "",
-              ""
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Escudo_Cienciano.png/250px-Escudo_Cienciano.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_de_Lanús_(sin_estrellas).svg?width=200"
             ],
             [
               "Eliminatoria de octavos de final",
@@ -6462,7 +6462,7 @@
               "Estadio Tomás Adolfo Ducó [ n. 3 ] , Buenos Aires",
               "11 de agosto, 19:00 ( UTC-3 )",
               "",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/CABJ70.png/250px-CABJ70.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "",
               ""
             ],
             [
@@ -6474,7 +6474,7 @@
               "18 de agosto, 19:00 ( UTC-3 )",
               "",
               "",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/CABJ70.png/250px-CABJ70.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+              ""
             ],
             [
               "Octavos de final",
@@ -6485,7 +6485,7 @@
               "12 de agosto, 19:00 ( UTC-3 )",
               "",
               "",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Clube_Atlético_Mineiro_logo.svg?width=200"
             ],
             [
               "Octavos de final",
@@ -6495,7 +6495,7 @@
               "Arena MRV , Belo Horizonte",
               "19 de agosto, 19:00 ( UTC-3 )",
               "",
-              "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Clube_Atlético_Mineiro_logo.svg?width=200",
               ""
             ],
             [
@@ -6506,8 +6506,8 @@
               "Estadio Inca Garcilaso de la Vega , Cusco",
               "13 de agosto, 19:30 ( UTC-5 )",
               "",
-              "",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Botafogo_de_Futebol_e_Regatas_logo.svg/250px-Botafogo_de_Futebol_e_Regatas_logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Escudo_Cienciano.png/250px-Escudo_Cienciano.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              ""
             ],
             [
               "Octavos de final",
@@ -6517,8 +6517,8 @@
               "Estadio Olímpico Nilton Santos , Río de Janeiro",
               "20 de agosto, 21:30 ( UTC-3 )",
               "",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Botafogo_de_Futebol_e_Regatas_logo.svg/250px-Botafogo_de_Futebol_e_Regatas_logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-              ""
+              "",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Escudo_Cienciano.png/250px-Escudo_Cienciano.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
               "Octavos de final",
@@ -6550,7 +6550,7 @@
               "Estadio El Campín , Bogotá",
               "19 de agosto, 19:30 ( UTC-5 ) [ n. 4 ]",
               "",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Independiente_Santa_Fe_logo.svg/250px-Independiente_Santa_Fe_logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "",
               ""
             ],
             [
@@ -6562,7 +6562,7 @@
               "26 de agosto, 21:30 ( UTC-3 ) [ n. 4 ]",
               "",
               "",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Independiente_Santa_Fe_logo.svg/250px-Independiente_Santa_Fe_logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+              ""
             ],
             [
               "Octavos de final",
@@ -6572,7 +6572,7 @@
               "Estadio José Dellagiovanna , Victoria",
               "12 de agosto, 19:00 ( UTC-3 )",
               "",
-              "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_del_Club_Atlético_Tigre.svg?width=200",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/City_Football_Group_Limited_%C2%AE.png/250px-City_Football_Group_Limited_%C2%AE.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
@@ -6584,7 +6584,7 @@
               "19 de agosto, 21:30 ( UTC-3 )",
               "",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/City_Football_Group_Limited_%C2%AE.png/250px-City_Football_Group_Limited_%C2%AE.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_del_Club_Atlético_Tigre.svg?width=200"
             ],
             [
               "Octavos de final",
@@ -6595,7 +6595,7 @@
               "13 de agosto, 19:00 ( UTC-3 )",
               "",
               "",
-              ""
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Macara_6.png/250px-Macara_6.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
               "Octavos de final",
@@ -6605,7 +6605,7 @@
               "Estadio Bellavista , Ambato",
               "20 de agosto, 17:00 ( UTC-5 )",
               "",
-              "",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Macara_6.png/250px-Macara_6.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               ""
             ],
             [
@@ -6642,7 +6642,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-19T22:22:41.531729Z",
+        "scraped_at": "2026-08-19T23:23:35.237611Z",
         "extra": {
           "rows": [
             [
@@ -7046,6 +7046,12 @@
           "selection_reason": "se combinaron 8 grupos detectados en vez de mostrar uno solo",
           "logos": [
             "",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Macara_6.png/250px-Macara_6.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_del_Club_Atlético_Tigre.svg?width=200",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Escudo_Am%C3%A9rica_de_Cali.png/250px-Escudo_Am%C3%A9rica_de_Cali.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Escudo_de_Club_Alianza_Atl%C3%A9tico_Sullana.png/250px-Escudo_de_Club_Alianza_Atl%C3%A9tico_Sullana.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Clube_Atlético_Mineiro_logo.svg?width=200",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Escudo_Cienciano.png/250px-Escudo_Cienciano.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "",
             "",
             "",
@@ -7058,17 +7064,11 @@
             "",
             "",
             "",
-            "",
-            "",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Sanlorenzo_almagro_logo2026.png/250px-Sanlorenzo_almagro_logo2026.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Depcuenca.png/250px-Depcuenca.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Botafogo_de_Futebol_e_Regatas_logo.svg/250px-Botafogo_de_Futebol_e_Regatas_logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Escudo_de_Racing_Club_%282014%29.svg/250px-Escudo_de_Racing_Club_%282014%29.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_de_Racing_Club_(2014).svg?width=200",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Escudo_Club_Independiente_Petrolero.png/250px-Escudo_Club_Independiente_Petrolero.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/City_Football_Group_Limited_%C2%AE.png/250px-City_Football_Group_Limited_%C2%AE.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Gremio_logo.svg/250px-Gremio_logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Escudo_del_Club_Deportivo_Riestra.svg/250px-Escudo_del_Club_Deportivo_Riestra.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Gremio_logo.svg?width=200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_del_Club_Deportivo_Riestra.svg?width=200",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Escudo_Oficial_Palestino.png/250px-Escudo_Oficial_Palestino.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Escudo_original_de_Olimpia.png/250px-Escudo_original_de_Olimpia.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "",
@@ -7092,7 +7092,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-19T22:22:41.582535Z",
+        "scraped_at": "2026-08-19T23:23:35.287832Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -7152,7 +7152,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-19T22:22:41.583034Z",
+        "scraped_at": "2026-08-19T23:23:35.288362Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -7212,7 +7212,7 @@
         "source_name": "FutbolDeBolivia.net - Copa Paceña Grupo A + FutbolDeBolivia.net - Copa Paceña Grupo B + FutbolDeBolivia.net - Copa Paceña Grupo C + FutbolDeBolivia.net - Copa Paceña Grupo D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-08-19T22:22:39.346428Z",
+        "scraped_at": "2026-08-19T23:23:33.149398Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7246,7 +7246,7 @@
               "Miercoles 19 de agosto de 2026",
               "15:00",
               "",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+              ""
             ],
             [
               "Fecha 1",
@@ -7289,7 +7289,7 @@
               "",
               "Miercoles 2 de Septiembre",
               "15:00",
-              "",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-3-400x400.png"
             ],
             [
@@ -7312,7 +7312,7 @@
               "Sabado 29 de Agosto",
               "17:15",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-9-400x400.png",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+              ""
             ],
             [
               "Fecha 2",
@@ -7356,7 +7356,7 @@
               "Sabado 29 de Agosto",
               "15:00",
               "",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200"
             ],
             [
               "Fecha 2",
@@ -7403,7 +7403,7 @@
         "source_name": "Calculada desde: FutbolDeBolivia.net - Copa Paceña Grupo A + FutbolDeBolivia.net - Copa Paceña Grupo B + FutbolDeBolivia.net - Copa Paceña Grupo C + FutbolDeBolivia.net - Copa Paceña Grupo D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-08-19T22:22:39.346428Z",
+        "scraped_at": "2026-08-19T23:23:33.149398Z",
         "extra": {
           "rows": [
             [

@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-08-19T23:31:36.929550Z",
+  "generated_at": "2026-08-20T00:25:33.020122Z",
   "policy": "una tabla por competición/tipo; fuentes oficiales tienen prioridad",
   "competitions": {
     "division_profesional": {
@@ -11,7 +11,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-08-19T23:23:32.306950Z",
+        "scraped_at": "2026-08-20T00:17:36.611087Z",
         "extra": {
           "header": [
             "Fecha",
@@ -2681,7 +2681,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-19T23:23:32.249915Z",
+        "scraped_at": "2026-08-20T00:17:36.558929Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -2951,7 +2951,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-19T23:23:32.311560Z",
+        "scraped_at": "2026-08-20T00:17:36.615266Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -3047,7 +3047,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-19T23:23:32.312409Z",
+        "scraped_at": "2026-08-20T00:17:36.615997Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -3121,7 +3121,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-19T23:23:32.314998Z",
+        "scraped_at": "2026-08-20T00:17:36.618414Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -3307,7 +3307,7 @@
         "source_name": "Wikipedia - Copa Simón Bolívar 2026",
         "scope": "bolivia",
         "competition": "simon_bolivar",
-        "scraped_at": "2026-08-19T23:23:33.977432Z",
+        "scraped_at": "2026-08-20T00:17:39.503156Z",
         "extra": {
           "header": [
             "Fecha",
@@ -3395,7 +3395,7 @@
               "Complejo Deportivo Satélite",
               "20 de junio",
               "14:20",
-              "https://upload.wikimedia.org/wikipedia/commons/2/2d/Escudo_del_Club_Deportivo_Chaco_Petrolero.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+              "",
               ""
             ],
             [
@@ -3429,7 +3429,7 @@
               "21 de junio",
               "12:00",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Emblema_oficial_del_Club_Atlético_Huracán.svg?width=200"
             ],
             [
               "Fecha 1",
@@ -3484,7 +3484,7 @@
               "20 de junio",
               "10:00",
               "",
-              "https://commons.wikimedia.org/wiki/Special:FilePath/Getafe_CF_Logo.png?width=200"
+              ""
             ],
             [
               "Fecha 1",
@@ -3594,7 +3594,7 @@
               "27 de junio",
               "15:00",
               "",
-              "https://upload.wikimedia.org/wikipedia/commons/2/2d/Escudo_del_Club_Deportivo_Chaco_Petrolero.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+              ""
             ],
             [
               "Fecha 2",
@@ -3681,7 +3681,7 @@
               "Samuel Vaca Jiménez",
               "27 de junio",
               "15:00",
-              "https://commons.wikimedia.org/wiki/Special:FilePath/Cruz_Azul_2026.png?width=200",
+              "",
               ""
             ],
             [
@@ -3791,7 +3791,7 @@
               "Complejo Deportivo Satélite",
               "4 de julio",
               "12:30",
-              "https://upload.wikimedia.org/wikipedia/commons/2/2d/Escudo_del_Club_Deportivo_Chaco_Petrolero.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+              "",
               ""
             ],
             [
@@ -3879,8 +3879,8 @@
               "Samuel Vaca Jiménez",
               "4 de julio",
               "12:30",
-              "https://commons.wikimedia.org/wiki/Special:FilePath/Getafe_CF_Logo.png?width=200",
-              "https://commons.wikimedia.org/wiki/Special:FilePath/Cruz_Azul_2026.png?width=200"
+              "",
+              ""
             ],
             [
               "Fecha 3",
@@ -3990,7 +3990,7 @@
               "11 de julio",
               "15:00",
               "",
-              "https://upload.wikimedia.org/wikipedia/commons/2/2d/Escudo_del_Club_Deportivo_Chaco_Petrolero.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+              ""
             ],
             [
               "Fecha 4",
@@ -4022,7 +4022,7 @@
               "Gilberto Fiengo",
               "13 de julio",
               "14:00",
-              "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Emblema_oficial_del_Club_Atlético_Huracán.svg?width=200",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200"
             ],
             [
@@ -4077,7 +4077,7 @@
               "Samuel Vaca Jiménez",
               "11 de julio",
               "10:00",
-              "https://commons.wikimedia.org/wiki/Special:FilePath/Getafe_CF_Logo.png?width=200",
+              "",
               ""
             ],
             [
@@ -4187,7 +4187,7 @@
               "Complejo Deportivo Satélite",
               "18 de julio",
               "12:30",
-              "https://upload.wikimedia.org/wikipedia/commons/2/2d/Escudo_del_Club_Deportivo_Chaco_Petrolero.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+              "",
               ""
             ],
             [
@@ -4276,7 +4276,7 @@
               "18 de julio",
               "10:30",
               "",
-              "https://commons.wikimedia.org/wiki/Special:FilePath/Cruz_Azul_2026.png?width=200"
+              ""
             ],
             [
               "Fecha 5",
@@ -4397,7 +4397,7 @@
               "25 de julio",
               "16:30",
               "",
-              "https://upload.wikimedia.org/wikipedia/commons/2/2d/Escudo_del_Club_Deportivo_Chaco_Petrolero.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+              ""
             ],
             [
               "Fecha 6",
@@ -4484,8 +4484,8 @@
               "Samuel Vaca Jiménez",
               "25 de julio",
               "10:00",
-              "https://commons.wikimedia.org/wiki/Special:FilePath/Cruz_Azul_2026.png?width=200",
-              "https://commons.wikimedia.org/wiki/Special:FilePath/Getafe_CF_Logo.png?width=200"
+              "",
+              ""
             ],
             [
               "Fecha 6",
@@ -4521,7 +4521,7 @@
         "source_name": "Beni (ABF) + Chuquisaca (ACHF) + Cochabamba (AFC) + Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + La Paz (AFLP) + Oruro (AFO) + Pando (AFP) + Potosí (AFP) + Santa Cruz (ACF) + Tarija (ATF)",
         "scope": "bolivia",
         "competition": "simon_bolivar",
-        "scraped_at": "2026-08-19T23:23:33.981533Z",
+        "scraped_at": "2026-08-20T00:17:39.507140Z",
         "extra": {
           "rows": [
             [
@@ -5393,36 +5393,24 @@
             "",
             "",
             "",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Getafe_CF_Logo.png?width=200",
             "",
             "",
             "",
             "",
-            "https://upload.wikimedia.org/wikipedia/commons/2/2d/Escudo_del_Club_Deportivo_Chaco_Petrolero.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Emblema_oficial_del_Club_Atlético_Huracán.svg?width=200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Getafe_CF_Logo.png?width=200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Cruz_Azul_2026.png?width=200",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200",
             "",
             "",
@@ -5452,7 +5440,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-19T23:23:34.625931Z",
+        "scraped_at": "2026-08-20T00:17:40.544499Z",
         "extra": {
           "header": [
             "Fecha",
@@ -5540,7 +5528,7 @@
               "Estadio Manuel Murillo Toro , Ibagué",
               "18 de agosto, 19:30 ( UTC-5 ) [ n. 6 ]",
               "",
-              "https://commons.wikimedia.org/wiki/Special:FilePath/Tolima_Campeón_2018.png?width=200",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Escudo_del_Deportes_Tolima.svg/250px-Escudo_del_Deportes_Tolima.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Escudoindependientedelvalle2023.png?width=200"
             ],
             [
@@ -5552,7 +5540,7 @@
               "25 de agosto, 19:30 ( UTC-5 ) [ n. 6 ]",
               "",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Escudoindependientedelvalle2023.png?width=200",
-              "https://commons.wikimedia.org/wiki/Special:FilePath/Tolima_Campeón_2018.png?width=200"
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Escudo_del_Deportes_Tolima.svg/250px-Escudo_del_Deportes_Tolima.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
               "Octavos de final",
@@ -5584,8 +5572,8 @@
               "Allianz Parque , São Paulo",
               "12 de agosto, 19:00 ( UTC-3 )",
               "",
-              "https://commons.wikimedia.org/wiki/Special:FilePath/Palmeiras_logo.svg?width=200",
-              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_del_Club_Cerro_Porteño.svg?width=200"
+              "",
+              ""
             ],
             [
               "Octavos de final",
@@ -5595,8 +5583,8 @@
               "Estadio General Pablo Rojas , Asunción",
               "19 de agosto, 19:00 ( UTC-3 )",
               "",
-              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_del_Club_Cerro_Porteño.svg?width=200",
-              "https://commons.wikimedia.org/wiki/Special:FilePath/Palmeiras_logo.svg?width=200"
+              "",
+              ""
             ],
             [
               "Octavos de final",
@@ -5654,7 +5642,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-19T23:23:34.572057Z",
+        "scraped_at": "2026-08-20T00:17:40.491864Z",
         "extra": {
           "rows": [
             [
@@ -6061,12 +6049,9 @@
             "",
             "",
             "",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Tolima_Campeón_2018.png?width=200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Club_Nacional_de_Football.png?width=200",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/U_de_Vinto.png/250px-U_de_Vinto.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "",
             "",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Tolima_Campeón_2018.png?width=200",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Escudo_del_Deportes_Tolima.svg/250px-Escudo_del_Deportes_Tolima.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Club_Nacional_de_Football.png?width=200",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/U_de_Vinto.png/250px-U_de_Vinto.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_del_Club_Independiente_Rivadavia.svg?width=200",
@@ -6082,16 +6067,8 @@
             "",
             "",
             "",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_de_Independiente_Santa_Fe.svg?width=200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_del_Club_Atlético_Peñarol.svg?width=200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_del_Club_Cerro_Porteño.svg?width=200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Palmeiras_logo.svg?width=200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_de_Sporting_Cristal_2025.svg?width=200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Junior_Barranquilla_logo.svg?width=200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Liga_Deportiva_Universitaria_de_Quito.png?width=200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Mirassol_FC_logo.png?width=200",
             "",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_de_Sporting_Cristal_2025.svg?width=200",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Escudo_de_Sporting_Cristal_2025.svg/250px-Escudo_de_Sporting_Cristal_2025.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Junior_Barranquilla_logo.svg?width=200",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Liga_Deportiva_Universitaria_de_Quito.png?width=200",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Mirassol_FC_logo.png?width=200",
@@ -6115,7 +6092,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-19T23:23:34.600530Z",
+        "scraped_at": "2026-08-20T00:17:40.519578Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -6203,7 +6180,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-19T23:23:34.601411Z",
+        "scraped_at": "2026-08-20T00:17:40.520414Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -6287,7 +6264,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-19T23:23:35.329978Z",
+        "scraped_at": "2026-08-20T00:17:41.540976Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6310,7 +6287,7 @@
               "23 de julio, 18:00 ( UTC-4 )",
               "",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-3-400x400.png",
-              "https://commons.wikimedia.org/wiki/Special:FilePath/Gremio_logo.svg?width=200"
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Gremio_Prudente_Emblem.svg?width=200"
             ],
             [
               "Eliminatoria de octavos de final",
@@ -6320,7 +6297,7 @@
               "Arena do Grêmio , Porto Alegre",
               "30 de julio, 19:00 ( UTC-3 )",
               "",
-              "https://commons.wikimedia.org/wiki/Special:FilePath/Gremio_logo.svg?width=200",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Gremio_Prudente_Emblem.svg?width=200",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-3-400x400.png"
             ],
             [
@@ -6331,7 +6308,7 @@
               "Estadio Nacional , Lima",
               "22 de julio 19:30 ( UTC-5 )",
               "",
-              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_de_Sporting_Cristal_2025.svg?width=200",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Escudo_de_Sporting_Cristal_2025.svg/250px-Escudo_de_Sporting_Cristal_2025.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               ""
             ],
             [
@@ -6343,7 +6320,7 @@
               "29 de julio 21:30 ( UTC-3 )",
               "",
               "",
-              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_de_Sporting_Cristal_2025.svg?width=200"
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Escudo_de_Sporting_Cristal_2025.svg/250px-Escudo_de_Sporting_Cristal_2025.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
               "Eliminatoria de octavos de final",
@@ -6552,7 +6529,7 @@
               "13 de agosto, 19:00 ( UTC-3 )",
               "",
               "",
-              ""
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Escudo_original_de_Olimpia.png/250px-Escudo_original_de_Olimpia.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
               "Octavos de final",
@@ -6562,7 +6539,7 @@
               "Estadio Defensores del Chaco , Asunción",
               "20 de agosto, 19:00 ( UTC-3 )",
               "",
-              "",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Escudo_original_de_Olimpia.png/250px-Escudo_original_de_Olimpia.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               ""
             ],
             [
@@ -6618,7 +6595,7 @@
               "13 de agosto, 19:00 ( UTC-3 )",
               "",
               "",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Macara_6.png/250px-Macara_6.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+              ""
             ],
             [
               "Octavos de final",
@@ -6628,7 +6605,7 @@
               "Estadio Bellavista , Ambato",
               "20 de agosto, 17:00 ( UTC-5 )",
               "",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Macara_6.png/250px-Macara_6.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "",
               ""
             ],
             [
@@ -6665,7 +6642,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-19T23:23:35.237611Z",
+        "scraped_at": "2026-08-20T00:17:41.449119Z",
         "extra": {
           "rows": [
             [
@@ -7069,7 +7046,7 @@
           "selection_reason": "se combinaron 8 grupos detectados en vez de mostrar uno solo",
           "logos": [
             "",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Macara_6.png/250px-Macara_6.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_del_Club_Atlético_Tigre.svg?width=200",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Escudo_Am%C3%A9rica_de_Cali.png/250px-Escudo_Am%C3%A9rica_de_Cali.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Escudo_de_Club_Alianza_Atl%C3%A9tico_Sullana.png/250px-Escudo_de_Club_Alianza_Atl%C3%A9tico_Sullana.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -7087,10 +7064,10 @@
             "",
             "",
             "",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_de_Racing_Club_(2014).svg?width=200",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Escudo_de_Racing_Club_%282014%29.svg/250px-Escudo_de_Racing_Club_%282014%29.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Escudo_Club_Independiente_Petrolero.png/250px-Escudo_Club_Independiente_Petrolero.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/City_Football_Group_Limited_%C2%AE.png/250px-City_Football_Group_Limited_%C2%AE.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Gremio_logo.svg?width=200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Gremio_Prudente_Emblem.svg?width=200",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_del_Club_Deportivo_Riestra.svg?width=200",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Escudo_Oficial_Palestino.png/250px-Escudo_Oficial_Palestino.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Escudo_original_de_Olimpia.png/250px-Escudo_original_de_Olimpia.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -7115,7 +7092,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-19T23:23:35.287832Z",
+        "scraped_at": "2026-08-20T00:17:41.498787Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -7175,7 +7152,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-19T23:23:35.288362Z",
+        "scraped_at": "2026-08-20T00:17:41.499314Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -7235,7 +7212,7 @@
         "source_name": "FutbolDeBolivia.net - Copa Paceña Grupo A + FutbolDeBolivia.net - Copa Paceña Grupo B + FutbolDeBolivia.net - Copa Paceña Grupo C + FutbolDeBolivia.net - Copa Paceña Grupo D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-08-19T23:23:33.149398Z",
+        "scraped_at": "2026-08-20T00:17:38.415319Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7426,7 +7403,7 @@
         "source_name": "Calculada desde: FutbolDeBolivia.net - Copa Paceña Grupo A + FutbolDeBolivia.net - Copa Paceña Grupo B + FutbolDeBolivia.net - Copa Paceña Grupo C + FutbolDeBolivia.net - Copa Paceña Grupo D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-08-19T23:23:33.149398Z",
+        "scraped_at": "2026-08-20T00:17:38.415319Z",
         "extra": {
           "rows": [
             [

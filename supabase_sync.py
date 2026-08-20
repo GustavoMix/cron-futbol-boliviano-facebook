@@ -235,6 +235,15 @@ def push_current_tables(client, current_tables: dict[str, Any], logo_map: dict[s
     _upsert(client, "matches", matches_rows, on_conflict="id")
 
 
+# Tope de escudos nuevos que se suben POR CORRIDA. Con ~150 equipos, subir
+# todos de una vez cada hora es lo que estuvo saturando el proyecto Free de
+# Supabase (varias corridas seguidas, cada una reintentando ~150 subidas,
+# terminaron tumbando el schema cache de PostgREST por varios minutos). Con
+# un lote chico, cada corrida sube unos pocos y en unas horas quedan todos,
+# sin sobrecargar nada de una sola vez.
+MAX_LOGOS_PER_RUN = 15
+
+
 def sync_team_logos(client, team_assets: dict[str, Any]) -> dict[str, str]:
     """Descarga el escudo real de cada equipo (si lo hay) y lo sube a Supabase Storage,
     para dejar de depender de que la URL original (Wikipedia/FBF/etc.) siga viva.
@@ -242,22 +251,26 @@ def sync_team_logos(client, team_assets: dict[str, Any]) -> dict[str, str]:
     Los equipos sin escudo real (badge_type != club_logo, o sea solo bandera) no se suben:
     se deja que la app siga usando display_badge_url tal cual viene del JSON/columna."""
     try:
-        existing = _with_retries(
-            lambda: client.schema("futbol_boliviano").table("team_logos").select("team_key,logo_url,source_url").execute()
-        )
+        existing = client.schema("futbol_boliviano").table("team_logos").select("team_key,logo_url,source_url").execute()
         known = {row["team_key"]: row for row in (existing.data or [])}
     except Exception as exc:
-        print(f"supabase_sync: no se pudo leer team_logos existentes tras varios intentos: {exc}", flush=True)
-        known = {}
+        # Si ni siquiera esto responde, Supabase está con problemas ahora
+        # mismo: mejor no insistir en esta corrida (ya vimos que reintentar
+        # con ~150 equipos sin saber cuáles ya están subidos solo empeora
+        # las cosas). Se reintenta solo en la próxima corrida programada.
+        print(f"supabase_sync: team_logos no responde, se salta la subida de escudos esta corrida: {exc}", flush=True)
+        return {}
 
-    result: dict[str, str] = {}
+    result: dict[str, str] = {row["team_key"]: row["logo_url"] for row in known.values() if row.get("logo_url")}
+    uploaded_this_run = 0
     for team_key, asset in team_assets.items():
+        if uploaded_this_run >= MAX_LOGOS_PER_RUN:
+            break
         if asset.get("badge_type") != "club_logo" or not asset.get("logo_url"):
             continue
         source_url = asset["logo_url"]
         prev = known.get(team_key)
         if prev and prev.get("source_url") == source_url and prev.get("logo_url"):
-            result[team_key] = prev["logo_url"]
             continue
         try:
             _logo_download_throttle()
@@ -266,26 +279,31 @@ def sync_team_logos(client, team_assets: dict[str, Any]) -> dict[str, str]:
             content_type = resp.headers.get("Content-Type", "image/png").split(";")[0].strip()
             ext = mimetypes.guess_extension(content_type) or ".png"
             path = f"{team_key.replace(' ', '_')}{ext}"
-            _with_retries(lambda: client.storage.from_(LOGO_BUCKET).upload(
+            # Sin reintentos aquí a propósito: si Storage está con problemas
+            # (503/PGRST002), insistir 2-3 veces más por CADA equipo es lo
+            # que alargaba la corrida a 15+ minutos sin lograr nada. Mejor
+            # fallar rápido y que ese equipo se reintente en la próxima
+            # corrida (30-60 min después), no en la misma.
+            client.storage.from_(LOGO_BUCKET).upload(
                 path, resp.content, {"content-type": content_type, "upsert": "true"}
-            ))
+            )
             public_url = client.storage.from_(LOGO_BUCKET).get_public_url(path)
             if isinstance(public_url, dict):
                 # Algunas versiones de storage3 devuelven {"publicUrl": "..."} en vez de un str.
                 public_url = public_url.get("publicUrl") or public_url.get("publicURL") or ""
-            _with_retries(lambda: client.schema("futbol_boliviano").table("team_logos").upsert({
+            client.schema("futbol_boliviano").table("team_logos").upsert({
                 "team_key": team_key,
                 "name": asset.get("name", ""),
                 "country": asset.get("country", ""),
                 "source_url": source_url,
                 "storage_path": path,
                 "logo_url": public_url,
-            }, on_conflict="team_key").execute())
+            }, on_conflict="team_key").execute()
             result[team_key] = public_url
-            print(f"supabase_sync: escudo subido -> {team_key}", flush=True)
+            uploaded_this_run += 1
+            print(f"supabase_sync: escudo subido -> {team_key} ({uploaded_this_run}/{MAX_LOGOS_PER_RUN})", flush=True)
         except Exception as exc:
             print(f"supabase_sync: ERROR subiendo escudo de {team_key}: {type(exc).__name__}: {exc}", flush=True)
-            print(traceback.format_exc(limit=6), flush=True)
     return result
 
 

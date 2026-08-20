@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-08-20T17:00:44.985953Z",
+  "generated_at": "2026-08-20T17:05:46.892624Z",
   "architecture": "3 Facebook groups + 1 web group; feed editorial + fases KO verificadas por serie completa",
   "facebook_groups": [
     {
@@ -28,7 +28,7 @@
     "app_feed_items": 131
   },
   "web": {
-    "generated_at": "2026-08-20T17:00:44.824895Z",
+    "generated_at": "2026-08-20T17:05:46.777732Z",
     "totals": {
       "items_before_filter": 576,
       "items_after_filter_dedupe": 371,
@@ -40,6 +40,10 @@
       {
         "source": "promediosinfo_bolivia",
         "error": "HTTPError: 403 Client Error: Forbidden for url: https://promediosinfo.com/liga/bolivia.html"
+      },
+      {
+        "source": "supabase_sync",
+        "error": "SupabaseException: Invalid API key"
       }
     ]
   },

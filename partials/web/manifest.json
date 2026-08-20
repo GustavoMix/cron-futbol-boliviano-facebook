@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-08-20T17:44:27.240665Z",
+  "generated_at": "2026-08-20T17:51:42.020968Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -225,10 +225,6 @@
     {
       "source": "promediosinfo_bolivia",
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://promediosinfo.com/liga/bolivia.html"
-    },
-    {
-      "source": "supabase_sync",
-      "error": "SupabaseException: Invalid API key"
     }
   ],
   "totals": {

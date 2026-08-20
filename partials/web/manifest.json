@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-08-20T12:52:04.418459Z",
+  "generated_at": "2026-08-20T13:58:26.835502Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,7 +9,7 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 302
+      "items": 288
     },
     "conmebol.json": {
       "items": 83
@@ -21,13 +21,13 @@
       "items": 0
     },
     "latest.json": {
-      "items": 171
+      "items": 157
     },
     "facebook_latest.json": {
       "items": 0
     },
     "app_feed.json": {
-      "items": 171
+      "items": 133
     },
     "current_tables.json": {
       "items": 0
@@ -128,7 +128,7 @@
       "id": "reduno_deportes",
       "name": "Red Uno - Super Deportivo",
       "ok": true,
-      "items": 35
+      "items": 34
     },
     {
       "id": "reduno_futbol_boliviano",
@@ -228,8 +228,8 @@
     }
   ],
   "totals": {
-    "items_before_filter": 576,
-    "items_after_filter_dedupe": 385,
+    "items_before_filter": 575,
+    "items_after_filter_dedupe": 371,
     "web_sources_ok": 29,
     "web_sources_error": 2,
     "social_items": 0

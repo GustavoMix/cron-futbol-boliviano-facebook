@@ -1,37 +1,37 @@
 {
-  "schema_version": 5,
-  "generated_at": "2026-08-20T13:35:30.176748Z",
-  "architecture": "3 Facebook groups + 1 web group; staggered schedules; cached last-good Facebook data",
+  "schema_version": 6,
+  "generated_at": "2026-08-20T13:58:26.989358Z",
+  "architecture": "3 Facebook groups + 1 web group; feed editorial + fases KO verificadas por serie completa",
   "facebook_groups": [
     {
       "group": "oficiales",
-      "last_good_at": "2026-08-20T13:05:57.926016Z",
-      "last_attempt_ok": true,
-      "items": 32
+      "last_good_at": null,
+      "last_attempt_ok": null,
+      "items": 0
     },
     {
       "group": "clubes",
-      "last_good_at": "2026-08-20T13:27:47.971618Z",
-      "last_attempt_ok": true,
-      "items": 26
+      "last_good_at": null,
+      "last_attempt_ok": null,
+      "items": 0
     },
     {
       "group": "medios",
-      "last_good_at": "2026-08-20T13:35:30.108449Z",
-      "last_attempt_ok": true,
-      "items": 27
+      "last_good_at": null,
+      "last_attempt_ok": null,
+      "items": 0
     }
   ],
   "totals": {
-    "facebook_items": 85,
-    "web_latest_items": 171,
-    "app_feed_items": 256
+    "facebook_items": 0,
+    "web_latest_items": 157,
+    "app_feed_items": 132
   },
   "web": {
-    "generated_at": "2026-08-20T12:52:04.418459Z",
+    "generated_at": "2026-08-20T13:58:26.835502Z",
     "totals": {
-      "items_before_filter": 576,
-      "items_after_filter_dedupe": 385,
+      "items_before_filter": 575,
+      "items_after_filter_dedupe": 371,
       "web_sources_ok": 29,
       "web_sources_error": 2,
       "social_items": 0
@@ -45,8 +45,10 @@
   },
   "notes": [
     "Facebook HTTP directo está desactivado.",
-    "Se usa Chrome/Edge del sistema; Chromium de Playwright solo es fallback.",
     "Si un grupo Facebook falla temporalmente, no se borra el último JSON bueno.",
-    "video_url directo puede caducar; post_url/video_post_url es la referencia estable."
+    "app_feed elimina ruido de UI/comentarios/promociones de bajo valor.",
+    "Libertadores/Sudamericana: un equipo aparece clasificado a cuartos solo después de completar la serie de octavos.",
+    "Escudo real tiene prioridad; si no existe, se usa bandera del país como fallback.",
+    "published_at conserva la fecha original; extra.published_date facilita mostrarla en el front."
   ]
 }

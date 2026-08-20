@@ -1236,9 +1236,25 @@ def _wikidata_club_logo(http, team_name: str) -> str:
                 break
         if not qid:
             return ""
-        entity_resp = http.get(f"https://www.wikidata.org/wiki/Special:EntityData/{qid}.json")
-        entity = (entity_resp.json().get("entities") or {}).get(qid) or {}
-        claims = (entity.get("claims") or {}).get("P154") or []
+        # wbgetclaims trae SOLO la propiedad pedida, no la ficha completa
+        # (Special:EntityData/{qid}.json baja TODO: etiquetas en 300+
+        # idiomas, todos los sitelinks, todas las declaraciones). Para un
+        # club chico esa ficha completa pesa poco y no se nota, pero para
+        # Corinthians/Boca/Flamengo/Palmeiras —con fichas enormes por lo
+        # conocidos que son— pesaba varios MB y se cortaba por timeout
+        # antes de terminar de bajar. Por eso fallaban siempre los más
+        # famosos y nunca los chicos: no era mala suerte de red, era pedir
+        # de más.
+        claims_resp = http.get(
+            "https://www.wikidata.org/w/api.php",
+            params={
+                "action": "wbgetclaims",
+                "entity": qid,
+                "property": "P154",
+                "format": "json",
+            },
+        )
+        claims = (claims_resp.json().get("claims") or {}).get("P154") or []
         for claim in claims:
             filename = (claim.get("mainsnak") or {}).get("datavalue", {}).get("value")
             if filename:

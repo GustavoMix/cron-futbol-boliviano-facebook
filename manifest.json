@@ -1,37 +1,37 @@
 {
   "schema_version": 5,
-  "generated_at": "2026-08-19T20:27:00.577759Z",
+  "generated_at": "2026-08-20T13:35:30.176748Z",
   "architecture": "3 Facebook groups + 1 web group; staggered schedules; cached last-good Facebook data",
   "facebook_groups": [
     {
       "group": "oficiales",
-      "last_good_at": "2026-08-19T18:49:14.613400Z",
+      "last_good_at": "2026-08-20T13:05:57.926016Z",
       "last_attempt_ok": true,
-      "items": 21
+      "items": 32
     },
     {
       "group": "clubes",
-      "last_good_at": "2026-08-19T19:04:44.694776Z",
+      "last_good_at": "2026-08-20T13:27:47.971618Z",
       "last_attempt_ok": true,
-      "items": 20
+      "items": 26
     },
     {
       "group": "medios",
-      "last_good_at": "2026-08-19T19:12:21.029955Z",
+      "last_good_at": "2026-08-20T13:35:30.108449Z",
       "last_attempt_ok": true,
-      "items": 18
+      "items": 27
     }
   ],
   "totals": {
-    "facebook_items": 59,
-    "web_latest_items": 170,
-    "app_feed_items": 229
+    "facebook_items": 85,
+    "web_latest_items": 171,
+    "app_feed_items": 256
   },
   "web": {
-    "generated_at": "2026-08-19T20:27:00.467070Z",
+    "generated_at": "2026-08-20T12:52:04.418459Z",
     "totals": {
       "items_before_filter": 576,
-      "items_after_filter_dedupe": 384,
+      "items_after_filter_dedupe": 385,
       "web_sources_ok": 29,
       "web_sources_error": 2,
       "social_items": 0

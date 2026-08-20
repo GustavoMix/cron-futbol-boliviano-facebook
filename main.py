@@ -1673,6 +1673,236 @@ def _harvest_named_team_images(soup: BeautifulSoup, base_url: str) -> None:
             continue
         TEAM_LOGOS.setdefault(n, absolute_url(base_url, str(src)))
 
+
+# Caché en memoria de la búsqueda externa de escudos (evita repetir la misma
+# consulta dos veces dentro de una corrida, ej. un equipo que aparece en
+# "matches" y también en "standings" de la misma competición).
+EXTERNAL_LOGO_CACHE: dict[str, str] = {}
+
+# La key pública de pruebas "3" de TheSportsDB es compartida por cualquiera
+# que no se registre, y en los runners de GitHub Actions (IPs compartidas
+# entre miles de workflows ajenos) resultó poco confiable incluso espaciando
+# los propios pedidos: dos corridas con el mismo código, separadas por 20
+# minutos, dieron resultados distintos (a veces peor) para los mismos
+# equipos. Por eso Wikipedia (sin key compartida) va primero, y TheSportsDB
+# queda como bonus oportunista cuando le toca un momento sin congestión.
+_THESPORTSDB_MIN_INTERVAL = 1.2
+_thesportsdb_last_call = [0.0]
+
+
+def _thesportsdb_throttle() -> None:
+    wait = _THESPORTSDB_MIN_INTERVAL - (time.monotonic() - _thesportsdb_last_call[0])
+    if wait > 0:
+        time.sleep(wait)
+    _thesportsdb_last_call[0] = time.monotonic()
+
+
+def _wikidata_club_logo(http, team_name: str) -> str:
+    # Mejor fuente para esto: Wikidata guarda el escudo del club en una
+    # propiedad estructurada (P154 "logo image"), a diferencia de adivinar
+    # la imagen principal del artículo de Wikipedia. Eso importa porque los
+    # clubes grandes casi siempre tienen su escudo en SVG en Wikipedia, y la
+    # extensión PageImages de Wikipedia IGNORA los SVG al elegir la imagen
+    # de la página — por eso Corinthians/Palmeiras/Boca quedaban sin nada
+    # incluso probando Wikipedia antes que TheSportsDB. Special:FilePath
+    # además renderiza el SVG a PNG al vuelo, así que el resultado sirve
+    # para mostrar en la app tal cual, sin procesar SVG del lado cliente.
+    try:
+        resp = http.get(
+            "https://es.wikipedia.org/w/api.php",
+            params={
+                "action": "query",
+                "generator": "search",
+                "gsrsearch": f"{team_name} club de fútbol",
+                "gsrlimit": 1,
+                "prop": "pageprops",
+                "ppprop": "wikibase_item",
+                "format": "json",
+            },
+        )
+        pages = (resp.json().get("query") or {}).get("pages") or {}
+        qid = ""
+        for page in pages.values():
+            qid = (page.get("pageprops") or {}).get("wikibase_item") or ""
+            if qid:
+                break
+        if not qid:
+            return ""
+        # wbgetclaims trae SOLO la propiedad pedida, no la ficha completa
+        # (Special:EntityData/{qid}.json baja TODO: etiquetas en 300+
+        # idiomas, todos los sitelinks, todas las declaraciones). Para un
+        # club chico esa ficha completa pesa poco y no se nota, pero para
+        # Corinthians/Boca/Flamengo/Palmeiras —con fichas enormes por lo
+        # conocidos que son— pesaba varios MB y se cortaba por timeout
+        # antes de terminar de bajar. Por eso fallaban siempre los más
+        # famosos y nunca los chicos: no era mala suerte de red, era pedir
+        # de más.
+        claims_resp = http.get(
+            "https://www.wikidata.org/w/api.php",
+            params={
+                "action": "wbgetclaims",
+                "entity": qid,
+                "property": "P154",
+                "format": "json",
+            },
+        )
+        claims = (claims_resp.json().get("claims") or {}).get("P154") or []
+        for claim in claims:
+            filename = (claim.get("mainsnak") or {}).get("datavalue", {}).get("value")
+            if filename:
+                safe = str(filename).strip().replace(" ", "_")
+                return f"https://commons.wikimedia.org/wiki/Special:FilePath/{safe}?width=200"
+    except Exception:
+        pass
+    return ""
+
+
+def _wikipedia_club_logo(http, team_name: str) -> str:
+    # Red de contención cuando el club no tiene item de Wikidata (o no tiene
+    # P154 cargado): la ficha propia del club en Wikipedia suele traer el
+    # escudo como imagen principal del artículo, aunque con la limitación de
+    # SVG que se explica arriba. Se resuelve el artículo por búsqueda y se
+    # pide su imagen en la misma llamada (generator=search + prop=pageimages)
+    # para no duplicar requests por equipo.
+    try:
+        resp = http.get(
+            "https://es.wikipedia.org/w/api.php",
+            params={
+                "action": "query",
+                "generator": "search",
+                "gsrsearch": f"{team_name} club de fútbol",
+                "gsrlimit": 1,
+                "prop": "pageimages",
+                "piprop": "thumbnail",
+                "pithumbsize": "200",
+                "format": "json",
+            },
+        )
+        pages = (resp.json().get("query") or {}).get("pages") or {}
+        for page in pages.values():
+            thumb = ((page.get("thumbnail") or {}).get("source")) or ""
+            if thumb:
+                return thumb
+    except Exception:
+        pass
+    return ""
+
+
+def _thesportsdb_team_logo(http, team_name: str) -> str:
+    # TheSportsDB devuelve el escudo directo ("strTeamBadge") en vez de
+    # adivinar la imagen principal de un artículo, así que cuando responde
+    # bien es más preciso que Wikipedia — pero solo se prueba como bonus
+    # (ver comentario de EXTERNAL_LOGO_CACHE) porque su key pública es poco
+    # confiable en runners compartidos. Pisable con THESPORTSDB_API_KEY si
+    # en algún momento se consigue una key propia.
+    api_key = os.getenv("THESPORTSDB_API_KEY", "3")
+    try:
+        _thesportsdb_throttle()
+        resp = http.get(
+            f"https://www.thesportsdb.com/api/v1/json/{api_key}/searchteams.php",
+            params={"t": team_name},
+        )
+        teams = resp.json().get("teams") or []
+        for team in teams:
+            badge = clean_text(team.get("strTeamBadge") or "")
+            if badge:
+                return badge
+    except Exception:
+        pass
+    return ""
+
+
+def _lookup_team_logo(http, team_name: str) -> str:
+    key = normalize_title(team_name)
+    if key in EXTERNAL_LOGO_CACHE:
+        return EXTERNAL_LOGO_CACHE[key]
+    logo = (
+        _wikidata_club_logo(http, team_name)
+        or _wikipedia_club_logo(http, team_name)
+        or _thesportsdb_team_logo(http, team_name)
+    )
+    EXTERNAL_LOGO_CACHE[key] = logo
+    return logo
+
+
+# Escudo de club (rara vez cambia) resuelto por Wikidata/Wikipedia/
+# TheSportsDB en una corrida anterior, guardado en disco y comiteado junto
+# con los demás JSON. Sin esto, cada corrida del cron volvía a buscar TODOS
+# los equipos ya resueltos — desperdiciando pedidos y, peor, a veces
+# "perdiendo" un escudo que sí se había encontrado antes por una falla
+# pasajera de la fuente externa esa hora en particular.
+TEAM_LOGO_CACHE_PATH = Path("team_logos_cache.json")
+
+
+def _load_team_logo_cache() -> dict[str, str]:
+    try:
+        return json.loads(TEAM_LOGO_CACHE_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+def _save_team_logo_cache(cache: dict[str, str]) -> None:
+    try:
+        TEAM_LOGO_CACHE_PATH.write_text(
+            json.dumps(cache, ensure_ascii=False, indent=2, sort_keys=True),
+            encoding="utf-8",
+        )
+    except Exception:
+        pass
+
+
+_GENERIC_HEADER_WORDS = {"resultado", "equipo", "local", "visitante", "fecha", "hora", "estadio", "fechapartido"}
+_SCORE_LIKE_RE = re.compile(r"^[\d:\-–\.\s\(\)]+$")
+
+
+def _looks_like_team_name(value: str) -> bool:
+    # Algunas tablas de Wikipedia (rowspan/colspan raros, filas resumen)
+    # producen celdas que NO son un equipo: la columna sale corrida y trae
+    # varios nombres pegados en un solo string, o directamente un marcador
+    # ("1:1") o el propio encabezado ("Resultado"). Sin este filtro esas
+    # celdas se tratan como "equipo sin escudo" y se gastan pedidos externos
+    # buscando algo que no es un club.
+    if not value or len(value) > 50 or len(value.split()) > 8:
+        return False
+    if value.lower() in _GENERIC_HEADER_WORDS:
+        return False
+    if _SCORE_LIKE_RE.match(value):
+        return False
+    return True
+
+
+def _collect_missing_team_names(candidates: list[Item]) -> list[str]:
+    # Reúne los nombres de equipo que aparecen en partidos/tablas de esta
+    # tanda (columnas "Equipo" en standings, "Local"/"Visitante" en matches)
+    # y todavía no tienen escudo en TEAM_LOGOS.
+    names: dict[str, str] = {}
+    for item in candidates:
+        extra = item.extra if isinstance(item.extra, dict) else None
+        rows = extra.get("rows") if extra else None
+        if not rows or len(rows) < 2:
+            continue
+        header = [clean_text(h).lower() for h in rows[0]]
+        col_indexes = []
+        if "equipo" in header:
+            col_indexes.append(header.index("equipo"))
+        if "local" in header and "visitante" in header:
+            col_indexes.append(header.index("local"))
+            col_indexes.append(header.index("visitante"))
+        if not col_indexes:
+            continue
+        for row in rows[1:]:
+            for idx in col_indexes:
+                if idx >= len(row):
+                    continue
+                name = clean_text(row[idx])
+                if not _looks_like_team_name(name):
+                    continue
+                key = normalize_title(name)
+                if key and key not in TEAM_LOGOS and key not in names:
+                    names[key] = name
+    return list(names.values())
+
+
 def _harvest_team_logos(soup: BeautifulSoup, base_url: str) -> None:
     for table in soup.find_all("table"):
         for tr in table.find_all("tr"):
@@ -2478,13 +2708,56 @@ def _collect_current_team_assets(competitions: dict[str, Any]) -> dict[str, Any]
     return out
 
 
-def build_current_tables(items: list[Item]) -> dict[str, Any]:
+def build_current_tables(items: list[Item], http: "HttpClient | None" = None) -> dict[str, Any]:
     """Elige una sola tabla vigente por competición/tipo para que la app no tenga que adivinar."""
     candidates = [
         x for x in items
         if x.scope in {'bolivia', 'conmebol'}
         and x.kind in {'standings', 'table', 'matches', 'top_scorers', 'assists', 'own_goals'}
     ]
+    if http is not None:
+        # Antes de armar matches/standings: completa TEAM_LOGOS con lo que
+        # falte (Libertadores/Sudamericana/Simón Bolívar, o cualquier equipo
+        # de Bolivia que FBF/promediosinfo no traía) buscando en Wikidata/
+        # Wikipedia/TheSportsDB. _merge_matches y _backfill_logos ya leen de
+        # TEAM_LOGOS, así que con esto alcanza para que aparezcan en toda la
+        # tabla/partido.
+        #
+        # Primero se completa con el caché en disco (equipos ya resueltos en
+        # una corrida anterior) para no volver a pedirle nada a las fuentes
+        # externas por gusto; solo se busca lo que sigue faltando después de
+        # eso.
+        cache = _load_team_logo_cache()
+        cache_hits = 0
+        for key, url in cache.items():
+            if url and key not in TEAM_LOGOS:
+                TEAM_LOGOS[key] = url
+                cache_hits += 1
+
+        missing_names = _collect_missing_team_names(candidates)
+        unresolved = []
+        newly_resolved: dict[str, str] = {}
+        for name in missing_names:
+            logo = _lookup_team_logo(http, name)
+            if logo:
+                key = normalize_title(name)
+                TEAM_LOGOS[key] = logo
+                newly_resolved[key] = logo
+            else:
+                unresolved.append(name)
+
+        if newly_resolved:
+            cache.update(newly_resolved)
+            _save_team_logo_cache(cache)
+
+        if missing_names or cache_hits:
+            resolved = len(missing_names) - len(unresolved)
+            print(
+                f"Escudos externos: {resolved}/{len(missing_names)} nuevos resueltos, "
+                f"{cache_hits} ya venían del caché ({len(cache)} equipos en caché en total)."
+            )
+            if unresolved:
+                print(f"Sin escudo tras buscar en Wikidata/Wikipedia/TheSportsDB: {', '.join(unresolved)}")
     grouped: dict[str, dict[str, list[Item]]] = defaultdict(lambda: defaultdict(list))
     for x in candidates:
         logical_kind = 'standings' if x.kind in {'standings','table'} else x.kind
@@ -2649,7 +2922,7 @@ def run(config_path: Path, output_dir: Path) -> dict[str, Any]:
         "items": _serialize(facebook_items[:200]),
     }
     buckets["app_feed.json"] = build_app_feed(live, 250)
-    current_tables = build_current_tables(live)
+    current_tables = build_current_tables(live, http)
     buckets["current_tables.json"] = current_tables
 
     for name, payload in buckets.items():

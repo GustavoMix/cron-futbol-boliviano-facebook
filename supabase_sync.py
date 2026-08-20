@@ -37,11 +37,21 @@ def _remove_solid_background(image_bytes: bytes, original_content_type: str) -> 
     parezca (con un borde suavizado para que no quede dentado). Si las
     esquinas no son consistentes (ej. el escudo ya llega hasta el borde),
     no se toca nada — mejor dejar la imagen tal cual que arruinarla.
+
+    IMPORTANTE: solo se borra el área CONECTADA al borde (relleno tipo
+    "cubo de pintura" desde las 4 esquinas), no cualquier pixel del mismo
+    color en cualquier parte de la imagen. La primera versión de esto
+    borraba por color sin importar la posición, y de paso volvía
+    transparentes las letras blancas escritas DENTRO del escudo (ej. el
+    nombre del club), que por casualidad eran del mismo tono claro que el
+    fondo pero no tienen nada que ver con él.
+
     Devuelve (bytes_png, content_type); si no se pudo procesar (falta
     Pillow, imagen corrupta, etc.) devuelve la imagen original sin tocar.
     """
     try:
         from PIL import Image
+        from collections import deque
         import io
     except ImportError:
         return image_bytes, original_content_type
@@ -57,16 +67,21 @@ def _remove_solid_background(image_bytes: bytes, original_content_type: str) -> 
             return image_bytes, original_content_type
 
         pixels = img.load()
-        soft_start, hard_cut = 20, 55  # distancia de color: <soft_start = totalmente transparente, >hard_cut = opaco
-        for y in range(h):
-            for x in range(w):
-                r, g, b, a = pixels[x, y]
-                dist = max(abs(r - r0), abs(g - g0), abs(b - b0))
-                if dist <= soft_start:
-                    pixels[x, y] = (r, g, b, 0)
-                elif dist < hard_cut:
-                    factor = (dist - soft_start) / (hard_cut - soft_start)
-                    pixels[x, y] = (r, g, b, int(a * factor))
+        threshold = 40  # distancia de color máxima para seguir considerándose "el mismo fondo"
+        visited = bytearray(w * h)
+        queue = deque([(0, 0), (w - 1, 0), (0, h - 1), (w - 1, h - 1)])
+        for x, y in list(queue):
+            visited[y * w + x] = 1
+        while queue:
+            x, y = queue.popleft()
+            r, g, b, a = pixels[x, y]
+            pixels[x, y] = (r, g, b, 0)
+            for nx, ny in ((x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)):
+                if 0 <= nx < w and 0 <= ny < h and not visited[ny * w + nx]:
+                    nr, ng, nb, _ = pixels[nx, ny]
+                    if max(abs(nr - r0), abs(ng - g0), abs(nb - b0)) <= threshold:
+                        visited[ny * w + nx] = 1
+                        queue.append((nx, ny))
 
         out = io.BytesIO()
         img.save(out, format="PNG")

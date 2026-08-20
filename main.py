@@ -1317,6 +1317,32 @@ def _lookup_team_logo(http, team_name: str) -> str:
     return logo
 
 
+# Escudo de club (rara vez cambia) resuelto por Wikidata/Wikipedia/
+# TheSportsDB en una corrida anterior, guardado en disco y comiteado junto
+# con los demás JSON. Sin esto, cada corrida del cron volvía a buscar TODOS
+# los equipos ya resueltos — desperdiciando pedidos y, peor, a veces
+# "perdiendo" un escudo que sí se había encontrado antes por una falla
+# pasajera de la fuente externa esa hora en particular.
+TEAM_LOGO_CACHE_PATH = Path("team_logos_cache.json")
+
+
+def _load_team_logo_cache() -> dict[str, str]:
+    try:
+        return json.loads(TEAM_LOGO_CACHE_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+def _save_team_logo_cache(cache: dict[str, str]) -> None:
+    try:
+        TEAM_LOGO_CACHE_PATH.write_text(
+            json.dumps(cache, ensure_ascii=False, indent=2, sort_keys=True),
+            encoding="utf-8",
+        )
+    except Exception:
+        pass
+
+
 _GENERIC_HEADER_WORDS = {"resultado", "equipo", "local", "visitante", "fecha", "hora", "estadio", "fechapartido"}
 _SCORE_LIKE_RE = re.compile(r"^[\d:\-–\.\s\(\)]+$")
 
@@ -1965,23 +1991,46 @@ def build_current_tables(items: list[Item], http: "HttpClient | None" = None) ->
     if http is not None:
         # Antes de armar matches/standings: completa TEAM_LOGOS con lo que
         # falte (Libertadores/Sudamericana/Simón Bolívar, o cualquier equipo
-        # de Bolivia que FBF/promediosinfo no traía) buscando en TheSportsDB
-        # y, si ahí tampoco está, en Wikipedia. _merge_matches y
-        # _backfill_logos ya leen de TEAM_LOGOS, así que con esto alcanza
-        # para que aparezcan en toda la tabla/partido.
+        # de Bolivia que FBF/promediosinfo no traía) buscando en Wikidata/
+        # Wikipedia/TheSportsDB. _merge_matches y _backfill_logos ya leen de
+        # TEAM_LOGOS, así que con esto alcanza para que aparezcan en toda la
+        # tabla/partido.
+        #
+        # Primero se completa con el caché en disco (equipos ya resueltos en
+        # una corrida anterior) para no volver a pedirle nada a las fuentes
+        # externas por gusto; solo se busca lo que sigue faltando después de
+        # eso.
+        cache = _load_team_logo_cache()
+        cache_hits = 0
+        for key, url in cache.items():
+            if url and key not in TEAM_LOGOS:
+                TEAM_LOGOS[key] = url
+                cache_hits += 1
+
         missing_names = _collect_missing_team_names(candidates)
         unresolved = []
+        newly_resolved: dict[str, str] = {}
         for name in missing_names:
             logo = _lookup_team_logo(http, name)
             if logo:
-                TEAM_LOGOS[normalize_title(name)] = logo
+                key = normalize_title(name)
+                TEAM_LOGOS[key] = logo
+                newly_resolved[key] = logo
             else:
                 unresolved.append(name)
-        if missing_names:
+
+        if newly_resolved:
+            cache.update(newly_resolved)
+            _save_team_logo_cache(cache)
+
+        if missing_names or cache_hits:
             resolved = len(missing_names) - len(unresolved)
-            print(f"Escudos externos: {resolved}/{len(missing_names)} equipos resueltos (TheSportsDB/Wikipedia).")
+            print(
+                f"Escudos externos: {resolved}/{len(missing_names)} nuevos resueltos, "
+                f"{cache_hits} ya venían del caché ({len(cache)} equipos en caché en total)."
+            )
             if unresolved:
-                print(f"Sin escudo tras buscar en TheSportsDB/Wikipedia: {', '.join(unresolved)}")
+                print(f"Sin escudo tras buscar en Wikidata/Wikipedia/TheSportsDB: {', '.join(unresolved)}")
     grouped: dict[str, dict[str, list[Item]]] = defaultdict(lambda: defaultdict(list))
     for x in candidates:
         logical_kind = 'standings' if x.kind in {'standings','table'} else x.kind

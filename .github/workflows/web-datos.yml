@@ -36,7 +36,7 @@ jobs:
         run: |
           git config user.name "football-data-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add partials/web facebook_latest.json social.json latest.json app_feed.json current_tables.json bolivia.json conmebol.json internacional.json manifest.json
+          git add partials/web facebook_latest.json social.json latest.json app_feed.json current_tables.json bolivia.json conmebol.json internacional.json manifest.json team_logos_cache.json
           git diff --cached --quiet && exit 0
           git commit -m "data: web noticias y tablas"
 

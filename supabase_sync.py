@@ -95,7 +95,13 @@ def _row_to_record(header: list[str], row: list[str], column_map: dict[str, str]
         value = str(row[idx]).strip()
         if col in INT_COLUMNS:
             m = re.search(r"-?\d+", value.replace(",", ""))
-            record[col] = int(m.group(0)) if m else 0
+            if m:
+                record[col] = int(m.group(0))
+            # Si no hay número (celda vacía, fusionada por rowspan, etc.):
+            # NO se manda la clave. Un upsert solo actualiza las columnas
+            # presentes en el payload, así que omitirla deja el valor
+            # anterior intacto en vez de pisarlo con 0 por una corrida que
+            # no trajo dato nuevo para ese campo puntual.
         else:
             record[col] = value
     return record

@@ -26,6 +26,62 @@ def now_iso() -> str:
 def clean(s: str) -> str:
     return re.sub(r'\s+', ' ', s or '').strip()
 
+
+def clean_fb_post_text(text: str, page_name: str = "") -> str:
+    """Quita nombre de página, tiempo relativo, reacciones y comentarios de UI."""
+    t = clean(text)
+    if page_name and t.lower().startswith(page_name.lower()):
+        t = clean(t[len(page_name):])
+    # Si el nombre visible difiere del configurado, corta el prefijo hasta el tiempo relativo.
+    t = re.sub(r"^.{2,90}?\s+(?:\d+\s*(?:min|h|hora|horas|d|día|dias|días))\s*[·•-]\s*", "", t, flags=re.I)
+    # Facebook suele dejar: "23 min · contenido..."
+    t = re.sub(r"^(?:hace\s+)?\d+\s*(?:min|h|hora|horas|d|día|dias|días)\s*[·•-]?\s*", "", t, flags=re.I)
+    t = re.sub(r"^(?:ahora|hace un momento)\s*[·•-]?\s*", "", t, flags=re.I)
+    # Cortar antes de las reacciones/comentarios; todo lo posterior es ruido ajeno al post.
+    for marker in ("Todas las reacciones:", "All reactions:", "Me gusta Comentar", "Like Comment", "Ver más comentarios"):
+        pos = t.lower().find(marker.lower())
+        if pos >= 0:
+            t = t[:pos]
+    t = re.sub(r"\s*…?\s*Ver más\s*$", "", t, flags=re.I)
+    t = re.sub(r"\bYOUTUBE\.COM\b", " ", t, flags=re.I)
+    t = re.sub(r"\b\d{1,2}:\d{2}\s*/\s*\d{1,2}:\d{2}\b", " ", t)
+    t = re.sub(r"\s+\+\d+\s*$", "", t)
+    t = re.sub(r"\s+", " ", t).strip(" ·-|—")
+    return t
+
+
+def fb_content_quality(text: str) -> float:
+    probe = clean(text).lower()
+    norm = re.sub(r"[^a-z0-9áéíóúñü ]+", " ", probe)
+    high = (
+        "clasific", "cuartos", "octavos", "resultado", "partido", "fecha", "gol", "victoria", "empate",
+        "derrota", "fichaje", "refuerzo", "contrat", "lesion", "lesión", "baja", "sancion", "sanción",
+        "convocad", "alineacion", "alineación", "arbitro", "árbitro", "designacion", "designación",
+    )
+    low = (
+        "buenos dias", "buen día", "feliz cumple", "tienda", "camiseta", "abrígate", "abrigate",
+        "sponsor", "promo", "promocion", "promoción", "venta de entradas", "entradas a la venta",
+        "panini", "album", "álbum", "outlet",
+    )
+    score = 0.36 + min(0.14, len(probe) / 1200.0)
+    if any(x in norm for x in high): score += 0.34
+    if any(x in norm for x in low): score -= 0.50
+    if re.search(r"\b(comienzo|inicia) (el )?(primer|segundo) tiempo\b", norm): score -= 0.20
+    if "final de 45" in norm: score -= 0.55
+    return round(max(0.0, min(1.0, score)), 4)
+
+
+def short_title(text: str, limit: int = 150) -> str:
+    t = clean(text)
+    if len(t) <= limit:
+        return t
+    cut = t[:limit]
+    for sep in ('. ', '! ', '? ', ' — '):
+        idx = cut.rfind(sep)
+        if idx >= 50:
+            return cut[:idx + (1 if sep[0] in '.!?' else 0)].strip()
+    return cut.rsplit(' ', 1)[0].strip() + '…'
+
 def stable_id(*parts: str) -> str:
     raw='|'.join(clean(x) for x in parts)
     return hashlib.sha1(raw.encode('utf-8','ignore')).hexdigest()[:20]
@@ -221,10 +277,13 @@ def scrape_group(config: dict, group: str) -> tuple[list[dict], list[dict]]:
                 for rec in recs:
                     purl=canonical_fb(str(rec.get('href') or ''))
                     if not purl or purl in seen: continue
-                    text=clean(str(rec.get('text') or ''))
-                    if len(text)<20: continue
+                    raw_text=clean(str(rec.get('text') or ''))
+                    if len(raw_text)<20: continue
                     kws=[clean(str(k)).lower() for k in spec.get('keywords',[]) if clean(str(k))]
-                    if kws and not any(k in text.lower() for k in kws): continue
+                    if kws and not any(k in raw_text.lower() for k in kws): continue
+                    text=clean_fb_post_text(raw_text, name)
+                    if len(text)<12: continue
+                    content_quality=fb_content_quality(text)
                     published=parse_fb_date(str(rec.get('dateText') or ''))
                     age=age_hours(published)
                     if age is not None and age>recent: continue
@@ -244,7 +303,7 @@ def scrape_group(config: dict, group: str) -> tuple[list[dict], list[dict]]:
                         'kind':'social',
                         'platform':'facebook',
                         'post_id':post_id(purl),
-                        'title':text[:180],
+                        'title':short_title(text),
                         'text':text,
                         'url':purl,
                         'post_url':purl,
@@ -270,6 +329,9 @@ def scrape_group(config: dict, group: str) -> tuple[list[dict], list[dict]]:
                             'group':group,
                             'age_hours':age,
                             'freshness_unknown':published is None,
+                            'content_quality':content_quality,
+                            'summary':text[:360],
+                            'published_date':published[:10] if published else '',
                             'media':{'images':ims,'videos':vids,'posters':posters},
                             'direct_video_is_temporary':bool(direct_video),
                             'note_video':'La URL directa de video puede caducar; post_url/video_post_url es la referencia estable.',

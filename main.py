@@ -31,7 +31,18 @@ class Item:
     extra: dict[str, Any] = field(default_factory=dict)
 
     def to_dict(self) -> dict[str, Any]:
-        return asdict(self)
+        data = asdict(self)
+        if self.published_at:
+            data["published_date"] = self.published_at[:10]
+            try:
+                dt = datetime.fromisoformat(self.published_at.replace("Z", "+00:00"))
+                data["published_display"] = dt.strftime("%d/%m/%Y")
+            except Exception:
+                data["published_display"] = self.published_at[:10]
+        else:
+            data["published_date"] = ""
+            data["published_display"] = ""
+        return data
 
 
 # ===== scraper/http.py =====
@@ -98,6 +109,107 @@ def clean_text(value: str) -> str:
     return re.sub(r"\s+", " ", (value or "")).strip()
 
 
+NEWS_BOILERPLATE_PATTERNS = [
+    r"\bLeer más\b",
+    r"\bRead more\b",
+    r"\bVer más\b",
+    r"\bVer mas\b",
+    r"\bBlogThis!?\b",
+    r"\bCompartir en (?:X|Facebook|Pinterest)\b",
+    r"\bEnviar esto por correo electrónico\b",
+    r"\bPosted by .*?$",
+    r"\bTodas las reacciones:.*$",
+    r"\bMe gusta\b",
+    r"\bComentar\b",
+    r"\bVer más comentarios\b",
+    r"\bLabels?:.*$",
+    # Variantes truncadas por algunas tarjetas/listados: "Leer", "Leer ma", "Leer má".
+    r"\bLeer(?:\s+m[aá]s?)?\s*$",
+]
+
+
+def clean_news_text(value: str, title: str = "") -> str:
+    text = clean_text(value)
+    if not text:
+        return ""
+    if title:
+        title_clean = clean_text(title)
+        low = text.lower()
+        if low.startswith(title_clean.lower()):
+            text = clean_text(text[len(title_clean):])
+    text = re.sub(r"\s*[|•·]\s*", " — ", text)
+    for pattern in NEWS_BOILERPLATE_PATTERNS:
+        text = re.sub(pattern, "", text, flags=re.I)
+    text = re.sub(r"\b(Tweet|Post) #?\w+\b", "", text, flags=re.I)
+    text = re.sub(r"\s+", " ", text).strip(" -—|:;,.\n\t")
+    if len(text) > 420:
+        cut = text[:420]
+        last_dot = max(cut.rfind('. '), cut.rfind('! '), cut.rfind('? '))
+        if last_dot >= 80:
+            cut = cut[: last_dot + 1]
+        else:
+            last_space = cut.rfind(' ')
+            if last_space >= 120:
+                cut = cut[:last_space]
+        text = cut.strip() + ("…" if not cut.endswith((".", "!", "?", "…")) else "")
+    return text
+
+
+
+
+NEWS_HIGH_VALUE_TERMS = (
+    "clasific", "cuartos", "octavos", "semifinal", "final", "resultado", "partido", "fixture",
+    "fecha", "tabla", "posición", "posicion", "goleador", "lesión", "lesion", "baja", "fichaje",
+    "refuerzo", "contrat", "transfer", "sanción", "sancion", "suspend", "convocad", "alineación",
+    "alineacion", "titular", "gol", "empate", "victoria", "derrota", "reprogram", "árbitro",
+    "arbitro", "designación", "designacion", "selección", "seleccion", "copa", "liga",
+)
+NEWS_LOW_VALUE_TERMS = (
+    "buenos dias", "buen dia", "feliz cumple", "tienda", "camiseta", "abrigate", "merch",
+    "sponsor", "patrocinador", "panini", "album panini", "promo", "promocion", "venta de entradas",
+    "entradas a la venta", "sorteo comercial",
+)
+
+
+def news_content_quality(title: str, text: str, kind: str = "news") -> float:
+    probe = normalize_title(f"{title} {text}")
+    if not probe:
+        return 0.0
+    score = 0.50 if kind == "news" else 0.35
+    score += min(0.16, len(clean_text(text)) / 1800.0)
+    if any(normalize_title(term) in probe for term in NEWS_HIGH_VALUE_TERMS):
+        score += 0.30
+    if any(normalize_title(term) in probe for term in NEWS_LOW_VALUE_TERMS):
+        score -= 0.72
+    if re.search(r"\b(comienzo|inicia) (el )?(primer|segundo) tiempo\b", probe):
+        score -= 0.22
+    if re.search(r"\bfinal de 45|minuto \d{1,3}\b", probe) and "resultado" not in probe:
+        score -= 0.12
+    return round(max(0.0, min(1.0, score)), 4)
+
+
+def looks_like_stats_widget(title: str, text: str, href: str = "") -> bool:
+    """Bloquea cards de tablas/fixtures que antes terminaban como 'noticia'."""
+    probe = f" {normalize_title(title + ' ' + text)} "
+    stat_tokens = sum(1 for token in (" pj ", " pts ", " gf ", " gc ", " dg ") if token in probe)
+    if stat_tokens >= 3:
+        return True
+    if " tabla de posiciones " in probe and (" fecha " in probe or " liga " in probe):
+        return True
+    if "/torneos/" in (href or "").lower() and any(x in probe for x in (" tabla ", " posiciones ", " goleadores ", " fixture ")):
+        return True
+    return False
+
+
+def published_display(iso: str | None) -> str:
+    if not iso:
+        return ""
+    try:
+        dt = datetime.fromisoformat(iso.replace("Z", "+00:00"))
+        return dt.astimezone(timezone.utc).strftime("%d/%m/%Y")
+    except Exception:
+        return ""
+
 def strip_accents(value: str) -> str:
     return "".join(c for c in unicodedata.normalize("NFKD", value) if not unicodedata.combining(c))
 
@@ -139,13 +251,21 @@ def parse_date(value: Any, languages: Optional[list[str]] = None) -> Optional[st
                 "RETURN_AS_TIMEZONE_AWARE": True,
                 "TO_TIMEZONE": "UTC",
                 "PREFER_DATES_FROM": "past",
+                "DATE_ORDER": "DMY",
+                "PREFER_LOCALE_DATE_ORDER": True,
             },
         )
         if dt is None and len(text) < 180:
             found = search_dates(
                 text,
                 languages=languages,
-                settings={"RETURN_AS_TIMEZONE_AWARE": True, "TO_TIMEZONE": "UTC", "PREFER_DATES_FROM": "past"},
+                settings={
+                    "RETURN_AS_TIMEZONE_AWARE": True,
+                    "TO_TIMEZONE": "UTC",
+                    "PREFER_DATES_FROM": "past",
+                    "DATE_ORDER": "DMY",
+                    "PREFER_LOCALE_DATE_ORDER": True,
+                },
             )
             if found:
                 dt = found[-1][1]
@@ -1048,7 +1168,102 @@ def _find_time(node: Tag) -> str | None:
             parsed = parse_date(m.group(0), languages=["es", "en"])
             if parsed:
                 return parsed
+    relative = _relative_date_from_text(text)
+    if relative:
+        return relative
     return None
+
+
+def _date_from_news_url(url: str, source_id: str = "") -> str | None:
+    """Recupera fecha cuando el medio la codifica en la URL.
+
+    DIEZ usa un Unix timestamp al final del slug. Red Uno usa
+    YYYY + M(M) + D(D) + hora/minuto/segundo.
+    """
+    sid = (source_id or "").lower()
+    path = urlparse(url or "").path.rstrip("/")
+    if "diez" in sid or "diez.bo" in (url or "").lower():
+        dated = re.search(r"/(20\d{2})-(\d{1,2})-(\d{1,2})-(\d{1,2})-(\d{1,2})-(\d{1,2})(?:-|$)", path)
+        if dated:
+            try:
+                y, mo, d, hh, mm, ss = map(int, dated.groups())
+                dt = datetime(y, mo, d, hh, mm, ss, tzinfo=timezone(timedelta(hours=-4)))
+                return dt.isoformat()
+            except Exception:
+                pass
+        m = re.search(r"_(\d{10})(?:$|\D)", path)
+        if m:
+            try:
+                dt = datetime.fromtimestamp(int(m.group(1)), tz=timezone.utc)
+                if 2020 <= dt.year <= 2035:
+                    return dt.isoformat().replace("+00:00", "Z")
+            except Exception:
+                pass
+    if "reduno" in sid or "reduno.com.bo" in (url or "").lower():
+        m = re.search(r"(20\d{2}\d{7,10})$", path)
+        if m:
+            digits = m.group(1)
+            year = int(digits[:4])
+            tail = digits[4:]
+            candidates = []
+            for month_len in (2, 1):
+                if len(tail) <= month_len:
+                    continue
+                month_s = tail[:month_len]
+                if month_s.startswith("0") and month_len == 1:
+                    continue
+                month = int(month_s)
+                if not 1 <= month <= 12:
+                    continue
+                rest = tail[month_len:]
+                for day_len in (2, 1):
+                    if len(rest) <= day_len:
+                        continue
+                    day = int(rest[:day_len])
+                    clock = rest[day_len:]
+                    if not 1 <= day <= 31 or not (3 <= len(clock) <= 6):
+                        continue
+                    for hour_len in (2, 1):
+                        if len(clock) < hour_len + 2:
+                            continue
+                        hour = int(clock[:hour_len])
+                        minute = int(clock[hour_len:hour_len + 2])
+                        sec_s = clock[hour_len + 2:]
+                        second = int(sec_s) if sec_s else 0
+                        if not (0 <= hour <= 23 and 0 <= minute <= 59 and 0 <= second <= 59):
+                            continue
+                        try:
+                            # Red Uno publica horario boliviano (UTC-4). Mantener
+                            # el offset conserva correctamente el día visible.
+                            local_tz = timezone(timedelta(hours=-4))
+                            dt = datetime(year, month, day, hour, minute, second, tzinfo=local_tz)
+                            candidates.append(dt)
+                        except ValueError:
+                            continue
+            if candidates:
+                # Prefiere la interpretación más reciente que no quede muy en el futuro.
+                now = datetime.now(timezone.utc)
+                valid = [x for x in candidates if x.astimezone(timezone.utc) <= now + timedelta(hours=6)] or candidates
+                dt = max(valid, key=lambda x: x.astimezone(timezone.utc))
+                return dt.isoformat()
+    return None
+
+
+def _relative_date_from_text(text: str, base: datetime | None = None) -> str | None:
+    probe = clean_text(text)
+    m = re.search(r"\bHace\s+(\d+)\s*(min(?:uto)?s?|h(?:ora)?s?|d[ií]as?)\b", probe, flags=re.I)
+    if not m:
+        return None
+    amount = int(m.group(1))
+    unit = m.group(2).lower()
+    base = base or datetime.now(timezone.utc)
+    if unit.startswith("min"):
+        dt = base - timedelta(minutes=amount)
+    elif unit.startswith("h"):
+        dt = base - timedelta(hours=amount)
+    else:
+        dt = base - timedelta(days=amount)
+    return dt.astimezone(timezone.utc).isoformat().replace("+00:00", "Z")
 
 
 def extract_jsonld(soup: BeautifulSoup, source: dict[str, Any], base_url: str) -> list[Item]:
@@ -1085,14 +1300,21 @@ def extract_jsonld(soup: BeautifulSoup, source: dict[str, Any], base_url: str) -
                     image = image[0] if image else ""
                 if isinstance(image, dict):
                     image = image.get("url") or ""
-                published = parse_date(obj.get("datePublished"), languages=["es", "en"])
+                published = parse_date(obj.get("datePublished"), languages=["es", "en"]) or _date_from_news_url(absolute_url(base_url, str(url)), source.get("id", ""))
+                summary = clean_news_text(str(obj.get("description") or ""), title=title)
                 out.append(Item(
                     id=stable_id(source["id"], str(url), title), kind="news", title=title,
-                    text=clean_text(str(obj.get("description") or "")), url=absolute_url(base_url, str(url)),
+                    text=summary, url=absolute_url(base_url, str(url)),
                     image_url=absolute_url(base_url, str(image)), published_at=published, scraped_at=utc_now_iso(),
                     source_id=source["id"], source_name=source["name"], source_type=source.get("source_type", "web"),
                     source_authority=float(source.get("authority", 0.7)), scope=source.get("scope", "general"),
                     competition=source.get("competition", "general"),
+                    extra={
+                        "summary": summary,
+                        "content_quality": news_content_quality(title, summary, "news"),
+                        "published_date": published[:10] if published else "",
+                        "published_display": published_display(published),
+                    },
                 ))
     return out
 
@@ -1102,7 +1324,10 @@ def extract_news_cards(soup: BeautifulSoup, source: dict[str, Any], base_url: st
     nodes: list[Tag] = []
     nodes.extend(soup.find_all("article"))
     if not nodes:
-        for selector in [".post", ".news", ".noticia", ".elementor-post", ".blog-post", ".card"]:
+        # IMPORTANTE: no usar '.card' genérico. En FBF esa clase también se
+        # usa para widgets de torneos/estadísticas y producía textos como
+        # "PJ G E P GF GC DG" dentro del feed de noticias.
+        for selector in [".post", ".news", ".noticia", ".elementor-post", ".blog-post", ".news-card", ".article-card"]:
             nodes.extend(soup.select(selector))
     seen = set()
     for node in nodes:
@@ -1112,20 +1337,151 @@ def extract_news_cards(soup: BeautifulSoup, source: dict[str, Any], base_url: st
         if len(title) < 8:
             continue
         href = absolute_url(base_url, str(link.get("href"))) if link and link.get("href") else base_url
-        key = (title.lower(), href)
+        key = (normalize_title(title), href)
         if key in seen:
             continue
         seen.add(key)
-        text = clean_text(node.get_text(" ", strip=True))
+        paragraphs = []
+        for el in node.find_all(["p", "li"]):
+            txt = clean_text(el.get_text(" ", strip=True))
+            if len(txt) >= 25 and normalize_title(txt) != normalize_title(title) and txt not in paragraphs:
+                paragraphs.append(txt)
+        raw_text = " ".join(paragraphs[:3]) if paragraphs else clean_text(node.get_text(" ", strip=True))
+        if looks_like_stats_widget(title, raw_text, href):
+            continue
+        summary = clean_news_text(raw_text, title=title)
+        # Un bloque no-article sin bajada real suele ser navegación/widget.
+        if node.name != "article" and len(summary) < 20:
+            continue
+        published_at = _find_time(node) or _date_from_news_url(href, source.get("id", ""))
+        quality = news_content_quality(title, summary, "news")
         out.append(Item(
             id=stable_id(source["id"], href, title), kind="news", title=title,
-            text=text[:1200], url=href, image_url=_find_image(node, base_url), published_at=_find_time(node),
+            text=summary, url=href, image_url=_find_image(node, base_url), published_at=published_at,
             scraped_at=utc_now_iso(), source_id=source["id"], source_name=source["name"],
             source_type=source.get("source_type", "web"), source_authority=float(source.get("authority", 0.7)),
             scope=source.get("scope", "general"), competition=source.get("competition", "general"),
+            extra={
+                "summary": summary,
+                "content_quality": quality,
+                "published_date": published_at[:10] if published_at else "",
+                "published_display": published_display(published_at),
+            },
         ))
     return out
 
+
+def _article_metadata(http, url: str, title: str = "") -> dict[str, str]:
+    """Abre unas pocas noticias sin fecha y recupera metadata del artículo.
+
+    Se usa solo como fallback y con límite por fuente para no volver pesado el cron.
+    """
+    out = {"published_at": "", "summary": "", "image_url": ""}
+    try:
+        r = http.get(url)
+        soup = BeautifulSoup(r.content, "lxml")
+    except Exception:
+        return out
+
+    # Fecha: solo metadata semántica del artículo; no escanear todo el texto
+    # para evitar confundir la fecha de un partido citado con la de publicación.
+    meta_candidates = []
+    for attrs in (
+        {"property": "article:published_time"}, {"property": "og:published_time"},
+        {"name": "date"}, {"name": "pubdate"}, {"name": "publish-date"},
+        {"name": "parsely-pub-date"}, {"itemprop": "datePublished"},
+    ):
+        tag = soup.find("meta", attrs=attrs)
+        if tag and tag.get("content"):
+            meta_candidates.append(str(tag.get("content")))
+    t = soup.find("time")
+    if t:
+        meta_candidates.append(str(t.get("datetime") or t.get_text(" ", strip=True)))
+    for raw in meta_candidates:
+        parsed = parse_date(raw, languages=["es", "en"])
+        if parsed:
+            out["published_at"] = parsed
+            break
+
+    # JSON-LD suele ser el dato más fiable cuando <time> no existe.
+    if not out["published_at"]:
+        for script in soup.find_all("script", attrs={"type": "application/ld+json"}):
+            raw = script.string or script.get_text()
+            try:
+                data = json.loads(raw)
+            except Exception:
+                continue
+            nodes = data if isinstance(data, list) else [data]
+            expanded = []
+            for node in nodes:
+                if isinstance(node, dict) and isinstance(node.get("@graph"), list):
+                    expanded.extend(node["@graph"])
+                else:
+                    expanded.append(node)
+            for obj in expanded:
+                if not isinstance(obj, dict):
+                    continue
+                typ = obj.get("@type")
+                types = set(typ if isinstance(typ, list) else [typ])
+                if not types.intersection({"NewsArticle", "Article", "BlogPosting"}):
+                    continue
+                parsed = parse_date(obj.get("datePublished"), languages=["es", "en"])
+                if parsed:
+                    out["published_at"] = parsed
+                if not out["summary"]:
+                    out["summary"] = clean_news_text(str(obj.get("description") or ""), title=title)
+                image = obj.get("image") or ""
+                if isinstance(image, list): image = image[0] if image else ""
+                if isinstance(image, dict): image = image.get("url") or ""
+                if image: out["image_url"] = absolute_url(r.url, str(image))
+                break
+            if out["published_at"] and out["summary"]:
+                break
+
+    if not out["summary"]:
+        meta = soup.find("meta", attrs={"property": "og:description"}) or soup.find("meta", attrs={"name": "description"})
+        if meta and meta.get("content"):
+            out["summary"] = clean_news_text(str(meta.get("content")), title=title)
+    if not out["summary"]:
+        container = soup.find("article") or soup.find(class_=re.compile("entry-content|article-body|post-content|nota-content"))
+        if container:
+            paras = [clean_text(p.get_text(" ", strip=True)) for p in container.find_all("p")]
+            paras = [x for x in paras if len(x) >= 35]
+            out["summary"] = clean_news_text(" ".join(paras[:2]), title=title)
+    if not out["image_url"]:
+        og = soup.find("meta", attrs={"property": "og:image"})
+        if og and og.get("content"):
+            out["image_url"] = absolute_url(r.url, str(og.get("content")))
+    return out
+
+
+def _enrich_missing_news(http, items: list[Item], source: dict[str, Any], limit: int = 4) -> None:
+    if source.get("source_type") in {"encyclopedia", "aggregator", "structured_media"}:
+        return
+    done = 0
+    seen = set()
+    for item in items:
+        if done >= int(source.get("news_detail_limit", limit)):
+            break
+        if item.kind != "news" or item.published_at or not item.url:
+            continue
+        if item.url.rstrip("/") == str(source.get("url", "")).rstrip("/"):
+            continue
+        if item.url in seen:
+            continue
+        seen.add(item.url)
+        detail = _article_metadata(http, item.url, item.title)
+        done += 1
+        if detail.get("published_at"):
+            item.published_at = detail["published_at"]
+            item.extra["published_date"] = item.published_at[:10] if item.published_at else ""
+            item.extra["published_display"] = published_display(item.published_at)
+            item.extra["date_source"] = "article_metadata"
+        if detail.get("summary") and (len(item.text) < 80 or len(detail["summary"]) > len(item.text)):
+            item.text = detail["summary"][:420]
+            item.extra["summary"] = item.text
+        if detail.get("image_url") and not item.image_url:
+            item.image_url = detail["image_url"]
 
 def _heading_before(table: Tag) -> str:
     h = table.find_previous(["h1", "h2", "h3", "h4", "h5", "h6"])
@@ -1181,6 +1537,142 @@ def _row_logo(tr: Tag, base_url: str) -> str:
 # así que sin esto la tabla de posiciones queda sin ningún logo aunque sí
 # existan en otro lado.
 TEAM_LOGOS: dict[str, str] = {}
+TEAM_COUNTRIES: dict[str, str] = {}
+
+COUNTRY_CODE_BY_NAME = {
+    "argentina": "ar",
+    "bolivia": "bo",
+    "brasil": "br",
+    "brazil": "br",
+    "chile": "cl",
+    "colombia": "co",
+    "ecuador": "ec",
+    "paraguay": "py",
+    "peru": "pe",
+    "perú": "pe",
+    "uruguay": "uy",
+    "venezuela": "ve",
+}
+
+TEAM_COUNTRY_HINTS = {
+    "club bolivar": "Bolivia", "bolivar": "Bolivia", "the strongest": "Bolivia",
+    "always ready": "Bolivia", "oriente petrolero": "Bolivia", "blooming": "Bolivia",
+    "aurora": "Bolivia", "real tomayapo": "Bolivia", "gv san jose": "Bolivia",
+    "gualberto villarroel san jose": "Bolivia", "abb": "Bolivia", "nacional potosi": "Bolivia",
+    "real potosi": "Bolivia", "real oruro": "Bolivia", "independiente petrolero": "Bolivia", "jorge wilstermann": "Bolivia",
+    "guabira": "Bolivia", "san antonio bulo bulo": "Bolivia", "universitario de vinto": "Bolivia",
+    "olimpia": "Paraguay", "libertad": "Paraguay", "cerro porteno": "Paraguay",
+    "cerro porteño": "Paraguay", "palmeiras": "Brasil", "flamengo": "Brasil", "santos": "Brasil",
+    "gremio": "Brasil", "grêmio": "Brasil", "cruzeiro": "Brasil", "corinthians": "Brasil",
+    "vasco da gama": "Brasil", "atletico mineiro": "Brasil", "atlético mineiro": "Brasil",
+    "bragantino": "Brasil", "mirassol": "Brasil", "estudiantes lp": "Argentina",
+    "estudiantes": "Argentina", "rosario central": "Argentina", "boca juniors": "Argentina",
+    "independiente rivadavia": "Argentina", "tigre": "Argentina", "argentinos juniors": "Argentina",
+    "coquimbo unido": "Chile", "universidad catolica": "Chile", "universidad católica": "Chile",
+    "ohiggins": "Chile", "o higgins": "Chile", "deportes tolima": "Colombia",
+    "independiente medellin": "Colombia", "independiente medellín": "Colombia",
+    "america de cali": "Colombia", "américa de cali": "Colombia", "independiente del valle": "Ecuador",
+    "liga de quito": "Ecuador", "macara": "Ecuador", "macará": "Ecuador",
+    "sporting cristal": "Perú", "cienciano": "Perú", "alianza atletico": "Perú",
+    "alianza atlético": "Perú", "nacional": "Uruguay", "juventud": "Uruguay", "cusco": "Perú",
+    "millonarios": "Colombia",
+    "fluminense": "Brasil", "sao paulo": "Brasil", "são paulo": "Brasil", "botafogo": "Brasil",
+    "river plate": "Argentina", "platense": "Argentina",
+    "recoleta": "Paraguay", "santa fe": "Colombia", "independiente santa fe": "Colombia",
+    "montevideo city torque": "Uruguay", "deportivo la guaira": "Venezuela",
+    "universidad central": "Venezuela", "barcelona": "Ecuador", "junior": "Colombia",
+    "penarol": "Uruguay", "peñarol": "Uruguay",
+    # Participantes detectados en Copa Simón Bolívar 2026 (todos Bolivia).
+    "10 de noviembre w c": "Bolivia", "26 de febrero": "Bolivia",
+    "atl independiente cbba": "Bolivia", "atletico juniors yotala": "Bolivia",
+    "atletico sucre": "Bolivia", "atletico del beni": "Bolivia",
+    "c d guadalajara": "Bolivia", "c d nueva santa cruz": "Bolivia", "c d kivon": "Bolivia",
+    "chaco f c pando": "Bolivia", "chaco petrolero": "Bolivia",
+    "chapaquito nacional senac": "Bolivia", "ciudad n s c academia f c": "Bolivia",
+    "deportivo a y b": "Bolivia", "deportivo fatic": "Bolivia", "deportivo tigres f c": "Bolivia",
+    "empresa minera huanuni": "Bolivia", "fancesa": "Bolivia", "german busch": "Bolivia",
+    "highland players": "Bolivia", "hiska nacional": "Bolivia", "i n san juan fc": "Bolivia",
+    "ingenieros": "Bolivia", "kivon": "Bolivia", "libertad f c pando": "Bolivia",
+    "libertad f c quillacollo": "Bolivia", "mineros potosi": "Bolivia",
+    "noroeste santa nelly": "Bolivia", "oruro royal": "Bolivia", "primero de mayo f c": "Bolivia",
+    "rio san juan humi": "Bolivia", "san martin yacuiba": "Bolivia",
+    "the strongest guayaramerin": "Bolivia", "tiquipaya": "Bolivia", "tiquipaya f c": "Bolivia",
+    "universitario sfxch": "Bolivia", "universitario de pando": "Bolivia",
+    "universitario de tarija": "Bolivia", "universitario del beni": "Bolivia",
+    "union tarija": "Bolivia", "virginia u s c": "Bolivia", "independiente": "Bolivia",
+    # Clubes CONMEBOL que necesitan país si la fuente no entrega escudo.
+    "academia puerto cabello": "Venezuela", "audax italiano": "Chile",
+    "barracas central": "Argentina", "boston river": "Uruguay", "carabobo": "Venezuela",
+    "caracas": "Venezuela", "deportivo cuenca": "Ecuador", "deportivo riestra": "Argentina",
+    "lanus": "Argentina", "palestino": "Chile", "racing club": "Argentina",
+    "san lorenzo": "Argentina", "universitario": "Perú",
+}
+
+
+def _country_code_from_name(country_name: str) -> str:
+    norm = normalize_title(country_name)
+    return COUNTRY_CODE_BY_NAME.get(norm, "")
+
+
+def _flag_url_for_country(country_name: str) -> str:
+    code = _country_code_from_name(country_name)
+    return f"https://flagcdn.com/w80/{code}.png" if code else ""
+
+
+def _extract_flag_country(src: str) -> str:
+    low = src.lower()
+    m = re.search(r"flag_of_([a-z_]+)", low)
+    if not m:
+        return ""
+    raw = m.group(1).replace('_', ' ')
+    raw = raw.replace('the ', '').replace('state of ', '').strip()
+    raw = raw.split('(')[0].strip()
+    raw = raw.title()
+    return {
+        'Peru': 'Perú',
+        'Brazil': 'Brasil',
+    }.get(raw, raw)
+
+
+def _team_country(name: str) -> str:
+    key = normalize_title(name)
+    return TEAM_COUNTRIES.get(key) or TEAM_COUNTRY_HINTS.get(key, "")
+
+
+def _team_visual(name: str) -> str:
+    key = normalize_title(name)
+    logo = TEAM_LOGOS.get(key, "")
+    if logo:
+        return logo
+    country = _team_country(name)
+    return _flag_url_for_country(country)
+
+
+
+def _harvest_named_team_images(soup: BeautifulSoup, base_url: str) -> None:
+    """Recupera escudos oficiales de cards CONMEBOL cuando el alt dice 'Plantilla de X'."""
+    patterns = [
+        re.compile(r"^(?:plantilla|escudo|logo)\s+de\s+(.+)$", re.I),
+        re.compile(r"^(.+?)\s+(?:club\s+)?logo$", re.I),
+    ]
+    for img in soup.find_all("img"):
+        src = img.get("data-src") or img.get("data-lazy-src") or img.get("src") or ""
+        if not src or str(src).startswith("data:") or "flag_of_" in str(src).lower():
+            continue
+        alt = clean_text(str(img.get("alt") or img.get("title") or ""))
+        team = ""
+        for pat in patterns:
+            m = pat.match(alt)
+            if m:
+                team = clean_text(m.group(1))
+                break
+        if not team:
+            continue
+        n = normalize_title(team)
+        if any(x in n for x in ("conmebol", "libertadores", "sudamericana", "facebook", "instagram")):
+            continue
+        TEAM_LOGOS.setdefault(n, absolute_url(base_url, str(src)))
+
 
 # Caché en memoria de la búsqueda externa de escudos (evita repetir la misma
 # consulta dos veces dentro de una corrida, ej. un equipo que aparece en
@@ -1414,24 +1906,23 @@ def _collect_missing_team_names(candidates: list[Item]) -> list[str]:
 def _harvest_team_logos(soup: BeautifulSoup, base_url: str) -> None:
     for table in soup.find_all("table"):
         for tr in table.find_all("tr"):
-            logo = _row_logo(tr, base_url)
-            if not logo:
+            image_url = _row_logo(tr, base_url)
+            if not image_url:
                 continue
-            # Wikipedia pone la BANDERA del país junto al nombre del equipo
-            # en las tablas de fase eliminatoria (Libertadores/Sudamericana:
-            # equipos extranjeros sin escudo en ninguna otra fuente nuestra).
-            # Es la bandera del país, no el escudo del club — mejor no
-            # mostrar nada a mostrar algo engañoso.
-            if "flag_of_" in logo.lower():
-                continue
+            is_flag = "flag_of_" in image_url.lower()
+            flag_country = _extract_flag_country(image_url) if is_flag else ""
             for cell in tr.find_all(["th", "td"]):
                 text = clean_text(cell.get_text(" ", strip=True))
                 # Nombre de equipo real: texto de varias letras, no un
                 # número/posición/porcentaje ("1", "+8", "34", "0.73").
                 if len(text) >= 3 and re.search(r"[a-zA-ZÀ-ÿ]{3,}", text):
                     key = normalize_title(text)
-                    if key and key not in TEAM_LOGOS:
-                        TEAM_LOGOS[key] = logo
+                    if not key:
+                        break
+                    if flag_country and key not in TEAM_COUNTRIES:
+                        TEAM_COUNTRIES[key] = flag_country
+                    if not is_flag and key not in TEAM_LOGOS:
+                        TEAM_LOGOS[key] = image_url
                     break
             else:
                 continue
@@ -1444,19 +1935,28 @@ def _backfill_logos(table_dict: dict[str, Any]) -> None:
     rows = extra.get("rows") or []
     if len(rows) < 2:
         return
-    header_norm = [clean_text(h).lower() for h in rows[0]]
+    header_norm = [clean_text(h).lower().rstrip(".") for h in rows[0]]
     try:
-        name_idx = header_norm.index("equipo")
-    except ValueError:
+        name_idx = next(i for i, h in enumerate(header_norm) if h in {"equipo", "club"})
+    except StopIteration:
         return
-    if any(extra.get("logos") or []):
-        return  # ya trae escudos propios (ej. tabla de FBF); no pisar.
-    logos = [""]  # fila 0 = header, sin logo
+    logos = [""]
+    countries = [""]
+    badge_types = ["none"]
     for row in rows[1:]:
         name = row[name_idx] if name_idx < len(row) else ""
-        logos.append(TEAM_LOGOS.get(normalize_title(name), ""))
+        key = normalize_title(name)
+        country = _team_country(name)
+        real_logo = TEAM_LOGOS.get(key, "")
+        visual = real_logo or _flag_url_for_country(country)
+        logos.append(visual)
+        countries.append(country)
+        badge_types.append("club_logo" if real_logo else ("country_flag" if visual else "none"))
+    # Siempre se reconstruye: así, si Wikipedia traía una bandera pero el
+    # cron encontró el escudo real en FBF/CONMEBOL, gana el escudo real.
     extra["logos"] = logos
-
+    extra["countries"] = countries
+    extra["badge_types"] = badge_types
 
 def _table_row_cells(tr: Tag, pending: dict[int, list]) -> list[str]:
     # Maneja rowspan (ej. Wikipedia: la columna "Fecha" solo aparece una vez
@@ -1742,6 +2242,7 @@ def scrape_web_source(http, source: dict[str, Any]) -> list[Item]:
     # escudos sirven igual para "vestir" la tabla de Wikipedia que no trae
     # imágenes.
     _harvest_team_logos(soup, r.url)
+    _harvest_named_team_images(soup, r.url)
     items = []
     items.extend(extract_jsonld(soup, source, r.url))
     items.extend(extract_news_cards(soup, source, r.url))
@@ -1755,6 +2256,7 @@ def scrape_web_source(http, source: dict[str, Any]) -> list[Item]:
         items.extend(extract_prose_matches(soup, source, r.url))
     if source.get("footballbox_matches", False):
         items.extend(extract_footballbox_matches(soup, source, r.url))
+    _enrich_missing_news(http, items, source, limit=4)
     # Deduplicación exacta local por ID.
     unique = {x.id: x for x in items}
     return list(unique.values())
@@ -1851,10 +2353,18 @@ def _merge_matches(match_items: list[Item]) -> dict[str, Any]:
     # Cada fila de partido tiene DOS equipos (local y visitante), no un solo
     # nombre por fila como en standings — se agregan 2 columnas más al final
     # con el escudo de cada uno, buscado por nombre en TEAM_LOGOS.
+    home_countries = []
+    away_countries = []
     for row in merged_rows:
-        home_logo = TEAM_LOGOS.get(normalize_title(row[1]), "") if len(row) > 1 else ""
-        away_logo = TEAM_LOGOS.get(normalize_title(row[3]), "") if len(row) > 3 else ""
-        row.extend([home_logo, away_logo])
+        home_name = row[1] if len(row) > 1 else ""
+        away_name = row[3] if len(row) > 3 else ""
+        home_logo = _team_visual(home_name)
+        away_logo = _team_visual(away_name)
+        home_countries.append(_team_country(home_name))
+        away_countries.append(_team_country(away_name))
+        row.extend([home_logo, away_logo, _team_country(home_name), _team_country(away_name),
+                    "club_logo" if TEAM_LOGOS.get(normalize_title(home_name)) else ("country_flag" if home_logo else "none"),
+                    "club_logo" if TEAM_LOGOS.get(normalize_title(away_name)) else ("country_flag" if away_logo else "none")])
 
     return {
         "kind": "matches",
@@ -1865,8 +2375,10 @@ def _merge_matches(match_items: list[Item]) -> dict[str, Any]:
         "competition": match_items[0].competition if match_items else "",
         "scraped_at": max((it.scraped_at or "" for it in match_items), default=""),
         "extra": {
-            "header": ["Fecha", "Local", "Resultado", "Visitante", "Estadio", "FechaPartido", "Hora", "LocalLogo", "VisitanteLogo"],
+            "header": ["Fecha", "Local", "Resultado", "Visitante", "Estadio", "FechaPartido", "Hora", "LocalLogo", "VisitanteLogo", "LocalPais", "VisitantePais", "LocalBadgeType", "VisitanteBadgeType"],
             "rows": merged_rows,
+            "home_countries": home_countries,
+            "away_countries": away_countries,
             "selected_as_current": True,
             "selection_reason": "se combina por partido (fecha+equipos) entre todas las fuentes, sin duplicar",
         },
@@ -1997,6 +2509,205 @@ def _merge_group_standings(items: list[Item]) -> dict[str, Any]:
     }
 
 
+def _parse_result_score(result_text: str) -> tuple[int | None, int | None, tuple[int, int] | None]:
+    text = clean_text(result_text)
+    if not text or text.lower().startswith('vs'):
+        return None, None, None
+    m = re.search(r"(\d+)\s*[:\-–]\s*(\d+)", text)
+    if not m:
+        return None, None, None
+    home = int(m.group(1))
+    away = int(m.group(2))
+    pens = None
+    pm = re.search(r"\((\d+)\s*[:\-–]\s*(\d+)\s*p\.?", text, flags=re.I)
+    if pm:
+        pens = (int(pm.group(1)), int(pm.group(2)))
+    return home, away, pens
+
+
+def _compute_knockout_qualifiers(matches_table: dict[str, Any], competition: str) -> dict[str, Any] | None:
+    """Calcula SOLO clasificados reales de Octavos -> Cuartos.
+
+    No toma la 'Eliminatoria de octavos' de Sudamericana como cuartos y no
+    declara ganador con un solo partido jugado cuando todavía falta la vuelta.
+    """
+    extra = matches_table.get("extra", {}) if isinstance(matches_table.get("extra"), dict) else {}
+    rows = extra.get("rows") or []
+    if not rows:
+        return None
+    series: dict[tuple[str, str], dict[str, Any]] = {}
+    for row in rows:
+        if len(row) < 4:
+            continue
+        round_norm = normalize_title(clean_text(str(row[0])))
+        # Exactamente Octavos de final. En Sudamericana 'Eliminatoria de
+        # octavos' es el playoff PREVIO y sus ganadores van a octavos, no a cuartos.
+        if round_norm != "octavos de final":
+            continue
+        home_team = clean_text(str(row[1]))
+        away_team = clean_text(str(row[3]))
+        if not home_team or not away_team:
+            continue
+        pair = tuple(sorted((normalize_title(home_team), normalize_title(away_team))))
+        serie = series.setdefault(pair, {
+            "teams": {normalize_title(home_team): home_team, normalize_title(away_team): away_team},
+            "legs": [],
+        })
+        score = _parse_result_score(str(row[2]))
+        serie["legs"].append({
+            "home": home_team,
+            "away": away_team,
+            "result": clean_text(str(row[2])),
+            "score": score,
+            "date": clean_text(str(row[5])) if len(row) > 5 else "",
+            "stadium": clean_text(str(row[4])) if len(row) > 4 else "",
+        })
+
+    winners: list[dict[str, Any]] = []
+    series_payload: list[dict[str, Any]] = []
+    for data in series.values():
+        teams = list(data["teams"].values())
+        if len(teams) != 2:
+            continue
+        agg = {normalize_title(teams[0]): 0, normalize_title(teams[1]): 0}
+        played = 0
+        penalty_winner = ""
+        legs_payload = []
+        for leg in data["legs"]:
+            hs, as_, pens = leg["score"]
+            if hs is not None and as_ is not None:
+                played += 1
+                hk, ak = normalize_title(leg["home"]), normalize_title(leg["away"])
+                agg[hk] = agg.get(hk, 0) + hs
+                agg[ak] = agg.get(ak, 0) + as_
+                if pens:
+                    penalty_winner = leg["home"] if pens[0] > pens[1] else leg["away"] if pens[1] > pens[0] else ""
+            legs_payload.append({
+                "home": leg["home"], "away": leg["away"], "result": leg["result"],
+                "date": leg["date"], "stadium": leg["stadium"],
+                "home_logo": _team_visual(leg["home"]), "away_logo": _team_visual(leg["away"]),
+                "home_country": _team_country(leg["home"]), "away_country": _team_country(leg["away"]),
+            })
+        # Octavos Libertadores/Sudamericana = ida y vuelta. Solo con 2
+        # partidos ya jugados (o tanda de penales explícita) hay clasificado.
+        complete = played >= 2 or bool(penalty_winner)
+        winner = ""
+        if complete:
+            a, b = normalize_title(teams[0]), normalize_title(teams[1])
+            if penalty_winner:
+                winner = penalty_winner
+            elif agg.get(a, 0) > agg.get(b, 0):
+                winner = data["teams"][a]
+            elif agg.get(b, 0) > agg.get(a, 0):
+                winner = data["teams"][b]
+        series_payload.append({
+            "round": "Octavos de final",
+            "teams": teams,
+            "legs_played": played,
+            "legs_expected": 2,
+            "status": "completed" if winner else ("in_progress" if played else "scheduled"),
+            "winner": winner,
+            "qualified_for": "Cuartos de final" if winner else "",
+            "aggregate": {data["teams"].get(k, k): v for k, v in agg.items()},
+            "legs": legs_payload,
+        })
+        if winner:
+            key = normalize_title(winner)
+            country = _team_country(winner)
+            real_logo = TEAM_LOGOS.get(key, "")
+            visual = _team_visual(winner)
+            winners.append({
+                "team": winner,
+                "country": country,
+                "logo_url": real_logo,
+                "display_badge_url": visual,
+                "badge_type": "club_logo" if real_logo else ("country_flag" if visual else "none"),
+            })
+
+    unique: list[dict[str, Any]] = []
+    seen = set()
+    for row in winners:
+        key = normalize_title(row["team"])
+        if key in seen:
+            continue
+        seen.add(key)
+        unique.append(row)
+    if not series_payload:
+        return None
+
+    rows_out = [["N°", "Equipo", "País"], *[[str(i), x["team"], x["country"]] for i, x in enumerate(unique, start=1)]]
+    logos = [""] + [x["display_badge_url"] for x in unique]
+    countries = [""] + [x["country"] for x in unique]
+    badge_types = ["none"] + [x["badge_type"] for x in unique]
+    return {
+        "kind": "standings",
+        "title": f"Clasificados a cuartos de final ({len(unique)}/8)",
+        "source_id": "computed",
+        "source_name": matches_table.get("source_name", ""),
+        "scope": matches_table.get("scope", ""),
+        "competition": competition,
+        "scraped_at": matches_table.get("scraped_at", ""),
+        "extra": {
+            "rows": rows_out,
+            "logos": logos,
+            "countries": countries,
+            "badge_types": badge_types,
+            "qualified_count": len(unique),
+            "expected_qualifiers": 8,
+            "remaining": max(0, 8 - len(unique)),
+            "round": "Octavos de final",
+            "next_round": "Cuartos de final",
+            "series": series_payload,
+            "qualified_teams": unique,
+            "selected_as_current": True,
+            "selection_reason": "muestra únicamente series de octavos ya terminadas; una ida sola nunca cuenta como clasificación",
+        },
+    }
+
+def _collect_current_team_assets(competitions: dict[str, Any]) -> dict[str, Any]:
+    """Índice centralizado de equipos para que el front no tenga que buscar escudos fila por fila."""
+    names: dict[str, str] = {}
+    for payload in competitions.values():
+        if not isinstance(payload, dict):
+            continue
+        for key in ("standings", "group_standings"):
+            table = payload.get(key) or {}
+            rows = (table.get("extra") or {}).get("rows") or []
+            if not rows:
+                continue
+            headers = [normalize_title(str(x)) for x in rows[0]]
+            try:
+                idx = next(i for i, h in enumerate(headers) if h in {"equipo", "club"})
+            except StopIteration:
+                continue
+            for row in rows[1:]:
+                if idx < len(row):
+                    name = clean_text(str(row[idx]))
+                    if name:
+                        names.setdefault(normalize_title(name), name)
+        matches = payload.get("matches") or {}
+        for row in (matches.get("extra") or {}).get("rows") or []:
+            if len(row) >= 4:
+                for pos in (1, 3):
+                    name = clean_text(str(row[pos]))
+                    if name:
+                        names.setdefault(normalize_title(name), name)
+
+    out: dict[str, Any] = {}
+    for key, name in sorted(names.items(), key=lambda kv: kv[1].lower()):
+        country = _team_country(name)
+        club_logo = TEAM_LOGOS.get(key, "")
+        display = club_logo or _flag_url_for_country(country)
+        out[key] = {
+            "name": name,
+            "country": country,
+            "logo_url": club_logo,
+            "display_badge_url": display,
+            "badge_type": "club_logo" if club_logo else ("country_flag" if display else "none"),
+        }
+    return out
+
+
 def build_current_tables(items: list[Item], http: "HttpClient | None" = None) -> dict[str, Any]:
     """Elige una sola tabla vigente por competición/tipo para que la app no tenga que adivinar."""
     candidates = [
@@ -2075,27 +2786,59 @@ def build_current_tables(items: list[Item], http: "HttpClient | None" = None) ->
             computed = _compute_standings_from_matches(chosen["matches"])
             if computed:
                 chosen["standings"] = computed
+        if comp in {'libertadores', 'sudamericana'} and 'matches' in chosen:
+            knockout = _compute_knockout_qualifiers(chosen['matches'], comp)
+            if knockout:
+                chosen['knockout'] = knockout
+                if knockout.get('extra', {}).get('qualified_count', 0) > 0:
+                    if 'standings' in chosen:
+                        chosen['group_standings'] = chosen['standings']
+                    # Backward compatible: el front antiguo que solo mira
+                    # 'standings' ya verá "Clasificados a cuartos (N/8)".
+                    chosen['standings'] = knockout
         if "standings" in chosen:
             _backfill_logos(chosen["standings"])
+        if 'group_standings' in chosen:
+            _backfill_logos(chosen['group_standings'])
         if chosen:
             competitions[comp] = chosen
+    team_assets = _collect_current_team_assets(competitions)
     return {
-        'schema_version': 4,
+        'schema_version': 6,
         'generated_at': utc_now_iso(),
-        'policy': 'una tabla por competición/tipo; fuentes oficiales tienen prioridad',
+        'policy': 'datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback',
+        'assets_policy': 'club_logo > country_flag > none',
+        'team_assets': team_assets,
         'competitions': competitions,
     }
 
 
 def build_app_feed(items: list[Item], limit: int = 250) -> dict[str, Any]:
-    feed = [x for x in items if x.kind in {'news','social','video'}]
-    feed.sort(key=lambda z: (z.rank_score, z.published_at or ''), reverse=True)
+    feed: list[Item] = []
+    for x in items:
+        if x.kind not in {"news", "social", "video"}:
+            continue
+        # El feed visible prioriza noticias verificables y fechadas. Las piezas
+        # sin fecha permanecen en latest.json, pero no ensucian Noticias.
+        if x.kind == "news" and not x.published_at:
+            continue
+        quality = news_content_quality(x.title, x.text, x.kind)
+        x.extra.setdefault("content_quality", quality)
+        x.extra.setdefault("summary", clean_news_text(x.text, x.title))
+        x.extra.setdefault("published_date", x.published_at[:10] if x.published_at else "")
+        x.extra.setdefault("published_display", published_display(x.published_at))
+        threshold = 0.27 if x.kind == "news" else 0.43
+        if quality < threshold:
+            continue
+        x.extra["feed_score"] = round(0.68 * float(x.rank_score or 0) + 0.32 * quality, 6)
+        feed.append(x)
+    feed.sort(key=lambda z: (float(z.extra.get("feed_score", 0)), z.published_at or ""), reverse=True)
     return {
-        'schema_version': 4,
-        'generated_at': utc_now_iso(),
-        'items': [x.to_dict() for x in feed[:limit]],
+        "schema_version": 6,
+        "generated_at": utc_now_iso(),
+        "policy": "feed deportivo editorial: elimina widgets estadísticos, texto de interfaz, promociones y publicaciones de poco valor",
+        "items": [x.to_dict() for x in feed[:limit]],
     }
-
 
 def run(config_path: Path, output_dir: Path) -> dict[str, Any]:
     cfg = load_config(config_path)
@@ -2132,6 +2875,11 @@ def run(config_path: Path, output_dir: Path) -> dict[str, Any]:
     for item in items:
         classify(item)
         item.rank_score = rank_item(item)
+        if item.kind in {"news", "social", "video"}:
+            item.extra.setdefault("summary", clean_news_text(item.text, item.title))
+            item.extra.setdefault("content_quality", news_content_quality(item.title, item.text, item.kind))
+            item.extra.setdefault("published_date", item.published_at[:10] if item.published_at else "")
+            item.extra.setdefault("published_display", published_display(item.published_at))
         max_days = int(settings.get("keep_days_social", 14) if item.kind in {"social", "video"} else settings.get("keep_days_news", 45))
         mark_stale(item, max_days)
 
@@ -2174,10 +2922,17 @@ def run(config_path: Path, output_dir: Path) -> dict[str, Any]:
         "items": _serialize(facebook_items[:200]),
     }
     buckets["app_feed.json"] = build_app_feed(live, 250)
-    buckets["current_tables.json"] = build_current_tables(live, http)
+    current_tables = build_current_tables(live, http)
+    buckets["current_tables.json"] = current_tables
 
     for name, payload in buckets.items():
         json_dump(output_dir / name, payload)
+
+    try:
+        import supabase_sync
+        supabase_sync.sync(_serialize(live), current_tables)
+    except Exception as exc:
+        errors.append({"source": "supabase_sync", "error": f"{type(exc).__name__}: {exc}"})
 
     manifest = {
         "schema_version": 4,

@@ -2727,23 +2727,30 @@ def build_current_tables(items: list[Item], http: "HttpClient | None" = None) ->
         # una corrida anterior) para no volver a pedirle nada a las fuentes
         # externas por gusto; solo se busca lo que sigue faltando después de
         # eso.
+        # Nota: se cargan también las entradas vacías (equipo buscado antes,
+        # sin escudo encontrado). Sin esto, un club chico sin página en
+        # Wikipedia se reintenta en TODAS las corridas para siempre, gastando
+        # varios segundos por equipo en pedidos que nunca van a encontrar
+        # nada. Igual que el caché de positivos, no vence solo: si algún día
+        # ese club sí consigue página, hay que borrar su entrada del JSON a
+        # mano para que se vuelva a intentar.
         cache = _load_team_logo_cache()
         cache_hits = 0
         for key, url in cache.items():
-            if url and key not in TEAM_LOGOS:
+            if key not in TEAM_LOGOS:
                 TEAM_LOGOS[key] = url
-                cache_hits += 1
+                if url:
+                    cache_hits += 1
 
         missing_names = _collect_missing_team_names(candidates)
         unresolved = []
         newly_resolved: dict[str, str] = {}
         for name in missing_names:
             logo = _lookup_team_logo(http, name)
-            if logo:
-                key = normalize_title(name)
-                TEAM_LOGOS[key] = logo
-                newly_resolved[key] = logo
-            else:
+            key = normalize_title(name)
+            TEAM_LOGOS[key] = logo
+            newly_resolved[key] = logo
+            if not logo:
                 unresolved.append(name)
 
         if newly_resolved:

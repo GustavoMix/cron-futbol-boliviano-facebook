@@ -1,12 +1,12 @@
 {
   "schema_version": 5,
-  "generated_at": "2026-08-20T10:34:10.636018Z",
+  "generated_at": "2026-08-20T10:40:45.847846Z",
   "groups": [
     {
       "group": "oficiales",
-      "last_good_at": "2026-08-20T08:51:44.640083Z",
+      "last_good_at": "2026-08-20T10:40:45.792783Z",
       "last_attempt_ok": true,
-      "items": 30
+      "items": 31
     },
     {
       "group": "clubes",
@@ -107,6 +107,77 @@
               "width": 524,
               "height": 640,
               "alt": "Puede ser una imagen de texto"
+            }
+          ],
+          "videos": [],
+          "posters": []
+        },
+        "direct_video_is_temporary": false,
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
+      }
+    },
+    {
+      "id": "167de9f5822f80cb2247",
+      "kind": "social",
+      "platform": "facebook",
+      "post_id": "pfbid02EENG1hbwDnqsXvAGuvteVNvGqf5JJk1rGs23mQ1iVjR9C3gL18Yn2hJPUJVXVoyHl",
+      "title": "Federación Boliviana de Fútbol 7 h · Te presentamos las mejores imágenes del acto inaugural del FIFA Arena en la zona de Munaypata en la ciudad de La Paz. … Ver más +16 Todas las r",
+      "text": "Federación Boliviana de Fútbol 7 h · Te presentamos las mejores imágenes del acto inaugural del FIFA Arena en la zona de Munaypata en la ciudad de La Paz. … Ver más +16 Todas las reacciones: 25 4 Me gusta Comentar",
+      "url": "https://www.facebook.com/LaVerdeOficial/posts/pfbid02EENG1hbwDnqsXvAGuvteVNvGqf5JJk1rGs23mQ1iVjR9C3gL18Yn2hJPUJVXVoyHl",
+      "post_url": "https://www.facebook.com/LaVerdeOficial/posts/pfbid02EENG1hbwDnqsXvAGuvteVNvGqf5JJk1rGs23mQ1iVjR9C3gL18Yn2hJPUJVXVoyHl",
+      "image_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-6/777801425_1580132163779196_6499111387656575134_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1066&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=kmJV5m6W_okQ7kNvwGHoO-G&_nc_oc=Ado3ADLhy0-afDPn7XMVFe6xDhbSK04YU5QDE8ZHn70DuUfU6hzfFf_zH92FWATae0Y&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&_nc_gid=CnhKuccxMe67luEcnhImFw&_nc_ss=7f289&oh=00_AQFYZVNI-hsFg3UpGH-mcw7vOSrt4vLhwUTcIqa6rU-AGw&oe=6A8C91C6",
+      "thumbnail_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-6/777801425_1580132163779196_6499111387656575134_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1066&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=kmJV5m6W_okQ7kNvwGHoO-G&_nc_oc=Ado3ADLhy0-afDPn7XMVFe6xDhbSK04YU5QDE8ZHn70DuUfU6hzfFf_zH92FWATae0Y&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&_nc_gid=CnhKuccxMe67luEcnhImFw&_nc_ss=7f289&oh=00_AQFYZVNI-hsFg3UpGH-mcw7vOSrt4vLhwUTcIqa6rU-AGw&oe=6A8C91C6",
+      "video_url": "",
+      "video_post_url": "",
+      "media_type": "image",
+      "published_at": "2026-08-20T03:40:28.594842Z",
+      "scraped_at": "2026-08-20T10:40:28.595198Z",
+      "source_id": "facebook_browser:federaci_n_boliviana_de_f_tbol",
+      "source_name": "Facebook · Federación Boliviana de Fútbol",
+      "source_type": "facebook_browser_public",
+      "source_authority": 0.98,
+      "scope": "bolivia",
+      "competition": "seleccion_bolivia",
+      "rank_score": 0.9244,
+      "stale": false,
+      "extra": {
+        "collector": "browser_public",
+        "page_name": "Federación Boliviana de Fútbol",
+        "page_url": "https://www.facebook.com/LaVerdeOficial/",
+        "group": "oficiales",
+        "age_hours": 7.0,
+        "freshness_unknown": false,
+        "media": {
+          "images": [
+            {
+              "url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-6/777801425_1580132163779196_6499111387656575134_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1066&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=kmJV5m6W_okQ7kNvwGHoO-G&_nc_oc=Ado3ADLhy0-afDPn7XMVFe6xDhbSK04YU5QDE8ZHn70DuUfU6hzfFf_zH92FWATae0Y&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&_nc_gid=CnhKuccxMe67luEcnhImFw&_nc_ss=7f289&oh=00_AQFYZVNI-hsFg3UpGH-mcw7vOSrt4vLhwUTcIqa6rU-AGw&oe=6A8C91C6",
+              "width": 590,
+              "height": 393,
+              "alt": ""
+            },
+            {
+              "url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-6/775233460_1580132420445837_6136124766362815738_n.jpg?stp=dst-jpg_tt6&cstp=mx1066x1600&ctp=s590x590&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=kaEGGa5baKMQ7kNvwHdeeEJ&_nc_oc=AdolB5jlmAqIHH10HUlI-VCX0c8DjU7AvKW65OxQMnTMcBZ-Q4iG6SjCyuSTQYARaN0&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&_nc_gid=CnhKuccxMe67luEcnhImFw&_nc_ss=7f289&oh=00_AQEgeXDpPjH1_WQiS0ic8IlmxGxhbIvfszJ2_tBdHNjpQw&oe=6A8CAA65",
+              "width": 393,
+              "height": 590,
+              "alt": ""
+            },
+            {
+              "url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-6/776989740_1580132453779167_4326215952380635163_n.jpg?stp=dst-jpg_tt6&cstp=mx1066x1600&ctp=s590x590&_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=x9TRsWUAoAwQ7kNvwHXXc1z&_nc_oc=AdrZzTPw89C2eFVDrvQiS9dXWNOGZUJTuZcEECQn1QFi8Xb3bHx65itjMM04Xv8sPTI&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&_nc_gid=CnhKuccxMe67luEcnhImFw&_nc_ss=7f289&oh=00_AQGR9zz3xQx1YQXzvnksHWi6PkhDrsLhUNpl2th2glNmqw&oe=6A8CAF7E",
+              "width": 393,
+              "height": 590,
+              "alt": ""
+            },
+            {
+              "url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-6/776658414_1580132773779135_1563203852905248114_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1066&ctp=s590x590&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=mLw3qNgsDB0Q7kNvwEFf2y5&_nc_oc=Ado6mYO865xpM7ktvzDl8rdO79rN5cr75N_o9qujx-fbrhRo9yK2XAHXfBg5ldDUFyw&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&_nc_gid=CnhKuccxMe67luEcnhImFw&_nc_ss=7f289&oh=00_AQH_tvBiSQp9QdH4zpJnuaQHL3Pn3qhgJ8l7YuXDPug7jg&oe=6A8CC387",
+              "width": 590,
+              "height": 393,
+              "alt": ""
+            },
+            {
+              "url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-6/781869447_1580132663779146_7062441457424066359_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1066&ctp=s590x590&_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=N15h6FIdk-8Q7kNvwElAmN_&_nc_oc=AdoUWt4xsHVRRQ6rMnRnq6xYDKGJTi1X4wJcRxh-whYm3khRK8W0eFGvrmVm39Ladto&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&_nc_gid=CnhKuccxMe67luEcnhImFw&_nc_ss=7f289&oh=00_AQFmlLXtWNYOxJgkfwNtajv5XEMFAKkqWc6GL8qP4i98QA&oe=6A8CA8EE",
+              "width": 590,
+              "height": 393,
+              "alt": ""
             }
           ],
           "videos": [],
@@ -329,53 +400,6 @@
       }
     },
     {
-      "id": "89dcdd6cf216320d8ef1",
-      "kind": "social",
-      "platform": "facebook",
-      "post_id": "1886631882319426",
-      "title": "Club Always Ready 7 h · PRÓXIMO PARTIDO A… Ver más 0:00 / 0:13 Todas las reacciones: 78 8 2 Me gusta Comentar Ver más comentarios Euchz HA Mafiosos 1 h",
-      "text": "Club Always Ready 7 h · PRÓXIMO PARTIDO A… Ver más 0:00 / 0:13 Todas las reacciones: 78 8 2 Me gusta Comentar Ver más comentarios Euchz HA Mafiosos 1 h",
-      "url": "https://www.facebook.com/reel/1886631882319426/",
-      "post_url": "https://www.facebook.com/reel/1886631882319426/",
-      "image_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t15.5256-10/778453991_2089108908664725_2944180987769156276_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=104&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=M1tT4OcwPTEQ7kNvwEOUEx6&_nc_oc=AdqBu8TUSWBSLCmB_3YZwwk7PRYMnt__K2OPQuAbiB8hHXbK95wBkXYf9Zx5-nASsBE&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&_nc_gid=1okbwyadVV1wcVOqOQH3Lw&_nc_ss=7f289&oh=00_AQFqwGM2QjR30QVFZ3MBxke2wP4XoLxHJOJpeZIww2lIcQ&oe=6A8C7883",
-      "thumbnail_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t15.5256-10/778453991_2089108908664725_2944180987769156276_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=104&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=M1tT4OcwPTEQ7kNvwEOUEx6&_nc_oc=AdqBu8TUSWBSLCmB_3YZwwk7PRYMnt__K2OPQuAbiB8hHXbK95wBkXYf9Zx5-nASsBE&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&_nc_gid=1okbwyadVV1wcVOqOQH3Lw&_nc_ss=7f289&oh=00_AQFqwGM2QjR30QVFZ3MBxke2wP4XoLxHJOJpeZIww2lIcQ&oe=6A8C7883",
-      "video_url": "",
-      "video_post_url": "https://www.facebook.com/reel/1886631882319426/",
-      "media_type": "reel",
-      "published_at": "2026-08-20T01:51:44.464282Z",
-      "scraped_at": "2026-08-20T08:51:44.464390Z",
-      "source_id": "facebook_browser:club_always_ready",
-      "source_name": "Facebook · Club Always Ready",
-      "source_type": "facebook_browser_public",
-      "source_authority": 0.9,
-      "scope": "bolivia",
-      "competition": "clubes_bolivia",
-      "rank_score": 0.902,
-      "stale": false,
-      "extra": {
-        "collector": "browser_public",
-        "page_name": "Club Always Ready",
-        "page_url": "https://www.facebook.com/ClubAlwaysReady.Bo/",
-        "group": "oficiales",
-        "age_hours": 7.0,
-        "freshness_unknown": false,
-        "media": {
-          "images": [
-            {
-              "url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t15.5256-10/778453991_2089108908664725_2944180987769156276_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=104&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=M1tT4OcwPTEQ7kNvwEOUEx6&_nc_oc=AdqBu8TUSWBSLCmB_3YZwwk7PRYMnt__K2OPQuAbiB8hHXbK95wBkXYf9Zx5-nASsBE&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&_nc_gid=1okbwyadVV1wcVOqOQH3Lw&_nc_ss=7f289&oh=00_AQFqwGM2QjR30QVFZ3MBxke2wP4XoLxHJOJpeZIww2lIcQ&oe=6A8C7883",
-              "width": 540,
-              "height": 960,
-              "alt": ""
-            }
-          ],
-          "videos": [],
-          "posters": []
-        },
-        "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
-    },
-    {
       "id": "18e51ea6be991ea3c424",
       "kind": "social",
       "platform": "facebook",
@@ -418,6 +442,53 @@
               "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/775166975_1580097567115989_6036205794308585491_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=lzFMvRhXs2EQ7kNvwHdRZnN&_nc_oc=AdqWlRiM766sZBuJsaH4PudajTVSKw5PMMVk-Z0RNoYab1-mozulAip1xetmtA-V98o&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=_CeZ4OxqZwAD9N9oOn6e1g&_nc_ss=7f289&oh=00_AQHK-ZM4Dt_q7lzhEkwTO70tXmjefyXfNf8uPS9-28G8wg&oe=6A8C18B7",
               "width": 590,
               "height": 590,
+              "alt": ""
+            }
+          ],
+          "videos": [],
+          "posters": []
+        },
+        "direct_video_is_temporary": false,
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
+      }
+    },
+    {
+      "id": "89dcdd6cf216320d8ef1",
+      "kind": "social",
+      "platform": "facebook",
+      "post_id": "1886631882319426",
+      "title": "Club Always Ready 9 h · PRÓXIMO PARTIDO A… Ver más 0:00 / 0:13 Todas las reacciones: 79 11 2 Me gusta Comentar Ver más comentarios Euchz HA Mafiosos 2 h",
+      "text": "Club Always Ready 9 h · PRÓXIMO PARTIDO A… Ver más 0:00 / 0:13 Todas las reacciones: 79 11 2 Me gusta Comentar Ver más comentarios Euchz HA Mafiosos 2 h",
+      "url": "https://www.facebook.com/reel/1886631882319426/",
+      "post_url": "https://www.facebook.com/reel/1886631882319426/",
+      "image_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t15.5256-10/778453991_2089108908664725_2944180987769156276_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=104&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=M1tT4OcwPTEQ7kNvwFv35SW&_nc_oc=Ado0uUtkLr8q-NAVlup8ZUhSRNua_eEndKhLZcu3XR9k_LEvm8kI4c3tDkvFSFdcBVM&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Fo9ZvFAPgLlisahOgwFdSw&_nc_ss=7f289&oh=00_AQHkogPiH7RvK_vv08BxwHNybt2A1CPZeyrR9xzVM_WsDA&oe=6A8CB0C3",
+      "thumbnail_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t15.5256-10/778453991_2089108908664725_2944180987769156276_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=104&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=M1tT4OcwPTEQ7kNvwFv35SW&_nc_oc=Ado0uUtkLr8q-NAVlup8ZUhSRNua_eEndKhLZcu3XR9k_LEvm8kI4c3tDkvFSFdcBVM&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Fo9ZvFAPgLlisahOgwFdSw&_nc_ss=7f289&oh=00_AQHkogPiH7RvK_vv08BxwHNybt2A1CPZeyrR9xzVM_WsDA&oe=6A8CB0C3",
+      "video_url": "",
+      "video_post_url": "https://www.facebook.com/reel/1886631882319426/",
+      "media_type": "reel",
+      "published_at": "2026-08-20T01:40:45.486885Z",
+      "scraped_at": "2026-08-20T10:40:45.486956Z",
+      "source_id": "facebook_browser:club_always_ready",
+      "source_name": "Facebook · Club Always Ready",
+      "source_type": "facebook_browser_public",
+      "source_authority": 0.9,
+      "scope": "bolivia",
+      "competition": "clubes_bolivia",
+      "rank_score": 0.882,
+      "stale": false,
+      "extra": {
+        "collector": "browser_public",
+        "page_name": "Club Always Ready",
+        "page_url": "https://www.facebook.com/ClubAlwaysReady.Bo/",
+        "group": "oficiales",
+        "age_hours": 9.0,
+        "freshness_unknown": false,
+        "media": {
+          "images": [
+            {
+              "url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t15.5256-10/778453991_2089108908664725_2944180987769156276_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=104&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=M1tT4OcwPTEQ7kNvwFv35SW&_nc_oc=Ado0uUtkLr8q-NAVlup8ZUhSRNua_eEndKhLZcu3XR9k_LEvm8kI4c3tDkvFSFdcBVM&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Fo9ZvFAPgLlisahOgwFdSw&_nc_ss=7f289&oh=00_AQHkogPiH7RvK_vv08BxwHNybt2A1CPZeyrR9xzVM_WsDA&oe=6A8CB0C3",
+              "width": 540,
+              "height": 960,
               "alt": ""
             }
           ],
@@ -476,6 +547,53 @@
       }
     },
     {
+      "id": "c250cf3dcea4d5d25997",
+      "kind": "social",
+      "platform": "facebook",
+      "post_id": "1584976913027704",
+      "title": "Club Bolívar 10 h · CUANDO EL BOLIVARISMO SE UNE, NO HAY DISTANCIA QUE NOS SEPARE. C… Ver más 0:00 / 0:57 Todas las reacciones: 218 49 3 Me gusta Comentar",
+      "text": "Club Bolívar 10 h · CUANDO EL BOLIVARISMO SE UNE, NO HAY DISTANCIA QUE NOS SEPARE. C… Ver más 0:00 / 0:57 Todas las reacciones: 218 49 3 Me gusta Comentar",
+      "url": "https://www.facebook.com/reel/1584976913027704/",
+      "post_url": "https://www.facebook.com/reel/1584976913027704/",
+      "image_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t15.5256-10/779865025_1801533277958431_159003525628269051_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=prHyO5QnBrMQ7kNvwHtf76J&_nc_oc=AdrZ6t3MtEI5r6shxQk_OIJJ7O0HwkMP958Lw4fWQgp0tKXZZGIoOBXrusKTLdmpyVk&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&_nc_gid=hZcGyoFJct9wV0rqtxehjw&_nc_ss=7f289&oh=00_AQGHnYa_AkQIl2VTxUcYeG8gF8beQa6Q__OcaSv-XCFPjw&oe=6A8CA4D5",
+      "thumbnail_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t15.5256-10/779865025_1801533277958431_159003525628269051_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=prHyO5QnBrMQ7kNvwHtf76J&_nc_oc=AdrZ6t3MtEI5r6shxQk_OIJJ7O0HwkMP958Lw4fWQgp0tKXZZGIoOBXrusKTLdmpyVk&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&_nc_gid=hZcGyoFJct9wV0rqtxehjw&_nc_ss=7f289&oh=00_AQGHnYa_AkQIl2VTxUcYeG8gF8beQa6Q__OcaSv-XCFPjw&oe=6A8CA4D5",
+      "video_url": "",
+      "video_post_url": "https://www.facebook.com/reel/1584976913027704/",
+      "media_type": "reel",
+      "published_at": "2026-08-20T00:40:34.106863Z",
+      "scraped_at": "2026-08-20T10:40:34.107042Z",
+      "source_id": "facebook_browser:club_bol_var",
+      "source_name": "Facebook · Club Bolívar",
+      "source_type": "facebook_browser_public",
+      "source_authority": 0.92,
+      "scope": "bolivia",
+      "competition": "clubes_bolivia",
+      "rank_score": 0.8776,
+      "stale": false,
+      "extra": {
+        "collector": "browser_public",
+        "page_name": "Club Bolívar",
+        "page_url": "https://www.facebook.com/CLUBBOLIVAR/",
+        "group": "oficiales",
+        "age_hours": 10.0,
+        "freshness_unknown": false,
+        "media": {
+          "images": [
+            {
+              "url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t15.5256-10/779865025_1801533277958431_159003525628269051_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=prHyO5QnBrMQ7kNvwHtf76J&_nc_oc=AdrZ6t3MtEI5r6shxQk_OIJJ7O0HwkMP958Lw4fWQgp0tKXZZGIoOBXrusKTLdmpyVk&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&_nc_gid=hZcGyoFJct9wV0rqtxehjw&_nc_ss=7f289&oh=00_AQGHnYa_AkQIl2VTxUcYeG8gF8beQa6Q__OcaSv-XCFPjw&oe=6A8CA4D5",
+              "width": 960,
+              "height": 540,
+              "alt": ""
+            }
+          ],
+          "videos": [],
+          "posters": []
+        },
+        "direct_video_is_temporary": false,
+        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
+      }
+    },
+    {
       "id": "e0aa0656039f6850e874",
       "kind": "social",
       "platform": "facebook",
@@ -523,43 +641,43 @@
       }
     },
     {
-      "id": "c250cf3dcea4d5d25997",
+      "id": "968fe005aa059512136e",
       "kind": "social",
       "platform": "facebook",
-      "post_id": "1584976913027704",
-      "title": "Club Bolívar 9 h · CUANDO EL BOLIVARISMO SE UNE, NO HAY DISTANCIA QUE NOS SEPARE. C… Ver más 0:00 / 0:57 Todas las reacciones: 211 49 2 Me gusta Comentar",
-      "text": "Club Bolívar 9 h · CUANDO EL BOLIVARISMO SE UNE, NO HAY DISTANCIA QUE NOS SEPARE. C… Ver más 0:00 / 0:57 Todas las reacciones: 211 49 2 Me gusta Comentar",
-      "url": "https://www.facebook.com/reel/1584976913027704/",
-      "post_url": "https://www.facebook.com/reel/1584976913027704/",
-      "image_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t15.5256-10/779865025_1801533277958431_159003525628269051_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=prHyO5QnBrMQ7kNvwEDgSL3&_nc_oc=AdrhS2GnBPbd07AWXalVovI7q-yOt5Gcjj-Aw31IDnlFWBburD7fOL2ztPKsPOFqOk0&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&_nc_gid=gy5yvF7bWHaXvXBeGEhkuA&_nc_ss=7f289&oh=00_AQF2kYSl4EQloTyI9-iW1a9uAJSMVdIgdoKsAppDULQm4g&oe=6A8CA4D5",
-      "thumbnail_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t15.5256-10/779865025_1801533277958431_159003525628269051_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=prHyO5QnBrMQ7kNvwEDgSL3&_nc_oc=AdrhS2GnBPbd07AWXalVovI7q-yOt5Gcjj-Aw31IDnlFWBburD7fOL2ztPKsPOFqOk0&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&_nc_gid=gy5yvF7bWHaXvXBeGEhkuA&_nc_ss=7f289&oh=00_AQF2kYSl4EQloTyI9-iW1a9uAJSMVdIgdoKsAppDULQm4g&oe=6A8CA4D5",
+      "post_id": "pfbid0VDnkZ8JoZZPQ1gGD2qa9TeuFXbbNWhWPEa7uSBMfb7xASmDm81NnQy7J2ogkATatl",
+      "title": "Club The Strongest 11 h · Este viernes, ¡nuestra cita es en la Liga! Es momento de apoyar al equipo, alentar con todo y llenar el Hernando Siles. … Ver más Todas las reacciones: 24",
+      "text": "Club The Strongest 11 h · Este viernes, ¡nuestra cita es en la Liga! Es momento de apoyar al equipo, alentar con todo y llenar el Hernando Siles. … Ver más Todas las reacciones: 247 21 6 Me gusta Comentar Ver más comentarios Ismael Gonzales Al menos 15 la curva 11 h 7 Jean Marco Benavente Ismael Gonzales para el nivel del equipo deberia ser a 10 11 h 1",
+      "url": "https://www.facebook.com/clubthestrongestoficial/posts/pfbid0VDnkZ8JoZZPQ1gGD2qa9TeuFXbbNWhWPEa7uSBMfb7xASmDm81NnQy7J2ogkATatl",
+      "post_url": "https://www.facebook.com/clubthestrongestoficial/posts/pfbid0VDnkZ8JoZZPQ1gGD2qa9TeuFXbbNWhWPEa7uSBMfb7xASmDm81NnQy7J2ogkATatl",
+      "image_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/778025517_2154291395131869_8579500230080623709_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=rh40X0L_KXEQ7kNvwGqmOH2&_nc_oc=Adr07TIL50mgERQ_s6aW4E9QWblMMtXNbTFHOi280RJnQLolzx_p990HaAnfITc3bm0&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=s_Lhko2IwkIP7EEgTc-reg&_nc_ss=7f289&oh=00_AQGPhQmssvZsSA7zMUMkIo4d8F1JBY8YQFC2boO464cePg&oe=6A8C9CC3",
+      "thumbnail_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/778025517_2154291395131869_8579500230080623709_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=rh40X0L_KXEQ7kNvwGqmOH2&_nc_oc=Adr07TIL50mgERQ_s6aW4E9QWblMMtXNbTFHOi280RJnQLolzx_p990HaAnfITc3bm0&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=s_Lhko2IwkIP7EEgTc-reg&_nc_ss=7f289&oh=00_AQGPhQmssvZsSA7zMUMkIo4d8F1JBY8YQFC2boO464cePg&oe=6A8C9CC3",
       "video_url": "",
-      "video_post_url": "https://www.facebook.com/reel/1584976913027704/",
-      "media_type": "reel",
-      "published_at": "2026-08-19T23:51:33.693555Z",
-      "scraped_at": "2026-08-20T08:51:33.693759Z",
-      "source_id": "facebook_browser:club_bol_var",
-      "source_name": "Facebook · Club Bolívar",
+      "video_post_url": "",
+      "media_type": "image",
+      "published_at": "2026-08-19T23:40:39.759844Z",
+      "scraped_at": "2026-08-20T10:40:39.759919Z",
+      "source_id": "facebook_browser:club_the_strongest",
+      "source_name": "Facebook · Club The Strongest",
       "source_type": "facebook_browser_public",
       "source_authority": 0.92,
       "scope": "bolivia",
       "competition": "clubes_bolivia",
-      "rank_score": 0.8876,
+      "rank_score": 0.8676,
       "stale": false,
       "extra": {
         "collector": "browser_public",
-        "page_name": "Club Bolívar",
-        "page_url": "https://www.facebook.com/CLUBBOLIVAR/",
+        "page_name": "Club The Strongest",
+        "page_url": "https://www.facebook.com/clubthestrongestoficial/",
         "group": "oficiales",
-        "age_hours": 9.0,
+        "age_hours": 11.0,
         "freshness_unknown": false,
         "media": {
           "images": [
             {
-              "url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t15.5256-10/779865025_1801533277958431_159003525628269051_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=prHyO5QnBrMQ7kNvwEDgSL3&_nc_oc=AdrhS2GnBPbd07AWXalVovI7q-yOt5Gcjj-Aw31IDnlFWBburD7fOL2ztPKsPOFqOk0&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&_nc_gid=gy5yvF7bWHaXvXBeGEhkuA&_nc_ss=7f289&oh=00_AQF2kYSl4EQloTyI9-iW1a9uAJSMVdIgdoKsAppDULQm4g&oe=6A8CA4D5",
-              "width": 960,
-              "height": 540,
-              "alt": ""
+              "url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/778025517_2154291395131869_8579500230080623709_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=rh40X0L_KXEQ7kNvwGqmOH2&_nc_oc=Adr07TIL50mgERQ_s6aW4E9QWblMMtXNbTFHOi280RJnQLolzx_p990HaAnfITc3bm0&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=s_Lhko2IwkIP7EEgTc-reg&_nc_ss=7f289&oh=00_AQGPhQmssvZsSA7zMUMkIo4d8F1JBY8YQFC2boO464cePg&oe=6A8C9CC3",
+              "width": 512,
+              "height": 640,
+              "alt": "Puede ser una imagen de texto que dice \"GOLDEN PASS อลาลาว 6HИЛA 5रट् precios 1XBET.TV LIGA THESTRONGEST บ VIERNES 21/08 18:30 HERNANDO SILES VENTA ONLINE HABILITADA LÍMITE POR SECTOR DE EABONADOS: SECTOR: BUTACA PREFERENCIA RECTA CURVA PÚBLICO EN GENERAL TIGRES DE ORO: BS.68 BS.43 BS. BS.25 BS.17 BS. BS.80 80 BS.50 BS.30 BS.20 3 3 3 2 Los Tigres de Oro pueden comprar entradas en el sector de su preferencia, de acuerdo al límite correspondiente\""
             }
           ],
           "videos": [],
@@ -607,53 +725,6 @@
               "width": 960,
               "height": 540,
               "alt": ""
-            }
-          ],
-          "videos": [],
-          "posters": []
-        },
-        "direct_video_is_temporary": false,
-        "note_video": "La URL directa de video puede caducar; post_url/video_post_url es la referencia estable."
-      }
-    },
-    {
-      "id": "968fe005aa059512136e",
-      "kind": "social",
-      "platform": "facebook",
-      "post_id": "pfbid0VDnkZ8JoZZPQ1gGD2qa9TeuFXbbNWhWPEa7uSBMfb7xASmDm81NnQy7J2ogkATatl",
-      "title": "Club The Strongest 10 h · Este viernes, ¡nuestra cita es en la Liga! Es momento de apoyar al equipo, alentar con todo y llenar el Hernando Siles. … Ver más Todas las reacciones: 24",
-      "text": "Club The Strongest 10 h · Este viernes, ¡nuestra cita es en la Liga! Es momento de apoyar al equipo, alentar con todo y llenar el Hernando Siles. … Ver más Todas las reacciones: 241 20 6 Me gusta Comentar Ver más comentarios Ismael Gonzales Al menos 15 la curva 9 h 7 Jean Marco Benavente Ismael Gonzales para el nivel del equipo deberia ser a 10 9 h 1",
-      "url": "https://www.facebook.com/clubthestrongestoficial/posts/pfbid0VDnkZ8JoZZPQ1gGD2qa9TeuFXbbNWhWPEa7uSBMfb7xASmDm81NnQy7J2ogkATatl",
-      "post_url": "https://www.facebook.com/clubthestrongestoficial/posts/pfbid0VDnkZ8JoZZPQ1gGD2qa9TeuFXbbNWhWPEa7uSBMfb7xASmDm81NnQy7J2ogkATatl",
-      "image_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/778025517_2154291395131869_8579500230080623709_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=rh40X0L_KXEQ7kNvwGLJqwQ&_nc_oc=Ado_6D56tTOk4UqiHsTmAXxZPmotz9rJefz995Mv1On7Hzt7NyYPlzH3dcPSp60YVzg&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=xWTmXTjxyDlSUGGphV2l2w&_nc_ss=7f289&oh=00_AQFWHmHJ3_1sxjEoNJvYi8LbQRgMVfVj_jevoYKWQNuFdw&oe=6A8C9CC3",
-      "thumbnail_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/778025517_2154291395131869_8579500230080623709_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=rh40X0L_KXEQ7kNvwGLJqwQ&_nc_oc=Ado_6D56tTOk4UqiHsTmAXxZPmotz9rJefz995Mv1On7Hzt7NyYPlzH3dcPSp60YVzg&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=xWTmXTjxyDlSUGGphV2l2w&_nc_ss=7f289&oh=00_AQFWHmHJ3_1sxjEoNJvYi8LbQRgMVfVj_jevoYKWQNuFdw&oe=6A8C9CC3",
-      "video_url": "",
-      "video_post_url": "",
-      "media_type": "image",
-      "published_at": "2026-08-19T22:51:38.997472Z",
-      "scraped_at": "2026-08-20T08:51:38.997555Z",
-      "source_id": "facebook_browser:club_the_strongest",
-      "source_name": "Facebook · Club The Strongest",
-      "source_type": "facebook_browser_public",
-      "source_authority": 0.92,
-      "scope": "bolivia",
-      "competition": "clubes_bolivia",
-      "rank_score": 0.8776,
-      "stale": false,
-      "extra": {
-        "collector": "browser_public",
-        "page_name": "Club The Strongest",
-        "page_url": "https://www.facebook.com/clubthestrongestoficial/",
-        "group": "oficiales",
-        "age_hours": 10.0,
-        "freshness_unknown": false,
-        "media": {
-          "images": [
-            {
-              "url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/778025517_2154291395131869_8579500230080623709_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=rh40X0L_KXEQ7kNvwGLJqwQ&_nc_oc=Ado_6D56tTOk4UqiHsTmAXxZPmotz9rJefz995Mv1On7Hzt7NyYPlzH3dcPSp60YVzg&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=xWTmXTjxyDlSUGGphV2l2w&_nc_ss=7f289&oh=00_AQFWHmHJ3_1sxjEoNJvYi8LbQRgMVfVj_jevoYKWQNuFdw&oe=6A8C9CC3",
-              "width": 512,
-              "height": 640,
-              "alt": "Puede ser una imagen de texto que dice \"GOLDEN PASS อลาลาว 6HИЛA 5रट् precios 1XBET.TV LIGA THESTRONGEST บ VIERNES 21/08 18:30 HERNANDO SILES VENTA ONLINE HABILITADA LÍMITE POR SECTOR DE EABONADOS: SECTOR: BUTACA PREFERENCIA RECTA CURVA PÚBLICO EN GENERAL TIGRES DE ORO: BS.68 BS.43 BS. BS.25 BS.17 BS. BS.80 80 BS.50 BS.30 BS.20 3 3 3 2 Los Tigres de Oro pueden comprar entradas en el sector de su preferencia, de acuerdo al límite correspondiente\""
             }
           ],
           "videos": [],

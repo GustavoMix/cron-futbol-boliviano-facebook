@@ -28,6 +28,53 @@ LOGO_DOWNLOAD_MIN_INTERVAL = 1.5
 _logo_download_last_call = [0.0]
 
 
+def _remove_solid_background(image_bytes: bytes, original_content_type: str) -> tuple[bytes, str]:
+    """Convierte a transparente el fondo de un escudo, si tiene uno sólido y
+    claro (blanco, gris claro, etc.) — típico de fotos JPG, que no soportan
+    transparencia y se ven como un cuadro feo sobre el fondo oscuro de la
+    app. Se fija en las 4 esquinas: si son parecidas entre sí y claras, se
+    asume que ESE es el fondo y se hace transparente todo lo que se le
+    parezca (con un borde suavizado para que no quede dentado). Si las
+    esquinas no son consistentes (ej. el escudo ya llega hasta el borde),
+    no se toca nada — mejor dejar la imagen tal cual que arruinarla.
+    Devuelve (bytes_png, content_type); si no se pudo procesar (falta
+    Pillow, imagen corrupta, etc.) devuelve la imagen original sin tocar.
+    """
+    try:
+        from PIL import Image
+        import io
+    except ImportError:
+        return image_bytes, original_content_type
+
+    try:
+        img = Image.open(io.BytesIO(image_bytes)).convert("RGBA")
+        w, h = img.size
+        corners = [img.getpixel((0, 0)), img.getpixel((w - 1, 0)), img.getpixel((0, h - 1)), img.getpixel((w - 1, h - 1))]
+        r0, g0, b0 = corners[0][:3]
+        is_light = r0 > 225 and g0 > 225 and b0 > 225
+        consistent = all(abs(c[0] - r0) < 18 and abs(c[1] - g0) < 18 and abs(c[2] - b0) < 18 for c in corners)
+        if not (is_light and consistent):
+            return image_bytes, original_content_type
+
+        pixels = img.load()
+        soft_start, hard_cut = 20, 55  # distancia de color: <soft_start = totalmente transparente, >hard_cut = opaco
+        for y in range(h):
+            for x in range(w):
+                r, g, b, a = pixels[x, y]
+                dist = max(abs(r - r0), abs(g - g0), abs(b - b0))
+                if dist <= soft_start:
+                    pixels[x, y] = (r, g, b, 0)
+                elif dist < hard_cut:
+                    factor = (dist - soft_start) / (hard_cut - soft_start)
+                    pixels[x, y] = (r, g, b, int(a * factor))
+
+        out = io.BytesIO()
+        img.save(out, format="PNG")
+        return out.getvalue(), "image/png"
+    except Exception:
+        return image_bytes, original_content_type
+
+
 def _logo_download_throttle() -> None:
     wait = LOGO_DOWNLOAD_MIN_INTERVAL - (time.monotonic() - _logo_download_last_call[0])
     if wait > 0:
@@ -301,7 +348,8 @@ def sync_team_logos(client, team_assets: dict[str, Any]) -> dict[str, str]:
             _logo_download_throttle()
             resp = requests.get(source_url, timeout=15, headers={"User-Agent": LOGO_USER_AGENT})
             resp.raise_for_status()
-            content_type = resp.headers.get("Content-Type", "image/png").split(";")[0].strip()
+            original_content_type = resp.headers.get("Content-Type", "image/png").split(";")[0].strip()
+            image_bytes, content_type = _remove_solid_background(resp.content, original_content_type)
             ext = mimetypes.guess_extension(content_type) or ".png"
             path = f"{team_key.replace(' ', '_')}{ext}"
             # Sin reintentos aquí a propósito: si Storage está con problemas
@@ -310,7 +358,7 @@ def sync_team_logos(client, team_assets: dict[str, Any]) -> dict[str, str]:
             # fallar rápido y que ese equipo se reintente en la próxima
             # corrida (30-60 min después), no en la misma.
             client.storage.from_(LOGO_BUCKET).upload(
-                path, resp.content, {"content-type": content_type, "upsert": "true"}
+                path, image_bytes, {"content-type": content_type, "upsert": "true"}
             )
             public_url = client.storage.from_(LOGO_BUCKET).get_public_url(path)
             if isinstance(public_url, dict):
@@ -348,10 +396,12 @@ def sync_manual_logos(client) -> dict[str, str]:
         if not team_key:
             continue
         try:
-            content_type = mimetypes.guess_type(path.name)[0] or "image/png"
-            storage_path = f"manual_{path.stem}{path.suffix}"
+            original_content_type = mimetypes.guess_type(path.name)[0] or "image/png"
+            image_bytes, content_type = _remove_solid_background(path.read_bytes(), original_content_type)
+            ext = mimetypes.guess_extension(content_type) or path.suffix
+            storage_path = f"manual_{path.stem}{ext}"
             client.storage.from_(LOGO_BUCKET).upload(
-                storage_path, path.read_bytes(), {"content-type": content_type, "upsert": "true"}
+                storage_path, image_bytes, {"content-type": content_type, "upsert": "true"}
             )
             public_url = client.storage.from_(LOGO_BUCKET).get_public_url(storage_path)
             if isinstance(public_url, dict):

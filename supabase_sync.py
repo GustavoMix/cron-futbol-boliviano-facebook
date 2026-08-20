@@ -3,12 +3,30 @@ from __future__ import annotations
 import mimetypes
 import os
 import re
+import time
+import traceback
 import unicodedata
 from typing import Any
 
 import requests
 
 LOGO_BUCKET = "team-logos"
+# Wikimedia exige un User-Agent descriptivo (con contacto) y bloquea con 429
+# a quien no lo manda o pide muy seguido. Con ~150 escudos en la primera
+# corrida, bajarlos todos sin pausa dispara ese límite casi de inmediato.
+LOGO_USER_AGENT = (
+    "FutbolBolivianoAggregator/1.0 "
+    "(+https://github.com/GustavoMix/cron-futbol-boliviano-facebook; contacto: gustavotna4@gmail.com)"
+)
+LOGO_DOWNLOAD_MIN_INTERVAL = 1.5
+_logo_download_last_call = [0.0]
+
+
+def _logo_download_throttle() -> None:
+    wait = LOGO_DOWNLOAD_MIN_INTERVAL - (time.monotonic() - _logo_download_last_call[0])
+    if wait > 0:
+        time.sleep(wait)
+    _logo_download_last_call[0] = time.monotonic()
 
 # Envío de datos ya calculados por main.py (Item[] + build_current_tables) hacia Supabase.
 # No repite el scraping/parsing: reutiliza exactamente lo que ya produce current_tables.json,
@@ -219,7 +237,8 @@ def sync_team_logos(client, team_assets: dict[str, Any]) -> dict[str, str]:
             result[team_key] = prev["logo_url"]
             continue
         try:
-            resp = requests.get(source_url, timeout=15, headers={"User-Agent": "FutbolBoliviaAggregator/1.0"})
+            _logo_download_throttle()
+            resp = requests.get(source_url, timeout=15, headers={"User-Agent": LOGO_USER_AGENT})
             resp.raise_for_status()
             content_type = resp.headers.get("Content-Type", "image/png").split(";")[0].strip()
             ext = mimetypes.guess_extension(content_type) or ".png"
@@ -228,6 +247,9 @@ def sync_team_logos(client, team_assets: dict[str, Any]) -> dict[str, str]:
                 path, resp.content, {"content-type": content_type, "upsert": "true"}
             )
             public_url = client.storage.from_(LOGO_BUCKET).get_public_url(path)
+            if isinstance(public_url, dict):
+                # Algunas versiones de storage3 devuelven {"publicUrl": "..."} en vez de un str.
+                public_url = public_url.get("publicUrl") or public_url.get("publicURL") or ""
             client.schema("futbol_boliviano").table("team_logos").upsert({
                 "team_key": team_key,
                 "name": asset.get("name", ""),
@@ -240,6 +262,7 @@ def sync_team_logos(client, team_assets: dict[str, Any]) -> dict[str, str]:
             print(f"supabase_sync: escudo subido -> {team_key}", flush=True)
         except Exception as exc:
             print(f"supabase_sync: ERROR subiendo escudo de {team_key}: {type(exc).__name__}: {exc}", flush=True)
+            print(traceback.format_exc(limit=6), flush=True)
     return result
 
 

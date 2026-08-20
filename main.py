@@ -1139,12 +1139,21 @@ ASSIST_HINTS = ("asistencia", "asistencias", "asistente", "asistentes", "assist"
 OWN_GOAL_HINTS = ("autogol", "autogoles", "own goal", "own goals")
 
 
+_PLACEHOLDER_IMAGE_RE = re.compile(r"/placeholder/", re.I)
+
+
 def _find_image(node: Tag, base_url: str) -> str:
     img = node.find("img")
     if not img:
         return ""
     src = img.get("data-src") or img.get("data-lazy-src") or img.get("src") or ""
-    return absolute_url(base_url, str(src))
+    resolved = absolute_url(base_url, str(src))
+    # Unitel (y otros sitios con lazy-load) sirven un SVG placeholder en blanco
+    # como "src" mientras la imagen real carga por JS; si el scraper la toma
+    # tal cual, en el celular queda un rectángulo vacío en vez de la foto.
+    if _PLACEHOLDER_IMAGE_RE.search(resolved):
+        return ""
+    return resolved
 
 
 def _find_time(node: Tag) -> str | None:

@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-08-20T09:37:59.358703Z",
+  "generated_at": "2026-08-20T10:34:10.476660Z",
   "policy": "una tabla por competición/tipo; fuentes oficiales tienen prioridad",
   "competitions": {
     "division_profesional": {
@@ -11,7 +11,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-08-20T09:33:58.569559Z",
+        "scraped_at": "2026-08-20T10:30:11.210051Z",
         "extra": {
           "header": [
             "Fecha",
@@ -2681,7 +2681,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-20T09:33:58.517106Z",
+        "scraped_at": "2026-08-20T10:30:11.156858Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -2951,7 +2951,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-20T09:33:58.573818Z",
+        "scraped_at": "2026-08-20T10:30:11.214620Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -3047,7 +3047,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-20T09:33:58.574490Z",
+        "scraped_at": "2026-08-20T10:30:11.215295Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -3121,7 +3121,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-20T09:33:58.576865Z",
+        "scraped_at": "2026-08-20T10:30:11.217711Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -3307,7 +3307,7 @@
         "source_name": "Wikipedia - Copa Simón Bolívar 2026",
         "scope": "bolivia",
         "competition": "simon_bolivar",
-        "scraped_at": "2026-08-20T09:34:01.509873Z",
+        "scraped_at": "2026-08-20T10:30:13.890463Z",
         "extra": {
           "header": [
             "Fecha",
@@ -4521,7 +4521,7 @@
         "source_name": "Beni (ABF) + Chuquisaca (ACHF) + Cochabamba (AFC) + Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + La Paz (AFLP) + Oruro (AFO) + Pando (AFP) + Potosí (AFP) + Santa Cruz (ACF) + Tarija (ATF)",
         "scope": "bolivia",
         "competition": "simon_bolivar",
-        "scraped_at": "2026-08-20T09:34:01.513967Z",
+        "scraped_at": "2026-08-20T10:30:13.894435Z",
         "extra": {
           "rows": [
             [
@@ -5440,7 +5440,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-20T09:34:02.120695Z",
+        "scraped_at": "2026-08-20T10:30:14.558416Z",
         "extra": {
           "header": [
             "Fecha",
@@ -5642,7 +5642,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-20T09:34:02.064625Z",
+        "scraped_at": "2026-08-20T10:30:14.501905Z",
         "extra": {
           "rows": [
             [
@@ -6060,7 +6060,7 @@
             "",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo-universidad-catolica-chile.png?width=200",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Cruzeiro_Esporte_Clube_(logo).svg?width=200",
-            "",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Boca_Juniors_logo18.svg?width=200",
             "",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Corinthians23022007_(cropped).jpg?width=200",
             "",
@@ -6092,7 +6092,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-20T09:34:02.094069Z",
+        "scraped_at": "2026-08-20T10:30:14.531061Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -6180,7 +6180,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-20T09:34:02.094934Z",
+        "scraped_at": "2026-08-20T10:30:14.531904Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -6264,7 +6264,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-20T09:34:02.806001Z",
+        "scraped_at": "2026-08-20T10:30:15.286835Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6352,7 +6352,7 @@
               "Estadio La Bombonera , Buenos Aires",
               "23 de julio, 21:30 ( UTC-3 )",
               "",
-              "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Boca_Juniors_logo18.svg?width=200",
               ""
             ],
             [
@@ -6364,7 +6364,7 @@
               "30 de julio, 20:30 ( UTC-4 )",
               "",
               "",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Boca_Juniors_logo18.svg?width=200"
             ],
             [
               "Eliminatoria de octavos de final",
@@ -6462,7 +6462,7 @@
               "Estadio Tomás Adolfo Ducó [ n. 3 ] , Buenos Aires",
               "11 de agosto, 19:00 ( UTC-3 )",
               "",
-              "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Boca_Juniors_logo18.svg?width=200",
               ""
             ],
             [
@@ -6474,7 +6474,7 @@
               "18 de agosto, 19:00 ( UTC-3 )",
               "",
               "",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Boca_Juniors_logo18.svg?width=200"
             ],
             [
               "Octavos de final",
@@ -6642,7 +6642,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-20T09:34:02.712275Z",
+        "scraped_at": "2026-08-20T10:30:15.192225Z",
         "extra": {
           "rows": [
             [
@@ -7092,7 +7092,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-20T09:34:02.762864Z",
+        "scraped_at": "2026-08-20T10:30:15.243049Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -7152,7 +7152,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-20T09:34:02.763386Z",
+        "scraped_at": "2026-08-20T10:30:15.243536Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -7212,7 +7212,7 @@
         "source_name": "FutbolDeBolivia.net - Copa Paceña Grupo A + FutbolDeBolivia.net - Copa Paceña Grupo B + FutbolDeBolivia.net - Copa Paceña Grupo C + FutbolDeBolivia.net - Copa Paceña Grupo D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-08-20T09:34:00.593688Z",
+        "scraped_at": "2026-08-20T10:30:13.108331Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7403,7 +7403,7 @@
         "source_name": "Calculada desde: FutbolDeBolivia.net - Copa Paceña Grupo A + FutbolDeBolivia.net - Copa Paceña Grupo B + FutbolDeBolivia.net - Copa Paceña Grupo C + FutbolDeBolivia.net - Copa Paceña Grupo D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-08-20T09:34:00.593688Z",
+        "scraped_at": "2026-08-20T10:30:13.108331Z",
         "extra": {
           "rows": [
             [

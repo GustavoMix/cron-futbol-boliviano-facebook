@@ -1,6 +1,6 @@
 {
   "schema_version": 5,
-  "generated_at": "2026-08-20T09:05:32.202944Z",
+  "generated_at": "2026-08-20T09:18:52.804282Z",
   "architecture": "3 Facebook groups + 1 web group; staggered schedules; cached last-good Facebook data",
   "facebook_groups": [
     {
@@ -17,7 +17,7 @@
     },
     {
       "group": "medios",
-      "last_good_at": "2026-08-20T07:28:51.477295Z",
+      "last_good_at": "2026-08-20T09:18:52.737826Z",
       "last_attempt_ok": true,
       "items": 25
     }

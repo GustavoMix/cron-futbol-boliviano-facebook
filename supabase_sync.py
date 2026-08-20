@@ -124,6 +124,19 @@ def _upsert(client, table: str, rows: list[dict[str, Any]], on_conflict: str) ->
         print(f"supabase_sync: ERROR en {table}: {type(exc).__name__}: {exc}", flush=True)
 
 
+def _dedupe_rows(rows: list[dict[str, Any]], key_fields: tuple[str, ...]) -> list[dict[str, Any]]:
+    # Postgres rechaza un upsert que "toca" la misma fila dos veces en el
+    # mismo comando (ON CONFLICT DO UPDATE ... "cannot affect row a second
+    # time"). Cuando una competición junta varias tablas parciales (grupos,
+    # fases), el mismo equipo puede aparecer más de una vez con la misma
+    # clave de conflicto; se conserva la última aparición.
+    deduped: dict[tuple, dict[str, Any]] = {}
+    for row in rows:
+        key = tuple(row.get(f, "") for f in key_fields)
+        deduped[key] = row
+    return list(deduped.values())
+
+
 def push_items(client, items: list[dict[str, Any]]) -> None:
     rows = []
     for it in items:
@@ -229,10 +242,10 @@ def push_current_tables(client, current_tables: dict[str, Any], logo_map: dict[s
                 })
                 matches_rows.append(rec)
 
-    _upsert(client, "standings", standings_rows, on_conflict="competition,equipo")
-    _upsert(client, "top_scorers", top_scorers_rows, on_conflict="competition,jugador")
-    _upsert(client, "assists", assists_rows, on_conflict="competition,jugador")
-    _upsert(client, "matches", matches_rows, on_conflict="id")
+    _upsert(client, "standings", _dedupe_rows(standings_rows, ("competition", "equipo")), on_conflict="competition,equipo")
+    _upsert(client, "top_scorers", _dedupe_rows(top_scorers_rows, ("competition", "jugador")), on_conflict="competition,jugador")
+    _upsert(client, "assists", _dedupe_rows(assists_rows, ("competition", "jugador")), on_conflict="competition,jugador")
+    _upsert(client, "matches", _dedupe_rows(matches_rows, ("id",)), on_conflict="id")
 
 
 # Tope de escudos nuevos que se suben POR CORRIDA. Con ~150 equipos, subir

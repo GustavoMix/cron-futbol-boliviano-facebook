@@ -28,6 +28,27 @@ def _logo_download_throttle() -> None:
         time.sleep(wait)
     _logo_download_last_call[0] = time.monotonic()
 
+
+def _with_retries(fn, attempts: int = 3, base_delay: float = 2.0):
+    """PGRST002 ('Could not query the database for the schema cache. Retrying.')
+    es transitorio: el proyecto es plan Free, con recursos chicos, y un ratito
+    de carga (ej. justo despues de exponer tablas nuevas, o muchos pedidos
+    seguidos) hace que PostgREST tarde en refrescar su cache interno. Sin
+    reintentos, la PRIMERA falla (la lectura de team_logos ya subidos) hacia
+    que TODOS los equipos se traten como "nunca subidos" y se volviera a
+    intentar subir los ~150, lo que a su vez generaba mas carga todavia."""
+    last_exc = None
+    for attempt in range(attempts):
+        try:
+            return fn()
+        except Exception as exc:
+            last_exc = exc
+            if "PGRST002" not in str(exc) and "503" not in str(exc):
+                raise
+            if attempt < attempts - 1:
+                time.sleep(base_delay * (attempt + 1))
+    raise last_exc
+
 # Envío de datos ya calculados por main.py (Item[] + build_current_tables) hacia Supabase.
 # No repite el scraping/parsing: reutiliza exactamente lo que ya produce current_tables.json,
 # que es lo mismo que hoy consume la app vía GitHub. Si faltan las credenciales, no hace nada
@@ -97,7 +118,7 @@ def _upsert(client, table: str, rows: list[dict[str, Any]], on_conflict: str) ->
     if not rows:
         return
     try:
-        client.schema("futbol_boliviano").table(table).upsert(rows, on_conflict=on_conflict).execute()
+        _with_retries(lambda: client.schema("futbol_boliviano").table(table).upsert(rows, on_conflict=on_conflict).execute())
         print(f"supabase_sync: {table} <- {len(rows)} filas", flush=True)
     except Exception as exc:
         print(f"supabase_sync: ERROR en {table}: {type(exc).__name__}: {exc}", flush=True)
@@ -221,10 +242,12 @@ def sync_team_logos(client, team_assets: dict[str, Any]) -> dict[str, str]:
     Los equipos sin escudo real (badge_type != club_logo, o sea solo bandera) no se suben:
     se deja que la app siga usando display_badge_url tal cual viene del JSON/columna."""
     try:
-        existing = client.schema("futbol_boliviano").table("team_logos").select("team_key,logo_url,source_url").execute()
+        existing = _with_retries(
+            lambda: client.schema("futbol_boliviano").table("team_logos").select("team_key,logo_url,source_url").execute()
+        )
         known = {row["team_key"]: row for row in (existing.data or [])}
     except Exception as exc:
-        print(f"supabase_sync: no se pudo leer team_logos existentes: {exc}", flush=True)
+        print(f"supabase_sync: no se pudo leer team_logos existentes tras varios intentos: {exc}", flush=True)
         known = {}
 
     result: dict[str, str] = {}
@@ -243,21 +266,21 @@ def sync_team_logos(client, team_assets: dict[str, Any]) -> dict[str, str]:
             content_type = resp.headers.get("Content-Type", "image/png").split(";")[0].strip()
             ext = mimetypes.guess_extension(content_type) or ".png"
             path = f"{team_key.replace(' ', '_')}{ext}"
-            client.storage.from_(LOGO_BUCKET).upload(
+            _with_retries(lambda: client.storage.from_(LOGO_BUCKET).upload(
                 path, resp.content, {"content-type": content_type, "upsert": "true"}
-            )
+            ))
             public_url = client.storage.from_(LOGO_BUCKET).get_public_url(path)
             if isinstance(public_url, dict):
                 # Algunas versiones de storage3 devuelven {"publicUrl": "..."} en vez de un str.
                 public_url = public_url.get("publicUrl") or public_url.get("publicURL") or ""
-            client.schema("futbol_boliviano").table("team_logos").upsert({
+            _with_retries(lambda: client.schema("futbol_boliviano").table("team_logos").upsert({
                 "team_key": team_key,
                 "name": asset.get("name", ""),
                 "country": asset.get("country", ""),
                 "source_url": source_url,
                 "storage_path": path,
                 "logo_url": public_url,
-            }, on_conflict="team_key").execute()
+            }, on_conflict="team_key").execute())
             result[team_key] = public_url
             print(f"supabase_sync: escudo subido -> {team_key}", flush=True)
         except Exception as exc:

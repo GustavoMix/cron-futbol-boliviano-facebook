@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-08-20T00:25:33.020122Z",
+  "generated_at": "2026-08-20T00:39:58.493462Z",
   "policy": "una tabla por competición/tipo; fuentes oficiales tienen prioridad",
   "competitions": {
     "division_profesional": {
@@ -11,7 +11,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-08-20T00:17:36.611087Z",
+        "scraped_at": "2026-08-20T00:33:16.485143Z",
         "extra": {
           "header": [
             "Fecha",
@@ -2681,7 +2681,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-20T00:17:36.558929Z",
+        "scraped_at": "2026-08-20T00:33:16.449768Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -2951,7 +2951,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-20T00:17:36.615266Z",
+        "scraped_at": "2026-08-20T00:33:16.487885Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -3047,7 +3047,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-20T00:17:36.615997Z",
+        "scraped_at": "2026-08-20T00:33:16.488286Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -3121,7 +3121,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-20T00:17:36.618414Z",
+        "scraped_at": "2026-08-20T00:33:16.489857Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -3307,7 +3307,7 @@
         "source_name": "Wikipedia - Copa Simón Bolívar 2026",
         "scope": "bolivia",
         "competition": "simon_bolivar",
-        "scraped_at": "2026-08-20T00:17:39.503156Z",
+        "scraped_at": "2026-08-20T00:33:18.794857Z",
         "extra": {
           "header": [
             "Fecha",
@@ -3373,7 +3373,7 @@
               "Municipal de Quillacollo",
               "20 de junio",
               "15:00",
-              "",
+              "https://upload.wikimedia.org/wikipedia/commons/a/a9/Soccer_Bolivia.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
               ""
             ],
             [
@@ -3406,8 +3406,8 @@
               "Obrero Teniente Andrade",
               "23 de junio",
               "10:00",
-              "",
-              ""
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Luis_H%C3%A9ctor_Cristaldo_en_septiembre_de_2025.jpg/250px-Luis_H%C3%A9ctor_Cristaldo_en_septiembre_de_2025.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Sheffield_FC_1857.jpg/250px-Sheffield_FC_1857.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
               "Fecha 1",
@@ -3461,7 +3461,7 @@
               "Estadio Potosí",
               "21 de junio",
               "15:00",
-              "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Emblema_del_Club_Universidad_de_Chile.png?width=200",
               ""
             ],
             [
@@ -3572,7 +3572,7 @@
               "26 de junio",
               "15:00",
               "",
-              ""
+              "https://upload.wikimedia.org/wikipedia/commons/a/a9/Soccer_Bolivia.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
             ],
             [
               "Fecha 2",
@@ -3593,7 +3593,7 @@
               "Rogelio Miranda Valdivia",
               "27 de junio",
               "15:00",
-              "",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Sheffield_FC_1857.jpg/250px-Sheffield_FC_1857.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               ""
             ],
             [
@@ -3604,7 +3604,7 @@
               "Obrero Teniente Andrade",
               "27 de junio",
               "18:00",
-              "",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Luis_H%C3%A9ctor_Cristaldo_en_septiembre_de_2025.jpg/250px-Luis_H%C3%A9ctor_Cristaldo_en_septiembre_de_2025.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               ""
             ],
             [
@@ -3659,7 +3659,7 @@
               "Estadio Potosí",
               "27 de junio",
               "15:00",
-              "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Emblema_del_Club_Universidad_de_Chile.png?width=200",
               ""
             ],
             [
@@ -3781,7 +3781,7 @@
               "4 de julio",
               "15:30",
               "",
-              ""
+              "https://upload.wikimedia.org/wikipedia/commons/a/a9/Soccer_Bolivia.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
             ],
             [
               "Fecha 3",
@@ -3792,7 +3792,7 @@
               "4 de julio",
               "12:30",
               "",
-              ""
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Luis_H%C3%A9ctor_Cristaldo_en_septiembre_de_2025.jpg/250px-Luis_H%C3%A9ctor_Cristaldo_en_septiembre_de_2025.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
               "Fecha 3",
@@ -3803,7 +3803,7 @@
               "4 de julio",
               "15:00",
               "",
-              ""
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Sheffield_FC_1857.jpg/250px-Sheffield_FC_1857.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
               "Fecha 3",
@@ -3858,7 +3858,7 @@
               "4 de julio",
               "15:00",
               "",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Emblema_del_Club_Universidad_de_Chile.png?width=200"
             ],
             [
               "Fecha 3",
@@ -3968,7 +3968,7 @@
               "11 de julio",
               "15:00",
               "",
-              ""
+              "https://upload.wikimedia.org/wikipedia/commons/a/a9/Soccer_Bolivia.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
             ],
             [
               "Fecha 4",
@@ -4000,8 +4000,8 @@
               "Rogelio Miranda Valdivia",
               "11 de julio",
               "15:00",
-              "",
-              ""
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Sheffield_FC_1857.jpg/250px-Sheffield_FC_1857.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Luis_H%C3%A9ctor_Cristaldo_en_septiembre_de_2025.jpg/250px-Luis_H%C3%A9ctor_Cristaldo_en_septiembre_de_2025.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
               "Fecha 4",
@@ -4067,7 +4067,7 @@
               "13 de julio",
               "15:00",
               "",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Emblema_del_Club_Universidad_de_Chile.png?width=200"
             ],
             [
               "Fecha 4",
@@ -4165,7 +4165,7 @@
               "Municipal de Quillacollo",
               "18 de julio",
               "15:00",
-              "",
+              "https://upload.wikimedia.org/wikipedia/commons/a/a9/Soccer_Bolivia.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
               ""
             ],
             [
@@ -4188,7 +4188,7 @@
               "18 de julio",
               "12:30",
               "",
-              ""
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Sheffield_FC_1857.jpg/250px-Sheffield_FC_1857.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
               "Fecha 5",
@@ -4199,7 +4199,7 @@
               "18 de julio",
               "15:00",
               "",
-              ""
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Luis_H%C3%A9ctor_Cristaldo_en_septiembre_de_2025.jpg/250px-Luis_H%C3%A9ctor_Cristaldo_en_septiembre_de_2025.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
               "Fecha 5",
@@ -4254,7 +4254,7 @@
               "18 de julio",
               "15:00",
               "",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Emblema_del_Club_Universidad_de_Chile.png?width=200"
             ],
             [
               "Fecha 5",
@@ -4363,7 +4363,7 @@
               "Municipal de Quillacollo",
               "24 de julio",
               "15:00",
-              "",
+              "https://upload.wikimedia.org/wikipedia/commons/a/a9/Soccer_Bolivia.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
               ""
             ],
             [
@@ -4385,7 +4385,7 @@
               "Rogelio Miranda Valdivia",
               "25 de julio",
               "16:15",
-              "",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Sheffield_FC_1857.jpg/250px-Sheffield_FC_1857.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               ""
             ],
             [
@@ -4396,7 +4396,7 @@
               "Obrero Teniente Andrade",
               "25 de julio",
               "16:30",
-              "",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Luis_H%C3%A9ctor_Cristaldo_en_septiembre_de_2025.jpg/250px-Luis_H%C3%A9ctor_Cristaldo_en_septiembre_de_2025.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               ""
             ],
             [
@@ -4462,7 +4462,7 @@
               "Estadio Potosí",
               "26 de julio",
               "15:00",
-              "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Emblema_del_Club_Universidad_de_Chile.png?width=200",
               ""
             ],
             [
@@ -4521,7 +4521,7 @@
         "source_name": "Beni (ABF) + Chuquisaca (ACHF) + Cochabamba (AFC) + Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + La Paz (AFLP) + Oruro (AFO) + Pando (AFP) + Potosí (AFP) + Santa Cruz (ACF) + Tarija (ATF)",
         "scope": "bolivia",
         "competition": "simon_bolivar",
-        "scraped_at": "2026-08-20T00:17:39.507140Z",
+        "scraped_at": "2026-08-20T00:33:18.797523Z",
         "extra": {
           "rows": [
             [
@@ -5380,6 +5380,16 @@
             "",
             "",
             "",
+            "https://upload.wikimedia.org/wikipedia/commons/a/a9/Soccer_Bolivia.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Emblema_del_Club_Universidad_de_Chile.png?width=200",
             "",
             "",
             "",
@@ -5394,18 +5404,8 @@
             "",
             "",
             "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Sheffield_FC_1857.jpg/250px-Sheffield_FC_1857.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Luis_H%C3%A9ctor_Cristaldo_en_septiembre_de_2025.jpg/250px-Luis_H%C3%A9ctor_Cristaldo_en_septiembre_de_2025.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "",
             "",
             "",
@@ -5417,7 +5417,7 @@
             "",
             "",
             "",
-            "",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Emblema_del_Club_Universidad_de_Chile.png?width=200",
             "",
             "",
             "",
@@ -5440,7 +5440,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-20T00:17:40.544499Z",
+        "scraped_at": "2026-08-20T00:33:19.227059Z",
         "extra": {
           "header": [
             "Fecha",
@@ -5462,7 +5462,7 @@
               "Estadio Jorge Luis Hirschi , La Plata",
               "11 de agosto, 21:30 ( UTC-3 )",
               "",
-              "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Estudiantes_de_la_Plata_crest_(2025).svg?width=200",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo-universidad-catolica-chile.png?width=200"
             ],
             [
@@ -5474,7 +5474,7 @@
               "18 de agosto, 20:30 ( UTC-4 )",
               "",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo-universidad-catolica-chile.png?width=200",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Estudiantes_de_la_Plata_crest_(2025).svg?width=200"
             ],
             [
               "Octavos de final",
@@ -5507,7 +5507,7 @@
               "12 de agosto, 21:30 ( UTC-3 )",
               "",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Cruzeiro_Esporte_Clube_(logo).svg?width=200",
-              ""
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Clube_de_Regatas_do_Flamengo_logo.svg/250px-Clube_de_Regatas_do_Flamengo_logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
               "Octavos de final",
@@ -5517,7 +5517,7 @@
               "Estadio Maracaná , Río de Janeiro",
               "19 de agosto, 21:30 ( UTC-3 )",
               "",
-              "",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Clube_de_Regatas_do_Flamengo_logo.svg/250px-Clube_de_Regatas_do_Flamengo_logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Cruzeiro_Esporte_Clube_(logo).svg?width=200"
             ],
             [
@@ -5567,24 +5567,24 @@
             [
               "Octavos de final",
               "Palmeiras",
-              "1:1 (1:0)",
+              "1:1 (0:0)",
               "Cerro Porteño",
               "Allianz Parque , São Paulo",
               "12 de agosto, 19:00 ( UTC-3 )",
               "",
-              "",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Palmeiras_logo.svg?width=200",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Escudo_Club_Cerro_Porte%C3%B1o_2023-Actual.svg/250px-Escudo_Club_Cerro_Porte%C3%B1o_2023-Actual.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
             ],
             [
               "Octavos de final",
               "Cerro Porteño",
-              "vs.",
+              "' 0:1' (0:1)",
               "Palmeiras",
               "Estadio General Pablo Rojas , Asunción",
               "19 de agosto, 19:00 ( UTC-3 )",
               "",
-              "",
-              ""
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Escudo_Club_Cerro_Porte%C3%B1o_2023-Actual.svg/250px-Escudo_Club_Cerro_Porte%C3%B1o_2023-Actual.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Palmeiras_logo.svg?width=200"
             ],
             [
               "Octavos de final",
@@ -5600,7 +5600,7 @@
             [
               "Octavos de final",
               "Coquimbo Unido",
-              "vs.",
+              "0:0 ( 6):(7) p. )",
               "Platense",
               "Estadio Francisco Sánchez Rumoroso , Coquimbo",
               "19 de agosto, 18:00 ( UTC-4 )",
@@ -5642,7 +5642,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-20T00:17:40.491864Z",
+        "scraped_at": "2026-08-20T00:33:19.188084Z",
         "extra": {
           "rows": [
             [
@@ -6046,9 +6046,9 @@
           "selection_reason": "se combinaron 8 grupos detectados en vez de mostrar uno solo",
           "logos": [
             "",
-            "",
-            "",
-            "",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Clube_de_Regatas_do_Flamengo_logo.svg/250px-Clube_de_Regatas_do_Flamengo_logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Estudiantes_de_la_Plata_crest_(2025).svg?width=200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_del_Deportivo_Independiente_Medellín.svg?width=200",
             "",
             "",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Escudo_del_Deportes_Tolima.svg/250px-Escudo_del_Deportes_Tolima.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -6066,8 +6066,8 @@
             "",
             "",
             "",
-            "",
-            "",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Escudo_Club_Cerro_Porte%C3%B1o_2023-Actual.svg/250px-Escudo_Club_Cerro_Porte%C3%B1o_2023-Actual.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Palmeiras_logo.svg?width=200",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Escudo_de_Sporting_Cristal_2025.svg/250px-Escudo_de_Sporting_Cristal_2025.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Junior_Barranquilla_logo.svg?width=200",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Liga_Deportiva_Universitaria_de_Quito.png?width=200",
@@ -6092,7 +6092,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-20T00:17:40.519578Z",
+        "scraped_at": "2026-08-20T00:33:19.208135Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -6180,7 +6180,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-20T00:17:40.520414Z",
+        "scraped_at": "2026-08-20T00:33:19.208639Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -6264,7 +6264,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-20T00:17:41.540976Z",
+        "scraped_at": "2026-08-20T00:33:19.728436Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6330,7 +6330,7 @@
               "Estadio Atanasio Girardot , Medellín",
               "22 de julio, 17:00 ( UTC-5 )",
               "",
-              "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_del_Deportivo_Independiente_Medellín.svg?width=200",
               ""
             ],
             [
@@ -6342,7 +6342,7 @@
               "29 de julio, 19:00 ( UTC-3 )",
               "",
               "",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_del_Deportivo_Independiente_Medellín.svg?width=200"
             ],
             [
               "Eliminatoria de octavos de final",
@@ -6490,7 +6490,7 @@
             [
               "Octavos de final",
               "Atlético Mineiro",
-              "vs.",
+              "2:2 (1:0)",
               "Bragantino",
               "Arena MRV , Belo Horizonte",
               "19 de agosto, 19:00 ( UTC-3 )",
@@ -6617,7 +6617,7 @@
               "11 de agosto, 20:30 ( UTC-4 )",
               "",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-3-400x400.png",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/São_Paulo_Futebol_Clube_logo_(2022).svg?width=200"
             ],
             [
               "Octavos de final",
@@ -6627,7 +6627,7 @@
               "Estadio Morumbi , São Paulo",
               "18 de agosto, 21:30 ( UTC-3 )",
               "",
-              "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/São_Paulo_Futebol_Clube_logo_(2022).svg?width=200",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-3-400x400.png"
             ]
           ],
@@ -6642,7 +6642,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-20T00:17:41.449119Z",
+        "scraped_at": "2026-08-20T00:33:19.660653Z",
         "extra": {
           "rows": [
             [
@@ -7054,10 +7054,10 @@
             "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Escudo_Cienciano.png/250px-Escudo_Cienciano.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "",
             "",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/São_Paulo_Futebol_Clube_logo_(2022).svg?width=200",
             "",
-            "",
-            "",
-            "",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Millonario_FC_2018_competición.png?width=200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Boston_River.png?width=200",
             "",
             "",
             "",
@@ -7092,7 +7092,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-20T00:17:41.498787Z",
+        "scraped_at": "2026-08-20T00:33:19.696100Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -7152,7 +7152,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-20T00:17:41.499314Z",
+        "scraped_at": "2026-08-20T00:33:19.696416Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -7212,7 +7212,7 @@
         "source_name": "FutbolDeBolivia.net - Copa Paceña Grupo A + FutbolDeBolivia.net - Copa Paceña Grupo B + FutbolDeBolivia.net - Copa Paceña Grupo C + FutbolDeBolivia.net - Copa Paceña Grupo D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-08-20T00:17:38.415319Z",
+        "scraped_at": "2026-08-20T00:33:18.260910Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7403,7 +7403,7 @@
         "source_name": "Calculada desde: FutbolDeBolivia.net - Copa Paceña Grupo A + FutbolDeBolivia.net - Copa Paceña Grupo B + FutbolDeBolivia.net - Copa Paceña Grupo C + FutbolDeBolivia.net - Copa Paceña Grupo D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-08-20T00:17:38.415319Z",
+        "scraped_at": "2026-08-20T00:33:18.260910Z",
         "extra": {
           "rows": [
             [

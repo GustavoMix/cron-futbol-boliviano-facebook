@@ -2649,10 +2649,17 @@ def run(config_path: Path, output_dir: Path) -> dict[str, Any]:
         "items": _serialize(facebook_items[:200]),
     }
     buckets["app_feed.json"] = build_app_feed(live, 250)
-    buckets["current_tables.json"] = build_current_tables(live)
+    current_tables = build_current_tables(live)
+    buckets["current_tables.json"] = current_tables
 
     for name, payload in buckets.items():
         json_dump(output_dir / name, payload)
+
+    try:
+        import supabase_sync
+        supabase_sync.sync(_serialize(live), current_tables)
+    except Exception as exc:
+        errors.append({"source": "supabase_sync", "error": f"{type(exc).__name__}: {exc}"})
 
     manifest = {
         "schema_version": 4,

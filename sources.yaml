@@ -270,7 +270,7 @@ web_sources:
   authority: 0.92
   footballbox_matches: true
 facebook:
-  enabled: true
+  enabled: false  # Desactivado: ya no se scrapea Facebook (fuente inestable/muro de login).
   page_queries:
   - name: Federación Boliviana de Fútbol
     scope: bolivia

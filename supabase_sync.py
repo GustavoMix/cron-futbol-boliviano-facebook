@@ -248,7 +248,13 @@ def push_current_tables(client, current_tables: dict[str, Any], logo_map: dict[s
     matches_rows: list[dict[str, Any]] = []
 
     for competition, blocks in (current_tables.get("competitions") or {}).items():
-        standings = blocks.get("standings")
+        # En Libertadores/Sudamericana, cuando ya hay clasificados a la
+        # siguiente fase, main.py reemplaza "standings" por una tabla de
+        # "quién avanzó" (columnas N°/Equipo/País, sin puntos ni PJ) y deja
+        # la tabla de grupos real en "group_standings". Para esta tabla
+        # (que alimenta la pestaña "Tabla" con puntos/PJ/etc reales) hay
+        # que preferir siempre group_standings cuando existe.
+        standings = blocks.get("group_standings") or blocks.get("standings")
         if standings and isinstance(standings.get("extra"), dict):
             rows = standings["extra"].get("rows") or []
             if len(rows) >= 2:

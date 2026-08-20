@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-08-20T01:17:22.936722Z",
+  "generated_at": "2026-08-20T03:01:06.271590Z",
   "policy": "una tabla por competición/tipo; fuentes oficiales tienen prioridad",
   "competitions": {
     "division_profesional": {
@@ -11,7 +11,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-08-20T01:11:28.713804Z",
+        "scraped_at": "2026-08-20T02:56:01.972186Z",
         "extra": {
           "header": [
             "Fecha",
@@ -2681,7 +2681,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-20T01:11:28.668561Z",
+        "scraped_at": "2026-08-20T02:56:01.926789Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -2951,7 +2951,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-20T01:11:28.717536Z",
+        "scraped_at": "2026-08-20T02:56:01.975766Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -3047,7 +3047,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-20T01:11:28.718248Z",
+        "scraped_at": "2026-08-20T02:56:01.976272Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -3121,7 +3121,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-20T01:11:28.720407Z",
+        "scraped_at": "2026-08-20T02:56:01.978278Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -3307,7 +3307,7 @@
         "source_name": "Wikipedia - Copa Simón Bolívar 2026",
         "scope": "bolivia",
         "competition": "simon_bolivar",
-        "scraped_at": "2026-08-20T01:11:30.677243Z",
+        "scraped_at": "2026-08-20T02:56:04.570684Z",
         "extra": {
           "header": [
             "Fecha",
@@ -4521,7 +4521,7 @@
         "source_name": "Beni (ABF) + Chuquisaca (ACHF) + Cochabamba (AFC) + Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + La Paz (AFLP) + Oruro (AFO) + Pando (AFP) + Potosí (AFP) + Santa Cruz (ACF) + Tarija (ATF)",
         "scope": "bolivia",
         "competition": "simon_bolivar",
-        "scraped_at": "2026-08-20T01:11:30.680713Z",
+        "scraped_at": "2026-08-20T02:56:04.574047Z",
         "extra": {
           "rows": [
             [
@@ -5386,7 +5386,7 @@
             "",
             "",
             "",
-            "",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Flag_of_Beni.svg/250px-Flag_of_Beni.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "",
             "",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Emblema_del_Club_Universidad_de_Chile.png?width=200",
@@ -5440,7 +5440,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-20T01:11:31.531395Z",
+        "scraped_at": "2026-08-20T02:56:05.129057Z",
         "extra": {
           "header": [
             "Fecha",
@@ -5512,7 +5512,7 @@
             [
               "Octavos de final",
               "Flamengo",
-              "vs.",
+              "2:1 (1:0)",
               "Cruzeiro",
               "Estadio Maracaná , Río de Janeiro",
               "19 de agosto, 21:30 ( UTC-3 )",
@@ -5642,7 +5642,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-20T01:11:31.483046Z",
+        "scraped_at": "2026-08-20T02:56:05.078457Z",
         "extra": {
           "rows": [
             [
@@ -6092,7 +6092,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-20T01:11:31.507509Z",
+        "scraped_at": "2026-08-20T02:56:05.103756Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -6180,7 +6180,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-20T01:11:31.508249Z",
+        "scraped_at": "2026-08-20T02:56:05.104388Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -6264,7 +6264,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-20T01:11:32.158912Z",
+        "scraped_at": "2026-08-20T02:56:05.754339Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6545,13 +6545,13 @@
             [
               "Octavos de final",
               "Santa Fe",
-              "vs.",
+              "0:0",
               "River Plate",
               "Estadio El Campín , Bogotá",
               "19 de agosto, 19:30 ( UTC-5 ) [ n. 4 ]",
               "",
               "",
-              ""
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Club_River_Plate_Asunción_logo.png?width=200"
             ],
             [
               "Octavos de final",
@@ -6561,7 +6561,7 @@
               "Estadio Monumental , Buenos Aires",
               "26 de agosto, 21:30 ( UTC-3 ) [ n. 4 ]",
               "",
-              "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Club_River_Plate_Asunción_logo.png?width=200",
               ""
             ],
             [
@@ -6578,7 +6578,7 @@
             [
               "Octavos de final",
               "Montevideo City Torque",
-              "vs.",
+              "2:1 (2:1)",
               "Tigre",
               "Estadio Centenario , Montevideo",
               "19 de agosto, 21:30 ( UTC-3 )",
@@ -6642,7 +6642,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-20T01:11:32.077411Z",
+        "scraped_at": "2026-08-20T02:56:05.668227Z",
         "extra": {
           "rows": [
             [
@@ -7060,7 +7060,7 @@
             "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Boston_River.png?width=200",
             "",
             "",
-            "",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Sanlorenzo_almagro_logo2026.png/250px-Sanlorenzo_almagro_logo2026.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Depcuenca.png/250px-Depcuenca.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Botafogo_de_Futebol_e_Regatas_logo.svg?width=200",
             "",
@@ -7073,8 +7073,8 @@
             "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Escudo_original_de_Olimpia.png/250px-Escudo_original_de_Olimpia.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Escudo_Vasco_1920.png/250px-Escudo_Vasco_1920.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Insignia_Audax_Italiano.png/250px-Insignia_Audax_Italiano.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "",
-            "",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Barracas_central_logo.svg?width=200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Club_River_Plate_Asunción_logo.png?width=200",
             "",
             "",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-4-400x400.png"
@@ -7092,7 +7092,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-20T01:11:32.120433Z",
+        "scraped_at": "2026-08-20T02:56:05.713136Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -7152,7 +7152,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-20T01:11:32.120864Z",
+        "scraped_at": "2026-08-20T02:56:05.713513Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -7212,7 +7212,7 @@
         "source_name": "FutbolDeBolivia.net - Copa Paceña Grupo A + FutbolDeBolivia.net - Copa Paceña Grupo B + FutbolDeBolivia.net - Copa Paceña Grupo C + FutbolDeBolivia.net - Copa Paceña Grupo D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-08-20T01:11:30.009890Z",
+        "scraped_at": "2026-08-20T02:56:03.896908Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7403,7 +7403,7 @@
         "source_name": "Calculada desde: FutbolDeBolivia.net - Copa Paceña Grupo A + FutbolDeBolivia.net - Copa Paceña Grupo B + FutbolDeBolivia.net - Copa Paceña Grupo C + FutbolDeBolivia.net - Copa Paceña Grupo D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-08-20T01:11:30.009890Z",
+        "scraped_at": "2026-08-20T02:56:03.896908Z",
         "extra": {
           "rows": [
             [

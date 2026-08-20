@@ -6,11 +6,17 @@ import re
 import time
 import traceback
 import unicodedata
+from pathlib import Path
 from typing import Any
 
 import requests
 
 LOGO_BUCKET = "team-logos"
+# Escudos que ningún buscador automático encuentra (clubes chicos/regionales
+# sin Wikipedia): se ponen los archivos de imagen acá, con el nombre del
+# equipo como nombre de archivo (ej. "real_potosi.png", espacios con guion
+# bajo, sin tildes), y el cron los sube solo en cada corrida.
+MANUAL_LOGOS_DIR = Path(__file__).resolve().parent / "manual_logos"
 # Wikimedia exige un User-Agent descriptivo (con contacto) y bloquea con 429
 # a quien no lo manda o pide muy seguido. Con ~150 escudos en la primera
 # corrida, bajarlos todos sin pausa dispara ese límite casi de inmediato.
@@ -326,11 +332,52 @@ def sync_team_logos(client, team_assets: dict[str, Any]) -> dict[str, str]:
     return result
 
 
+def sync_manual_logos(client) -> dict[str, str]:
+    """Sube los escudos que se pusieron a mano en manual_logos/ (equipos que
+    Wikidata/Wikipedia/TheSportsDB nunca van a tener, ej. clubes amateurs
+    bolivianos chicos). El nombre de archivo es el nombre del equipo con
+    espacios como "_" (ej. "real_potosi.png"); se re-normaliza igual que
+    cualquier otro nombre de equipo para calzar sin importar tildes/mayúsculas."""
+    if not MANUAL_LOGOS_DIR.is_dir():
+        return {}
+    result: dict[str, str] = {}
+    for path in sorted(MANUAL_LOGOS_DIR.iterdir()):
+        if not path.is_file() or path.suffix.lower() not in {".png", ".jpg", ".jpeg", ".webp"}:
+            continue
+        team_key = _normalize_team_key(path.stem.replace("_", " "))
+        if not team_key:
+            continue
+        try:
+            content_type = mimetypes.guess_type(path.name)[0] or "image/png"
+            storage_path = f"manual_{path.stem}{path.suffix}"
+            client.storage.from_(LOGO_BUCKET).upload(
+                storage_path, path.read_bytes(), {"content-type": content_type, "upsert": "true"}
+            )
+            public_url = client.storage.from_(LOGO_BUCKET).get_public_url(storage_path)
+            if isinstance(public_url, dict):
+                public_url = public_url.get("publicUrl") or public_url.get("publicURL") or ""
+            client.schema("futbol_boliviano").table("team_logos").upsert({
+                "team_key": team_key,
+                "name": path.stem.replace("_", " ").title(),
+                "country": "Bolivia",
+                "source_url": "manual",
+                "storage_path": storage_path,
+                "logo_url": public_url,
+            }, on_conflict="team_key").execute()
+            result[team_key] = public_url
+            print(f"supabase_sync: escudo manual subido -> {team_key}", flush=True)
+        except Exception as exc:
+            print(f"supabase_sync: ERROR subiendo escudo manual {path.name}: {type(exc).__name__}: {exc}", flush=True)
+    return result
+
+
 def sync(items: list[dict[str, Any]], current_tables: dict[str, Any]) -> None:
     client = _get_client()
     if client is None:
         print("supabase_sync: SUPABASE_URL/SUPABASE_SERVICE_ROLE_KEY no configurados, se omite.", flush=True)
         return
     push_items(client, items)
+    manual_logo_map = sync_manual_logos(client)
     logo_map = sync_team_logos(client, current_tables.get("team_assets") or {})
+    logo_map.update(manual_logo_map)  # los manuales ganan si hay choque
     push_current_tables(client, current_tables, logo_map)

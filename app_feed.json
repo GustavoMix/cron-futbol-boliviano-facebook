@@ -1,40 +1,8 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-08-20T14:06:04.531999Z",
+  "generated_at": "2026-08-20T14:27:55.800867Z",
   "policy": "feed editorial: noticias deportivas coherentes; sin widgets de tablas, UI de Facebook ni promociones de bajo valor",
   "items": [
-    {
-      "id": "8ff044156634bd159183",
-      "kind": "news",
-      "title": "Ronaldinho aterriza en Italia para su presentación como nuevo jugador del Ravenna",
-      "text": "Ronaldinho Gaúcho aterrizó este jueves en Emilia-Romaña (Italia) para asistir a su presentación como nuevo jugador del Ravenna, equipo de la Serie C por el que fichó como estrategia comercial del club italiano y con el que se prevé que dispute al menos un partido oficial",
-      "url": "https://diez.bo/futbol/ronaldinho-aterriza-en-italia-para-su-presentacion-como-nuevo-jugador-del-ravenna_1787233781",
-      "image_url": "",
-      "video_url": "",
-      "thumbnail_url": "",
-      "media_type": "none",
-      "published_at": "2026-08-20T13:49:41Z",
-      "scraped_at": "2026-08-20T14:02:20.317324Z",
-      "source_id": "diez_futbol",
-      "source_name": "DIEZ - Fútbol",
-      "source_type": "media",
-      "source_authority": 0.9,
-      "scope": "bolivia",
-      "competition": "general",
-      "rank_score": 0.968478,
-      "stale": false,
-      "extra": {
-        "summary": "Ronaldinho Gaúcho aterrizó este jueves en Emilia-Romaña (Italia) para asistir a su presentación como nuevo jugador del Ravenna, equipo de la Serie C por el que fichó como estrategia comercial del club italiano y con el que se prevé que dispute al menos un partido oficial",
-        "content_quality": 0.9506,
-        "published_date": "2026-08-20",
-        "published_display": "20/08/2026",
-        "related_sources": [],
-        "feed_score": 0.96016,
-        "feed_freshness": 0.993707
-      },
-      "published_date": "2026-08-20",
-      "published_display": "20/08/2026"
-    },
     {
       "id": "d6f0983362e60d653842",
       "kind": "news",
@@ -46,14 +14,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-20T09:44:31-04:00",
-      "scraped_at": "2026-08-20T14:02:18.829243Z",
+      "scraped_at": "2026-08-20T14:22:03.029572Z",
       "source_id": "reduno_deportes",
       "source_name": "Red Uno - Super Deportivo",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.961454,
+      "rank_score": 0.956039,
       "stale": false,
       "extra": {
         "summary": "Super deportivo Messi, en el centro de la polémica tras un tenso cruce en la MLS El capitán de Inter Miami protagonizó un incidente con Quinn Sullivan durante el empate ante Philadelphia Union por la MLS. Por Martin Suarez Vargas",
@@ -61,8 +29,8 @@
         "published_date": "2026-08-20",
         "published_display": "20/08/2026",
         "related_sources": [],
-        "feed_score": 0.947791,
-        "feed_freshness": 0.991732
+        "feed_score": 0.943802,
+        "feed_freshness": 0.983421
       },
       "published_date": "2026-08-20",
       "published_display": "20/08/2026"
@@ -77,8 +45,8 @@
       "video_url": "",
       "thumbnail_url": "",
       "media_type": "none",
-      "published_at": "2026-08-20T13:42:19.712600Z",
-      "scraped_at": "2026-08-20T14:02:19.712954Z",
+      "published_at": "2026-08-20T14:02:03.851108Z",
+      "scraped_at": "2026-08-20T14:22:03.851462Z",
       "source_id": "unitel_atodo_deporte",
       "source_name": "Unitel - A Todo Deporte",
       "source_type": "media",
@@ -97,8 +65,8 @@
           "division_profesional"
         ],
         "related_sources": [],
-        "feed_score": 0.928551,
-        "feed_freshness": 0.990897
+        "feed_score": 0.928163,
+        "feed_freshness": 0.990089
       },
       "published_date": "2026-08-20",
       "published_display": "20/08/2026"
@@ -113,15 +81,15 @@
       "video_url": "",
       "thumbnail_url": "",
       "media_type": "none",
-      "published_at": "2026-08-20T13:02:19.713291Z",
-      "scraped_at": "2026-08-20T14:02:19.713538Z",
+      "published_at": "2026-08-20T13:22:03.851793Z",
+      "scraped_at": "2026-08-20T14:22:03.852053Z",
       "source_id": "unitel_atodo_deporte",
       "source_name": "Unitel - A Todo Deporte",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "division_profesional",
-      "rank_score": 0.949931,
+      "rank_score": 0.94993,
       "stale": false,
       "extra": {
         "summary": "División Profesional “Hay que tener vergüenza”: Erwin Sánchez estalla tras la goleada sufrida en Sucre Hace 1 hora",
@@ -132,8 +100,8 @@
           "division_profesional"
         ],
         "related_sources": [],
-        "feed_score": 0.92095,
-        "feed_freshness": 0.975751
+        "feed_score": 0.920568,
+        "feed_freshness": 0.974955
       },
       "published_date": "2026-08-20",
       "published_display": "20/08/2026"
@@ -149,14 +117,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-20T12:36:36Z",
-      "scraped_at": "2026-08-20T14:02:20.319523Z",
+      "scraped_at": "2026-08-20T14:22:04.447066Z",
       "source_id": "diez_futbol",
       "source_name": "DIEZ - Fútbol",
       "source_type": "media",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.948595,
+      "rank_score": 0.94332,
       "stale": false,
       "extra": {
         "summary": "Fútbol Hinchas de Blooming califican de “vergonzosa y humillante” la derrota en Sucre",
@@ -164,8 +132,8 @@
         "published_date": "2026-08-20",
         "published_display": "20/08/2026",
         "related_sources": [],
-        "feed_score": 0.915903,
-        "feed_freshness": 0.966131
+        "feed_score": 0.912017,
+        "feed_freshness": 0.958035
       },
       "published_date": "2026-08-20",
       "published_display": "20/08/2026"
@@ -181,14 +149,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-20T12:55:04Z",
-      "scraped_at": "2026-08-20T14:02:20.318464Z",
+      "scraped_at": "2026-08-20T14:22:04.445719Z",
       "source_id": "diez_futbol",
       "source_name": "DIEZ - Fútbol",
       "source_type": "media",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.953566,
+      "rank_score": 0.948254,
       "stale": false,
       "extra": {
         "summary": "Fútbol El refinero vuelve a enfocarse en la liga ante San Antonio",
@@ -196,8 +164,8 @@
         "published_date": "2026-08-20",
         "published_display": "20/08/2026",
         "related_sources": [],
-        "feed_score": 0.915883,
-        "feed_freshness": 0.973026
+        "feed_score": 0.911968,
+        "feed_freshness": 0.964872
       },
       "published_date": "2026-08-20",
       "published_display": "20/08/2026"
@@ -213,14 +181,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-20T12:42:12Z",
-      "scraped_at": "2026-08-20T14:02:20.318985Z",
+      "scraped_at": "2026-08-20T14:22:04.446247Z",
       "source_id": "diez_futbol",
       "source_name": "DIEZ - Fútbol",
       "source_type": "media",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.950099,
+      "rank_score": 0.944813,
       "stale": false,
       "extra": {
         "summary": "Fútbol Always Ready debuta ante Real Oruro en la Copa Bolivia",
@@ -228,8 +196,8 @@
         "published_date": "2026-08-20",
         "published_display": "20/08/2026",
         "related_sources": [],
-        "feed_score": 0.912914,
-        "feed_freshness": 0.968217
+        "feed_score": 0.909019,
+        "feed_freshness": 0.960103
       },
       "published_date": "2026-08-20",
       "published_display": "20/08/2026"
@@ -245,7 +213,7 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-12-08T15:15:54Z",
-      "scraped_at": "2026-08-20T14:02:14.289863Z",
+      "scraped_at": "2026-08-20T14:21:58.260652Z",
       "source_id": "fbf_sub19",
       "source_name": "FBF - Liga Nacional Sub-19",
       "source_type": "federation",
@@ -293,33 +261,33 @@
       "published_display": "08/12/2026"
     },
     {
-      "id": "575e406a93eeb274edb0",
+      "id": "8ff044156634bd159183",
       "kind": "news",
-      "title": "Costa anuncia una millonaria inversión para fortalecer las divisiones menores",
-      "text": "Fútbol Costa anuncia una millonaria inversión para fortalecer las divisiones menores",
-      "url": "https://diez.bo/futbol/costa-anuncia-una-millonaria-inversion-para-fortalecer-las-divisiones-menores_1787230905",
+      "title": "Ronaldinho aterriza en Italia para su presentación como nuevo jugador del Ravenna",
+      "text": "Fútbol Ronaldinho aterriza en Italia para su presentación como nuevo jugador del Ravenna",
+      "url": "https://diez.bo/futbol/ronaldinho-aterriza-en-italia-para-su-presentacion-como-nuevo-jugador-del-ravenna_1787233781",
       "image_url": "",
       "video_url": "",
       "thumbnail_url": "",
       "media_type": "none",
-      "published_at": "2026-08-20T13:01:45Z",
-      "scraped_at": "2026-08-20T14:02:20.317924Z",
+      "published_at": "2026-08-20T13:49:41Z",
+      "scraped_at": "2026-08-20T14:22:04.444549Z",
       "source_id": "diez_futbol",
       "source_name": "DIEZ - Fútbol",
       "source_type": "media",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.955374,
+      "rank_score": 0.963052,
       "stale": false,
       "extra": {
-        "summary": "Fútbol Costa anuncia una millonaria inversión para fortalecer las divisiones menores",
-        "content_quality": 0.5467,
+        "summary": "Fútbol Ronaldinho aterriza en Italia para su presentación como nuevo jugador del Ravenna",
+        "content_quality": 0.5489,
         "published_date": "2026-08-20",
         "published_display": "20/08/2026",
         "related_sources": [],
-        "feed_score": 0.830266,
-        "feed_freshness": 0.975533
+        "feed_score": 0.835652,
+        "feed_freshness": 0.98538
       },
       "published_date": "2026-08-20",
       "published_display": "20/08/2026"
@@ -334,15 +302,15 @@
       "video_url": "",
       "thumbnail_url": "",
       "media_type": "none",
-      "published_at": "2026-08-20T13:02:19.713833Z",
-      "scraped_at": "2026-08-20T14:02:19.714104Z",
+      "published_at": "2026-08-20T13:22:03.852336Z",
+      "scraped_at": "2026-08-20T14:22:03.852620Z",
       "source_id": "unitel_atodo_deporte",
       "source_name": "Unitel - A Todo Deporte",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.949931,
+      "rank_score": 0.94993,
       "stale": false,
       "extra": {
         "summary": "Fútbol Aficionados de todo el mundo exigen la salida de Gianni Infantino de la FIFA Hace 1 hora",
@@ -350,8 +318,40 @@
         "published_date": "2026-08-20",
         "published_display": "20/08/2026",
         "related_sources": [],
-        "feed_score": 0.8278,
-        "feed_freshness": 0.975751
+        "feed_score": 0.827418,
+        "feed_freshness": 0.974955
+      },
+      "published_date": "2026-08-20",
+      "published_display": "20/08/2026"
+    },
+    {
+      "id": "575e406a93eeb274edb0",
+      "kind": "news",
+      "title": "Costa anuncia una millonaria inversión para fortalecer las divisiones menores",
+      "text": "Fútbol Costa anuncia una millonaria inversión para fortalecer las divisiones menores",
+      "url": "https://diez.bo/futbol/costa-anuncia-una-millonaria-inversion-para-fortalecer-las-divisiones-menores_1787230905",
+      "image_url": "",
+      "video_url": "",
+      "thumbnail_url": "",
+      "media_type": "none",
+      "published_at": "2026-08-20T13:01:45Z",
+      "scraped_at": "2026-08-20T14:22:04.445121Z",
+      "source_id": "diez_futbol",
+      "source_name": "DIEZ - Fútbol",
+      "source_type": "media",
+      "source_authority": 0.9,
+      "scope": "bolivia",
+      "competition": "general",
+      "rank_score": 0.950048,
+      "stale": false,
+      "extra": {
+        "summary": "Fútbol Costa anuncia una millonaria inversión para fortalecer las divisiones menores",
+        "content_quality": 0.5467,
+        "published_date": "2026-08-20",
+        "published_display": "20/08/2026",
+        "related_sources": [],
+        "feed_score": 0.826342,
+        "feed_freshness": 0.967358
       },
       "published_date": "2026-08-20",
       "published_display": "20/08/2026"
@@ -367,14 +367,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-20T12:31:14Z",
-      "scraped_at": "2026-08-20T14:02:20.320396Z",
+      "scraped_at": "2026-08-20T14:22:04.447636Z",
       "source_id": "diez_futbol",
       "source_name": "DIEZ - Fútbol",
       "source_type": "media",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.947157,
+      "rank_score": 0.941893,
       "stale": false,
       "extra": {
         "summary": "Fútbol 'Platiní', tras el papelón de Blooming: “Hay que tener vergüenza en la cara”",
@@ -382,43 +382,8 @@
         "published_date": "2026-08-20",
         "published_display": "20/08/2026",
         "related_sources": [],
-        "feed_score": 0.824616,
-        "feed_freshness": 0.964137
-      },
-      "published_date": "2026-08-20",
-      "published_display": "20/08/2026"
-    },
-    {
-      "id": "95d2fd2ef4977c6daaab",
-      "kind": "news",
-      "title": "AFA dice que existió “campaña miserable” contra Argentina tras Mundial",
-      "text": "Mundial 2026 AFA dice que existió “campaña miserable” contra Argentina tras Mundial",
-      "url": "https://www.reduno.com.bo/deportes/la-afa-dice-que-existio-una-campana-miserable-contra-argentina-tras-la-final-del-mundial-202682083013",
-      "image_url": "https://pxcdn.reduno.com.bo/reduno/082026/1787228800573.webp?extw=jpg&cw=500&ch=303",
-      "video_url": "",
-      "thumbnail_url": "",
-      "media_type": "none",
-      "published_at": "2026-08-20T08:30:13-04:00",
-      "scraped_at": "2026-08-20T14:02:18.829855Z",
-      "source_id": "reduno_deportes",
-      "source_name": "Red Uno - Super Deportivo",
-      "source_type": "media",
-      "source_authority": 0.88,
-      "scope": "bolivia",
-      "competition": "mundial",
-      "rank_score": 0.941285,
-      "stale": false,
-      "extra": {
-        "summary": "Mundial 2026 AFA dice que existió “campaña miserable” contra Argentina tras Mundial",
-        "content_quality": 0.5461,
-        "published_date": "2026-08-20",
-        "published_display": "20/08/2026",
-        "tags": [
-          "mundial"
-        ],
-        "related_sources": [],
-        "feed_score": 0.820034,
-        "feed_freshness": 0.963759
+        "feed_score": 0.820737,
+        "feed_freshness": 0.956057
       },
       "published_date": "2026-08-20",
       "published_display": "20/08/2026"
@@ -434,14 +399,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-20T02:46:22Z",
-      "scraped_at": "2026-08-20T14:02:20.320814Z",
+      "scraped_at": "2026-08-20T14:22:04.448069Z",
       "source_id": "diez_futbol",
       "source_name": "DIEZ - Fútbol",
       "source_type": "media",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "libertadores",
-      "rank_score": 0.806971,
+      "rank_score": 0.802769,
       "stale": false,
       "extra": {
         "summary": "Fútbol Flamengo elimina a Cruzeiro y avanza a cuartos de la Libertadores",
@@ -452,8 +417,43 @@
           "libertadores"
         ],
         "related_sources": [],
-        "feed_score": 0.81946,
-        "feed_freshness": 0.769708
+        "feed_score": 0.816364,
+        "feed_freshness": 0.763258
+      },
+      "published_date": "2026-08-20",
+      "published_display": "20/08/2026"
+    },
+    {
+      "id": "95d2fd2ef4977c6daaab",
+      "kind": "news",
+      "title": "AFA dice que existió “campaña miserable” contra Argentina tras Mundial",
+      "text": "Mundial 2026 AFA dice que existió “campaña miserable” contra Argentina tras Mundial",
+      "url": "https://www.reduno.com.bo/deportes/la-afa-dice-que-existio-una-campana-miserable-contra-argentina-tras-la-final-del-mundial-202682083013",
+      "image_url": "https://pxcdn.reduno.com.bo/reduno/082026/1787228800573.webp?extw=jpg&cw=500&ch=303",
+      "video_url": "",
+      "thumbnail_url": "",
+      "media_type": "none",
+      "published_at": "2026-08-20T08:30:13-04:00",
+      "scraped_at": "2026-08-20T14:22:03.030168Z",
+      "source_id": "reduno_deportes",
+      "source_name": "Red Uno - Super Deportivo",
+      "source_type": "media",
+      "source_authority": 0.88,
+      "scope": "bolivia",
+      "competition": "mundial",
+      "rank_score": 0.936023,
+      "stale": false,
+      "extra": {
+        "summary": "Mundial 2026 AFA dice que existió “campaña miserable” contra Argentina tras Mundial",
+        "content_quality": 0.5461,
+        "published_date": "2026-08-20",
+        "published_display": "20/08/2026",
+        "tags": [
+          "mundial"
+        ],
+        "related_sources": [],
+        "feed_score": 0.816158,
+        "feed_freshness": 0.955683
       },
       "published_date": "2026-08-20",
       "published_display": "20/08/2026"
@@ -469,14 +469,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-20T01:23:46Z",
-      "scraped_at": "2026-08-20T14:02:20.321672Z",
+      "scraped_at": "2026-08-20T14:22:04.448929Z",
       "source_id": "diez_futbol",
       "source_name": "DIEZ - Fútbol",
       "source_type": "media",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.789596,
+      "rank_score": 0.785526,
       "stale": false,
       "extra": {
         "summary": "Fútbol Palmeiras espera en cuartos por Liga de Quito o Mirassol tras vencer a Cerro Porteño",
@@ -484,8 +484,8 @@
         "published_date": "2026-08-20",
         "published_display": "20/08/2026",
         "related_sources": [],
-        "feed_score": 0.811073,
-        "feed_freshness": 0.745611
+        "feed_score": 0.808074,
+        "feed_freshness": 0.739362
       },
       "published_date": "2026-08-20",
       "published_display": "20/08/2026"
@@ -501,14 +501,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-20T00:48:02Z",
-      "scraped_at": "2026-08-20T14:02:20.322229Z",
+      "scraped_at": "2026-08-20T14:22:04.449504Z",
       "source_id": "diez_futbol",
       "source_name": "DIEZ - Fútbol",
       "source_type": "media",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "sudamericana",
-      "rank_score": 0.78225,
+      "rank_score": 0.778234,
       "stale": false,
       "extra": {
         "summary": "Copa Sudamericana Bolívar regresa al país “la eliminación nos cae dura porque aspiramos a más”",
@@ -519,8 +519,8 @@
           "sudamericana"
         ],
         "related_sources": [],
-        "feed_score": 0.806662,
-        "feed_freshness": 0.735421
+        "feed_score": 0.803704,
+        "feed_freshness": 0.729258
       },
       "published_date": "2026-08-20",
       "published_display": "20/08/2026"
@@ -536,14 +536,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-20T02:39:10Z",
-      "scraped_at": "2026-08-20T14:02:20.321258Z",
+      "scraped_at": "2026-08-20T14:22:04.448524Z",
       "source_id": "diez_futbol",
       "source_name": "DIEZ - Fútbol",
       "source_type": "media",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.805434,
+      "rank_score": 0.801244,
       "stale": false,
       "extra": {
         "summary": "",
@@ -551,8 +551,8 @@
         "published_date": "2026-08-20",
         "published_display": "20/08/2026",
         "related_sources": [],
-        "feed_score": 0.806437,
-        "feed_freshness": 0.767577
+        "feed_score": 0.803349,
+        "feed_freshness": 0.761145
       },
       "published_date": "2026-08-20",
       "published_display": "20/08/2026"
@@ -568,14 +568,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-20T00:24:18Z",
-      "scraped_at": "2026-08-20T14:02:20.322768Z",
+      "scraped_at": "2026-08-20T14:22:04.450076Z",
       "source_id": "diez_futbol",
       "source_name": "DIEZ - Fútbol",
       "source_type": "media",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.777426,
+      "rank_score": 0.773447,
       "stale": false,
       "extra": {
         "summary": "Fútbol Blooming se derrumba: ganaba 0-2 y terminó goleado 5-2 por un Independiente con un jugador menos",
@@ -583,8 +583,8 @@
         "published_date": "2026-08-20",
         "published_display": "20/08/2026",
         "related_sources": [],
-        "feed_score": 0.804951,
-        "feed_freshness": 0.728731
+        "feed_score": 0.802019,
+        "feed_freshness": 0.722624
       },
       "published_date": "2026-08-20",
       "published_display": "20/08/2026"
@@ -600,14 +600,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T19:30:05Z",
-      "scraped_at": "2026-08-20T14:02:08.648405Z",
+      "scraped_at": "2026-08-20T14:21:50.738031Z",
       "source_id": "fbf_profesional",
       "source_name": "FBF - División Profesional",
       "source_type": "federation",
       "source_authority": 1.0,
       "scope": "bolivia",
       "competition": "division_profesional",
-      "rank_score": 0.749145,
+      "rank_score": 0.745592,
       "stale": false,
       "extra": {
         "summary": "Suscríbete para enterarte primero de noticias, partidos y eventos oficiales Powered by Believe Solutions © 2026 by Federación Boliviana de Fútbol",
@@ -619,8 +619,8 @@
           "division_profesional"
         ],
         "related_sources": [],
-        "feed_score": 0.796503,
-        "feed_freshness": 0.650673
+        "feed_score": 0.793886,
+        "feed_freshness": 0.64522
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -636,14 +636,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T20:00:02Z",
-      "scraped_at": "2026-08-20T14:02:12.603751Z",
+      "scraped_at": "2026-08-20T14:21:54.609276Z",
       "source_id": "fbf_copa_pacena",
       "source_name": "FBF - Copa Paceña",
       "source_type": "federation",
       "source_authority": 1.0,
       "scope": "bolivia",
       "competition": "copa_division_profesional",
-      "rank_score": 0.754587,
+      "rank_score": 0.750993,
       "stale": false,
       "extra": {
         "summary": "Suscríbete para enterarte primero de noticias, partidos y eventos oficiales",
@@ -655,8 +655,8 @@
           "copa_division_profesional"
         ],
         "related_sources": [],
-        "feed_score": 0.788456,
-        "feed_freshness": 0.658221
+        "feed_score": 0.785808,
+        "feed_freshness": 0.652704
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -672,14 +672,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T13:58:53-04:00",
-      "scraped_at": "2026-08-20T14:02:18.833882Z",
+      "scraped_at": "2026-08-20T14:22:03.033935Z",
       "source_id": "reduno_deportes",
       "source_name": "Red Uno - Super Deportivo",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.699355,
+      "rank_score": 0.695925,
       "stale": false,
       "extra": {
         "summary": "Super deportivo Kevin Chacón rompió en llanto tras ser expulsado ante Oriente El juvenil de The Strongest vio la tarjeta roja pocos minutos después de ingresar al partido por una falta brusca sobre un jugador de Oriente Petrolero y terminó desconsolado en el campo. Por Martin Suarez Vargas",
@@ -687,8 +687,8 @@
         "published_date": "2026-08-19",
         "published_display": "19/08/2026",
         "related_sources": [],
-        "feed_score": 0.783145,
-        "feed_freshness": 0.628218
+        "feed_score": 0.780618,
+        "feed_freshness": 0.622953
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -704,14 +704,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T21:11:34Z",
-      "scraped_at": "2026-08-20T14:02:20.324246Z",
+      "scraped_at": "2026-08-20T14:22:04.451630Z",
       "source_id": "diez_futbol",
       "source_name": "DIEZ - Fútbol",
       "source_type": "media",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.739841,
+      "rank_score": 0.736147,
       "stale": false,
       "extra": {
         "summary": "Fútbol ¡Sobre la hora! Real Potosí vence a ABB en un partido que se le complicó más de la cuenta",
@@ -719,8 +719,8 @@
         "published_date": "2026-08-19",
         "published_display": "19/08/2026",
         "related_sources": [],
-        "feed_score": 0.77876,
-        "feed_freshness": 0.676604
+        "feed_score": 0.776038,
+        "feed_freshness": 0.670934
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -736,14 +736,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T19:55:28Z",
-      "scraped_at": "2026-08-20T14:02:20.325201Z",
+      "scraped_at": "2026-08-20T14:22:04.452650Z",
       "source_id": "diez_futbol",
       "source_name": "DIEZ - Fútbol",
       "source_type": "media",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.725753,
+      "rank_score": 0.722166,
       "stale": false,
       "extra": {
         "summary": "Fútbol La AFA dice que existió una “campaña miserable” contra Argentina tras la final del Mundial",
@@ -751,8 +751,8 @@
         "published_date": "2026-08-19",
         "published_display": "19/08/2026",
         "related_sources": [],
-        "feed_score": 0.769561,
-        "feed_freshness": 0.657064
+        "feed_score": 0.766918,
+        "feed_freshness": 0.651558
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -768,14 +768,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T19:35:28Z",
-      "scraped_at": "2026-08-20T14:02:20.325729Z",
+      "scraped_at": "2026-08-20T14:22:04.453186Z",
       "source_id": "diez_futbol",
       "source_name": "DIEZ - Fútbol",
       "source_type": "media",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.722118,
+      "rank_score": 0.718558,
       "stale": false,
       "extra": {
         "summary": "Fútbol El PSG no podrá debutar en Liga en su estadio por el mal estado del césped",
@@ -789,8 +789,8 @@
             "published_at": "2026-08-19T00:00:00Z"
           }
         ],
-        "feed_score": 0.764471,
-        "feed_freshness": 0.652023
+        "feed_score": 0.761848,
+        "feed_freshness": 0.646559
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -806,14 +806,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T19:00:47Z",
-      "scraped_at": "2026-08-20T14:02:20.326648Z",
+      "scraped_at": "2026-08-20T14:22:04.454108Z",
       "source_id": "diez_futbol",
       "source_name": "DIEZ - Fútbol",
       "source_type": "media",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.715881,
+      "rank_score": 0.712369,
       "stale": false,
       "extra": {
         "summary": "Fútbol La FBF espera que Conmebol defina la fecha de inicio de las eliminatorias",
@@ -821,8 +821,8 @@
         "published_date": "2026-08-19",
         "published_display": "19/08/2026",
         "related_sources": [],
-        "feed_score": 0.760139,
-        "feed_freshness": 0.643373
+        "feed_score": 0.757551,
+        "feed_freshness": 0.637981
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -838,14 +838,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T14:55:22-04:00",
-      "scraped_at": "2026-08-20T14:02:18.831465Z",
+      "scraped_at": "2026-08-20T14:22:03.031706Z",
       "source_id": "reduno_deportes",
       "source_name": "Red Uno - Super Deportivo",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.709315,
+      "rank_score": 0.705809,
       "stale": false,
       "extra": {
         "summary": "Super deportivo ¡Magia de Henry Vaca! Su asistencia terminó en un golazo de Aurora",
@@ -853,8 +853,8 @@
         "published_date": "2026-08-19",
         "published_display": "19/08/2026",
         "related_sources": [],
-        "feed_score": 0.755455,
-        "feed_freshness": 0.642032
+        "feed_score": 0.752873,
+        "feed_freshness": 0.636651
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -870,14 +870,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T18:41:20Z",
-      "scraped_at": "2026-08-20T14:02:20.327068Z",
+      "scraped_at": "2026-08-20T14:22:04.454528Z",
       "source_id": "diez_futbol",
       "source_name": "DIEZ - Fútbol",
       "source_type": "media",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.71242,
+      "rank_score": 0.708933,
       "stale": false,
       "extra": {
         "summary": "Fútbol Oriente Petrolero oficializa el fichaje de Matías Roskopf",
@@ -885,8 +885,8 @@
         "published_date": "2026-08-19",
         "published_display": "19/08/2026",
         "related_sources": [],
-        "feed_score": 0.755194,
-        "feed_freshness": 0.638572
+        "feed_score": 0.752626,
+        "feed_freshness": 0.63322
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -902,14 +902,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T14:25:56-04:00",
-      "scraped_at": "2026-08-20T14:02:18.832454Z",
+      "scraped_at": "2026-08-20T14:22:03.032641Z",
       "source_id": "reduno_deportes",
       "source_name": "Red Uno - Super Deportivo",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.704097,
+      "rank_score": 0.700632,
       "stale": false,
       "extra": {
         "summary": "Super deportivo La reacción de Florentín tras la derrota de Oriente ante The Strongest",
@@ -917,8 +917,8 @@
         "published_date": "2026-08-19",
         "published_display": "19/08/2026",
         "related_sources": [],
-        "feed_score": 0.752642,
-        "feed_freshness": 0.634796
+        "feed_score": 0.750089,
+        "feed_freshness": 0.629476
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -934,14 +934,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T14:42:38-04:00",
-      "scraped_at": "2026-08-20T14:02:18.831929Z",
+      "scraped_at": "2026-08-20T14:22:03.032130Z",
       "source_id": "reduno_deportes",
       "source_name": "Red Uno - Super Deportivo",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.70705,
+      "rank_score": 0.703562,
       "stale": false,
       "extra": {
         "summary": "Super deportivo ¿Quién es Luiz Pachu, el nuevo refuerzo de The Strongest?",
@@ -949,8 +949,8 @@
         "published_date": "2026-08-19",
         "published_display": "19/08/2026",
         "related_sources": [],
-        "feed_score": 0.752448,
-        "feed_freshness": 0.638892
+        "feed_score": 0.749878,
+        "feed_freshness": 0.633537
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -966,14 +966,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T13:29:38-04:00",
-      "scraped_at": "2026-08-20T14:02:18.834967Z",
+      "scraped_at": "2026-08-20T14:22:03.035021Z",
       "source_id": "reduno_deportes",
       "source_name": "Red Uno - Super Deportivo",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.694281,
+      "rank_score": 0.69089,
       "stale": false,
       "extra": {
         "summary": "Super deportivo ¡Pónganlo en un cuadro! El golazo de Asprilla ante Sao Paulo",
@@ -981,8 +981,8 @@
         "published_date": "2026-08-19",
         "published_display": "19/08/2026",
         "related_sources": [],
-        "feed_score": 0.744427,
-        "feed_freshness": 0.621182
+        "feed_score": 0.741928,
+        "feed_freshness": 0.615976
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -998,14 +998,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T12:28:27-04:00",
-      "scraped_at": "2026-08-20T14:02:18.835423Z",
+      "scraped_at": "2026-08-20T14:22:03.035465Z",
       "source_id": "reduno_deportes",
       "source_name": "Red Uno - Super Deportivo",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.683852,
+      "rank_score": 0.68054,
       "stale": false,
       "extra": {
         "summary": "Super deportivo Tenista es suspendido por dar positivo a sustancias controladas",
@@ -1013,8 +1013,8 @@
         "published_date": "2026-08-19",
         "published_display": "19/08/2026",
         "related_sources": [],
-        "feed_score": 0.737994,
-        "feed_freshness": 0.606717
+        "feed_score": 0.735554,
+        "feed_freshness": 0.601633
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -1030,14 +1030,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T14:56:54Z",
-      "scraped_at": "2026-08-20T14:02:20.328591Z",
+      "scraped_at": "2026-08-20T14:22:04.456125Z",
       "source_id": "diez_futbol",
       "source_name": "DIEZ - Fútbol",
       "source_type": "media",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.674299,
+      "rank_score": 0.671101,
       "stale": false,
       "extra": {
         "summary": "Fútbol Miguelito podría volver a jugar en la altura, pero no con la selección",
@@ -1045,8 +1045,8 @@
         "published_date": "2026-08-19",
         "published_display": "19/08/2026",
         "related_sources": [],
-        "feed_score": 0.731976,
-        "feed_freshness": 0.585701
+        "feed_score": 0.72962,
+        "feed_freshness": 0.580792
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -1062,14 +1062,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T13:30:46Z",
-      "scraped_at": "2026-08-20T14:02:20.329511Z",
+      "scraped_at": "2026-08-20T14:22:04.457047Z",
       "source_id": "diez_futbol",
       "source_name": "DIEZ - Fútbol",
       "source_type": "media",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.660522,
+      "rank_score": 0.657428,
       "stale": false,
       "extra": {
         "summary": "Fútbol Sanciones y lesiones dejan a Blooming sin centrales",
@@ -1077,8 +1077,8 @@
         "published_date": "2026-08-19",
         "published_display": "19/08/2026",
         "related_sources": [],
-        "feed_score": 0.719624,
-        "feed_freshness": 0.566593
+        "feed_score": 0.717345,
+        "feed_freshness": 0.561844
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -1094,14 +1094,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T13:10:43Z",
-      "scraped_at": "2026-08-20T14:02:20.330047Z",
+      "scraped_at": "2026-08-20T14:22:04.457538Z",
       "source_id": "diez_futbol",
       "source_name": "DIEZ - Fútbol",
       "source_type": "media",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.65738,
+      "rank_score": 0.65431,
       "stale": false,
       "extra": {
         "summary": "Fútbol Florentín: “Nos faltó tranquilidad” para sostener el empate",
@@ -1109,8 +1109,8 @@
         "published_date": "2026-08-19",
         "published_display": "19/08/2026",
         "related_sources": [],
-        "feed_score": 0.718883,
-        "feed_freshness": 0.562235
+        "feed_score": 0.716621,
+        "feed_freshness": 0.557523
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -1126,14 +1126,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T12:45:53Z",
-      "scraped_at": "2026-08-20T14:02:20.331075Z",
+      "scraped_at": "2026-08-20T14:22:04.458561Z",
       "source_id": "diez_futbol",
       "source_name": "DIEZ - Fútbol",
       "source_type": "media",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.653522,
+      "rank_score": 0.650481,
       "stale": false,
       "extra": {
         "summary": "Fútbol Del golazo al reclamo: el cruce entre Roldán y Lovera en La Paz",
@@ -1141,8 +1141,8 @@
         "published_date": "2026-08-19",
         "published_display": "19/08/2026",
         "related_sources": [],
-        "feed_score": 0.716974,
-        "feed_freshness": 0.556884
+        "feed_score": 0.714734,
+        "feed_freshness": 0.552217
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -1158,14 +1158,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T12:16:28Z",
-      "scraped_at": "2026-08-20T14:02:20.332035Z",
+      "scraped_at": "2026-08-20T14:22:04.459516Z",
       "source_id": "diez_futbol",
       "source_name": "DIEZ - Fútbol",
       "source_type": "media",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.648999,
+      "rank_score": 0.645993,
       "stale": false,
       "extra": {
         "summary": "Fútbol Blooming busca prolongar su recuperación en la Copa Bolivia",
@@ -1173,8 +1173,8 @@
         "published_date": "2026-08-19",
         "published_display": "19/08/2026",
         "related_sources": [],
-        "feed_score": 0.713303,
-        "feed_freshness": 0.550611
+        "feed_score": 0.711088,
+        "feed_freshness": 0.545997
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -1190,14 +1190,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T07:11:37-04:00",
-      "scraped_at": "2026-08-20T14:02:18.838235Z",
+      "scraped_at": "2026-08-20T14:22:03.037986Z",
       "source_id": "reduno_deportes",
       "source_name": "Red Uno - Super Deportivo",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.633608,
+      "rank_score": 0.630676,
       "stale": false,
       "extra": {
         "summary": "Super deportivo Kyrgios, suspendido provisionalmente por un metabolito de la cocaína",
@@ -1205,8 +1205,8 @@
         "published_date": "2026-08-19",
         "published_display": "19/08/2026",
         "related_sources": [],
-        "feed_score": 0.705385,
-        "feed_freshness": 0.537031
+        "feed_score": 0.703225,
+        "feed_freshness": 0.532531
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -1222,14 +1222,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T22:35:46Z",
-      "scraped_at": "2026-08-20T14:02:20.323267Z",
+      "scraped_at": "2026-08-20T14:22:04.450618Z",
       "source_id": "diez_futbol",
       "source_name": "DIEZ - Fútbol",
       "source_type": "media",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.755918,
+      "rank_score": 0.752103,
       "stale": false,
       "extra": {
         "summary": "Fútbol España prepara la renovación de Luis de la Fuente hasta 2030",
@@ -1237,8 +1237,8 @@
         "published_date": "2026-08-19",
         "published_display": "19/08/2026",
         "related_sources": [],
-        "feed_score": 0.694633,
-        "feed_freshness": 0.698902
+        "feed_score": 0.691821,
+        "feed_freshness": 0.693045
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -1254,14 +1254,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T18:42:12-04:00",
-      "scraped_at": "2026-08-20T14:02:18.830397Z",
+      "scraped_at": "2026-08-20T14:22:03.030715Z",
       "source_id": "reduno_deportes",
       "source_name": "Red Uno - Super Deportivo",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.751568,
+      "rank_score": 0.747743,
       "stale": false,
       "extra": {
         "summary": "Super deportivo ¡Impresionante! Atleta boliviano entrena sobre la nieve en Oruro",
@@ -1269,8 +1269,8 @@
         "published_date": "2026-08-19",
         "published_display": "19/08/2026",
         "related_sources": [],
-        "feed_score": 0.693225,
-        "feed_freshness": 0.700635
+        "feed_score": 0.690407,
+        "feed_freshness": 0.694764
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -1286,14 +1286,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T14:13:32-04:00",
-      "scraped_at": "2026-08-20T14:02:18.833223Z",
+      "scraped_at": "2026-08-20T14:22:03.033341Z",
       "source_id": "reduno_deportes",
       "source_name": "Red Uno - Super Deportivo",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.701917,
+      "rank_score": 0.698468,
       "stale": false,
       "extra": {
         "summary": "Super deportivo Bolivia llevará 239 atletas a los Juegos Suramericanos de Santa Fe La delegación estará acompañada por entrenadores y delegados, en medio de limitaciones económicas y tras la polémica por la renuncia del atleta Bruno Rojas. Por Martin Suarez Vargas",
@@ -1301,8 +1301,8 @@
         "published_date": "2026-08-19",
         "published_display": "19/08/2026",
         "related_sources": [],
-        "feed_score": 0.690861,
-        "feed_freshness": 0.631772
+        "feed_score": 0.688319,
+        "feed_freshness": 0.626478
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -1318,14 +1318,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T21:36:38Z",
-      "scraped_at": "2026-08-20T14:02:20.323800Z",
+      "scraped_at": "2026-08-20T14:22:04.451161Z",
       "source_id": "diez_futbol",
       "source_name": "DIEZ - Fútbol",
       "source_type": "media",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.744573,
+      "rank_score": 0.740843,
       "stale": false,
       "extra": {
         "summary": "Fútbol La FBF estrena en La Paz una minicancha para dar oportunidad a niños y jóvenes",
@@ -1333,8 +1333,8 @@
         "published_date": "2026-08-19",
         "published_display": "19/08/2026",
         "related_sources": [],
-        "feed_score": 0.69008,
-        "feed_freshness": 0.683167
+        "feed_score": 0.687332,
+        "feed_freshness": 0.677441
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -1350,14 +1350,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T20:34:55Z",
-      "scraped_at": "2026-08-20T14:02:20.324760Z",
+      "scraped_at": "2026-08-20T14:22:04.452143Z",
       "source_id": "diez_futbol",
       "source_name": "DIEZ - Fútbol",
       "source_type": "media",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.733005,
+      "rank_score": 0.729363,
       "stale": false,
       "extra": {
         "summary": "Fútbol Barcelona vence al Al-Ahly y se queda con el Trofeo Joan Gamper",
@@ -1365,8 +1365,8 @@
         "published_date": "2026-08-19",
         "published_display": "19/08/2026",
         "related_sources": [],
-        "feed_score": 0.679889,
-        "feed_freshness": 0.667122
+        "feed_score": 0.677205,
+        "feed_freshness": 0.661531
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -1382,14 +1382,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T19:20:01Z",
-      "scraped_at": "2026-08-20T14:02:20.326223Z",
+      "scraped_at": "2026-08-20T14:22:04.453705Z",
       "source_id": "diez_futbol",
       "source_name": "DIEZ - Fútbol",
       "source_type": "media",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "seleccion_bolivia",
-      "rank_score": 0.71933,
+      "rank_score": 0.715791,
       "stale": false,
       "extra": {
         "summary": "Fútbol Colombia se perfila como segundo rival de la Verde en septiembre",
@@ -1400,8 +1400,8 @@
           "seleccion_bolivia"
         ],
         "related_sources": [],
-        "feed_score": 0.670935,
-        "feed_freshness": 0.648155
+        "feed_score": 0.668327,
+        "feed_freshness": 0.642723
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -1417,14 +1417,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T02:44:13Z",
-      "scraped_at": "2026-08-20T14:02:20.332528Z",
+      "scraped_at": "2026-08-20T14:22:04.460009Z",
       "source_id": "diez_futbol",
       "source_name": "DIEZ - Fútbol",
       "source_type": "media",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "division_profesional",
-      "rank_score": 0.570483,
+      "rank_score": 0.568072,
       "stale": false,
       "extra": {
         "summary": "División Profesional Oriente tenía el empate en sus manos pero lo dejó escapar a los 93 minutos",
@@ -1435,8 +1435,8 @@
           "division_profesional"
         ],
         "related_sources": [],
-        "feed_score": 0.665863,
-        "feed_freshness": 0.441715
+        "feed_score": 0.664087,
+        "feed_freshness": 0.438014
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -1452,14 +1452,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-18T22:51:51-04:00",
-      "scraped_at": "2026-08-20T14:02:18.839296Z",
+      "scraped_at": "2026-08-20T14:22:03.038988Z",
       "source_id": "reduno_deportes",
       "source_name": "Red Uno - Super Deportivo",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "sudamericana",
-      "rank_score": 0.565821,
+      "rank_score": 0.563402,
       "stale": false,
       "extra": {
         "summary": "Super deportivo São Paulo goleó a Bolívar 3-1 y lo elimina de la Copa Sudamericana",
@@ -1470,8 +1470,8 @@
           "sudamericana"
         ],
         "related_sources": [],
-        "feed_score": 0.659928,
-        "feed_freshness": 0.443016
+        "feed_score": 0.658145,
+        "feed_freshness": 0.439303
       },
       "published_date": "2026-08-18",
       "published_display": "18/08/2026"
@@ -1487,14 +1487,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T02:08:04Z",
-      "scraped_at": "2026-08-20T14:02:20.331530Z",
+      "scraped_at": "2026-08-20T14:22:04.459013Z",
       "source_id": "diez_futbol",
       "source_name": "DIEZ - Fútbol",
       "source_type": "media",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.566081,
+      "rank_score": 0.563702,
       "stale": false,
       "extra": {
         "summary": "Fútbol Suspenden encuentro entre Nacional Potosí y Real Tomayapo por nevada",
@@ -1502,8 +1502,8 @@
         "published_date": "2026-08-19",
         "published_display": "19/08/2026",
         "related_sources": [],
-        "feed_score": 0.659602,
-        "feed_freshness": 0.435609
+        "feed_score": 0.65785,
+        "feed_freshness": 0.431958
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -1519,14 +1519,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-18T22:28:44-04:00",
-      "scraped_at": "2026-08-20T14:02:18.839803Z",
+      "scraped_at": "2026-08-20T14:22:03.039479Z",
       "source_id": "reduno_deportes",
       "source_name": "Red Uno - Super Deportivo",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.56299,
+      "rank_score": 0.560593,
       "stale": false,
       "extra": {
         "summary": "Super deportivo Con 10 hombres y un gol agónico, The Strongest vence 2 - 1 a Oriente",
@@ -1540,8 +1540,8 @@
             "published_at": "2026-08-18T22:28:44-04:00"
           }
         ],
-        "feed_score": 0.658373,
-        "feed_freshness": 0.43909
+        "feed_score": 0.656607,
+        "feed_freshness": 0.43541
       },
       "published_date": "2026-08-18",
       "published_display": "18/08/2026"
@@ -1557,14 +1557,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T13:36:53-04:00",
-      "scraped_at": "2026-08-20T14:02:18.834447Z",
+      "scraped_at": "2026-08-20T14:22:03.034535Z",
       "source_id": "reduno_deportes",
       "source_name": "Red Uno - Super Deportivo",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "sudamericana",
-      "rank_score": 0.695533,
+      "rank_score": 0.692133,
       "stale": false,
       "extra": {
         "summary": "Super deportivo Bolívar queda fuera de la Sudamericana y Restrepo explica las razones",
@@ -1575,8 +1575,8 @@
           "sudamericana"
         ],
         "related_sources": [],
-        "feed_score": 0.656761,
-        "feed_freshness": 0.622918
+        "feed_score": 0.654255,
+        "feed_freshness": 0.617698
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -1592,14 +1592,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T00:00:00Z",
-      "scraped_at": "2026-08-20T14:02:19.716354Z",
+      "scraped_at": "2026-08-20T14:22:03.854875Z",
       "source_id": "unitel_atodo_deporte",
       "source_name": "Unitel - A Todo Deporte",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "division_profesional",
-      "rank_score": 0.545367,
+      "rank_score": 0.543103,
       "stale": false,
       "extra": {
         "summary": "División Profesional Blooming no aguantó en Sucre y terminó cayendo por goleada ante Independiente 19/08/2026 20:22",
@@ -1616,8 +1616,8 @@
             "published_at": "2026-08-19T00:00:00Z"
           }
         ],
-        "feed_score": 0.651801,
-        "feed_freshness": 0.414648
+        "feed_score": 0.650133,
+        "feed_freshness": 0.411173
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -1633,14 +1633,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T00:00:00Z",
-      "scraped_at": "2026-08-20T14:02:19.720062Z",
+      "scraped_at": "2026-08-20T14:22:03.858248Z",
       "source_id": "unitel_atodo_deporte",
       "source_name": "Unitel - A Todo Deporte",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "libertadores",
-      "rank_score": 0.545367,
+      "rank_score": 0.543103,
       "stale": false,
       "extra": {
         "summary": "Copa Libertadores Palmeiras vence a Cerro Porteño y pasa cuartos de final de la Copa Libertadores 19/08/2026 20:33",
@@ -1651,8 +1651,8 @@
           "libertadores"
         ],
         "related_sources": [],
-        "feed_score": 0.651621,
-        "feed_freshness": 0.414648
+        "feed_score": 0.649953,
+        "feed_freshness": 0.411173
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -1668,14 +1668,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T00:00:00Z",
-      "scraped_at": "2026-08-20T14:02:19.727504Z",
+      "scraped_at": "2026-08-20T14:22:03.865121Z",
       "source_id": "unitel_atodo_deporte",
       "source_name": "Unitel - A Todo Deporte",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "sudamericana",
-      "rank_score": 0.545367,
+      "rank_score": 0.543103,
       "stale": false,
       "extra": {
         "summary": "Copa Sudamericana Atlético Mineiro elimina a Bragantino y se mete en cuartos de la Sudamericana 19/08/2026 21:06",
@@ -1686,8 +1686,8 @@
           "sudamericana"
         ],
         "related_sources": [],
-        "feed_score": 0.651291,
-        "feed_freshness": 0.414648
+        "feed_score": 0.649623,
+        "feed_freshness": 0.411173
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -1703,14 +1703,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T00:00:00Z",
-      "scraped_at": "2026-08-20T14:02:19.731334Z",
+      "scraped_at": "2026-08-20T14:22:03.868646Z",
       "source_id": "unitel_atodo_deporte",
       "source_name": "Unitel - A Todo Deporte",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "copa_division_profesional",
-      "rank_score": 0.545367,
+      "rank_score": 0.543103,
       "stale": false,
       "extra": {
         "summary": "División Profesional Real Potosí traslada su buen momento a la Copa Paceña tras vencer a ABB 19/08/2026 17:17",
@@ -1728,8 +1728,8 @@
             "published_at": "2026-08-19T00:00:00Z"
           }
         ],
-        "feed_score": 0.650811,
-        "feed_freshness": 0.414648
+        "feed_score": 0.649143,
+        "feed_freshness": 0.411173
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -1745,14 +1745,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T00:00:00Z",
-      "scraped_at": "2026-08-20T14:02:19.811413Z",
+      "scraped_at": "2026-08-20T14:22:03.931556Z",
       "source_id": "unitel_division_profesional",
       "source_name": "Unitel - División Profesional",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "division_profesional",
-      "rank_score": 0.545367,
+      "rank_score": 0.543103,
       "stale": false,
       "extra": {
         "summary": "División Profesional Video: No vas a creer el autogol que hizo Carlos Añez en la Copa Paceña 19/08/2026 09:59",
@@ -1764,8 +1764,8 @@
           "division_profesional"
         ],
         "related_sources": [],
-        "feed_score": 0.650811,
-        "feed_freshness": 0.414648
+        "feed_score": 0.649143,
+        "feed_freshness": 0.411173
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -1781,14 +1781,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T00:00:00Z",
-      "scraped_at": "2026-08-20T14:02:19.733126Z",
+      "scraped_at": "2026-08-20T14:22:03.870328Z",
       "source_id": "unitel_atodo_deporte",
       "source_name": "Unitel - A Todo Deporte",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.545367,
+      "rank_score": 0.543103,
       "stale": false,
       "extra": {
         "summary": "Fútbol Federación española trabaja para ampliar el contrato de Luis de la Fuente hasta 2030 19/08/2026 18:39",
@@ -1796,8 +1796,8 @@
         "published_date": "2026-08-19",
         "published_display": "19/08/2026",
         "related_sources": [],
-        "feed_score": 0.650631,
-        "feed_freshness": 0.414648
+        "feed_score": 0.648963,
+        "feed_freshness": 0.411173
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -1813,14 +1813,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T00:00:00Z",
-      "scraped_at": "2026-08-20T14:02:19.729441Z",
+      "scraped_at": "2026-08-20T14:22:03.866877Z",
       "source_id": "unitel_atodo_deporte",
       "source_name": "Unitel - A Todo Deporte",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.545367,
+      "rank_score": 0.543103,
       "stale": false,
       "extra": {
         "summary": "Fútbol Atlético Madrid se estrena con triunfo en la Liga de España tras vencer a Málaga 19/08/2026 18:05",
@@ -1828,8 +1828,8 @@
         "published_date": "2026-08-19",
         "published_display": "19/08/2026",
         "related_sources": [],
-        "feed_score": 0.649971,
-        "feed_freshness": 0.414648
+        "feed_score": 0.648303,
+        "feed_freshness": 0.411173
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -1845,14 +1845,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T15:00:48Z",
-      "scraped_at": "2026-08-20T14:02:20.328076Z",
+      "scraped_at": "2026-08-20T14:22:04.455604Z",
       "source_id": "diez_futbol",
       "source_name": "DIEZ - Fútbol",
       "source_type": "media",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.674934,
+      "rank_score": 0.671731,
       "stale": false,
       "extra": {
         "summary": "Fútbol Bernardo Silva: \"Jugar en un club que tiene 15 'Champions' no es para todos\"",
@@ -1860,8 +1860,8 @@
         "published_date": "2026-08-19",
         "published_display": "19/08/2026",
         "related_sources": [],
-        "feed_score": 0.643389,
-        "feed_freshness": 0.586581
+        "feed_score": 0.641029,
+        "feed_freshness": 0.581665
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -1877,14 +1877,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T14:49:55Z",
-      "scraped_at": "2026-08-20T14:02:20.329114Z",
+      "scraped_at": "2026-08-20T14:22:04.456650Z",
       "source_id": "diez_futbol",
       "source_name": "DIEZ - Fútbol",
       "source_type": "media",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.673165,
+      "rank_score": 0.669976,
       "stale": false,
       "extra": {
         "summary": "Fútbol Arsenal pide claridad en el caso del City y las irregularidades financieras",
@@ -1892,8 +1892,8 @@
         "published_date": "2026-08-19",
         "published_display": "19/08/2026",
         "related_sources": [],
-        "feed_score": 0.642061,
-        "feed_freshness": 0.584128
+        "feed_score": 0.639712,
+        "feed_freshness": 0.579233
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -1909,14 +1909,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T11:23:52-04:00",
-      "scraped_at": "2026-08-20T14:02:18.836589Z",
+      "scraped_at": "2026-08-20T14:22:03.036527Z",
       "source_id": "reduno_deportes",
       "source_name": "Red Uno - Super Deportivo",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.673107,
+      "rank_score": 0.669876,
       "stale": false,
       "extra": {
         "summary": "Super deportivo ¿Quién era Carlos Casso, el exdirigente tricampeón de The Strongest?",
@@ -1924,8 +1924,8 @@
         "published_date": "2026-08-19",
         "published_display": "19/08/2026",
         "related_sources": [],
-        "feed_score": 0.641681,
-        "feed_freshness": 0.591815
+        "feed_score": 0.6393,
+        "feed_freshness": 0.586855
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -1941,14 +1941,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T15:36:47Z",
-      "scraped_at": "2026-08-20T14:02:20.327522Z",
+      "scraped_at": "2026-08-20T14:22:04.455028Z",
       "source_id": "diez_futbol",
       "source_name": "DIEZ - Fútbol",
       "source_type": "media",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.680835,
+      "rank_score": 0.677588,
       "stale": false,
       "extra": {
         "summary": "Fútbol Bolivia ya tiene su primera FIFA Arena",
@@ -1956,8 +1956,8 @@
         "published_date": "2026-08-19",
         "published_display": "19/08/2026",
         "related_sources": [],
-        "feed_score": 0.640987,
-        "feed_freshness": 0.594766
+        "feed_score": 0.638595,
+        "feed_freshness": 0.589781
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -1973,14 +1973,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T00:30:57Z",
-      "scraped_at": "2026-08-20T14:02:20.333349Z",
+      "scraped_at": "2026-08-20T14:22:04.460841Z",
       "source_id": "diez_futbol",
       "source_name": "DIEZ - Fútbol",
       "source_type": "media",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.554552,
+      "rank_score": 0.552261,
       "stale": false,
       "extra": {
         "summary": "",
@@ -1988,8 +1988,8 @@
         "published_date": "2026-08-19",
         "published_display": "19/08/2026",
         "related_sources": [],
-        "feed_score": 0.639417,
-        "feed_freshness": 0.419619
+        "feed_score": 0.637729,
+        "feed_freshness": 0.416102
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -2005,14 +2005,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T00:00:00Z",
-      "scraped_at": "2026-08-20T14:02:19.805605Z",
+      "scraped_at": "2026-08-20T14:22:03.926512Z",
       "source_id": "unitel_division_profesional",
       "source_name": "Unitel - División Profesional",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "division_profesional",
-      "rank_score": 0.545367,
+      "rank_score": 0.543103,
       "stale": false,
       "extra": {
         "summary": "División Profesional 19/08/2026 16:39",
@@ -2023,8 +2023,8 @@
           "division_profesional"
         ],
         "related_sources": [],
-        "feed_score": 0.638811,
-        "feed_freshness": 0.414648
+        "feed_score": 0.637143,
+        "feed_freshness": 0.411173
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -2040,14 +2040,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T00:00:00Z",
-      "scraped_at": "2026-08-20T14:02:19.807672Z",
+      "scraped_at": "2026-08-20T14:22:03.928170Z",
       "source_id": "unitel_division_profesional",
       "source_name": "Unitel - División Profesional",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "division_profesional",
-      "rank_score": 0.545367,
+      "rank_score": 0.543103,
       "stale": false,
       "extra": {
         "summary": "División Profesional 19/08/2026 11:46",
@@ -2059,8 +2059,8 @@
           "division_profesional"
         ],
         "related_sources": [],
-        "feed_score": 0.638811,
-        "feed_freshness": 0.414648
+        "feed_score": 0.637143,
+        "feed_freshness": 0.411173
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -2076,14 +2076,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T10:54:01-04:00",
-      "scraped_at": "2026-08-20T14:02:18.835999Z",
+      "scraped_at": "2026-08-20T14:22:03.035996Z",
       "source_id": "reduno_deportes",
       "source_name": "Red Uno - Super Deportivo",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.66823,
+      "rank_score": 0.665036,
       "stale": false,
       "extra": {
         "summary": "Super deportivo Marco Etcheverry: “Este Oriente me trae recuerdos a nuestra época”",
@@ -2091,8 +2091,8 @@
         "published_date": "2026-08-19",
         "published_display": "19/08/2026",
         "related_sources": [],
-        "feed_score": 0.638104,
-        "feed_freshness": 0.585051
+        "feed_score": 0.635751,
+        "feed_freshness": 0.580148
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -2108,14 +2108,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-18T21:22:07Z",
-      "scraped_at": "2026-08-20T14:02:20.334860Z",
+      "scraped_at": "2026-08-20T14:22:04.462330Z",
       "source_id": "diez_futbol",
       "source_name": "DIEZ - Fútbol",
       "source_type": "media",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.533332,
+      "rank_score": 0.531202,
       "stale": false,
       "extra": {
         "summary": "Fútbol Aurora arranca con el pie derecho la Copa y derrota a San Antonio",
@@ -2123,8 +2123,8 @@
         "published_date": "2026-08-18",
         "published_display": "18/08/2026",
         "related_sources": [],
-        "feed_score": 0.637291,
-        "feed_freshness": 0.390189
+        "feed_score": 0.635721,
+        "feed_freshness": 0.386919
       },
       "published_date": "2026-08-18",
       "published_display": "18/08/2026"
@@ -2140,14 +2140,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T00:00:00Z",
-      "scraped_at": "2026-08-20T14:02:19.721858Z",
+      "scraped_at": "2026-08-20T14:22:03.859957Z",
       "source_id": "unitel_atodo_deporte",
       "source_name": "Unitel - A Todo Deporte",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "seleccion_bolivia",
-      "rank_score": 0.545367,
+      "rank_score": 0.543103,
       "stale": false,
       "extra": {
         "summary": "Fútbol 19/08/2026 15:43",
@@ -2158,8 +2158,8 @@
           "seleccion_bolivia"
         ],
         "related_sources": [],
-        "feed_score": 0.636471,
-        "feed_freshness": 0.414648
+        "feed_score": 0.634803,
+        "feed_freshness": 0.411173
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -2175,14 +2175,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T10:25:00-04:00",
-      "scraped_at": "2026-08-20T14:02:18.837174Z",
+      "scraped_at": "2026-08-20T14:22:03.037030Z",
       "source_id": "reduno_deportes",
       "source_name": "Red Uno - Super Deportivo",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.663543,
+      "rank_score": 0.660384,
       "stale": false,
       "extra": {
         "summary": "Super deportivo Sporting Santa Cruz y el Colegio Panamericano impulsan el deporte",
@@ -2190,8 +2190,8 @@
         "published_date": "2026-08-19",
         "published_display": "19/08/2026",
         "related_sources": [],
-        "feed_score": 0.634804,
-        "feed_freshness": 0.57855
+        "feed_score": 0.632477,
+        "feed_freshness": 0.573701
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -2207,14 +2207,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T09:51:24-04:00",
-      "scraped_at": "2026-08-20T14:02:18.837708Z",
+      "scraped_at": "2026-08-20T14:22:03.037534Z",
       "source_id": "reduno_deportes",
       "source_name": "Red Uno - Super Deportivo",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.658181,
+      "rank_score": 0.655062,
       "stale": false,
       "extra": {
         "summary": "Super deportivo Luto atigrado: fallece Carlos Casso, exdirigente de The Strongest",
@@ -2222,8 +2222,8 @@
         "published_date": "2026-08-19",
         "published_display": "19/08/2026",
         "related_sources": [],
-        "feed_score": 0.631234,
-        "feed_freshness": 0.571112
+        "feed_score": 0.628937,
+        "feed_freshness": 0.566326
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -2239,14 +2239,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T13:03:44Z",
-      "scraped_at": "2026-08-20T14:02:20.330594Z",
+      "scraped_at": "2026-08-20T14:22:04.458066Z",
       "source_id": "diez_futbol",
       "source_name": "DIEZ - Fútbol",
       "source_type": "media",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "libertadores",
-      "rank_score": 0.656291,
+      "rank_score": 0.65323,
       "stale": false,
       "extra": {
         "summary": "Fútbol Un año para el olvido: el fracaso boliviano en la Libertadores y Sudamericana",
@@ -2258,8 +2258,8 @@
           "sudamericana"
         ],
         "related_sources": [],
-        "feed_score": 0.631158,
-        "feed_freshness": 0.560725
+        "feed_score": 0.628902,
+        "feed_freshness": 0.556026
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -2275,14 +2275,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-18T14:58:44-04:00",
-      "scraped_at": "2026-08-20T14:02:18.841276Z",
+      "scraped_at": "2026-08-20T14:22:03.040892Z",
       "source_id": "reduno_deportes",
       "source_name": "Red Uno - Super Deportivo",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.51262,
+      "rank_score": 0.510604,
       "stale": false,
       "extra": {
         "summary": "Super deportivo ¡Preocupación! Jamal Musiala vuelve a desmayarse en pleno partido",
@@ -2290,8 +2290,8 @@
         "published_date": "2026-08-18",
         "published_display": "18/08/2026",
         "related_sources": [],
-        "feed_score": 0.62433,
-        "feed_freshness": 0.369229
+        "feed_score": 0.622845,
+        "feed_freshness": 0.366135
       },
       "published_date": "2026-08-18",
       "published_display": "18/08/2026"
@@ -2307,14 +2307,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T08:28:30-04:00",
-      "scraped_at": "2026-08-20T14:02:18.838775Z",
+      "scraped_at": "2026-08-20T14:22:03.038508Z",
       "source_id": "reduno_deportes",
       "source_name": "Red Uno - Super Deportivo",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.645243,
+      "rank_score": 0.642223,
       "stale": false,
       "extra": {
         "summary": "Super deportivo Rodri, tras firmar hasta 2030: \"El Barça era mi primera opción\"",
@@ -2322,8 +2322,8 @@
         "published_date": "2026-08-19",
         "published_display": "19/08/2026",
         "related_sources": [],
-        "feed_score": 0.622291,
-        "feed_freshness": 0.553169
+        "feed_score": 0.620066,
+        "feed_freshness": 0.548533
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -2339,14 +2339,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T01:59:06-04:00",
-      "scraped_at": "2026-08-20T14:02:18.830956Z",
+      "scraped_at": "2026-08-20T14:22:03.031219Z",
       "source_id": "reduno_deportes",
       "source_name": "Red Uno - Super Deportivo",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.589704,
+      "rank_score": 0.587104,
       "stale": false,
       "extra": {
         "summary": "Super deportivo Leonardo Egüez recibió un pelotazo y terminó en el piso",
@@ -2354,8 +2354,8 @@
         "published_date": "2026-08-19",
         "published_display": "19/08/2026",
         "related_sources": [],
-        "feed_score": 0.583967,
-        "feed_freshness": 0.47614
+        "feed_score": 0.582052,
+        "feed_freshness": 0.47215
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -2371,14 +2371,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-18T00:00:00Z",
-      "scraped_at": "2026-08-20T14:02:19.817007Z",
+      "scraped_at": "2026-08-20T14:22:03.936768Z",
       "source_id": "unitel_division_profesional",
       "source_name": "Unitel - División Profesional",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "division_profesional",
-      "rank_score": 0.418111,
+      "rank_score": 0.416811,
       "stale": false,
       "extra": {
         "summary": "División Profesional Aurora abrió la Copa Paceña con una victoria ante San Antonio en Entre Ríos 18/08/2026 17:56",
@@ -2390,8 +2390,8 @@
           "division_profesional"
         ],
         "related_sources": [],
-        "feed_score": 0.566753,
-        "feed_freshness": 0.238153
+        "feed_score": 0.565795,
+        "feed_freshness": 0.236157
       },
       "published_date": "2026-08-18",
       "published_display": "18/08/2026"
@@ -2407,14 +2407,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T00:00:00Z",
-      "scraped_at": "2026-08-20T14:02:19.813316Z",
+      "scraped_at": "2026-08-20T14:22:03.933337Z",
       "source_id": "unitel_division_profesional",
       "source_name": "Unitel - División Profesional",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "division_profesional",
-      "rank_score": 0.545367,
+      "rank_score": 0.543103,
       "stale": false,
       "extra": {
         "summary": "División Profesional “Son cosas que pasan dentro de la cancha”: El fuerte cruce entre Lovera y Roldán 19/08/2026 09:33",
@@ -2425,40 +2425,8 @@
           "division_profesional"
         ],
         "related_sources": [],
-        "feed_score": 0.562311,
-        "feed_freshness": 0.414648
-      },
-      "published_date": "2026-08-19",
-      "published_display": "19/08/2026"
-    },
-    {
-      "id": "2d56232049d2cf63e05d",
-      "kind": "news",
-      "title": "São Paulo termina con el sueño internacional de Bolívar",
-      "text": "",
-      "url": "https://diez.bo/futbol/sao-paulo-termina-con-el-sueno-internacional-de-bolivar_1787106940",
-      "image_url": "",
-      "video_url": "",
-      "thumbnail_url": "",
-      "media_type": "none",
-      "published_at": "2026-08-19T02:35:40Z",
-      "scraped_at": "2026-08-20T14:02:20.332985Z",
-      "source_id": "diez_futbol",
-      "source_name": "DIEZ - Fútbol",
-      "source_type": "media",
-      "source_authority": 0.9,
-      "scope": "bolivia",
-      "competition": "general",
-      "rank_score": 0.569436,
-      "stale": false,
-      "extra": {
-        "summary": "",
-        "content_quality": 0.5,
-        "published_date": "2026-08-19",
-        "published_display": "19/08/2026",
-        "related_sources": [],
-        "feed_score": 0.559326,
-        "feed_freshness": 0.440264
+        "feed_score": 0.560643,
+        "feed_freshness": 0.411173
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -2474,14 +2442,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T00:00:00Z",
-      "scraped_at": "2026-08-20T14:02:19.718326Z",
+      "scraped_at": "2026-08-20T14:22:03.856636Z",
       "source_id": "unitel_atodo_deporte",
       "source_name": "Unitel - A Todo Deporte",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.545367,
+      "rank_score": 0.543103,
       "stale": false,
       "extra": {
         "summary": "Fútbol Video: Lionel Messi anota por primera vez desde el fallecimiento de su padre 19/08/2026 22:07",
@@ -2489,8 +2457,40 @@
         "published_date": "2026-08-19",
         "published_display": "19/08/2026",
         "related_sources": [],
-        "feed_score": 0.559311,
-        "feed_freshness": 0.414648
+        "feed_score": 0.557643,
+        "feed_freshness": 0.411173
+      },
+      "published_date": "2026-08-19",
+      "published_display": "19/08/2026"
+    },
+    {
+      "id": "2d56232049d2cf63e05d",
+      "kind": "news",
+      "title": "São Paulo termina con el sueño internacional de Bolívar",
+      "text": "",
+      "url": "https://diez.bo/futbol/sao-paulo-termina-con-el-sueno-internacional-de-bolivar_1787106940",
+      "image_url": "",
+      "video_url": "",
+      "thumbnail_url": "",
+      "media_type": "none",
+      "published_at": "2026-08-19T02:35:40Z",
+      "scraped_at": "2026-08-20T14:22:04.460479Z",
+      "source_id": "diez_futbol",
+      "source_name": "DIEZ - Fútbol",
+      "source_type": "media",
+      "source_authority": 0.9,
+      "scope": "bolivia",
+      "competition": "general",
+      "rank_score": 0.567033,
+      "stale": false,
+      "extra": {
+        "summary": "",
+        "content_quality": 0.5,
+        "published_date": "2026-08-19",
+        "published_display": "19/08/2026",
+        "related_sources": [],
+        "feed_score": 0.557555,
+        "feed_freshness": 0.436574
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -2506,14 +2506,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-17T18:40:24-04:00",
-      "scraped_at": "2026-08-20T14:02:18.847194Z",
+      "scraped_at": "2026-08-20T14:22:03.046463Z",
       "source_id": "reduno_deportes",
       "source_name": "Red Uno - Super Deportivo",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.412928,
+      "rank_score": 0.411667,
       "stale": false,
       "extra": {
         "summary": "Super deportivo ¡Confirmado! Bolivia enfrentará a Paraguay en partido amistoso",
@@ -2521,8 +2521,8 @@
         "published_date": "2026-08-17",
         "published_display": "17/08/2026",
         "related_sources": [],
-        "feed_score": 0.557452,
-        "feed_freshness": 0.230963
+        "feed_score": 0.556523,
+        "feed_freshness": 0.229028
       },
       "published_date": "2026-08-17",
       "published_display": "17/08/2026"
@@ -2538,14 +2538,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T00:16:56Z",
-      "scraped_at": "2026-08-20T14:02:20.333832Z",
+      "scraped_at": "2026-08-20T14:22:04.461328Z",
       "source_id": "diez_futbol",
       "source_name": "DIEZ - Fútbol",
       "source_type": "media",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.552923,
+      "rank_score": 0.550644,
       "stale": false,
       "extra": {
         "summary": "Fútbol Guabirá hace respetar su casa ante U de Vinto",
@@ -2553,8 +2553,8 @@
         "published_date": "2026-08-19",
         "published_display": "19/08/2026",
         "related_sources": [],
-        "feed_score": 0.557003,
-        "feed_freshness": 0.41736
+        "feed_score": 0.555324,
+        "feed_freshness": 0.413863
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -2570,14 +2570,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-17T14:56:20-04:00",
-      "scraped_at": "2026-08-20T14:02:18.847615Z",
+      "scraped_at": "2026-08-20T14:22:03.046871Z",
       "source_id": "reduno_deportes",
       "source_name": "Red Uno - Super Deportivo",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "copa_division_profesional",
-      "rank_score": 0.399162,
+      "rank_score": 0.398005,
       "stale": false,
       "extra": {
         "summary": "Super deportivo ¡Arranca la Copa Paceña! Estos son todos los partidos de la fecha 1",
@@ -2588,8 +2588,8 @@
           "copa_division_profesional"
         ],
         "related_sources": [],
-        "feed_score": 0.549128,
-        "feed_freshness": 0.21187
+        "feed_score": 0.548276,
+        "feed_freshness": 0.210095
       },
       "published_date": "2026-08-17",
       "published_display": "17/08/2026"
@@ -2605,14 +2605,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T00:00:00Z",
-      "scraped_at": "2026-08-20T14:02:19.809578Z",
+      "scraped_at": "2026-08-20T14:22:03.929873Z",
       "source_id": "unitel_division_profesional",
       "source_name": "Unitel - División Profesional",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "division_profesional",
-      "rank_score": 0.545367,
+      "rank_score": 0.543103,
       "stale": false,
       "extra": {
         "summary": "División Profesional 19/08/2026 14:59",
@@ -2623,8 +2623,8 @@
           "division_profesional"
         ],
         "related_sources": [],
-        "feed_score": 0.548811,
-        "feed_freshness": 0.414648
+        "feed_score": 0.547143,
+        "feed_freshness": 0.411173
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
@@ -2640,14 +2640,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-17T00:00:00Z",
-      "scraped_at": "2026-08-20T14:02:15.782915Z",
+      "scraped_at": "2026-08-20T14:21:59.836343Z",
       "source_id": "conmebol_sudamericana",
       "source_name": "CONMEBOL Sudamericana",
       "source_type": "confederation",
       "source_authority": 1.0,
       "scope": "conmebol",
       "competition": "sudamericana",
-      "rank_score": 0.378622,
+      "rank_score": 0.377876,
       "stale": false,
       "extra": {
         "summary": "Boca, Atlético Mineiro, Montevideo City Torque y Santos defienden ventajas; Cienciano viaja a Río con una goleada histórica y tres",
@@ -2655,8 +2655,40 @@
         "published_date": "2026-08-17",
         "published_display": "17/08/2026",
         "related_sources": [],
-        "feed_score": 0.547316,
-        "feed_freshness": 0.136783
+        "feed_score": 0.546765,
+        "feed_freshness": 0.135636
+      },
+      "published_date": "2026-08-17",
+      "published_display": "17/08/2026"
+    },
+    {
+      "id": "261c1565c336ee9c3b2d",
+      "kind": "news",
+      "title": "Todo abierto rumbo a ‘La Gloria Eterna’: así se jugará la Vuelta de los Octavos de Final",
+      "text": "Los siete duelos de ida disputados terminaron igualados, una marca inédita en la historia de la competición, y todas las",
+      "url": "https://www.conmebol.com/noticias/todo-abierto-rumbo-a-la-gloria-eterna-asi-se-jugara-la-vuelta-de-los-octavos-de-final/",
+      "image_url": "https://cdn.conmebol.com/wp-content/uploads/2026/08/cerro-palmeiras-768x247.png",
+      "video_url": "",
+      "thumbnail_url": "",
+      "media_type": "none",
+      "published_at": "2026-08-17T00:00:00Z",
+      "scraped_at": "2026-08-20T14:21:59.700815Z",
+      "source_id": "conmebol_libertadores",
+      "source_name": "CONMEBOL Libertadores",
+      "source_type": "confederation",
+      "source_authority": 1.0,
+      "scope": "conmebol",
+      "competition": "libertadores",
+      "rank_score": 0.377876,
+      "stale": false,
+      "extra": {
+        "summary": "Los siete duelos de ida disputados terminaron igualados, una marca inédita en la historia de la competición, y todas las",
+        "content_quality": 0.8667,
+        "published_date": "2026-08-17",
+        "published_display": "17/08/2026",
+        "related_sources": [],
+        "feed_score": 0.545115,
+        "feed_freshness": 0.135636
       },
       "published_date": "2026-08-17",
       "published_display": "17/08/2026"
@@ -2672,14 +2704,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-19T00:00:00Z",
-      "scraped_at": "2026-08-20T14:02:19.723689Z",
+      "scraped_at": "2026-08-20T14:22:03.861683Z",
       "source_id": "unitel_atodo_deporte",
       "source_name": "Unitel - A Todo Deporte",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.545367,
+      "rank_score": 0.543103,
       "stale": false,
       "extra": {
         "summary": "Sucesos 19/08/2026 11:16",
@@ -2687,43 +2719,11 @@
         "published_date": "2026-08-19",
         "published_display": "19/08/2026",
         "related_sources": [],
-        "feed_score": 0.546621,
-        "feed_freshness": 0.414648
+        "feed_score": 0.544953,
+        "feed_freshness": 0.411173
       },
       "published_date": "2026-08-19",
       "published_display": "19/08/2026"
-    },
-    {
-      "id": "261c1565c336ee9c3b2d",
-      "kind": "news",
-      "title": "Todo abierto rumbo a ‘La Gloria Eterna’: así se jugará la Vuelta de los Octavos de Final",
-      "text": "Los siete duelos de ida disputados terminaron igualados, una marca inédita en la historia de la competición, y todas las",
-      "url": "https://www.conmebol.com/noticias/todo-abierto-rumbo-a-la-gloria-eterna-asi-se-jugara-la-vuelta-de-los-octavos-de-final/",
-      "image_url": "https://cdn.conmebol.com/wp-content/uploads/2026/08/cerro-palmeiras-768x247.png",
-      "video_url": "",
-      "thumbnail_url": "",
-      "media_type": "none",
-      "published_at": "2026-08-17T00:00:00Z",
-      "scraped_at": "2026-08-20T14:02:15.699066Z",
-      "source_id": "conmebol_libertadores",
-      "source_name": "CONMEBOL Libertadores",
-      "source_type": "confederation",
-      "source_authority": 1.0,
-      "scope": "conmebol",
-      "competition": "libertadores",
-      "rank_score": 0.378622,
-      "stale": false,
-      "extra": {
-        "summary": "Los siete duelos de ida disputados terminaron igualados, una marca inédita en la historia de la competición, y todas las",
-        "content_quality": 0.8667,
-        "published_date": "2026-08-17",
-        "published_display": "17/08/2026",
-        "related_sources": [],
-        "feed_score": 0.545666,
-        "feed_freshness": 0.136783
-      },
-      "published_date": "2026-08-17",
-      "published_display": "17/08/2026"
     },
     {
       "id": "8c8578c14761f3c4445d",
@@ -2736,14 +2736,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-17T13:35:34-04:00",
-      "scraped_at": "2026-08-20T14:02:19.305008Z",
+      "scraped_at": "2026-08-20T14:22:03.479455Z",
       "source_id": "reduno_futbol_boliviano",
       "source_name": "Red Uno - Fútbol Boliviano",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "division_profesional",
-      "rank_score": 0.394484,
+      "rank_score": 0.393362,
       "stale": false,
       "extra": {
         "summary": "Super deportivo Blooming vs. Aurora: ¿qué dijeron los técnicos tras el partido?",
@@ -2751,8 +2751,40 @@
         "published_date": "2026-08-17",
         "published_display": "17/08/2026",
         "related_sources": [],
-        "feed_score": 0.545353,
-        "feed_freshness": 0.205382
+        "feed_score": 0.544527,
+        "feed_freshness": 0.203661
+      },
+      "published_date": "2026-08-17",
+      "published_display": "17/08/2026"
+    },
+    {
+      "id": "b206224bb0c8c91de54d",
+      "kind": "news",
+      "title": "Fecha perfecta: los tres equipos cruceños ganaron en un mismo día",
+      "text": "Super deportivo Fecha perfecta: los tres equipos cruceños ganaron en un mismo día",
+      "url": "https://www.reduno.com.bo/deportes/fecha-perfecta-los-tres-equipos-crucenos-ganaron-en-un-mismo-dia-202681711447",
+      "image_url": "https://pxcdn.reduno.com.bo/reduno/082026/1786978896771.webp?extw=jpg&cw=500&ch=303",
+      "video_url": "",
+      "thumbnail_url": "",
+      "media_type": "none",
+      "published_at": "2026-08-17T11:44:07-04:00",
+      "scraped_at": "2026-08-20T14:22:03.479880Z",
+      "source_id": "reduno_futbol_boliviano",
+      "source_name": "Red Uno - Fútbol Boliviano",
+      "source_type": "media",
+      "source_authority": 0.88,
+      "scope": "bolivia",
+      "competition": "division_profesional",
+      "rank_score": 0.387189,
+      "stale": false,
+      "extra": {
+        "summary": "Super deportivo Fecha perfecta: los tres equipos cruceños ganaron en un mismo día",
+        "content_quality": 0.845,
+        "published_date": "2026-08-17",
+        "published_display": "17/08/2026",
+        "related_sources": [],
+        "feed_score": 0.540751,
+        "feed_freshness": 0.195105
       },
       "published_date": "2026-08-17",
       "published_display": "17/08/2026"
@@ -2768,14 +2800,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-18T19:49:57Z",
-      "scraped_at": "2026-08-20T14:02:20.335989Z",
+      "scraped_at": "2026-08-20T14:22:04.463374Z",
       "source_id": "diez_futbol",
       "source_name": "DIEZ - Fútbol",
       "source_type": "media",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.523522,
+      "rank_score": 0.521466,
       "stale": false,
       "extra": {
         "summary": "Fútbol El presidente de la Premier carga contra la FIFA: \"Se ha autodestruido\"",
@@ -2783,43 +2815,11 @@
         "published_date": "2026-08-18",
         "published_display": "18/08/2026",
         "related_sources": [],
-        "feed_score": 0.54175,
-        "feed_freshness": 0.376583
+        "feed_score": 0.540235,
+        "feed_freshness": 0.373427
       },
       "published_date": "2026-08-18",
       "published_display": "18/08/2026"
-    },
-    {
-      "id": "b206224bb0c8c91de54d",
-      "kind": "news",
-      "title": "Fecha perfecta: los tres equipos cruceños ganaron en un mismo día",
-      "text": "Super deportivo Fecha perfecta: los tres equipos cruceños ganaron en un mismo día",
-      "url": "https://www.reduno.com.bo/deportes/fecha-perfecta-los-tres-equipos-crucenos-ganaron-en-un-mismo-dia-202681711447",
-      "image_url": "https://pxcdn.reduno.com.bo/reduno/082026/1786978896771.webp?extw=jpg&cw=500&ch=303",
-      "video_url": "",
-      "thumbnail_url": "",
-      "media_type": "none",
-      "published_at": "2026-08-17T11:44:07-04:00",
-      "scraped_at": "2026-08-20T14:02:19.305428Z",
-      "source_id": "reduno_futbol_boliviano",
-      "source_name": "Red Uno - Fútbol Boliviano",
-      "source_type": "media",
-      "source_authority": 0.88,
-      "scope": "bolivia",
-      "competition": "division_profesional",
-      "rank_score": 0.388263,
-      "stale": false,
-      "extra": {
-        "summary": "Super deportivo Fecha perfecta: los tres equipos cruceños ganaron en un mismo día",
-        "content_quality": 0.845,
-        "published_date": "2026-08-17",
-        "published_display": "17/08/2026",
-        "related_sources": [],
-        "feed_score": 0.541542,
-        "feed_freshness": 0.196754
-      },
-      "published_date": "2026-08-17",
-      "published_display": "17/08/2026"
     },
     {
       "id": "f28e83a8f8efcb1e06d7",
@@ -2832,14 +2832,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-18T19:02:49Z",
-      "scraped_at": "2026-08-20T14:02:20.337079Z",
+      "scraped_at": "2026-08-20T14:22:04.464420Z",
       "source_id": "diez_futbol",
       "source_name": "DIEZ - Fútbol",
       "source_type": "media",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.518638,
+      "rank_score": 0.516619,
       "stale": false,
       "extra": {
         "summary": "Fútbol Santiago Cuiza da el salto al fútbol europeo y es nuevo jugador del Kryvbas de Ucrania",
@@ -2847,8 +2847,8 @@
         "published_date": "2026-08-18",
         "published_display": "18/08/2026",
         "related_sources": [],
-        "feed_score": 0.541019,
-        "feed_freshness": 0.36981
+        "feed_score": 0.539531,
+        "feed_freshness": 0.366711
       },
       "published_date": "2026-08-18",
       "published_display": "18/08/2026"
@@ -2864,14 +2864,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-18T19:10:57Z",
-      "scraped_at": "2026-08-20T14:02:20.336503Z",
+      "scraped_at": "2026-08-20T14:22:04.463872Z",
       "source_id": "diez_futbol",
       "source_name": "DIEZ - Fútbol",
       "source_type": "media",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.519475,
+      "rank_score": 0.517449,
       "stale": false,
       "extra": {
         "summary": "Fútbol Musiala vuelve a desvanecerse y enciende las alarmas en el Bayern",
@@ -2879,40 +2879,8 @@
         "published_date": "2026-08-18",
         "published_display": "18/08/2026",
         "related_sources": [],
-        "feed_score": 0.538066,
-        "feed_freshness": 0.37097
-      },
-      "published_date": "2026-08-18",
-      "published_display": "18/08/2026"
-    },
-    {
-      "id": "1897e07e80cb97815c0b",
-      "kind": "news",
-      "title": "Rodri: “El Barcelona siempre fue mi primera opción”",
-      "text": "Fútbol Rodri: “El Barcelona siempre fue mi primera opción”",
-      "url": "https://diez.bo/futbol/rodri-el-barcelona-siempre-fue-mi-primera-opcion_1787077716",
-      "image_url": "",
-      "video_url": "",
-      "thumbnail_url": "",
-      "media_type": "none",
-      "published_at": "2026-08-18T18:28:36Z",
-      "scraped_at": "2026-08-20T14:02:20.337608Z",
-      "source_id": "diez_futbol",
-      "source_name": "DIEZ - Fútbol",
-      "source_type": "media",
-      "source_authority": 0.9,
-      "scope": "bolivia",
-      "competition": "general",
-      "rank_score": 0.515148,
-      "stale": false,
-      "extra": {
-        "summary": "Fútbol Rodri: “El Barcelona siempre fue mi primera opción”",
-        "content_quality": 0.5322,
-        "published_date": "2026-08-18",
-        "published_display": "18/08/2026",
-        "related_sources": [],
-        "feed_score": 0.532845,
-        "feed_freshness": 0.364969
+        "feed_score": 0.536573,
+        "feed_freshness": 0.367861
       },
       "published_date": "2026-08-18",
       "published_display": "18/08/2026"
@@ -2928,14 +2896,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-18T14:26:55-04:00",
-      "scraped_at": "2026-08-20T14:02:18.842371Z",
+      "scraped_at": "2026-08-20T14:22:03.041940Z",
       "source_id": "reduno_deportes",
       "source_name": "Red Uno - Super Deportivo",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.509378,
+      "rank_score": 0.507386,
       "stale": false,
       "extra": {
         "summary": "Super deportivo Bolívar cerró prácticas y está listo para la batalla contra Sao Paulo",
@@ -2943,8 +2911,8 @@
         "published_date": "2026-08-18",
         "published_display": "18/08/2026",
         "related_sources": [],
-        "feed_score": 0.532832,
-        "feed_freshness": 0.364733
+        "feed_score": 0.531365,
+        "feed_freshness": 0.361676
       },
       "published_date": "2026-08-18",
       "published_display": "18/08/2026"
@@ -2960,14 +2928,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-18T14:40:36-04:00",
-      "scraped_at": "2026-08-20T14:02:18.841836Z",
+      "scraped_at": "2026-08-20T14:22:03.041420Z",
       "source_id": "reduno_deportes",
       "source_name": "Red Uno - Super Deportivo",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.510767,
+      "rank_score": 0.508765,
       "stale": false,
       "extra": {
         "summary": "Super deportivo Sao Paulo vs. Bolívar: el posible 11 de la academia para hoy",
@@ -2975,8 +2943,8 @@
         "published_date": "2026-08-18",
         "published_display": "18/08/2026",
         "related_sources": [],
-        "feed_score": 0.532257,
-        "feed_freshness": 0.36666
+        "feed_score": 0.530782,
+        "feed_freshness": 0.363587
       },
       "published_date": "2026-08-18",
       "published_display": "18/08/2026"
@@ -2992,14 +2960,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-18T13:56:36-04:00",
-      "scraped_at": "2026-08-20T14:02:18.842916Z",
+      "scraped_at": "2026-08-20T14:22:03.042457Z",
       "source_id": "reduno_deportes",
       "source_name": "Red Uno - Super Deportivo",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.506325,
+      "rank_score": 0.504357,
       "stale": false,
       "extra": {
         "summary": "Super deportivo Odesur: ¿Qué dijo el Gobierno tras la renuncia de Bruno Rojas?",
@@ -3007,8 +2975,8 @@
         "published_date": "2026-08-18",
         "published_display": "18/08/2026",
         "related_sources": [],
-        "feed_score": 0.52963,
-        "feed_freshness": 0.360499
+        "feed_score": 0.52818,
+        "feed_freshness": 0.357478
       },
       "published_date": "2026-08-18",
       "published_display": "18/08/2026"
@@ -3024,14 +2992,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-18T12:13:01-04:00",
-      "scraped_at": "2026-08-20T14:02:18.844039Z",
+      "scraped_at": "2026-08-20T14:22:03.043492Z",
       "source_id": "reduno_deportes",
       "source_name": "Red Uno - Super Deportivo",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.496162,
+      "rank_score": 0.49427,
       "stale": false,
       "extra": {
         "summary": "Super deportivo Santiago Cuiza jugará en la primera división de Ucrania",
@@ -3039,8 +3007,8 @@
         "published_date": "2026-08-18",
         "published_display": "18/08/2026",
         "related_sources": [],
-        "feed_score": 0.521693,
-        "feed_freshness": 0.346403
+        "feed_score": 0.5203,
+        "feed_freshness": 0.3435
       },
       "published_date": "2026-08-18",
       "published_display": "18/08/2026"
@@ -3056,14 +3024,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-18T11:26:31-04:00",
-      "scraped_at": "2026-08-20T14:02:18.844580Z",
+      "scraped_at": "2026-08-20T14:22:03.043997Z",
       "source_id": "reduno_deportes",
       "source_name": "Red Uno - Super Deportivo",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.491729,
+      "rank_score": 0.489871,
       "stale": false,
       "extra": {
         "summary": "Super deportivo Cazar al Tigre: Oriente visita a The Strongest en el Siles de La Paz",
@@ -3071,8 +3039,8 @@
         "published_date": "2026-08-18",
         "published_display": "18/08/2026",
         "related_sources": [],
-        "feed_score": 0.520933,
-        "feed_freshness": 0.340255
+        "feed_score": 0.519564,
+        "feed_freshness": 0.337404
       },
       "published_date": "2026-08-18",
       "published_display": "18/08/2026"
@@ -3088,14 +3056,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-18T11:08:00-04:00",
-      "scraped_at": "2026-08-20T14:02:18.845742Z",
+      "scraped_at": "2026-08-20T14:22:03.045038Z",
       "source_id": "reduno_deportes",
       "source_name": "Red Uno - Super Deportivo",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.489986,
+      "rank_score": 0.488142,
       "stale": false,
       "extra": {
         "summary": "Super deportivo Bolívar visita hoy a Sao Paulo: ¿dónde y a qué hora juegan?",
@@ -3103,8 +3071,8 @@
         "published_date": "2026-08-18",
         "published_display": "18/08/2026",
         "related_sources": [],
-        "feed_score": 0.518272,
-        "feed_freshness": 0.337838
+        "feed_score": 0.516913,
+        "feed_freshness": 0.335006
       },
       "published_date": "2026-08-18",
       "published_display": "18/08/2026"
@@ -3120,14 +3088,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-18T10:20:32-04:00",
-      "scraped_at": "2026-08-20T14:02:18.845190Z",
+      "scraped_at": "2026-08-20T14:22:03.044517Z",
       "source_id": "reduno_deportes",
       "source_name": "Red Uno - Super Deportivo",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.485574,
+      "rank_score": 0.483763,
       "stale": false,
       "extra": {
         "summary": "Super deportivo ¡Defensor, aprende esto y no dejarás pasar a ningún delantero!",
@@ -3135,8 +3103,8 @@
         "published_date": "2026-08-18",
         "published_display": "18/08/2026",
         "related_sources": [],
-        "feed_score": 0.515815,
-        "feed_freshness": 0.331719
+        "feed_score": 0.514481,
+        "feed_freshness": 0.328939
       },
       "published_date": "2026-08-18",
       "published_display": "18/08/2026"
@@ -3152,14 +3120,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-18T13:41:52Z",
-      "scraped_at": "2026-08-20T14:02:20.334339Z",
+      "scraped_at": "2026-08-20T14:22:04.461845Z",
       "source_id": "diez_futbol",
       "source_name": "DIEZ - Fútbol",
       "source_type": "media",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.487639,
+      "rank_score": 0.485855,
       "stale": false,
       "extra": {
         "summary": "Fútbol Óscar ‘Pony’ Araúz deja la gerencia deportiva de Blooming",
@@ -3167,8 +3135,8 @@
         "published_date": "2026-08-18",
         "published_display": "18/08/2026",
         "related_sources": [],
-        "feed_score": 0.515552,
-        "feed_freshness": 0.326816
+        "feed_score": 0.514237,
+        "feed_freshness": 0.324077
       },
       "published_date": "2026-08-18",
       "published_display": "18/08/2026"
@@ -3184,14 +3152,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-18T12:35:27Z",
-      "scraped_at": "2026-08-20T14:02:20.335373Z",
+      "scraped_at": "2026-08-20T14:22:04.462851Z",
       "source_id": "diez_futbol",
       "source_name": "DIEZ - Fútbol",
       "source_type": "media",
       "source_authority": 0.9,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.481689,
+      "rank_score": 0.47995,
       "stale": false,
       "extra": {
         "summary": "Fútbol Oriente, en racha, busca prolongar su levantada ante The Strongest en La Paz",
@@ -3199,8 +3167,8 @@
         "published_date": "2026-08-18",
         "published_display": "18/08/2026",
         "related_sources": [],
-        "feed_score": 0.51474,
-        "feed_freshness": 0.318563
+        "feed_score": 0.513459,
+        "feed_freshness": 0.315894
       },
       "published_date": "2026-08-18",
       "published_display": "18/08/2026"
@@ -3216,14 +3184,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-18T09:50:00-04:00",
-      "scraped_at": "2026-08-20T14:02:18.846280Z",
+      "scraped_at": "2026-08-20T14:22:03.045555Z",
       "source_id": "reduno_deportes",
       "source_name": "Red Uno - Super Deportivo",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.482778,
+      "rank_score": 0.480988,
       "stale": false,
       "extra": {
         "summary": "Super deportivo [VIDEO] DT de Egipto se desmaya al ver pelear a sus dos esposas",
@@ -3231,8 +3199,8 @@
         "published_date": "2026-08-18",
         "published_display": "18/08/2026",
         "related_sources": [],
-        "feed_score": 0.514134,
-        "feed_freshness": 0.327841
+        "feed_score": 0.512815,
+        "feed_freshness": 0.325094
       },
       "published_date": "2026-08-18",
       "published_display": "18/08/2026"
@@ -3248,14 +3216,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-16T10:47:48-04:00",
-      "scraped_at": "2026-08-20T14:02:19.307462Z",
+      "scraped_at": "2026-08-20T14:22:03.481906Z",
       "source_id": "reduno_futbol_boliviano",
       "source_name": "Red Uno - Fútbol Boliviano",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "division_profesional",
-      "rank_score": 0.326131,
+      "rank_score": 0.325527,
       "stale": false,
       "extra": {
         "summary": "Super deportivo Fútbol boliviano: horarios y escenarios de los partidos de hoy domingo",
@@ -3263,8 +3231,8 @@
         "published_date": "2026-08-16",
         "published_display": "16/08/2026",
         "related_sources": [],
-        "feed_score": 0.501019,
-        "feed_freshness": 0.110581
+        "feed_score": 0.500574,
+        "feed_freshness": 0.109655
       },
       "published_date": "2026-08-16",
       "published_display": "16/08/2026"
@@ -3280,14 +3248,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-18T01:57:44-04:00",
-      "scraped_at": "2026-08-20T14:02:18.840865Z",
+      "scraped_at": "2026-08-20T14:22:03.040501Z",
       "source_id": "reduno_deportes",
       "source_name": "Red Uno - Super Deportivo",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.443473,
+      "rank_score": 0.44198,
       "stale": false,
       "extra": {
         "summary": "Super deportivo ¡Oficial! Rodri es nuevo jugador del Barcelona y firma hasta 2030",
@@ -3295,8 +3263,8 @@
         "published_date": "2026-08-18",
         "published_display": "18/08/2026",
         "related_sources": [],
-        "feed_score": 0.488297,
-        "feed_freshness": 0.273327
+        "feed_score": 0.487197,
+        "feed_freshness": 0.271036
       },
       "published_date": "2026-08-18",
       "published_display": "18/08/2026"
@@ -3312,14 +3280,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-18T01:36:05-04:00",
-      "scraped_at": "2026-08-20T14:02:18.843450Z",
+      "scraped_at": "2026-08-20T14:22:03.042971Z",
       "source_id": "reduno_deportes",
       "source_name": "Red Uno - Super Deportivo",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.441836,
+      "rank_score": 0.440357,
       "stale": false,
       "extra": {
         "summary": "Super deportivo Bruno Rojas no irá a los Sudamericanos: no le cubrirán los gastos",
@@ -3327,8 +3295,8 @@
         "published_date": "2026-08-18",
         "published_display": "18/08/2026",
         "related_sources": [],
-        "feed_score": 0.487208,
-        "feed_freshness": 0.271057
+        "feed_score": 0.486117,
+        "feed_freshness": 0.268786
       },
       "published_date": "2026-08-18",
       "published_display": "18/08/2026"
@@ -3344,14 +3312,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-11T00:00:00Z",
-      "scraped_at": "2026-08-20T14:02:15.784723Z",
+      "scraped_at": "2026-08-20T14:21:59.838005Z",
       "source_id": "conmebol_sudamericana",
       "source_name": "CONMEBOL Sudamericana",
       "source_type": "confederation",
       "source_authority": 1.0,
       "scope": "conmebol",
       "competition": "sudamericana",
-      "rank_score": 0.28354,
+      "rank_score": 0.283513,
       "stale": false,
       "extra": {
         "summary": "La Dirección de Competiciones y Operaciones de la CONMEBOL informa la reprogramación de los partidos entre Independiente Santa Fe (COL)",
@@ -3362,8 +3330,8 @@
           "sudamericana"
         ],
         "related_sources": [],
-        "feed_score": 0.484857,
-        "feed_freshness": 0.00491
+        "feed_score": 0.484837,
+        "feed_freshness": 0.004869
       },
       "published_date": "2026-08-11",
       "published_display": "11/08/2026"
@@ -3379,14 +3347,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-10T00:00:00Z",
-      "scraped_at": "2026-08-20T14:02:15.702825Z",
+      "scraped_at": "2026-08-20T14:21:59.704292Z",
       "source_id": "conmebol_libertadores",
       "source_name": "CONMEBOL Libertadores",
       "source_type": "confederation",
       "source_authority": 1.0,
       "scope": "conmebol",
       "competition": "libertadores",
-      "rank_score": 0.282033,
+      "rank_score": 0.282018,
       "stale": false,
       "extra": {
         "summary": "La Confederación Sudamericana de Fútbol – CONMEBOL- expresa su más profunda solidaridad con el pueblo colombiano ante el devastador terremoto",
@@ -3403,8 +3371,8 @@
             "published_at": "2026-08-10T00:00:00Z"
           }
         ],
-        "feed_score": 0.484844,
-        "feed_freshness": 0.00282
+        "feed_score": 0.484832,
+        "feed_freshness": 0.002796
       },
       "published_date": "2026-08-10",
       "published_display": "10/08/2026"
@@ -3420,14 +3388,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-11T00:00:00Z",
-      "scraped_at": "2026-08-20T14:02:15.701038Z",
+      "scraped_at": "2026-08-20T14:21:59.702658Z",
       "source_id": "conmebol_libertadores",
       "source_name": "CONMEBOL Libertadores",
       "source_type": "confederation",
       "source_authority": 1.0,
       "scope": "conmebol",
       "competition": "libertadores",
-      "rank_score": 0.28354,
+      "rank_score": 0.283513,
       "stale": false,
       "extra": {
         "summary": "La Dirección de Competiciones y Operaciones de la CONMEBOL informa la reprogramación de los encuentros entre Deportes Tolima (COL) e",
@@ -3438,46 +3406,11 @@
           "libertadores"
         ],
         "related_sources": [],
-        "feed_score": 0.484347,
-        "feed_freshness": 0.00491
+        "feed_score": 0.484327,
+        "feed_freshness": 0.004869
       },
       "published_date": "2026-08-11",
       "published_display": "11/08/2026"
-    },
-    {
-      "id": "660fb2b109e9baacd0a9",
-      "kind": "news",
-      "title": "Modifican el horario: The Strongest y Oriente Petrolero jugarán a las 20:15 este martes",
-      "text": "División Profesional Modifican el horario: The Strongest y Oriente Petrolero jugarán a las 20:15 este martes 18/08/2026 14:40",
-      "url": "https://futbol.unitel.bo/division-profesional/modifican-el-horario-the-strongest-y-oriente-petrolero-jugaran-a-las-2015-este-martes-GJ22907450",
-      "image_url": "https://estaticos-futbol.unitel.bo/placeholder/svg/viewbox/356x199",
-      "video_url": "",
-      "thumbnail_url": "",
-      "media_type": "none",
-      "published_at": "2026-08-18T00:00:00Z",
-      "scraped_at": "2026-08-20T14:02:19.818901Z",
-      "source_id": "unitel_division_profesional",
-      "source_name": "Unitel - División Profesional",
-      "source_type": "media",
-      "source_authority": 0.88,
-      "scope": "bolivia",
-      "competition": "division_profesional",
-      "rank_score": 0.418111,
-      "stale": false,
-      "extra": {
-        "summary": "División Profesional Modifican el horario: The Strongest y Oriente Petrolero jugarán a las 20:15 este martes 18/08/2026 14:40",
-        "content_quality": 0.5694,
-        "published_date": "2026-08-18",
-        "published_display": "18/08/2026",
-        "tags": [
-          "division_profesional"
-        ],
-        "related_sources": [],
-        "feed_score": 0.478733,
-        "feed_freshness": 0.238153
-      },
-      "published_date": "2026-08-18",
-      "published_display": "18/08/2026"
     },
     {
       "id": "2798042df53b6ea183c6",
@@ -3490,14 +3423,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-07T00:00:00Z",
-      "scraped_at": "2026-08-20T14:02:15.788292Z",
+      "scraped_at": "2026-08-20T14:21:59.841291Z",
       "source_id": "conmebol_sudamericana",
       "source_name": "CONMEBOL Sudamericana",
       "source_type": "confederation",
       "source_authority": 1.0,
       "scope": "conmebol",
       "competition": "sudamericana",
-      "rank_score": 0.280385,
+      "rank_score": 0.280382,
       "stale": false,
       "extra": {
         "summary": "La Comisión de Árbitros dio a conocer la nómina de jueces designados para los duelos de ida de los Octavos",
@@ -3505,11 +3438,46 @@
         "published_date": "2026-08-07",
         "published_display": "07/08/2026",
         "related_sources": [],
-        "feed_score": 0.477926,
-        "feed_freshness": 0.000534
+        "feed_score": 0.477924,
+        "feed_freshness": 0.00053
       },
       "published_date": "2026-08-07",
       "published_display": "07/08/2026"
+    },
+    {
+      "id": "660fb2b109e9baacd0a9",
+      "kind": "news",
+      "title": "Modifican el horario: The Strongest y Oriente Petrolero jugarán a las 20:15 este martes",
+      "text": "División Profesional Modifican el horario: The Strongest y Oriente Petrolero jugarán a las 20:15 este martes 18/08/2026 14:40",
+      "url": "https://futbol.unitel.bo/division-profesional/modifican-el-horario-the-strongest-y-oriente-petrolero-jugaran-a-las-2015-este-martes-GJ22907450",
+      "image_url": "https://estaticos-futbol.unitel.bo/placeholder/svg/viewbox/356x199",
+      "video_url": "",
+      "thumbnail_url": "",
+      "media_type": "none",
+      "published_at": "2026-08-18T00:00:00Z",
+      "scraped_at": "2026-08-20T14:22:03.938546Z",
+      "source_id": "unitel_division_profesional",
+      "source_name": "Unitel - División Profesional",
+      "source_type": "media",
+      "source_authority": 0.88,
+      "scope": "bolivia",
+      "competition": "division_profesional",
+      "rank_score": 0.416811,
+      "stale": false,
+      "extra": {
+        "summary": "División Profesional Modifican el horario: The Strongest y Oriente Petrolero jugarán a las 20:15 este martes 18/08/2026 14:40",
+        "content_quality": 0.5694,
+        "published_date": "2026-08-18",
+        "published_display": "18/08/2026",
+        "tags": [
+          "division_profesional"
+        ],
+        "related_sources": [],
+        "feed_score": 0.477775,
+        "feed_freshness": 0.236157
+      },
+      "published_date": "2026-08-18",
+      "published_display": "18/08/2026"
     },
     {
       "id": "61f51732d50a1c73637c",
@@ -3522,14 +3490,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-18T00:00:00Z",
-      "scraped_at": "2026-08-20T14:02:19.815169Z",
+      "scraped_at": "2026-08-20T14:22:03.935040Z",
       "source_id": "unitel_division_profesional",
       "source_name": "Unitel - División Profesional",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "division_profesional",
-      "rank_score": 0.418111,
+      "rank_score": 0.416811,
       "stale": false,
       "extra": {
         "summary": "División Profesional The Strongest logró un triunfo agónico ante Oriente en La Paz 18/08/2026 23:09",
@@ -3540,8 +3508,8 @@
           "division_profesional"
         ],
         "related_sources": [],
-        "feed_score": 0.474413,
-        "feed_freshness": 0.238153
+        "feed_score": 0.473455,
+        "feed_freshness": 0.236157
       },
       "published_date": "2026-08-18",
       "published_display": "18/08/2026"
@@ -3557,14 +3525,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-18T00:00:00Z",
-      "scraped_at": "2026-08-20T14:02:19.820787Z",
+      "scraped_at": "2026-08-20T14:22:03.940284Z",
       "source_id": "unitel_division_profesional",
       "source_name": "Unitel - División Profesional",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "division_profesional",
-      "rank_score": 0.418111,
+      "rank_score": 0.416811,
       "stale": false,
       "extra": {
         "summary": "División Profesional Óscar ‘Pony’ Arauz deja de ser gerente deportivo de Blooming 18/08/2026 14:44",
@@ -3575,8 +3543,8 @@
           "division_profesional"
         ],
         "related_sources": [],
-        "feed_score": 0.474233,
-        "feed_freshness": 0.238153
+        "feed_score": 0.473275,
+        "feed_freshness": 0.236157
       },
       "published_date": "2026-08-18",
       "published_display": "18/08/2026"
@@ -3592,14 +3560,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-17T20:43:00-04:00",
-      "scraped_at": "2026-08-20T14:02:18.846801Z",
+      "scraped_at": "2026-08-20T14:22:03.046063Z",
       "source_id": "reduno_deportes",
       "source_name": "Red Uno - Super Deportivo",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.420978,
+      "rank_score": 0.419657,
       "stale": false,
       "extra": {
         "summary": "Super deportivo Llega a Sporting Santa Cruz Gil Orriols Jansana, expreparador de Messi",
@@ -3607,8 +3575,8 @@
         "published_date": "2026-08-17",
         "published_display": "18/08/2026",
         "related_sources": [],
-        "feed_score": 0.474162,
-        "feed_freshness": 0.242129
+        "feed_score": 0.473188,
+        "feed_freshness": 0.2401
       },
       "published_date": "2026-08-17",
       "published_display": "17/08/2026"
@@ -3624,14 +3592,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-14T13:51:12-04:00",
-      "scraped_at": "2026-08-20T14:02:19.309335Z",
+      "scraped_at": "2026-08-20T14:22:03.483772Z",
       "source_id": "reduno_futbol_boliviano",
       "source_name": "Red Uno - Fútbol Boliviano",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "division_profesional",
-      "rank_score": 0.274626,
+      "rank_score": 0.274412,
       "stale": false,
       "extra": {
         "summary": "Super deportivo Así se jugará la fecha 15 del fútbol boliviano: horarios y partidos",
@@ -3639,8 +3607,8 @@
         "published_date": "2026-08-14",
         "published_display": "14/08/2026",
         "related_sources": [],
-        "feed_score": 0.466221,
-        "feed_freshness": 0.039148
+        "feed_score": 0.466063,
+        "feed_freshness": 0.03882
       },
       "published_date": "2026-08-14",
       "published_display": "14/08/2026"
@@ -3656,14 +3624,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-14T14:14:40-04:00",
-      "scraped_at": "2026-08-20T14:02:19.308931Z",
+      "scraped_at": "2026-08-20T14:22:03.483365Z",
       "source_id": "reduno_futbol_boliviano",
       "source_name": "Red Uno - Fútbol Boliviano",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "division_profesional",
-      "rank_score": 0.274882,
+      "rank_score": 0.274667,
       "stale": false,
       "extra": {
         "summary": "Super deportivo Así llega la tabla antes de la fecha 15 del fútbol boliviano",
@@ -3671,8 +3639,8 @@
         "published_date": "2026-08-14",
         "published_display": "14/08/2026",
         "related_sources": [],
-        "feed_score": 0.465221,
-        "feed_freshness": 0.039503
+        "feed_score": 0.465063,
+        "feed_freshness": 0.039172
       },
       "published_date": "2026-08-14",
       "published_display": "14/08/2026"
@@ -3688,14 +3656,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-18T00:00:00Z",
-      "scraped_at": "2026-08-20T14:02:19.725645Z",
+      "scraped_at": "2026-08-20T14:22:03.863433Z",
       "source_id": "unitel_atodo_deporte",
       "source_name": "Unitel - A Todo Deporte",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "general",
-      "rank_score": 0.418111,
+      "rank_score": 0.416811,
       "stale": false,
       "extra": {
         "summary": "Sucesos 18/08/2026 09:09",
@@ -3703,8 +3671,8 @@
         "published_date": "2026-08-18",
         "published_display": "18/08/2026",
         "related_sources": [],
-        "feed_score": 0.461903,
-        "feed_freshness": 0.238153
+        "feed_score": 0.460945,
+        "feed_freshness": 0.236157
       },
       "published_date": "2026-08-18",
       "published_display": "18/08/2026"
@@ -3720,14 +3688,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-13T13:41:56-04:00",
-      "scraped_at": "2026-08-20T14:02:19.309755Z",
+      "scraped_at": "2026-08-20T14:22:03.484149Z",
       "source_id": "reduno_futbol_boliviano",
       "source_name": "Red Uno - Fútbol Boliviano",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "division_profesional",
-      "rank_score": 0.262554,
+      "rank_score": 0.262432,
       "stale": false,
       "extra": {
         "summary": "Super deportivo La fecha 15 ya tiene programación: conoce todos los partidos",
@@ -3735,8 +3703,8 @@
         "published_date": "2026-08-13",
         "published_display": "13/08/2026",
         "related_sources": [],
-        "feed_score": 0.457014,
-        "feed_freshness": 0.022404
+        "feed_score": 0.456924,
+        "feed_freshness": 0.022217
       },
       "published_date": "2026-08-13",
       "published_display": "13/08/2026"
@@ -3752,14 +3720,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-09T19:44:55-04:00",
-      "scraped_at": "2026-08-20T14:02:19.311377Z",
+      "scraped_at": "2026-08-20T14:22:03.485419Z",
       "source_id": "reduno_futbol_boliviano",
       "source_name": "Red Uno - Fútbol Boliviano",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "division_profesional",
-      "rank_score": 0.248422,
+      "rank_score": 0.248406,
       "stale": false,
       "extra": {
         "summary": "Super deportivo Blooming cae 2-0 con Real Potosí y acumula cuatro partidos sin ganar",
@@ -3767,8 +3735,8 @@
         "published_date": "2026-08-09",
         "published_display": "09/08/2026",
         "related_sources": [],
-        "feed_score": 0.448956,
-        "feed_freshness": 0.002804
+        "feed_score": 0.448945,
+        "feed_freshness": 0.00278
       },
       "published_date": "2026-08-09",
       "published_display": "09/08/2026"
@@ -3784,14 +3752,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-10T10:38:44-04:00",
-      "scraped_at": "2026-08-20T14:02:19.310150Z",
+      "scraped_at": "2026-08-20T14:22:03.484532Z",
       "source_id": "reduno_futbol_boliviano",
       "source_name": "Red Uno - Fútbol Boliviano",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "division_profesional",
-      "rank_score": 0.249252,
+      "rank_score": 0.249231,
       "stale": false,
       "extra": {
         "summary": "Super deportivo Fecha 14: resultados del fútbol boliviano, ¿ganó tu equipo?",
@@ -3799,8 +3767,8 @@
         "published_date": "2026-08-10",
         "published_display": "10/08/2026",
         "related_sources": [],
-        "feed_score": 0.448009,
-        "feed_freshness": 0.003956
+        "feed_score": 0.447993,
+        "feed_freshness": 0.003923
       },
       "published_date": "2026-08-10",
       "published_display": "10/08/2026"
@@ -3816,14 +3784,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-07-31T15:40:59-04:00",
-      "scraped_at": "2026-08-20T14:02:19.312990Z",
+      "scraped_at": "2026-08-20T14:22:03.486631Z",
       "source_id": "reduno_futbol_boliviano",
       "source_name": "Red Uno - Fútbol Boliviano",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "division_profesional",
-      "rank_score": 0.246413,
+      "rank_score": 0.246412,
       "stale": false,
       "extra": {
         "summary": "Super deportivo Aurora vs The Strongest: hora, bajas y cómo llega el Equipo del Pueblo",
@@ -3848,7 +3816,7 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-07-31T00:00:00Z",
-      "scraped_at": "2026-08-20T14:02:19.315874Z",
+      "scraped_at": "2026-08-20T14:22:03.489428Z",
       "source_id": "reduno_futbol_boliviano",
       "source_name": "Red Uno - Fútbol Boliviano",
       "source_type": "media",
@@ -3880,7 +3848,7 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-07-26T09:40:23-04:00",
-      "scraped_at": "2026-08-20T14:02:19.318527Z",
+      "scraped_at": "2026-08-20T14:22:03.491903Z",
       "source_id": "reduno_futbol_boliviano",
       "source_name": "Red Uno - Fútbol Boliviano",
       "source_type": "media",
@@ -3912,14 +3880,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-02T10:36:56-04:00",
-      "scraped_at": "2026-08-20T14:02:19.312487Z",
+      "scraped_at": "2026-08-20T14:22:03.486186Z",
       "source_id": "reduno_futbol_boliviano",
       "source_name": "Red Uno - Fútbol Boliviano",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "division_profesional",
-      "rank_score": 0.246434,
+      "rank_score": 0.246433,
       "stale": false,
       "extra": {
         "summary": "Super deportivo Fecha 12 al rojo vivo en Bolivia: Los 3 partidos de hoy domingo",
@@ -3928,7 +3896,7 @@
         "published_display": "02/08/2026",
         "related_sources": [],
         "feed_score": 0.446792,
-        "feed_freshness": 4.7e-05
+        "feed_freshness": 4.6e-05
       },
       "published_date": "2026-08-02",
       "published_display": "02/08/2026"
@@ -3944,7 +3912,7 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-07-24T01:28:05-04:00",
-      "scraped_at": "2026-08-20T14:02:19.319354Z",
+      "scraped_at": "2026-08-20T14:22:03.492715Z",
       "source_id": "reduno_futbol_boliviano",
       "source_name": "Red Uno - Fútbol Boliviano",
       "source_type": "media",
@@ -3976,7 +3944,7 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-07-26T21:50:06-04:00",
-      "scraped_at": "2026-08-20T14:02:19.317011Z",
+      "scraped_at": "2026-08-20T14:22:03.490479Z",
       "source_id": "reduno_futbol_boliviano",
       "source_name": "Red Uno - Fútbol Boliviano",
       "source_type": "media",
@@ -4008,14 +3976,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-04T14:22:32-04:00",
-      "scraped_at": "2026-08-20T14:02:19.311987Z",
+      "scraped_at": "2026-08-20T14:22:03.485806Z",
       "source_id": "reduno_futbol_boliviano",
       "source_name": "Red Uno - Fútbol Boliviano",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "division_profesional",
-      "rank_score": 0.246512,
+      "rank_score": 0.246511,
       "stale": false,
       "extra": {
         "summary": "Super deportivo ¡A todo o nada! Comienza la fecha 13 del fútbol boliviano",
@@ -4024,7 +3992,7 @@
         "published_display": "04/08/2026",
         "related_sources": [],
         "feed_score": 0.445854,
-        "feed_freshness": 0.000155
+        "feed_freshness": 0.000153
       },
       "published_date": "2026-08-04",
       "published_display": "04/08/2026"
@@ -4040,7 +4008,7 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-07-26T09:29:22-04:00",
-      "scraped_at": "2026-08-20T14:02:19.318947Z",
+      "scraped_at": "2026-08-20T14:22:03.492309Z",
       "source_id": "reduno_futbol_boliviano",
       "source_name": "Red Uno - Fútbol Boliviano",
       "source_type": "media",
@@ -4072,14 +4040,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-07T03:20:26Z",
-      "scraped_at": "2026-08-20T14:02:23.712129Z",
+      "scraped_at": "2026-08-20T14:22:07.960281Z",
       "source_id": "wikipedia_simon_bolivar",
       "source_name": "Wikipedia - Copa Simón Bolívar 2026",
       "source_type": "encyclopedia",
       "source_authority": 0.92,
       "scope": "bolivia",
       "competition": "simon_bolivar",
-      "rank_score": 0.258016,
+      "rank_score": 0.258013,
       "stale": false,
       "extra": {
         "summary": "",
@@ -4090,8 +4058,8 @@
           "simon_bolivar"
         ],
         "related_sources": [],
-        "feed_score": 0.442677,
-        "feed_freshness": 0.000577
+        "feed_score": 0.442675,
+        "feed_freshness": 0.000572
       },
       "published_date": "2026-08-07",
       "published_display": "07/08/2026"
@@ -4107,14 +4075,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-16T20:14:05-04:00",
-      "scraped_at": "2026-08-20T14:02:19.306518Z",
+      "scraped_at": "2026-08-20T14:22:03.480966Z",
       "source_id": "reduno_futbol_boliviano",
       "source_name": "Red Uno - Fútbol Boliviano",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "division_profesional",
-      "rank_score": 0.345559,
+      "rank_score": 0.344808,
       "stale": false,
       "extra": {
         "summary": "Super deportivo Nacional Potosí respira: vence 2-0 a ABB y pone fin a su mala racha",
@@ -4122,8 +4090,8 @@
         "published_date": "2026-08-16",
         "published_display": "17/08/2026",
         "related_sources": [],
-        "feed_score": 0.423443,
-        "feed_freshness": 0.137527
+        "feed_score": 0.42289,
+        "feed_freshness": 0.136374
       },
       "published_date": "2026-08-16",
       "published_display": "16/08/2026"
@@ -4139,14 +4107,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-16T20:21:44-04:00",
-      "scraped_at": "2026-08-20T14:02:19.305967Z",
+      "scraped_at": "2026-08-20T14:22:03.480423Z",
       "source_id": "reduno_futbol_boliviano",
       "source_name": "Red Uno - Fútbol Boliviano",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "division_profesional",
-      "rank_score": 0.345851,
+      "rank_score": 0.345098,
       "stale": false,
       "extra": {
         "summary": "Super deportivo Con un hombre menos Real Potosí le empata 1-1 a Always en El Alto",
@@ -4154,8 +4122,8 @@
         "published_date": "2026-08-16",
         "published_display": "17/08/2026",
         "related_sources": [],
-        "feed_score": 0.423307,
-        "feed_freshness": 0.137932
+        "feed_score": 0.422753,
+        "feed_freshness": 0.136776
       },
       "published_date": "2026-08-16",
       "published_display": "16/08/2026"
@@ -4171,14 +4139,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-16T19:15:09-04:00",
-      "scraped_at": "2026-08-20T14:02:19.307051Z",
+      "scraped_at": "2026-08-20T14:22:03.481500Z",
       "source_id": "reduno_futbol_boliviano",
       "source_name": "Red Uno - Fútbol Boliviano",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "division_profesional",
-      "rank_score": 0.343334,
+      "rank_score": 0.3426,
       "stale": false,
       "extra": {
         "summary": "Super deportivo Independiente vs. GV San José: FBF anuncia cambio de última hora",
@@ -4186,8 +4154,8 @@
         "published_date": "2026-08-16",
         "published_display": "16/08/2026",
         "related_sources": [],
-        "feed_score": 0.421452,
-        "feed_freshness": 0.134441
+        "feed_score": 0.420911,
+        "feed_freshness": 0.133314
       },
       "published_date": "2026-08-16",
       "published_display": "16/08/2026"
@@ -4203,14 +4171,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-15T19:58:16-04:00",
-      "scraped_at": "2026-08-20T14:02:19.308003Z",
+      "scraped_at": "2026-08-20T14:22:03.482445Z",
       "source_id": "reduno_futbol_boliviano",
       "source_name": "Red Uno - Fútbol Boliviano",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "division_profesional",
-      "rank_score": 0.303006,
+      "rank_score": 0.302577,
       "stale": false,
       "extra": {
         "summary": "Super deportivo ¡El Diablo domó al Tigre! Guabirá vence 3-1 a The Strongest en Montero",
@@ -4218,8 +4186,8 @@
         "published_date": "2026-08-15",
         "published_display": "15/08/2026",
         "related_sources": [],
-        "feed_score": 0.395624,
-        "feed_freshness": 0.078509
+        "feed_score": 0.395308,
+        "feed_freshness": 0.077851
       },
       "published_date": "2026-08-15",
       "published_display": "15/08/2026"
@@ -4235,14 +4203,14 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-15T17:10:55-04:00",
-      "scraped_at": "2026-08-20T14:02:19.308519Z",
+      "scraped_at": "2026-08-20T14:22:03.482954Z",
       "source_id": "reduno_futbol_boliviano",
       "source_name": "Red Uno - Fútbol Boliviano",
       "source_type": "media",
       "source_authority": 0.88,
       "scope": "bolivia",
       "competition": "division_profesional",
-      "rank_score": 0.299473,
+      "rank_score": 0.299071,
       "stale": false,
       "extra": {
         "summary": "Super deportivo ¡Triunfazo verdolaga! De visitante Oriente vence 3-2 a Real Oruro",
@@ -4250,43 +4218,11 @@
         "published_date": "2026-08-15",
         "published_display": "15/08/2026",
         "related_sources": [],
-        "feed_score": 0.392432,
-        "feed_freshness": 0.073609
+        "feed_score": 0.392136,
+        "feed_freshness": 0.072992
       },
       "published_date": "2026-08-15",
       "published_display": "15/08/2026"
-    },
-    {
-      "id": "61e49e90b074a7c079a9",
-      "kind": "news",
-      "title": "Always Ready se aleja como puntero con polémica por un penal",
-      "text": "Super deportivo Always Ready se aleja como puntero con polémica por un penal",
-      "url": "https://www.reduno.com.bo/deportes/always-ready-se-aleja-como-puntero-con-polemica-por-un-penal-202689205338",
-      "image_url": "https://pxcdn.reduno.com.bo/reduno/082026/1786323167782.webp?extw=jpg&cw=500&ch=303",
-      "video_url": "",
-      "thumbnail_url": "",
-      "media_type": "none",
-      "published_at": "2026-08-09T20:53:38-04:00",
-      "scraped_at": "2026-08-20T14:02:19.310685Z",
-      "source_id": "reduno_futbol_boliviano",
-      "source_name": "Red Uno - Fútbol Boliviano",
-      "source_type": "media",
-      "source_authority": 0.88,
-      "scope": "bolivia",
-      "competition": "division_profesional",
-      "rank_score": 0.248476,
-      "stale": false,
-      "extra": {
-        "summary": "Super deportivo Always Ready se aleja como puntero con polémica por un penal",
-        "content_quality": 0.5422,
-        "published_date": "2026-08-09",
-        "published_display": "10/08/2026",
-        "related_sources": [],
-        "feed_score": 0.357642,
-        "feed_freshness": 0.002879
-      },
-      "published_date": "2026-08-09",
-      "published_display": "09/08/2026"
     },
     {
       "id": "195c526c4a29e1d0b2c0",
@@ -4299,7 +4235,7 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-08-02T20:16:05-04:00",
-      "scraped_at": "2026-08-20T14:02:19.313530Z",
+      "scraped_at": "2026-08-20T14:22:03.487144Z",
       "source_id": "reduno_futbol_boliviano",
       "source_name": "Red Uno - Fútbol Boliviano",
       "source_type": "media",
@@ -4315,10 +4251,42 @@
         "published_display": "03/08/2026",
         "related_sources": [],
         "feed_score": 0.357638,
-        "feed_freshness": 5.9e-05
+        "feed_freshness": 5.8e-05
       },
       "published_date": "2026-08-02",
       "published_display": "02/08/2026"
+    },
+    {
+      "id": "61e49e90b074a7c079a9",
+      "kind": "news",
+      "title": "Always Ready se aleja como puntero con polémica por un penal",
+      "text": "Super deportivo Always Ready se aleja como puntero con polémica por un penal",
+      "url": "https://www.reduno.com.bo/deportes/always-ready-se-aleja-como-puntero-con-polemica-por-un-penal-202689205338",
+      "image_url": "https://pxcdn.reduno.com.bo/reduno/082026/1786323167782.webp?extw=jpg&cw=500&ch=303",
+      "video_url": "",
+      "thumbnail_url": "",
+      "media_type": "none",
+      "published_at": "2026-08-09T20:53:38-04:00",
+      "scraped_at": "2026-08-20T14:22:03.485018Z",
+      "source_id": "reduno_futbol_boliviano",
+      "source_name": "Red Uno - Fútbol Boliviano",
+      "source_type": "media",
+      "source_authority": 0.88,
+      "scope": "bolivia",
+      "competition": "division_profesional",
+      "rank_score": 0.24846,
+      "stale": false,
+      "extra": {
+        "summary": "Super deportivo Always Ready se aleja como puntero con polémica por un penal",
+        "content_quality": 0.5422,
+        "published_date": "2026-08-09",
+        "published_display": "10/08/2026",
+        "related_sources": [],
+        "feed_score": 0.35763,
+        "feed_freshness": 0.002855
+      },
+      "published_date": "2026-08-09",
+      "published_display": "09/08/2026"
     },
     {
       "id": "5ae109c3406e1093882f",
@@ -4331,7 +4299,7 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-07-26T20:52:03-04:00",
-      "scraped_at": "2026-08-20T14:02:19.317560Z",
+      "scraped_at": "2026-08-20T14:22:03.491005Z",
       "source_id": "reduno_futbol_boliviano",
       "source_name": "Red Uno - Fútbol Boliviano",
       "source_type": "media",
@@ -4363,7 +4331,7 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-07-27T10:34:15-04:00",
-      "scraped_at": "2026-08-20T14:02:19.316478Z",
+      "scraped_at": "2026-08-20T14:22:03.489987Z",
       "source_id": "reduno_futbol_boliviano",
       "source_name": "Red Uno - Fútbol Boliviano",
       "source_type": "media",
@@ -4395,7 +4363,7 @@
       "thumbnail_url": "",
       "media_type": "none",
       "published_at": "2026-07-26T19:10:51-04:00",
-      "scraped_at": "2026-08-20T14:02:19.318081Z",
+      "scraped_at": "2026-08-20T14:22:03.491495Z",
       "source_id": "reduno_futbol_boliviano",
       "source_name": "Red Uno - Fútbol Boliviano",
       "source_type": "media",

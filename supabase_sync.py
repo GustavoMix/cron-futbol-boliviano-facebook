@@ -141,7 +141,7 @@ def _normalize_team_key(value: str) -> str:
 STANDINGS_MAP = {
     "pos": "posicion", "equipo": "equipo", "club": "equipo", "pts": "pts", "puntos": "pts",
     "pj": "pj", "g": "g", "e": "e", "p": "p", "gf": "gf", "gc": "gc",
-    "dif": "dif", "dg": "dif", "clasificacion": "clasificacion",
+    "dif": "dif", "dg": "dif", "clasificacion": "clasificacion", "grupo": "grupo",
 }
 TOP_SCORERS_MAP = {"pos": "posicion", "jugador": "jugador", "goles": "goles", "penales": "penales"}
 ASSISTS_MAP = {"pos": "posicion", "jugador": "jugador", "asistencias": "asistencias"}

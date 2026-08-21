@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-08-21T21:28:22.550383Z",
+  "generated_at": "2026-08-21T22:26:53.002208Z",
   "architecture": "3 Facebook groups + 1 web group; feed editorial + fases KO verificadas por serie completa",
   "facebook_groups": [
     {
@@ -24,16 +24,16 @@
   ],
   "totals": {
     "facebook_items": 0,
-    "web_latest_items": 195,
-    "app_feed_items": 96
+    "web_latest_items": 200,
+    "app_feed_items": 107
   },
   "web": {
-    "generated_at": "2026-08-21T21:28:22.402817Z",
+    "generated_at": "2026-08-21T22:26:52.859684Z",
     "totals": {
-      "items_before_filter": 483,
-      "items_after_filter_dedupe": 341,
-      "web_sources_ok": 31,
-      "web_sources_error": 6,
+      "items_before_filter": 495,
+      "items_after_filter_dedupe": 353,
+      "web_sources_ok": 32,
+      "web_sources_error": 5,
       "social_items": 0
     },
     "errors": [
@@ -50,12 +50,8 @@
         "error": "HTTPError: 403 Client Error: Forbidden for url: https://larazon.bo/categoria/marcas/futbol-profesional-boliviano/"
       },
       {
-        "source": "oxigeno_deportes",
-        "error": "ConnectTimeout: HTTPSConnectionPool(host='oxigeno.bo', port=443): Max retries exceeded with url: /categorias/deportes/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='oxigeno.bo', port=443) at 0x7f7bf6ad5460>, 'Connection to oxigeno.bo timed out. (connect timeout=25)'))"
-      },
-      {
         "source": "abi_deportes",
-        "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f7bf5a807a0>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+        "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7fc8b0b77980>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
       }
     ]
   },

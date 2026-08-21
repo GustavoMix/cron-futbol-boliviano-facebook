@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-08-21T21:28:22.402817Z",
+  "generated_at": "2026-08-21T22:26:52.859684Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,7 +9,7 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 253
+      "items": 265
     },
     "conmebol.json": {
       "items": 88
@@ -21,13 +21,13 @@
       "items": 0
     },
     "latest.json": {
-      "items": 195
+      "items": 200
     },
     "facebook_latest.json": {
       "items": 0
     },
     "app_feed.json": {
-      "items": 96
+      "items": 107
     },
     "current_tables.json": {
       "items": 0
@@ -199,8 +199,8 @@
     {
       "id": "oxigeno_deportes",
       "name": "Oxígeno - Deportes",
-      "ok": false,
-      "items": 0
+      "ok": true,
+      "items": 12
     },
     {
       "id": "atb_deportes",
@@ -271,19 +271,15 @@
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://larazon.bo/categoria/marcas/futbol-profesional-boliviano/"
     },
     {
-      "source": "oxigeno_deportes",
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='oxigeno.bo', port=443): Max retries exceeded with url: /categorias/deportes/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='oxigeno.bo', port=443) at 0x7f7bf6ad5460>, 'Connection to oxigeno.bo timed out. (connect timeout=25)'))"
-    },
-    {
       "source": "abi_deportes",
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f7bf5a807a0>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7fc8b0b77980>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
     }
   ],
   "totals": {
-    "items_before_filter": 483,
-    "items_after_filter_dedupe": 341,
-    "web_sources_ok": 31,
-    "web_sources_error": 6,
+    "items_before_filter": 495,
+    "items_after_filter_dedupe": 353,
+    "web_sources_ok": 32,
+    "web_sources_error": 5,
     "social_items": 0
   }
 }

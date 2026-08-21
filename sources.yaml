@@ -1,6 +1,7 @@
 settings:
   timezone: America/La_Paz
   max_news_per_source: 40
+  max_feed_per_source: 30
   max_social_per_query: 50
   keep_days_news: 45
   keep_days_social: 7
@@ -45,7 +46,9 @@ web_sources:
   # temporada vieja); se sigue scrapeando noticias pero no su tabla/goleadores.
   skip_tables: true
 - id: fbf_simon_bolivar
-  enabled: true
+  enabled: false  # Desactivado a pedido: competición muy grande (9 asociaciones
+  # departamentales) y todavía no está claro cómo se quiere mostrar en la app.
+  # Retomar cuando esté definido.
   name: FBF - Copa Simón Bolívar
   url: https://fbf.com.bo/torneos/copa-simon-bolivar/
   scope: bolivia
@@ -180,6 +183,121 @@ web_sources:
   competition: division_profesional
   source_type: media
   authority: 0.9
+
+# ===== Fuentes periodísticas adicionales V7 (verificadas 2026-08-21) =====
+# Todas usan fallback por titulares + enriquecimiento del artículo para recuperar
+# fecha, og:image/JSON-LD y un extracto más completo. El app_feed solo publica
+# noticias que finalmente tengan una foto utilizable.
+- id: eldeber_deportes
+  enabled: true
+  name: EL DEBER - Deportes
+  url: https://eldeber.com.bo/deportes
+  scope: bolivia
+  competition: general
+  source_type: media
+  authority: 0.92
+  news_link_fallback: true
+  news_detail_limit: 16
+- id: lostiempos_deportes
+  enabled: true
+  name: Los Tiempos - Deportes
+  url: https://www.lostiempos.com/deportes
+  scope: bolivia
+  competition: general
+  source_type: media
+  authority: 0.90
+  news_link_fallback: true
+  news_detail_limit: 16
+- id: opinion_futbol_boliviano
+  enabled: true
+  name: Opinión - Fútbol Boliviano
+  url: https://www.opinion.com.bo/deportes/futbol-boliviano/
+  scope: bolivia
+  competition: division_profesional
+  source_type: media
+  authority: 0.88
+  news_link_fallback: true
+  news_detail_limit: 16
+- id: erbol_deporte
+  enabled: true
+  name: ERBOL - Deporte
+  url: https://erbol.com.bo/deporte
+  scope: bolivia
+  competition: general
+  source_type: media
+  authority: 0.88
+  news_link_fallback: true
+  news_detail_limit: 16
+- id: correodelsur_deporte
+  enabled: true
+  name: Correo del Sur - Deporte
+  url: https://correodelsur.com/deporte
+  scope: bolivia
+  competition: general
+  source_type: media
+  authority: 0.88
+  news_link_fallback: true
+  news_detail_limit: 16
+- id: larazon_futbol_boliviano
+  enabled: true
+  name: La Razón - Fútbol Profesional Boliviano
+  url: https://larazon.bo/categoria/marcas/futbol-profesional-boliviano/
+  scope: bolivia
+  competition: division_profesional
+  source_type: media
+  authority: 0.90
+  news_link_fallback: true
+  news_detail_limit: 16
+- id: vision360_futbol_boliviano
+  enabled: true
+  name: Visión 360 - Fútbol Boliviano
+  url: https://www.vision360.bo/futbol-boliviano
+  scope: bolivia
+  competition: division_profesional
+  source_type: media
+  authority: 0.88
+  news_link_fallback: true
+  news_detail_limit: 16
+- id: oxigeno_deportes
+  enabled: true
+  name: Oxígeno - Deportes
+  url: https://oxigeno.bo/categorias/deportes/
+  scope: bolivia
+  competition: general
+  source_type: media
+  authority: 0.84
+  news_link_fallback: true
+  news_detail_limit: 14
+- id: atb_deportes
+  enabled: true
+  name: ATB Digital - Deportes
+  url: https://www.atb.com.bo/categoria/deportes/
+  scope: bolivia
+  competition: general
+  source_type: media
+  authority: 0.84
+  news_link_fallback: true
+  news_detail_limit: 14
+- id: abi_deportes
+  enabled: true
+  name: ABI - Deportes
+  url: https://abi.bo/category/noticas/deporte/
+  scope: bolivia
+  competition: general
+  source_type: news_agency
+  authority: 0.91
+  news_link_fallback: true
+  news_detail_limit: 14
+- id: redpat_deportes
+  enabled: true
+  name: RED PAT - Deportes
+  url: https://www.redpat.tv/categoria/deportes
+  scope: bolivia
+  competition: general
+  source_type: media
+  authority: 0.84
+  news_link_fallback: true
+  news_detail_limit: 14
 - id: reduno_stats
   enabled: true
   name: Red Uno - Stats Center Bolivia
@@ -196,8 +314,22 @@ web_sources:
   competition: division_profesional
   source_type: encyclopedia
   authority: 0.92
-- id: futboldebolivia_copa_pacena_grupo_a
+- id: wikipedia_copa_bolivia
   enabled: true
+  name: Wikipedia - Copa Bolivia 2026
+  url: https://es.wikipedia.org/wiki/Copa_Bolivia_2026
+  scope: bolivia
+  competition: copa_division_profesional
+  source_type: encyclopedia
+  authority: 0.92
+  # Trae el fixture completo (Fecha 1 a 8, con estado "Suspendido" cuando
+  # corresponde) y la tabla de posiciones de cada Serie ya lista — a
+  # diferencia de FutbolDeBolivia, que solo publica de a un grupo por página
+  # y mezcla ahí los clásicos inter-grupo (ver _compute_standings_from_matches).
+- id: futboldebolivia_copa_pacena_grupo_a
+  enabled: false  # Desactivado: Wikipedia (wikipedia_copa_bolivia) trae el fixture
+  # completo y actualizado (esta solo publicaba 2 de las 8 fechas y mezclaba
+  # los clásicos inter-grupo con la tabla del grupo).
   name: FutbolDeBolivia.net - Copa Paceña Grupo A
   url: https://www.futboldebolivia.net/2026/08/grupo-resultados-y-posiciones-copa.html
   scope: bolivia
@@ -208,7 +340,7 @@ web_sources:
   # en cambio los resultados con hora/goles sí son texto plano scrapeable.
   prose_matches: true
 - id: futboldebolivia_copa_pacena_grupo_b
-  enabled: true
+  enabled: false  # Desactivado: ver futboldebolivia_copa_pacena_grupo_a.
   name: FutbolDeBolivia.net - Copa Paceña Grupo B
   url: https://www.futboldebolivia.net/2026/08/grupo-b-resultados-y-posiciones-copa.html
   scope: bolivia
@@ -219,7 +351,7 @@ web_sources:
   # en cambio los resultados con hora/goles sí son texto plano scrapeable.
   prose_matches: true
 - id: futboldebolivia_copa_pacena_grupo_c
-  enabled: true
+  enabled: false  # Desactivado: ver futboldebolivia_copa_pacena_grupo_a.
   name: FutbolDeBolivia.net - Copa Paceña Grupo C
   url: https://www.futboldebolivia.net/2026/08/grupo-c-resultados-y-posiciones-copa.html
   scope: bolivia
@@ -230,7 +362,7 @@ web_sources:
   # en cambio los resultados con hora/goles sí son texto plano scrapeable.
   prose_matches: true
 - id: futboldebolivia_copa_pacena_grupo_d
-  enabled: true
+  enabled: false  # Desactivado: ver futboldebolivia_copa_pacena_grupo_a.
   name: FutbolDeBolivia.net - Copa Paceña Grupo D
   url: https://www.futboldebolivia.net/2026/08/grupo-d-resultados-y-posiciones-copa.html
   scope: bolivia
@@ -241,7 +373,7 @@ web_sources:
   # en cambio los resultados con hora/goles sí son texto plano scrapeable.
   prose_matches: true
 - id: wikipedia_simon_bolivar
-  enabled: true
+  enabled: false  # Desactivado a pedido: ver fbf_simon_bolivar más arriba.
   name: Wikipedia - Copa Simón Bolívar 2026
   url: https://es.wikipedia.org/wiki/Copa_Sim%C3%B3n_Bol%C3%ADvar_2026_(Bolivia)
   scope: bolivia

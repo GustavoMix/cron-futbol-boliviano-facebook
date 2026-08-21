@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-08-20T19:58:06.325184Z",
+  "generated_at": "2026-08-21T17:28:43.092242Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,10 +9,10 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 287
+      "items": 212
     },
     "conmebol.json": {
-      "items": 83
+      "items": 88
     },
     "internacional.json": {
       "items": 0
@@ -55,12 +55,6 @@
     {
       "id": "fbf_copa_pacena",
       "name": "FBF - Copa Paceña",
-      "ok": true,
-      "items": 6
-    },
-    {
-      "id": "fbf_simon_bolivar",
-      "name": "FBF - Copa Simón Bolívar",
       "ok": true,
       "items": 6
     },
@@ -173,46 +167,22 @@
       "items": 48
     },
     {
-      "id": "futboldebolivia_copa_pacena_grupo_a",
-      "name": "FutbolDeBolivia.net - Copa Paceña Grupo A",
+      "id": "wikipedia_copa_bolivia",
+      "name": "Wikipedia - Copa Bolivia 2026",
       "ok": true,
-      "items": 3
-    },
-    {
-      "id": "futboldebolivia_copa_pacena_grupo_b",
-      "name": "FutbolDeBolivia.net - Copa Paceña Grupo B",
-      "ok": true,
-      "items": 3
-    },
-    {
-      "id": "futboldebolivia_copa_pacena_grupo_c",
-      "name": "FutbolDeBolivia.net - Copa Paceña Grupo C",
-      "ok": true,
-      "items": 3
-    },
-    {
-      "id": "futboldebolivia_copa_pacena_grupo_d",
-      "name": "FutbolDeBolivia.net - Copa Paceña Grupo D",
-      "ok": true,
-      "items": 3
-    },
-    {
-      "id": "wikipedia_simon_bolivar",
-      "name": "Wikipedia - Copa Simón Bolívar 2026",
-      "ok": true,
-      "items": 171
+      "items": 22
     },
     {
       "id": "wikipedia_libertadores",
       "name": "Wikipedia - Copa Libertadores 2026",
       "ok": true,
-      "items": 66
+      "items": 67
     },
     {
       "id": "wikipedia_sudamericana",
       "name": "Wikipedia - Copa Sudamericana 2026",
       "ok": true,
-      "items": 76
+      "items": 77
     },
     {
       "id": "facebook",
@@ -228,9 +198,9 @@
     }
   ],
   "totals": {
-    "items_before_filter": 576,
-    "items_after_filter_dedupe": 370,
-    "web_sources_ok": 29,
+    "items_before_filter": 411,
+    "items_after_filter_dedupe": 300,
+    "web_sources_ok": 24,
     "web_sources_error": 2,
     "social_items": 0
   }

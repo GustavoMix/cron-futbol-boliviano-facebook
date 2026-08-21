@@ -6,8 +6,10 @@ import re
 import time
 import traceback
 import unicodedata
+from collections import defaultdict
 from pathlib import Path
 from typing import Any
+from urllib.parse import urlparse
 
 import requests
 
@@ -143,8 +145,14 @@ STANDINGS_MAP = {
     "pj": "pj", "g": "g", "e": "e", "p": "p", "gf": "gf", "gc": "gc",
     "dif": "dif", "dg": "dif", "clasificacion": "clasificacion", "grupo": "grupo",
 }
-TOP_SCORERS_MAP = {"pos": "posicion", "jugador": "jugador", "goles": "goles", "penales": "penales"}
-ASSISTS_MAP = {"pos": "posicion", "jugador": "jugador", "asistencias": "asistencias"}
+TOP_SCORERS_MAP = {
+    "pos": "posicion", "jugador": "jugador", "equipo": "equipo", "club": "equipo",
+    "goles": "goles", "penales": "penales",
+}
+ASSISTS_MAP = {
+    "pos": "posicion", "jugador": "jugador", "equipo": "equipo", "club": "equipo",
+    "asistencias": "asistencias",
+}
 MATCHES_MAP = {
     "fecha": "fecha", "local": "local", "resultado": "resultado", "visitante": "visitante",
     "estadio": "estadio", "fechapartido": "fecha_partido", "hora": "hora",
@@ -198,6 +206,58 @@ def _upsert(client, table: str, rows: list[dict[str, Any]], on_conflict: str) ->
         print(f"supabase_sync: ERROR en {table}: {type(exc).__name__}: {exc}", flush=True)
 
 
+def _fill_missing_positions(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Numera goleadores/asistencias cuando la fuente no trae columna "Pos".
+
+    Las tablas de goleadores de Wikipedia arrancan directo en "Jugador": no
+    hay columna de posición, así que 'posicion' quedaba NULL en la base. La
+    app pide los datos ordenados por esa columna, y con todo en NULL salían
+    desordenados (4, 4, 4, 8, 6...) y sin número de puesto.
+
+    Las filas ya vienen en el orden de la fuente (que es el correcto, de mayor
+    a menor), así que alcanza con numerarlas por competición.
+    """
+    counters: dict[str, int] = defaultdict(int)
+    for row in rows:
+        comp = row.get("competition") or ""
+        counters[comp] += 1
+        row.setdefault("posicion", counters[comp])
+    return rows
+
+
+def _prune(client, table: str, rows: list[dict[str, Any]], key: str) -> None:
+    """Borra filas viejas que la fuente ya no publica.
+
+    El upsert solo agrega/actualiza: una fila que desaparece de Wikipedia se
+    queda en la base para siempre. Así apareció "Boca Juniors" suelto en la
+    tabla de la Sudamericana — vino de una tabla que en su momento se eligió
+    como standings ("Equipos transferidos desde la Copa Libertadores") y nunca
+    se limpió, quedando con pts/pj/grupo en NULL.
+
+    Se borra por competición, y SOLO de las competiciones que esta corrida
+    realmente trajo: si un scrape falla y no devuelve filas, no se toca nada
+    (mejor dato viejo que tabla vacía).
+    """
+    if not rows:
+        return
+    by_comp: dict[str, list[str]] = defaultdict(list)
+    for r in rows:
+        comp = r.get("competition")
+        val = r.get(key)
+        if comp and val is not None:
+            by_comp[comp].append(str(val))
+    for comp, keep in by_comp.items():
+        if not keep:
+            continue
+        try:
+            _with_retries(
+                lambda c=comp, k=keep: client.schema("futbol_boliviano").table(table)
+                .delete().eq("competition", c).not_.in_(key, k).execute()
+            )
+        except Exception as exc:
+            print(f"supabase_sync: ERROR limpiando {table}/{comp}: {type(exc).__name__}: {exc}", flush=True)
+
+
 def _dedupe_rows(rows: list[dict[str, Any]], key_fields: tuple[str, ...]) -> list[dict[str, Any]]:
     # Postgres rechaza un upsert que "toca" la misma fila dos veces en el
     # mismo comando (ON CONFLICT DO UPDATE ... "cannot affect row a second
@@ -211,14 +271,45 @@ def _dedupe_rows(rows: list[dict[str, Any]], key_fields: tuple[str, ...]) -> lis
     return list(deduped.values())
 
 
+def _is_usable_news_image(url: str) -> bool:
+    """Filtra imágenes vacías y fallbacks obvios antes de publicar en la web."""
+    value = str(url or "").strip()
+    if not value:
+        return False
+    low = value.lower()
+    if low.startswith(("data:", "blob:")):
+        return False
+    if low.endswith(".svg") or ".svg?" in low:
+        return False
+    filename = urlparse(low).path.rsplit("/", 1)[-1]
+    bad_tokens = (
+        "favicon", "sprite", "avatar-default", "default-avatar",
+        "placeholder", "no-image", "noimage",
+    )
+    if any(token in filename for token in bad_tokens):
+        return False
+    if re.fullmatch(
+        r"(?:logo|brand|isotipo|imagotipo)(?:[-_][a-z0-9]+)?\.(?:png|jpe?g|webp|gif)",
+        filename,
+    ):
+        return False
+    return True
+
+
 def push_items(client, items: list[dict[str, Any]]) -> None:
     rows = []
     for it in items:
         if it.get("kind") not in {"news", "social", "video"}:
             continue
+        kind = it.get("kind")
+        image = (it.get("image_url") or it.get("thumbnail_url") or "").strip()
+        # La web consulta stale=false. Una noticia sin foto se conserva en la
+        # base para diagnóstico/histórico, pero se marca no-visible hasta que
+        # una corrida posterior logre enriquecerla con imagen.
+        force_hidden = kind == "news" and not _is_usable_news_image(image)
         rows.append({
             "id": it.get("id"),
-            "kind": it.get("kind"),
+            "kind": kind,
             "title": (it.get("title") or "")[:500],
             "text": it.get("text") or "",
             "url": it.get("url") or "",
@@ -235,7 +326,7 @@ def push_items(client, items: list[dict[str, Any]]) -> None:
             "scope": it.get("scope") or "general",
             "competition": it.get("competition") or "general",
             "rank_score": it.get("rank_score") or 0,
-            "stale": bool(it.get("stale", False)),
+            "stale": bool(it.get("stale", False) or force_hidden),
         })
     _upsert(client, "items", rows, on_conflict="id")
 
@@ -281,6 +372,8 @@ def push_current_tables(client, current_tables: dict[str, Any], logo_map: dict[s
                     if not rec.get("jugador"):
                         continue
                     rec.update({"competition": competition, "scope": scope, "source_id": source_id})
+                    if rec.get("equipo"):
+                        rec["logo_url"] = logo_map.get(_normalize_team_key(rec["equipo"]), "")
                     top_scorers_rows.append(rec)
 
         assists = blocks.get("assists")
@@ -294,6 +387,8 @@ def push_current_tables(client, current_tables: dict[str, Any], logo_map: dict[s
                     if not rec.get("jugador"):
                         continue
                     rec.update({"competition": competition, "scope": scope, "source_id": source_id})
+                    if rec.get("equipo"):
+                        rec["logo_url"] = logo_map.get(_normalize_team_key(rec["equipo"]), "")
                     assists_rows.append(rec)
 
         matches = blocks.get("matches")
@@ -322,10 +417,21 @@ def push_current_tables(client, current_tables: dict[str, Any], logo_map: dict[s
                 })
                 matches_rows.append(rec)
 
-    _upsert(client, "standings", _dedupe_rows(standings_rows, ("competition", "equipo")), on_conflict="competition,equipo")
-    _upsert(client, "top_scorers", _dedupe_rows(top_scorers_rows, ("competition", "jugador")), on_conflict="competition,jugador")
-    _upsert(client, "assists", _dedupe_rows(assists_rows, ("competition", "jugador")), on_conflict="competition,jugador")
-    _upsert(client, "matches", _dedupe_rows(matches_rows, ("id",)), on_conflict="id")
+    standings_rows = _dedupe_rows(standings_rows, ("competition", "equipo"))
+    top_scorers_rows = _fill_missing_positions(_dedupe_rows(top_scorers_rows, ("competition", "jugador")))
+    assists_rows = _fill_missing_positions(_dedupe_rows(assists_rows, ("competition", "jugador")))
+    matches_rows = _dedupe_rows(matches_rows, ("id",))
+
+    _upsert(client, "standings", standings_rows, on_conflict="competition,equipo")
+    _upsert(client, "top_scorers", top_scorers_rows, on_conflict="competition,jugador")
+    _upsert(client, "assists", assists_rows, on_conflict="competition,jugador")
+    _upsert(client, "matches", matches_rows, on_conflict="id")
+
+    # Después de escribir, sacar lo que la fuente ya no publica (ver _prune).
+    _prune(client, "standings", standings_rows, "equipo")
+    _prune(client, "top_scorers", top_scorers_rows, "jugador")
+    _prune(client, "assists", assists_rows, "jugador")
+    _prune(client, "matches", matches_rows, "id")
 
 
 # Tope de escudos nuevos que se suben POR CORRIDA. Con ~150 equipos, subir

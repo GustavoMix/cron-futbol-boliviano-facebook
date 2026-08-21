@@ -1,0 +1,103 @@
+CRON FÚTBOL BOLIVIANO — MEJORAS V7 NOTICIAS
+=============================================
+
+OBJETIVO
+--------
+Aumentar la variedad y la calidad de Noticias sin tocar la lógica estable de
+partidos/tablas. El feed visible debe priorizar noticias con foto real, fecha
+y un extracto suficientemente útil para la web/app.
+
+1) +11 FUENTES PERIODÍSTICAS
+----------------------------
+Se agregaron y dejaron activadas estas fuentes:
+- EL DEBER - Deportes
+- Los Tiempos - Deportes
+- Opinión - Fútbol Boliviano
+- ERBOL - Deporte
+- Correo del Sur - Deporte
+- La Razón - Fútbol Profesional Boliviano
+- Visión 360 - Fútbol Boliviano
+- Oxígeno - Deportes
+- ATB Digital - Deportes
+- ABI - Deportes
+- RED PAT - Deportes
+
+Resultado de configuración:
+- 42 fuentes web totales.
+- 36 fuentes web habilitadas.
+- Las nuevas fuentes usan fallback por titulares y enriquecimiento de detalle.
+
+2) FOTO OBLIGATORIA PARA NOTICIAS VISIBLES
+-------------------------------------------
+- app_feed.json solo publica noticias con image_url utilizable.
+- Se descartan como imagen válida: vacío, data/blob, SVG, favicon, sprite,
+  placeholder, no-image y logos/branding genéricos obvios.
+- En Supabase una noticia sin foto útil se conserva, pero se marca stale=true.
+  La web actual consulta stale=false, por lo que no muestra tarjetas sin foto.
+- Una corrida posterior puede volver a enriquecer la misma noticia y hacerla
+  visible cuando encuentre una foto válida.
+
+3) MÁS TEXTO ÚTIL EN CADA NOTICIA
+----------------------------------
+- El detalle puede conservar hasta ~1100 caracteres de extracto editorial.
+- La tarjeta/listado usa un resumen más compacto (~560 caracteres).
+- Cuando la noticia viene pobre, el cron abre el artículo y busca primero el
+  cuerpo editorial real (<article> / content body) y varios párrafos.
+- JSON-LD y meta description sirven como fallback, no como primera opción si
+  existe un cuerpo de artículo más rico.
+- No se genera ni inventa contenido con IA: el extracto sale de la fuente.
+
+4) ENRIQUECIMIENTO DE ARTÍCULOS
+-------------------------------
+Ahora el cron abre el detalle no solo cuando falta la fecha, sino también si:
+- falta una foto utilizable, o
+- el texto visible es demasiado corto.
+
+En el detalle intenta recuperar:
+- datePublished / article:published_time / <time>
+- og:image / twitter:image / JSON-LD image
+- articleBody / description como fallback
+- párrafos reales del artículo
+
+Las nuevas fuentes permiten 14-16 detalles por corrida/fuente; el valor general
+por defecto es 12 para evitar que el cron se vuelva excesivamente lento.
+
+5) MÁS DIVERSIDAD EN LA PORTADA
+-------------------------------
+- app_feed limita por defecto a 30 piezas visibles por source_id.
+- Evita que un solo medio ocupe casi todo el feed aunque produzca muchas notas.
+- El límite se configura con settings.max_feed_per_source en sources.yaml.
+
+6) EXTRACCIÓN MÁS TOLERANTE
+---------------------------
+- Se agregó un fallback para portales que no envuelven cada noticia en <article>.
+- El scraper puede detectar h2/h3/etc., subir al contenedor cercano y recuperar
+  enlace, foto, bajada y fecha de la tarjeta.
+
+7) COMPATIBILIDAD
+-----------------
+- No se modifican las tablas de partidos, posiciones, goleadores ni asistencias.
+- Se mantiene el mismo esquema futbol_boliviano de Supabase.
+- app_feed sube a schema_version 7 por la política de foto/texto/diversidad.
+- Las noticias sin foto no se eliminan de la base: quedan ocultas (stale=true).
+
+8) VERIFICACIONES AUTOMÁTICAS
+-----------------------------
+Incluye pruebas para:
+- resumen largo útil y con límite,
+- extracción de varios párrafos del artículo,
+- enriquecimiento aunque la fecha ya exista,
+- foto obligatoria en app_feed,
+- límite de dominio por fuente,
+- fallback de titulares sin <article>,
+- presencia exacta de las 11 fuentes nuevas,
+- ocultar en Supabase noticias sin foto,
+- ocultar placeholders/logos genéricos.
+
+IMPORTANTE
+----------
+La validación local prueba sintaxis y lógica con HTML controlado. La disponibilidad
+real de cada portal, cambios de HTML, Cloudflare/anti-bot y tiempos de respuesta
+solo se conocen en una corrida con Internet (GitHub Actions o tu PC). Si un medio
+cambia su plantilla, el cron conserva los demás y esa fuente puede ajustarse
+individualmente sin rehacer el sistema.

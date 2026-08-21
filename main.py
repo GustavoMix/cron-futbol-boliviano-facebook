@@ -109,6 +109,12 @@ def clean_text(value: str) -> str:
     return re.sub(r"\s+", " ", (value or "")).strip()
 
 
+NEWS_CARD_MAX_CHARS = 560
+NEWS_DETAIL_MAX_CHARS = 1100
+NEWS_MIN_DETAIL_CHARS = 480
+NEWS_DEFAULT_DETAIL_LIMIT = 12
+
+
 NEWS_BOILERPLATE_PATTERNS = [
     r"\bLeer más\b",
     r"\bRead more\b",
@@ -128,7 +134,7 @@ NEWS_BOILERPLATE_PATTERNS = [
 ]
 
 
-def clean_news_text(value: str, title: str = "") -> str:
+def clean_news_text(value: str, title: str = "", max_chars: int = NEWS_DETAIL_MAX_CHARS) -> str:
     text = clean_text(value)
     if not text:
         return ""
@@ -142,8 +148,9 @@ def clean_news_text(value: str, title: str = "") -> str:
         text = re.sub(pattern, "", text, flags=re.I)
     text = re.sub(r"\b(Tweet|Post) #?\w+\b", "", text, flags=re.I)
     text = re.sub(r"\s+", " ", text).strip(" -—|:;,.\n\t")
-    if len(text) > 420:
-        cut = text[:420]
+    max_chars = max(160, int(max_chars or NEWS_DETAIL_MAX_CHARS))
+    if len(text) > max_chars:
+        cut = text[:max_chars]
         last_dot = max(cut.rfind('. '), cut.rfind('! '), cut.rfind('? '))
         if last_dot >= 80:
             cut = cut[: last_dot + 1]
@@ -392,7 +399,15 @@ def dedupe(items: list[Item], threshold: int = 90) -> list[Item]:
         # ratio de similitud de texto las confunde con duplicados y se
         # pierden fechas enteras del torneo. No tiene sentido dedupear por
         # título contenido tan parecido a propósito.
-        if item.kind == "matches":
+        # Mismo motivo que "matches" arriba, pero para tablas de posiciones
+        # por grupo (Copa Paceña: Serie A/B/C/D; Simón Bolívar: cada
+        # departamento con su Grupo A/B): esos títulos difieren en una sola
+        # letra ("Series — Serie A" vs "Series — Serie B") y el ratio de
+        # similitud los toma como duplicados, dejando solo 1 de los 4-33
+        # grupos reales. _merge_group_standings ya hace su propia deduplicación
+        # más abajo (por título EXACTO, no aproximado), así que no hace falta
+        # este filtro acá — y acá hace daño.
+        if item.kind in ("matches", "standings"):
             kept.append(item)
             normalized.append(("", item.kind))
             continue
@@ -1139,12 +1154,21 @@ ASSIST_HINTS = ("asistencia", "asistencias", "asistente", "asistentes", "assist"
 OWN_GOAL_HINTS = ("autogol", "autogoles", "own goal", "own goals")
 
 
+_PLACEHOLDER_IMAGE_RE = re.compile(r"/placeholder/", re.I)
+
+
 def _find_image(node: Tag, base_url: str) -> str:
     img = node.find("img")
     if not img:
         return ""
     src = img.get("data-src") or img.get("data-lazy-src") or img.get("src") or ""
-    return absolute_url(base_url, str(src))
+    resolved = absolute_url(base_url, str(src))
+    # Unitel (y otros sitios con lazy-load) sirven un SVG placeholder en blanco
+    # como "src" mientras la imagen real carga por JS; si el scraper la toma
+    # tal cual, en el celular queda un rectángulo vacío en vez de la foto.
+    if _PLACEHOLDER_IMAGE_RE.search(resolved):
+        return ""
+    return resolved
 
 
 def _find_time(node: Tag) -> str | None:
@@ -1301,7 +1325,7 @@ def extract_jsonld(soup: BeautifulSoup, source: dict[str, Any], base_url: str) -
                 if isinstance(image, dict):
                     image = image.get("url") or ""
                 published = parse_date(obj.get("datePublished"), languages=["es", "en"]) or _date_from_news_url(absolute_url(base_url, str(url)), source.get("id", ""))
-                summary = clean_news_text(str(obj.get("description") or ""), title=title)
+                summary = clean_news_text(str(obj.get("description") or ""), title=title, max_chars=NEWS_CARD_MAX_CHARS)
                 out.append(Item(
                     id=stable_id(source["id"], str(url), title), kind="news", title=title,
                     text=summary, url=absolute_url(base_url, str(url)),
@@ -1349,7 +1373,7 @@ def extract_news_cards(soup: BeautifulSoup, source: dict[str, Any], base_url: st
         raw_text = " ".join(paragraphs[:3]) if paragraphs else clean_text(node.get_text(" ", strip=True))
         if looks_like_stats_widget(title, raw_text, href):
             continue
-        summary = clean_news_text(raw_text, title=title)
+        summary = clean_news_text(raw_text, title=title, max_chars=NEWS_CARD_MAX_CHARS)
         # Un bloque no-article sin bajada real suele ser navegación/widget.
         if node.name != "article" and len(summary) < 20:
             continue
@@ -1368,13 +1392,117 @@ def extract_news_cards(soup: BeautifulSoup, source: dict[str, Any], base_url: st
                 "published_display": published_display(published_at),
             },
         ))
+    if source.get("news_link_fallback", False):
+        existing = {(normalize_title(x.title), x.url) for x in out}
+        for item in _extract_heading_news_links(soup, source, base_url):
+            key = (normalize_title(item.title), item.url)
+            if key not in existing:
+                out.append(item)
+                existing.add(key)
+    return out
+
+
+def is_usable_news_image(url: str) -> bool:
+    """Acepta imágenes de artículo y descarta vacíos/íconos/logos evidentes.
+
+    No intenta adivinar el contenido visual; solo evita los fallbacks que casi
+    siempre son branding del sitio y no una foto de la noticia.
+    """
+    value = clean_text(url or "")
+    if not value:
+        return False
+    low = value.lower()
+    if low.startswith(("data:", "blob:")):
+        return False
+    if low.endswith(".svg") or ".svg?" in low:
+        return False
+    path = urlparse(low).path
+    filename = path.rsplit("/", 1)[-1]
+    bad_tokens = ("favicon", "sprite", "avatar-default", "default-avatar", "placeholder", "no-image", "noimage")
+    if any(token in filename for token in bad_tokens):
+        return False
+    # Logos genéricos del medio suelen llamarse logo.*, brand.* o isotipo.*.
+    if re.fullmatch(r"(?:logo|brand|isotipo|imagotipo)(?:[-_][a-z0-9]+)?\.(?:png|jpe?g|webp|gif)", filename):
+        return False
+    return True
+
+
+def _nearest_news_container(heading: Tag) -> Tag:
+    current: Tag = heading
+    # Sube pocos niveles: suficiente para capturar imagen/bajada/fecha de la
+    # tarjeta sin tragarse una sección entera del home.
+    for _ in range(4):
+        parent = current.parent
+        if not isinstance(parent, Tag):
+            break
+        current = parent
+        has_context = bool(current.find("img") or current.find("p") or current.find("time"))
+        if has_context:
+            return current
+    return heading
+
+
+def _extract_heading_news_links(soup: BeautifulSoup, source: dict[str, Any], base_url: str) -> list[Item]:
+    if not source.get("news_link_fallback", False):
+        return []
+    out: list[Item] = []
+    seen: set[tuple[str, str]] = set()
+    base_domain = domain(base_url)
+    blocked_parts = ("/tag/", "/tags/", "/autor/", "/author/", "/categoria/", "/category/", "/search", "/buscar")
+    blocked_titles = {"deportes", "futbol", "fútbol", "inicio", "noticias", "ver mas", "ver más", "lo ultimo", "lo último"}
+    for heading in soup.find_all(["h2", "h3", "h4"]):
+        link = heading.find("a", href=True)
+        if not link:
+            continue
+        title = clean_text(link.get_text(" ", strip=True) or heading.get_text(" ", strip=True))
+        if len(title) < 12 or normalize_title(title) in {normalize_title(x) for x in blocked_titles}:
+            continue
+        href = absolute_url(base_url, str(link.get("href") or ""))
+        if not href or href.rstrip("/") == base_url.rstrip("/"):
+            continue
+        if domain(href) and base_domain and domain(href) != base_domain:
+            continue
+        if any(part in href.lower() for part in blocked_parts):
+            continue
+        key = (normalize_title(title), href)
+        if key in seen:
+            continue
+        seen.add(key)
+        container = _nearest_news_container(heading)
+        paragraphs: list[str] = []
+        for el in container.find_all(["p", "li"]):
+            txt = clean_text(el.get_text(" ", strip=True))
+            if len(txt) >= 25 and normalize_title(txt) != normalize_title(title) and txt not in paragraphs:
+                paragraphs.append(txt)
+        summary = clean_news_text(" ".join(paragraphs[:3]), title=title, max_chars=NEWS_CARD_MAX_CHARS)
+        image = _find_image(container, base_url)
+        published_at = _find_time(container) or _date_from_news_url(href, source.get("id", ""))
+        # Con fallback permitimos una bajada corta si ya hay una foto real; el
+        # detalle del artículo la enriquecerá después.
+        if len(summary) < 20 and not is_usable_news_image(image):
+            continue
+        out.append(Item(
+            id=stable_id(source["id"], href, title), kind="news", title=title,
+            text=summary, url=href, image_url=image, published_at=published_at,
+            scraped_at=utc_now_iso(), source_id=source["id"], source_name=source["name"],
+            source_type=source.get("source_type", "web"), source_authority=float(source.get("authority", 0.7)),
+            scope=source.get("scope", "general"), competition=source.get("competition", "general"),
+            extra={
+                "summary": summary,
+                "content_quality": news_content_quality(title, summary, "news"),
+                "published_date": published_at[:10] if published_at else "",
+                "published_display": published_display(published_at),
+                "extraction": "heading_fallback",
+            },
+        ))
     return out
 
 
 def _article_metadata(http, url: str, title: str = "") -> dict[str, str]:
-    """Abre unas pocas noticias sin fecha y recupera metadata del artículo.
+    """Recupera fecha, foto principal y un extracto útil del artículo.
 
-    Se usa solo como fallback y con límite por fuente para no volver pesado el cron.
+    El cron conserva un resumen amplio (no el artículo completo) para que la
+    vista de detalle tenga contexto suficiente y siga enlazando a la fuente.
     """
     out = {"published_at": "", "summary": "", "image_url": ""}
     try:
@@ -1383,8 +1511,8 @@ def _article_metadata(http, url: str, title: str = "") -> dict[str, str]:
     except Exception:
         return out
 
-    # Fecha: solo metadata semántica del artículo; no escanear todo el texto
-    # para evitar confundir la fecha de un partido citado con la de publicación.
+    # Fecha: metadata semántica del artículo; evita buscar fechas arbitrarias
+    # dentro del cuerpo porque pueden corresponder a partidos mencionados.
     meta_candidates = []
     for attrs in (
         {"property": "article:published_time"}, {"property": "og:published_time"},
@@ -1403,89 +1531,174 @@ def _article_metadata(http, url: str, title: str = "") -> dict[str, str]:
             out["published_at"] = parsed
             break
 
-    # JSON-LD suele ser el dato más fiable cuando <time> no existe.
-    if not out["published_at"]:
-        for script in soup.find_all("script", attrs={"type": "application/ld+json"}):
-            raw = script.string or script.get_text()
-            try:
-                data = json.loads(raw)
-            except Exception:
+    jsonld_summary = ""
+    # JSON-LD aporta fecha/imagen y sirve como fallback de texto.
+    for script in soup.find_all("script", attrs={"type": "application/ld+json"}):
+        raw = script.string or script.get_text()
+        try:
+            data = json.loads(raw)
+        except Exception:
+            continue
+        nodes = data if isinstance(data, list) else [data]
+        expanded = []
+        for node in nodes:
+            if isinstance(node, dict) and isinstance(node.get("@graph"), list):
+                expanded.extend(node["@graph"])
+            else:
+                expanded.append(node)
+        for obj in expanded:
+            if not isinstance(obj, dict):
                 continue
-            nodes = data if isinstance(data, list) else [data]
-            expanded = []
-            for node in nodes:
-                if isinstance(node, dict) and isinstance(node.get("@graph"), list):
-                    expanded.extend(node["@graph"])
-                else:
-                    expanded.append(node)
-            for obj in expanded:
-                if not isinstance(obj, dict):
-                    continue
-                typ = obj.get("@type")
-                types = set(typ if isinstance(typ, list) else [typ])
-                if not types.intersection({"NewsArticle", "Article", "BlogPosting"}):
-                    continue
+            typ = obj.get("@type")
+            types = set(typ if isinstance(typ, list) else [typ])
+            if not types.intersection({"NewsArticle", "Article", "BlogPosting"}):
+                continue
+            if not out["published_at"]:
                 parsed = parse_date(obj.get("datePublished"), languages=["es", "en"])
                 if parsed:
                     out["published_at"] = parsed
-                if not out["summary"]:
-                    out["summary"] = clean_news_text(str(obj.get("description") or ""), title=title)
-                image = obj.get("image") or ""
-                if isinstance(image, list): image = image[0] if image else ""
-                if isinstance(image, dict): image = image.get("url") or ""
-                if image: out["image_url"] = absolute_url(r.url, str(image))
+            description = str(obj.get("description") or obj.get("articleBody") or "")
+            if description:
+                jsonld_summary = clean_news_text(description, title=title, max_chars=NEWS_DETAIL_MAX_CHARS)
+            image = obj.get("image") or ""
+            if isinstance(image, list):
+                image = image[0] if image else ""
+            if isinstance(image, dict):
+                image = image.get("url") or image.get("contentUrl") or ""
+            if image and not out["image_url"]:
+                out["image_url"] = absolute_url(r.url, str(image))
+            break
+
+    # El cuerpo editorial real tiene prioridad sobre una meta-description corta.
+    container = (
+        soup.find("article")
+        or soup.find(class_=re.compile(r"entry-content|article-body|post-content|nota-content|story-body|article__body|content-body", re.I))
+    )
+    body_summary = ""
+    if container:
+        paras: list[str] = []
+        seen_paras: set[str] = set()
+        for p in container.find_all("p"):
+            txt = clean_text(p.get_text(" ", strip=True))
+            norm = normalize_title(txt)
+            if len(txt) < 35 or not norm or norm in seen_paras:
+                continue
+            if any(normalize_title(term) in norm for term in ("tambien puede leer", "también puede leer", "suscribete", "síguenos", "compartir")):
+                continue
+            seen_paras.add(norm)
+            paras.append(txt)
+            if len(" ".join(paras)) >= NEWS_DETAIL_MAX_CHARS + 220:
                 break
-            if out["published_at"] and out["summary"]:
+        if paras:
+            body_summary = clean_news_text(" ".join(paras), title=title, max_chars=NEWS_DETAIL_MAX_CHARS)
+
+    meta_summary = ""
+    for attrs in (
+        {"property": "og:description"}, {"name": "description"}, {"name": "twitter:description"},
+    ):
+        meta = soup.find("meta", attrs=attrs)
+        if meta and meta.get("content"):
+            meta_summary = clean_news_text(str(meta.get("content")), title=title, max_chars=NEWS_DETAIL_MAX_CHARS)
+            if meta_summary:
                 break
 
-    if not out["summary"]:
-        meta = soup.find("meta", attrs={"property": "og:description"}) or soup.find("meta", attrs={"name": "description"})
-        if meta and meta.get("content"):
-            out["summary"] = clean_news_text(str(meta.get("content")), title=title)
-    if not out["summary"]:
-        container = soup.find("article") or soup.find(class_=re.compile("entry-content|article-body|post-content|nota-content"))
-        if container:
-            paras = [clean_text(p.get_text(" ", strip=True)) for p in container.find_all("p")]
-            paras = [x for x in paras if len(x) >= 35]
-            out["summary"] = clean_news_text(" ".join(paras[:2]), title=title)
-    if not out["image_url"]:
-        og = soup.find("meta", attrs={"property": "og:image"})
-        if og and og.get("content"):
-            out["image_url"] = absolute_url(r.url, str(og.get("content")))
+    out["summary"] = max((body_summary, jsonld_summary, meta_summary), key=len, default="")
+
+    if not is_usable_news_image(out["image_url"]):
+        out["image_url"] = ""
+        for attrs in (
+            {"property": "og:image"}, {"property": "og:image:url"},
+            {"name": "twitter:image"}, {"name": "twitter:image:src"}, {"itemprop": "image"},
+        ):
+            tag = soup.find("meta", attrs=attrs)
+            if tag and tag.get("content"):
+                candidate = absolute_url(r.url, str(tag.get("content")))
+                if is_usable_news_image(candidate):
+                    out["image_url"] = candidate
+                    break
+    if not out["image_url"] and container:
+        candidate = _find_image(container, r.url)
+        if is_usable_news_image(candidate):
+            out["image_url"] = candidate
     return out
 
 
-def _enrich_missing_news(http, items: list[Item], source: dict[str, Any], limit: int = 4) -> None:
+def _enrich_missing_news(http, items: list[Item], source: dict[str, Any], limit: int = NEWS_DEFAULT_DETAIL_LIMIT) -> None:
     if source.get("source_type") in {"encyclopedia", "aggregator", "structured_media"}:
         return
     done = 0
-    seen = set()
+    detail_limit = int(source.get("news_detail_limit", limit or NEWS_DEFAULT_DETAIL_LIMIT))
+    seen: set[str] = set()
     for item in items:
-        if done >= int(source.get("news_detail_limit", limit)):
+        if done >= detail_limit:
             break
-        if item.kind != "news" or item.published_at or not item.url:
+        if item.kind != "news" or not item.url:
             continue
         if item.url.rstrip("/") == str(source.get("url", "")).rstrip("/"):
             continue
         if item.url in seen:
             continue
+        # Aunque ya tenga fecha, abrimos el artículo si falta la foto o si la
+        # tarjeta trae una bajada demasiado corta. Esto es lo que permite que
+        # app_feed publique solo noticias visualmente completas.
+        needs_detail = (
+            not item.published_at
+            or not is_usable_news_image(item.image_url)
+            or len(clean_news_text(item.text, item.title, max_chars=NEWS_DETAIL_MAX_CHARS)) < NEWS_MIN_DETAIL_CHARS
+        )
+        if not needs_detail:
+            continue
         seen.add(item.url)
         detail = _article_metadata(http, item.url, item.title)
         done += 1
-        if detail.get("published_at"):
+        if detail.get("published_at") and not item.published_at:
             item.published_at = detail["published_at"]
             item.extra["published_date"] = item.published_at[:10] if item.published_at else ""
             item.extra["published_display"] = published_display(item.published_at)
             item.extra["date_source"] = "article_metadata"
-        if detail.get("summary") and (len(item.text) < 80 or len(detail["summary"]) > len(item.text)):
-            item.text = detail["summary"][:420]
-            item.extra["summary"] = item.text
-        if detail.get("image_url") and not item.image_url:
+        if detail.get("summary"):
+            richer = clean_news_text(detail["summary"], item.title, max_chars=NEWS_DETAIL_MAX_CHARS)
+            if len(richer) > len(clean_text(item.text)):
+                item.text = richer
+                item.extra["summary"] = richer
+                item.extra["content_quality"] = news_content_quality(item.title, richer, "news")
+                item.extra["detail_enriched"] = True
+        if detail.get("image_url") and (not is_usable_news_image(item.image_url)):
             item.image_url = detail["image_url"]
+            item.extra["image_source"] = "article_metadata"
+
+
+_HEADING_TAGS = ["h1", "h2", "h3", "h4", "h5", "h6"]
+
 
 def _heading_before(table: Tag) -> str:
-    h = table.find_previous(["h1", "h2", "h3", "h4", "h5", "h6"])
-    return clean_text(h.get_text(" ", strip=True) if h else "")
+    h = table.find_previous(_HEADING_TAGS)
+    if not h:
+        return ""
+    text = clean_text(h.get_text(" ", strip=True))
+    if not text:
+        return text
+    # Wikipedia repite el mismo título de subsección en contextos distintos
+    # (ej. Copa Simón Bolívar: CADA una de las 9 asociaciones departamentales
+    # tiene su propio "Grupo A" y "Grupo B" anidados bajo su propio nombre —
+    # "Beni (ABF)", "Oruro (AFO)", etc. — y encima la fase nacional también
+    # tiene un "Grupo A"). Con el heading a secas todas esas tablas quedaban
+    # con el mismo título, y _merge_group_standings las trataba como la
+    # MISMA tabla: se quedaba solo con una y descartaba las otras 9. Si el
+    # título se repite en la página, se le agrega el heading de más arriba
+    # (el que sí distingue, ej. el departamento) para desambiguar.
+    root = h
+    while root.parent is not None:
+        root = root.parent
+    all_headings = root.find_all(_HEADING_TAGS)
+    duplicates = sum(1 for other in all_headings if clean_text(other.get_text(" ", strip=True)) == text)
+    if duplicates <= 1:
+        return text
+    level = int(h.name[1])
+    higher_tags = _HEADING_TAGS[: level - 1]
+    parent = h.find_previous(higher_tags) if higher_tags else None
+    parent_text = clean_text(parent.get_text(" ", strip=True)) if parent else ""
+    return f"{parent_text} — {text}" if parent_text and parent_text != text else text
 
 
 def _fix_standings_dg(rows: list[list[str]]) -> list[list[str]]:
@@ -2048,10 +2261,21 @@ def extract_tables(soup: BeautifulSoup, source: dict[str, Any], base_url: str) -
         # Además exige que "Local" sea la PRIMERA columna: tablas como
         # "Autogoles" también tienen Local/Visitante (para decir en qué
         # partido pasó) pero empiezan con "N.º", no con el equipo local.
+        # Wikipedia (ej. "Copa Bolivia 2026") publica el Fixture completo en
+        # UNA sola tabla por fecha con una columna "Serie"/"Grupo" al frente
+        # (a diferencia de FutbolDeBolivia, que separa una página por grupo):
+        # cada fila YA dice a qué grupo pertenece, así que se puede armar la
+        # tabla de posiciones por grupo sin adivinar ni mezclar los clásicos
+        # inter-grupo con la ronda de todos-contra-todos.
+        has_leading_group_col = (
+            len(header_stripped) > 1
+            and header_stripped[0] in ("serie", "grupo")
+            and header_stripped[1] == "local"
+        )
         strong_matches = (
             bool(header_stripped) and header_stripped[0] == "local"
             and "visitante" in header_stripped
-        )
+        ) or (has_leading_group_col and "visitante" in header_stripped)
         # Señal fuerte y confiable primero: si las columnas son PJ + Pts, es
         # una tabla de posiciones sí o sí, sin depender de que el heading de
         # la página diga literalmente "tabla de posiciones" (algunas fuentes
@@ -2090,8 +2314,37 @@ def extract_tables(soup: BeautifulSoup, source: dict[str, Any], base_url: str) -
             # la toma como si fuera el header real de la tabla.
             rows = rows[1:]
             logos = logos[1:]
+        row_groups: list[str] | None = None
+        if kind == "matches" and has_leading_group_col and len(rows) > 2:
+            # Se saca la celda "Serie"/"Grupo" de cada fila de datos (queda
+            # afuera, en row_groups, alineada 1 a 1 con rows[2:]) para que el
+            # resto del pipeline (_merge_matches) siga viendo la forma
+            # estándar [Local, Resultado, Visitante, Estadio, Fecha, Hora],
+            # igual que las demás fuentes.
+            row_groups = []
+            fixed_rows = rows[:2]
+            for data_row in rows[2:]:
+                if not data_row:
+                    fixed_rows.append(data_row)
+                    row_groups.append("")
+                    continue
+                raw_group = clean_text(str(data_row[0]))
+                row_groups.append(f"Grupo {raw_group.upper()}" if raw_group else "")
+                fixed_rows.append(list(data_row[1:]))
+            rows = fixed_rows
         if kind == "standings":
             rows = _fix_standings_dg(rows)
+        if kind in ("assists", "top_scorers") and rows:
+            # Wikipedia pone un ícono (no texto) como encabezado de la
+            # columna de goles/asistencias, así que esa celda llega vacía y
+            # la app la muestra sin título ("" en vez de "Goles"/"Asistencias"),
+            # aunque los valores de la columna sí están bien.
+            label = "Asistencias" if kind == "assists" else "Goles"
+            header0 = list(rows[0])
+            blanks = [i for i, c in enumerate(header0) if not clean_text(str(c))]
+            if len(blanks) == 1:
+                header0[blanks[0]] = label
+                rows[0] = header0
         out.append(Item(
             id=stable_id(source["id"], kind, title, str(idx)), kind=kind, title=title, url=base_url,
             published_at=None, scraped_at=utc_now_iso(), source_id=source["id"], source_name=source["name"],
@@ -2102,7 +2355,7 @@ def extract_tables(soup: BeautifulSoup, source: dict[str, Any], base_url: str) -
             # por sobre otras tablas "standings" detectadas solo por heading
             # (ej. "Evolución de la clasificación" también contiene la
             # palabra "clasificación" pero no es la tabla de puntos).
-            extra={"rows": rows, "logos": logos, "strong_standings": strong_standings},
+            extra={"rows": rows, "logos": logos, "strong_standings": strong_standings, "row_groups": row_groups},
         ))
     return out
 
@@ -2139,12 +2392,24 @@ _TIME_VS_RE = re.compile(
 )
 
 
+_SOURCE_GROUP_RE = re.compile(r"Grupo\s+([A-Za-z0-9]+)\s*$", re.I)
+
+
+def _source_group_label(source: dict[str, Any]) -> str:
+    # Copa Paceña se publica como 4 páginas separadas ("... Grupo A", "...
+    # Grupo B", etc.), una por grupo — es la única señal de a qué grupo
+    # pertenece cada partido, porque el texto del resultado en sí no lo dice.
+    m = _SOURCE_GROUP_RE.search(str(source.get("name", "")))
+    return f"Grupo {m.group(1).upper()}" if m else ""
+
+
 def extract_prose_matches(soup: BeautifulSoup, source: dict[str, Any], base_url: str) -> list[Item]:
     # Fuentes como FutbolDeBolivia.net publican los resultados como texto
     # suelto ("18:00 Guabira 2 - 1 FC Universitario"), no en una <table> — su
     # tabla de posiciones real la arma JavaScript, así que no sirve de nada
     # buscar <table> ahí. En cambio el texto del resultado SÍ es HTML
     # estático y se puede parsear línea por línea.
+    group_label = _source_group_label(source)
     container = soup.find(class_=re.compile("post-body|entry-content")) or soup
     text = container.get_text("\n", strip=True)
     lines = [clean_text(l) for l in text.split("\n") if clean_text(l)]
@@ -2185,7 +2450,10 @@ def extract_prose_matches(soup: BeautifulSoup, source: dict[str, Any], base_url:
             published_at=None, scraped_at=utc_now_iso(), source_id=source["id"], source_name=source["name"],
             source_type=source.get("source_type", "web"), source_authority=float(source.get("authority", 0.7)),
             scope=source.get("scope", "general"), competition=source.get("competition", "general"),
-            extra={"rows": [[fecha], ["Local", "Resultado", "Visitante", "Estadio", "FechaPartido", "Hora"], *rows]},
+            extra={
+                "rows": [[fecha], ["Local", "Resultado", "Visitante", "Estadio", "FechaPartido", "Hora"], *rows],
+                "group": group_label,
+            },
         ))
     return out
 
@@ -2256,7 +2524,7 @@ def scrape_web_source(http, source: dict[str, Any]) -> list[Item]:
         items.extend(extract_prose_matches(soup, source, r.url))
     if source.get("footballbox_matches", False):
         items.extend(extract_footballbox_matches(soup, source, r.url))
-    _enrich_missing_news(http, items, source, limit=4)
+    _enrich_missing_news(http, items, source, limit=NEWS_DEFAULT_DETAIL_LIMIT)
     # Deduplicación exacta local por ID.
     unique = {x.id: x for x in items}
     return list(unique.values())
@@ -2332,23 +2600,31 @@ def _merge_matches(match_items: list[Item]) -> dict[str, Any]:
     # de los 4 grupos. En cambio se combina por PARTIDO (fecha + equipos):
     # si dos fuentes traen el mismo partido, gana la de mejor puntaje; si
     # son partidos distintos (otro grupo), se quedan ambos.
-    best_by_match: dict[tuple[str, str, str], tuple[float, list[str], str]] = {}
+    best_by_match: dict[tuple[str, str, str], tuple[float, list[str], str, str]] = {}
     for it in sorted(match_items, key=_structured_quality, reverse=True):
         rows = it.extra.get("rows") if isinstance(it.extra, dict) else None
         if not rows or len(rows) < 3:
             continue
         jornada = clean_text(rows[0][0]) if rows[0] else ""
         quality = _structured_quality(it)
-        for row in rows[2:]:
+        item_group = it.extra.get("group", "") if isinstance(it.extra, dict) else ""
+        # row_groups (Wikipedia: columna "Serie" propia de cada fila) es más
+        # preciso que el group de la fuente entera (FutbolDeBolivia: una
+        # página = un grupo, que confunde los clásicos inter-grupo con la
+        # ronda propia — ver _compute_standings_from_matches). Si está, gana.
+        row_groups = it.extra.get("row_groups") if isinstance(it.extra, dict) else None
+        for ridx, row in enumerate(rows[2:]):
             if not row or len(row) < 3:
                 continue
             key = (normalize_title(jornada), normalize_title(row[0]), normalize_title(row[2]))
             if key not in best_by_match or quality > best_by_match[key][0]:
-                best_by_match[key] = (quality, [jornada, *row], it.source_name)
+                row_group = (row_groups[ridx] if row_groups and ridx < len(row_groups) else "") or item_group
+                best_by_match[key] = (quality, [jornada, *row], it.source_name, row_group)
 
-    merged_rows = [v[1] for v in best_by_match.values()]
-    merged_rows.sort(key=lambda r: _jornada_num(r[0]))
-    sources_used = sorted({v[2] for v in best_by_match.values()})
+    merged = sorted(best_by_match.values(), key=lambda v: _jornada_num(v[1][0]))
+    merged_rows = [v[1] for v in merged]
+    merged_groups = [v[3] for v in merged]
+    sources_used = sorted({v[2] for v in merged})
 
     # Cada fila de partido tiene DOS equipos (local y visitante), no un solo
     # nombre por fila como en standings — se agregan 2 columnas más al final
@@ -2365,6 +2641,12 @@ def _merge_matches(match_items: list[Item]) -> dict[str, Any]:
         row.extend([home_logo, away_logo, _team_country(home_name), _team_country(away_name),
                     "club_logo" if TEAM_LOGOS.get(normalize_title(home_name)) else ("country_flag" if home_logo else "none"),
                     "club_logo" if TEAM_LOGOS.get(normalize_title(away_name)) else ("country_flag" if away_logo else "none")])
+    # Grupo va al final de todo (columna extra que el front simplemente
+    # ignora si no la conoce): _compute_standings_from_matches la usa para
+    # armar tablas por grupo en vez de una sola tabla mezclando 4 grupos.
+    if any(merged_groups):
+        for row, group in zip(merged_rows, merged_groups):
+            row.append(group)
 
     return {
         "kind": "matches",
@@ -2385,29 +2667,80 @@ def _merge_matches(match_items: list[Item]) -> dict[str, Any]:
     }
 
 
+_ROW_GROUP_RE = re.compile(r"^Grupo\s+\S+", re.I)
+
+
 def _compute_standings_from_matches(matches_table: dict[str, Any]) -> dict[str, Any] | None:
     # Cuando ninguna fuente trae una tabla de posiciones lista (ej. Copa
     # Paceña: 365Scores/FutbolDeBolivia arman la suya con JavaScript), se
     # calcula la nuestra sumando resultado por resultado: 3 pts victoria,
-    # 1 empate, 0 derrota. Solo cuenta partidos que ya tienen marcador
-    # (rows con "Resultado" tipo "N – N"; los pendientes traen "–" solo).
+    # 1 empate, 0 derrota. Los partidos sin marcador todavía ("–") no suman
+    # puntos, pero el equipo SÍ tiene que aparecer en la tabla con 0 — antes
+    # se armaba el diccionario de equipos solo al procesar un resultado, así
+    # que un equipo que aún no jugó su primer partido directamente no salía
+    # en la tabla (en vez de salir con PJ=0).
+    #
+    # _merge_matches le agrega "Grupo X" como última columna cuando la fuente
+    # trae grupos (Copa Paceña); si está, se arma una tabla por grupo (mismo
+    # formato que Libertadores/Sudamericana) en vez de una sola que mezcle
+    # los equipos de los 4 grupos entre sí.
     rows = matches_table.get("extra", {}).get("rows", [])
     score_re = re.compile(r"^(\d+)\s*[-–]\s*(\d+)$")
-    stats: dict[str, dict[str, int]] = {}
+    stats: dict[str, dict[str, dict[str, int]]] = {}
 
-    def team(name: str) -> dict[str, int]:
-        return stats.setdefault(name, {"pj": 0, "g": 0, "e": 0, "p": 0, "gf": 0, "gc": 0})
+    def row_group(row: list[str]) -> str:
+        last = clean_text(str(row[-1])) if row else ""
+        return last if _ROW_GROUP_RE.match(last) else ""
+
+    def team(group_key: str, name: str) -> dict[str, int]:
+        return stats.setdefault(group_key, {}).setdefault(name, {"pj": 0, "g": 0, "e": 0, "p": 0, "gf": 0, "gc": 0})
+
+    # La página de cada grupo (ej. "Grupo A" en FutbolDeBolivia) no solo trae
+    # los partidos de ronda todos-contra-todos de ESE grupo: también lista ahí
+    # los "clásicos" especiales contra un equipo de OTRO grupo (ej. "ABB vs
+    # Always Ready", con Always Ready jugando en realidad el Grupo B). Como
+    # _merge_matches le pega la etiqueta de la página entera a cada fila, ese
+    # resultado quedaba sumado a la tabla del Grupo A, agregando un 5to equipo
+    # que no pertenece (justo el bug: Grupo A con Always Ready adentro).
+    # Acá se calcula el grupo "de verdad" de cada equipo (el que más se repite
+    # entre sus filas) y se descarta cualquier partido cuyo local y visitante
+    # no compartan ese grupo real — ese resultado no cuenta para NINGUNA tabla
+    # de grupo, igual que en la fuente oficial (Wikipedia solo lo muestra en el
+    # cuadro de clásicos, no en la tabla de posiciones).
+    team_group_counts: dict[str, dict[str, int]] = {}
+    for row in rows:
+        if len(row) < 4:
+            continue
+        home, away = clean_text(str(row[1])), clean_text(str(row[3]))
+        group_key = row_group(row)
+        if not group_key or not home or not away:
+            continue
+        team_group_counts.setdefault(home, {})[group_key] = team_group_counts.setdefault(home, {}).get(group_key, 0) + 1
+        team_group_counts.setdefault(away, {})[group_key] = team_group_counts.setdefault(away, {}).get(group_key, 0) + 1
+    team_home_group = {name: max(counts.items(), key=lambda kv: kv[1])[0] for name, counts in team_group_counts.items()}
+    any_group_present = bool(team_home_group)
 
     for row in rows:
         # El merge antepone la fecha: [Fecha, Local, Resultado, Visitante, ...]
         if len(row) < 4:
             continue
-        home, resultado, away = row[1], row[2], row[3]
-        m = score_re.match(clean_text(resultado))
-        if not m or not home or not away:
+        home, resultado, away = clean_text(str(row[1])), row[2], clean_text(str(row[3]))
+        if not home or not away:
+            continue
+        group_key = row_group(row)
+        # Wikipedia directamente no le pone "Serie" a las filas de los
+        # clásicos inter-grupo (en vez de etiquetarlas mal): si esta fila no
+        # trae grupo pero OTRAS filas del mismo torneo sí, es un clásico —
+        # se descarta en vez de armar una tabla fantasma "sin grupo".
+        if any_group_present and not group_key:
+            continue
+        if group_key and team_home_group.get(home) != team_home_group.get(away):
+            continue
+        h, a = team(group_key, home), team(group_key, away)
+        m = score_re.match(clean_text(str(resultado)))
+        if not m:
             continue
         hg, ag = int(m.group(1)), int(m.group(2))
-        h, a = team(home), team(away)
         h["pj"] += 1; a["pj"] += 1
         h["gf"] += hg; h["gc"] += ag
         a["gf"] += ag; a["gc"] += hg
@@ -2420,22 +2753,25 @@ def _compute_standings_from_matches(matches_table: dict[str, Any]) -> dict[str, 
 
     if not stats:
         return None
-    table_rows = []
-    for name, s in stats.items():
-        pts = s["g"] * 3 + s["e"]
-        dg = s["gf"] - s["gc"]
-        table_rows.append((pts, dg, s["gf"], name, s))
-    table_rows.sort(key=lambda t: (t[0], t[1], t[2]), reverse=True)
 
-    header = ["Pos", "Equipo", "Pts", "PJ", "G", "E", "P", "GF", "GC", "DG"]
-    out_rows = [header]
-    for pos, (pts, dg, gf, name, s) in enumerate(table_rows, start=1):
-        out_rows.append([str(pos), name, str(pts), str(s["pj"]), str(s["g"]), str(s["e"]), str(s["p"]),
-                          str(s["gf"]), str(s["gc"]), (f"+{dg}" if dg > 0 else str(dg))])
+    has_groups = any(g for g in stats)
+    base_header = ["Pos", "Equipo", "Pts", "PJ", "G", "E", "P", "GF", "GC", "DG"]
+    out_rows = [(["Grupo"] + base_header) if has_groups else base_header]
+    for group_key in sorted(stats.keys()):
+        table_rows = []
+        for name, s in stats[group_key].items():
+            pts = s["g"] * 3 + s["e"]
+            dg = s["gf"] - s["gc"]
+            table_rows.append((pts, dg, s["gf"], name, s))
+        table_rows.sort(key=lambda t: (t[0], t[1], t[2]), reverse=True)
+        for pos, (pts, dg, gf, name, s) in enumerate(table_rows, start=1):
+            row_out = [str(pos), name, str(pts), str(s["pj"]), str(s["g"]), str(s["e"]), str(s["p"]),
+                       str(s["gf"]), str(s["gc"]), (f"+{dg}" if dg > 0 else str(dg))]
+            out_rows.append(([group_key] + row_out) if has_groups else row_out)
 
     return {
         "kind": "standings",
-        "title": "Tabla calculada a partir de resultados",
+        "title": "Tabla por grupos (calculada)" if has_groups else "Tabla calculada a partir de resultados",
         "source_id": "computed",
         "source_name": f"Calculada desde: {matches_table.get('source_name', '')}",
         "scope": matches_table.get("scope", ""),
@@ -2820,31 +3156,47 @@ def build_current_tables(items: list[Item], http: "HttpClient | None" = None) ->
     }
 
 
-def build_app_feed(items: list[Item], limit: int = 250) -> dict[str, Any]:
-    feed: list[Item] = []
+def build_app_feed(items: list[Item], limit: int = 250, source_cap: int = 30) -> dict[str, Any]:
+    candidates: list[Item] = []
     for x in items:
         if x.kind not in {"news", "social", "video"}:
             continue
-        # El feed visible prioriza noticias verificables y fechadas. Las piezas
-        # sin fecha permanecen en latest.json, pero no ensucian Noticias.
-        if x.kind == "news" and not x.published_at:
-            continue
+        # Noticias visibles: fecha + foto real. Las que todavía no cumplen se
+        # conservan en latest.json para diagnóstico y pueden aparecer cuando
+        # una siguiente corrida logre enriquecerlas.
+        if x.kind == "news":
+            if not x.published_at:
+                continue
+            if not is_usable_news_image(x.image_url):
+                continue
         quality = news_content_quality(x.title, x.text, x.kind)
         x.extra.setdefault("content_quality", quality)
-        x.extra.setdefault("summary", clean_news_text(x.text, x.title))
+        x.extra.setdefault("summary", clean_news_text(x.text, x.title, max_chars=NEWS_DETAIL_MAX_CHARS))
         x.extra.setdefault("published_date", x.published_at[:10] if x.published_at else "")
         x.extra.setdefault("published_display", published_display(x.published_at))
         threshold = 0.27 if x.kind == "news" else 0.43
         if quality < threshold:
             continue
         x.extra["feed_score"] = round(0.68 * float(x.rank_score or 0) + 0.32 * quality, 6)
-        feed.append(x)
-    feed.sort(key=lambda z: (float(z.extra.get("feed_score", 0)), z.published_at or ""), reverse=True)
+        candidates.append(x)
+    candidates.sort(key=lambda z: (float(z.extra.get("feed_score", 0)), z.published_at or ""), reverse=True)
+
+    feed: list[Item] = []
+    source_counts: dict[str, int] = defaultdict(int)
+    cap = max(0, int(source_cap or 0))
+    for item in candidates:
+        source_key = item.source_id or item.source_name or "unknown"
+        if cap and source_counts[source_key] >= cap:
+            continue
+        feed.append(item)
+        source_counts[source_key] += 1
+        if len(feed) >= limit:
+            break
     return {
-        "schema_version": 6,
+        "schema_version": 7,
         "generated_at": utc_now_iso(),
-        "policy": "feed deportivo editorial: elimina widgets estadísticos, texto de interfaz, promociones y publicaciones de poco valor",
-        "items": [x.to_dict() for x in feed[:limit]],
+        "policy": "feed deportivo editorial: noticia visible exige fecha + foto; extracto enriquecido; deduplicación y límite por fuente para diversidad",
+        "items": [x.to_dict() for x in feed],
     }
 
 def run(config_path: Path, output_dir: Path) -> dict[str, Any]:
@@ -2928,7 +3280,7 @@ def run(config_path: Path, output_dir: Path) -> dict[str, Any]:
         "generated_at": utc_now_iso(),
         "items": _serialize(facebook_items[:200]),
     }
-    buckets["app_feed.json"] = build_app_feed(live, 250)
+    buckets["app_feed.json"] = build_app_feed(live, 250, int(settings.get("max_feed_per_source", 30)))
     current_tables = build_current_tables(live, http)
     buckets["current_tables.json"] = current_tables
 

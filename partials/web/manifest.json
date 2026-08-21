@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-08-21T17:28:43.092242Z",
+  "generated_at": "2026-08-21T19:00:41.097767Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,7 +9,7 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 212
+      "items": 265
     },
     "conmebol.json": {
       "items": 88
@@ -21,13 +21,13 @@
       "items": 0
     },
     "latest.json": {
-      "items": 156
+      "items": 200
     },
     "facebook_latest.json": {
       "items": 0
     },
     "app_feed.json": {
-      "items": 131
+      "items": 112
     },
     "current_tables.json": {
       "items": 0
@@ -155,6 +155,72 @@
       "items": 29
     },
     {
+      "id": "eldeber_deportes",
+      "name": "EL DEBER - Deportes",
+      "ok": false,
+      "items": 0
+    },
+    {
+      "id": "lostiempos_deportes",
+      "name": "Los Tiempos - Deportes",
+      "ok": true,
+      "items": 1
+    },
+    {
+      "id": "opinion_futbol_boliviano",
+      "name": "Opinión - Fútbol Boliviano",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "id": "erbol_deporte",
+      "name": "ERBOL - Deporte",
+      "ok": true,
+      "items": 1
+    },
+    {
+      "id": "correodelsur_deporte",
+      "name": "Correo del Sur - Deporte",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "id": "larazon_futbol_boliviano",
+      "name": "La Razón - Fútbol Profesional Boliviano",
+      "ok": false,
+      "items": 0
+    },
+    {
+      "id": "vision360_futbol_boliviano",
+      "name": "Visión 360 - Fútbol Boliviano",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "id": "oxigeno_deportes",
+      "name": "Oxígeno - Deportes",
+      "ok": true,
+      "items": 12
+    },
+    {
+      "id": "atb_deportes",
+      "name": "ATB Digital - Deportes",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "id": "abi_deportes",
+      "name": "ABI - Deportes",
+      "ok": false,
+      "items": 0
+    },
+    {
+      "id": "redpat_deportes",
+      "name": "RED PAT - Deportes",
+      "ok": true,
+      "items": 10
+    },
+    {
       "id": "reduno_stats",
       "name": "Red Uno - Stats Center Bolivia",
       "ok": true,
@@ -195,13 +261,25 @@
     {
       "source": "promediosinfo_bolivia",
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://promediosinfo.com/liga/bolivia.html"
+    },
+    {
+      "source": "eldeber_deportes",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://eldeber.com.bo/deportes"
+    },
+    {
+      "source": "larazon_futbol_boliviano",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://larazon.bo/categoria/marcas/futbol-profesional-boliviano/"
+    },
+    {
+      "source": "abi_deportes",
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f5e21d4f920>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
     }
   ],
   "totals": {
-    "items_before_filter": 411,
-    "items_after_filter_dedupe": 300,
-    "web_sources_ok": 24,
-    "web_sources_error": 2,
+    "items_before_filter": 495,
+    "items_after_filter_dedupe": 353,
+    "web_sources_ok": 32,
+    "web_sources_error": 5,
     "social_items": 0
   }
 }

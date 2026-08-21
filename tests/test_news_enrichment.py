@@ -49,6 +49,16 @@ class FakeHttp:
 
 
 class NewsQualityTests(unittest.TestCase):
+    def test_parse_date_rejects_future_dates(self):
+        # dateparser a veces confunde día/mes (o agarra un número suelto del
+        # texto) y devuelve una fecha futura. Una noticia real nunca se
+        # publica en el futuro, así que parse_date debe descartarla en vez
+        # de dejarla ganar el ranking por "frescura".
+        self.assertIsNone(main.parse_date('2099-12-08T12:00:00Z'))
+
+    def test_parse_date_keeps_valid_past_dates(self):
+        self.assertEqual(main.parse_date('2026-08-11T12:00:00Z'), '2026-08-11T12:00:00Z')
+
     def test_clean_news_text_keeps_a_useful_long_summary(self):
         text = ' '.join(
             f'Párrafo informativo número {i} con datos del partido, protagonistas, resultado y contexto deportivo relevante.'

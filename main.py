@@ -280,7 +280,15 @@ def parse_date(value: Any, languages: Optional[list[str]] = None) -> Optional[st
             return None
     if dt.tzinfo is None:
         dt = dt.replace(tzinfo=timezone.utc)
-    return dt.astimezone(timezone.utc).isoformat().replace("+00:00", "Z")
+    dt_utc = dt.astimezone(timezone.utc)
+    # dateparser a veces confunde día/mes (o agarra un número suelto del texto,
+    # como un marcador "3-0" o una cuota de apuestas) y devuelve una fecha en
+    # el futuro. Una noticia real nunca se publica en el futuro, así que se
+    # descarta en vez de dejar que una fecha imposible gane el ranking por
+    # frescura (ver freshness_value/rank_item).
+    if dt_utc > datetime.now(timezone.utc) + timedelta(hours=6):
+        return None
+    return dt_utc.isoformat().replace("+00:00", "Z")
 
 
 def json_dump(path: Path, data: Any) -> None:

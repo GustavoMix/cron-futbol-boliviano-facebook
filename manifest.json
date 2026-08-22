@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-08-22T05:30:13.856257Z",
+  "generated_at": "2026-08-22T06:41:34.968181Z",
   "architecture": "3 Facebook groups + 1 web group; feed editorial + fases KO verificadas por serie completa",
   "facebook_groups": [
     {
@@ -28,12 +28,12 @@
     "app_feed_items": 135
   },
   "web": {
-    "generated_at": "2026-08-22T05:30:13.714904Z",
+    "generated_at": "2026-08-22T06:41:34.801185Z",
     "totals": {
-      "items_before_filter": 556,
-      "items_after_filter_dedupe": 402,
-      "web_sources_ok": 32,
-      "web_sources_error": 5,
+      "items_before_filter": 566,
+      "items_after_filter_dedupe": 412,
+      "web_sources_ok": 33,
+      "web_sources_error": 4,
       "social_items": 0
     },
     "errors": [
@@ -47,11 +47,7 @@
       },
       {
         "source": "abi_deportes",
-        "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f308cbbe630>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
-      },
-      {
-        "source": "redpat_deportes",
-        "error": "ReadTimeout: HTTPSConnectionPool(host='www.redpat.tv', port=443): Read timed out. (read timeout=25)"
+        "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f9570f5ff50>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
       }
     ]
   },

@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-08-22T13:33:48.774746Z",
+  "generated_at": "2026-08-22T14:23:26.128930Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,7 +9,7 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 261
+      "items": 263
     },
     "conmebol.json": {
       "items": 88
@@ -272,12 +272,12 @@
     },
     {
       "source": "abi_deportes",
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7fd8e268c8c0>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f6f0958e780>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
     }
   ],
   "totals": {
     "items_before_filter": 495,
-    "items_after_filter_dedupe": 349,
+    "items_after_filter_dedupe": 351,
     "web_sources_ok": 32,
     "web_sources_error": 5,
     "social_items": 0

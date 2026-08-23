@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-08-23T15:24:27.598361Z",
+  "generated_at": "2026-08-23T16:29:48.637459Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,7 +9,7 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 263
+      "items": 253
     },
     "conmebol.json": {
       "items": 88
@@ -21,7 +21,7 @@
       "items": 0
     },
     "latest.json": {
-      "items": 200
+      "items": 196
     },
     "facebook_latest.json": {
       "items": 0
@@ -163,8 +163,8 @@
     {
       "id": "lostiempos_deportes",
       "name": "Los Tiempos - Deportes",
-      "ok": true,
-      "items": 1
+      "ok": false,
+      "items": 0
     },
     {
       "id": "opinion_futbol_boliviano",
@@ -217,8 +217,8 @@
     {
       "id": "redpat_deportes",
       "name": "RED PAT - Deportes",
-      "ok": true,
-      "items": 10
+      "ok": false,
+      "items": 0
     },
     {
       "id": "reduno_stats",
@@ -267,19 +267,27 @@
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://eldeber.com.bo/deportes"
     },
     {
+      "source": "lostiempos_deportes",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='www.lostiempos.com', port=443): Read timed out. (read timeout=25)"
+    },
+    {
       "source": "larazon_futbol_boliviano",
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://larazon.bo/categoria/marcas/futbol-profesional-boliviano/"
     },
     {
       "source": "abi_deportes",
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7fa2b529ab10>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f59b489a3f0>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+    },
+    {
+      "source": "redpat_deportes",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='www.redpat.tv', port=443): Read timed out. (read timeout=25)"
     }
   ],
   "totals": {
-    "items_before_filter": 498,
-    "items_after_filter_dedupe": 351,
-    "web_sources_ok": 32,
-    "web_sources_error": 5,
+    "items_before_filter": 487,
+    "items_after_filter_dedupe": 341,
+    "web_sources_ok": 30,
+    "web_sources_error": 7,
     "social_items": 0
   }
 }

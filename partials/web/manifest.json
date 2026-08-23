@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-08-22T23:22:49.681775Z",
+  "generated_at": "2026-08-23T01:20:11.966563Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,7 +9,7 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 327
+      "items": 263
     },
     "conmebol.json": {
       "items": 88
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 137
+      "items": 107
     },
     "current_tables.json": {
       "items": 0
@@ -146,7 +146,7 @@
       "id": "diez_futbol",
       "name": "DIEZ - Fútbol",
       "ok": true,
-      "items": 41
+      "items": 40
     },
     {
       "id": "diez_futbol_boliviano",
@@ -187,8 +187,8 @@
     {
       "id": "larazon_futbol_boliviano",
       "name": "La Razón - Fútbol Profesional Boliviano",
-      "ok": true,
-      "items": 71
+      "ok": false,
+      "items": 0
     },
     {
       "id": "vision360_futbol_boliviano",
@@ -267,15 +267,19 @@
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://eldeber.com.bo/deportes"
     },
     {
+      "source": "larazon_futbol_boliviano",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://larazon.bo/categoria/marcas/futbol-profesional-boliviano/"
+    },
+    {
       "source": "abi_deportes",
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f6e5f1a04a0>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f645520b950>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
     }
   ],
   "totals": {
-    "items_before_filter": 568,
-    "items_after_filter_dedupe": 415,
-    "web_sources_ok": 33,
-    "web_sources_error": 4,
+    "items_before_filter": 496,
+    "items_after_filter_dedupe": 351,
+    "web_sources_ok": 32,
+    "web_sources_error": 5,
     "social_items": 0
   }
 }

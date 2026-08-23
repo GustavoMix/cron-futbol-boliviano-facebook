@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-08-23T17:23:34.440877Z",
+  "generated_at": "2026-08-23T18:33:59.484891Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,7 +9,7 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 253
+      "items": 263
     },
     "conmebol.json": {
       "items": 88
@@ -21,7 +21,7 @@
       "items": 0
     },
     "latest.json": {
-      "items": 196
+      "items": 200
     },
     "facebook_latest.json": {
       "items": 0
@@ -217,8 +217,8 @@
     {
       "id": "redpat_deportes",
       "name": "RED PAT - Deportes",
-      "ok": false,
-      "items": 0
+      "ok": true,
+      "items": 10
     },
     {
       "id": "reduno_stats",
@@ -272,18 +272,14 @@
     },
     {
       "source": "abi_deportes",
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7fab175c1130>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
-    },
-    {
-      "source": "redpat_deportes",
-      "error": "ReadTimeout: HTTPSConnectionPool(host='www.redpat.tv', port=443): Read timed out. (read timeout=25)"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f2e6c1ab800>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
     }
   ],
   "totals": {
-    "items_before_filter": 488,
-    "items_after_filter_dedupe": 341,
-    "web_sources_ok": 31,
-    "web_sources_error": 6,
+    "items_before_filter": 498,
+    "items_after_filter_dedupe": 351,
+    "web_sources_ok": 32,
+    "web_sources_error": 5,
     "social_items": 0
   }
 }

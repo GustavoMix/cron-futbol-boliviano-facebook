@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-08-25T09:37:37.327462Z",
+  "generated_at": "2026-08-25T10:35:14.344774Z",
   "architecture": "3 Facebook groups + 1 web group; feed editorial + fases KO verificadas por serie completa",
   "facebook_groups": [
     {
@@ -28,7 +28,7 @@
     "app_feed_items": 131
   },
   "web": {
-    "generated_at": "2026-08-25T09:37:37.177649Z",
+    "generated_at": "2026-08-25T10:35:14.201961Z",
     "totals": {
       "items_before_filter": 570,
       "items_after_filter_dedupe": 409,
@@ -47,7 +47,7 @@
       },
       {
         "source": "abi_deportes",
-        "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f55f67d1c70>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+        "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7fd56b387530>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
       }
     ]
   },

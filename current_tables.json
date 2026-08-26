@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-08-26T19:05:44.295977Z",
+  "generated_at": "2026-08-26T22:48:09.615410Z",
   "policy": "datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback",
   "assets_policy": "club_logo > country_flag > none",
   "team_assets": {
@@ -546,7 +546,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-08-26T19:05:39.355333Z",
+        "scraped_at": "2026-08-26T22:48:04.122056Z",
         "extra": {
           "header": [
             "Fecha",
@@ -2487,7 +2487,7 @@
             [
               "Fecha 17",
               "GV San José",
-              "–",
+              "3 – 3",
               "Oriente Petrolero",
               "Jesús Bermúdez",
               "25 de agosto",
@@ -2502,7 +2502,7 @@
             [
               "Fecha 17",
               "Universitario de Vinto",
-              "–",
+              "2 – 0",
               "Nacional Potosí",
               "Félix Capriles",
               "25 de agosto",
@@ -2517,7 +2517,7 @@
             [
               "Fecha 17",
               "San Antonio Bulo Bulo",
-              "–",
+              "0 – 3",
               "The Strongest",
               "Félix Capriles",
               "26 de agosto",
@@ -4664,7 +4664,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-26T19:05:39.002187Z",
+        "scraped_at": "2026-08-26T22:48:03.767876Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -4717,26 +4717,26 @@
             [
               "3",
               "The Strongest",
-              "30",
-              "16",
-              "8",
+              "33",
+              "17",
+              "9",
               "6",
               "2",
-              "26",
+              "29",
               "20",
-              "+6",
+              "+9",
               "Fase 1 de Copa Libertadores"
             ],
             [
               "4",
               "Oriente Petrolero",
-              "26",
-              "16",
+              "27",
+              "17",
               "8",
-              "2",
+              "3",
               "6",
-              "29",
-              "20",
+              "32",
+              "23",
               "+9",
               "Primera fase de Copa Sudamericana"
             ],
@@ -4809,13 +4809,13 @@
               "10",
               "Nacional Potosí",
               "21",
-              "16",
+              "17",
               "6",
               "3",
-              "7",
+              "8",
               "25",
-              "21",
-              "+4",
+              "23",
+              "+2",
               ""
             ],
             [
@@ -4848,30 +4848,43 @@
               "13",
               "San Antonio Bulo Bulo",
               "17",
-              "16",
+              "17",
               "5",
               "2",
-              "9",
+              "10",
               "18",
-              "32",
-              "− 14",
+              "35",
+              "− 17",
               ""
             ],
             [
               "14",
               "GV San José",
-              "13",
-              "16",
+              "14",
+              "17",
               "2",
+              "8",
               "7",
-              "7",
-              "16",
-              "24",
+              "19",
+              "27",
               "− 8",
               ""
             ],
             [
               "15",
+              "Universitario de Vinto",
+              "14",
+              "17",
+              "4",
+              "2",
+              "11",
+              "22",
+              "35",
+              "− 13",
+              "Promoción"
+            ],
+            [
+              "16",
               "Real Tomayapo",
               "13",
               "16",
@@ -4881,19 +4894,6 @@
               "12",
               "32",
               "− 20",
-              "Promoción"
-            ],
-            [
-              "16",
-              "Universitario de Vinto",
-              "11",
-              "16",
-              "3",
-              "2",
-              "11",
-              "20",
-              "35",
-              "− 15",
               "Descenso de categoría"
             ]
           ],
@@ -4913,8 +4913,8 @@
             "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200",
             "https://flagcdn.com/w80/bo.png",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-6-400x400.png",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/U_de_Vinto.png/250px-U_de_Vinto.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/U_de_Vinto.png/250px-U_de_Vinto.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-6-400x400.png"
           ],
           "strong_standings": true,
           "row_groups": null,
@@ -4937,8 +4937,8 @@
             "Bolivia",
             "Bolivia",
             "Bolivia",
-            "Tarija",
-            "Cochabamba"
+            "Cochabamba",
+            "Tarija"
           ],
           "badge_types": [
             "none",
@@ -4974,7 +4974,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-26T19:05:39.398369Z",
+        "scraped_at": "2026-08-26T22:48:04.165198Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5043,14 +5043,14 @@
             ]
           ],
           "logos": [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Soccerball_shade.svg/20px-Soccerball_shade.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/20px-Flag_of_Uruguay.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/20px-Flag_of_Brazil.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/20px-Flag_of_Colombia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Flag_of_Guatemala.svg/20px-Flag_of_Guatemala.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/20px-Flag_of_Colombia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Soccerball_shade.svg/20px-Soccerball_shade.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/20px-Flag_of_Uruguay.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/20px-Flag_of_Brazil.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/20px-Flag_of_Colombia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Flag_of_Guatemala.svg/20px-Flag_of_Guatemala.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/20px-Flag_of_Colombia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
           ],
           "strong_standings": false,
           "row_groups": null,
@@ -5073,7 +5073,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-26T19:05:39.408768Z",
+        "scraped_at": "2026-08-26T22:48:04.175472Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5122,12 +5122,12 @@
             ]
           ],
           "logos": [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Free_kick.svg/20px-Free_kick.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/20px-Flag_of_Brazil.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Free_kick.svg/20px-Free_kick.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/20px-Flag_of_Brazil.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
           ],
           "strong_standings": false,
           "row_groups": null,
@@ -5150,7 +5150,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-26T19:05:39.430667Z",
+        "scraped_at": "2026-08-26T22:48:04.197478Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5332,19 +5332,19 @@
           ],
           "logos": [
             "",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/20px-Flag_of_Paraguay.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/20px-Flag_of_Paraguay.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/20px-Flag_of_Ecuador.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/20px-Flag_of_Ecuador.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/20px-Flag_of_Paraguay.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/20px-Flag_of_Germany.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/20px-Flag_of_Paraguay.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/20px-Flag_of_Paraguay.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/20px-Flag_of_Ecuador.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/20px-Flag_of_Ecuador.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/20px-Flag_of_Paraguay.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/20px-Flag_of_Germany.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
           ],
           "strong_standings": false,
           "row_groups": null,
@@ -5365,7 +5365,7 @@
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-08-26T19:05:39.752165Z",
+        "scraped_at": "2026-08-26T22:48:04.585179Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6551,7 +6551,7 @@
         "source_name": "Series — Serie A + Series — Serie B + Series — Serie C + Series — Serie D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-08-26T19:05:39.675405Z",
+        "scraped_at": "2026-08-26T22:48:04.506549Z",
         "extra": {
           "rows": [
             [
@@ -6863,7 +6863,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-26T19:05:41.646514Z",
+        "scraped_at": "2026-08-26T22:48:06.466706Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7305,7 +7305,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-26T19:05:41.646514Z",
+        "scraped_at": "2026-08-26T22:48:06.466706Z",
         "extra": {
           "rows": [
             [
@@ -7787,7 +7787,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-26T19:05:41.266754Z",
+        "scraped_at": "2026-08-26T22:48:06.090915Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7878,7 +7878,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-26T19:05:41.281593Z",
+        "scraped_at": "2026-08-26T22:48:06.105537Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7969,7 +7969,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-26T19:05:41.646514Z",
+        "scraped_at": "2026-08-26T22:48:06.466706Z",
         "extra": {
           "rows": [
             [
@@ -8447,7 +8447,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-26T19:05:40.914865Z",
+        "scraped_at": "2026-08-26T22:48:05.741498Z",
         "extra": {
           "rows": [
             [
@@ -8965,7 +8965,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-26T19:05:43.926439Z",
+        "scraped_at": "2026-08-26T22:48:09.189957Z",
         "extra": {
           "header": [
             "Fecha",
@@ -9662,7 +9662,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-26T19:05:43.926439Z",
+        "scraped_at": "2026-08-26T22:48:09.189957Z",
         "extra": {
           "rows": [
             [
@@ -10129,7 +10129,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-26T19:05:43.317065Z",
+        "scraped_at": "2026-08-26T22:48:08.555878Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10179,11 +10179,11 @@
           ],
           "logos": [
             "",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/20px-Flag_of_Brazil.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/20px-Flag_of_Uruguay.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/20px-Flag_of_Brazil.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/20px-Flag_of_Ecuador.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/20px-Flag_of_Brazil.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/20px-Flag_of_Uruguay.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/20px-Flag_of_Brazil.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/20px-Flag_of_Ecuador.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
           ],
           "strong_standings": false,
           "row_groups": null,
@@ -10206,7 +10206,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-26T19:05:43.332250Z",
+        "scraped_at": "2026-08-26T22:48:08.570767Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10245,10 +10245,10 @@
           ],
           "logos": [
             "",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/20px-Flag_of_Uruguay.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/20px-Flag_of_Uruguay.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/20px-Flag_of_Uruguay.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/20px-Flag_of_Uruguay.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
           ],
           "strong_standings": false,
           "row_groups": null,
@@ -10267,7 +10267,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-26T19:05:43.926439Z",
+        "scraped_at": "2026-08-26T22:48:09.189957Z",
         "extra": {
           "rows": [
             [
@@ -10730,7 +10730,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-26T19:05:42.693455Z",
+        "scraped_at": "2026-08-26T22:48:07.940515Z",
         "extra": {
           "rows": [
             [
@@ -11252,7 +11252,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-26T19:03:06.539974Z",
+        "scraped_at": "2026-08-26T22:45:59.681420Z",
         "source_id": "lostiempos_deportes",
         "source_name": "Los Tiempos - Deportes",
         "source_type": "media",
@@ -11264,32 +11264,32 @@
         "extra": {
           "rows": [
             [
-              "1 El ministro de Hidrocarburos es interpelado por contratos y el abastecimiento de combustible Ver más",
-              "2 Cocapata clama por ayuda: nevada afectó a familias y a 15.000 llamas Ver más"
+              "1 Yapacaní da 2 días al Gobierno para abrogar decreto del diésel Ver más",
+              "2 Morales evalúa hacer ajustes al decreto del ‘dieselazo’; pero descarta la abrogación Ver más"
             ],
             [
-              "3 Libre dice que para superar la crisis política Paz debe explicar el rol de Cerimedo en su Gobierno Ver más",
-              "4 Gobernación y Quillacollo rechazan el Decreto Supremo 5676 del “dieselazo” Ver más"
+              "3 Ministro de Hidrocarburos evita la censura de la ALP Ver más",
+              "4 Casi 400 personas desaparecidas tras inundaciones en Nepal Ver más"
             ],
             [
-              "5 Lara convoca a nueva sesión para interpelar al Ministro de Gobierno sobre la lucha contra el narcotráfico Ver más",
-              "6 Votos de la oposición salvan a ministro de Hidrocarburos de censura en la ALP Ver más"
+              "5 Christian Morales es el nuevo ministro de Economía Ver más",
+              "6 Muere a los 80 años Tim Curry, actor icónico y estrella de \"Rocky Horror Picture Show\" Ver más"
             ],
             [
-              "7 Luto en la música: Muere la cantautora estadounidense Dolly Parton Ver más",
-              "8 Cochabamba será escenario del Mundial Júnior de Ráquetbol en el Complejo de Sarco Ver más"
+              "7 Viceministerio de Educación Regular tiene nueva titular Ver más",
+              "8 Paz instruye una \"investigación minuciosa\" en el caso Cerimedo Ver más"
             ],
             [
-              "9 Proyecto de Ley de Inversiones aún no llega a comisión y no hay fecha de tratamiento Ver más",
-              "10 “La noche del demonio” supera $us 60 millones en su estreno mundial Ver más"
+              "9 Evistas tratan de reactivar trámite para su partido Ver más",
+              "10 Alcaldía derruye más de 60 edificaciones ilegales en Sacaba Ver más"
             ]
           ],
           "logos": [
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/25/hidrocar.jpg?itok=HcGys9y0",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/25/pazzz.jpg?itok=gyDPPZQr",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/25/oviedo.jpg?itok=GjuGW7im",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/25/doddy_part.jpg?itok=uILpfCji",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/25/proyecto.jpg?itok=gjIekGUE"
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/25/yapa_ca_ni_ry.jpg?itok=7qSy5Bd5",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/25/inter_blanc_erbol.jpg?itok=_YQJvZck",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/25/christian_urgente.jpg?itok=WnE5KRVU",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/25/vicemin_edu_regular.jpg?itok=ZcDpQviI",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/25/uevo_pueblo.jpg?itok=51A63l6x"
           ],
           "strong_standings": false,
           "row_groups": null,

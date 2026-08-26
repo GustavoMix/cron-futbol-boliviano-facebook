@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-08-26T01:18:19.577193Z",
+  "generated_at": "2026-08-26T03:06:59.352706Z",
   "policy": "datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback",
   "assets_policy": "club_logo > country_flag > none",
   "team_assets": {
@@ -546,7 +546,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-08-26T01:18:14.388857Z",
+        "scraped_at": "2026-08-26T03:06:53.814500Z",
         "extra": {
           "header": [
             "Fecha",
@@ -4664,7 +4664,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-26T01:18:14.018933Z",
+        "scraped_at": "2026-08-26T03:06:53.400249Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -4974,7 +4974,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-26T01:18:14.437118Z",
+        "scraped_at": "2026-08-26T03:06:53.866142Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5073,7 +5073,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-26T01:18:14.448629Z",
+        "scraped_at": "2026-08-26T03:06:53.878605Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5150,7 +5150,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-26T01:18:14.472327Z",
+        "scraped_at": "2026-08-26T03:06:53.905070Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5365,7 +5365,7 @@
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-08-26T01:18:14.821708Z",
+        "scraped_at": "2026-08-26T03:06:54.291245Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6551,7 +6551,7 @@
         "source_name": "Series — Serie A + Series — Serie B + Series — Serie C + Series — Serie D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-08-26T01:18:14.742684Z",
+        "scraped_at": "2026-08-26T03:06:54.211208Z",
         "extra": {
           "rows": [
             [
@@ -6863,7 +6863,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-26T01:18:16.821950Z",
+        "scraped_at": "2026-08-26T03:06:56.446595Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6989,7 +6989,7 @@
             [
               "Octavos de final",
               "Independiente del Valle",
-              "vs.",
+              "3:1 (0:0)",
               "Deportes Tolima",
               "Estadio Banco Guayaquil , Quito",
               "25 de agosto, 19:30 ( UTC-5 ) [ n. 6 ]",
@@ -7153,33 +7153,33 @@
             ],
             [
               "Cuartos de final",
-              "",
+              "Independiente del Valle",
               "vs.",
               "Flamengo",
-              "",
+              "Estadio Banco Guayaquil , Quito",
               "septiembre",
               "",
-              "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudoindependientedelvalle2023.png?width=200",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Clube_de_Regatas_do_Flamengo_logo.svg/250px-Clube_de_Regatas_do_Flamengo_logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-              "",
+              "Ecuador",
               "Brasil",
-              "none",
+              "club_logo",
               "club_logo"
             ],
             [
               "Cuartos de final",
               "Flamengo",
               "vs.",
-              "",
+              "Independiente del Valle",
               "Estadio Maracaná , Río de Janeiro",
               "septiembre",
               "",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Clube_de_Regatas_do_Flamengo_logo.svg/250px-Clube_de_Regatas_do_Flamengo_logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-              "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudoindependientedelvalle2023.png?width=200",
               "Brasil",
-              "",
+              "Ecuador",
               "club_logo",
-              "none"
+              "club_logo"
             ],
             [
               "Cuartos de final",
@@ -7261,7 +7261,7 @@
             "Argentina",
             "Argentina",
             "Brasil",
-            "",
+            "Ecuador",
             "Brasil",
             "Brasil",
             "Ecuador",
@@ -7288,7 +7288,7 @@
             "Brasil",
             "Argentina",
             "Brasil",
-            "",
+            "Ecuador",
             "Ecuador",
             "Brasil",
             "Argentina",
@@ -7300,12 +7300,12 @@
       },
       "standings": {
         "kind": "standings",
-        "title": "Clasificados a cuartos de final (7/8)",
+        "title": "Clasificados a cuartos de final (8/8)",
         "source_id": "computed",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-26T01:18:16.821950Z",
+        "scraped_at": "2026-08-26T03:06:56.446595Z",
         "extra": {
           "rows": [
             [
@@ -7330,21 +7330,26 @@
             ],
             [
               "4",
-              "Liga de Quito",
+              "Independiente del Valle",
               "Ecuador"
             ],
             [
               "5",
+              "Liga de Quito",
+              "Ecuador"
+            ],
+            [
+              "6",
               "Palmeiras",
               "Brasil"
             ],
             [
-              "6",
+              "7",
               "Platense",
               "Argentina"
             ],
             [
-              "7",
+              "8",
               "Fluminense",
               "Brasil"
             ]
@@ -7354,6 +7359,7 @@
             "https://commons.wikimedia.org/wiki/Special:FilePath/Estudiantes_de_la_Plata_crest_(2025).svg?width=200",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Corinthians23022007_(cropped).jpg?width=200",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Clube_de_Regatas_do_Flamengo_logo.svg/250px-Clube_de_Regatas_do_Flamengo_logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Escudoindependientedelvalle2023.png?width=200",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Liga_Deportiva_Universitaria_de_Quito.png?width=200",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Palmeiras_logo.svg?width=200",
             "https://flagcdn.com/w80/ar.png",
@@ -7364,6 +7370,7 @@
             "Argentina",
             "Brasil",
             "Brasil",
+            "Ecuador",
             "Ecuador",
             "Brasil",
             "Argentina",
@@ -7376,12 +7383,13 @@
             "club_logo",
             "club_logo",
             "club_logo",
+            "club_logo",
             "country_flag",
             "club_logo"
           ],
-          "qualified_count": 7,
+          "qualified_count": 8,
           "expected_qualifiers": 8,
-          "remaining": 1,
+          "remaining": 0,
           "round": "Octavos de final",
           "next_round": "Cuartos de final",
           "series": [
@@ -7511,14 +7519,14 @@
                 "Deportes Tolima",
                 "Independiente del Valle"
               ],
-              "legs_played": 1,
+              "legs_played": 2,
               "legs_expected": 2,
-              "status": "in_progress",
-              "winner": "",
-              "qualified_for": "",
+              "status": "completed",
+              "winner": "Independiente del Valle",
+              "qualified_for": "Cuartos de final",
               "aggregate": {
-                "Deportes Tolima": 0,
-                "Independiente del Valle": 1
+                "Deportes Tolima": 1,
+                "Independiente del Valle": 4
               },
               "legs": [
                 {
@@ -7535,7 +7543,7 @@
                 {
                   "home": "Independiente del Valle",
                   "away": "Deportes Tolima",
-                  "result": "vs.",
+                  "result": "3:1 (0:0)",
                   "date": "25 de agosto, 19:30 ( UTC-5 ) [ n. 6 ]",
                   "stadium": "Estadio Banco Guayaquil , Quito",
                   "home_logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Escudoindependientedelvalle2023.png?width=200",
@@ -7729,6 +7737,13 @@
               "badge_type": "club_logo"
             },
             {
+              "team": "Independiente del Valle",
+              "country": "Ecuador",
+              "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Escudoindependientedelvalle2023.png?width=200",
+              "display_badge_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Escudoindependientedelvalle2023.png?width=200",
+              "badge_type": "club_logo"
+            },
+            {
               "team": "Liga de Quito",
               "country": "Ecuador",
               "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Liga_Deportiva_Universitaria_de_Quito.png?width=200",
@@ -7772,7 +7787,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-26T01:18:16.449781Z",
+        "scraped_at": "2026-08-26T03:06:56.026132Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7798,8 +7813,8 @@
             [
               "Carlos González",
               "Independiente del Valle",
-              "6",
-              "7"
+              "7",
+              "8"
             ],
             [
               "Lorenzo Melgarejo",
@@ -7863,7 +7878,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-26T01:18:16.464184Z",
+        "scraped_at": "2026-08-26T03:06:56.043075Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7949,12 +7964,12 @@
       },
       "knockout": {
         "kind": "standings",
-        "title": "Clasificados a cuartos de final (7/8)",
+        "title": "Clasificados a cuartos de final (8/8)",
         "source_id": "computed",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-26T01:18:16.821950Z",
+        "scraped_at": "2026-08-26T03:06:56.446595Z",
         "extra": {
           "rows": [
             [
@@ -7979,21 +7994,26 @@
             ],
             [
               "4",
-              "Liga de Quito",
+              "Independiente del Valle",
               "Ecuador"
             ],
             [
               "5",
+              "Liga de Quito",
+              "Ecuador"
+            ],
+            [
+              "6",
               "Palmeiras",
               "Brasil"
             ],
             [
-              "6",
+              "7",
               "Platense",
               "Argentina"
             ],
             [
-              "7",
+              "8",
               "Fluminense",
               "Brasil"
             ]
@@ -8003,6 +8023,7 @@
             "https://commons.wikimedia.org/wiki/Special:FilePath/Estudiantes_de_la_Plata_crest_(2025).svg?width=200",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Corinthians23022007_(cropped).jpg?width=200",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Clube_de_Regatas_do_Flamengo_logo.svg/250px-Clube_de_Regatas_do_Flamengo_logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Escudoindependientedelvalle2023.png?width=200",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Liga_Deportiva_Universitaria_de_Quito.png?width=200",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Palmeiras_logo.svg?width=200",
             "https://flagcdn.com/w80/ar.png",
@@ -8013,6 +8034,7 @@
             "Argentina",
             "Brasil",
             "Brasil",
+            "Ecuador",
             "Ecuador",
             "Brasil",
             "Argentina",
@@ -8025,12 +8047,13 @@
             "club_logo",
             "club_logo",
             "club_logo",
+            "club_logo",
             "country_flag",
             "club_logo"
           ],
-          "qualified_count": 7,
+          "qualified_count": 8,
           "expected_qualifiers": 8,
-          "remaining": 1,
+          "remaining": 0,
           "round": "Octavos de final",
           "next_round": "Cuartos de final",
           "series": [
@@ -8160,14 +8183,14 @@
                 "Deportes Tolima",
                 "Independiente del Valle"
               ],
-              "legs_played": 1,
+              "legs_played": 2,
               "legs_expected": 2,
-              "status": "in_progress",
-              "winner": "",
-              "qualified_for": "",
+              "status": "completed",
+              "winner": "Independiente del Valle",
+              "qualified_for": "Cuartos de final",
               "aggregate": {
-                "Deportes Tolima": 0,
-                "Independiente del Valle": 1
+                "Deportes Tolima": 1,
+                "Independiente del Valle": 4
               },
               "legs": [
                 {
@@ -8184,7 +8207,7 @@
                 {
                   "home": "Independiente del Valle",
                   "away": "Deportes Tolima",
-                  "result": "vs.",
+                  "result": "3:1 (0:0)",
                   "date": "25 de agosto, 19:30 ( UTC-5 ) [ n. 6 ]",
                   "stadium": "Estadio Banco Guayaquil , Quito",
                   "home_logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Escudoindependientedelvalle2023.png?width=200",
@@ -8378,6 +8401,13 @@
               "badge_type": "club_logo"
             },
             {
+              "team": "Independiente del Valle",
+              "country": "Ecuador",
+              "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Escudoindependientedelvalle2023.png?width=200",
+              "display_badge_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Escudoindependientedelvalle2023.png?width=200",
+              "badge_type": "club_logo"
+            },
+            {
               "team": "Liga de Quito",
               "country": "Ecuador",
               "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Liga_Deportiva_Universitaria_de_Quito.png?width=200",
@@ -8417,7 +8447,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-26T01:18:16.086903Z",
+        "scraped_at": "2026-08-26T03:06:55.630826Z",
         "extra": {
           "rows": [
             [
@@ -8935,7 +8965,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-26T01:18:19.179951Z",
+        "scraped_at": "2026-08-26T03:06:58.947118Z",
         "extra": {
           "header": [
             "Fecha",
@@ -9632,7 +9662,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-26T01:18:19.179951Z",
+        "scraped_at": "2026-08-26T03:06:58.947118Z",
         "extra": {
           "rows": [
             [
@@ -10099,7 +10129,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-26T01:18:18.550396Z",
+        "scraped_at": "2026-08-26T03:06:58.261251Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10176,7 +10206,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-26T01:18:18.565120Z",
+        "scraped_at": "2026-08-26T03:06:58.277479Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10237,7 +10267,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-26T01:18:19.179951Z",
+        "scraped_at": "2026-08-26T03:06:58.947118Z",
         "extra": {
           "rows": [
             [
@@ -10700,7 +10730,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-26T01:18:17.921699Z",
+        "scraped_at": "2026-08-26T03:06:57.599218Z",
         "extra": {
           "rows": [
             [
@@ -11222,7 +11252,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-26T01:16:16.744065Z",
+        "scraped_at": "2026-08-26T03:04:59.635840Z",
         "source_id": "lostiempos_deportes",
         "source_name": "Los Tiempos - Deportes",
         "source_type": "media",

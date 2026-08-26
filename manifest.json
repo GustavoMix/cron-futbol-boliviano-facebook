@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-08-26T07:48:29.954924Z",
+  "generated_at": "2026-08-26T08:45:03.678571Z",
   "architecture": "3 Facebook groups + 1 web group; feed editorial + fases KO verificadas por serie completa",
   "facebook_groups": [
     {
@@ -28,12 +28,12 @@
     "app_feed_items": 133
   },
   "web": {
-    "generated_at": "2026-08-26T07:48:29.801138Z",
+    "generated_at": "2026-08-26T08:45:03.526782Z",
     "totals": {
-      "items_before_filter": 549,
-      "items_after_filter_dedupe": 400,
-      "web_sources_ok": 32,
-      "web_sources_error": 5,
+      "items_before_filter": 569,
+      "items_after_filter_dedupe": 411,
+      "web_sources_ok": 33,
+      "web_sources_error": 4,
       "social_items": 0
     },
     "errors": [
@@ -46,12 +46,8 @@
         "error": "HTTPError: 403 Client Error: Forbidden for url: https://eldeber.com.bo/deportes"
       },
       {
-        "source": "opinion_futbol_boliviano",
-        "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.opinion.com.bo/deportes/futbol-boliviano/"
-      },
-      {
         "source": "abi_deportes",
-        "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7fbb090c3800>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+        "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7faabc77c110>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
       }
     ]
   },

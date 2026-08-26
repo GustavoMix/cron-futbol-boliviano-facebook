@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-08-26T11:32:56.048865Z",
+  "generated_at": "2026-08-26T12:54:19.972746Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,7 +9,7 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 313
+      "items": 261
     },
     "conmebol.json": {
       "items": 88
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 133
+      "items": 105
     },
     "current_tables.json": {
       "items": 0
@@ -187,14 +187,14 @@
     {
       "id": "larazon_futbol_boliviano",
       "name": "La Razón - Fútbol Profesional Boliviano",
-      "ok": true,
-      "items": 71
+      "ok": false,
+      "items": 0
     },
     {
       "id": "vision360_futbol_boliviano",
       "name": "Visión 360 - Fútbol Boliviano",
       "ok": true,
-      "items": 32
+      "items": 35
     },
     {
       "id": "oxigeno_deportes",
@@ -217,8 +217,8 @@
     {
       "id": "redpat_deportes",
       "name": "RED PAT - Deportes",
-      "ok": false,
-      "items": 0
+      "ok": true,
+      "items": 10
     },
     {
       "id": "reduno_stats",
@@ -267,17 +267,17 @@
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://eldeber.com.bo/deportes"
     },
     {
-      "source": "abi_deportes",
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7fd93ae6e930>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+      "source": "larazon_futbol_boliviano",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://larazon.bo/categoria/marcas/futbol-profesional-boliviano/"
     },
     {
-      "source": "redpat_deportes",
-      "error": "ReadTimeout: HTTPSConnectionPool(host='www.redpat.tv', port=443): Read timed out. (read timeout=25)"
+      "source": "abi_deportes",
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7fc36d68eb40>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
     }
   ],
   "totals": {
-    "items_before_filter": 559,
-    "items_after_filter_dedupe": 401,
+    "items_before_filter": 501,
+    "items_after_filter_dedupe": 349,
     "web_sources_ok": 32,
     "web_sources_error": 5,
     "social_items": 0

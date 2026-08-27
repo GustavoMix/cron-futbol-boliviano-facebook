@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-08-26T22:48:09.615410Z",
+  "generated_at": "2026-08-27T04:20:17.547811Z",
   "policy": "datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback",
   "assets_policy": "club_logo > country_flag > none",
   "team_assets": {
@@ -546,7 +546,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-08-26T22:48:04.122056Z",
+        "scraped_at": "2026-08-27T04:20:13.234971Z",
         "extra": {
           "header": [
             "Fecha",
@@ -2532,7 +2532,7 @@
             [
               "Fecha 17",
               "Real Potosí",
-              "–",
+              "0 – 1",
               "Real Tomayapo",
               "Víctor Agustín Ugarte",
               "26 de agosto",
@@ -2547,7 +2547,7 @@
             [
               "Fecha 17",
               "Blooming",
-              "–",
+              "1 – 1",
               "Real Oruro",
               "Ramón Aguilera Costas",
               "26 de agosto",
@@ -4664,7 +4664,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-26T22:48:03.767876Z",
+        "scraped_at": "2026-08-27T04:20:12.954086Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -4744,13 +4744,13 @@
               "5",
               "Real Potosí",
               "25",
-              "16",
+              "17",
               "6",
               "7",
-              "3",
+              "4",
               "22",
-              "11",
-              "+11",
+              "12",
+              "+10",
               "Primera fase de Copa Sudamericana"
             ],
             [
@@ -4768,6 +4768,19 @@
             ],
             [
               "7",
+              "Blooming",
+              "23",
+              "17",
+              "5",
+              "8",
+              "4",
+              "22",
+              "18",
+              "+4",
+              ""
+            ],
+            [
+              "8",
               "Aurora",
               "23",
               "16",
@@ -4777,19 +4790,6 @@
               "23",
               "22",
               "+1",
-              ""
-            ],
-            [
-              "8",
-              "Blooming",
-              "22",
-              "16",
-              "5",
-              "7",
-              "4",
-              "21",
-              "17",
-              "+4",
               ""
             ],
             [
@@ -4820,6 +4820,19 @@
             ],
             [
               "11",
+              "Real Oruro",
+              "18",
+              "17",
+              "5",
+              "3",
+              "9",
+              "30",
+              "43",
+              "− 13",
+              ""
+            ],
+            [
+              "12",
               "ABB",
               "17",
               "16",
@@ -4829,19 +4842,6 @@
               "26",
               "33",
               "− 7",
-              ""
-            ],
-            [
-              "12",
-              "Real Oruro",
-              "17",
-              "16",
-              "5",
-              "2",
-              "9",
-              "29",
-              "42",
-              "− 13",
               ""
             ],
             [
@@ -4859,6 +4859,19 @@
             ],
             [
               "14",
+              "Real Tomayapo",
+              "16",
+              "17",
+              "4",
+              "4",
+              "9",
+              "13",
+              "32",
+              "− 19",
+              ""
+            ],
+            [
+              "15",
               "GV San José",
               "14",
               "17",
@@ -4868,10 +4881,10 @@
               "19",
               "27",
               "− 8",
-              ""
+              "Promoción"
             ],
             [
-              "15",
+              "16",
               "Universitario de Vinto",
               "14",
               "17",
@@ -4881,19 +4894,6 @@
               "22",
               "35",
               "− 13",
-              "Promoción"
-            ],
-            [
-              "16",
-              "Real Tomayapo",
-              "13",
-              "16",
-              "3",
-              "4",
-              "9",
-              "12",
-              "32",
-              "− 20",
               "Descenso de categoría"
             ]
           ],
@@ -4905,16 +4905,16 @@
             "",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-2-400x400.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-4-400x400.png",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-2-400x400.png",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Escudo_Club_Independiente_Petrolero.png/250px-Escudo_Club_Independiente_Petrolero.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-9-400x400.png",
-            "",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200",
+            "",
             "https://flagcdn.com/w80/bo.png",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-6-400x400.png",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/U_de_Vinto.png/250px-U_de_Vinto.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-6-400x400.png"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/U_de_Vinto.png/250px-U_de_Vinto.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
           ],
           "strong_standings": true,
           "row_groups": null,
@@ -4929,16 +4929,16 @@
             "Santa Cruz",
             "Potos",
             "Santa Cruz",
-            "Cochabamba",
             "Santa Cruz",
+            "Cochabamba",
             "Chuquisaca",
             "Potos",
+            "Bolivia",
             "La Paz",
             "Bolivia",
+            "Tarija",
             "Bolivia",
-            "Bolivia",
-            "Cochabamba",
-            "Tarija"
+            "Cochabamba"
           ],
           "badge_types": [
             "none",
@@ -4952,8 +4952,8 @@
             "club_logo",
             "club_logo",
             "club_logo",
-            "none",
             "club_logo",
+            "none",
             "country_flag",
             "club_logo",
             "club_logo",
@@ -4974,7 +4974,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-26T22:48:04.165198Z",
+        "scraped_at": "2026-08-27T04:20:13.267637Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5073,7 +5073,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-26T22:48:04.175472Z",
+        "scraped_at": "2026-08-27T04:20:13.275530Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5150,7 +5150,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-26T22:48:04.197478Z",
+        "scraped_at": "2026-08-27T04:20:13.292275Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5365,7 +5365,7 @@
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-08-26T22:48:04.585179Z",
+        "scraped_at": "2026-08-27T04:20:13.584646Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6551,7 +6551,7 @@
         "source_name": "Series — Serie A + Series — Serie B + Series — Serie C + Series — Serie D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-08-26T22:48:04.506549Z",
+        "scraped_at": "2026-08-27T04:20:13.526249Z",
         "extra": {
           "rows": [
             [
@@ -6863,7 +6863,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-26T22:48:06.466706Z",
+        "scraped_at": "2026-08-27T04:20:15.100574Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7305,7 +7305,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-26T22:48:06.466706Z",
+        "scraped_at": "2026-08-27T04:20:15.100574Z",
         "extra": {
           "rows": [
             [
@@ -7787,7 +7787,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-26T22:48:06.090915Z",
+        "scraped_at": "2026-08-27T04:20:14.796015Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7878,7 +7878,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-26T22:48:06.105537Z",
+        "scraped_at": "2026-08-27T04:20:14.807470Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7969,7 +7969,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-26T22:48:06.466706Z",
+        "scraped_at": "2026-08-27T04:20:15.100574Z",
         "extra": {
           "rows": [
             [
@@ -8447,7 +8447,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-26T22:48:05.741498Z",
+        "scraped_at": "2026-08-27T04:20:14.516654Z",
         "extra": {
           "rows": [
             [
@@ -8965,7 +8965,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-26T22:48:09.189957Z",
+        "scraped_at": "2026-08-27T04:20:17.313493Z",
         "extra": {
           "header": [
             "Fecha",
@@ -9361,7 +9361,7 @@
             [
               "Octavos de final",
               "River Plate",
-              "vs.",
+              "1:1 (0:0) (7:8 p. )",
               "Santa Fe",
               "Estadio Monumental , Buenos Aires",
               "26 de agosto, 21:30 ( UTC-3 ) [ n. 4 ]",
@@ -9469,7 +9469,7 @@
               "vs.",
               "São Paulo",
               "Estadio La Bombonera , Buenos Aires",
-              "septiembre",
+              "9 de septiembre",
               "",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Boca_Juniors_logo18.svg?width=200",
               "https://commons.wikimedia.org/wiki/Special:FilePath/São_Paulo_Futebol_Clube_logo_(2022).svg?width=200",
@@ -9484,7 +9484,7 @@
               "vs.",
               "Boca Juniors",
               "Estadio Morumbi , São Paulo",
-              "septiembre",
+              "16 de septiembre",
               "",
               "https://commons.wikimedia.org/wiki/Special:FilePath/São_Paulo_Futebol_Clube_logo_(2022).svg?width=200",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Boca_Juniors_logo18.svg?width=200",
@@ -9495,18 +9495,33 @@
             ],
             [
               "Cuartos de final",
-              "",
+              "Santa Fe",
               "vs.",
-              "",
-              "",
+              "Vasco da Gama",
+              "Estadio El Campín , Bogotá",
               "septiembre",
               "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_de_Independiente_Santa_Fe.svg?width=200",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Escudo_Vasco_1920.png/250px-Escudo_Vasco_1920.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "Colombia",
+              "Brasil",
+              "club_logo",
+              "club_logo"
+            ],
+            [
+              "Cuartos de final",
+              "Vasco da Gama",
+              "vs.",
+              "Santa Fe",
+              "Estadio São Januário , Río de Janeiro",
+              "septiembre",
               "",
-              "",
-              "",
-              "",
-              "none",
-              "none"
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Escudo_Vasco_1920.png/250px-Escudo_Vasco_1920.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_de_Independiente_Santa_Fe.svg?width=200",
+              "Brasil",
+              "Colombia",
+              "club_logo",
+              "club_logo"
             ],
             [
               "Cuartos de final",
@@ -9514,7 +9529,7 @@
               "vs.",
               "Atlético Mineiro",
               "Estadio Urbano Caldeira , Santos",
-              "septiembre",
+              "9 de septiembre",
               "",
               "https://flagcdn.com/w80/br.png",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Clube_Atlético_Mineiro_logo.svg?width=200",
@@ -9529,7 +9544,7 @@
               "vs.",
               "Santos",
               "Arena MRV , Belo Horizonte",
-              "septiembre",
+              "16 de septiembre",
               "",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Clube_Atlético_Mineiro_logo.svg?width=200",
               "https://flagcdn.com/w80/br.png",
@@ -9544,7 +9559,7 @@
               "vs.",
               "Montevideo City Torque",
               "Estadio Inca Garcilaso de la Vega , Cusco",
-              "septiembre",
+              "9 de septiembre",
               "",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Escudo_Cienciano.png/250px-Escudo_Cienciano.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/City_Football_Group_Limited_%C2%AE.png/250px-City_Football_Group_Limited_%C2%AE.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -9559,7 +9574,7 @@
               "vs.",
               "Cienciano",
               "",
-              "septiembre",
+              "16 de septiembre",
               "",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/City_Football_Group_Limited_%C2%AE.png/250px-City_Football_Group_Limited_%C2%AE.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Escudo_Cienciano.png/250px-Escudo_Cienciano.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -9604,7 +9619,8 @@
             "Brasil",
             "Argentina",
             "Brasil",
-            "",
+            "Colombia",
+            "Brasil",
             "Brasil",
             "Brasil",
             "Perú",
@@ -9645,7 +9661,8 @@
             "La Paz",
             "Brasil",
             "Argentina",
-            "",
+            "Brasil",
+            "Colombia",
             "Brasil",
             "Brasil",
             "Uruguay",
@@ -9657,12 +9674,12 @@
       },
       "standings": {
         "kind": "standings",
-        "title": "Clasificados a cuartos de final (7/8)",
+        "title": "Clasificados a cuartos de final (8/8)",
         "source_id": "computed",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-26T22:48:09.189957Z",
+        "scraped_at": "2026-08-27T04:20:17.313493Z",
         "extra": {
           "rows": [
             [
@@ -9692,16 +9709,21 @@
             ],
             [
               "5",
+              "Santa Fe",
+              "Colombia"
+            ],
+            [
+              "6",
               "Montevideo City Torque",
               "Uruguay"
             ],
             [
-              "6",
+              "7",
               "Santos",
               "Brasil"
             ],
             [
-              "7",
+              "8",
               "São Paulo",
               "Brasil"
             ]
@@ -9712,6 +9734,7 @@
             "https://commons.wikimedia.org/wiki/Special:FilePath/Clube_Atlético_Mineiro_logo.svg?width=200",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Escudo_Cienciano.png/250px-Escudo_Cienciano.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Escudo_Vasco_1920.png/250px-Escudo_Vasco_1920.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_de_Independiente_Santa_Fe.svg?width=200",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/City_Football_Group_Limited_%C2%AE.png/250px-City_Football_Group_Limited_%C2%AE.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "https://flagcdn.com/w80/br.png",
             "https://commons.wikimedia.org/wiki/Special:FilePath/São_Paulo_Futebol_Clube_logo_(2022).svg?width=200"
@@ -9722,6 +9745,7 @@
             "Brasil",
             "Perú",
             "Brasil",
+            "Colombia",
             "Uruguay",
             "Brasil",
             "Brasil"
@@ -9733,12 +9757,13 @@
             "club_logo",
             "club_logo",
             "club_logo",
+            "club_logo",
             "country_flag",
             "club_logo"
           ],
-          "qualified_count": 7,
+          "qualified_count": 8,
           "expected_qualifiers": 8,
-          "remaining": 1,
+          "remaining": 0,
           "round": "Octavos de final",
           "next_round": "Cuartos de final",
           "series": [
@@ -9908,14 +9933,14 @@
                 "Santa Fe",
                 "River Plate"
               ],
-              "legs_played": 1,
+              "legs_played": 2,
               "legs_expected": 2,
-              "status": "in_progress",
-              "winner": "",
-              "qualified_for": "",
+              "status": "completed",
+              "winner": "Santa Fe",
+              "qualified_for": "Cuartos de final",
               "aggregate": {
-                "Santa Fe": 0,
-                "River Plate": 0
+                "Santa Fe": 1,
+                "River Plate": 1
               },
               "legs": [
                 {
@@ -9932,7 +9957,7 @@
                 {
                   "home": "River Plate",
                   "away": "Santa Fe",
-                  "result": "vs.",
+                  "result": "1:1 (0:0) (7:8 p. )",
                   "date": "26 de agosto, 21:30 ( UTC-3 ) [ n. 4 ]",
                   "stadium": "Estadio Monumental , Buenos Aires",
                   "home_logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Club_River_Plate_Asunción_logo.png?width=200",
@@ -10093,6 +10118,13 @@
               "badge_type": "club_logo"
             },
             {
+              "team": "Santa Fe",
+              "country": "Colombia",
+              "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_de_Independiente_Santa_Fe.svg?width=200",
+              "display_badge_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_de_Independiente_Santa_Fe.svg?width=200",
+              "badge_type": "club_logo"
+            },
+            {
               "team": "Montevideo City Torque",
               "country": "Uruguay",
               "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/City_Football_Group_Limited_%C2%AE.png/250px-City_Football_Group_Limited_%C2%AE.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -10129,7 +10161,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-26T22:48:08.555878Z",
+        "scraped_at": "2026-08-27T04:20:16.811319Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10206,7 +10238,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-26T22:48:08.570767Z",
+        "scraped_at": "2026-08-27T04:20:16.823368Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10262,12 +10294,12 @@
       },
       "knockout": {
         "kind": "standings",
-        "title": "Clasificados a cuartos de final (7/8)",
+        "title": "Clasificados a cuartos de final (8/8)",
         "source_id": "computed",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-26T22:48:09.189957Z",
+        "scraped_at": "2026-08-27T04:20:17.313493Z",
         "extra": {
           "rows": [
             [
@@ -10297,16 +10329,21 @@
             ],
             [
               "5",
+              "Santa Fe",
+              "Colombia"
+            ],
+            [
+              "6",
               "Montevideo City Torque",
               "Uruguay"
             ],
             [
-              "6",
+              "7",
               "Santos",
               "Brasil"
             ],
             [
-              "7",
+              "8",
               "São Paulo",
               "Brasil"
             ]
@@ -10317,6 +10354,7 @@
             "https://commons.wikimedia.org/wiki/Special:FilePath/Clube_Atlético_Mineiro_logo.svg?width=200",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Escudo_Cienciano.png/250px-Escudo_Cienciano.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Escudo_Vasco_1920.png/250px-Escudo_Vasco_1920.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_de_Independiente_Santa_Fe.svg?width=200",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/City_Football_Group_Limited_%C2%AE.png/250px-City_Football_Group_Limited_%C2%AE.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "https://flagcdn.com/w80/br.png",
             "https://commons.wikimedia.org/wiki/Special:FilePath/São_Paulo_Futebol_Clube_logo_(2022).svg?width=200"
@@ -10327,6 +10365,7 @@
             "Brasil",
             "Perú",
             "Brasil",
+            "Colombia",
             "Uruguay",
             "Brasil",
             "Brasil"
@@ -10338,12 +10377,13 @@
             "club_logo",
             "club_logo",
             "club_logo",
+            "club_logo",
             "country_flag",
             "club_logo"
           ],
-          "qualified_count": 7,
+          "qualified_count": 8,
           "expected_qualifiers": 8,
-          "remaining": 1,
+          "remaining": 0,
           "round": "Octavos de final",
           "next_round": "Cuartos de final",
           "series": [
@@ -10513,14 +10553,14 @@
                 "Santa Fe",
                 "River Plate"
               ],
-              "legs_played": 1,
+              "legs_played": 2,
               "legs_expected": 2,
-              "status": "in_progress",
-              "winner": "",
-              "qualified_for": "",
+              "status": "completed",
+              "winner": "Santa Fe",
+              "qualified_for": "Cuartos de final",
               "aggregate": {
-                "Santa Fe": 0,
-                "River Plate": 0
+                "Santa Fe": 1,
+                "River Plate": 1
               },
               "legs": [
                 {
@@ -10537,7 +10577,7 @@
                 {
                   "home": "River Plate",
                   "away": "Santa Fe",
-                  "result": "vs.",
+                  "result": "1:1 (0:0) (7:8 p. )",
                   "date": "26 de agosto, 21:30 ( UTC-3 ) [ n. 4 ]",
                   "stadium": "Estadio Monumental , Buenos Aires",
                   "home_logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Club_River_Plate_Asunción_logo.png?width=200",
@@ -10698,6 +10738,13 @@
               "badge_type": "club_logo"
             },
             {
+              "team": "Santa Fe",
+              "country": "Colombia",
+              "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_de_Independiente_Santa_Fe.svg?width=200",
+              "display_badge_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_de_Independiente_Santa_Fe.svg?width=200",
+              "badge_type": "club_logo"
+            },
+            {
               "team": "Montevideo City Torque",
               "country": "Uruguay",
               "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/City_Football_Group_Limited_%C2%AE.png/250px-City_Football_Group_Limited_%C2%AE.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -10730,7 +10777,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-26T22:48:07.940515Z",
+        "scraped_at": "2026-08-27T04:20:16.329918Z",
         "extra": {
           "rows": [
             [
@@ -11252,7 +11299,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-26T22:45:59.681420Z",
+        "scraped_at": "2026-08-27T04:18:16.573454Z",
         "source_id": "lostiempos_deportes",
         "source_name": "Los Tiempos - Deportes",
         "source_type": "media",
@@ -11264,32 +11311,32 @@
         "extra": {
           "rows": [
             [
-              "1 Yapacaní da 2 días al Gobierno para abrogar decreto del diésel Ver más",
-              "2 Morales evalúa hacer ajustes al decreto del ‘dieselazo’; pero descarta la abrogación Ver más"
+              "1 Represalia: Canadá contraataca a Estados Unidos con aranceles Ver más",
+              "2 Ingresos por importaciones crecen en un 21,8% Ver más"
             ],
             [
-              "3 Ministro de Hidrocarburos evita la censura de la ALP Ver más",
-              "4 Casi 400 personas desaparecidas tras inundaciones en Nepal Ver más"
+              "3 Gobierno dice que se permite protestar, pero no bloquear; Yapacaní da 48 horas Ver más",
+              "4 Paz niega cualquier vínculo de su Gobierno con Cerimedo Ver más"
             ],
             [
-              "5 Christian Morales es el nuevo ministro de Economía Ver más",
-              "6 Muere a los 80 años Tim Curry, actor icónico y estrella de \"Rocky Horror Picture Show\" Ver más"
+              "5 Beller dice que llevará pruebas contra Cerimedo por enriquecimiento ilícito Ver más",
+              "6 8 de cada 10 adultos mayores “sobreviven con la Renta Dignidad” Ver más"
             ],
             [
-              "7 Viceministerio de Educación Regular tiene nueva titular Ver más",
-              "8 Paz instruye una \"investigación minuciosa\" en el caso Cerimedo Ver más"
+              "7 Pese a plan de seguridad, matan a cuatro personas en Tarija, Beni y Santa Cruz Ver más",
+              "8 La ALP no censuró al Ministro de Gobierno Ver más"
             ],
             [
-              "9 Evistas tratan de reactivar trámite para su partido Ver más",
-              "10 Alcaldía derruye más de 60 edificaciones ilegales en Sacaba Ver más"
+              "9 Cocapata clama por ayuda: nevada afectó a familias y a 15.000 llamas Ver más",
+              "10 Se suspendió declaración de Beller por motivos de “fuerza mayor” Ver más"
             ]
           ],
           "logos": [
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/25/yapa_ca_ni_ry.jpg?itok=7qSy5Bd5",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/25/inter_blanc_erbol.jpg?itok=_YQJvZck",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/25/christian_urgente.jpg?itok=WnE5KRVU",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/25/vicemin_edu_regular.jpg?itok=ZcDpQviI",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/25/uevo_pueblo.jpg?itok=51A63l6x"
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/26/2_mu_1_office_of_the_prime_minister.jpg?itok=hvTXumkw",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/26/3_p_1_el_deberrrrrrr.jpg?itok=V3IaoliQ",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/26/4_p_1_dtv.jpg?itok=FyXZZGNl",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/26/5_p_1_red_digital.jpg?itok=DQ_1CU0D",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/26/6_me_1_rochaaaaa.jpg?itok=r33Lnd50"
           ],
           "strong_standings": false,
           "row_groups": null,

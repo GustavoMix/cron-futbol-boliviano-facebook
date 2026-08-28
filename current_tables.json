@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-08-27T16:10:29.480184Z",
+  "generated_at": "2026-08-28T01:19:39.343431Z",
   "policy": "datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback",
   "assets_policy": "club_logo > country_flag > none",
   "team_assets": {
@@ -546,7 +546,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-08-27T16:10:23.834307Z",
+        "scraped_at": "2026-08-28T01:19:33.856292Z",
         "extra": {
           "header": [
             "Fecha",
@@ -2562,7 +2562,7 @@
             [
               "Fecha 17",
               "Always Ready",
-              "–",
+              "2 – 2",
               "Aurora",
               "Municipal de El Alto",
               "27 de agosto",
@@ -4664,7 +4664,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-27T16:10:23.501673Z",
+        "scraped_at": "2026-08-28T01:19:33.499417Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -4691,13 +4691,13 @@
             [
               "1",
               "Always Ready",
-              "35",
-              "16",
+              "36",
+              "17",
               "10",
-              "5",
+              "6",
               "1",
-              "33",
-              "10",
+              "35",
+              "12",
               "+23",
               "Fase de grupos de Copa Libertadores"
             ],
@@ -4768,6 +4768,19 @@
             ],
             [
               "7",
+              "Aurora",
+              "24",
+              "17",
+              "5",
+              "9",
+              "3",
+              "25",
+              "24",
+              "+1",
+              ""
+            ],
+            [
+              "8",
               "Blooming",
               "23",
               "17",
@@ -4777,19 +4790,6 @@
               "22",
               "18",
               "+4",
-              ""
-            ],
-            [
-              "8",
-              "Aurora",
-              "23",
-              "16",
-              "5",
-              "8",
-              "3",
-              "23",
-              "22",
-              "+1",
               ""
             ],
             [
@@ -4905,8 +4905,8 @@
             "",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-4-400x400.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-2-400x400.png",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-4-400x400.png",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Escudo_Club_Independiente_Petrolero.png/250px-Escudo_Club_Independiente_Petrolero.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-9-400x400.png",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200",
@@ -4929,8 +4929,8 @@
             "Santa Cruz",
             "Potos",
             "Santa Cruz",
-            "Santa Cruz",
             "Cochabamba",
+            "Santa Cruz",
             "Chuquisaca",
             "Potos",
             "Bolivia",
@@ -4974,7 +4974,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-27T16:10:23.874568Z",
+        "scraped_at": "2026-08-28T01:19:33.899474Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5073,7 +5073,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-27T16:10:23.884157Z",
+        "scraped_at": "2026-08-28T01:19:33.909787Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5150,7 +5150,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-27T16:10:23.904792Z",
+        "scraped_at": "2026-08-28T01:19:33.931689Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5365,7 +5365,7 @@
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-08-27T16:10:24.340860Z",
+        "scraped_at": "2026-08-28T01:19:34.458455Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6551,7 +6551,7 @@
         "source_name": "Series — Serie A + Series — Serie B + Series — Serie C + Series — Serie D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-08-27T16:10:24.264305Z",
+        "scraped_at": "2026-08-28T01:19:34.381900Z",
         "extra": {
           "rows": [
             [
@@ -6863,7 +6863,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-27T16:10:26.294053Z",
+        "scraped_at": "2026-08-28T01:19:36.434064Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7127,7 +7127,7 @@
               "vs.",
               "Corinthians",
               "Estadio Jorge Luis Hirschi , La Plata",
-              "septiembre",
+              "9 de septiembre, 21:30 ( UTC-3 )",
               "",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Estudiantes_de_la_Plata_crest_(2025).svg?width=200",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Corinthians23022007_(cropped).jpg?width=200",
@@ -7142,7 +7142,7 @@
               "vs.",
               "Estudiantes (LP)",
               "Neo Química Arena , São Paulo",
-              "septiembre",
+              "16 de septiembre, 21:30 ( UTC-3 )",
               "",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Corinthians23022007_(cropped).jpg?width=200",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Estudiantes_de_la_Plata_crest_(2025).svg?width=200",
@@ -7157,7 +7157,7 @@
               "vs.",
               "Flamengo",
               "Estadio Banco Guayaquil , Quito",
-              "septiembre",
+              "10 de septiembre, 19:30 ( UTC-5 )",
               "",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Escudoindependientedelvalle2023.png?width=200",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Clube_de_Regatas_do_Flamengo_logo.svg/250px-Clube_de_Regatas_do_Flamengo_logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -7172,7 +7172,7 @@
               "vs.",
               "Independiente del Valle",
               "Estadio Maracaná , Río de Janeiro",
-              "septiembre",
+              "17 de septiembre, 21:30 ( UTC-3 )",
               "",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Clube_de_Regatas_do_Flamengo_logo.svg/250px-Clube_de_Regatas_do_Flamengo_logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Escudoindependientedelvalle2023.png?width=200",
@@ -7187,7 +7187,7 @@
               "vs.",
               "Liga de Quito",
               "Allianz Parque , São Paulo",
-              "septiembre",
+              "9 de septiembre, 19:00 ( UTC-3 )",
               "",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Palmeiras_logo.svg?width=200",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Liga_Deportiva_Universitaria_de_Quito.png?width=200",
@@ -7202,7 +7202,7 @@
               "vs.",
               "Palmeiras",
               "Estadio Rodrigo Paz Delgado , Quito",
-              "septiembre",
+              "16 de septiembre, 17:00 ( UTC-5 )",
               "",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Liga_Deportiva_Universitaria_de_Quito.png?width=200",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Palmeiras_logo.svg?width=200",
@@ -7217,7 +7217,7 @@
               "vs.",
               "Platense",
               "Estadio Maracaná , Río de Janeiro",
-              "septiembre",
+              "8 de septiembre, 19:00 ( UTC-3 )",
               "",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Fluminense_logo.gif?width=200",
               "https://flagcdn.com/w80/ar.png",
@@ -7232,7 +7232,7 @@
               "vs.",
               "Fluminense",
               "Estadio Ciudad de Vicente López , Florida",
-              "septiembre",
+              "15 de septiembre, 19:00 ( UTC-3 )",
               "",
               "https://flagcdn.com/w80/ar.png",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Fluminense_logo.gif?width=200",
@@ -7305,7 +7305,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-27T16:10:26.294053Z",
+        "scraped_at": "2026-08-28T01:19:36.434064Z",
         "extra": {
           "rows": [
             [
@@ -7787,7 +7787,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-27T16:10:25.917316Z",
+        "scraped_at": "2026-08-28T01:19:36.051642Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7849,13 +7849,13 @@
           ],
           "logos": [
             "",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/20px-Flag_of_Paraguay.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/20px-Flag_of_Paraguay.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/20px-Flag_of_Paraguay.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/20px-Flag_of_Brazil.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/20px-Flag_of_Brazil.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/20px-Flag_of_Paraguay.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/20px-Flag_of_Paraguay.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/20px-Flag_of_Paraguay.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/20px-Flag_of_Brazil.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/20px-Flag_of_Brazil.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
           ],
           "strong_standings": false,
           "row_groups": null,
@@ -7878,7 +7878,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-27T16:10:25.931767Z",
+        "scraped_at": "2026-08-28T01:19:36.067239Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7942,15 +7942,15 @@
           ],
           "logos": [
             "",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/20px-Flag_of_Colombia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/20px-Flag_of_Brazil.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/20px-Flag_of_Ecuador.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/20px-Flag_of_Brazil.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/20px-Flag_of_Colombia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/20px-Flag_of_Brazil.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/20px-Flag_of_Ecuador.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/20px-Flag_of_Brazil.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
           ],
           "strong_standings": false,
           "row_groups": null,
@@ -7969,7 +7969,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-27T16:10:26.294053Z",
+        "scraped_at": "2026-08-28T01:19:36.434064Z",
         "extra": {
           "rows": [
             [
@@ -8447,7 +8447,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-27T16:10:25.567641Z",
+        "scraped_at": "2026-08-28T01:19:35.690536Z",
         "extra": {
           "rows": [
             [
@@ -8965,7 +8965,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-27T16:10:29.095639Z",
+        "scraped_at": "2026-08-28T01:19:38.924673Z",
         "extra": {
           "header": [
             "Fecha",
@@ -9469,7 +9469,7 @@
               "vs.",
               "São Paulo",
               "Estadio La Bombonera , Buenos Aires",
-              "9 de septiembre",
+              "8 de septiembre, 21:30 ( UTC-3 )",
               "",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Boca_Juniors_logo18.svg?width=200",
               "https://commons.wikimedia.org/wiki/Special:FilePath/São_Paulo_Futebol_Clube_logo_(2022).svg?width=200",
@@ -9484,7 +9484,7 @@
               "vs.",
               "Boca Juniors",
               "Estadio Morumbi , São Paulo",
-              "16 de septiembre",
+              "15 de septiembre, 21:30 ( UTC-3 )",
               "",
               "https://commons.wikimedia.org/wiki/Special:FilePath/São_Paulo_Futebol_Clube_logo_(2022).svg?width=200",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Boca_Juniors_logo18.svg?width=200",
@@ -9499,7 +9499,7 @@
               "vs.",
               "Vasco da Gama",
               "Estadio El Campín , Bogotá",
-              "septiembre",
+              "8 de septiembre, 17:00 ( UTC-5 )",
               "",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_de_Independiente_Santa_Fe.svg?width=200",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Escudo_Vasco_1920.png/250px-Escudo_Vasco_1920.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -9514,7 +9514,7 @@
               "vs.",
               "Santa Fe",
               "Estadio São Januário , Río de Janeiro",
-              "septiembre",
+              "15 de septiembre, 19:00 ( UTC-3 )",
               "",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Escudo_Vasco_1920.png/250px-Escudo_Vasco_1920.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_de_Independiente_Santa_Fe.svg?width=200",
@@ -9529,7 +9529,7 @@
               "vs.",
               "Atlético Mineiro",
               "Estadio Urbano Caldeira , Santos",
-              "9 de septiembre",
+              "9 de septiembre, 21:30 ( UTC-3 )",
               "",
               "https://flagcdn.com/w80/br.png",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Clube_Atlético_Mineiro_logo.svg?width=200",
@@ -9544,7 +9544,7 @@
               "vs.",
               "Santos",
               "Arena MRV , Belo Horizonte",
-              "16 de septiembre",
+              "16 de septiembre, 21:30 ( UTC-3 )",
               "",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Clube_Atlético_Mineiro_logo.svg?width=200",
               "https://flagcdn.com/w80/br.png",
@@ -9559,7 +9559,7 @@
               "vs.",
               "Montevideo City Torque",
               "Estadio Inca Garcilaso de la Vega , Cusco",
-              "9 de septiembre",
+              "10 de septiembre, 19:30 ( UTC-5 )",
               "",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Escudo_Cienciano.png/250px-Escudo_Cienciano.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/City_Football_Group_Limited_%C2%AE.png/250px-City_Football_Group_Limited_%C2%AE.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -9573,8 +9573,8 @@
               "Montevideo City Torque",
               "vs.",
               "Cienciano",
-              "",
-              "16 de septiembre",
+              "Estadio Centenario , Montevideo",
+              "17 de septiembre, 21:30 ( UTC-3 )",
               "",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/City_Football_Group_Limited_%C2%AE.png/250px-City_Football_Group_Limited_%C2%AE.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Escudo_Cienciano.png/250px-Escudo_Cienciano.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -9679,7 +9679,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-27T16:10:29.095639Z",
+        "scraped_at": "2026-08-28T01:19:38.924673Z",
         "extra": {
           "rows": [
             [
@@ -10161,7 +10161,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-27T16:10:28.446548Z",
+        "scraped_at": "2026-08-28T01:19:38.270036Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10238,7 +10238,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-27T16:10:28.461183Z",
+        "scraped_at": "2026-08-28T01:19:38.285464Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10299,7 +10299,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-27T16:10:29.095639Z",
+        "scraped_at": "2026-08-28T01:19:38.924673Z",
         "extra": {
           "rows": [
             [
@@ -10777,7 +10777,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-27T16:10:27.841683Z",
+        "scraped_at": "2026-08-28T01:19:37.621838Z",
         "extra": {
           "rows": [
             [
@@ -11299,7 +11299,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-27T16:07:57.230674Z",
+        "scraped_at": "2026-08-28T01:17:31.969139Z",
         "source_id": "lostiempos_deportes",
         "source_name": "Los Tiempos - Deportes",
         "source_type": "media",
@@ -11311,32 +11311,32 @@
         "extra": {
           "rows": [
             [
-              "1 Casi 400 personas desaparecidas tras inundaciones en Nepal Ver más",
-              "2 Presidente de Cainco alerta que dos precios para el diésel incentivan el mercado negro Ver más"
+              "1 Ingresos por importaciones crecen en un 21,8% Ver más",
+              "2 Aviso Prodem Ver más"
             ],
             [
-              "3 Muere a los 80 años Tim Curry, actor icónico y estrella de \"Rocky Horror Picture Show\" Ver más",
-              "4 Empresarios argentinos revelan “negociados” en el fútbol por patronicios y televisación Ver más"
+              "3 Paz niega cualquier vínculo de su Gobierno con Cerimedo Ver más",
+              "4 Concejales de Quillacollo sospechan de una adulteración del POA 2027 Ver más"
             ],
             [
-              "5 Paz instruye una \"investigación minuciosa\" en el caso Cerimedo Ver más",
-              "6 Últimos días de Dolly Parton en medio de una silenciosa batalla contra el cáncer Ver más"
+              "5 8 de cada 10 adultos mayores “sobreviven con la Renta Dignidad” Ver más",
+              "6 El Senado aprueba el Proyecto de Ley de Acceso a la Información y lo remite a Diputados Ver más"
             ],
             [
-              "7 Alcaldía derruye más de 60 edificaciones ilegales en Sacaba Ver más",
-              "8 En Bolivia el eclipse parcial de Luna será visible desde las 22:33 de hoy Ver más"
+              "7 La ALP no censuró al Ministro de Gobierno Ver más",
+              "8 Cerimedo desde la cárcel: “Mi rol como colaborador del presidente no me otorgó ningún poder” Ver más"
             ],
             [
-              "9 Oviedo denuncia falta de cooperación chilena en caso ‘narcomaderas’ Ver más",
-              "10 Estudiantes de la Unibol desafían el estado de excepción y bloquean la ruta Cochabamba - Santa Cru Ver más"
+              "9 Se suspendió declaración de Beller por motivos de “fuerza mayor” Ver más",
+              "10 Beller expone fotos de Cerimedo junto a Paz en el \"Escudo de las Américas\" y en Casa Grande Ver más"
             ]
           ],
           "logos": [
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/26/china_nepal_ed_ok.jpg?itok=uIfYN69t",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/26/tim.jpg?itok=0SpH2Gv_",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/26/pazzz.jpg?itok=65I9kkb_",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/26/demolicion.jpg?itok=LWAlmTRr",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/26/narco_maderas.jpg?itok=qW2w4nLb"
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/26/logo_aduana.jpg?itok=ULbNoH8W",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/26/presi_mens_27-8-26_oprp.jpg?itok=PD-aGJiE",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/26/gober_adultos_mayores.jpg?itok=_NEiy0Dh",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/26/oviedo_sin_censura.jpg?itok=q-ZgBzKW",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/26/la_paciente.jpg?itok=31Cnutxq"
           ],
           "strong_standings": false,
           "row_groups": null,

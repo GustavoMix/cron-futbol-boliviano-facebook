@@ -401,6 +401,126 @@ web_sources:
   source_type: encyclopedia
   authority: 0.92
   footballbox_matches: true
+
+# ===== Fuentes internacionales adicionales (torneos + medios, agregadas
+# 2026-08-27, SIN VERIFICAR todavía contra el scraper - revisar en la
+# próxima corrida y desactivar (enabled: false) las que no traigan
+# resultados útiles) =====
+- id: uefa_champions_league
+  enabled: true
+  name: UEFA Champions League
+  url: https://www.uefa.com/uefachampionsleague/
+  scope: internacional
+  competition: champions_league
+  source_type: confederation
+  authority: 1.0
+  news_link_fallback: true
+- id: uefa_europa_league
+  enabled: true
+  name: UEFA Europa League
+  url: https://www.uefa.com/uefaeuropaleague/
+  scope: internacional
+  competition: europa_league
+  source_type: confederation
+  authority: 1.0
+  news_link_fallback: true
+- id: uefa_nations_league
+  enabled: true
+  name: UEFA Nations League / Eurocopa
+  url: https://www.uefa.com/uefanationsleague/
+  scope: internacional
+  competition: uefa_nations_league
+  source_type: confederation
+  authority: 1.0
+  news_link_fallback: true
+- id: conmebol_copa_america
+  enabled: true
+  name: CONMEBOL Copa América
+  url: https://www.conmebol.com/copa-america/
+  scope: conmebol
+  competition: copa_america
+  source_type: confederation
+  authority: 1.0
+  news_link_fallback: true
+- id: conmebol_eliminatorias
+  enabled: true
+  name: CONMEBOL Eliminatorias
+  url: https://www.conmebol.com/eliminatorias/
+  scope: conmebol
+  competition: eliminatorias_conmebol
+  source_type: confederation
+  authority: 1.0
+  news_link_fallback: true
+- id: fifa_mundial_clubes
+  enabled: true
+  name: FIFA Mundial de Clubes
+  url: https://www.fifa.com/en/tournaments/mens/clubworldcup
+  scope: internacional
+  competition: mundial_clubes
+  source_type: federation
+  authority: 1.0
+  news_link_fallback: true
+- id: espn_futbol
+  enabled: true
+  name: ESPN - Fútbol
+  url: https://www.espn.com.bo/futbol/
+  scope: internacional
+  competition: general
+  source_type: media
+  authority: 0.85
+  news_link_fallback: true
+  news_detail_limit: 16
+- id: marca_futbol
+  enabled: true
+  name: Marca - Fútbol
+  url: https://www.marca.com/futbol.html
+  scope: internacional
+  competition: general
+  source_type: media
+  authority: 0.85
+  news_link_fallback: true
+  news_detail_limit: 16
+- id: as_futbol
+  enabled: true
+  name: AS.com - Fútbol
+  url: https://as.com/futbol/
+  scope: internacional
+  competition: general
+  source_type: media
+  authority: 0.85
+  news_link_fallback: true
+  news_detail_limit: 16
+- id: ole_futbol_internacional
+  enabled: true
+  name: Olé - Fútbol Internacional
+  url: https://www.ole.com.ar/futbol-internacional/
+  scope: internacional
+  competition: general
+  source_type: media
+  authority: 0.85
+  news_link_fallback: true
+  news_detail_limit: 16
+- id: goal_espanol
+  enabled: true
+  name: Goal.com (español)
+  url: https://www.goal.com/es
+  scope: internacional
+  competition: general
+  source_type: media
+  authority: 0.82
+  news_link_fallback: true
+  news_detail_limit: 16
+- id: foxsports_latam
+  enabled: true
+  name: Fox Sports Latinoamérica
+  url: https://www.foxsportsla.com/futbol
+  scope: internacional
+  competition: general
+  source_type: media
+  authority: 0.82
+  news_link_fallback: true
+  news_detail_limit: 16
+
 facebook:
   enabled: false  # Desactivado: ya no se scrapea Facebook (fuente inestable/muro de login).
   page_queries:

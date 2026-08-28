@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-08-28T01:19:39.343431Z",
+  "generated_at": "2026-08-28T13:55:33.961089Z",
   "policy": "datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback",
   "assets_policy": "club_logo > country_flag > none",
   "team_assets": {
@@ -546,7 +546,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-08-28T01:19:33.856292Z",
+        "scraped_at": "2026-08-28T13:53:41.887095Z",
         "extra": {
           "header": [
             "Fecha",
@@ -2577,7 +2577,7 @@
             [
               "Fecha 17",
               "Independiente Petrolero",
-              "–",
+              "3 – 1",
               "Guabirá",
               "Olímpico Patria",
               "27 de agosto",
@@ -2592,7 +2592,7 @@
             [
               "Fecha 17",
               "Bolívar",
-              "–",
+              "4 – 1",
               "ABB",
               "Hernando Siles",
               "27 de agosto",
@@ -4664,7 +4664,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-28T01:19:33.499417Z",
+        "scraped_at": "2026-08-28T13:53:41.607252Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -4690,6 +4690,19 @@
             ],
             [
               "1",
+              "Bolívar",
+              "36",
+              "17",
+              "11",
+              "3",
+              "3",
+              "44",
+              "19",
+              "+25",
+              "Fase de grupos de Copa Libertadores"
+            ],
+            [
+              "2",
               "Always Ready",
               "36",
               "17",
@@ -4699,19 +4712,6 @@
               "35",
               "12",
               "+23",
-              "Fase de grupos de Copa Libertadores"
-            ],
-            [
-              "2",
-              "Bolívar",
-              "33",
-              "16",
-              "10",
-              "3",
-              "3",
-              "40",
-              "18",
-              "+22",
               "Fase de grupos de Copa Libertadores"
             ],
             [
@@ -4755,19 +4755,32 @@
             ],
             [
               "6",
-              "Guabirá",
+              "Independiente Petrolero",
               "25",
-              "16",
+              "17",
               "7",
               "4",
-              "5",
-              "27",
-              "28",
-              "− 1",
+              "6",
+              "25",
+              "25",
+              "0",
               "Primera fase de Copa Sudamericana"
             ],
             [
               "7",
+              "Guabirá",
+              "25",
+              "17",
+              "7",
+              "4",
+              "6",
+              "28",
+              "31",
+              "− 3",
+              ""
+            ],
+            [
+              "8",
               "Aurora",
               "24",
               "17",
@@ -4780,7 +4793,7 @@
               ""
             ],
             [
-              "8",
+              "9",
               "Blooming",
               "23",
               "17",
@@ -4790,19 +4803,6 @@
               "22",
               "18",
               "+4",
-              ""
-            ],
-            [
-              "9",
-              "Independiente Petrolero",
-              "22",
-              "16",
-              "6",
-              "4",
-              "6",
-              "22",
-              "24",
-              "− 2",
               ""
             ],
             [
@@ -4835,13 +4835,13 @@
               "12",
               "ABB",
               "17",
-              "16",
+              "17",
               "5",
               "2",
-              "9",
-              "26",
-              "33",
-              "− 7",
+              "10",
+              "27",
+              "37",
+              "− 10",
               ""
             ],
             [
@@ -4899,15 +4899,15 @@
           ],
           "logos": [
             "",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-1-400x400.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-3-400x400.png",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-1-400x400.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-11-400x400.png",
             "",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Escudo_Club_Independiente_Petrolero.png/250px-Escudo_Club_Independiente_Petrolero.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-2-400x400.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-4-400x400.png",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Escudo_Club_Independiente_Petrolero.png/250px-Escudo_Club_Independiente_Petrolero.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-9-400x400.png",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200",
             "",
@@ -4923,15 +4923,15 @@
           "selection_reason": "única tabla de posiciones detectada para esta competición",
           "countries": [
             "",
-            "Bolivia",
             "La Paz",
+            "Bolivia",
             "La Paz",
             "Santa Cruz",
             "Potos",
+            "Chuquisaca",
             "Santa Cruz",
             "Cochabamba",
             "Santa Cruz",
-            "Chuquisaca",
             "Potos",
             "Bolivia",
             "La Paz",
@@ -4947,8 +4947,8 @@
             "club_logo",
             "none",
             "club_logo",
-            "none",
             "club_logo",
+            "none",
             "club_logo",
             "club_logo",
             "club_logo",
@@ -4974,7 +4974,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-28T01:19:33.899474Z",
+        "scraped_at": "2026-08-28T13:53:41.921179Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5073,7 +5073,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-28T01:19:33.909787Z",
+        "scraped_at": "2026-08-28T13:53:41.929407Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5150,7 +5150,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-28T01:19:33.931689Z",
+        "scraped_at": "2026-08-28T13:53:41.947321Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5328,6 +5328,30 @@
               "",
               "GV San José",
               "Jornada 16"
+            ],
+            [
+              "14",
+              "27/08/2026",
+              "Carlos Áñez",
+              "1 - 1, 39'",
+              "Independiente Petrolero",
+              "",
+              "3 – 1",
+              "",
+              "Guabirá",
+              "Jornada 17"
+            ],
+            [
+              "15",
+              "27/08/2026",
+              "Enrique Flores",
+              "3 - 1, 69'",
+              "Independiente Petrolero",
+              "",
+              "3 – 1",
+              "",
+              "Guabirá",
+              "Jornada 17"
             ]
           ],
           "logos": [
@@ -5344,12 +5368,14 @@
             "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
             "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/20px-Flag_of_Paraguay.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
             "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/20px-Flag_of_Germany.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
             "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
           ],
           "strong_standings": false,
           "row_groups": null,
           "related_sources": [],
-          "selection_score": 1.006,
+          "selection_score": 1.014,
           "selected_as_current": true,
           "selection_reason": "prioriza fuente oficial/autoridad + tipo de tabla + cantidad de filas"
         },
@@ -5365,7 +5391,7 @@
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-08-28T01:19:34.458455Z",
+        "scraped_at": "2026-08-28T13:53:42.244511Z",
         "extra": {
           "header": [
             "Fecha",
@@ -5501,8 +5527,8 @@
               "–",
               "Real Tomayapo",
               "Víctor Agustín Ugarte",
-              "Suspendido [ n. 1 ]",
-              "Suspendido [ n. 1 ]",
+              "3 de septiembre [ n. 1 ]",
+              "19:00",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-9-400x400.png",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-6-400x400.png",
               "Potos",
@@ -5523,22 +5549,6 @@
               "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200",
               "Bolivia",
               "Bolivia",
-              "club_logo",
-              "club_logo",
-              ""
-            ],
-            [
-              "Fecha 2",
-              "Nacional Potosí",
-              "–",
-              "Real Potosí",
-              "Víctor Agustín Ugarte",
-              "29 de agosto",
-              "17:15",
-              "https://fbf.com.bo/wp-content/uploads/2025/12/1-9-400x400.png",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-              "Potos",
-              "Potos",
               "club_logo",
               "club_logo",
               ""
@@ -5635,6 +5645,22 @@
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-2-400x400.png",
               "Cochabamba",
               "Cochabamba",
+              "club_logo",
+              "club_logo",
+              ""
+            ],
+            [
+              "Fecha 2",
+              "Nacional Potosí",
+              "–",
+              "Real Potosí",
+              "Víctor Agustín Ugarte",
+              "22 de septiembre",
+              "19:00",
+              "https://fbf.com.bo/wp-content/uploads/2025/12/1-9-400x400.png",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "Potos",
+              "Potos",
               "club_logo",
               "club_logo",
               ""
@@ -6418,13 +6444,13 @@
             "Bolivia",
             "Potos",
             "Bolivia",
-            "Potos",
             "La Paz",
             "La Paz",
             "Santa Cruz",
             "Bolivia",
             "Tarija",
             "Cochabamba",
+            "Potos",
             "La Paz",
             "Cochabamba",
             "Santa Cruz",
@@ -6484,13 +6510,13 @@
             "La Paz",
             "Tarija",
             "Bolivia",
-            "Potos",
             "Bolivia",
             "La Paz",
             "Santa Cruz",
             "Santa Cruz",
             "Chuquisaca",
             "Cochabamba",
+            "Potos",
             "Bolivia",
             "Potos",
             "Santa Cruz",
@@ -6551,7 +6577,7 @@
         "source_name": "Series — Serie A + Series — Serie B + Series — Serie C + Series — Serie D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-08-28T01:19:34.381900Z",
+        "scraped_at": "2026-08-28T13:53:42.183819Z",
         "extra": {
           "rows": [
             [
@@ -6863,7 +6889,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-28T01:19:36.434064Z",
+        "scraped_at": "2026-08-28T13:53:43.810064Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7305,7 +7331,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-28T01:19:36.434064Z",
+        "scraped_at": "2026-08-28T13:53:43.810064Z",
         "extra": {
           "rows": [
             [
@@ -7787,7 +7813,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-28T01:19:36.051642Z",
+        "scraped_at": "2026-08-28T13:53:43.516012Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7878,7 +7904,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-28T01:19:36.067239Z",
+        "scraped_at": "2026-08-28T13:53:43.527767Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7969,7 +7995,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-28T01:19:36.434064Z",
+        "scraped_at": "2026-08-28T13:53:43.810064Z",
         "extra": {
           "rows": [
             [
@@ -8447,7 +8473,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-28T01:19:35.690536Z",
+        "scraped_at": "2026-08-28T13:53:43.241235Z",
         "extra": {
           "rows": [
             [
@@ -8965,7 +8991,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-28T01:19:38.924673Z",
+        "scraped_at": "2026-08-28T13:53:45.723632Z",
         "extra": {
           "header": [
             "Fecha",
@@ -9679,7 +9705,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-28T01:19:38.924673Z",
+        "scraped_at": "2026-08-28T13:53:45.723632Z",
         "extra": {
           "rows": [
             [
@@ -10161,7 +10187,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-28T01:19:38.270036Z",
+        "scraped_at": "2026-08-28T13:53:45.214376Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10238,7 +10264,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-28T01:19:38.285464Z",
+        "scraped_at": "2026-08-28T13:53:45.226217Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10299,7 +10325,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-28T01:19:38.924673Z",
+        "scraped_at": "2026-08-28T13:53:45.723632Z",
         "extra": {
           "rows": [
             [
@@ -10777,7 +10803,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-28T01:19:37.621838Z",
+        "scraped_at": "2026-08-28T13:53:44.723177Z",
         "extra": {
           "rows": [
             [
@@ -11299,7 +11325,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-28T01:17:31.969139Z",
+        "scraped_at": "2026-08-28T13:51:04.191928Z",
         "source_id": "lostiempos_deportes",
         "source_name": "Los Tiempos - Deportes",
         "source_type": "media",
@@ -11311,32 +11337,32 @@
         "extra": {
           "rows": [
             [
-              "1 Ingresos por importaciones crecen en un 21,8% Ver más",
-              "2 Aviso Prodem Ver más"
+              "1 Sube a 392 la cifra de muertos por catástrofe en Nepal-Tíbet Ver más",
+              "2 Riada: al menos 160 muertos y cientos de desaparecidos en Nepal Ver más"
             ],
             [
-              "3 Paz niega cualquier vínculo de su Gobierno con Cerimedo Ver más",
-              "4 Concejales de Quillacollo sospechan de una adulteración del POA 2027 Ver más"
+              "3 Agropecuarios dan hasta el lunes para abrogar el DS 5676 Ver más",
+              "4 Ante rechazo a “dieselazo”, Gobierno ratifica que no abrogará el D.S. 5676 Ver más"
             ],
             [
-              "5 8 de cada 10 adultos mayores “sobreviven con la Renta Dignidad” Ver más",
-              "6 El Senado aprueba el Proyecto de Ley de Acceso a la Información y lo remite a Diputados Ver más"
+              "5 Gobernación de Cochabamba lleva ayuda las comunidades afectadas por la nevada en Cocapata Ver más",
+              "6 Rastreo de datos revela “billetera fría” de Cerimedo con $us 200 millones Ver más"
             ],
             [
-              "7 La ALP no censuró al Ministro de Gobierno Ver más",
-              "8 Cerimedo desde la cárcel: “Mi rol como colaborador del presidente no me otorgó ningún poder” Ver más"
+              "7 Diésel: su encarecimiento es un “condicionamiento” del FMI Ver más",
+              "8 Luego de 9 días de silencio, Paz dice que Cerimedo “no representaba a su Gobierno” Ver más"
             ],
             [
-              "9 Se suspendió declaración de Beller por motivos de “fuerza mayor” Ver más",
-              "10 Beller expone fotos de Cerimedo junto a Paz en el \"Escudo de las Américas\" y en Casa Grande Ver más"
+              "9 “El decreto 5676 se puede mejorar”, sostiene el presidente Ver más",
+              "10 Alcaldía destruye más de 60 edificaciones ilegales en zona Sinaí, en Sacaba Ver más"
             ]
           ],
           "logos": [
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/26/logo_aduana.jpg?itok=ULbNoH8W",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/26/presi_mens_27-8-26_oprp.jpg?itok=PD-aGJiE",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/26/gober_adultos_mayores.jpg?itok=_NEiy0Dh",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/26/oviedo_sin_censura.jpg?itok=q-ZgBzKW",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/26/la_paciente.jpg?itok=31Cnutxq"
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/27/lodo_nepal_dpa.jpg?itok=IksKTCPS",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/27/agros.jpg?itok=DsrKJWP2",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/27/llamas_ayuda_dj_ed_va.jpg?itok=hrcYssDl",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/27/alcal-paz_correo.jpg?itok=vOEM4geJ",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/27/rpp_jueves_27-8-26_oprp.jpg?itok=vvlsk9lu"
           ],
           "strong_standings": false,
           "row_groups": null,

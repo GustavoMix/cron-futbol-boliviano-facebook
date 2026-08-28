@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-08-28T01:19:51.846973Z",
+  "generated_at": "2026-08-28T13:55:45.345812Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,13 +9,13 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 322
+      "items": 260
     },
     "conmebol.json": {
       "items": 88
     },
     "internacional.json": {
-      "items": 0
+      "items": 164
     },
     "social.json": {
       "items": 0
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 135
+      "items": 125
     },
     "current_tables.json": {
       "items": 0
@@ -187,14 +187,14 @@
     {
       "id": "larazon_futbol_boliviano",
       "name": "La Razón - Fútbol Profesional Boliviano",
-      "ok": true,
-      "items": 69
+      "ok": false,
+      "items": 0
     },
     {
       "id": "vision360_futbol_boliviano",
       "name": "Visión 360 - Fútbol Boliviano",
       "ok": true,
-      "items": 39
+      "items": 40
     },
     {
       "id": "oxigeno_deportes",
@@ -251,6 +251,78 @@
       "items": 78
     },
     {
+      "id": "uefa_champions_league",
+      "name": "UEFA Champions League",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "id": "uefa_europa_league",
+      "name": "UEFA Europa League",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "id": "uefa_nations_league",
+      "name": "UEFA Nations League / Eurocopa",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "id": "conmebol_copa_america",
+      "name": "CONMEBOL Copa América",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "id": "conmebol_eliminatorias",
+      "name": "CONMEBOL Eliminatorias",
+      "ok": false,
+      "items": 0
+    },
+    {
+      "id": "fifa_mundial_clubes",
+      "name": "FIFA Mundial de Clubes",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "id": "espn_futbol",
+      "name": "ESPN - Fútbol",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "id": "marca_futbol",
+      "name": "Marca - Fútbol",
+      "ok": true,
+      "items": 70
+    },
+    {
+      "id": "as_futbol",
+      "name": "AS.com - Fútbol",
+      "ok": true,
+      "items": 52
+    },
+    {
+      "id": "ole_futbol_internacional",
+      "name": "Olé - Fútbol Internacional",
+      "ok": true,
+      "items": 21
+    },
+    {
+      "id": "goal_espanol",
+      "name": "Goal.com (español)",
+      "ok": true,
+      "items": 39
+    },
+    {
+      "id": "foxsports_latam",
+      "name": "Fox Sports Latinoamérica",
+      "ok": false,
+      "items": 0
+    },
+    {
       "id": "facebook",
       "name": "Facebook (Graph/public web)",
       "ok": false,
@@ -267,15 +339,27 @@
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://eldeber.com.bo/deportes"
     },
     {
+      "source": "larazon_futbol_boliviano",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://larazon.bo/categoria/marcas/futbol-profesional-boliviano/"
+    },
+    {
       "source": "abi_deportes",
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7fcb12658ad0>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f279e7548f0>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+    },
+    {
+      "source": "conmebol_eliminatorias",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://www.conmebol.com/eliminatorias/"
+    },
+    {
+      "source": "foxsports_latam",
+      "error": "ConnectionError: HTTPSConnectionPool(host='www.foxsportsla.com', port=443): Max retries exceeded with url: /futbol (Caused by NameResolutionError(\"HTTPSConnection(host='www.foxsportsla.com', port=443): Failed to resolve 'www.foxsportsla.com' ([Errno -3] Temporary failure in name resolution)\"))"
     }
   ],
   "totals": {
-    "items_before_filter": 574,
-    "items_after_filter_dedupe": 410,
-    "web_sources_ok": 33,
-    "web_sources_error": 4,
+    "items_before_filter": 688,
+    "items_after_filter_dedupe": 512,
+    "web_sources_ok": 42,
+    "web_sources_error": 7,
     "social_items": 0
   }
 }

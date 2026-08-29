@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-08-29T12:25:06.919970Z",
+  "generated_at": "2026-08-29T17:03:46.052863Z",
   "architecture": "3 Facebook groups + 1 web group; feed editorial + fases KO verificadas por serie completa",
   "facebook_groups": [
     {
@@ -25,13 +25,13 @@
   "totals": {
     "facebook_items": 0,
     "web_latest_items": 200,
-    "app_feed_items": 162
+    "app_feed_items": 132
   },
   "web": {
-    "generated_at": "2026-08-29T12:25:06.796540Z",
+    "generated_at": "2026-08-29T17:03:45.887075Z",
     "totals": {
-      "items_before_filter": 718,
-      "items_after_filter_dedupe": 543,
+      "items_before_filter": 697,
+      "items_after_filter_dedupe": 517,
       "web_sources_ok": 43,
       "web_sources_error": 6,
       "social_items": 0
@@ -46,12 +46,12 @@
         "error": "HTTPError: 403 Client Error: Forbidden for url: https://eldeber.com.bo/deportes"
       },
       {
-        "source": "conmebol_eliminatorias",
-        "error": "HTTPError: 404 Client Error: Not Found for url: https://www.conmebol.com/eliminatorias/"
+        "source": "larazon_futbol_boliviano",
+        "error": "HTTPError: 403 Client Error: Forbidden for url: https://larazon.bo/categoria/marcas/futbol-profesional-boliviano/"
       },
       {
-        "source": "as_futbol",
-        "error": "HTTPError: 403 Client Error: Forbidden for url: https://as.com/futbol/"
+        "source": "conmebol_eliminatorias",
+        "error": "HTTPError: 404 Client Error: Not Found for url: https://www.conmebol.com/eliminatorias/"
       },
       {
         "source": "foxsports_latam",

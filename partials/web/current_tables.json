@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-08-29T12:24:55.994761Z",
+  "generated_at": "2026-08-29T17:03:33.294341Z",
   "policy": "datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback",
   "assets_policy": "club_logo > country_flag > none",
   "team_assets": {
@@ -546,7 +546,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-08-29T12:23:49.427174Z",
+        "scraped_at": "2026-08-29T17:01:32.867993Z",
         "extra": {
           "header": [
             "Fecha",
@@ -4664,7 +4664,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-29T12:23:49.177435Z",
+        "scraped_at": "2026-08-29T17:01:32.443314Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -4974,7 +4974,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-29T12:23:49.458391Z",
+        "scraped_at": "2026-08-29T17:01:32.919613Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5073,7 +5073,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-29T12:23:49.466080Z",
+        "scraped_at": "2026-08-29T17:01:32.932105Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5150,7 +5150,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-29T12:23:49.482260Z",
+        "scraped_at": "2026-08-29T17:01:32.959085Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5391,7 +5391,7 @@
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-08-29T12:23:49.880842Z",
+        "scraped_at": "2026-08-29T17:01:33.427979Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6577,7 +6577,7 @@
         "source_name": "Series — Serie A + Series — Serie B + Series — Serie C + Series — Serie D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-08-29T12:23:49.826214Z",
+        "scraped_at": "2026-08-29T17:01:33.344332Z",
         "extra": {
           "rows": [
             [
@@ -6889,7 +6889,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-29T12:23:51.232879Z",
+        "scraped_at": "2026-08-29T17:01:35.426112Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7090,7 +7090,7 @@
             [
               "Octavos de final",
               "Platense",
-              "1:1 (1:0)",
+              "1:1 (0:0)",
               "Coquimbo Unido",
               "Estadio Ciudad de Vicente López , Florida",
               "12 de agosto, 19:00 ( UTC-3 )",
@@ -7331,7 +7331,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-29T12:23:51.232879Z",
+        "scraped_at": "2026-08-29T17:01:35.426112Z",
         "extra": {
           "rows": [
             [
@@ -7678,7 +7678,7 @@
                 {
                   "home": "Platense",
                   "away": "Coquimbo Unido",
-                  "result": "1:1 (1:0)",
+                  "result": "1:1 (0:0)",
                   "date": "12 de agosto, 19:00 ( UTC-3 )",
                   "stadium": "Estadio Ciudad de Vicente López , Florida",
                   "home_logo": "https://flagcdn.com/w80/ar.png",
@@ -7813,7 +7813,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-29T12:23:50.974266Z",
+        "scraped_at": "2026-08-29T17:01:35.021714Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7904,7 +7904,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-29T12:23:50.984218Z",
+        "scraped_at": "2026-08-29T17:01:35.037310Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7995,7 +7995,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-29T12:23:51.232879Z",
+        "scraped_at": "2026-08-29T17:01:35.426112Z",
         "extra": {
           "rows": [
             [
@@ -8342,7 +8342,7 @@
                 {
                   "home": "Platense",
                   "away": "Coquimbo Unido",
-                  "result": "1:1 (1:0)",
+                  "result": "1:1 (0:0)",
                   "date": "12 de agosto, 19:00 ( UTC-3 )",
                   "stadium": "Estadio Ciudad de Vicente López , Florida",
                   "home_logo": "https://flagcdn.com/w80/ar.png",
@@ -8473,7 +8473,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-29T12:23:50.734963Z",
+        "scraped_at": "2026-08-29T17:01:34.648342Z",
         "extra": {
           "rows": [
             [
@@ -8991,7 +8991,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-29T12:23:52.945233Z",
+        "scraped_at": "2026-08-29T17:01:38.360296Z",
         "extra": {
           "header": [
             "Fecha",
@@ -9705,7 +9705,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-29T12:23:52.945233Z",
+        "scraped_at": "2026-08-29T17:01:38.360296Z",
         "extra": {
           "rows": [
             [
@@ -10187,7 +10187,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-29T12:23:52.487099Z",
+        "scraped_at": "2026-08-29T17:01:37.569732Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10264,7 +10264,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-29T12:23:52.497570Z",
+        "scraped_at": "2026-08-29T17:01:37.588387Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10325,7 +10325,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-29T12:23:52.945233Z",
+        "scraped_at": "2026-08-29T17:01:38.360296Z",
         "extra": {
           "rows": [
             [
@@ -10803,7 +10803,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-29T12:23:52.043884Z",
+        "scraped_at": "2026-08-29T17:01:36.812532Z",
         "extra": {
           "rows": [
             [
@@ -11325,7 +11325,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-29T12:23:01.571811Z",
+        "scraped_at": "2026-08-29T17:00:01.760077Z",
         "source_id": "lostiempos_deportes",
         "source_name": "Los Tiempos - Deportes",
         "source_type": "media",
@@ -11337,32 +11337,32 @@
         "extra": {
           "rows": [
             [
-              "1 Catástrofes naturales: así se desencadenó la mortífera riada de Nepal Ver más",
-              "2 Sokol no declara en la Fiscalía \"por motivos laborales\" Ver más"
+              "1 Detienen a un coronel de la FAB en Bolivia por orden de la DEA de EEUU Ver más",
+              "2 Cerimedo evita referirse sobre su relación con Paz en su declaración con la Fiscalía Ver más"
             ],
             [
-              "3 Gobierno aplica estado de excepción y desbloquea carretera Beni-Santa Cruz Ver más",
-              "4 Viva Cashback 1 Ver más"
+              "3 El folklore boliviano despide a Freddy Gonzales, líder y fundador de Khiswara Ver más",
+              "4 Paz plantea invertir para el futuro o subvencionar combustibles Ver más"
             ],
             [
-              "5 Fotos y testigos muestran que Cerimedo estuvo cerca al poder; cae versión de Paz Ver más",
-              "6 Viva Pack Ver más"
+              "5 Fiscal general promete investigación \"sin interferencias\" del caso Cerimedo Ver más",
+              "6 UN al presidente: “Debe dar un giro de timón y darse cuenta que ya no tiene margen de error” Ver más"
             ],
             [
-              "7 Cerimedo es procesado por tres delitos e investigado por uno Ver más",
-              "8 Viva Wow 1 Ver más"
+              "7 Quillacollo confirma la serenata en homenaje a su 121 aniversario, en septiembre Ver más",
+              "8 Nepal: hay casi 2.000 desaparecidos por riada Ver más"
             ],
             [
-              "9 Gobernación lleva ayuda a Cocapata y halla más llamas sepultadas en la nieve Ver más",
-              "10 Joven motociclista muere atropellada por un camión cisterna en Cochabamba Ver más"
+              "9 Jaihuayco celebra a su patrón: San Joaquín Ver más",
+              "10 Sokol no declara en la Fiscalía \"por motivos laborales\" Ver más"
             ]
           ],
           "logos": [
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/28/2_mu_1_dpa.jpg?itok=QYRwga7n",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/28/3_p_1_jose_elio.jpg?itok=A4yREl6f",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/28/4_p_1_usdepartment_of_state.jpg?itok=fR4UHu8y",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/28/5_p_1_cafe_noticias.jpg?itok=wWhAX-YL",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/28/6_me_1_jamesssssssss.jpg?itok=4NacpZWg"
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/29/fab_detenido_ed_va.jpg?itok=SfBFP9Ek",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/29/khiswara_ed_va.jpg?itok=pjics8Xz",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/29/fiscal_mariaca_en_conferencia_ed.jpg?itok=Ec0CF1Xk",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/29/alcalde_de_quillacollo_luis_santa_cruz.jpg?itok=5qXHhxBy",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/28/jaihuayco_fiesta.jpg?itok=b3vtzzcp"
           ],
           "strong_standings": false,
           "row_groups": null,

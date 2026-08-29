@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-08-29T20:31:54.620832Z",
+  "generated_at": "2026-08-29T23:02:28.605438Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -15,7 +15,7 @@
       "items": 88
     },
     "internacional.json": {
-      "items": 123
+      "items": 159
     },
     "social.json": {
       "items": 0
@@ -194,7 +194,7 @@
       "id": "vision360_futbol_boliviano",
       "name": "Visión 360 - Fútbol Boliviano",
       "ok": true,
-      "items": 40
+      "items": 39
     },
     {
       "id": "oxigeno_deportes",
@@ -296,13 +296,13 @@
       "id": "marca_futbol",
       "name": "Marca - Fútbol",
       "ok": true,
-      "items": 68
+      "items": 67
     },
     {
       "id": "as_futbol",
       "name": "AS.com - Fútbol",
-      "ok": false,
-      "items": 0
+      "ok": true,
+      "items": 51
     },
     {
       "id": "ole_futbol_internacional",
@@ -347,19 +347,15 @@
       "error": "HTTPError: 404 Client Error: Not Found for url: https://www.conmebol.com/eliminatorias/"
     },
     {
-      "source": "as_futbol",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://as.com/futbol/"
-    },
-    {
       "source": "foxsports_latam",
       "error": "ConnectionError: HTTPSConnectionPool(host='www.foxsportsla.com', port=443): Max retries exceeded with url: /futbol (Caused by NameResolutionError(\"HTTPSConnection(host='www.foxsportsla.com', port=443): Failed to resolve 'www.foxsportsla.com' ([Errno -3] Temporary failure in name resolution)\"))"
     }
   ],
   "totals": {
-    "items_before_filter": 644,
-    "items_after_filter_dedupe": 478,
-    "web_sources_ok": 42,
-    "web_sources_error": 7,
+    "items_before_filter": 693,
+    "items_after_filter_dedupe": 514,
+    "web_sources_ok": 43,
+    "web_sources_error": 6,
     "social_items": 0
   }
 }

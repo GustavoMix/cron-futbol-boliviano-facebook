@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-08-30T18:28:58.485494Z",
+  "generated_at": "2026-08-30T21:54:03.588880Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,13 +9,13 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 269
+      "items": 337
     },
     "conmebol.json": {
       "items": 88
     },
     "internacional.json": {
-      "items": 163
+      "items": 123
     },
     "social.json": {
       "items": 0
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 130
+      "items": 168
     },
     "current_tables.json": {
       "items": 0
@@ -187,14 +187,14 @@
     {
       "id": "larazon_futbol_boliviano",
       "name": "La Razón - Fútbol Profesional Boliviano",
-      "ok": false,
-      "items": 0
+      "ok": true,
+      "items": 70
     },
     {
       "id": "vision360_futbol_boliviano",
       "name": "Visión 360 - Fútbol Boliviano",
       "ok": true,
-      "items": 39
+      "items": 38
     },
     {
       "id": "oxigeno_deportes",
@@ -296,13 +296,13 @@
       "id": "marca_futbol",
       "name": "Marca - Fútbol",
       "ok": true,
-      "items": 69
+      "items": 67
     },
     {
       "id": "as_futbol",
       "name": "AS.com - Fútbol",
-      "ok": true,
-      "items": 52
+      "ok": false,
+      "items": 0
     },
     {
       "id": "ole_futbol_internacional",
@@ -339,12 +339,12 @@
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://eldeber.com.bo/deportes"
     },
     {
-      "source": "larazon_futbol_boliviano",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://larazon.bo/categoria/marcas/futbol-profesional-boliviano/"
-    },
-    {
       "source": "conmebol_eliminatorias",
       "error": "HTTPError: 404 Client Error: Not Found for url: https://www.conmebol.com/eliminatorias/"
+    },
+    {
+      "source": "as_futbol",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://as.com/futbol/"
     },
     {
       "source": "foxsports_latam",
@@ -352,8 +352,8 @@
     }
   ],
   "totals": {
-    "items_before_filter": 697,
-    "items_after_filter_dedupe": 520,
+    "items_before_filter": 712,
+    "items_after_filter_dedupe": 548,
     "web_sources_ok": 43,
     "web_sources_error": 6,
     "social_items": 0

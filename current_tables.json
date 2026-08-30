@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-08-30T18:28:45.433384Z",
+  "generated_at": "2026-08-30T21:53:50.281967Z",
   "policy": "datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback",
   "assets_policy": "club_logo > country_flag > none",
   "team_assets": {
@@ -546,7 +546,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-08-30T18:27:38.599137Z",
+        "scraped_at": "2026-08-30T21:52:40.719428Z",
         "extra": {
           "header": [
             "Fecha",
@@ -4664,7 +4664,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-30T18:27:38.236993Z",
+        "scraped_at": "2026-08-30T21:52:40.370544Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -4974,7 +4974,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-30T18:27:38.642851Z",
+        "scraped_at": "2026-08-30T21:52:40.762421Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5073,7 +5073,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-30T18:27:38.653309Z",
+        "scraped_at": "2026-08-30T21:52:40.772561Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5150,7 +5150,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-30T18:27:38.676290Z",
+        "scraped_at": "2026-08-30T21:52:40.794596Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5391,7 +5391,7 @@
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-08-30T18:27:39.047759Z",
+        "scraped_at": "2026-08-30T21:52:41.431877Z",
         "extra": {
           "header": [
             "Fecha",
@@ -5556,7 +5556,7 @@
             [
               "Fecha 2",
               "ABB",
-              "–",
+              "0 – 1",
               "Always Ready",
               "Municipal de El Alto",
               "30 de agosto",
@@ -5606,7 +5606,7 @@
               "San Antonio Bulo Bulo",
               "–",
               "Guabirá",
-              "",
+              "Dr. Carlos Villegas",
               "31 de agosto",
               "15:00",
               "https://flagcdn.com/w80/bo.png",
@@ -6577,7 +6577,7 @@
         "source_name": "Series — Serie A + Series — Serie B + Series — Serie C + Series — Serie D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-08-30T18:27:38.968463Z",
+        "scraped_at": "2026-08-30T21:52:41.354130Z",
         "extra": {
           "rows": [
             [
@@ -6625,20 +6625,6 @@
             [
               "Series — Serie A",
               "3",
-              "ABB",
-              "0",
-              "1",
-              "0",
-              "0",
-              "1",
-              "2",
-              "3",
-              "− 1",
-              ""
-            ],
-            [
-              "Series — Serie A",
-              "4",
               "San Antonio Bulo Bulo",
               "0",
               "1",
@@ -6651,17 +6637,31 @@
               ""
             ],
             [
+              "Series — Serie A",
+              "4",
+              "ABB",
+              "0",
+              "2",
+              "0",
+              "0",
+              "2",
+              "2",
+              "4",
+              "− 2",
+              ""
+            ],
+            [
               "Series — Serie B",
               "1",
               "Always Ready",
-              "3",
-              "1",
-              "1",
-              "0",
-              "0",
-              "4",
+              "6",
               "2",
-              "+2",
+              "2",
+              "0",
+              "0",
+              "5",
+              "2",
+              "+3",
               "Liguilla final"
             ],
             [
@@ -6825,8 +6825,8 @@
             "",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-2-400x400.png",
-            "",
             "https://flagcdn.com/w80/bo.png",
+            "",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-1-400x400.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-6-400x400.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-9-400x400.png",
@@ -6844,8 +6844,8 @@
             "",
             "Potos",
             "Cochabamba",
-            "La Paz",
             "Bolivia",
+            "La Paz",
             "Bolivia",
             "Tarija",
             "Potos",
@@ -6863,8 +6863,8 @@
             "none",
             "club_logo",
             "club_logo",
-            "none",
             "country_flag",
+            "none",
             "club_logo",
             "club_logo",
             "club_logo",
@@ -6889,7 +6889,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-30T18:27:41.018831Z",
+        "scraped_at": "2026-08-30T21:52:43.305918Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7331,7 +7331,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-30T18:27:41.018831Z",
+        "scraped_at": "2026-08-30T21:52:43.305918Z",
         "extra": {
           "rows": [
             [
@@ -7813,7 +7813,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-30T18:27:40.648122Z",
+        "scraped_at": "2026-08-30T21:52:42.935925Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7904,7 +7904,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-30T18:27:40.663227Z",
+        "scraped_at": "2026-08-30T21:52:42.950257Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7995,7 +7995,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-30T18:27:41.018831Z",
+        "scraped_at": "2026-08-30T21:52:43.305918Z",
         "extra": {
           "rows": [
             [
@@ -8473,7 +8473,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-30T18:27:40.275768Z",
+        "scraped_at": "2026-08-30T21:52:42.592863Z",
         "extra": {
           "rows": [
             [
@@ -8991,7 +8991,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-30T18:27:43.660027Z",
+        "scraped_at": "2026-08-30T21:52:45.678361Z",
         "extra": {
           "header": [
             "Fecha",
@@ -9705,7 +9705,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-30T18:27:43.660027Z",
+        "scraped_at": "2026-08-30T21:52:45.678361Z",
         "extra": {
           "rows": [
             [
@@ -10187,7 +10187,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-30T18:27:42.959586Z",
+        "scraped_at": "2026-08-30T21:52:45.028807Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10264,7 +10264,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-30T18:27:42.974973Z",
+        "scraped_at": "2026-08-30T21:52:45.044050Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10325,7 +10325,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-30T18:27:43.660027Z",
+        "scraped_at": "2026-08-30T21:52:45.678361Z",
         "extra": {
           "rows": [
             [
@@ -10803,7 +10803,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-30T18:27:42.305994Z",
+        "scraped_at": "2026-08-30T21:52:44.397348Z",
         "extra": {
           "rows": [
             [
@@ -11325,7 +11325,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-30T18:26:45.876682Z",
+        "scraped_at": "2026-08-30T21:51:40.482597Z",
         "source_id": "lostiempos_deportes",
         "source_name": "Los Tiempos - Deportes",
         "source_type": "media",
@@ -11391,7 +11391,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-30T18:26:33.836054Z",
+        "scraped_at": "2026-08-30T21:51:29.063020Z",
         "source_id": "reduno_deportes",
         "source_name": "Red Uno - Super Deportivo",
         "source_type": "media",
@@ -11404,7 +11404,7 @@
           "rows": [
             {
               "goals": 4,
-              "players_text": "en un mismo partido con el Inter El astro argentino fue la gran figura de la goleada del Inter Miami, marcó cuatro tantos, dio una asistencia y se trepó a la cima de la tabla de goleadores de la MLS con 18 conquistas. Por EFE Super deportivo Vive la previa de los clásicos por Red Uno y Xona Streaming La jornada comenzará a las 15:30 con la previa del clásico paceño desde el Hernando Siles y continuará a las 16:45 desde el Tahuichi Aguilera con toda la antesala del duelo cruceño. Por Martin Suare"
+              "players_text": "en un mismo partido con el Inter Super deportivo Vive la previa de los clásicos por Red Uno y Xona Streaming PUBLICIDAD Super deportivo Mbappé merece el Balón de Oro 2026, opina Mourinho Super deportivo Dos aviones rozan un estadio lleno y el video causa furor en redes Super deportivo ¿Quiénes entran gratis al superclásico Bolívar vs The Strongest? Super deportivo Superclásico paceño: ¿cuánto cuesta ver Bolívar vs The Strongest? Super deportivo Buenas noticias en Oriente: pagan un sueldo antes d"
             }
           ],
           "related_sources": [],

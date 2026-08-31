@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-08-31T00:16:18.080170Z",
+  "generated_at": "2026-08-31T06:45:36.220166Z",
   "policy": "datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback",
   "assets_policy": "club_logo > country_flag > none",
   "team_assets": {
@@ -546,7 +546,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-08-31T00:15:02.609080Z",
+        "scraped_at": "2026-08-31T06:43:56.396021Z",
         "extra": {
           "header": [
             "Fecha",
@@ -4664,7 +4664,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-31T00:15:02.221095Z",
+        "scraped_at": "2026-08-31T06:43:56.061379Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -4974,7 +4974,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-31T00:15:02.658814Z",
+        "scraped_at": "2026-08-31T06:43:56.436395Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5073,7 +5073,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-31T00:15:02.670981Z",
+        "scraped_at": "2026-08-31T06:43:56.445997Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5150,7 +5150,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-31T00:15:02.696574Z",
+        "scraped_at": "2026-08-31T06:43:56.466559Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5391,7 +5391,7 @@
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-08-31T00:15:03.294078Z",
+        "scraped_at": "2026-08-31T06:43:56.808570Z",
         "extra": {
           "header": [
             "Fecha",
@@ -5572,7 +5572,7 @@
             [
               "Fecha 2",
               "Bolívar",
-              "–",
+              "4 – 2",
               "The Strongest",
               "Hernando Siles",
               "30 de agosto",
@@ -5588,7 +5588,7 @@
             [
               "Fecha 2",
               "Blooming",
-              "–",
+              "0 – 3",
               "Oriente Petrolero",
               "Ramón Aguilera Costas",
               "30 de agosto",
@@ -6577,7 +6577,7 @@
         "source_name": "Series — Serie A + Series — Serie B + Series — Serie C + Series — Serie D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-08-31T00:15:03.208334Z",
+        "scraped_at": "2026-08-31T06:43:56.730134Z",
         "extra": {
           "rows": [
             [
@@ -6709,6 +6709,20 @@
             [
               "Series — Serie C",
               "1",
+              "Oriente Petrolero",
+              "3",
+              "2",
+              "1",
+              "0",
+              "1",
+              "4",
+              "2",
+              "+2",
+              "Liguilla final"
+            ],
+            [
+              "Series — Serie C",
+              "2",
               "Guabirá",
               "3",
               "1",
@@ -6722,29 +6736,15 @@
             ],
             [
               "Series — Serie C",
-              "2",
+              "3",
               "The Strongest",
               "3",
-              "1",
-              "1",
-              "0",
-              "0",
               "2",
               "1",
-              "+1",
-              "Liguilla final"
-            ],
-            [
-              "Series — Serie C",
-              "3",
-              "Oriente Petrolero",
               "0",
               "1",
-              "0",
-              "0",
-              "1",
-              "1",
-              "2",
+              "4",
+              "5",
               "− 1",
               ""
             ],
@@ -6794,14 +6794,14 @@
               "Series — Serie D",
               "3",
               "Bolívar",
+              "3",
+              "1",
+              "1",
               "0",
               "0",
-              "0",
-              "0",
-              "0",
-              "0",
-              "0",
-              "0",
+              "4",
+              "2",
+              "+2",
               ""
             ],
             [
@@ -6809,13 +6809,13 @@
               "4",
               "Blooming",
               "0",
-              "1",
-              "0",
-              "0",
-              "1",
               "2",
-              "5",
-              "− 3",
+              "0",
+              "0",
+              "2",
+              "2",
+              "8",
+              "− 6",
               ""
             ]
           ],
@@ -6832,8 +6832,8 @@
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-9-400x400.png",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200",
             "",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-11-400x400.png",
             "",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-11-400x400.png",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/U_de_Vinto.png/250px-U_de_Vinto.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Escudo_Club_Independiente_Petrolero.png/250px-Escudo_Club_Independiente_Petrolero.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -6851,8 +6851,8 @@
             "Potos",
             "Bolivia",
             "Santa Cruz",
-            "La Paz",
             "Santa Cruz",
+            "La Paz",
             "Cochabamba",
             "Chuquisaca",
             "Bolivia",
@@ -6870,8 +6870,8 @@
             "club_logo",
             "club_logo",
             "none",
-            "club_logo",
             "none",
+            "club_logo",
             "club_logo",
             "club_logo",
             "club_logo",
@@ -6889,7 +6889,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-31T00:15:05.469553Z",
+        "scraped_at": "2026-08-31T06:43:58.638961Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7331,7 +7331,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-31T00:15:05.469553Z",
+        "scraped_at": "2026-08-31T06:43:58.638961Z",
         "extra": {
           "rows": [
             [
@@ -7813,7 +7813,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-31T00:15:05.084088Z",
+        "scraped_at": "2026-08-31T06:43:58.266031Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7904,7 +7904,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-31T00:15:05.099342Z",
+        "scraped_at": "2026-08-31T06:43:58.280502Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7995,7 +7995,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-31T00:15:05.469553Z",
+        "scraped_at": "2026-08-31T06:43:58.638961Z",
         "extra": {
           "rows": [
             [
@@ -8473,7 +8473,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-08-31T00:15:04.722820Z",
+        "scraped_at": "2026-08-31T06:43:57.922316Z",
         "extra": {
           "rows": [
             [
@@ -8991,7 +8991,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-31T00:15:08.588723Z",
+        "scraped_at": "2026-08-31T06:44:01.153010Z",
         "extra": {
           "header": [
             "Fecha",
@@ -9705,7 +9705,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-31T00:15:08.588723Z",
+        "scraped_at": "2026-08-31T06:44:01.153010Z",
         "extra": {
           "rows": [
             [
@@ -10187,7 +10187,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-31T00:15:07.821109Z",
+        "scraped_at": "2026-08-31T06:44:00.449743Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10264,7 +10264,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-31T00:15:07.839019Z",
+        "scraped_at": "2026-08-31T06:44:00.465413Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10325,7 +10325,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-31T00:15:08.588723Z",
+        "scraped_at": "2026-08-31T06:44:01.153010Z",
         "extra": {
           "rows": [
             [
@@ -10803,7 +10803,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-08-31T00:15:07.088967Z",
+        "scraped_at": "2026-08-31T06:43:59.806750Z",
         "extra": {
           "rows": [
             [
@@ -11325,7 +11325,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-31T00:14:05.729787Z",
+        "scraped_at": "2026-08-31T06:43:00.423887Z",
         "source_id": "lostiempos_deportes",
         "source_name": "Los Tiempos - Deportes",
         "source_type": "media",
@@ -11342,27 +11342,27 @@
             ],
             [
               "3 La producción de carburantes cae a niveles insuficientes para el país Ver más",
-              "4 Cocapata, entre imponentes montañas y postales de nieve Ver más"
+              "4 Felcc investiga el asesinato de un hombre con 23 disparos en Entre Ríos Ver más"
             ],
             [
-              "5 Jaihuayco se llena de fe, color y danza para celebrar a San Joaquín Ver más",
-              "6 Productores muestran su potencial en la Expoferia de Camélidos Ver más"
+              "5 Cocapata, entre imponentes montañas y postales de nieve Ver más",
+              "6 Acribillan a una persona en San Ignacio de Velasco frente a un surtidor Ver más"
             ],
             [
-              "7 Emerge Metanoia Brass Ensamble Ver más",
-              "8 Después de todo, ¿qué es, realmente, lo postmoderno, Cachín Antezana? Ver más"
+              "7 Jaihuayco se llena de fe, color y danza para celebrar a San Joaquín Ver más",
+              "8 El TSE iniciará en Cochabamba el proceso de reforma electoral este 2 de septiembre Ver más"
             ],
             [
-              "9 Bolívar y The Strongest, un clásico sin tregua Ver más",
-              "10 Monseñor Leigue: “Estamos esperando que las autoridades nos digan qué está pasando y que sean sinceras con el pueblo boliviano” Ver más"
+              "9 Productores muestran su potencial en la Expoferia de Camélidos Ver más",
+              "10 Emerge Metanoia Brass Ensamble Ver más"
             ]
           ],
           "logos": [
             "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/30/30-8-2026_edwin_-_cinturon_de_fuego_terremotos_web.jpg.jpeg?itok=UVvM2Y5j",
             "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/30/5_eco_1_lopezzzzzzzzzz.jpg?itok=FmNOpzRR",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/30/6_f2_d_jamesss.jpg?itok=ZLmSU83K",
             "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/30/7_me_1_lopezzzzzzzzz.jpg?itok=ufEturoT",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/30/30-8-2026_edwin_-_metanoia_web.jpg.jpeg?itok=s47jfw6L",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/30/12_dep_1_club_bolivar.jpg?itok=o0yS3U1X"
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/30/7_me_4_lopezzzzz.jpg?itok=QxojGZSG"
           ],
           "strong_standings": false,
           "row_groups": null,
@@ -11391,7 +11391,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-08-31T00:13:54.053209Z",
+        "scraped_at": "2026-08-31T06:42:49.626094Z",
         "source_id": "reduno_deportes",
         "source_name": "Red Uno - Super Deportivo",
         "source_type": "media",

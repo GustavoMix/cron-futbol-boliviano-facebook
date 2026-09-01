@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-09-01T06:09:24.408152Z",
+  "generated_at": "2026-09-01T12:27:41.874481Z",
   "architecture": "3 Facebook groups + 1 web group; feed editorial + fases KO verificadas por serie completa",
   "facebook_groups": [
     {
@@ -25,15 +25,15 @@
   "totals": {
     "facebook_items": 0,
     "web_latest_items": 200,
-    "app_feed_items": 144
+    "app_feed_items": 146
   },
   "web": {
-    "generated_at": "2026-09-01T06:09:24.231906Z",
+    "generated_at": "2026-09-01T12:27:41.717705Z",
     "totals": {
-      "items_before_filter": 748,
-      "items_after_filter_dedupe": 558,
-      "web_sources_ok": 41,
-      "web_sources_error": 8,
+      "items_before_filter": 759,
+      "items_after_filter_dedupe": 561,
+      "web_sources_ok": 43,
+      "web_sources_error": 6,
       "social_items": 0
     },
     "errors": [
@@ -46,16 +46,8 @@
         "error": "HTTPError: 403 Client Error: Forbidden for url: https://eldeber.com.bo/deportes"
       },
       {
-        "source": "lostiempos_deportes",
-        "error": "HTTPError: 502 Server Error: Bad Gateway for url: https://www.lostiempos.com/deportes"
-      },
-      {
-        "source": "oxigeno_deportes",
-        "error": "ConnectTimeout: HTTPSConnectionPool(host='oxigeno.bo', port=443): Max retries exceeded with url: /categorias/deportes/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='oxigeno.bo', port=443) at 0x7fadaf887680>, 'Connection to oxigeno.bo timed out. (connect timeout=25)'))"
-      },
-      {
         "source": "abi_deportes",
-        "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7fadadb7c710>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+        "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7fbdbd639220>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
       },
       {
         "source": "conmebol_eliminatorias",

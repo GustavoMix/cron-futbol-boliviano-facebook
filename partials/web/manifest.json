@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-09-01T17:15:04.262831Z",
+  "generated_at": "2026-09-01T20:41:55.507704Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,13 +9,13 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 325
+      "items": 328
     },
     "conmebol.json": {
       "items": 88
     },
     "internacional.json": {
-      "items": 119
+      "items": 96
     },
     "social.json": {
       "items": 0
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 138
+      "items": 141
     },
     "current_tables.json": {
       "items": 0
@@ -301,14 +301,14 @@
     {
       "id": "as_futbol",
       "name": "AS.com - Fútbol",
-      "ok": true,
-      "items": 52
+      "ok": false,
+      "items": 0
     },
     {
       "id": "ole_futbol_internacional",
       "name": "Olé - Fútbol Internacional",
       "ok": true,
-      "items": 22
+      "items": 21
     },
     {
       "id": "goal_espanol",
@@ -340,11 +340,15 @@
     },
     {
       "source": "abi_deportes",
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f0d2d780650>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f95356ceff0>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
     },
     {
       "source": "conmebol_eliminatorias",
       "error": "HTTPError: 404 Client Error: Not Found for url: https://www.conmebol.com/eliminatorias/"
+    },
+    {
+      "source": "as_futbol",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://as.com/futbol/"
     },
     {
       "source": "foxsports_latam",
@@ -352,10 +356,10 @@
     }
   ],
   "totals": {
-    "items_before_filter": 765,
-    "items_after_filter_dedupe": 532,
-    "web_sources_ok": 43,
-    "web_sources_error": 6,
+    "items_before_filter": 712,
+    "items_after_filter_dedupe": 512,
+    "web_sources_ok": 42,
+    "web_sources_error": 7,
     "social_items": 0
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-08-31T20:45:14.178720Z",
+  "generated_at": "2026-09-01T00:28:11.123907Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,13 +9,13 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 261
+      "items": 265
     },
     "conmebol.json": {
       "items": 88
     },
     "internacional.json": {
-      "items": 164
+      "items": 155
     },
     "social.json": {
       "items": 0
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 119
+      "items": 122
     },
     "current_tables.json": {
       "items": 0
@@ -122,7 +122,7 @@
       "id": "reduno_deportes",
       "name": "Red Uno - Super Deportivo",
       "ok": true,
-      "items": 36
+      "items": 35
     },
     {
       "id": "reduno_futbol_boliviano",
@@ -194,7 +194,7 @@
       "id": "vision360_futbol_boliviano",
       "name": "Visión 360 - Fútbol Boliviano",
       "ok": true,
-      "items": 41
+      "items": 42
     },
     {
       "id": "oxigeno_deportes",
@@ -296,7 +296,7 @@
       "id": "marca_futbol",
       "name": "Marca - Fútbol",
       "ok": true,
-      "items": 69
+      "items": 68
     },
     {
       "id": "as_futbol",
@@ -344,7 +344,7 @@
     },
     {
       "source": "abi_deportes",
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f4fe3ab8dd0>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f7dccbc2510>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
     },
     {
       "source": "conmebol_eliminatorias",
@@ -356,8 +356,8 @@
     }
   ],
   "totals": {
-    "items_before_filter": 690,
-    "items_after_filter_dedupe": 513,
+    "items_before_filter": 689,
+    "items_after_filter_dedupe": 508,
     "web_sources_ok": 42,
     "web_sources_error": 7,
     "social_items": 0

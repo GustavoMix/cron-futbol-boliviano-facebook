@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-09-02T20:39:13.062421Z",
+  "generated_at": "2026-09-02T23:04:28.337853Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,13 +9,13 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 260
+      "items": 320
     },
     "conmebol.json": {
       "items": 88
     },
     "internacional.json": {
-      "items": 114
+      "items": 113
     },
     "social.json": {
       "items": 0
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 108
+      "items": 136
     },
     "current_tables.json": {
       "items": 0
@@ -187,14 +187,14 @@
     {
       "id": "larazon_futbol_boliviano",
       "name": "La Razón - Fútbol Profesional Boliviano",
-      "ok": false,
-      "items": 0
+      "ok": true,
+      "items": 71
     },
     {
       "id": "vision360_futbol_boliviano",
       "name": "Visión 360 - Fútbol Boliviano",
       "ok": true,
-      "items": 41
+      "items": 39
     },
     {
       "id": "oxigeno_deportes",
@@ -339,12 +339,8 @@
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://eldeber.com.bo/deportes"
     },
     {
-      "source": "larazon_futbol_boliviano",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://larazon.bo/categoria/marcas/futbol-profesional-boliviano/"
-    },
-    {
       "source": "abi_deportes",
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7fde9d07cb30>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f859982c080>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
     },
     {
       "source": "conmebol_eliminatorias",
@@ -356,10 +352,10 @@
     }
   ],
   "totals": {
-    "items_before_filter": 690,
-    "items_after_filter_dedupe": 462,
-    "web_sources_ok": 42,
-    "web_sources_error": 7,
+    "items_before_filter": 759,
+    "items_after_filter_dedupe": 521,
+    "web_sources_ok": 43,
+    "web_sources_error": 6,
     "social_items": 0
   }
 }

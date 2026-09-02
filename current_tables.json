@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-09-01T23:07:00.543102Z",
+  "generated_at": "2026-09-02T03:12:38.289026Z",
   "policy": "datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback",
   "assets_policy": "club_logo > country_flag > none",
   "team_assets": {
@@ -546,7 +546,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-09-01T23:05:51.915028Z",
+        "scraped_at": "2026-09-02T03:11:02.063645Z",
         "extra": {
           "header": [
             "Fecha",
@@ -4664,7 +4664,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-01T23:05:51.542141Z",
+        "scraped_at": "2026-09-02T03:11:01.675215Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -4974,7 +4974,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-01T23:05:51.959449Z",
+        "scraped_at": "2026-09-02T03:11:02.112057Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5073,7 +5073,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-01T23:05:51.969943Z",
+        "scraped_at": "2026-09-02T03:11:02.123749Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5150,7 +5150,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-01T23:05:51.992386Z",
+        "scraped_at": "2026-09-02T03:11:02.148730Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5391,7 +5391,7 @@
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-09-01T23:05:52.333453Z",
+        "scraped_at": "2026-09-02T03:11:02.815696Z",
         "extra": {
           "header": [
             "Fecha",
@@ -5527,7 +5527,7 @@
               "–",
               "Real Tomayapo",
               "Víctor Agustín Ugarte",
-              "3 de septiembre [ n. 1 ]",
+              "3 de septiembre",
               "19:00",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-9-400x400.png",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-6-400x400.png",
@@ -5636,7 +5636,7 @@
             [
               "Fecha 2",
               "Universitario de Vinto",
-              "–",
+              "1 – 1",
               "Aurora",
               "Félix Capriles",
               "1 de septiembre",
@@ -6577,7 +6577,7 @@
         "source_name": "Series — Serie A + Series — Serie B + Series — Serie C + Series — Serie D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-09-01T23:05:52.256845Z",
+        "scraped_at": "2026-09-02T03:11:02.737303Z",
         "extra": {
           "rows": [
             [
@@ -6597,6 +6597,20 @@
             [
               "Series — Serie A",
               "1",
+              "Aurora",
+              "4",
+              "2",
+              "1",
+              "1",
+              "0",
+              "2",
+              "1",
+              "+1",
+              "Liguilla final"
+            ],
+            [
+              "Series — Serie A",
+              "2",
               "San Antonio Bulo Bulo",
               "3",
               "2",
@@ -6610,7 +6624,7 @@
             ],
             [
               "Series — Serie A",
-              "2",
+              "3",
               "Real Potosí",
               "3",
               "1",
@@ -6619,20 +6633,6 @@
               "0",
               "3",
               "2",
-              "+1",
-              "Liguilla final"
-            ],
-            [
-              "Series — Serie A",
-              "3",
-              "Aurora",
-              "3",
-              "1",
-              "1",
-              "0",
-              "0",
-              "1",
-              "0",
               "+1",
               ""
             ],
@@ -6752,13 +6752,13 @@
               "Series — Serie C",
               "4",
               "Universitario de Vinto",
-              "0",
               "1",
-              "0",
+              "2",
               "0",
               "1",
               "1",
               "2",
+              "3",
               "− 1",
               ""
             ],
@@ -6823,9 +6823,9 @@
           "selection_reason": "se combinaron 4 grupos detectados en vez de mostrar uno solo",
           "logos": [
             "",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-2-400x400.png",
             "https://flagcdn.com/w80/bo.png",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-2-400x400.png",
             "",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-1-400x400.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-6-400x400.png",
@@ -6842,9 +6842,9 @@
           ],
           "countries": [
             "",
+            "Cochabamba",
             "Bolivia",
             "Potos",
-            "Cochabamba",
             "La Paz",
             "Bolivia",
             "Tarija",
@@ -6861,8 +6861,8 @@
           ],
           "badge_types": [
             "none",
-            "country_flag",
             "club_logo",
+            "country_flag",
             "club_logo",
             "none",
             "club_logo",
@@ -6889,7 +6889,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-01T23:05:54.469367Z",
+        "scraped_at": "2026-09-02T03:11:04.965175Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7331,7 +7331,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-01T23:05:54.469367Z",
+        "scraped_at": "2026-09-02T03:11:04.965175Z",
         "extra": {
           "rows": [
             [
@@ -7813,7 +7813,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-01T23:05:54.067462Z",
+        "scraped_at": "2026-09-02T03:11:04.542941Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7904,7 +7904,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-01T23:05:54.083161Z",
+        "scraped_at": "2026-09-02T03:11:04.558899Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7995,7 +7995,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-01T23:05:54.469367Z",
+        "scraped_at": "2026-09-02T03:11:04.965175Z",
         "extra": {
           "rows": [
             [
@@ -8473,7 +8473,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-01T23:05:53.673117Z",
+        "scraped_at": "2026-09-02T03:11:04.141662Z",
         "extra": {
           "rows": [
             [
@@ -8991,7 +8991,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-01T23:05:56.998684Z",
+        "scraped_at": "2026-09-02T03:11:07.501134Z",
         "extra": {
           "header": [
             "Fecha",
@@ -9705,7 +9705,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-01T23:05:56.998684Z",
+        "scraped_at": "2026-09-02T03:11:07.501134Z",
         "extra": {
           "rows": [
             [
@@ -10187,7 +10187,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-01T23:05:56.314420Z",
+        "scraped_at": "2026-09-02T03:11:06.810608Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10264,7 +10264,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-01T23:05:56.330359Z",
+        "scraped_at": "2026-09-02T03:11:06.826701Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10325,7 +10325,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-01T23:05:56.998684Z",
+        "scraped_at": "2026-09-02T03:11:07.501134Z",
         "extra": {
           "rows": [
             [
@@ -10803,7 +10803,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-01T23:05:55.654349Z",
+        "scraped_at": "2026-09-02T03:11:06.148428Z",
         "extra": {
           "rows": [
             [
@@ -11325,7 +11325,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-01T23:03:46.921436Z",
+        "scraped_at": "2026-09-02T03:08:55.373845Z",
         "source_id": "lostiempos_deportes",
         "source_name": "Los Tiempos - Deportes",
         "source_type": "media",
@@ -11337,32 +11337,32 @@
         "extra": {
           "rows": [
             [
-              "1 Nueva viceministra de Telecomunicaciones priorizará transparencia Ver más",
-              "2 Beller ya es “testigo protegida” y pide ampliar declaración contra Cerimedo Ver más"
+              "1 Paz propone realizar reformas parciales a la Constitución Ver más",
+              "2 Desde Libre afirman que Tuto asistirá a convocatorias de Paz sobre reforma a la CPE Ver más"
             ],
             [
-              "3 Diputada Diana Romero denuncia difamación y rechaza “política barata” Ver más",
-              "4 Cochabamba afronta nevadas, sequías y riesgo de desbordes de ríos Ver más"
+              "3 Sospechoso del ataque a Beller da detalles del hecho Ver más",
+              "4 Sectores productivos de Cochabamba dan cinco días de plazo al Gobierno para responder al mandato productivo Ver más"
             ],
             [
-              "5 El presidente posesiona al nuevo Alto Mando policial Ver más",
-              "6 Cochabamba se viste de celeste en septiembre por su mes aniversario Ver más"
+              "5 Incendio en el Parque Tunari ya dura 12 horas Ver más",
+              "6 Senamhi advierte un \"súper niño muy fuerte\" para este trimestre con un aumento de calor de 1,8 en La Paz Ver más"
             ],
             [
-              "7 Comunicado Viva Ver más",
-              "8 Gobierno llama a analizar el futuro de la subvención a los carburantes en Bolivia Ver más"
+              "7 Rusia lanzó ataque masivo contra Kiev y sus alrededores Ver más",
+              "8 BCB evalúa dejar de comprar oro del mercado interno y plantea convertir las reservas en dólares Ver más"
             ],
             [
-              "9 Sokol pide reprogramar su declaración en el caso ‘audios’ Ver más",
-              "10 Adiós: Lionel Messi se retira de la Selección Argentina después de seis campeonatos mundiales Ver más"
+              "9 Quillacollo celebrará sus 121 años con una serenata en el frontis del estadio municipal Ver más",
+              "10 Unión Europea incluye a Bolivia en lista de países de alto riesgo por \"deficiencias\" en prevención del lavado de dinero Ver más"
             ]
           ],
           "logos": [
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/31/cynthia_aramayo_31-8-26_mosp.jpg?itok=df669J9p",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/31/diana_comunicado_ed_va.jpg?itok=4cIlt9ng",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/31/alto_mando_policial_31-8-26_abi.jpg?itok=zgkOOgBO",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/31/viva_1.jpg?itok=q-Z-StjZ",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/31/sok_en_us_embassy.jpg?itok=lKiznl9I"
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/31/paz_en_crz_31-8-26_rpp.jpg?itok=BqXJSR9Y",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/31/aldo_en_rrss.jpg?itok=A0FKdOqj",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/8/31/fier_arocagua_2.jpg?itok=h6WLjIMu",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/1/ucrania_kiev_ed_v.jpg?itok=-tt9k7AJ",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/1/quillacollo_serenata_ed.jpg?itok=KJCr1I_d"
           ],
           "strong_standings": false,
           "row_groups": null,

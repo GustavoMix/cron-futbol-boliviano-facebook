@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-09-06T00:40:55.912176Z",
+  "generated_at": "2026-09-06T05:36:37.901055Z",
   "policy": "datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback",
   "assets_policy": "club_logo > country_flag > none",
   "team_assets": {
@@ -546,7 +546,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-09-06T00:39:47.036765Z",
+        "scraped_at": "2026-09-06T05:35:01.981279Z",
         "extra": {
           "header": [
             "Fecha",
@@ -2652,7 +2652,7 @@
             [
               "Fecha 18",
               "Aurora",
-              "–",
+              "3 – 0",
               "GV San José",
               "Félix Capriles",
               "5 de septiembre",
@@ -2667,7 +2667,7 @@
             [
               "Fecha 18",
               "Oriente Petrolero",
-              "–",
+              "1 – 2",
               "Always Ready",
               "Ramón Aguilera Costas",
               "5 de septiembre",
@@ -4664,7 +4664,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-06T00:39:46.829863Z",
+        "scraped_at": "2026-09-06T05:35:01.618999Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -4690,6 +4690,19 @@
             ],
             [
               "1",
+              "Always Ready",
+              "39",
+              "18",
+              "11",
+              "6",
+              "1",
+              "37",
+              "13",
+              "+24",
+              "Fase de grupos de Copa Libertadores"
+            ],
+            [
+              "2",
               "Bolívar",
               "36",
               "17",
@@ -4699,19 +4712,6 @@
               "44",
               "19",
               "+25",
-              "Fase de grupos de Copa Libertadores"
-            ],
-            [
-              "2",
-              "Always Ready",
-              "36",
-              "17",
-              "10",
-              "6",
-              "1",
-              "35",
-              "12",
-              "+23",
               "Fase de grupos de Copa Libertadores"
             ],
             [
@@ -4731,17 +4731,30 @@
               "4",
               "Oriente Petrolero",
               "27",
-              "17",
+              "18",
               "8",
               "3",
-              "6",
-              "32",
-              "23",
-              "+9",
+              "7",
+              "33",
+              "25",
+              "+8",
               "Primera fase de Copa Sudamericana"
             ],
             [
               "5",
+              "Aurora",
+              "27",
+              "18",
+              "6",
+              "9",
+              "3",
+              "28",
+              "24",
+              "+4",
+              "Primera fase de Copa Sudamericana"
+            ],
+            [
+              "6",
               "Real Potosí",
               "26",
               "18",
@@ -4754,7 +4767,7 @@
               "Primera fase de Copa Sudamericana"
             ],
             [
-              "6",
+              "7",
               "Guabirá",
               "26",
               "18",
@@ -4764,10 +4777,10 @@
               "29",
               "32",
               "− 3",
-              "Primera fase de Copa Sudamericana"
+              ""
             ],
             [
-              "7",
+              "8",
               "Independiente Petrolero",
               "25",
               "17",
@@ -4777,19 +4790,6 @@
               "25",
               "25",
               "0",
-              ""
-            ],
-            [
-              "8",
-              "Aurora",
-              "24",
-              "17",
-              "5",
-              "9",
-              "3",
-              "25",
-              "24",
-              "+1",
               ""
             ],
             [
@@ -4874,13 +4874,13 @@
               "15",
               "GV San José",
               "14",
-              "17",
+              "18",
               "2",
               "8",
-              "7",
+              "8",
               "19",
-              "27",
-              "− 8",
+              "30",
+              "− 11",
               "Promoción"
             ],
             [
@@ -4899,14 +4899,14 @@
           ],
           "logos": [
             "",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-3-400x400.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-1-400x400.png",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-3-400x400.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-11-400x400.png",
             "",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-2-400x400.png",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Escudo_Club_Independiente_Petrolero.png/250px-Escudo_Club_Independiente_Petrolero.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-2-400x400.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-4-400x400.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-9-400x400.png",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200",
@@ -4923,14 +4923,14 @@
           "selection_reason": "única tabla de posiciones detectada para esta competición",
           "countries": [
             "",
-            "La Paz",
             "Bolivia",
             "La Paz",
+            "La Paz",
             "Santa Cruz",
+            "Cochabamba",
             "Potos",
             "Santa Cruz",
             "Chuquisaca",
-            "Cochabamba",
             "Santa Cruz",
             "Potos",
             "Bolivia",
@@ -4947,8 +4947,8 @@
             "club_logo",
             "none",
             "club_logo",
-            "none",
             "club_logo",
+            "none",
             "club_logo",
             "club_logo",
             "club_logo",
@@ -4974,7 +4974,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-06T00:39:47.062429Z",
+        "scraped_at": "2026-09-06T05:35:02.025694Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5073,7 +5073,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-06T00:39:47.068639Z",
+        "scraped_at": "2026-09-06T05:35:02.036305Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5150,7 +5150,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-06T00:39:47.082175Z",
+        "scraped_at": "2026-09-06T05:35:02.058750Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5391,7 +5391,7 @@
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-09-06T00:39:47.432617Z",
+        "scraped_at": "2026-09-06T05:35:02.390478Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6577,7 +6577,7 @@
         "source_name": "Series — Serie A + Series — Serie B + Series — Serie C + Series — Serie D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-09-06T00:39:47.387349Z",
+        "scraped_at": "2026-09-06T05:35:02.314217Z",
         "extra": {
           "rows": [
             [
@@ -6889,7 +6889,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-06T00:39:48.650766Z",
+        "scraped_at": "2026-09-06T05:35:04.378136Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7331,7 +7331,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-06T00:39:48.650766Z",
+        "scraped_at": "2026-09-06T05:35:04.378136Z",
         "extra": {
           "rows": [
             [
@@ -7813,7 +7813,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-06T00:39:48.429864Z",
+        "scraped_at": "2026-09-06T05:35:03.990964Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7904,7 +7904,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-06T00:39:48.438629Z",
+        "scraped_at": "2026-09-06T05:35:04.005896Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7995,7 +7995,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-06T00:39:48.650766Z",
+        "scraped_at": "2026-09-06T05:35:04.378136Z",
         "extra": {
           "rows": [
             [
@@ -8473,7 +8473,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-06T00:39:48.188381Z",
+        "scraped_at": "2026-09-06T05:35:03.571605Z",
         "extra": {
           "rows": [
             [
@@ -8991,7 +8991,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-06T00:39:50.189876Z",
+        "scraped_at": "2026-09-06T05:35:06.879157Z",
         "extra": {
           "header": [
             "Fecha",
@@ -9705,7 +9705,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-06T00:39:50.189876Z",
+        "scraped_at": "2026-09-06T05:35:06.879157Z",
         "extra": {
           "rows": [
             [
@@ -10187,7 +10187,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-06T00:39:49.803313Z",
+        "scraped_at": "2026-09-06T05:35:06.223037Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10264,7 +10264,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-06T00:39:49.812402Z",
+        "scraped_at": "2026-09-06T05:35:06.238314Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10325,7 +10325,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-06T00:39:50.189876Z",
+        "scraped_at": "2026-09-06T05:35:06.879157Z",
         "extra": {
           "rows": [
             [
@@ -10803,7 +10803,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-06T00:39:49.375792Z",
+        "scraped_at": "2026-09-06T05:35:05.532971Z",
         "extra": {
           "rows": [
             [
@@ -11325,7 +11325,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-06T00:36:48.709421Z",
+        "scraped_at": "2026-09-06T05:32:55.961664Z",
         "source_id": "lostiempos_deportes",
         "source_name": "Los Tiempos - Deportes",
         "source_type": "media",
@@ -11337,32 +11337,32 @@
         "extra": {
           "rows": [
             [
-              "1 Reestructuración de YPFB y ANH será con consultorías internacionales Ver más",
-              "2 Tragedia: Sedes reporta más de 50 heridos por explosión en cuartel en Viacha Ver más"
+              "1 Defensa: fallecidos y desaparecidos por las explosiones en Viacha son conscriptos y los heridos suben a más de 80 Ver más",
+              "2 Buscan a 14 uniformados desaparecidos en la explosión en Viacha Ver más"
             ],
             [
-              "3 Hay cerca de 60 heridos por explosiones en cuartel de Viacha Ver más",
-              "4 Aprueban Política Antidroga 2026-2030 Ver más"
+              "3 Viacha declara tres días de duelo por las víctimas de la explosión en el Regimiento Bolívar Ver más",
+              "4 “Estamos jodidos”, afirma alcalde de Viacha tras explosiones que dejan más de 80 heridos Ver más"
             ],
             [
-              "5 Confirman 2 muertos por explosiones en Viacha Ver más",
-              "6 Defensa: fallecidos y desaparecidos por las explosiones en Viacha son conscriptos y los heridos suben a más de 80 Ver más"
+              "5 Fiscalía de La Paz investiga la muerte de dos personas por las explosiones en el Regimiento “Bolívar” de Viacha Ver más",
+              "6 Suben a tres los fallecidos por las explosiones en el cuartel de Viacha Ver más"
             ],
             [
-              "7 Buscan a 14 uniformados desaparecidos en la explosión en Viacha Ver más",
-              "8 Viacha declara tres días de duelo por las víctimas de la explosión en el Regimiento Bolívar Ver más"
+              "7 Investigación apunta a pirotecnia decomisada hace años y a “boosters como causas de las explosiones Ver más",
+              "8 Persiste alto riesgo en zona de explosiones y remoción de escombros aún no puede avanzar Ver más"
             ],
             [
-              "9 “Estamos jodidos”, afirma alcalde de Viacha tras explosiones que dejan más de 80 heridos Ver más",
-              "10 Fiscalía de La Paz investiga la muerte de dos personas por las explosiones en el Regimiento “Bolívar” de Viacha Ver más"
+              "9 Viacha: recuperan un cuerpo entre los escombros y suman tres los fallecidos Ver más",
+              "10 Ejército identifica a la tercera víctima de la explosión en Viacha y compromete asistencia a la familia Ver más"
             ]
           ],
           "logos": [
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/4/interve_anh_mhe.jpg?itok=6VojKnvR",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/4/auxilio_eju.jpg?itok=eopyeUrI",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/4/tareas_bum_viacha_red_uno_4-9-26.jpg?itok=armb8hlU",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/5/viacha_3_va.jpg?itok=vQ-PH0Lk",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/5/viacha_alcalde_va.jpg?itok=NSX8jyp2"
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/5/viacha_defensa_va.jpg?itok=m7CFveCY",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/5/img-20260816-wa0082_2.jpg?itok=0FPgc5nv",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/5/img-20260905-wa0048.jpg?itok=3WFQDHRC",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/5/viacha_bomberos.jpg?itok=eQeFtRxR",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/5/797336850_921402983921129_8109638816865588300_n_1_1.jpg?itok=jLnWmSOo"
           ],
           "strong_standings": false,
           "row_groups": null,

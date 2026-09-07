@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-09-06T22:04:19.307472Z",
+  "generated_at": "2026-09-07T00:47:07.684223Z",
   "policy": "datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback",
   "assets_policy": "club_logo > country_flag > none",
   "team_assets": {
@@ -546,7 +546,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-09-06T22:02:22.766755Z",
+        "scraped_at": "2026-09-07T00:45:32.321530Z",
         "extra": {
           "header": [
             "Fecha",
@@ -2682,7 +2682,7 @@
             [
               "Fecha 18",
               "Independiente Petrolero",
-              "–",
+              "0 – 4",
               "Bolívar",
               "Olímpico Patria",
               "6 de septiembre",
@@ -2701,7 +2701,7 @@
               "Real Tomayapo",
               "Hernando Siles",
               "6 de septiembre",
-              "17:15",
+              "18:00",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-11-400x400.png",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-6-400x400.png",
               "La Paz",
@@ -4664,7 +4664,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-06T22:02:22.404874Z",
+        "scraped_at": "2026-09-07T00:45:31.953310Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -4690,6 +4690,19 @@
             ],
             [
               "1",
+              "Bolívar",
+              "39",
+              "18",
+              "12",
+              "3",
+              "3",
+              "48",
+              "19",
+              "+29",
+              "Fase de grupos de Copa Libertadores"
+            ],
+            [
+              "2",
               "Always Ready",
               "39",
               "18",
@@ -4699,19 +4712,6 @@
               "37",
               "13",
               "+24",
-              "Fase de grupos de Copa Libertadores"
-            ],
-            [
-              "2",
-              "Bolívar",
-              "36",
-              "17",
-              "11",
-              "3",
-              "3",
-              "44",
-              "19",
-              "+25",
               "Fase de grupos de Copa Libertadores"
             ],
             [
@@ -4783,13 +4783,13 @@
               "8",
               "Independiente Petrolero",
               "25",
-              "17",
+              "18",
               "7",
               "4",
-              "6",
+              "7",
               "25",
-              "25",
-              "0",
+              "29",
+              "− 4",
               ""
             ],
             [
@@ -4899,8 +4899,8 @@
           ],
           "logos": [
             "",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-1-400x400.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-3-400x400.png",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-1-400x400.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-11-400x400.png",
             "",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-2-400x400.png",
@@ -4923,8 +4923,8 @@
           "selection_reason": "única tabla de posiciones detectada para esta competición",
           "countries": [
             "",
-            "Bolivia",
             "La Paz",
+            "Bolivia",
             "La Paz",
             "Santa Cruz",
             "Cochabamba",
@@ -4974,7 +4974,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-06T22:02:22.810279Z",
+        "scraped_at": "2026-09-07T00:45:32.365374Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5073,7 +5073,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-06T22:02:22.820724Z",
+        "scraped_at": "2026-09-07T00:45:32.375946Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5150,7 +5150,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-06T22:02:22.843377Z",
+        "scraped_at": "2026-09-07T00:45:32.398610Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5391,7 +5391,7 @@
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-09-06T22:02:23.282221Z",
+        "scraped_at": "2026-09-07T00:45:32.817467Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6577,7 +6577,7 @@
         "source_name": "Series — Serie A + Series — Serie B + Series — Serie C + Series — Serie D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-09-06T22:02:23.204810Z",
+        "scraped_at": "2026-09-07T00:45:32.739945Z",
         "extra": {
           "rows": [
             [
@@ -6889,7 +6889,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-06T22:02:25.374625Z",
+        "scraped_at": "2026-09-07T00:45:34.941465Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7331,7 +7331,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-06T22:02:25.374625Z",
+        "scraped_at": "2026-09-07T00:45:34.941465Z",
         "extra": {
           "rows": [
             [
@@ -7813,7 +7813,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-06T22:02:24.992063Z",
+        "scraped_at": "2026-09-07T00:45:34.558662Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7904,7 +7904,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-06T22:02:25.006663Z",
+        "scraped_at": "2026-09-07T00:45:34.573396Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7995,7 +7995,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-06T22:02:25.374625Z",
+        "scraped_at": "2026-09-07T00:45:34.941465Z",
         "extra": {
           "rows": [
             [
@@ -8473,7 +8473,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-06T22:02:24.574802Z",
+        "scraped_at": "2026-09-07T00:45:34.144772Z",
         "extra": {
           "rows": [
             [
@@ -8991,7 +8991,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-06T22:02:27.949034Z",
+        "scraped_at": "2026-09-07T00:45:37.427088Z",
         "extra": {
           "header": [
             "Fecha",
@@ -9705,7 +9705,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-06T22:02:27.949034Z",
+        "scraped_at": "2026-09-07T00:45:37.427088Z",
         "extra": {
           "rows": [
             [
@@ -10187,7 +10187,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-06T22:02:27.261454Z",
+        "scraped_at": "2026-09-07T00:45:36.782879Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10264,7 +10264,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-06T22:02:27.277232Z",
+        "scraped_at": "2026-09-07T00:45:36.798128Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10325,7 +10325,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-06T22:02:27.949034Z",
+        "scraped_at": "2026-09-07T00:45:37.427088Z",
         "extra": {
           "rows": [
             [
@@ -10803,7 +10803,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-06T22:02:26.540725Z",
+        "scraped_at": "2026-09-07T00:45:36.082078Z",
         "extra": {
           "rows": [
             [
@@ -11325,7 +11325,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-06T21:59:26.970891Z",
+        "scraped_at": "2026-09-07T00:43:15.478421Z",
         "source_id": "lostiempos_deportes",
         "source_name": "Los Tiempos - Deportes",
         "source_type": "media",
@@ -11346,23 +11346,23 @@
             ],
             [
               "5 Persiste alto riesgo en zona de explosiones y remoción de escombros aún no puede avanzar Ver más",
-              "6 Viacha: recuperan un cuerpo entre los escombros y suman tres los fallecidos Ver más"
+              "6 Walter Gonzáles, periodista, habla sobre Urkupiña, Quillacollo y sus retos como ciudad, en Podcast Los Tiempos Ver más"
             ],
             [
-              "7 Ejército identifica a la tercera víctima de la explosión en Viacha y compromete asistencia a la familia Ver más",
-              "8 En lo que va del año, cuatro incidentes ponen bajo la lupa la seguridad en recintos militares Ver más"
+              "7 Viacha: recuperan un cuerpo entre los escombros y suman tres los fallecidos Ver más",
+              "8 Ejército identifica a la tercera víctima de la explosión en Viacha y compromete asistencia a la familia Ver más"
             ],
             [
-              "9 Voluntarios de Viacha buscan a perros afectados por la explosión y piden ayuda Ver más",
-              "10 Estrecho de Magallanes: ¿el Ormuz latinoamericano? Ver más"
+              "9 En lo que va del año, cuatro incidentes ponen bajo la lupa la seguridad en recintos militares Ver más",
+              "10 Voluntarios de Viacha buscan a perros afectados por la explosión y piden ayuda Ver más"
             ]
           ],
           "logos": [
             "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/5/viacha_heridos.jpg?itok=s0zQ3Jxl",
             "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/5/viacha_bomberos.jpg?itok=eQeFtRxR",
             "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/5/viacha_explosivos_va.jpg?itok=xZNTLQXC",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/5/peritos_1.jpg?itok=rTLSSfyp",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/5/perros_extraviados-por-la-explocion_1.jpg?itok=2oRBtlW3"
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/5/797336850_921402983921129_8109638816865588300_n_1_1.jpg?itok=jLnWmSOo",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/5/9f3454f6-e2a3-4195-be0e-da19d765eb94_0_1.jpg?itok=t2LNEPYy"
           ],
           "strong_standings": false,
           "row_groups": null,

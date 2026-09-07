@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-09-07T00:47:07.684223Z",
+  "generated_at": "2026-09-07T05:47:21.555122Z",
   "policy": "datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback",
   "assets_policy": "club_logo > country_flag > none",
   "team_assets": {
@@ -546,7 +546,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-09-07T00:45:32.321530Z",
+        "scraped_at": "2026-09-07T05:46:20.152816Z",
         "extra": {
           "header": [
             "Fecha",
@@ -2697,7 +2697,7 @@
             [
               "Fecha 18",
               "The Strongest",
-              "–",
+              "3 – 1",
               "Real Tomayapo",
               "Hernando Siles",
               "6 de septiembre",
@@ -2712,7 +2712,7 @@
             [
               "Fecha 18",
               "Nacional Potosí",
-              "–",
+              "2 – 1",
               "Blooming",
               "Víctor Agustín Ugarte",
               "6 de septiembre",
@@ -4664,7 +4664,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-07T00:45:31.953310Z",
+        "scraped_at": "2026-09-07T05:46:19.792680Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -4717,14 +4717,14 @@
             [
               "3",
               "The Strongest",
-              "33",
-              "17",
-              "9",
+              "36",
+              "18",
+              "10",
               "6",
               "2",
-              "29",
-              "20",
-              "+9",
+              "32",
+              "21",
+              "+11",
               "Fase 1 de Copa Libertadores"
             ],
             [
@@ -4794,28 +4794,28 @@
             ],
             [
               "9",
-              "Blooming",
-              "23",
-              "17",
-              "5",
-              "8",
-              "4",
-              "22",
+              "Nacional Potosí",
+              "24",
               "18",
-              "+4",
+              "7",
+              "3",
+              "8",
+              "27",
+              "24",
+              "+3",
               ""
             ],
             [
               "10",
-              "Nacional Potosí",
-              "21",
-              "17",
-              "6",
-              "3",
-              "8",
-              "25",
+              "Blooming",
               "23",
-              "+2",
+              "18",
+              "5",
+              "8",
+              "5",
+              "23",
+              "20",
+              "+3",
               ""
             ],
             [
@@ -4861,13 +4861,13 @@
               "14",
               "Real Tomayapo",
               "16",
-              "17",
+              "18",
               "4",
               "4",
-              "9",
-              "13",
-              "32",
-              "− 19",
+              "10",
+              "14",
+              "35",
+              "− 21",
               ""
             ],
             [
@@ -4907,8 +4907,8 @@
             "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Escudo_Club_Independiente_Petrolero.png/250px-Escudo_Club_Independiente_Petrolero.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-4-400x400.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-9-400x400.png",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-4-400x400.png",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200",
             "",
             "https://flagcdn.com/w80/bo.png",
@@ -4931,8 +4931,8 @@
             "Potos",
             "Santa Cruz",
             "Chuquisaca",
-            "Santa Cruz",
             "Potos",
+            "Santa Cruz",
             "Bolivia",
             "La Paz",
             "Bolivia",
@@ -4974,7 +4974,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-07T00:45:32.365374Z",
+        "scraped_at": "2026-09-07T05:46:20.196813Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5073,7 +5073,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-07T00:45:32.375946Z",
+        "scraped_at": "2026-09-07T05:46:20.207291Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5150,7 +5150,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-07T00:45:32.398610Z",
+        "scraped_at": "2026-09-07T05:46:20.231138Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5352,6 +5352,18 @@
               "",
               "Guabirá",
               "Jornada 17"
+            ],
+            [
+              "16",
+              "05/09/2026",
+              "Joaquín Lencinas",
+              "3 - 0, 14'",
+              "Aurora",
+              "",
+              "3 – 0",
+              "",
+              "GV San José",
+              "Jornada 18"
             ]
           ],
           "logos": [
@@ -5370,12 +5382,13 @@
             "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/20px-Flag_of_Germany.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
             "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
             "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
           ],
           "strong_standings": false,
           "row_groups": null,
           "related_sources": [],
-          "selection_score": 1.014,
+          "selection_score": 1.018,
           "selected_as_current": true,
           "selection_reason": "prioriza fuente oficial/autoridad + tipo de tabla + cantidad de filas"
         },
@@ -5391,7 +5404,7 @@
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-09-07T00:45:32.817467Z",
+        "scraped_at": "2026-09-07T05:46:20.574554Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6577,7 +6590,7 @@
         "source_name": "Series — Serie A + Series — Serie B + Series — Serie C + Series — Serie D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-09-07T00:45:32.739945Z",
+        "scraped_at": "2026-09-07T05:46:20.497734Z",
         "extra": {
           "rows": [
             [
@@ -6889,7 +6902,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-07T00:45:34.941465Z",
+        "scraped_at": "2026-09-07T05:46:22.601566Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7331,7 +7344,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-07T00:45:34.941465Z",
+        "scraped_at": "2026-09-07T05:46:22.601566Z",
         "extra": {
           "rows": [
             [
@@ -7813,7 +7826,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-07T00:45:34.558662Z",
+        "scraped_at": "2026-09-07T05:46:22.221822Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7904,7 +7917,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-07T00:45:34.573396Z",
+        "scraped_at": "2026-09-07T05:46:22.236012Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7995,7 +8008,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-07T00:45:34.941465Z",
+        "scraped_at": "2026-09-07T05:46:22.601566Z",
         "extra": {
           "rows": [
             [
@@ -8473,7 +8486,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-07T00:45:34.144772Z",
+        "scraped_at": "2026-09-07T05:46:21.824853Z",
         "extra": {
           "rows": [
             [
@@ -8991,7 +9004,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-07T00:45:37.427088Z",
+        "scraped_at": "2026-09-07T05:46:25.058323Z",
         "extra": {
           "header": [
             "Fecha",
@@ -9705,7 +9718,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-07T00:45:37.427088Z",
+        "scraped_at": "2026-09-07T05:46:25.058323Z",
         "extra": {
           "rows": [
             [
@@ -10187,7 +10200,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-07T00:45:36.782879Z",
+        "scraped_at": "2026-09-07T05:46:24.403497Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10264,7 +10277,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-07T00:45:36.798128Z",
+        "scraped_at": "2026-09-07T05:46:24.418506Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10325,7 +10338,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-07T00:45:37.427088Z",
+        "scraped_at": "2026-09-07T05:46:25.058323Z",
         "extra": {
           "rows": [
             [
@@ -10803,7 +10816,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-07T00:45:36.082078Z",
+        "scraped_at": "2026-09-07T05:46:23.712472Z",
         "extra": {
           "rows": [
             [
@@ -11325,7 +11338,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-07T00:43:15.478421Z",
+        "scraped_at": "2026-09-07T05:44:04.562082Z",
         "source_id": "lostiempos_deportes",
         "source_name": "Los Tiempos - Deportes",
         "source_type": "media",
@@ -11337,32 +11350,17 @@
         "extra": {
           "rows": [
             [
-              "1 Suben a tres los fallecidos por las explosiones en el cuartel de Viacha Ver más",
-              "2 Urgen resolver casos armas, oro y droga en maderas Ver más"
+              "1 Urgen resolver casos armas, oro y droga en maderas Ver más",
+              "2 Rol protagónico de Cerimedo baja el prestigio de Paz Ver más"
             ],
             [
-              "3 Investigación apunta a pirotecnia decomisada hace años y a “boosters como causas de las explosiones Ver más",
-              "4 Rol protagónico de Cerimedo baja el prestigio de Paz Ver más"
-            ],
-            [
-              "5 Persiste alto riesgo en zona de explosiones y remoción de escombros aún no puede avanzar Ver más",
-              "6 Walter Gonzáles, periodista, habla sobre Urkupiña, Quillacollo y sus retos como ciudad, en Podcast Los Tiempos Ver más"
-            ],
-            [
-              "7 Viacha: recuperan un cuerpo entre los escombros y suman tres los fallecidos Ver más",
-              "8 Ejército identifica a la tercera víctima de la explosión en Viacha y compromete asistencia a la familia Ver más"
-            ],
-            [
-              "9 En lo que va del año, cuatro incidentes ponen bajo la lupa la seguridad en recintos militares Ver más",
-              "10 Voluntarios de Viacha buscan a perros afectados por la explosión y piden ayuda Ver más"
+              "3 Walter Gonzáles, periodista, habla sobre Urkupiña, Quillacollo y sus retos como ciudad, en Podcast Los Tiempos Ver más",
+              ""
             ]
           ],
           "logos": [
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/5/viacha_heridos.jpg?itok=s0zQ3Jxl",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/5/viacha_bomberos.jpg?itok=eQeFtRxR",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/5/viacha_explosivos_va.jpg?itok=xZNTLQXC",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/5/797336850_921402983921129_8109638816865588300_n_1_1.jpg?itok=jLnWmSOo",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/5/9f3454f6-e2a3-4195-be0e-da19d765eb94_0_1.jpg?itok=t2LNEPYy"
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/6/4_esp_michel_1_aduanas_de_chile_0.jpg?itok=DUrrPRBT",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/6/walter.jpg?itok=ai-qk6pF"
           ],
           "strong_standings": false,
           "row_groups": null,
@@ -11373,7 +11371,7 @@
               "published_at": null
             }
           ],
-          "selection_score": 0.92,
+          "selection_score": 0.908,
           "selected_as_current": true,
           "selection_reason": "única tabla de posiciones detectada para esta competición"
         },

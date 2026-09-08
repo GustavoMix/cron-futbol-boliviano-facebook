@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-09-08T14:59:42.927297Z",
+  "generated_at": "2026-09-08T18:35:00.462355Z",
   "architecture": "3 Facebook groups + 1 web group; feed editorial + fases KO verificadas por serie completa",
   "facebook_groups": [
     {
@@ -25,15 +25,15 @@
   "totals": {
     "facebook_items": 0,
     "web_latest_items": 200,
-    "app_feed_items": 144
+    "app_feed_items": 135
   },
   "web": {
-    "generated_at": "2026-09-08T14:59:42.793895Z",
+    "generated_at": "2026-09-08T18:35:00.283851Z",
     "totals": {
       "items_before_filter": 689,
-      "items_after_filter_dedupe": 485,
-      "web_sources_ok": 42,
-      "web_sources_error": 7,
+      "items_after_filter_dedupe": 488,
+      "web_sources_ok": 41,
+      "web_sources_error": 8,
       "social_items": 0
     },
     "errors": [
@@ -51,7 +51,11 @@
       },
       {
         "source": "abi_deportes",
-        "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7fd75c977200>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+        "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7fad6439a420>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+      },
+      {
+        "source": "reduno_stats",
+        "error": "HTTPError: 522 Server Error: <none> for url: https://deportes.reduno.com.bo/html/v3/htmlCenter/data/deportes/futbol/bolivia/statsCenter/"
       },
       {
         "source": "conmebol_eliminatorias",

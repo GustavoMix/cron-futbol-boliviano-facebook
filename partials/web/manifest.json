@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-09-07T21:15:06.476440Z",
+  "generated_at": "2026-09-08T00:05:13.847905Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,13 +9,13 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 248
+      "items": 246
     },
     "conmebol.json": {
       "items": 90
     },
     "internacional.json": {
-      "items": 109
+      "items": 120
     },
     "social.json": {
       "items": 0
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 102
+      "items": 111
     },
     "current_tables.json": {
       "items": 0
@@ -194,7 +194,7 @@
       "id": "vision360_futbol_boliviano",
       "name": "Visión 360 - Fútbol Boliviano",
       "ok": true,
-      "items": 34
+      "items": 32
     },
     {
       "id": "oxigeno_deportes",
@@ -344,7 +344,7 @@
     },
     {
       "source": "abi_deportes",
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f9345e98080>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f55d8a80fb0>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
     },
     {
       "source": "conmebol_eliminatorias",
@@ -356,8 +356,8 @@
     }
   ],
   "totals": {
-    "items_before_filter": 689,
-    "items_after_filter_dedupe": 447,
+    "items_before_filter": 687,
+    "items_after_filter_dedupe": 456,
     "web_sources_ok": 42,
     "web_sources_error": 7,
     "social_items": 0

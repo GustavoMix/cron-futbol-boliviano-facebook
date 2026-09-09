@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-09-09T08:45:23.504386Z",
+  "generated_at": "2026-09-09T13:29:42.707896Z",
   "architecture": "3 Facebook groups + 1 web group; feed editorial + fases KO verificadas por serie completa",
   "facebook_groups": [
     {
@@ -25,15 +25,15 @@
   "totals": {
     "facebook_items": 0,
     "web_latest_items": 200,
-    "app_feed_items": 181
+    "app_feed_items": 157
   },
   "web": {
-    "generated_at": "2026-09-09T08:45:23.237178Z",
+    "generated_at": "2026-09-09T13:29:42.579014Z",
     "totals": {
-      "items_before_filter": 718,
-      "items_after_filter_dedupe": 531,
-      "web_sources_ok": 43,
-      "web_sources_error": 6,
+      "items_before_filter": 647,
+      "items_after_filter_dedupe": 471,
+      "web_sources_ok": 42,
+      "web_sources_error": 7,
       "social_items": 0
     },
     "errors": [
@@ -44,6 +44,10 @@
       {
         "source": "eldeber_deportes",
         "error": "HTTPError: 403 Client Error: Forbidden for url: https://eldeber.com.bo/deportes"
+      },
+      {
+        "source": "larazon_futbol_boliviano",
+        "error": "HTTPError: 403 Client Error: Forbidden for url: https://larazon.bo/categoria/marcas/futbol-profesional-boliviano/"
       },
       {
         "source": "conmebol_eliminatorias",

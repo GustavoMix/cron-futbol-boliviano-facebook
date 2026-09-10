@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-09-10T03:24:03.448606Z",
+  "generated_at": "2026-09-10T08:45:16.295007Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -15,7 +15,7 @@
       "items": 90
     },
     "internacional.json": {
-      "items": 161
+      "items": 164
     },
     "social.json": {
       "items": 0
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 198
+      "items": 192
     },
     "current_tables.json": {
       "items": 0
@@ -340,7 +340,7 @@
     },
     {
       "source": "abi_deportes",
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f0b44848470>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7fc6c0683830>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
     },
     {
       "source": "conmebol_eliminatorias",
@@ -353,7 +353,7 @@
   ],
   "totals": {
     "items_before_filter": 762,
-    "items_after_filter_dedupe": 568,
+    "items_after_filter_dedupe": 571,
     "web_sources_ok": 43,
     "web_sources_error": 6,
     "social_items": 0

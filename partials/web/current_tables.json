@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-09-11T01:02:01.839068Z",
+  "generated_at": "2026-09-11T05:54:08.814867Z",
   "policy": "datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback",
   "assets_policy": "club_logo > country_flag > none",
   "team_assets": {
@@ -546,7 +546,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-09-11T01:00:56.699151Z",
+        "scraped_at": "2026-09-11T05:52:39.193724Z",
         "extra": {
           "header": [
             "Fecha",
@@ -4664,7 +4664,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-11T01:00:56.417924Z",
+        "scraped_at": "2026-09-11T05:52:39.019298Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -4974,7 +4974,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-11T01:00:56.729149Z",
+        "scraped_at": "2026-09-11T05:52:39.214969Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5073,7 +5073,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-11T01:00:56.736371Z",
+        "scraped_at": "2026-09-11T05:52:39.220144Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5150,7 +5150,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-11T01:00:56.751857Z",
+        "scraped_at": "2026-09-11T05:52:39.231165Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5404,7 +5404,7 @@
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-09-11T01:00:57.109501Z",
+        "scraped_at": "2026-09-11T05:52:39.427289Z",
         "extra": {
           "header": [
             "Fecha",
@@ -5776,15 +5776,15 @@
             ],
             [
               "Fecha 3",
-              "Real Oruro",
-              "–",
+              "Real Tomayapo",
+              "2 – 0",
               "Always Ready",
-              "Jesús Bermúdez",
+              "IV Centenario",
               "10 de septiembre",
               "18:30",
-              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200",
+              "https://fbf.com.bo/wp-content/uploads/2025/12/1-6-400x400.png",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-1-400x400.png",
-              "Bolivia",
+              "Tarija",
               "Bolivia",
               "club_logo",
               "club_logo",
@@ -5793,7 +5793,7 @@
             [
               "Fecha 3",
               "Bolívar",
-              "–",
+              "1 – 1",
               "Independiente Petrolero",
               "Hernando Siles",
               "10 de septiembre",
@@ -6470,7 +6470,7 @@
             "Bolivia",
             "Cochabamba",
             "Santa Cruz",
-            "Bolivia",
+            "Tarija",
             "La Paz",
             "Bolivia",
             "Cochabamba",
@@ -6590,7 +6590,7 @@
         "source_name": "Series — Serie A + Series — Serie B + Series — Serie C + Series — Serie D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-09-11T01:00:57.056748Z",
+        "scraped_at": "2026-09-11T05:52:39.389905Z",
         "extra": {
           "rows": [
             [
@@ -6680,29 +6680,29 @@
             [
               "Series — Serie B",
               "2",
-              "Always Ready",
+              "Real Tomayapo",
               "6",
-              "2",
+              "3",
               "2",
               "0",
-              "0",
+              "1",
+              "6",
               "5",
-              "2",
-              "+3",
+              "+1",
               "Liguilla final"
             ],
             [
               "Series — Serie B",
               "3",
-              "Real Tomayapo",
+              "Always Ready",
+              "6",
               "3",
               "2",
-              "1",
               "0",
               "1",
-              "4",
               "5",
-              "− 1",
+              "4",
+              "+1",
               ""
             ],
             [
@@ -6779,13 +6779,13 @@
               "Series — Serie D",
               "1",
               "Bolívar",
+              "7",
+              "3",
+              "2",
+              "1",
+              "0",
               "6",
-              "2",
-              "2",
-              "0",
-              "0",
-              "5",
-              "2",
+              "3",
               "+3",
               "Liguilla final"
             ],
@@ -6793,33 +6793,19 @@
               "Series — Serie D",
               "2",
               "Independiente Petrolero",
+              "4",
               "3",
-              "2",
               "1",
-              "0",
               "1",
-              "5",
-              "5",
+              "1",
+              "6",
+              "6",
               "0",
               "Liguilla final"
             ],
             [
               "Series — Serie D",
               "3",
-              "GV San José",
-              "3",
-              "3",
-              "1",
-              "0",
-              "2",
-              "5",
-              "7",
-              "− 2",
-              ""
-            ],
-            [
-              "Series — Serie D",
-              "4",
               "Blooming",
               "3",
               "3",
@@ -6828,6 +6814,20 @@
               "2",
               "7",
               "9",
+              "− 2",
+              ""
+            ],
+            [
+              "Series — Serie D",
+              "4",
+              "GV San José",
+              "3",
+              "3",
+              "1",
+              "0",
+              "2",
+              "5",
+              "7",
               "− 2",
               ""
             ]
@@ -6841,8 +6841,8 @@
             "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-9-400x400.png",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-1-400x400.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-6-400x400.png",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-1-400x400.png",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200",
             "",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-11-400x400.png",
@@ -6850,8 +6850,8 @@
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/U_de_Vinto.png/250px-U_de_Vinto.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-3-400x400.png",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Escudo_Club_Independiente_Petrolero.png/250px-Escudo_Club_Independiente_Petrolero.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-4-400x400.png"
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-4-400x400.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
           ],
           "countries": [
             "",
@@ -6860,8 +6860,8 @@
             "Potos",
             "La Paz",
             "Potos",
-            "Bolivia",
             "Tarija",
+            "Bolivia",
             "Bolivia",
             "Santa Cruz",
             "La Paz",
@@ -6869,8 +6869,8 @@
             "Cochabamba",
             "La Paz",
             "Chuquisaca",
-            "Bolivia",
-            "Santa Cruz"
+            "Santa Cruz",
+            "Bolivia"
           ],
           "badge_types": [
             "none",
@@ -6902,7 +6902,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-11T01:00:58.477652Z",
+        "scraped_at": "2026-09-11T05:52:40.472204Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7193,7 +7193,7 @@
             [
               "Cuartos de final",
               "Independiente del Valle",
-              "vs.",
+              "0:2 (0:0)",
               "Flamengo",
               "Estadio Olímpico Atahualpa , Quito",
               "10 de septiembre, 19:30 ( UTC-5 )",
@@ -7344,7 +7344,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-11T01:00:58.477652Z",
+        "scraped_at": "2026-09-11T05:52:40.472204Z",
         "extra": {
           "rows": [
             [
@@ -7826,7 +7826,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-11T01:00:58.221167Z",
+        "scraped_at": "2026-09-11T05:52:40.289012Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7853,53 +7853,25 @@
               "Carlos González",
               "Independiente del Valle",
               "7",
-              "8"
-            ],
-            [
-              "Lorenzo Melgarejo",
-              "Libertad",
-              "4",
-              "5"
-            ],
-            [
-              "Fernando Zampedri",
-              "Universidad Católica",
-              "4",
-              "7"
+              "9"
             ],
             [
               "Bruno Henrique",
               "Flamengo",
-              "4",
-              "8"
-            ],
-            [
-              "Matheus Pereira",
-              "Cruzeiro",
-              "4",
-              "8"
-            ],
-            [
-              "Francisco Fydriszewski",
-              "Independiente Medellín",
-              "4",
-              "10"
+              "5",
+              "9"
             ]
           ],
           "logos": [
             "",
             "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/20px-Flag_of_Paraguay.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
             "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/20px-Flag_of_Paraguay.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/20px-Flag_of_Paraguay.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/20px-Flag_of_Brazil.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/20px-Flag_of_Brazil.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/20px-Flag_of_Brazil.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
           ],
           "strong_standings": false,
           "row_groups": null,
           "related_sources": [],
-          "selection_score": 0.982,
+          "selection_score": 0.966,
           "selected_as_current": true,
           "selection_reason": "prioriza fuente oficial/autoridad + tipo de tabla + cantidad de filas"
         },
@@ -7917,7 +7889,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-11T01:00:58.231198Z",
+        "scraped_at": "2026-09-11T05:52:40.295843Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7934,13 +7906,13 @@
               "Asistencias"
             ],
             [
-              "Matías Fernández",
-              "Independiente Rivadavia",
-              "4"
-            ],
-            [
               "Rodrigo Garro",
               "Corinthians",
+              "5"
+            ],
+            [
+              "Matías Fernández",
+              "Independiente Rivadavia",
               "4"
             ],
             [
@@ -7952,31 +7924,6 @@
               "Sebastián Villa",
               "Independiente Rivadavia",
               "4"
-            ],
-            [
-              "Alesson",
-              "Mirassol",
-              "3"
-            ],
-            [
-              "Lautaro Blanco",
-              "Boca Juniors",
-              "3"
-            ],
-            [
-              "Janner Corozo",
-              "Liga de Quito",
-              "3"
-            ],
-            [
-              "Mauro Díaz",
-              "Universidad Católica",
-              "3"
-            ],
-            [
-              "Pedro",
-              "Flamengo",
-              "3"
             ]
           ],
           "logos": [
@@ -7984,17 +7931,12 @@
             "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
             "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
             "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/20px-Flag_of_Colombia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/20px-Flag_of_Brazil.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/20px-Flag_of_Ecuador.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/20px-Flag_of_Brazil.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/20px-Flag_of_Colombia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
           ],
           "strong_standings": false,
           "row_groups": null,
           "related_sources": [],
-          "selection_score": 0.99,
+          "selection_score": 0.97,
           "selected_as_current": true,
           "selection_reason": "prioriza fuente oficial/autoridad + tipo de tabla + cantidad de filas"
         },
@@ -8008,7 +7950,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-11T01:00:58.477652Z",
+        "scraped_at": "2026-09-11T05:52:40.472204Z",
         "extra": {
           "rows": [
             [
@@ -8486,7 +8428,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-11T01:00:57.945246Z",
+        "scraped_at": "2026-09-11T05:52:40.093024Z",
         "extra": {
           "rows": [
             [
@@ -9004,7 +8946,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-11T01:01:00.231278Z",
+        "scraped_at": "2026-09-11T05:52:42.000541Z",
         "extra": {
           "header": [
             "Fecha",
@@ -9595,7 +9537,7 @@
             [
               "Cuartos de final",
               "Cienciano",
-              "vs.",
+              "2:0 (2:0)",
               "Montevideo City Torque",
               "Estadio Inca Garcilaso de la Vega , Cusco",
               "10 de septiembre, 19:30 ( UTC-5 )",
@@ -9718,7 +9660,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-11T01:01:00.231278Z",
+        "scraped_at": "2026-09-11T05:52:42.000541Z",
         "extra": {
           "rows": [
             [
@@ -10200,7 +10142,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-11T01:00:59.782756Z",
+        "scraped_at": "2026-09-11T05:52:41.666759Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10218,22 +10160,22 @@
               "Part."
             ],
             [
-              "Gabriel Barbosa",
-              "Santos",
-              "5",
-              "7"
-            ],
-            [
               "Rodrigo Contreras",
               "Millonarios",
               "5",
               "7"
             ],
             [
+              "Gabriel Barbosa",
+              "Santos",
+              "5",
+              "8"
+            ],
+            [
               "Salomón Rodríguez",
               "Montevideo City Torque",
               "5",
-              "9"
+              "10"
             ],
             [
               "Adson",
@@ -10245,13 +10187,13 @@
               "Carlos Garcés",
               "Cienciano",
               "4",
-              "10"
+              "11"
             ]
           ],
           "logos": [
             "",
-            "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/20px-Flag_of_Brazil.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
             "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/20px-Flag_of_Brazil.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
             "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/20px-Flag_of_Uruguay.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
             "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/20px-Flag_of_Brazil.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
             "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/20px-Flag_of_Ecuador.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
@@ -10277,7 +10219,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-11T01:00:59.793165Z",
+        "scraped_at": "2026-09-11T05:52:41.674277Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10292,6 +10234,11 @@
               "Jugador",
               "Club",
               "Asistencias"
+            ],
+            [
+              "Gabriel Barbosa",
+              "Santos",
+              "5"
             ],
             [
               "Cristian Souza",
@@ -10316,6 +10263,7 @@
           ],
           "logos": [
             "",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/20px-Flag_of_Brazil.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
             "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/20px-Flag_of_Uruguay.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
             "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/20px-Flag_of_Uruguay.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
             "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
@@ -10324,7 +10272,7 @@
           "strong_standings": false,
           "row_groups": null,
           "related_sources": [],
-          "selection_score": 0.97,
+          "selection_score": 0.974,
           "selected_as_current": true,
           "selection_reason": "prioriza fuente oficial/autoridad + tipo de tabla + cantidad de filas"
         },
@@ -10338,7 +10286,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-11T01:01:00.231278Z",
+        "scraped_at": "2026-09-11T05:52:42.000541Z",
         "extra": {
           "rows": [
             [
@@ -10816,7 +10764,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-11T01:00:59.258559Z",
+        "scraped_at": "2026-09-11T05:52:41.327923Z",
         "extra": {
           "rows": [
             [
@@ -11338,7 +11286,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-11T00:57:36.076621Z",
+        "scraped_at": "2026-09-11T05:50:29.718254Z",
         "source_id": "lostiempos_deportes",
         "source_name": "Los Tiempos - Deportes",
         "source_type": "media",
@@ -11350,32 +11298,32 @@
         "extra": {
           "rows": [
             [
-              "1 Diputados aprueba ley para restitución de derechos de militares y policías dados de baja en 2019 Ver más",
-              "2 Segip supera la emisión de 6.500 cédulas en seis países y anuncia más brigadas móviles Ver más"
+              "1 Atracan una joyería en un centro comercial de la avenida Pando, en Cochabamba Ver más",
+              "2 Gobierno se compromete ante el FMI a eliminar la subvención de combustibles en 2027 Ver más"
             ],
             [
-              "3 Atracan una joyería en un centro comercial de la avenida Pando, en Cochabamba Ver más",
-              "4 Gobierno se compromete ante el FMI a eliminar la subvención de combustibles en 2027 Ver más"
+              "3 Revelan imágenes de la huida de los asaltantes de la joyería y el abandono del coche Ver más",
+              "4 OIEA remite a Irán al Consejo de Seguridad de ONU por incumplir sus obligaciones nucleares Ver más"
             ],
             [
-              "5 Revelan imágenes de la huida de los asaltantes de la joyería y el abandono del coche Ver más",
-              "6 OIEA remite a Irán al Consejo de Seguridad de ONU por incumplir sus obligaciones nucleares Ver más"
+              "5 Toman muestras de sangre a familias de 5 soldados muertos Ver más",
+              "6 Viacha: Tras incidente, las FFAA apoyan a militar y Lara seguirá investigando Ver más"
             ],
             [
-              "7 Toman muestras de sangre a familias de 5 soldados muertos Ver más",
-              "8 Viacha: Tras incidente, las FFAA apoyan a militar y Lara seguirá investigando Ver más"
+              "7 Fiscalía argentina quiere a Beller de testigo en un caso contra Cerimedo Ver más",
+              "8 Gobierno reactiva la refinería de Cochabamba para subir oferta de diésel Ver más"
             ],
             [
-              "9 Fiscalía argentina quiere a Beller de testigo en un caso contra Cerimedo Ver más",
-              "10 Gobierno reactiva la refinería de Cochabamba para subir oferta de diésel Ver más"
+              "9 Precio del petróleo superó los $us 100 por la escalada de ataques entre EEUU e Irán Ver más",
+              "10 Claves para crear la foto más realista de cómo me vería en los años 80 con IA Ver más"
             ]
           ],
           "logos": [
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/9/asamblea_votacion_la_prensa_ed_va.jpg?itok=8Wm3EiZQ",
             "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/10/atraco_joyeria_3_ok.jpg?itok=AvEVWNHE",
             "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/10/atraco.jpg?itok=eokuFh7q",
             "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/10/3_p_1_ministerio_de_defensa.jpg?itok=Y8-W0v-X",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/10/5_p_1_rrss.jpg?itok=KSuc2UIL"
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/10/5_p_1_rrss.jpg?itok=KSuc2UIL",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/10/7_eco_1_xinhua.jpg?itok=qFkcm4zo"
           ],
           "strong_standings": false,
           "row_groups": null,

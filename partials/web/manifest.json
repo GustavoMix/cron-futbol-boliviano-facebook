@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-09-11T14:55:56.836512Z",
+  "generated_at": "2026-09-11T18:17:22.062913Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,13 +9,13 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 264
+      "items": 258
     },
     "conmebol.json": {
       "items": 90
     },
     "internacional.json": {
-      "items": 164
+      "items": 166
     },
     "social.json": {
       "items": 0
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 159
+      "items": 139
     },
     "current_tables.json": {
       "items": 0
@@ -145,14 +145,14 @@
     {
       "id": "diez_futbol",
       "name": "DIEZ - Fútbol",
-      "ok": false,
-      "items": 0
+      "ok": true,
+      "items": 41
     },
     {
       "id": "diez_futbol_boliviano",
       "name": "DIEZ - Fútbol Boliviano",
-      "ok": false,
-      "items": 0
+      "ok": true,
+      "items": 29
     },
     {
       "id": "eldeber_deportes",
@@ -187,8 +187,8 @@
     {
       "id": "larazon_futbol_boliviano",
       "name": "La Razón - Fútbol Profesional Boliviano",
-      "ok": true,
-      "items": 71
+      "ok": false,
+      "items": 0
     },
     {
       "id": "vision360_futbol_boliviano",
@@ -314,7 +314,7 @@
       "id": "goal_espanol",
       "name": "Goal.com (español)",
       "ok": true,
-      "items": 39
+      "items": 40
     },
     {
       "id": "foxsports_latam",
@@ -335,20 +335,16 @@
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://promediosinfo.com/liga/bolivia.html"
     },
     {
-      "source": "diez_futbol",
-      "error": "ConnectionError: HTTPSConnectionPool(host='diez.bo', port=443): Max retries exceeded with url: /futbol (Caused by NameResolutionError(\"HTTPSConnection(host='diez.bo', port=443): Failed to resolve 'diez.bo' ([Errno -2] Name or service not known)\"))"
-    },
-    {
-      "source": "diez_futbol_boliviano",
-      "error": "ConnectionError: HTTPSConnectionPool(host='diez.bo', port=443): Max retries exceeded with url: /tag/futbol-boliviano (Caused by NameResolutionError(\"HTTPSConnection(host='diez.bo', port=443): Failed to resolve 'diez.bo' ([Errno -2] Name or service not known)\"))"
-    },
-    {
       "source": "eldeber_deportes",
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://eldeber.com.bo/deportes"
     },
     {
+      "source": "larazon_futbol_boliviano",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://larazon.bo/categoria/marcas/futbol-profesional-boliviano/"
+    },
+    {
       "source": "abi_deportes",
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f909eab1b80>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f6f32defa70>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
     },
     {
       "source": "conmebol_eliminatorias",
@@ -361,9 +357,9 @@
   ],
   "totals": {
     "items_before_filter": 692,
-    "items_after_filter_dedupe": 518,
-    "web_sources_ok": 41,
-    "web_sources_error": 8,
+    "items_after_filter_dedupe": 514,
+    "web_sources_ok": 42,
+    "web_sources_error": 7,
     "social_items": 0
   }
 }

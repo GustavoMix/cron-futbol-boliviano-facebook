@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-09-12T12:44:12.749037Z",
+  "generated_at": "2026-09-12T16:04:57.357421Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,13 +9,13 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 296
+      "items": 318
     },
     "conmebol.json": {
       "items": 90
     },
     "internacional.json": {
-      "items": 126
+      "items": 160
     },
     "social.json": {
       "items": 0
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 155
+      "items": 163
     },
     "current_tables.json": {
       "items": 0
@@ -169,8 +169,8 @@
     {
       "id": "opinion_futbol_boliviano",
       "name": "Opinión - Fútbol Boliviano",
-      "ok": false,
-      "items": 0
+      "ok": true,
+      "items": 20
     },
     {
       "id": "erbol_deporte",
@@ -194,13 +194,13 @@
       "id": "vision360_futbol_boliviano",
       "name": "Visión 360 - Fútbol Boliviano",
       "ok": true,
-      "items": 35
+      "items": 34
     },
     {
       "id": "oxigeno_deportes",
       "name": "Oxígeno - Deportes",
-      "ok": false,
-      "items": 0
+      "ok": true,
+      "items": 12
     },
     {
       "id": "atb_deportes",
@@ -301,8 +301,8 @@
     {
       "id": "as_futbol",
       "name": "AS.com - Fútbol",
-      "ok": false,
-      "items": 0
+      "ok": true,
+      "items": 52
     },
     {
       "id": "ole_futbol_internacional",
@@ -314,7 +314,7 @@
       "id": "goal_espanol",
       "name": "Goal.com (español)",
       "ok": true,
-      "items": 39
+      "items": 40
     },
     {
       "id": "foxsports_latam",
@@ -339,24 +339,12 @@
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://eldeber.com.bo/deportes"
     },
     {
-      "source": "opinion_futbol_boliviano",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.opinion.com.bo/deportes/futbol-boliviano/"
-    },
-    {
-      "source": "oxigeno_deportes",
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='oxigeno.bo', port=443): Max retries exceeded with url: /categorias/deportes/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='oxigeno.bo', port=443) at 0x7fc17994fa40>, 'Connection to oxigeno.bo timed out. (connect timeout=25)'))"
-    },
-    {
       "source": "abi_deportes",
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7fc178fc22d0>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7fb782ee9970>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
     },
     {
       "source": "conmebol_eliminatorias",
       "error": "HTTPError: 404 Client Error: Not Found for url: https://www.conmebol.com/eliminatorias/"
-    },
-    {
-      "source": "as_futbol",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://as.com/futbol/"
     },
     {
       "source": "foxsports_latam",
@@ -364,10 +352,10 @@
     }
   ],
   "totals": {
-    "items_before_filter": 676,
-    "items_after_filter_dedupe": 512,
-    "web_sources_ok": 40,
-    "web_sources_error": 9,
+    "items_before_filter": 760,
+    "items_after_filter_dedupe": 568,
+    "web_sources_ok": 43,
+    "web_sources_error": 6,
     "social_items": 0
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-09-12T22:01:22.957684Z",
+  "generated_at": "2026-09-13T00:00:22.005572Z",
   "policy": "datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback",
   "assets_policy": "club_logo > country_flag > none",
   "team_assets": {
@@ -546,7 +546,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-09-12T22:00:07.176544Z",
+        "scraped_at": "2026-09-12T23:59:14.711750Z",
         "extra": {
           "header": [
             "Fecha",
@@ -2757,7 +2757,7 @@
             [
               "Fecha 19",
               "GV San José",
-              "–",
+              "0 – 3",
               "Nacional Potosí",
               "Jesús Bermúdez",
               "12 de septiembre",
@@ -4664,7 +4664,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-12T22:00:06.801179Z",
+        "scraped_at": "2026-09-12T23:59:14.426321Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -4974,7 +4974,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-12T22:00:07.223437Z",
+        "scraped_at": "2026-09-12T23:59:14.746140Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5073,7 +5073,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-12T22:00:07.234725Z",
+        "scraped_at": "2026-09-12T23:59:14.754667Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5150,7 +5150,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-12T22:00:07.259180Z",
+        "scraped_at": "2026-09-12T23:59:14.772646Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5417,7 +5417,7 @@
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-09-12T22:00:07.635208Z",
+        "scraped_at": "2026-09-12T23:59:15.069879Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6603,7 +6603,7 @@
         "source_name": "Series — Serie A + Series — Serie B + Series — Serie C + Series — Serie D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-09-12T22:00:07.555983Z",
+        "scraped_at": "2026-09-12T23:59:15.008761Z",
         "extra": {
           "rows": [
             [
@@ -6915,7 +6915,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-12T22:00:09.668521Z",
+        "scraped_at": "2026-09-12T23:59:16.694634Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7357,7 +7357,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-12T22:00:09.668521Z",
+        "scraped_at": "2026-09-12T23:59:16.694634Z",
         "extra": {
           "rows": [
             [
@@ -7839,7 +7839,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-12T22:00:09.290150Z",
+        "scraped_at": "2026-09-12T23:59:16.396976Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7902,7 +7902,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-12T22:00:09.304373Z",
+        "scraped_at": "2026-09-12T23:59:16.408030Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7963,7 +7963,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-12T22:00:09.668521Z",
+        "scraped_at": "2026-09-12T23:59:16.694634Z",
         "extra": {
           "rows": [
             [
@@ -8441,7 +8441,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-12T22:00:08.880784Z",
+        "scraped_at": "2026-09-12T23:59:16.036707Z",
         "extra": {
           "rows": [
             [
@@ -8959,7 +8959,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-12T22:00:12.192150Z",
+        "scraped_at": "2026-09-12T23:59:18.716617Z",
         "extra": {
           "header": [
             "Fecha",
@@ -9673,7 +9673,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-12T22:00:12.192150Z",
+        "scraped_at": "2026-09-12T23:59:18.716617Z",
         "extra": {
           "rows": [
             [
@@ -10155,7 +10155,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-12T22:00:11.523605Z",
+        "scraped_at": "2026-09-12T23:59:18.196095Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10232,7 +10232,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-12T22:00:11.539055Z",
+        "scraped_at": "2026-09-12T23:59:18.207391Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10299,7 +10299,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-12T22:00:12.192150Z",
+        "scraped_at": "2026-09-12T23:59:18.716617Z",
         "extra": {
           "rows": [
             [
@@ -10777,7 +10777,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-12T22:00:10.813809Z",
+        "scraped_at": "2026-09-12T23:59:17.597278Z",
         "extra": {
           "rows": [
             [
@@ -11299,7 +11299,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-12T21:58:09.463101Z",
+        "scraped_at": "2026-09-12T23:56:55.226506Z",
         "source_id": "lostiempos_deportes",
         "source_name": "Los Tiempos - Deportes",
         "source_type": "media",

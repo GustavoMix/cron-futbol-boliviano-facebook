@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-09-13T10:05:31.135759Z",
+  "generated_at": "2026-09-13T14:53:17.697271Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,13 +9,13 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 317
+      "items": 318
     },
     "conmebol.json": {
       "items": 90
     },
     "internacional.json": {
-      "items": 126
+      "items": 165
     },
     "social.json": {
       "items": 0
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 161
+      "items": 159
     },
     "current_tables.json": {
       "items": 0
@@ -163,8 +163,8 @@
     {
       "id": "lostiempos_deportes",
       "name": "Los Tiempos - Deportes",
-      "ok": false,
-      "items": 0
+      "ok": true,
+      "items": 1
     },
     {
       "id": "opinion_futbol_boliviano",
@@ -188,7 +188,7 @@
       "id": "larazon_futbol_boliviano",
       "name": "La Razón - Fútbol Profesional Boliviano",
       "ok": true,
-      "items": 70
+      "items": 71
     },
     {
       "id": "vision360_futbol_boliviano",
@@ -301,8 +301,8 @@
     {
       "id": "as_futbol",
       "name": "AS.com - Fútbol",
-      "ok": false,
-      "items": 0
+      "ok": true,
+      "items": 52
     },
     {
       "id": "ole_futbol_internacional",
@@ -339,20 +339,12 @@
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://eldeber.com.bo/deportes"
     },
     {
-      "source": "lostiempos_deportes",
-      "error": "ConnectionError: HTTPSConnectionPool(host='www.lostiempos.com', port=443): Max retries exceeded with url: /deportes (Caused by NewConnectionError(\"HTTPSConnection(host='www.lostiempos.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
-    },
-    {
       "source": "abi_deportes",
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f3df1b4deb0>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f1486d77da0>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
     },
     {
       "source": "conmebol_eliminatorias",
       "error": "HTTPError: 404 Client Error: Not Found for url: https://www.conmebol.com/eliminatorias/"
-    },
-    {
-      "source": "as_futbol",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://as.com/futbol/"
     },
     {
       "source": "foxsports_latam",
@@ -360,10 +352,10 @@
     }
   ],
   "totals": {
-    "items_before_filter": 714,
-    "items_after_filter_dedupe": 533,
-    "web_sources_ok": 41,
-    "web_sources_error": 8,
+    "items_before_filter": 768,
+    "items_after_filter_dedupe": 573,
+    "web_sources_ok": 43,
+    "web_sources_error": 6,
     "social_items": 0
   }
 }

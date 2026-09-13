@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-09-13T20:44:01.230982Z",
+  "generated_at": "2026-09-13T22:58:28.195575Z",
   "policy": "datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback",
   "assets_policy": "club_logo > country_flag > none",
   "team_assets": {
@@ -546,7 +546,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-09-13T20:42:48.076437Z",
+        "scraped_at": "2026-09-13T22:57:20.521924Z",
         "extra": {
           "header": [
             "Fecha",
@@ -2802,7 +2802,7 @@
             [
               "Fecha 19",
               "Always Ready",
-              "–",
+              "6 – 0",
               "Guabirá",
               "Municipal de El Alto",
               "13 de septiembre",
@@ -4664,7 +4664,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-13T20:42:47.715832Z",
+        "scraped_at": "2026-09-13T22:57:20.107729Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -4690,6 +4690,19 @@
             ],
             [
               "1",
+              "Always Ready",
+              "42",
+              "19",
+              "12",
+              "6",
+              "1",
+              "43",
+              "13",
+              "+30",
+              "Fase de grupos de Copa Libertadores"
+            ],
+            [
+              "2",
               "Bolívar",
               "39",
               "18",
@@ -4699,19 +4712,6 @@
               "48",
               "19",
               "+29",
-              "Fase de grupos de Copa Libertadores"
-            ],
-            [
-              "2",
-              "Always Ready",
-              "39",
-              "18",
-              "11",
-              "6",
-              "1",
-              "37",
-              "13",
-              "+24",
               "Fase de grupos de Copa Libertadores"
             ],
             [
@@ -4796,13 +4796,13 @@
               "9",
               "Guabirá",
               "26",
-              "18",
+              "19",
               "7",
               "5",
-              "6",
+              "7",
               "29",
-              "32",
-              "− 3",
+              "38",
+              "− 9",
               ""
             ],
             [
@@ -4899,8 +4899,8 @@
           ],
           "logos": [
             "",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-3-400x400.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-1-400x400.png",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-3-400x400.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-11-400x400.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-2-400x400.png",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -4923,8 +4923,8 @@
           "selection_reason": "única tabla de posiciones detectada para esta competición",
           "countries": [
             "",
-            "La Paz",
             "Bolivia",
+            "La Paz",
             "La Paz",
             "Cochabamba",
             "Potos",
@@ -4974,7 +4974,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-13T20:42:48.120325Z",
+        "scraped_at": "2026-09-13T22:57:20.573745Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5073,7 +5073,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-13T20:42:48.130826Z",
+        "scraped_at": "2026-09-13T22:57:20.585850Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5150,7 +5150,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-13T20:42:48.153726Z",
+        "scraped_at": "2026-09-13T22:57:20.612314Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5417,7 +5417,7 @@
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-09-13T20:42:48.619975Z",
+        "scraped_at": "2026-09-13T22:57:21.143387Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6603,7 +6603,7 @@
         "source_name": "Series — Serie A + Series — Serie B + Series — Serie C + Series — Serie D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-09-13T20:42:48.542773Z",
+        "scraped_at": "2026-09-13T22:57:21.065074Z",
         "extra": {
           "rows": [
             [
@@ -6915,7 +6915,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-13T20:42:50.661024Z",
+        "scraped_at": "2026-09-13T22:57:23.933404Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7357,7 +7357,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-13T20:42:50.661024Z",
+        "scraped_at": "2026-09-13T22:57:23.933404Z",
         "extra": {
           "rows": [
             [
@@ -7839,7 +7839,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-13T20:42:50.285334Z",
+        "scraped_at": "2026-09-13T22:57:23.501838Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7902,7 +7902,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-13T20:42:50.299436Z",
+        "scraped_at": "2026-09-13T22:57:23.518701Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7963,7 +7963,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-13T20:42:50.661024Z",
+        "scraped_at": "2026-09-13T22:57:23.933404Z",
         "extra": {
           "rows": [
             [
@@ -8441,7 +8441,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-13T20:42:49.823808Z",
+        "scraped_at": "2026-09-13T22:57:22.965823Z",
         "extra": {
           "rows": [
             [
@@ -8959,7 +8959,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-13T20:42:53.257439Z",
+        "scraped_at": "2026-09-13T22:57:27.031881Z",
         "extra": {
           "header": [
             "Fecha",
@@ -9673,7 +9673,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-13T20:42:53.257439Z",
+        "scraped_at": "2026-09-13T22:57:27.031881Z",
         "extra": {
           "rows": [
             [
@@ -10155,7 +10155,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-13T20:42:52.591741Z",
+        "scraped_at": "2026-09-13T22:57:26.310762Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10232,7 +10232,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-13T20:42:52.607170Z",
+        "scraped_at": "2026-09-13T22:57:26.327142Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10299,7 +10299,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-13T20:42:53.257439Z",
+        "scraped_at": "2026-09-13T22:57:27.031881Z",
         "extra": {
           "rows": [
             [
@@ -10777,7 +10777,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-13T20:42:51.829423Z",
+        "scraped_at": "2026-09-13T22:57:25.510286Z",
         "extra": {
           "rows": [
             [
@@ -11289,8 +11289,8 @@
     },
     "general": {
       "standings": {
-        "id": "54a7497a1e0da787f6ac",
-        "kind": "standings",
+        "id": "40be4379252eb9ba4c95",
+        "kind": "table",
         "title": "Deportes",
         "text": "",
         "url": "https://www.lostiempos.com/deportes",
@@ -11299,7 +11299,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-13T20:40:51.174017Z",
+        "scraped_at": "2026-09-13T22:55:24.293738Z",
         "source_id": "lostiempos_deportes",
         "source_name": "Los Tiempos - Deportes",
         "source_type": "media",
@@ -11311,36 +11311,43 @@
         "extra": {
           "rows": [
             [
-              "1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más",
-              "2 Nacional Potosí hunde más a GV San José, que no sale del fondo de la tabla Ver más"
+              "1 Enric Mas gana la Vuelta a España y sucede a Contador 12 años después Ver más",
+              "2 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más"
             ],
             [
-              "3 Marc Márquez gana el GP de San Marino y alcanza el liderato en MotoGP Ver más",
-              "4 Municipios de Cochabamba acuerdan con la UPRE priorizar obras para 2027 Ver más"
+              "3 Sao Paulo: Sube a 5 los muertos tras el derrumbe de un edificio sobre una casa habitada por bolivianos Ver más",
+              "4 Presidente Paz participará en actos protocolares y entrega de obras en Cochabamba Ver más"
             ],
             [
-              "5 FC Universitario pretende redimirse a costa de Independiente Ver más",
-              "6 Ejército convoca a 14 militares a declarar por explosiones en Viacha Ver más"
+              "5 Inauguran Terrapuerto Cochabamba, a la vanguardia con su nueva terminal de buses Ver más",
+              "6 Premier League: El Arsenal mantiene el pleno tras ganar al Sunderland Ver más"
             ],
             [
-              "7 YPFB Logística detecta manipulación ilegal en una cisterna de diésel y activa protocolos de seguridad Ver más",
-              "8 Sondeo del IBCE: 96% de los bolivianos consultados rechaza los bloqueos como medida de presión Ver más"
+              "7 Hallan nuevos restos en cuartel de Viacha y Ejército denuncia al exministro Novillo Ver más",
+              "8 Un Real Madrid de dos velocidades supera a un inocente Rayo Vallecano Ver más"
             ],
             [
-              "9 The Strongest golea y se acerca a los líderes del certamen de la División Profesional Ver más",
-              "10 Cochabamba inaugura Terrapuerto, la nueva terminal de buses, en la zona de Albarrancho Ver más"
+              "9 Enrique Aráoz: “Alturas sonoras” es una propuesta de gala y solemne Ver más",
+              "10 Patricia Cortes conquista su segundo título profesional en el tenis de playa Ver más"
             ]
           ],
           "logos": [
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/11/zamora_2_1.jpg?itok=mqWyzXZG",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/13/marca_one_ok.jpg?itok=E9RGO_us",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/12/universitario_12.jpg?itok=SjbBekn8",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/12/c1.jpg?itok=y4eYaL2T",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/12/whatsapp_image_2026-09-12_at_8.25.43_pm1.jpg?itok=jIJbLMex"
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/13/mas.jpg?itok=qcg4ASwL",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/13/viory.jpg?itok=8TtuS-3T",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/13/2_pag_1_rochaaaaaa.jpg?itok=Y2788a0b",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/13/4_pais_1_abi.jpg?itok=SXiYCoPH",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/13/dc_cartelera_1_enrique_araoz.jpg.jpg?itok=NCIcfKrA"
           ],
           "strong_standings": false,
           "row_groups": null,
-          "selection_score": 1.0,
+          "related_sources": [
+            {
+              "source_name": "ERBOL - Deporte",
+              "url": "https://erbol.com.bo/deporte",
+              "published_at": null
+            }
+          ],
+          "selection_score": 0.92,
           "selected_as_current": true,
           "selection_reason": "única tabla de posiciones detectada para esta competición"
         },

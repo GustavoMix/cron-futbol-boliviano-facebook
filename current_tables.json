@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-09-14T18:07:00.343225Z",
+  "generated_at": "2026-09-14T22:21:09.214542Z",
   "policy": "datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback",
   "assets_policy": "club_logo > country_flag > none",
   "team_assets": {
@@ -546,7 +546,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-09-14T18:05:39.926297Z",
+        "scraped_at": "2026-09-14T22:19:52.964070Z",
         "extra": {
           "header": [
             "Fecha",
@@ -2832,7 +2832,7 @@
             [
               "Fecha 19",
               "Real Tomayapo",
-              "–",
+              "1 – 2",
               "Bolívar",
               "IV Centenario",
               "13 de septiembre",
@@ -4664,7 +4664,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-14T18:05:39.552098Z",
+        "scraped_at": "2026-09-14T22:19:52.595790Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -4690,6 +4690,19 @@
             ],
             [
               "1",
+              "Bolívar",
+              "42",
+              "19",
+              "13",
+              "3",
+              "3",
+              "50",
+              "20",
+              "+30",
+              "Fase de grupos de Copa Libertadores"
+            ],
+            [
+              "2",
               "Always Ready",
               "42",
               "19",
@@ -4699,19 +4712,6 @@
               "43",
               "13",
               "+30",
-              "Fase de grupos de Copa Libertadores"
-            ],
-            [
-              "2",
-              "Bolívar",
-              "39",
-              "18",
-              "12",
-              "3",
-              "3",
-              "48",
-              "19",
-              "+29",
               "Fase de grupos de Copa Libertadores"
             ],
             [
@@ -4874,13 +4874,13 @@
               "15",
               "Real Tomayapo",
               "16",
-              "18",
+              "19",
               "4",
               "4",
-              "10",
-              "14",
-              "35",
-              "− 21",
+              "11",
+              "15",
+              "37",
+              "− 22",
               "Promoción"
             ],
             [
@@ -4899,8 +4899,8 @@
           ],
           "logos": [
             "",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-1-400x400.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-3-400x400.png",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-1-400x400.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-11-400x400.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-2-400x400.png",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -4923,8 +4923,8 @@
           "selection_reason": "única tabla de posiciones detectada para esta competición",
           "countries": [
             "",
-            "Bolivia",
             "La Paz",
+            "Bolivia",
             "La Paz",
             "Cochabamba",
             "Potos",
@@ -4974,7 +4974,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-14T18:05:39.970706Z",
+        "scraped_at": "2026-09-14T22:19:53.008723Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5073,7 +5073,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-14T18:05:39.981164Z",
+        "scraped_at": "2026-09-14T22:19:53.019463Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5150,7 +5150,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-14T18:05:40.005077Z",
+        "scraped_at": "2026-09-14T22:19:53.042776Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5430,7 +5430,7 @@
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-09-14T18:05:40.566207Z",
+        "scraped_at": "2026-09-14T22:19:53.437641Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6616,7 +6616,7 @@
         "source_name": "Series — Serie A + Series — Serie B + Series — Serie C + Series — Serie D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-09-14T18:05:40.486769Z",
+        "scraped_at": "2026-09-14T22:19:53.358603Z",
         "extra": {
           "rows": [
             [
@@ -6928,7 +6928,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-14T18:05:42.732614Z",
+        "scraped_at": "2026-09-14T22:19:55.432183Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7370,7 +7370,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-14T18:05:42.732614Z",
+        "scraped_at": "2026-09-14T22:19:55.432183Z",
         "extra": {
           "rows": [
             [
@@ -7852,7 +7852,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-14T18:05:42.319368Z",
+        "scraped_at": "2026-09-14T22:19:55.056923Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7915,7 +7915,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-14T18:05:42.335211Z",
+        "scraped_at": "2026-09-14T22:19:55.071127Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7976,7 +7976,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-14T18:05:42.732614Z",
+        "scraped_at": "2026-09-14T22:19:55.432183Z",
         "extra": {
           "rows": [
             [
@@ -8454,7 +8454,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-14T18:05:41.814204Z",
+        "scraped_at": "2026-09-14T22:19:54.599014Z",
         "extra": {
           "rows": [
             [
@@ -8972,7 +8972,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-14T18:05:45.519019Z",
+        "scraped_at": "2026-09-14T22:19:58.041089Z",
         "extra": {
           "header": [
             "Fecha",
@@ -9686,7 +9686,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-14T18:05:45.519019Z",
+        "scraped_at": "2026-09-14T22:19:58.041089Z",
         "extra": {
           "rows": [
             [
@@ -10168,7 +10168,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-14T18:05:44.815726Z",
+        "scraped_at": "2026-09-14T22:19:57.378662Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10245,7 +10245,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-14T18:05:44.833262Z",
+        "scraped_at": "2026-09-14T22:19:57.394111Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10312,7 +10312,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-14T18:05:45.519019Z",
+        "scraped_at": "2026-09-14T22:19:58.041089Z",
         "extra": {
           "rows": [
             [
@@ -10790,7 +10790,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-14T18:05:43.998260Z",
+        "scraped_at": "2026-09-14T22:19:56.612333Z",
         "extra": {
           "rows": [
             [
@@ -11312,7 +11312,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-14T18:03:44.690351Z",
+        "scraped_at": "2026-09-14T22:17:46.442188Z",
         "source_id": "lostiempos_deportes",
         "source_name": "Los Tiempos - Deportes",
         "source_type": "media",
@@ -11325,31 +11325,31 @@
           "rows": [
             [
               "1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más",
-              "2 Hallan sin vida a niña boliviana entre los escombros del edificio que cayó en Brasil Ver más"
+              "2 Homenaje a 216 años de libertad y valentía Ver más"
             ],
             [
-              "3 Fórmula 1: Antonelli gana y refuerza su liderato en Madring Ver más",
-              "4 Bolivia y Brasil igualan 3-3 en el Tahuichi Aguilera por el duelo de leyendas del fútbol Ver más"
+              "3 El Concejo Municipal rinde homenaje a Cochabamba en su Sesión de Honor por los 216 años de libertad Ver más",
+              "4 Cochabamba 216 años, Augusto Guzmán Ver más"
             ],
             [
-              "5 Se registró un sismo de 3,2 grados en Cochabamba Ver más",
-              "6 Zverev contiene a Shelton, conquista el US Open y encuentra su momento Ver más"
+              "5 Una turba embosca y apedrea un bus con 35 pasajeros en plena carretera en Uyuni Ver más",
+              "6 Cochabamba 216 años: Jaime Veizaga Zanabria Ver más"
             ],
             [
-              "7 Cochabamba inicia los actos por su 216 aniversario con desfiles y prepara serenata Ver más",
-              "8 María Magdalena, protagonista de \"La hija cóndor\", en Podcast Los Tiempos Ver más"
+              "7 Con un triplete de Triverio, Always Ready golea a Guabirá Ver más",
+              "8 Cochabamba 216 años: Vivian Sánchez Ver más"
             ],
             [
-              "9 Congreso de Transporte Libre rechaza la ampliación del Estado de Excepción Ver más",
-              "10 Universitario de Vinto se impone a Independiente y abandona el último lugar Ver más"
+              "9 El Concejo distingue a Constantino Klaric, incansable referente de la aviación boliviana Ver más",
+              "10 Cochabamba 216 años: Grissel Bolívar Ver más"
             ]
           ],
           "logos": [
             "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/11/zamora_2_1.jpg?itok=mqWyzXZG",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/13/antonelli_vale.jpg?itok=eTsiyQko",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/1/sismo.jpg?itok=9c43SUr7",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/13/cochas.jpg?itok=61NAA8iz",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/13/tr.jpg?itok=CkquXHkE"
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/13/concejoooo.jpg?itok=uR1i6-KB",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/13/turba.jpg?itok=9T_aiQhb",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/13/car_si_vale.jpg?itok=68jUUz59",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/13/kla.jpg?itok=hfoNqADW"
           ],
           "strong_standings": false,
           "row_groups": null,

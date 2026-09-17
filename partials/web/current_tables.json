@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-09-16T22:43:43.714220Z",
+  "generated_at": "2026-09-17T01:10:49.151095Z",
   "policy": "datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback",
   "assets_policy": "club_logo > country_flag > none",
   "team_assets": {
@@ -546,7 +546,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-09-16T22:42:39.136963Z",
+        "scraped_at": "2026-09-17T01:09:19.920359Z",
         "extra": {
           "header": [
             "Fecha",
@@ -2892,7 +2892,7 @@
             [
               "Fecha 20",
               "Nacional Potosí",
-              "–",
+              "0 – 4",
               "Always Ready",
               "Víctor Agustín Ugarte",
               "16 de septiembre",
@@ -4664,7 +4664,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-16T22:42:38.880438Z",
+        "scraped_at": "2026-09-17T01:09:19.518473Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -4690,6 +4690,19 @@
             ],
             [
               "1",
+              "Always Ready",
+              "45",
+              "20",
+              "13",
+              "6",
+              "1",
+              "47",
+              "13",
+              "+34",
+              "Fase de grupos de Copa Libertadores"
+            ],
+            [
+              "2",
               "Bolívar",
               "42",
               "19",
@@ -4698,19 +4711,6 @@
               "3",
               "50",
               "20",
-              "+30",
-              "Fase de grupos de Copa Libertadores"
-            ],
-            [
-              "2",
-              "Always Ready",
-              "42",
-              "19",
-              "12",
-              "6",
-              "1",
-              "43",
-              "13",
               "+30",
               "Fase de grupos de Copa Libertadores"
             ],
@@ -4783,13 +4783,13 @@
               "8",
               "Nacional Potosí",
               "27",
-              "19",
+              "20",
               "8",
               "3",
-              "8",
+              "9",
               "30",
-              "24",
-              "+6",
+              "28",
+              "+2",
               ""
             ],
             [
@@ -4899,8 +4899,8 @@
           ],
           "logos": [
             "",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-3-400x400.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-1-400x400.png",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-3-400x400.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-11-400x400.png",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-2-400x400.png",
@@ -4923,8 +4923,8 @@
           "selection_reason": "única tabla de posiciones detectada para esta competición",
           "countries": [
             "",
-            "La Paz",
             "Bolivia",
+            "La Paz",
             "La Paz",
             "Potos",
             "Cochabamba",
@@ -4974,7 +4974,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-16T22:42:39.167359Z",
+        "scraped_at": "2026-09-17T01:09:19.970068Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5073,7 +5073,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-16T22:42:39.174698Z",
+        "scraped_at": "2026-09-17T01:09:19.981955Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5150,7 +5150,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-16T22:42:39.190860Z",
+        "scraped_at": "2026-09-17T01:09:20.008065Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5430,7 +5430,7 @@
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-09-16T22:42:39.608436Z",
+        "scraped_at": "2026-09-17T01:09:20.650151Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6616,7 +6616,7 @@
         "source_name": "Series — Serie A + Series — Serie B + Series — Serie C + Series — Serie D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-09-16T22:42:39.552980Z",
+        "scraped_at": "2026-09-17T01:09:20.568302Z",
         "extra": {
           "rows": [
             [
@@ -6928,7 +6928,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-16T22:42:41.031179Z",
+        "scraped_at": "2026-09-17T01:09:23.339953Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7264,7 +7264,7 @@
             [
               "Cuartos de final",
               "Liga de Quito",
-              "vs.",
+              "3:2 (1:1) (3:4 p. )",
               "Palmeiras",
               "Estadio Rodrigo Paz Delgado , Quito",
               "16 de septiembre, 17:00 ( UTC-5 )",
@@ -7305,6 +7305,51 @@
               "Brasil",
               "country_flag",
               "club_logo"
+            ],
+            [
+              "Semifinales",
+              "",
+              "vs.",
+              "",
+              "",
+              "octubre",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "none",
+              "none"
+            ],
+            [
+              "Semifinales",
+              "Fluminense",
+              "vs.",
+              "Palmeiras",
+              "Estadio Maracaná , Río de Janeiro",
+              "octubre",
+              "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Fluminense_logo.gif?width=200",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Palmeiras_logo.svg?width=200",
+              "Brasil",
+              "Brasil",
+              "club_logo",
+              "club_logo"
+            ],
+            [
+              "Semifinales",
+              "Palmeiras",
+              "vs.",
+              "Fluminense",
+              "Nubank Parque , São Paulo",
+              "octubre",
+              "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Palmeiras_logo.svg?width=200",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Fluminense_logo.gif?width=200",
+              "Brasil",
+              "Brasil",
+              "club_logo",
+              "club_logo"
             ]
           ],
           "home_countries": [
@@ -7331,7 +7376,10 @@
             "Brasil",
             "Ecuador",
             "Brasil",
-            "Argentina"
+            "Argentina",
+            "",
+            "Brasil",
+            "Brasil"
           ],
           "away_countries": [
             "Ecuador",
@@ -7357,6 +7405,9 @@
             "Ecuador",
             "Brasil",
             "Argentina",
+            "Brasil",
+            "",
+            "Brasil",
             "Brasil"
           ],
           "selected_as_current": true,
@@ -7370,7 +7421,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-16T22:42:41.031179Z",
+        "scraped_at": "2026-09-17T01:09:23.339953Z",
         "extra": {
           "rows": [
             [
@@ -7842,7 +7893,7 @@
         }
       },
       "top_scorers": {
-        "id": "f50b745b03a5f94434f9",
+        "id": "1e8b4d1bd1eb93114497",
         "kind": "top_scorers",
         "title": "Goleadores",
         "text": "",
@@ -7852,7 +7903,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-16T22:42:40.768068Z",
+        "scraped_at": "2026-09-17T01:09:22.837217Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7905,7 +7956,7 @@
         "published_display": ""
       },
       "assists": {
-        "id": "f1c505dbb35e09fe44d0",
+        "id": "90b4fc1430cdc348d00c",
         "kind": "assists",
         "title": "Asistentes",
         "text": "",
@@ -7915,7 +7966,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-16T22:42:40.778027Z",
+        "scraped_at": "2026-09-17T01:09:22.853708Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7976,7 +8027,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-16T22:42:41.031179Z",
+        "scraped_at": "2026-09-17T01:09:23.339953Z",
         "extra": {
           "rows": [
             [
@@ -8454,7 +8505,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-16T22:42:40.446393Z",
+        "scraped_at": "2026-09-17T01:09:22.312396Z",
         "extra": {
           "rows": [
             [
@@ -8972,7 +9023,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-16T22:42:42.842446Z",
+        "scraped_at": "2026-09-17T01:09:26.729948Z",
         "extra": {
           "header": [
             "Fecha",
@@ -9548,7 +9599,7 @@
             [
               "Cuartos de final",
               "Atlético Mineiro",
-              "vs.",
+              "4:2 (3:1) (3:1 p. )",
               "Santos",
               "Arena MRV , Belo Horizonte",
               "16 de septiembre, 19:00 ( UTC-3 )",
@@ -9686,7 +9737,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-16T22:42:42.842446Z",
+        "scraped_at": "2026-09-17T01:09:26.729948Z",
         "extra": {
           "rows": [
             [
@@ -10168,7 +10219,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-16T22:42:42.384813Z",
+        "scraped_at": "2026-09-17T01:09:25.973398Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10245,7 +10296,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-16T22:42:42.395453Z",
+        "scraped_at": "2026-09-17T01:09:25.991239Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10312,7 +10363,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-16T22:42:42.842446Z",
+        "scraped_at": "2026-09-17T01:09:26.729948Z",
         "extra": {
           "rows": [
             [
@@ -10790,7 +10841,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-16T22:42:41.861540Z",
+        "scraped_at": "2026-09-17T01:09:25.082992Z",
         "extra": {
           "rows": [
             [
@@ -11312,7 +11363,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-16T22:40:45.095680Z",
+        "scraped_at": "2026-09-17T01:07:04.157689Z",
         "source_id": "lostiempos_deportes",
         "source_name": "Los Tiempos - Deportes",
         "source_type": "media",
@@ -11325,31 +11376,31 @@
           "rows": [
             [
               "1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más",
-              "2 Gobierno incrementa a Bs 6.000 millones el fondo para la compra de combustibles para este año Ver más"
+              "2 Difunden imágenes de los tres extranjeros aprehendidos implicados en el atraco a una joyería Ver más"
             ],
             [
-              "3 Pekín se convierte en la capital mundial del diseño con el cierre de la Semana de la Moda Ver más",
-              "4 Atlas Económico sitúa a Cochabamba como la tercera economía de Bolivia Ver más"
+              "3 Gobierno reglamenta exención de aranceles e IVA para bienes destinados a la producción Ver más",
+              "4 Senamhi pronostica nevadas en cinco departamentos; los más afectados serán Potosí y Oruro Ver más"
             ],
             [
-              "5 Decreto eleva a Bs 6.000 millones el monto para sostener la compra de combustibles Ver más",
-              "6 Colcapirhua, a un paso de lograr el 100% de iluminación LED Ver más"
+              "5 Alcalde Gómez: “San Ignacio exige a gritos seguridad y la presencia del Estado” Ver más",
+              "6 El Gobierno denuncia que un juez de Santa Cruz ordenó que Luis Arce sea trasladado a una clínica y cuestiona su decisión Ver más"
             ],
             [
-              "7 Día Internacional del Chocolate: 5 ideas para celebrar al rey de los dulces este 13 de septiembre Ver más",
-              "8 Mamani y Garibay competirán en el Mundial de Atletismo en Dinamarca tras entrenamiento Ver más"
+              "7 Presentan denuncia contra el nuevo comandante de la Policía por presunta usurpación de funciones Ver más",
+              "8 Gobierno denuncia daño de más de Bs 200 millones en la estatal Yacana; apunta a cinco exfuncionarios Ver más"
             ],
             [
-              "9 Gobierno toma cinco medidas para impulsar la producción, garantizar combustible y combatir la corrupción Ver más",
-              "10 Nuevo acribillado en el trópico con un mensaje contra policías y secuestrador Ver más"
+              "9 EEUU: costo de guerra en Irán alcanza los $us 38 mil millones Ver más",
+              "10 Inicia la sesión de la ALP que determinará si se amplía o no el estado de excepción Ver más"
             ]
           ],
           "logos": [
             "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/11/zamora_2_1.jpg?itok=mqWyzXZG",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/15/1_0.jpg?itok=o_SIqlV1",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/15/dieselll.jpg?itok=tcIEpVWe",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/15/5_0.jpg?itok=yg65iOIC",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/15/gobierno.jpg?itok=sVwFlwsX"
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/5/16/vocero-5-1536x1076_copia.jpg?itok=oKu9WB0H",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/15/san_ignacio_seguridad_ed_va.jpg?itok=UJlNb6Ht",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/15/alvarez_comandante_de_la_policia_ed_va.jpg?itok=0oh1SO1H",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/16/2_mu_1_webinfomilcom.jpg?itok=4-FJjc3S"
           ],
           "strong_standings": false,
           "row_groups": null,

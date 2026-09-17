@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-09-17T01:10:49.151095Z",
+  "generated_at": "2026-09-17T07:17:44.791174Z",
   "policy": "datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback",
   "assets_policy": "club_logo > country_flag > none",
   "team_assets": {
@@ -546,7 +546,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-09-17T01:09:19.920359Z",
+        "scraped_at": "2026-09-17T07:16:43.997727Z",
         "extra": {
           "header": [
             "Fecha",
@@ -2907,7 +2907,7 @@
             [
               "Fecha 20",
               "Blooming",
-              "–",
+              "1 – 1",
               "Universitario de Vinto",
               "Ramón Aguilera Costas",
               "16 de septiembre",
@@ -4664,7 +4664,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-17T01:09:19.518473Z",
+        "scraped_at": "2026-09-17T07:16:43.626680Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -4768,6 +4768,19 @@
             ],
             [
               "7",
+              "Blooming",
+              "27",
+              "20",
+              "6",
+              "9",
+              "5",
+              "30",
+              "22",
+              "+8",
+              ""
+            ],
+            [
+              "8",
               "Oriente Petrolero",
               "27",
               "19",
@@ -4780,7 +4793,7 @@
               ""
             ],
             [
-              "8",
+              "9",
               "Nacional Potosí",
               "27",
               "20",
@@ -4790,19 +4803,6 @@
               "30",
               "28",
               "+2",
-              ""
-            ],
-            [
-              "9",
-              "Blooming",
-              "26",
-              "19",
-              "6",
-              "8",
-              "5",
-              "29",
-              "21",
-              "+8",
               ""
             ],
             [
@@ -4847,13 +4847,13 @@
             [
               "13",
               "Universitario de Vinto",
-              "17",
-              "19",
+              "18",
+              "20",
               "5",
-              "2",
+              "3",
               "12",
-              "25",
-              "38",
+              "26",
+              "39",
               "− 13",
               ""
             ],
@@ -4905,9 +4905,9 @@
             "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-2-400x400.png",
             "",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-4-400x400.png",
             "",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-9-400x400.png",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-4-400x400.png",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Escudo_Club_Independiente_Petrolero.png/250px-Escudo_Club_Independiente_Petrolero.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200",
             "",
@@ -4930,8 +4930,8 @@
             "Cochabamba",
             "Santa Cruz",
             "Santa Cruz",
-            "Potos",
             "Santa Cruz",
+            "Potos",
             "Chuquisaca",
             "Bolivia",
             "La Paz",
@@ -4948,8 +4948,8 @@
             "club_logo",
             "club_logo",
             "none",
-            "none",
             "club_logo",
+            "none",
             "club_logo",
             "club_logo",
             "club_logo",
@@ -4974,7 +4974,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-17T01:09:19.970068Z",
+        "scraped_at": "2026-09-17T07:16:44.042367Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5073,7 +5073,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-17T01:09:19.981955Z",
+        "scraped_at": "2026-09-17T07:16:44.053147Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5150,7 +5150,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-17T01:09:20.008065Z",
+        "scraped_at": "2026-09-17T07:16:44.078369Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5430,7 +5430,7 @@
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-09-17T01:09:20.650151Z",
+        "scraped_at": "2026-09-17T07:16:44.619997Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6616,7 +6616,7 @@
         "source_name": "Series — Serie A + Series — Serie B + Series — Serie C + Series — Serie D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-09-17T01:09:20.568302Z",
+        "scraped_at": "2026-09-17T07:16:44.540909Z",
         "extra": {
           "rows": [
             [
@@ -6928,7 +6928,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-17T01:09:23.339953Z",
+        "scraped_at": "2026-09-17T07:16:47.008974Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7204,7 +7204,7 @@
             [
               "Cuartos de final",
               "Corinthians",
-              "vs.",
+              "0:1 (0:0)",
               "Estudiantes (LP)",
               "Neo Química Arena , São Paulo",
               "16 de septiembre, 21:30 ( UTC-3 )",
@@ -7308,18 +7308,33 @@
             ],
             [
               "Semifinales",
-              "",
+              "Estudiantes (LP)",
               "vs.",
               "",
+              "Estadio Jorge Luis Hirschi , La Plata",
+              "octubre",
+              "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Estudiantes_de_la_Plata_crest_(2025).svg?width=200",
+              "",
+              "Argentina",
+              "",
+              "club_logo",
+              "none"
+            ],
+            [
+              "Semifinales",
+              "",
+              "vs.",
+              "Estudiantes (LP)",
               "",
               "octubre",
               "",
               "",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Estudiantes_de_la_Plata_crest_(2025).svg?width=200",
               "",
-              "",
-              "",
+              "Argentina",
               "none",
-              "none"
+              "club_logo"
             ],
             [
               "Semifinales",
@@ -7377,6 +7392,7 @@
             "Ecuador",
             "Brasil",
             "Argentina",
+            "Argentina",
             "",
             "Brasil",
             "Brasil"
@@ -7407,6 +7423,7 @@
             "Argentina",
             "Brasil",
             "",
+            "Argentina",
             "Brasil",
             "Brasil"
           ],
@@ -7421,7 +7438,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-17T01:09:23.339953Z",
+        "scraped_at": "2026-09-17T07:16:47.008974Z",
         "extra": {
           "rows": [
             [
@@ -7903,7 +7920,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-17T01:09:22.837217Z",
+        "scraped_at": "2026-09-17T07:16:46.545648Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7966,7 +7983,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-17T01:09:22.853708Z",
+        "scraped_at": "2026-09-17T07:16:46.562267Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -8027,7 +8044,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-17T01:09:23.339953Z",
+        "scraped_at": "2026-09-17T07:16:47.008974Z",
         "extra": {
           "rows": [
             [
@@ -8505,7 +8522,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-17T01:09:22.312396Z",
+        "scraped_at": "2026-09-17T07:16:46.046191Z",
         "extra": {
           "rows": [
             [
@@ -9023,7 +9040,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-17T01:09:26.729948Z",
+        "scraped_at": "2026-09-17T07:16:50.059243Z",
         "extra": {
           "header": [
             "Fecha",
@@ -9737,7 +9754,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-17T01:09:26.729948Z",
+        "scraped_at": "2026-09-17T07:16:50.059243Z",
         "extra": {
           "rows": [
             [
@@ -10219,7 +10236,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-17T01:09:25.973398Z",
+        "scraped_at": "2026-09-17T07:16:49.325358Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10237,16 +10254,16 @@
               "Part."
             ],
             [
+              "Gabriel Barbosa",
+              "Santos",
+              "6",
+              "9"
+            ],
+            [
               "Rodrigo Contreras",
               "Millonarios",
               "5",
               "7"
-            ],
-            [
-              "Gabriel Barbosa",
-              "Santos",
-              "5",
-              "8"
             ],
             [
               "Salomón Rodríguez",
@@ -10258,7 +10275,13 @@
               "Adson",
               "Vasco da Gama",
               "4",
-              "8"
+              "9"
+            ],
+            [
+              "Bernard",
+              "Atlético Mineiro",
+              "4",
+              "10"
             ],
             [
               "Carlos Garcés",
@@ -10269,16 +10292,17 @@
           ],
           "logos": [
             "",
-            "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
             "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/20px-Flag_of_Brazil.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
             "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/20px-Flag_of_Uruguay.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/20px-Flag_of_Brazil.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
             "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/20px-Flag_of_Brazil.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
             "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/20px-Flag_of_Ecuador.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
           ],
           "strong_standings": false,
           "row_groups": null,
           "related_sources": [],
-          "selection_score": 0.974,
+          "selection_score": 0.978,
           "selected_as_current": true,
           "selection_reason": "prioriza fuente oficial/autoridad + tipo de tabla + cantidad de filas"
         },
@@ -10296,7 +10320,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-17T01:09:25.991239Z",
+        "scraped_at": "2026-09-17T07:16:49.343053Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10363,7 +10387,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-17T01:09:26.729948Z",
+        "scraped_at": "2026-09-17T07:16:50.059243Z",
         "extra": {
           "rows": [
             [
@@ -10841,7 +10865,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-17T01:09:25.082992Z",
+        "scraped_at": "2026-09-17T07:16:48.454684Z",
         "extra": {
           "rows": [
             [
@@ -11363,7 +11387,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-17T01:07:04.157689Z",
+        "scraped_at": "2026-09-17T07:14:45.729741Z",
         "source_id": "lostiempos_deportes",
         "source_name": "Los Tiempos - Deportes",
         "source_type": "media",
@@ -11376,31 +11400,31 @@
           "rows": [
             [
               "1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más",
-              "2 Difunden imágenes de los tres extranjeros aprehendidos implicados en el atraco a una joyería Ver más"
+              "2 Gobierno denuncia daño de más de Bs 200 millones en la estatal Yacana; apunta a cinco exfuncionarios Ver más"
             ],
             [
-              "3 Gobierno reglamenta exención de aranceles e IVA para bienes destinados a la producción Ver más",
-              "4 Senamhi pronostica nevadas en cinco departamentos; los más afectados serán Potosí y Oruro Ver más"
+              "3 EEUU: costo de guerra en Irán alcanza los $us 38 mil millones Ver más",
+              "4 Inicia la sesión de la ALP que determinará si se amplía o no el estado de excepción Ver más"
             ],
             [
-              "5 Alcalde Gómez: “San Ignacio exige a gritos seguridad y la presencia del Estado” Ver más",
-              "6 El Gobierno denuncia que un juez de Santa Cruz ordenó que Luis Arce sea trasladado a una clínica y cuestiona su decisión Ver más"
+              "5 Gobierno dará Bs 5 millones para arreglar casas afectadas por explosión en Viacha Ver más",
+              "6 Luis Arce sale de San Pedro y es trasladado bajo resguardo policial a un hospital de La Paz Ver más"
             ],
             [
-              "7 Presentan denuncia contra el nuevo comandante de la Policía por presunta usurpación de funciones Ver más",
-              "8 Gobierno denuncia daño de más de Bs 200 millones en la estatal Yacana; apunta a cinco exfuncionarios Ver más"
+              "7 El Legislativo llama a debatir decreto de ampliación del estado de excepción Ver más",
+              "8 EEUU mantiene descertificación de Bolivia en la lucha contra el narcotráfico Ver más"
             ],
             [
-              "9 EEUU: costo de guerra en Irán alcanza los $us 38 mil millones Ver más",
-              "10 Inicia la sesión de la ALP que determinará si se amplía o no el estado de excepción Ver más"
+              "9 Tras cuatro asesinatos en dos días, envían fuerzas militares a San Ignacio Ver más",
+              "10 Luis Fernando Camacho asume como embajador de Bolivia en Paraguay Ver más"
             ]
           ],
           "logos": [
             "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/11/zamora_2_1.jpg?itok=mqWyzXZG",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/5/16/vocero-5-1536x1076_copia.jpg?itok=oKu9WB0H",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/15/san_ignacio_seguridad_ed_va.jpg?itok=UJlNb6Ht",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/15/alvarez_comandante_de_la_policia_ed_va.jpg?itok=0oh1SO1H",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/16/2_mu_1_webinfomilcom.jpg?itok=4-FJjc3S"
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/16/2_mu_1_webinfomilcom.jpg?itok=4-FJjc3S",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/16/3_p_1_ministerio_de_defensa.jpg?itok=dgX5bshh",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/16/4_p_1_xinhua.jpg?itok=2FBHhNs2",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/16/5_p_1_ministerio_de_defensa.jpg?itok=QYrv3-Rq"
           ],
           "strong_standings": false,
           "row_groups": null,

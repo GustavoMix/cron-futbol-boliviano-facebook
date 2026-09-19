@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-09-19T19:13:47.902919Z",
+  "generated_at": "2026-09-19T22:13:37.694158Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -15,7 +15,7 @@
       "items": 92
     },
     "internacional.json": {
-      "items": 161
+      "items": 159
     },
     "social.json": {
       "items": 0
@@ -308,7 +308,7 @@
       "id": "ole_futbol_internacional",
       "name": "Olé - Fútbol Internacional",
       "ok": true,
-      "items": 22
+      "items": 21
     },
     {
       "id": "goal_espanol",
@@ -352,8 +352,8 @@
     }
   ],
   "totals": {
-    "items_before_filter": 709,
-    "items_after_filter_dedupe": 515,
+    "items_before_filter": 708,
+    "items_after_filter_dedupe": 513,
     "web_sources_ok": 43,
     "web_sources_error": 6,
     "social_items": 0

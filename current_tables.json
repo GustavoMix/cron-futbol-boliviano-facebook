@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-09-19T19:13:38.965171Z",
+  "generated_at": "2026-09-19T22:13:27.011525Z",
   "policy": "datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback",
   "assets_policy": "club_logo > country_flag > none",
   "team_assets": {
@@ -546,7 +546,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-09-19T19:12:16.808771Z",
+        "scraped_at": "2026-09-19T22:11:32.969322Z",
         "extra": {
           "header": [
             "Fecha",
@@ -4664,7 +4664,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-19T19:12:16.626783Z",
+        "scraped_at": "2026-09-19T22:11:32.674386Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -4974,7 +4974,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-19T19:12:16.830924Z",
+        "scraped_at": "2026-09-19T22:11:33.005150Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5073,7 +5073,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-19T19:12:16.836237Z",
+        "scraped_at": "2026-09-19T22:11:33.013720Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5150,7 +5150,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-19T19:12:16.847888Z",
+        "scraped_at": "2026-09-19T22:11:33.032499Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5430,7 +5430,7 @@
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-09-19T19:12:17.078759Z",
+        "scraped_at": "2026-09-19T22:11:33.604412Z",
         "extra": {
           "header": [
             "Fecha",
@@ -5835,7 +5835,7 @@
             [
               "Fecha 4",
               "Always Ready",
-              "–",
+              "1 – 4",
               "ABB",
               "Municipal de El Alto",
               "19 de septiembre",
@@ -6616,7 +6616,7 @@
         "source_name": "Series — Serie A + Series — Serie B + Series — Serie C + Series — Serie D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-09-19T19:12:17.040755Z",
+        "scraped_at": "2026-09-19T22:11:33.543199Z",
         "extra": {
           "rows": [
             [
@@ -6679,14 +6679,14 @@
               "Series — Serie A",
               "4",
               "ABB",
+              "3",
+              "4",
+              "1",
               "0",
               "3",
-              "0",
-              "0",
-              "3",
-              "2",
               "6",
-              "− 4",
+              "7",
+              "− 1",
               ""
             ],
             [
@@ -6722,13 +6722,13 @@
               "3",
               "Always Ready",
               "6",
-              "3",
+              "4",
               "2",
               "0",
-              "1",
-              "5",
-              "4",
-              "+1",
+              "2",
+              "6",
+              "8",
+              "− 2",
               ""
             ],
             [
@@ -6928,7 +6928,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-19T19:12:18.218715Z",
+        "scraped_at": "2026-09-19T22:11:35.404012Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7438,7 +7438,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-19T19:12:18.218715Z",
+        "scraped_at": "2026-09-19T22:11:35.404012Z",
         "extra": {
           "rows": [
             [
@@ -7920,7 +7920,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-19T19:12:18.000610Z",
+        "scraped_at": "2026-09-19T22:11:35.057773Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7983,7 +7983,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-19T19:12:18.007736Z",
+        "scraped_at": "2026-09-19T22:11:35.069106Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -8044,7 +8044,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-19T19:12:18.218715Z",
+        "scraped_at": "2026-09-19T22:11:35.404012Z",
         "extra": {
           "rows": [
             [
@@ -8522,7 +8522,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-19T19:12:17.766598Z",
+        "scraped_at": "2026-09-19T22:11:34.687070Z",
         "extra": {
           "rows": [
             [
@@ -9040,7 +9040,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-19T19:12:19.695942Z",
+        "scraped_at": "2026-09-19T22:11:37.575711Z",
         "extra": {
           "header": [
             "Fecha",
@@ -9822,7 +9822,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-19T19:12:19.695942Z",
+        "scraped_at": "2026-09-19T22:11:37.575711Z",
         "extra": {
           "rows": [
             [
@@ -10304,7 +10304,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-19T19:12:19.320490Z",
+        "scraped_at": "2026-09-19T22:11:36.985305Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10388,7 +10388,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-19T19:12:19.328652Z",
+        "scraped_at": "2026-09-19T22:11:36.998088Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10455,7 +10455,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-19T19:12:19.695942Z",
+        "scraped_at": "2026-09-19T22:11:37.575711Z",
         "extra": {
           "rows": [
             [
@@ -10933,7 +10933,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-19T19:12:18.871231Z",
+        "scraped_at": "2026-09-19T22:11:36.362607Z",
         "extra": {
           "rows": [
             [
@@ -11455,7 +11455,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-19T19:11:33.281133Z",
+        "scraped_at": "2026-09-19T22:09:55.143876Z",
         "source_id": "lostiempos_deportes",
         "source_name": "Los Tiempos - Deportes",
         "source_type": "media",
@@ -11468,31 +11468,31 @@
           "rows": [
             [
               "1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más",
-              "2 Instruyen despliegue policial ante la reactivación de las medidas de presión Ver más"
+              "2 Tras la llovizna, Cochabamba tendrá una temperatura máxima de 26 grados Ver más"
             ],
             [
-              "3 Paz cuestiona a Evo y Arce: ¿Por qué no invirtieron para tener diésel y gasolina y no pasar por esta desgracia? Ver más",
-              "4 El Ministerio Público presente en la Expocruz Ver más"
+              "3 Economía despeja dudas sobre el crédito del FMI: no subirá tarifas de servicios ni financiará planillas Ver más",
+              "4 Bolivia elimina totalmente la subvención al diésel Ver más"
             ],
             [
-              "5 \"Prefiero invertir en refinación que en subvención\": Paz dice que tomará decisiones en los próximos días Ver más",
-              "6 Gobierno pone fin a la subvención del diésel y dispone medidas de apoyo a familias y sectores productivos Ver más"
+              "5 Senado aprueba crédito del FMI por $us 1.900 millones Ver más",
+              "6 Evo afirma: “Ampliaron el Estado de excepción para imponer el dieselazo” Ver más"
             ],
             [
-              "7 El tilcayo: Un nuevo felino para el mundo desde Bolivia Ver más",
-              "8 Guía: ¿Qué cambia con la eliminación de la subvención al diésel y qué medidas anunció el Gobierno? Ver más"
+              "7 Aplican eutanasia al cachorro de puma que tenía una fractura en el cráneo Ver más",
+              "8 Presidente Rodrigo Paz viajará el sábado a la Asamblea de la ONU Ver más"
             ],
             [
-              "9 En la Asamblea coinciden en levantar la subvención a los combustibles; la diferencia es el cómo y cuándo Ver más",
-              "10 El diésel pasa a costar Bs 17,95 por litro en Bolivia por eliminación de la subvención Ver más"
+              "9 Funcionario de YPFB en un motel con un vehículo la estatal petrolera Ver más",
+              "10 Manfred respalda las medidas para estabilizar el diésel y condena el despilfarro del MAS Ver más"
             ]
           ],
           "logos": [
             "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/11/zamora_2_1.jpg?itok=mqWyzXZG",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/18/paz_chuquisaca_ed_va_ok.jpg?itok=oxTp-3zy",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/18/pazz.jpg?itok=2GV-6zVY",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/18/tilcayito.jpg?itok=_34n-9pC",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2025/12/11/3_asamblea_legislativa.jpg?itok=XugXm2uH"
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/18/ministro_morales_economia_ed_va.jpg?itok=wssXDGko",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/18/asamblea_senado_fmi_abi_ed_va.jpg?itok=uUQ5p0eL",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/18/puma_valentin.jpg?itok=womQZ0aZ",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/18/foto_katy_ed_va.jpg?itok=Nj9mYEiQ"
           ],
           "strong_standings": false,
           "row_groups": null,

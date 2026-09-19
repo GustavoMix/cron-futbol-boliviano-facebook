@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-09-19T08:42:13.997912Z",
+  "generated_at": "2026-09-19T12:57:07.024210Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,13 +9,13 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 324
+      "items": 326
     },
     "conmebol.json": {
       "items": 92
     },
     "internacional.json": {
-      "items": 164
+      "items": 166
     },
     "social.json": {
       "items": 0
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 160
+      "items": 159
     },
     "current_tables.json": {
       "items": 0
@@ -194,7 +194,7 @@
       "id": "vision360_futbol_boliviano",
       "name": "Visión 360 - Fútbol Boliviano",
       "ok": true,
-      "items": 34
+      "items": 35
     },
     {
       "id": "oxigeno_deportes",
@@ -296,7 +296,7 @@
       "id": "marca_futbol",
       "name": "Marca - Fútbol",
       "ok": true,
-      "items": 69
+      "items": 70
     },
     {
       "id": "as_futbol",
@@ -348,8 +348,8 @@
     }
   ],
   "totals": {
-    "items_before_filter": 783,
-    "items_after_filter_dedupe": 580,
+    "items_before_filter": 785,
+    "items_after_filter_dedupe": 584,
     "web_sources_ok": 44,
     "web_sources_error": 5,
     "social_items": 0

@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-09-21T03:37:16.880240Z",
+  "generated_at": "2026-09-21T09:41:46.701550Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 156
+      "items": 155
     },
     "current_tables.json": {
       "items": 0
@@ -296,7 +296,7 @@
       "id": "marca_futbol",
       "name": "Marca - Fútbol",
       "ok": true,
-      "items": 69
+      "items": 70
     },
     {
       "id": "as_futbol",
@@ -348,7 +348,7 @@
     }
   ],
   "totals": {
-    "items_before_filter": 780,
+    "items_before_filter": 781,
     "items_after_filter_dedupe": 578,
     "web_sources_ok": 44,
     "web_sources_error": 5,

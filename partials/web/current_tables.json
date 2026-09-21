@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-09-21T16:17:50.485718Z",
+  "generated_at": "2026-09-21T20:52:40.229853Z",
   "policy": "datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback",
   "assets_policy": "club_logo > country_flag > none",
   "team_assets": {
@@ -546,7 +546,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-09-21T16:16:19.669269Z",
+        "scraped_at": "2026-09-21T20:50:45.181876Z",
         "extra": {
           "header": [
             "Fecha",
@@ -4664,7 +4664,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-21T16:16:19.304644Z",
+        "scraped_at": "2026-09-21T20:50:44.817869Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -4974,7 +4974,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-21T16:16:19.713773Z",
+        "scraped_at": "2026-09-21T20:50:45.226233Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5073,7 +5073,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-21T16:16:19.724495Z",
+        "scraped_at": "2026-09-21T20:50:45.236816Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5150,7 +5150,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-21T16:16:19.748046Z",
+        "scraped_at": "2026-09-21T20:50:45.260299Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5430,7 +5430,7 @@
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-09-21T16:16:20.120391Z",
+        "scraped_at": "2026-09-21T20:50:45.650972Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6616,7 +6616,7 @@
         "source_name": "Series — Serie A + Series — Serie B + Series — Serie C + Series — Serie D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-09-21T16:16:20.042523Z",
+        "scraped_at": "2026-09-21T20:50:45.569840Z",
         "extra": {
           "rows": [
             [
@@ -6928,7 +6928,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-21T16:16:22.569235Z",
+        "scraped_at": "2026-09-21T20:50:47.847278Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7312,7 +7312,7 @@
               "vs.",
               "Flamengo",
               "Estadio Jorge Luis Hirschi , La Plata",
-              "octubre",
+              "15 de octubre, 21:30 ( UTC-3 )",
               "",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Estudiantes_de_la_Plata_crest_(2025).svg?width=200",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Clube_de_Regatas_do_Flamengo_logo.svg/250px-Clube_de_Regatas_do_Flamengo_logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -7327,7 +7327,7 @@
               "vs.",
               "Estudiantes (LP)",
               "Estadio Maracaná , Río de Janeiro",
-              "octubre",
+              "22 de octubre, 21:30 ( UTC-3 )",
               "",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Clube_de_Regatas_do_Flamengo_logo.svg/250px-Clube_de_Regatas_do_Flamengo_logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Estudiantes_de_la_Plata_crest_(2025).svg?width=200",
@@ -7342,7 +7342,7 @@
               "vs.",
               "Palmeiras",
               "Estadio Maracaná , Río de Janeiro",
-              "octubre",
+              "14 de octubre, 21:30 ( UTC-3 )",
               "",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Fluminense_logo.gif?width=200",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Palmeiras_logo.svg?width=200",
@@ -7357,7 +7357,7 @@
               "vs.",
               "Fluminense",
               "Nubank Parque , São Paulo",
-              "octubre",
+              "21 de octubre, 21:30 ( UTC-3 )",
               "",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Palmeiras_logo.svg?width=200",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Fluminense_logo.gif?width=200",
@@ -7438,7 +7438,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-21T16:16:22.569235Z",
+        "scraped_at": "2026-09-21T20:50:47.847278Z",
         "extra": {
           "rows": [
             [
@@ -7920,7 +7920,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-21T16:16:22.129710Z",
+        "scraped_at": "2026-09-21T20:50:47.393943Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7983,7 +7983,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-21T16:16:22.144061Z",
+        "scraped_at": "2026-09-21T20:50:47.408839Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -8044,7 +8044,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-21T16:16:22.569235Z",
+        "scraped_at": "2026-09-21T20:50:47.847278Z",
         "extra": {
           "rows": [
             [
@@ -8522,7 +8522,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-21T16:16:21.661798Z",
+        "scraped_at": "2026-09-21T20:50:46.912502Z",
         "extra": {
           "rows": [
             [
@@ -9040,7 +9040,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-21T16:16:25.304961Z",
+        "scraped_at": "2026-09-21T20:50:50.822883Z",
         "extra": {
           "header": [
             "Fecha",
@@ -9664,7 +9664,7 @@
               "vs.",
               "Vasco da Gama",
               "Estadio La Bombonera , Buenos Aires",
-              "octubre",
+              "13 de octubre, 21:30 ( UTC-3 )",
               "",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Boca_Juniors_logo18.svg?width=200",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Escudo_Vasco_1920.png/250px-Escudo_Vasco_1920.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -9679,7 +9679,7 @@
               "vs.",
               "Boca Juniors",
               "",
-              "octubre",
+              "20 de octubre, 21:30 ( UTC-3 )",
               "",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Escudo_Vasco_1920.png/250px-Escudo_Vasco_1920.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Boca_Juniors_logo18.svg?width=200",
@@ -9694,7 +9694,7 @@
               "vs.",
               "Montevideo City Torque",
               "Arena MRV , Belo Horizonte",
-              "octubre",
+              "14 de octubre, 21:30 ( UTC-3 )",
               "",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Clube_Atlético_Mineiro_logo.svg?width=200",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/City_Football_Group_Limited_%C2%AE.png/250px-City_Football_Group_Limited_%C2%AE.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -9709,7 +9709,7 @@
               "vs.",
               "Atlético Mineiro",
               "Estadio Centenario , Montevideo",
-              "octubre",
+              "21 de octubre, 19:00 ( UTC-3 )",
               "",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/City_Football_Group_Limited_%C2%AE.png/250px-City_Football_Group_Limited_%C2%AE.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               "https://commons.wikimedia.org/wiki/Special:FilePath/Clube_Atlético_Mineiro_logo.svg?width=200",
@@ -9822,7 +9822,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-21T16:16:25.304961Z",
+        "scraped_at": "2026-09-21T20:50:50.822883Z",
         "extra": {
           "rows": [
             [
@@ -10304,7 +10304,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-21T16:16:24.559080Z",
+        "scraped_at": "2026-09-21T20:50:50.011882Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10388,7 +10388,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-21T16:16:24.575004Z",
+        "scraped_at": "2026-09-21T20:50:50.031025Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10455,7 +10455,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-21T16:16:25.304961Z",
+        "scraped_at": "2026-09-21T20:50:50.822883Z",
         "extra": {
           "rows": [
             [
@@ -10933,7 +10933,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-21T16:16:23.776149Z",
+        "scraped_at": "2026-09-21T20:50:49.167619Z",
         "extra": {
           "rows": [
             [
@@ -11455,7 +11455,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-21T16:14:42.978173Z",
+        "scraped_at": "2026-09-21T20:48:45.002472Z",
         "source_id": "lostiempos_deportes",
         "source_name": "Los Tiempos - Deportes",
         "source_type": "media",

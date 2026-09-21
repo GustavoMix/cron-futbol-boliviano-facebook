@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-09-21T16:18:02.166547Z",
+  "generated_at": "2026-09-21T20:52:47.782007Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,13 +9,13 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 259
+      "items": 312
     },
     "conmebol.json": {
       "items": 91
     },
     "internacional.json": {
-      "items": 162
+      "items": 161
     },
     "social.json": {
       "items": 0
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 125
+      "items": 146
     },
     "current_tables.json": {
       "items": 0
@@ -187,8 +187,8 @@
     {
       "id": "larazon_futbol_boliviano",
       "name": "La Razón - Fútbol Profesional Boliviano",
-      "ok": false,
-      "items": 0
+      "ok": true,
+      "items": 70
     },
     {
       "id": "vision360_futbol_boliviano",
@@ -211,8 +211,8 @@
     {
       "id": "abi_deportes",
       "name": "ABI - Deportes",
-      "ok": true,
-      "items": 10
+      "ok": false,
+      "items": 0
     },
     {
       "id": "redpat_deportes",
@@ -302,7 +302,7 @@
       "id": "as_futbol",
       "name": "AS.com - Fútbol",
       "ok": true,
-      "items": 52
+      "items": 51
     },
     {
       "id": "ole_futbol_internacional",
@@ -339,8 +339,8 @@
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://eldeber.com.bo/deportes"
     },
     {
-      "source": "larazon_futbol_boliviano",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://larazon.bo/categoria/marcas/futbol-profesional-boliviano/"
+      "source": "abi_deportes",
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7fe380448b60>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
     },
     {
       "source": "conmebol_eliminatorias",
@@ -352,8 +352,8 @@
     }
   ],
   "totals": {
-    "items_before_filter": 709,
-    "items_after_filter_dedupe": 512,
+    "items_before_filter": 768,
+    "items_after_filter_dedupe": 564,
     "web_sources_ok": 43,
     "web_sources_error": 6,
     "social_items": 0

@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-09-22T18:36:37.809500Z",
+  "generated_at": "2026-09-22T21:53:24.292467Z",
   "architecture": "3 Facebook groups + 1 web group; feed editorial + fases KO verificadas por serie completa",
   "facebook_groups": [
     {
@@ -25,15 +25,15 @@
   "totals": {
     "facebook_items": 0,
     "web_latest_items": 200,
-    "app_feed_items": 118
+    "app_feed_items": 116
   },
   "web": {
-    "generated_at": "2026-09-22T18:36:37.659246Z",
+    "generated_at": "2026-09-22T21:53:24.169806Z",
     "totals": {
-      "items_before_filter": 647,
-      "items_after_filter_dedupe": 472,
-      "web_sources_ok": 41,
-      "web_sources_error": 8,
+      "items_before_filter": 700,
+      "items_after_filter_dedupe": 509,
+      "web_sources_ok": 42,
+      "web_sources_error": 7,
       "social_items": 0
     },
     "errors": [
@@ -51,15 +51,11 @@
       },
       {
         "source": "abi_deportes",
-        "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f7476896db0>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+        "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f559c85ca10>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
       },
       {
         "source": "conmebol_eliminatorias",
         "error": "HTTPError: 404 Client Error: Not Found for url: https://www.conmebol.com/eliminatorias/"
-      },
-      {
-        "source": "as_futbol",
-        "error": "HTTPError: 403 Client Error: Forbidden for url: https://as.com/futbol/"
       },
       {
         "source": "foxsports_latam",

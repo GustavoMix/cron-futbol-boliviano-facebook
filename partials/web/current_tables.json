@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-09-23T00:07:18.358333Z",
+  "generated_at": "2026-09-23T05:35:38.949560Z",
   "policy": "datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback",
   "assets_policy": "club_logo > country_flag > none",
   "team_assets": {
@@ -546,7 +546,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-09-23T00:05:44.295376Z",
+        "scraped_at": "2026-09-23T05:34:32.258707Z",
         "extra": {
           "header": [
             "Fecha",
@@ -4664,7 +4664,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-23T00:05:43.903543Z",
+        "scraped_at": "2026-09-23T05:34:31.898259Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -4974,7 +4974,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-23T00:05:44.343431Z",
+        "scraped_at": "2026-09-23T05:34:32.302575Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5073,7 +5073,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-23T00:05:44.355846Z",
+        "scraped_at": "2026-09-23T05:34:32.313110Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5150,7 +5150,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-23T00:05:44.380353Z",
+        "scraped_at": "2026-09-23T05:34:32.336113Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5430,7 +5430,7 @@
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-09-23T00:05:44.921160Z",
+        "scraped_at": "2026-09-23T05:34:32.926255Z",
         "extra": {
           "header": [
             "Fecha",
@@ -5691,7 +5691,7 @@
             [
               "Fecha 2",
               "Nacional Potosí",
-              "–",
+              "0 – 1",
               "Real Potosí",
               "Víctor Agustín Ugarte",
               "22 de septiembre",
@@ -6616,7 +6616,7 @@
         "source_name": "Series — Serie A + Series — Serie B + Series — Serie C + Series — Serie D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-09-23T00:05:44.838628Z",
+        "scraped_at": "2026-09-23T05:34:32.848108Z",
         "extra": {
           "rows": [
             [
@@ -6650,6 +6650,20 @@
             [
               "Series — Serie A",
               "2",
+              "Real Potosí",
+              "7",
+              "4",
+              "2",
+              "1",
+              "1",
+              "6",
+              "5",
+              "+1",
+              "Liguilla final"
+            ],
+            [
+              "Series — Serie A",
+              "3",
               "San Antonio Bulo Bulo",
               "6",
               "4",
@@ -6659,20 +6673,6 @@
               "8",
               "4",
               "+4",
-              "Liguilla final"
-            ],
-            [
-              "Series — Serie A",
-              "3",
-              "Real Potosí",
-              "4",
-              "3",
-              "1",
-              "1",
-              "1",
-              "5",
-              "5",
-              "0",
               ""
             ],
             [
@@ -6694,13 +6694,13 @@
               "1",
               "Nacional Potosí",
               "7",
-              "3",
+              "4",
               "2",
               "1",
-              "0",
+              "1",
               "9",
-              "3",
-              "+6",
+              "4",
+              "+5",
               "Liguilla final"
             ],
             [
@@ -6863,8 +6863,8 @@
           "logos": [
             "",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-2-400x400.png",
-            "https://flagcdn.com/w80/bo.png",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "https://flagcdn.com/w80/bo.png",
             "",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-9-400x400.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-1-400x400.png",
@@ -6882,8 +6882,8 @@
           "countries": [
             "",
             "Cochabamba",
-            "Bolivia",
             "Potos",
+            "Bolivia",
             "La Paz",
             "Potos",
             "Bolivia",
@@ -6901,8 +6901,8 @@
           "badge_types": [
             "none",
             "club_logo",
-            "country_flag",
             "club_logo",
+            "country_flag",
             "none",
             "club_logo",
             "club_logo",
@@ -6928,7 +6928,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-23T00:05:47.285306Z",
+        "scraped_at": "2026-09-23T05:34:35.004380Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7438,7 +7438,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-23T00:05:47.285306Z",
+        "scraped_at": "2026-09-23T05:34:35.004380Z",
         "extra": {
           "rows": [
             [
@@ -7920,7 +7920,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-23T00:05:46.827422Z",
+        "scraped_at": "2026-09-23T05:34:34.574088Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7983,7 +7983,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-23T00:05:46.842633Z",
+        "scraped_at": "2026-09-23T05:34:34.588274Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -8044,7 +8044,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-23T00:05:47.285306Z",
+        "scraped_at": "2026-09-23T05:34:35.004380Z",
         "extra": {
           "rows": [
             [
@@ -8522,7 +8522,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-09-23T00:05:46.334911Z",
+        "scraped_at": "2026-09-23T05:34:34.114206Z",
         "extra": {
           "rows": [
             [
@@ -9040,7 +9040,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-23T00:05:50.553910Z",
+        "scraped_at": "2026-09-23T05:34:37.787817Z",
         "extra": {
           "header": [
             "Fecha",
@@ -9822,7 +9822,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-23T00:05:50.553910Z",
+        "scraped_at": "2026-09-23T05:34:37.787817Z",
         "extra": {
           "rows": [
             [
@@ -10304,7 +10304,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-23T00:05:49.706266Z",
+        "scraped_at": "2026-09-23T05:34:37.060563Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10388,7 +10388,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-23T00:05:49.723927Z",
+        "scraped_at": "2026-09-23T05:34:37.076650Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10455,7 +10455,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-23T00:05:50.553910Z",
+        "scraped_at": "2026-09-23T05:34:37.787817Z",
         "extra": {
           "rows": [
             [
@@ -10933,7 +10933,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-09-23T00:05:48.798879Z",
+        "scraped_at": "2026-09-23T05:34:36.285531Z",
         "extra": {
           "rows": [
             [
@@ -11455,7 +11455,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-09-23T00:03:13.973598Z",
+        "scraped_at": "2026-09-23T05:32:27.320050Z",
         "source_id": "lostiempos_deportes",
         "source_name": "Los Tiempos - Deportes",
         "source_type": "media",
@@ -11467,32 +11467,32 @@
         "extra": {
           "rows": [
             [
-              "1 Comando de Cochabamba confirma vías expeditas y refuerza la vigilancia en puntos estratégicos Ver más",
+              "1 En ampliado nacional, choferes determinan el repliegue de sus unidades por 24 horas este lunes Ver más",
               "2 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más"
             ],
             [
-              "3 La Fiscalía de Cochabamba está presente en la Expocruz con una muestra de tradiciones Ver más",
-              "4 Fiscalía cita a 28 militares por las explosiones en el Regimiento Bolívar de Viacha Ver más"
+              "3 Paz desde EEUU: “Cada vez que he salido al exterior, siempre retorno con platita” Ver más",
+              "4 Sacaba impulsa feria multisectorial y busca consolidar la marcha “Hecho en Sacaba” Ver más"
             ],
             [
-              "5 ATT está abierta al diálogo con los choferes para encontrar un “punto en equilibrio” Ver más",
-              "6 Pesquisa sobre doble feminicidio devela que las víctimas fueron violadas Ver más"
+              "5 António Guterres en la ONU: dura alerta por la IA y un tajante 'ya basta' para exigir la paz en Medio Oriente Ver más",
+              "6 BCB fija en Bs 11,90 la cotización del dólar para este martes Ver más"
             ],
             [
-              "7 En ampliado nacional, choferes determinan el repliegue de sus unidades por 24 horas este lunes Ver más",
-              "8 Fiscalía investiga un nuevo feminicidio seguido de suicidio en Cliza Ver más"
+              "7 Bolivia acoge encuentro militar de seis países sobre seguridad regional Ver más",
+              "8 ONU se celebra en un contexto de crecientes divisiones entre países Ver más"
             ],
             [
-              "9 Paz desde EEUU: “Cada vez que he salido al exterior, siempre retorno con platita” Ver más",
-              "10 Sacaba impulsa feria multisectorial y busca consolidar la marcha “Hecho en Sacaba” Ver más"
+              "9 Aprehenden a una mujer por la venta de presunto charque de zorro en El Alto Ver más",
+              "10 Agua en turril de las cisternas subirá de Bs 10 a 25 por el aumento del diésel Ver más"
             ]
           ],
           "logos": [
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/22/cochabamba_sin_bloqueos_editar_va.jpg?itok=jxTZWRdv",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/22/fiscalia_expocruz_ed_ok.jpg?itok=ha-YLg4J",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/22/trans.jpg?itok=nJzdkXwg",
             "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/22/chofer.jpg?itok=sFGI4N54",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/22/pazz.jpg?itok=Is6DHm43"
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/22/pazz.jpg?itok=Is6DHm43",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2021/5/24/moscow_russian_federation_12_05_2021_u_n_secretary_general_antonio_guterres_attends_a_news.jpg?itok=tCcP3W0u",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/22/mili_7.jpg?itok=oU-dyTP0",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/22/zorro_2.jpg?itok=BM0GAAWo"
           ],
           "strong_standings": false,
           "row_groups": null,

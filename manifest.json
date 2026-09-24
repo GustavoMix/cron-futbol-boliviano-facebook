@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-09-24T13:21:15.940594Z",
+  "generated_at": "2026-09-24T18:18:36.888083Z",
   "architecture": "3 Facebook groups + 1 web group; feed editorial + fases KO verificadas por serie completa",
   "facebook_groups": [
     {
@@ -25,15 +25,15 @@
   "totals": {
     "facebook_items": 0,
     "web_latest_items": 200,
-    "app_feed_items": 151
+    "app_feed_items": 121
   },
   "web": {
-    "generated_at": "2026-09-24T13:21:15.777300Z",
+    "generated_at": "2026-09-24T18:18:36.758639Z",
     "totals": {
-      "items_before_filter": 770,
-      "items_after_filter_dedupe": 579,
-      "web_sources_ok": 42,
-      "web_sources_error": 7,
+      "items_before_filter": 648,
+      "items_after_filter_dedupe": 476,
+      "web_sources_ok": 41,
+      "web_sources_error": 8,
       "social_items": 0
     },
     "errors": [
@@ -46,16 +46,20 @@
         "error": "HTTPError: 403 Client Error: Forbidden for url: https://eldeber.com.bo/deportes"
       },
       {
-        "source": "erbol_deporte",
-        "error": "HTTPError: 522 Server Error: <none> for url: https://erbol.com.bo/deporte"
+        "source": "larazon_futbol_boliviano",
+        "error": "HTTPError: 403 Client Error: Forbidden for url: https://larazon.bo/categoria/marcas/futbol-profesional-boliviano/"
       },
       {
         "source": "abi_deportes",
-        "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f8dbc286360>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+        "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f0dc3d18d40>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
       },
       {
         "source": "conmebol_eliminatorias",
         "error": "HTTPError: 404 Client Error: Not Found for url: https://www.conmebol.com/eliminatorias/"
+      },
+      {
+        "source": "as_futbol",
+        "error": "HTTPError: 403 Client Error: Forbidden for url: https://as.com/futbol/"
       },
       {
         "source": "foxsports_latam",

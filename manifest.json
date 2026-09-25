@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-09-25T13:20:19.070514Z",
+  "generated_at": "2026-09-25T18:18:54.638568Z",
   "architecture": "3 Facebook groups + 1 web group; feed editorial + fases KO verificadas por serie completa",
   "facebook_groups": [
     {
@@ -28,12 +28,12 @@
     "app_feed_items": 159
   },
   "web": {
-    "generated_at": "2026-09-25T13:20:18.919763Z",
+    "generated_at": "2026-09-25T18:18:54.497310Z",
     "totals": {
-      "items_before_filter": 780,
-      "items_after_filter_dedupe": 587,
-      "web_sources_ok": 44,
-      "web_sources_error": 5,
+      "items_before_filter": 770,
+      "items_after_filter_dedupe": 576,
+      "web_sources_ok": 43,
+      "web_sources_error": 6,
       "social_items": 0
     },
     "errors": [
@@ -44,6 +44,10 @@
       {
         "source": "eldeber_deportes",
         "error": "HTTPError: 403 Client Error: Forbidden for url: https://eldeber.com.bo/deportes"
+      },
+      {
+        "source": "redpat_deportes",
+        "error": "ReadTimeout: HTTPSConnectionPool(host='www.redpat.tv', port=443): Read timed out. (read timeout=25)"
       },
       {
         "source": "conmebol_eliminatorias",

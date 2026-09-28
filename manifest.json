@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-09-28T06:23:30.218032Z",
+  "generated_at": "2026-09-28T15:02:20.805408Z",
   "architecture": "3 Facebook groups + 1 web group; feed editorial + fases KO verificadas por serie completa",
   "facebook_groups": [
     {
@@ -25,13 +25,13 @@
   "totals": {
     "facebook_items": 0,
     "web_latest_items": 200,
-    "app_feed_items": 157
+    "app_feed_items": 153
   },
   "web": {
-    "generated_at": "2026-09-28T06:23:30.094508Z",
+    "generated_at": "2026-09-28T15:02:20.673459Z",
     "totals": {
-      "items_before_filter": 728,
-      "items_after_filter_dedupe": 544,
+      "items_before_filter": 731,
+      "items_after_filter_dedupe": 548,
       "web_sources_ok": 43,
       "web_sources_error": 6,
       "social_items": 0

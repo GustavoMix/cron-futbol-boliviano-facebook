@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-09-28T00:21:40.498942Z",
+  "generated_at": "2026-09-28T06:23:30.094508Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,13 +9,13 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 337
+      "items": 334
     },
     "conmebol.json": {
       "items": 88
     },
     "internacional.json": {
-      "items": 121
+      "items": 122
     },
     "social.json": {
       "items": 0
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 159
+      "items": 157
     },
     "current_tables.json": {
       "items": 0
@@ -134,7 +134,7 @@
       "id": "unitel_atodo_deporte",
       "name": "Unitel - A Todo Deporte",
       "ok": true,
-      "items": 13
+      "items": 14
     },
     {
       "id": "unitel_division_profesional",
@@ -296,7 +296,7 @@
       "id": "marca_futbol",
       "name": "Marca - Fútbol",
       "ok": true,
-      "items": 66
+      "items": 67
     },
     {
       "id": "as_futbol",
@@ -352,8 +352,8 @@
     }
   ],
   "totals": {
-    "items_before_filter": 726,
-    "items_after_filter_dedupe": 546,
+    "items_before_filter": 728,
+    "items_after_filter_dedupe": 544,
     "web_sources_ok": 43,
     "web_sources_error": 6,
     "social_items": 0

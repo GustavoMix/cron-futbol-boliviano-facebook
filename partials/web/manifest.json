@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-09-30T21:17:07.294551Z",
+  "generated_at": "2026-10-01T01:07:59.940445Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,10 +9,10 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 264
+      "items": 268
     },
     "conmebol.json": {
-      "items": 88
+      "items": 86
     },
     "internacional.json": {
       "items": 123
@@ -211,8 +211,8 @@
     {
       "id": "abi_deportes",
       "name": "ABI - Deportes",
-      "ok": false,
-      "items": 0
+      "ok": true,
+      "items": 10
     },
     {
       "id": "redpat_deportes",
@@ -343,10 +343,6 @@
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://larazon.bo/categoria/marcas/futbol-profesional-boliviano/"
     },
     {
-      "source": "abi_deportes",
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f3bdc563ce0>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
-    },
-    {
       "source": "conmebol_eliminatorias",
       "error": "HTTPError: 404 Client Error: Not Found for url: https://www.conmebol.com/eliminatorias/"
     },
@@ -360,10 +356,10 @@
     }
   ],
   "totals": {
-    "items_before_filter": 652,
-    "items_after_filter_dedupe": 475,
-    "web_sources_ok": 41,
-    "web_sources_error": 8,
+    "items_before_filter": 662,
+    "items_after_filter_dedupe": 477,
+    "web_sources_ok": 42,
+    "web_sources_error": 7,
     "social_items": 0
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-02T01:21:08.031985Z",
+  "generated_at": "2026-10-02T08:02:05.204916Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,13 +9,13 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 269
+      "items": 266
     },
     "conmebol.json": {
       "items": 86
     },
     "internacional.json": {
-      "items": 121
+      "items": 127
     },
     "social.json": {
       "items": 0
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 107
+      "items": 106
     },
     "current_tables.json": {
       "items": 0
@@ -296,7 +296,7 @@
       "id": "marca_futbol",
       "name": "Marca - Fútbol",
       "ok": true,
-      "items": 69
+      "items": 70
     },
     {
       "id": "as_futbol",
@@ -352,8 +352,8 @@
     }
   ],
   "totals": {
-    "items_before_filter": 714,
-    "items_after_filter_dedupe": 476,
+    "items_before_filter": 715,
+    "items_after_filter_dedupe": 479,
     "web_sources_ok": 43,
     "web_sources_error": 6,
     "social_items": 0

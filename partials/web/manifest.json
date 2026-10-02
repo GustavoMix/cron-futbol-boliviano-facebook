@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-02T08:02:05.204916Z",
+  "generated_at": "2026-10-02T15:28:06.630689Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,13 +9,13 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 266
+      "items": 252
     },
     "conmebol.json": {
       "items": 86
     },
     "internacional.json": {
-      "items": 127
+      "items": 86
     },
     "social.json": {
       "items": 0
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 106
+      "items": 96
     },
     "current_tables.json": {
       "items": 0
@@ -211,8 +211,8 @@
     {
       "id": "abi_deportes",
       "name": "ABI - Deportes",
-      "ok": true,
-      "items": 10
+      "ok": false,
+      "items": 0
     },
     {
       "id": "redpat_deportes",
@@ -296,13 +296,13 @@
       "id": "marca_futbol",
       "name": "Marca - Fútbol",
       "ok": true,
-      "items": 70
+      "items": 68
     },
     {
       "id": "as_futbol",
       "name": "AS.com - Fútbol",
-      "ok": true,
-      "items": 52
+      "ok": false,
+      "items": 0
     },
     {
       "id": "ole_futbol_internacional",
@@ -314,7 +314,7 @@
       "id": "goal_espanol",
       "name": "Goal.com (español)",
       "ok": true,
-      "items": 40
+      "items": 39
     },
     {
       "id": "foxsports_latam",
@@ -343,8 +343,16 @@
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://larazon.bo/categoria/marcas/futbol-profesional-boliviano/"
     },
     {
+      "source": "abi_deportes",
+      "error": "ConnectionError: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by NameResolutionError(\"HTTPSConnection(host='abi.bo', port=443): Failed to resolve 'abi.bo' ([Errno -3] Temporary failure in name resolution)\"))"
+    },
+    {
       "source": "conmebol_eliminatorias",
       "error": "HTTPError: 404 Client Error: Not Found for url: https://www.conmebol.com/eliminatorias/"
+    },
+    {
+      "source": "as_futbol",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://as.com/futbol/"
     },
     {
       "source": "foxsports_latam",
@@ -352,10 +360,10 @@
     }
   ],
   "totals": {
-    "items_before_filter": 715,
-    "items_after_filter_dedupe": 479,
-    "web_sources_ok": 43,
-    "web_sources_error": 6,
+    "items_before_filter": 650,
+    "items_after_filter_dedupe": 424,
+    "web_sources_ok": 41,
+    "web_sources_error": 8,
     "social_items": 0
   }
 }

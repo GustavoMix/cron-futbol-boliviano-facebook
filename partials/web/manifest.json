@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-01T21:37:42.192428Z",
+  "generated_at": "2026-10-02T01:21:08.031985Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,13 +9,13 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 266
+      "items": 269
     },
     "conmebol.json": {
       "items": 86
     },
     "internacional.json": {
-      "items": 130
+      "items": 121
     },
     "social.json": {
       "items": 0
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 105
+      "items": 107
     },
     "current_tables.json": {
       "items": 0
@@ -353,7 +353,7 @@
   ],
   "totals": {
     "items_before_filter": 714,
-    "items_after_filter_dedupe": 482,
+    "items_after_filter_dedupe": 476,
     "web_sources_ok": 43,
     "web_sources_error": 6,
     "social_items": 0

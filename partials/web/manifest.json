@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-03T06:07:42.785831Z",
+  "generated_at": "2026-10-03T12:18:41.788754Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -15,7 +15,7 @@
       "items": 86
     },
     "internacional.json": {
-      "items": 122
+      "items": 109
     },
     "social.json": {
       "items": 0
@@ -314,7 +314,7 @@
       "id": "goal_espanol",
       "name": "Goal.com (español)",
       "ok": true,
-      "items": 40
+      "items": 39
     },
     {
       "id": "foxsports_latam",
@@ -352,8 +352,8 @@
     }
   ],
   "totals": {
-    "items_before_filter": 773,
-    "items_after_filter_dedupe": 520,
+    "items_before_filter": 772,
+    "items_after_filter_dedupe": 507,
     "web_sources_ok": 43,
     "web_sources_error": 6,
     "social_items": 0

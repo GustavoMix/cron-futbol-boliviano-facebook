@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-10-02T20:25:44.859821Z",
+  "generated_at": "2026-10-03T00:14:58.719451Z",
   "architecture": "3 Facebook groups + 1 web group; feed editorial + fases KO verificadas por serie completa",
   "facebook_groups": [
     {
@@ -25,15 +25,15 @@
   "totals": {
     "facebook_items": 0,
     "web_latest_items": 200,
-    "app_feed_items": 97
+    "app_feed_items": 96
   },
   "web": {
-    "generated_at": "2026-10-02T20:25:44.709102Z",
+    "generated_at": "2026-10-03T00:14:58.566601Z",
     "totals": {
-      "items_before_filter": 650,
-      "items_after_filter_dedupe": 428,
-      "web_sources_ok": 41,
-      "web_sources_error": 8,
+      "items_before_filter": 703,
+      "items_after_filter_dedupe": 452,
+      "web_sources_ok": 42,
+      "web_sources_error": 7,
       "social_items": 0
     },
     "errors": [
@@ -56,10 +56,6 @@
       {
         "source": "conmebol_eliminatorias",
         "error": "HTTPError: 404 Client Error: Not Found for url: https://www.conmebol.com/eliminatorias/"
-      },
-      {
-        "source": "as_futbol",
-        "error": "HTTPError: 403 Client Error: Forbidden for url: https://as.com/futbol/"
       },
       {
         "source": "foxsports_latam",

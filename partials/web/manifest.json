@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-03T00:14:58.566601Z",
+  "generated_at": "2026-10-03T06:07:42.785831Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,13 +9,13 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 255
+      "items": 312
     },
     "conmebol.json": {
       "items": 86
     },
     "internacional.json": {
-      "items": 111
+      "items": 122
     },
     "social.json": {
       "items": 0
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 96
+      "items": 125
     },
     "current_tables.json": {
       "items": 0
@@ -134,7 +134,7 @@
       "id": "unitel_atodo_deporte",
       "name": "Unitel - A Todo Deporte",
       "ok": true,
-      "items": 14
+      "items": 13
     },
     {
       "id": "unitel_division_profesional",
@@ -187,8 +187,8 @@
     {
       "id": "larazon_futbol_boliviano",
       "name": "La Razón - Fútbol Profesional Boliviano",
-      "ok": false,
-      "items": 0
+      "ok": true,
+      "items": 70
     },
     {
       "id": "vision360_futbol_boliviano",
@@ -314,7 +314,7 @@
       "id": "goal_espanol",
       "name": "Goal.com (español)",
       "ok": true,
-      "items": 39
+      "items": 40
     },
     {
       "id": "foxsports_latam",
@@ -339,10 +339,6 @@
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://eldeber.com.bo/deportes"
     },
     {
-      "source": "larazon_futbol_boliviano",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://larazon.bo/categoria/marcas/futbol-profesional-boliviano/"
-    },
-    {
       "source": "abi_deportes",
       "error": "ConnectionError: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by NameResolutionError(\"HTTPSConnection(host='abi.bo', port=443): Failed to resolve 'abi.bo' ([Errno -3] Temporary failure in name resolution)\"))"
     },
@@ -356,10 +352,10 @@
     }
   ],
   "totals": {
-    "items_before_filter": 703,
-    "items_after_filter_dedupe": 452,
-    "web_sources_ok": 42,
-    "web_sources_error": 7,
+    "items_before_filter": 773,
+    "items_after_filter_dedupe": 520,
+    "web_sources_ok": 43,
+    "web_sources_error": 6,
     "social_items": 0
   }
 }

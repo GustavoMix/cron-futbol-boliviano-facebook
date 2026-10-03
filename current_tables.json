@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-10-03T00:14:50.394697Z",
+  "generated_at": "2026-10-03T06:07:33.166096Z",
   "policy": "datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback",
   "assets_policy": "club_logo > country_flag > none",
   "team_assets": {
@@ -546,7 +546,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-10-03T00:13:05.739581Z",
+        "scraped_at": "2026-10-03T06:05:40.027172Z",
         "extra": {
           "header": [
             "Fecha",
@@ -4664,7 +4664,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-03T00:13:05.367930Z",
+        "scraped_at": "2026-10-03T06:05:39.842160Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -4974,7 +4974,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-03T00:13:05.784847Z",
+        "scraped_at": "2026-10-03T06:05:40.049169Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5073,7 +5073,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-03T00:13:05.795833Z",
+        "scraped_at": "2026-10-03T06:05:40.054433Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5150,7 +5150,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-03T00:13:05.819568Z",
+        "scraped_at": "2026-10-03T06:05:40.065971Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5430,7 +5430,7 @@
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-10-03T00:13:06.258467Z",
+        "scraped_at": "2026-10-03T06:05:40.347740Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6235,7 +6235,7 @@
             [
               "Fecha 7",
               "Real Potosí",
-              "–",
+              "1 – 1",
               "Aurora",
               "Víctor Agustín Ugarte",
               "2 de octubre",
@@ -6268,14 +6268,14 @@
               "Fecha 7",
               "Nacional Potosí",
               "–",
-              "Real Tomayapo",
+              "Real Oruro",
               "Víctor Agustín Ugarte",
               "3 de octubre",
               "17:15",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-9-400x400.png",
-              "https://fbf.com.bo/wp-content/uploads/2025/12/1-6-400x400.png",
+              "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200",
               "Potos",
-              "Tarija",
+              "Bolivia",
               "club_logo",
               "club_logo",
               "Grupo B"
@@ -6591,7 +6591,7 @@
             "La Paz",
             "Cochabamba",
             "Tarija",
-            "Tarija",
+            "Bolivia",
             "Cochabamba",
             "Santa Cruz",
             "Santa Cruz",
@@ -6616,7 +6616,7 @@
         "source_name": "Series — Serie A + Series — Serie B + Series — Serie C + Series — Serie D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-10-03T00:13:06.178592Z",
+        "scraped_at": "2026-10-03T06:05:40.307678Z",
         "extra": {
           "rows": [
             [
@@ -6637,19 +6637,33 @@
               "Series — Serie A",
               "1",
               "Aurora",
-              "14",
-              "6",
+              "15",
+              "7",
               "4",
-              "2",
+              "3",
               "0",
-              "10",
-              "5",
+              "11",
+              "6",
               "+5",
               "Liguilla final"
             ],
             [
               "Series — Serie A",
               "2",
+              "Real Potosí",
+              "11",
+              "7",
+              "3",
+              "2",
+              "2",
+              "10",
+              "10",
+              "0",
+              "Liguilla final"
+            ],
+            [
+              "Series — Serie A",
+              "3",
               "San Antonio Bulo Bulo",
               "10",
               "7",
@@ -6659,20 +6673,6 @@
               "13",
               "7",
               "+6",
-              "Liguilla final"
-            ],
-            [
-              "Series — Serie A",
-              "3",
-              "Real Potosí",
-              "10",
-              "6",
-              "3",
-              "1",
-              "2",
-              "9",
-              "9",
-              "0",
               ""
             ],
             [
@@ -6863,8 +6863,8 @@
           "logos": [
             "",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-2-400x400.png",
-            "https://flagcdn.com/w80/bo.png",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "https://flagcdn.com/w80/bo.png",
             "",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-9-400x400.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-6-400x400.png",
@@ -6882,8 +6882,8 @@
           "countries": [
             "",
             "Cochabamba",
-            "Bolivia",
             "Potos",
+            "Bolivia",
             "La Paz",
             "Potos",
             "Tarija",
@@ -6901,8 +6901,8 @@
           "badge_types": [
             "none",
             "club_logo",
-            "country_flag",
             "club_logo",
+            "country_flag",
             "none",
             "club_logo",
             "club_logo",
@@ -6928,7 +6928,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-10-03T00:13:08.439554Z",
+        "scraped_at": "2026-10-03T06:05:41.538230Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7438,7 +7438,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-10-03T00:13:08.439554Z",
+        "scraped_at": "2026-10-03T06:05:41.538230Z",
         "extra": {
           "rows": [
             [
@@ -7920,7 +7920,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-03T00:13:07.987402Z",
+        "scraped_at": "2026-10-03T06:05:41.282214Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7983,7 +7983,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-03T00:13:08.002274Z",
+        "scraped_at": "2026-10-03T06:05:41.289887Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -8044,7 +8044,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-10-03T00:13:08.439554Z",
+        "scraped_at": "2026-10-03T06:05:41.538230Z",
         "extra": {
           "rows": [
             [
@@ -8522,7 +8522,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-10-03T00:13:07.507312Z",
+        "scraped_at": "2026-10-03T06:05:41.030551Z",
         "extra": {
           "rows": [
             [
@@ -9040,7 +9040,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-10-03T00:13:11.155394Z",
+        "scraped_at": "2026-10-03T06:05:43.152619Z",
         "extra": {
           "header": [
             "Fecha",
@@ -9822,7 +9822,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-10-03T00:13:11.155394Z",
+        "scraped_at": "2026-10-03T06:05:43.152619Z",
         "extra": {
           "rows": [
             [
@@ -10304,7 +10304,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-03T00:13:10.391086Z",
+        "scraped_at": "2026-10-03T06:05:42.760484Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10388,7 +10388,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-03T00:13:10.407842Z",
+        "scraped_at": "2026-10-03T06:05:42.768912Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10455,7 +10455,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-10-03T00:13:11.155394Z",
+        "scraped_at": "2026-10-03T06:05:43.152619Z",
         "extra": {
           "rows": [
             [
@@ -10933,7 +10933,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-10-03T00:13:09.575473Z",
+        "scraped_at": "2026-10-03T06:05:42.342542Z",
         "extra": {
           "rows": [
             [
@@ -11455,7 +11455,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-03T00:11:18.772110Z",
+        "scraped_at": "2026-10-03T06:04:39.031158Z",
         "source_id": "lostiempos_deportes",
         "source_name": "Los Tiempos - Deportes",
         "source_type": "media",
@@ -11468,31 +11468,31 @@
           "rows": [
             [
               "1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más",
-              "2 tras aprehensión de mariaca Gobierno amenaza a quien no apoye su política contra el “narcoterrorismo” Ver más"
+              "2 El Gobierno exige a la ALP destituir a Roger Mariaca del cargo de Fiscal: \"Están del lado del bien o del lado del delito\" Ver más"
             ],
             [
-              "3 CAF aprueba crédito de $us 224 millones para carreteras de Bolivia Ver más",
-              "4 El Ejecutivo desconoce a Fiscal interino y lo busca para aprehenderlo Ver más"
+              "3 Linchan a un presunto autero en Kaluyo, en Tarata, y queman el auto de los sospechosos Ver más",
+              "4 Sismo de magnitud 3,4 sacude la provincia Chapare, en Cochabamba Ver más"
             ],
             [
-              "5 Gobierno denuncia usurpación de funciones en Fiscalía General Ver más",
-              "6 fiscales, civiles y policías Con aprehensiones, Gobierno dice que desmantela una organización criminal Ver más"
+              "5 Fiscalía imputa a Mariaca por dos delitos y pide su detención en el penal de San Pedro Ver más",
+              "6 Brasil: los indecisos pueden inclinar la balanza en unas elecciones muy polarizadas Ver más"
             ],
             [
-              "7 ¿Quién debe asumir ahora como Fiscal General? Ver más",
-              "8 Legislativo debate hoy cómo se elegirá al nuevo Fiscal General Ver más"
+              "7 Desde Libre plantean modificar la ley 260 y designar un Fiscal Interventor Ver más",
+              "8 Cancillería: Chile frena destrucción de presunta narcomadera incautada Ver más"
             ],
             [
-              "9 Policía revela que Aparicio fue el primer detenido y dio información sobre fiscales Ver más",
-              "10 Gálvez denuncia sobornos en elección de Mariaca y compra de votos para el nuevo fiscal General Ver más"
+              "9 ALP debatirá ley corta para nombrar un fiscal general interino Ver más",
+              "10 Crecen las filas para la gasolina y las distribuidores de garrafas de GLP paran por el alza del diésel Ver más"
             ]
           ],
           "logos": [
             "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/11/zamora_2_1.jpg?itok=mqWyzXZG",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/1/caf_vias.jpg?itok=3E0aPBem",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/1/el_nuevop_y_galvez_correo.jpg?itok=5CDu1WcI",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/1/sede_fge.jpg?itok=t-flinxm",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/1/alvarez_policia_ed_va.jpg?itok=-iJ8R_L8"
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/2/linchamiento_tarata_ed_ok.jpg?itok=JkUL5Gzm",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/7/30/mariaca_roma_va.jpg?itok=Lu6jR6vD",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/2/camara_0.jpg?itok=wf1GWPGa",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/2/diputados_2-10-26_camara_de_diputados.jpg?itok=nQy-5SEc"
           ],
           "strong_standings": false,
           "row_groups": null,

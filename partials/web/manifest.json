@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-03T20:42:26.189367Z",
+  "generated_at": "2026-10-03T23:37:31.097296Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,13 +9,13 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 312
+      "items": 313
     },
     "conmebol.json": {
       "items": 86
     },
     "internacional.json": {
-      "items": 107
+      "items": 124
     },
     "social.json": {
       "items": 0
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 125
+      "items": 124
     },
     "current_tables.json": {
       "items": 0
@@ -188,7 +188,7 @@
       "id": "larazon_futbol_boliviano",
       "name": "La Razón - Fútbol Profesional Boliviano",
       "ok": true,
-      "items": 70
+      "items": 72
     },
     {
       "id": "vision360_futbol_boliviano",
@@ -296,7 +296,7 @@
       "id": "marca_futbol",
       "name": "Marca - Fútbol",
       "ok": true,
-      "items": 67
+      "items": 69
     },
     {
       "id": "as_futbol",
@@ -352,8 +352,8 @@
     }
   ],
   "totals": {
-    "items_before_filter": 771,
-    "items_after_filter_dedupe": 505,
+    "items_before_filter": 775,
+    "items_after_filter_dedupe": 523,
     "web_sources_ok": 43,
     "web_sources_error": 6,
     "social_items": 0

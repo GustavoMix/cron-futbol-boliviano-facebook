@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-04T15:50:00.460895Z",
+  "generated_at": "2026-10-04T19:17:36.098058Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,13 +9,13 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 309
+      "items": 311
     },
     "conmebol.json": {
       "items": 86
     },
     "internacional.json": {
-      "items": 121
+      "items": 119
     },
     "social.json": {
       "items": 0
@@ -146,7 +146,7 @@
       "id": "diez_futbol",
       "name": "DIEZ - Fútbol",
       "ok": true,
-      "items": 41
+      "items": 42
     },
     {
       "id": "diez_futbol_boliviano",
@@ -188,13 +188,13 @@
       "id": "larazon_futbol_boliviano",
       "name": "La Razón - Fútbol Profesional Boliviano",
       "ok": true,
-      "items": 69
+      "items": 68
     },
     {
       "id": "vision360_futbol_boliviano",
       "name": "Visión 360 - Fútbol Boliviano",
       "ok": true,
-      "items": 40
+      "items": 41
     },
     {
       "id": "oxigeno_deportes",
@@ -296,13 +296,13 @@
       "id": "marca_futbol",
       "name": "Marca - Fútbol",
       "ok": true,
-      "items": 68
+      "items": 65
     },
     {
       "id": "as_futbol",
       "name": "AS.com - Fútbol",
       "ok": true,
-      "items": 51
+      "items": 52
     },
     {
       "id": "ole_futbol_internacional",
@@ -314,7 +314,7 @@
       "id": "goal_espanol",
       "name": "Goal.com (español)",
       "ok": true,
-      "items": 39
+      "items": 40
     },
     {
       "id": "foxsports_latam",

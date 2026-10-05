@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-04T22:51:41.734320Z",
+  "generated_at": "2026-10-05T01:41:49.099932Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,13 +9,13 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 316
+      "items": 255
     },
     "conmebol.json": {
       "items": 86
     },
     "internacional.json": {
-      "items": 81
+      "items": 111
     },
     "social.json": {
       "items": 0
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 126
+      "items": 96
     },
     "current_tables.json": {
       "items": 0
@@ -134,7 +134,7 @@
       "id": "unitel_atodo_deporte",
       "name": "Unitel - A Todo Deporte",
       "ok": true,
-      "items": 13
+      "items": 14
     },
     {
       "id": "unitel_division_profesional",
@@ -187,8 +187,8 @@
     {
       "id": "larazon_futbol_boliviano",
       "name": "La Razón - Fútbol Profesional Boliviano",
-      "ok": true,
-      "items": 71
+      "ok": false,
+      "items": 0
     },
     {
       "id": "vision360_futbol_boliviano",
@@ -296,13 +296,13 @@
       "id": "marca_futbol",
       "name": "Marca - Fútbol",
       "ok": true,
-      "items": 65
+      "items": 66
     },
     {
       "id": "as_futbol",
       "name": "AS.com - Fútbol",
-      "ok": false,
-      "items": 0
+      "ok": true,
+      "items": 52
     },
     {
       "id": "ole_futbol_internacional",
@@ -339,6 +339,10 @@
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://eldeber.com.bo/deportes"
     },
     {
+      "source": "larazon_futbol_boliviano",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://larazon.bo/categoria/marcas/futbol-profesional-boliviano/"
+    },
+    {
       "source": "abi_deportes",
       "error": "ConnectionError: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by NameResolutionError(\"HTTPSConnection(host='abi.bo', port=443): Failed to resolve 'abi.bo' ([Errno -3] Temporary failure in name resolution)\"))"
     },
@@ -347,17 +351,13 @@
       "error": "HTTPError: 404 Client Error: Not Found for url: https://www.conmebol.com/eliminatorias/"
     },
     {
-      "source": "as_futbol",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://as.com/futbol/"
-    },
-    {
       "source": "foxsports_latam",
       "error": "ConnectionError: HTTPSConnectionPool(host='www.foxsportsla.com', port=443): Max retries exceeded with url: /futbol (Caused by NameResolutionError(\"HTTPSConnection(host='www.foxsportsla.com', port=443): Failed to resolve 'www.foxsportsla.com' ([Errno -3] Temporary failure in name resolution)\"))"
     }
   ],
   "totals": {
-    "items_before_filter": 720,
-    "items_after_filter_dedupe": 483,
+    "items_before_filter": 703,
+    "items_after_filter_dedupe": 452,
     "web_sources_ok": 42,
     "web_sources_error": 7,
     "social_items": 0

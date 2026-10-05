@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-10-05T01:41:41.639163Z",
+  "generated_at": "2026-10-05T08:29:24.857435Z",
   "policy": "datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback",
   "assets_policy": "club_logo > country_flag > none",
   "team_assets": {
@@ -546,7 +546,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-10-05T01:40:05.682505Z",
+        "scraped_at": "2026-10-05T08:28:28.082205Z",
         "extra": {
           "header": [
             "Fecha",
@@ -4664,7 +4664,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-05T01:40:05.493549Z",
+        "scraped_at": "2026-10-05T08:28:27.679550Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -4974,7 +4974,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-05T01:40:05.705845Z",
+        "scraped_at": "2026-10-05T08:28:28.129350Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5073,7 +5073,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-05T01:40:05.711301Z",
+        "scraped_at": "2026-10-05T08:28:28.141031Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5150,7 +5150,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-05T01:40:05.723229Z",
+        "scraped_at": "2026-10-05T08:28:28.166482Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5430,7 +5430,7 @@
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-10-05T01:40:06.038034Z",
+        "scraped_at": "2026-10-05T08:28:28.515809Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6331,7 +6331,7 @@
             [
               "Fecha 7",
               "Independiente Petrolero",
-              "–",
+              "0 – 3",
               "Bolívar",
               "Olímpico Patria",
               "4 de octubre",
@@ -6616,7 +6616,7 @@
         "source_name": "Series — Serie A + Series — Serie B + Series — Serie C + Series — Serie D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-10-05T01:40:05.997802Z",
+        "scraped_at": "2026-10-05T08:28:28.432786Z",
         "extra": {
           "rows": [
             [
@@ -6805,14 +6805,14 @@
               "Series — Serie D",
               "1",
               "Bolívar",
-              "14",
-              "6",
-              "4",
+              "17",
+              "7",
+              "5",
               "2",
               "0",
-              "13",
+              "16",
               "6",
-              "+7",
+              "+10",
               "Liguilla final"
             ],
             [
@@ -6820,27 +6820,27 @@
               "2",
               "Independiente Petrolero",
               "13",
-              "6",
+              "7",
               "4",
               "1",
-              "1",
+              "2",
               "15",
-              "8",
-              "+7",
+              "11",
+              "+4",
               "Liguilla final"
             ],
             [
               "Series — Serie D",
               "3",
               "GV San José",
-              "3",
               "6",
-              "1",
+              "7",
+              "2",
               "0",
               "5",
-              "8",
-              "14",
-              "− 6",
+              "11",
+              "16",
+              "− 5",
               ""
             ],
             [
@@ -6848,13 +6848,13 @@
               "4",
               "Blooming",
               "3",
-              "6",
+              "7",
               "1",
               "0",
-              "5",
-              "8",
-              "16",
-              "− 8",
+              "6",
+              "10",
+              "20",
+              "− 10",
               ""
             ]
           ],
@@ -6928,7 +6928,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-10-05T01:40:07.245049Z",
+        "scraped_at": "2026-10-05T08:28:30.985576Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7438,7 +7438,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-10-05T01:40:07.245049Z",
+        "scraped_at": "2026-10-05T08:28:30.985576Z",
         "extra": {
           "rows": [
             [
@@ -7920,7 +7920,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-05T01:40:07.005954Z",
+        "scraped_at": "2026-10-05T08:28:30.440596Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7983,7 +7983,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-05T01:40:07.013772Z",
+        "scraped_at": "2026-10-05T08:28:30.458186Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -8044,7 +8044,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-10-05T01:40:07.245049Z",
+        "scraped_at": "2026-10-05T08:28:30.985576Z",
         "extra": {
           "rows": [
             [
@@ -8522,7 +8522,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-10-05T01:40:06.746494Z",
+        "scraped_at": "2026-10-05T08:28:29.885526Z",
         "extra": {
           "rows": [
             [
@@ -9040,7 +9040,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-10-05T01:40:08.716400Z",
+        "scraped_at": "2026-10-05T08:28:33.968930Z",
         "extra": {
           "header": [
             "Fecha",
@@ -9822,7 +9822,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-10-05T01:40:08.716400Z",
+        "scraped_at": "2026-10-05T08:28:33.968930Z",
         "extra": {
           "rows": [
             [
@@ -10304,7 +10304,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-05T01:40:08.331166Z",
+        "scraped_at": "2026-10-05T08:28:33.123417Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10388,7 +10388,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-05T01:40:08.339507Z",
+        "scraped_at": "2026-10-05T08:28:33.141614Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10455,7 +10455,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-10-05T01:40:08.716400Z",
+        "scraped_at": "2026-10-05T08:28:33.968930Z",
         "extra": {
           "rows": [
             [
@@ -10933,7 +10933,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-10-05T01:40:07.915967Z",
+        "scraped_at": "2026-10-05T08:28:32.239116Z",
         "extra": {
           "rows": [
             [
@@ -11455,7 +11455,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-05T01:39:01.844156Z",
+        "scraped_at": "2026-10-05T08:27:00.135440Z",
         "source_id": "lostiempos_deportes",
         "source_name": "Los Tiempos - Deportes",
         "source_type": "media",
@@ -11468,31 +11468,31 @@
           "rows": [
             [
               "1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más",
-              "2 Gobierno culpa a Mariaca por cerco, dice que fue elegido en base a sobornos Ver más"
+              "2 Oviedo confirma que Del Castillo sigue prófugo y está siendo buscado Ver más"
             ],
             [
-              "3 Urioste anuncia auditoría jurídica y reingeniería del Ministerio Público Ver más",
-              "4 Aprehensión de Mariaca causa revuelo en política y en dos órganos del Estado Ver más"
+              "3 Mariaca es puesto ante un juez de nuevo desde celdas de la Felcn, esta vez por legitimación de ganancias ilícitas Ver más",
+              "4 Exfiscal Zeballos es trasladado a El Abra para cumplir detención preventiva Ver más"
             ],
             [
-              "5 Ordenan la aprehensión del juez que dispuso trasladar el caso de Mariaca, Irusta y Zeballos a Santa Cruz Ver más",
-              "6 Tras días de terror, encuentran con vida a veterinaria secuestrada en Montero Ver más"
+              "5 Brasileños votan entre Lula y Flávio Bolsonaro en históricas elecciones presidenciales Ver más",
+              "6 Aprehenden a dos personas por el secuestro de una veterinaria; intentaron sobornar a la Policía Ver más"
             ],
             [
-              "7 Cesa el arresto del fiscal Luis Montaño tras declarar por presunta usurpación de funciones Ver más",
-              "8 Urioste arriba a La Paz y se prepara para jurar este lunes como fiscal interino Ver más"
+              "7 Brasil 2026, polarización, conservadurismo y 12 candidaturas en pugna Ver más",
+              "8 Cochabamba promulga ley que reconoce a los animales como seres sintientes Ver más"
             ],
             [
-              "9 Proyecto Hidroeléctrico Ivirizu avanza con llenado controlado del embalse Sehuencas Ver más",
-              "10 Fuerte granizada deja daños en varias ciudades de Paraguay Ver más"
+              "9 Fiscal General interino dice que encarará un “campo de guerra” Ver más",
+              "10 Roger Mariaca suma segunda detención preventiva, esta vez por el caso de legitimación Ver más"
             ]
           ],
           "logos": [
             "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/11/zamora_2_1.jpg?itok=mqWyzXZG",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/3/urioste.jpg?itok=Tc04XI5m",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/3/ministerio.jpg?itok=h5iYZOgp",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/3/fisca.jpg?itok=OhNNX4lA",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/3/hidro.jpg?itok=TQm4Or2b"
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/7/30/mariaca_roma_va.jpg?itok=Lu6jR6vD",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/4/15/lula.jpg?itok=glCj0H5l",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/4/4-10-2026_edwin_-_brasil_candidatos_web.jpg.jpeg?itok=gLggAFYO",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/4/3_p1_rrss.jpg?itok=f4Ekt8mk"
           ],
           "strong_standings": false,
           "row_groups": null,

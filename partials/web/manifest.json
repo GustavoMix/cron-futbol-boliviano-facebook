@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-06T00:40:29.518825Z",
+  "generated_at": "2026-10-06T07:17:48.889431Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -15,7 +15,7 @@
       "items": 86
     },
     "internacional.json": {
-      "items": 107
+      "items": 116
     },
     "social.json": {
       "items": 0
@@ -353,7 +353,7 @@
   ],
   "totals": {
     "items_before_filter": 779,
-    "items_after_filter_dedupe": 509,
+    "items_after_filter_dedupe": 518,
     "web_sources_ok": 43,
     "web_sources_error": 6,
     "social_items": 0

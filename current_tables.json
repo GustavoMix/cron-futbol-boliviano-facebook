@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-10-06T00:40:16.697374Z",
+  "generated_at": "2026-10-06T07:17:38.000648Z",
   "policy": "datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback",
   "assets_policy": "club_logo > country_flag > none",
   "team_assets": {
@@ -546,7 +546,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-10-06T00:38:50.755337Z",
+        "scraped_at": "2026-10-06T07:15:41.644177Z",
         "extra": {
           "header": [
             "Fecha",
@@ -4664,7 +4664,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-06T00:38:50.460421Z",
+        "scraped_at": "2026-10-06T07:15:41.263265Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -4974,7 +4974,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-06T00:38:50.791241Z",
+        "scraped_at": "2026-10-06T07:15:41.691113Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5073,7 +5073,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-06T00:38:50.800114Z",
+        "scraped_at": "2026-10-06T07:15:41.702211Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5150,7 +5150,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-06T00:38:50.819385Z",
+        "scraped_at": "2026-10-06T07:15:41.726454Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5430,7 +5430,7 @@
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-10-06T00:38:51.421690Z",
+        "scraped_at": "2026-10-06T07:15:42.101184Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6394,28 +6394,12 @@
             ],
             [
               "Fecha 8",
-              "Guabirá",
-              "–",
-              "The Strongest",
-              "Gilberto Parada",
-              "7 de octubre",
-              "15:00",
-              "",
-              "https://fbf.com.bo/wp-content/uploads/2025/12/1-11-400x400.png",
-              "Santa Cruz",
-              "La Paz",
-              "none",
-              "club_logo",
-              "Grupo C"
-            ],
-            [
-              "Fecha 8",
               "Independiente Petrolero",
               "–",
               "GV San José",
               "Olímpico Patria",
               "7 de octubre",
-              "18:00",
+              "17:30",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Escudo_Club_Independiente_Petrolero.png/250px-Escudo_Club_Independiente_Petrolero.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               "Chuquisaca",
@@ -6431,11 +6415,27 @@
               "Universitario de Vinto",
               "Ramón Aguilera Costas",
               "7 de octubre",
-              "20:00",
+              "20:30",
               "",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/U_de_Vinto.png/250px-U_de_Vinto.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
               "Santa Cruz",
               "Cochabamba",
+              "none",
+              "club_logo",
+              "Grupo C"
+            ],
+            [
+              "Fecha 8",
+              "Guabirá",
+              "–",
+              "The Strongest",
+              "Gilberto Parada",
+              "7 de octubre",
+              "20:30",
+              "",
+              "https://fbf.com.bo/wp-content/uploads/2025/12/1-11-400x400.png",
+              "Santa Cruz",
+              "La Paz",
               "none",
               "club_logo",
               "Grupo C"
@@ -6533,8 +6533,8 @@
             "Bolivia",
             "Potos",
             "Cochabamba",
-            "Santa Cruz",
             "Chuquisaca",
+            "Santa Cruz",
             "Santa Cruz",
             "Bolivia",
             "Santa Cruz"
@@ -6599,9 +6599,9 @@
             "Tarija",
             "Bolivia",
             "La Paz",
-            "La Paz",
             "Bolivia",
             "Cochabamba",
+            "La Paz",
             "Potos",
             "La Paz"
           ],
@@ -6616,7 +6616,7 @@
         "source_name": "Series — Serie A + Series — Serie B + Series — Serie C + Series — Serie D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-10-06T00:38:51.359136Z",
+        "scraped_at": "2026-10-06T07:15:42.019956Z",
         "extra": {
           "rows": [
             [
@@ -6928,7 +6928,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-10-06T00:38:53.211204Z",
+        "scraped_at": "2026-10-06T07:15:44.774736Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7438,7 +7438,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-10-06T00:38:53.211204Z",
+        "scraped_at": "2026-10-06T07:15:44.774736Z",
         "extra": {
           "rows": [
             [
@@ -7920,7 +7920,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-06T00:38:52.848929Z",
+        "scraped_at": "2026-10-06T07:15:44.285951Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7983,7 +7983,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-06T00:38:52.861002Z",
+        "scraped_at": "2026-10-06T07:15:44.303725Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -8044,7 +8044,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-10-06T00:38:53.211204Z",
+        "scraped_at": "2026-10-06T07:15:44.774736Z",
         "extra": {
           "rows": [
             [
@@ -8522,7 +8522,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-10-06T00:38:52.460222Z",
+        "scraped_at": "2026-10-06T07:15:43.742646Z",
         "extra": {
           "rows": [
             [
@@ -9040,7 +9040,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-10-06T00:38:55.414253Z",
+        "scraped_at": "2026-10-06T07:15:47.667128Z",
         "extra": {
           "header": [
             "Fecha",
@@ -9822,7 +9822,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-10-06T00:38:55.414253Z",
+        "scraped_at": "2026-10-06T07:15:47.667128Z",
         "extra": {
           "rows": [
             [
@@ -10304,7 +10304,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-06T00:38:54.819255Z",
+        "scraped_at": "2026-10-06T07:15:46.890737Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10388,7 +10388,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-06T00:38:54.832036Z",
+        "scraped_at": "2026-10-06T07:15:46.907483Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10455,7 +10455,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-10-06T00:38:55.414253Z",
+        "scraped_at": "2026-10-06T07:15:47.667128Z",
         "extra": {
           "rows": [
             [
@@ -10933,7 +10933,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-10-06T00:38:54.191186Z",
+        "scraped_at": "2026-10-06T07:15:46.056213Z",
         "extra": {
           "rows": [
             [
@@ -11455,7 +11455,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-06T00:37:33.360884Z",
+        "scraped_at": "2026-10-06T07:14:38.152906Z",
         "source_id": "lostiempos_deportes",
         "source_name": "Los Tiempos - Deportes",
         "source_type": "media",
@@ -11467,32 +11467,32 @@
         "extra": {
           "rows": [
             [
-              "1 Brasil definirá su presidencia en balotaje: Flávio Bolsonaro y Lula da Silva irán a segunda vuelta Ver más",
-              "2 “Prevenir es amar” Los retos de la medicina veterinaria Ver más"
+              "1 Trasladan a Mariaca al penal de Cantumarca de Potosí en medio de fuerte resguardo policial Ver más",
+              "2 Dos pandas gigantes chinos llegan a la ciudad estadounidense de Atlanta Ver más"
             ],
             [
-              "3 Trasladan a Mariaca al penal de Cantumarca de Potosí en medio de fuerte resguardo policial Ver más",
-              "4 Dos pandas gigantes chinos llegan a la ciudad estadounidense de Atlanta Ver más"
+              "3 Los títulos de bachiller serán digitales y gratuitos Ver más",
+              "4 Lara vuelve y frena a Ávila: “Yo soy el presidente de la Asamblea, usted no puede posesionar al fiscal general a.i.” Ver más"
             ],
             [
-              "5 Lara vuelve y frena a Ávila: “Yo soy el presidente de la Asamblea, usted no puede posesionar al fiscal general a.i.” Ver más",
-              "6 Mariaca advierte al juez que teme por su vida en Cantumarca Ver más"
+              "5 Mariaca advierte al juez que teme por su vida en Cantumarca Ver más",
+              "6 El Nobel de Medicina 2026 premia los avances en optogenética Ver más"
             ],
             [
-              "7 El Nobel de Medicina 2026 premia los avances en optogenética Ver más",
-              "8 Urioste entregó sus documentos a la Vicepresidencia para ser posesionado como fiscal y espera que Lara \"cumpla con la norma\" Ver más"
+              "7 Urioste entregó sus documentos a la Vicepresidencia para ser posesionado como fiscal y espera que Lara \"cumpla con la norma\" Ver más",
+              "8 Flávio Bolsonaro y Lula da Silva van al balotaje para presidente Ver más"
             ],
             [
-              "9 Flávio Bolsonaro y Lula da Silva van al balotaje para presidente Ver más",
-              "10 José Armando Urioste es reconocido como fiscal general interino: \"Tengo legitimidad y compromiso\" Ver más"
+              "9 José Armando Urioste es reconocido como fiscal general interino: \"Tengo legitimidad y compromiso\" Ver más",
+              "10 Imputan a Mariaca por supuesta legitimación de ganancias ilícitas Ver más"
             ]
           ],
           "logos": [
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/4/lulasss.jpg?itok=_32GpFsx",
             "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/5/mariaca_traslado_ed_ok.jpg?itok=n7Kv-2iM",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/5/lara_conferencia.jpg?itok=laqiQenE",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/5/nobel_medicina_ed_ok.jpg?itok=EFbOwqAw",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/5/2_mu1_xinhua.jpg?itok=V60c_DgS"
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/5/paz_y_el_titulo.jpg?itok=ZbHlZsU5",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/5/mariaca_contumarca_ed_va.jpg?itok=JO3P74EI",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/5/urioste.jpg?itok=1PLRSEsw",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/5/fical.jpg?itok=ZUcXn6pW"
           ],
           "strong_standings": false,
           "row_groups": null,

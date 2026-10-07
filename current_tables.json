@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-10-06T20:02:01.959944Z",
+  "generated_at": "2026-10-07T00:28:17.686386Z",
   "policy": "datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback",
   "assets_policy": "club_logo > country_flag > none",
   "team_assets": {
@@ -546,7 +546,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-10-06T20:01:00.150590Z",
+        "scraped_at": "2026-10-07T00:26:24.025708Z",
         "extra": {
           "header": [
             "Fecha",
@@ -4664,7 +4664,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-06T20:00:59.786336Z",
+        "scraped_at": "2026-10-07T00:26:23.657754Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -4974,7 +4974,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-06T20:01:00.194758Z",
+        "scraped_at": "2026-10-07T00:26:24.071610Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5073,7 +5073,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-06T20:01:00.205551Z",
+        "scraped_at": "2026-10-07T00:26:24.082678Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5150,7 +5150,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-06T20:01:00.228949Z",
+        "scraped_at": "2026-10-07T00:26:24.106780Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5430,7 +5430,7 @@
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-10-06T20:01:00.742522Z",
+        "scraped_at": "2026-10-07T00:26:24.564735Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6347,7 +6347,7 @@
             [
               "Fecha 8",
               "Real Oruro",
-              "–",
+              "4 – 0",
               "Real Tomayapo",
               "Jesús Bermúdez",
               "6 de octubre",
@@ -6616,7 +6616,7 @@
         "source_name": "Series — Serie A + Series — Serie B + Series — Serie C + Series — Serie D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-10-06T20:01:00.663710Z",
+        "scraped_at": "2026-10-07T00:26:24.485541Z",
         "extra": {
           "rows": [
             [
@@ -6706,20 +6706,6 @@
             [
               "Series — Serie B",
               "2",
-              "Real Tomayapo",
-              "10",
-              "7",
-              "3",
-              "1",
-              "3",
-              "10",
-              "16",
-              "− 6",
-              "Liguilla final"
-            ],
-            [
-              "Series — Serie B",
-              "3",
               "Always Ready",
               "10",
               "7",
@@ -6729,20 +6715,34 @@
               "10",
               "19",
               "− 9",
+              "Liguilla final"
+            ],
+            [
+              "Series — Serie B",
+              "3",
+              "Real Tomayapo",
+              "10",
+              "8",
+              "3",
+              "1",
+              "4",
+              "10",
+              "20",
+              "− 10",
               ""
             ],
             [
               "Series — Serie B",
               "4",
               "Real Oruro",
-              "4",
               "7",
-              "1",
+              "8",
+              "2",
               "1",
               "5",
-              "7",
+              "11",
               "16",
-              "− 9",
+              "− 5",
               ""
             ],
             [
@@ -6867,8 +6867,8 @@
             "https://flagcdn.com/w80/bo.png",
             "",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-9-400x400.png",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-6-400x400.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-1-400x400.png",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-6-400x400.png",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-11-400x400.png",
             "",
@@ -6886,8 +6886,8 @@
             "Bolivia",
             "La Paz",
             "Potos",
-            "Tarija",
             "Bolivia",
+            "Tarija",
             "Bolivia",
             "La Paz",
             "Santa Cruz",
@@ -6928,7 +6928,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-10-06T20:01:02.733718Z",
+        "scraped_at": "2026-10-07T00:26:26.740844Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7438,7 +7438,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-10-06T20:01:02.733718Z",
+        "scraped_at": "2026-10-07T00:26:26.740844Z",
         "extra": {
           "rows": [
             [
@@ -7920,7 +7920,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-06T20:01:02.319193Z",
+        "scraped_at": "2026-10-07T00:26:26.296337Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7983,7 +7983,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-06T20:01:02.332719Z",
+        "scraped_at": "2026-10-07T00:26:26.310966Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -8044,7 +8044,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-10-06T20:01:02.733718Z",
+        "scraped_at": "2026-10-07T00:26:26.740844Z",
         "extra": {
           "rows": [
             [
@@ -8522,7 +8522,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-10-06T20:01:01.861386Z",
+        "scraped_at": "2026-10-07T00:26:25.812780Z",
         "extra": {
           "rows": [
             [
@@ -9040,7 +9040,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-10-06T20:01:05.318400Z",
+        "scraped_at": "2026-10-07T00:26:29.523171Z",
         "extra": {
           "header": [
             "Fecha",
@@ -9822,7 +9822,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-10-06T20:01:05.318400Z",
+        "scraped_at": "2026-10-07T00:26:29.523171Z",
         "extra": {
           "rows": [
             [
@@ -10304,7 +10304,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-06T20:01:04.577182Z",
+        "scraped_at": "2026-10-07T00:26:28.760450Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10388,7 +10388,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-06T20:01:04.592999Z",
+        "scraped_at": "2026-10-07T00:26:28.776726Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10455,7 +10455,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-10-06T20:01:05.318400Z",
+        "scraped_at": "2026-10-07T00:26:29.523171Z",
         "extra": {
           "rows": [
             [
@@ -10933,7 +10933,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-10-06T20:01:03.804888Z",
+        "scraped_at": "2026-10-07T00:26:27.959195Z",
         "extra": {
           "rows": [
             [
@@ -11455,7 +11455,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-06T20:00:04.170218Z",
+        "scraped_at": "2026-10-07T00:23:39.183917Z",
         "source_id": "lostiempos_deportes",
         "source_name": "Los Tiempos - Deportes",
         "source_type": "media",
@@ -11467,32 +11467,32 @@
         "extra": {
           "rows": [
             [
-              "1 Ordenan la aprehensión de Aguilera, exjefe de la Policía y exviceministro de Arce, según Juan José Zúñiga Ver más",
-              "2 Aislarán a Mariaca en Cantumarca los primeros días, por su seguridad Ver más"
+              "1 Urioste asume la función de fiscal general del Estado Ver más",
+              "2 Ordenan allanamiento a la casa del exfiscal Mariaca en Santa Cruz Ver más"
             ],
             [
-              "3 Cochabamba evalúa declaratoria de desastre ambiental tras registrar cuatro nuevos incendios el fin de semana Ver más",
-              "4 Aramayo niega uso de avión presidencial para vacaciones Ver más"
+              "3 Aramayo: Morales “es parte de organizaciones transnacionales” Ver más",
+              "4 Exviceministro Aguilera acude a declarar como testigo en el caso “golpe” Ver más"
             ],
             [
-              "5 Paola Nogales: “El Leopardus tilcayo es un tesoro biológico que debemos cuidar y preservar” Ver más",
-              "6 La FBF sostiene que cumplió con los requerimientos para el amistoso contra Gambia Ver más"
+              "5 Los títulos de bachiller serán digitales y gratuitos Ver más",
+              "6 Trasladan a Arce en ambulancia para que declare como testigo por la toma militar Ver más"
             ],
             [
-              "7 ¿Rutina de 10 pasos o solo 3 básicos? los peligros de seguir rutinas virales Ver más",
-              "8 Brasil: Flávio Bolsonaro parte como favorito para el balotaje Ver más"
+              "7 Otorgan el Nobel de Física a Francis Halzen por las partículas subatómicas Ver más",
+              "8 El exministro Lupo declina a su nombramiento como embajador de Bolivia ante la OEA Ver más"
             ],
             [
-              "9 Horóscopo de octubre de 2026: Venus y Mercurio impulsan un mes de pausa y reevaluación Ver más",
-              "10 Incendio en Mizque cobra una vida y el fuego persiste Ver más"
+              "9 Defensa Civil coordina apoyo aéreo para atender incendios forestales en Cochabamba Ver más",
+              "10 Tras tendencia viral de monedas de Bs 3, el BCB aclara que no son de curso legal y circularlas puede ser delito Ver más"
             ]
           ],
           "logos": [
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2022/5/17/aguilera.jpg?itok=g0nI6XV3",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/5/incendio.jpg?itok=nV8dhRM8",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/5/814380425_1600937508202264_1263671970184127710_n.jpg?itok=EDxRP2uF",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/5/calar_cosmetic-male-beauty-products-with-display.jpg?itok=GqdUP59w",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/5/scorpio-symbol-horoscope-zodiac-graphic-concept.jpg?itok=14RZLTP9"
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/5/urioste_en_la_vice_mr.jpg?itok=aOOk28mp",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/5/fer_ara_mayo_ministero_de_la_presidencia.jpg?itok=6qmF88fU",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/5/paz_y_el_titulo.jpg?itok=ZbHlZsU5",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/6/nobel_de_fisica_ed_va.jpg?itok=K8IobDUQ",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/6/incendios_helicoptero_ok.jpg?itok=l-eXsU_a"
           ],
           "strong_standings": false,
           "row_groups": null,

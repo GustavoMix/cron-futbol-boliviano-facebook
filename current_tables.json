@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-10-08T00:48:05.656643Z",
+  "generated_at": "2026-10-08T07:06:09.010841Z",
   "policy": "datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback",
   "assets_policy": "club_logo > country_flag > none",
   "team_assets": {
@@ -546,7 +546,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-10-08T00:46:10.179183Z",
+        "scraped_at": "2026-10-08T07:04:22.917514Z",
         "extra": {
           "header": [
             "Fecha",
@@ -4664,7 +4664,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-08T00:46:09.941532Z",
+        "scraped_at": "2026-10-08T07:04:22.488884Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -4974,7 +4974,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-08T00:46:10.213810Z",
+        "scraped_at": "2026-10-08T07:04:22.974733Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5073,7 +5073,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-08T00:46:10.221907Z",
+        "scraped_at": "2026-10-08T07:04:22.987516Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5150,7 +5150,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-08T00:46:10.238766Z",
+        "scraped_at": "2026-10-08T07:04:23.015376Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5430,7 +5430,7 @@
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-10-08T00:46:10.758373Z",
+        "scraped_at": "2026-10-08T07:04:23.377921Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6411,7 +6411,7 @@
             [
               "Fecha 8",
               "Oriente Petrolero",
-              "–",
+              "2 – 0",
               "Universitario de Vinto",
               "Ramón Aguilera Costas",
               "7 de octubre",
@@ -6427,7 +6427,7 @@
             [
               "Fecha 8",
               "Guabirá",
-              "–",
+              "2 – 1",
               "The Strongest",
               "Gilberto Parada",
               "7 de octubre",
@@ -6616,7 +6616,7 @@
         "source_name": "Series — Serie A + Series — Serie B + Series — Serie C + Series — Serie D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-10-08T00:46:10.718623Z",
+        "scraped_at": "2026-10-08T07:04:23.294653Z",
         "extra": {
           "rows": [
             [
@@ -6750,41 +6750,41 @@
               "1",
               "The Strongest",
               "14",
-              "7",
+              "8",
               "4",
               "2",
-              "1",
-              "15",
-              "11",
-              "+4",
+              "2",
+              "16",
+              "13",
+              "+3",
               "Liguilla final"
             ],
             [
               "Series — Serie C",
               "2",
               "Oriente Petrolero",
-              "10",
-              "7",
-              "3",
+              "13",
+              "8",
+              "4",
               "1",
               "3",
-              "10",
+              "12",
               "9",
-              "+1",
+              "+3",
               "Liguilla final"
             ],
             [
               "Series — Serie C",
               "3",
               "Guabirá",
-              "9",
-              "7",
-              "3",
+              "12",
+              "8",
+              "4",
               "0",
               "4",
-              "9",
-              "14",
-              "− 5",
+              "11",
+              "15",
+              "− 4",
               ""
             ],
             [
@@ -6792,13 +6792,13 @@
               "4",
               "Universitario de Vinto",
               "7",
-              "7",
+              "8",
               "2",
               "1",
-              "4",
+              "5",
               "13",
-              "15",
-              "− 2",
+              "17",
+              "− 4",
               ""
             ],
             [
@@ -6928,7 +6928,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-10-08T00:46:12.223181Z",
+        "scraped_at": "2026-10-08T07:04:25.838641Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7438,7 +7438,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-10-08T00:46:12.223181Z",
+        "scraped_at": "2026-10-08T07:04:25.838641Z",
         "extra": {
           "rows": [
             [
@@ -7920,7 +7920,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-08T00:46:11.916112Z",
+        "scraped_at": "2026-10-08T07:04:25.312764Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7983,7 +7983,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-08T00:46:11.926654Z",
+        "scraped_at": "2026-10-08T07:04:25.329768Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -8044,7 +8044,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-10-08T00:46:12.223181Z",
+        "scraped_at": "2026-10-08T07:04:25.838641Z",
         "extra": {
           "rows": [
             [
@@ -8522,7 +8522,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-10-08T00:46:11.589197Z",
+        "scraped_at": "2026-10-08T07:04:24.749639Z",
         "extra": {
           "rows": [
             [
@@ -9040,7 +9040,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-10-08T00:46:14.039528Z",
+        "scraped_at": "2026-10-08T07:04:28.725663Z",
         "extra": {
           "header": [
             "Fecha",
@@ -9822,7 +9822,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-10-08T00:46:14.039528Z",
+        "scraped_at": "2026-10-08T07:04:28.725663Z",
         "extra": {
           "rows": [
             [
@@ -10304,7 +10304,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-08T00:46:13.548059Z",
+        "scraped_at": "2026-10-08T07:04:27.907957Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10388,7 +10388,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-08T00:46:13.558140Z",
+        "scraped_at": "2026-10-08T07:04:27.925602Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10455,7 +10455,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-10-08T00:46:14.039528Z",
+        "scraped_at": "2026-10-08T07:04:28.725663Z",
         "extra": {
           "rows": [
             [
@@ -10933,7 +10933,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-10-08T00:46:12.964469Z",
+        "scraped_at": "2026-10-08T07:04:27.042353Z",
         "extra": {
           "rows": [
             [
@@ -11455,7 +11455,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-08T00:44:15.804748Z",
+        "scraped_at": "2026-10-08T07:01:55.842988Z",
         "source_id": "lostiempos_deportes",
         "source_name": "Los Tiempos - Deportes",
         "source_type": "media",
@@ -11467,32 +11467,32 @@
         "extra": {
           "rows": [
             [
-              "1 Abogado de Beller denuncia que se busca frenar caso Cerimedo Ver más",
-              "2 Fiscalía General elimina logo ROMA, color y uniforme que impuso Mariaca Ver más"
+              "1 El Nobel de Química 2026 fue otorgado a Henri Kagan y Kenso Soai por sus hallazgos clave para avances en la industria farmacéutica Ver más",
+              "2 Dos monos que solo existen en Bolivia sobreviven en el Beni y están en peligro de desaparecer Ver más"
             ],
             [
-              "3 Gobierno denuncia presunto daño económico a Entel por Bs 52 millones en compra de decodificadores Ver más",
-              "4 Allanan tres inmuebles de Mariaca y hallan dinero, armas y expedientes Ver más"
+              "3 Aviso ASPB Ver más",
+              "4 Inyección de divisas: Milenio proyecta elevar las exportaciones a US$ 16.200 millones hasta 2030 Ver más"
             ],
             [
-              "5 Paz denuncia \"amenazas por WhatsApp\" contra ministros, parlamentarios y sus familias Ver más",
-              "6 Entregan la torre restaurada de la catedral de Cochabamba Ver más"
+              "5 Cubo de hielo de 1 km cúbico³ le vale el Nobel de Física a Halzen Ver más",
+              "6 Paz dice que \"no cree en una sola cifra\" del último censo y pide revisarlo para volver a realizarlo Ver más"
             ],
             [
-              "7 Se levanta el telón de la XIX Feria Internacional del Libro de Cochabamba Ver más",
-              "8 Hallan una caja fuerte al intervenir casa de Mariaca Ver más"
+              "7 Gobierno aprehende a dirigente evista y éste denuncia persecución política Ver más",
+              "8 Narcos se enfrentan a tiros con efectivos de Umopar en una pista clandestina en Villa Tunari Ver más"
             ],
             [
-              "9 Alcaldía restaura la torre de la catedral de Cochabamba Ver más",
-              "10 “La corrupción en el Gobierno ha alejado a Lupo”: Doria Medina afirma que un “grupo palaciego” controla el Ejecutivo Ver más"
+              "9 Abogado de Beller denuncia que se busca frenar caso Cerimedo Ver más",
+              "10 Fiscalía General elimina logo ROMA, color y uniforme que impuso Mariaca Ver más"
             ]
           ],
           "logos": [
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/7/4_p_1_tiemposssssss.jpg?itok=nH0gU0pm",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/6/entel.jpg?itok=aZUZRDIP",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/18/pazz.jpg?itok=2GV-6zVY",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/7/7-10-2026_edwin_-_filc_inauguracion_web_ok.jpg.jpeg?itok=QhcsHgdX",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/7/7_me_1_jamessssssss.jpg?itok=yaWj9q8c"
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/7/nobel.jpg?itok=R3CPkpzB",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/7/aviso.jpg?itok=o7jEj8mY",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/7/7-10-2026_edwin_-_nobel_fisica_web.jpg.jpeg?itok=18BBRIOU",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/7/3_p_1_andiaaaaaaaaaa.jpg?itok=7fagieS5",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/7/4_p_1_tiemposssssss.jpg?itok=nH0gU0pm"
           ],
           "strong_standings": false,
           "row_groups": null,

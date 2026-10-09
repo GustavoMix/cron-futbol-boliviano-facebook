@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-10-09T15:57:26.462460Z",
+  "generated_at": "2026-10-09T20:37:22.311901Z",
   "architecture": "3 Facebook groups + 1 web group; feed editorial + fases KO verificadas por serie completa",
   "facebook_groups": [
     {
@@ -25,15 +25,15 @@
   "totals": {
     "facebook_items": 0,
     "web_latest_items": 200,
-    "app_feed_items": 142
+    "app_feed_items": 161
   },
   "web": {
-    "generated_at": "2026-10-09T15:57:26.306805Z",
+    "generated_at": "2026-10-09T20:37:22.117404Z",
     "totals": {
-      "items_before_filter": 729,
-      "items_after_filter_dedupe": 526,
-      "web_sources_ok": 41,
-      "web_sources_error": 8,
+      "items_before_filter": 741,
+      "items_after_filter_dedupe": 522,
+      "web_sources_ok": 43,
+      "web_sources_error": 6,
       "social_items": 0
     },
     "errors": [
@@ -46,20 +46,12 @@
         "error": "HTTPError: 403 Client Error: Forbidden for url: https://eldeber.com.bo/deportes"
       },
       {
-        "source": "vision360_futbol_boliviano",
-        "error": "HTTPError: 502 Server Error: Bad Gateway for url: https://www.vision360.bo/futbol-boliviano"
-      },
-      {
-        "source": "oxigeno_deportes",
-        "error": "ConnectionError: HTTPSConnectionPool(host='oxigeno.bo', port=443): Max retries exceeded with url: /categorias/deportes/ (Caused by NewConnectionError(\"HTTPSConnection(host='oxigeno.bo', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
-      },
-      {
-        "source": "abi_deportes",
-        "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f20d93d4710>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
-      },
-      {
         "source": "conmebol_eliminatorias",
         "error": "HTTPError: 404 Client Error: Not Found for url: https://www.conmebol.com/eliminatorias/"
+      },
+      {
+        "source": "as_futbol",
+        "error": "HTTPError: 403 Client Error: Forbidden for url: https://as.com/futbol/"
       },
       {
         "source": "foxsports_latam",

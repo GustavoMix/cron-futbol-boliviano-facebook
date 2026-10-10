@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-09T20:37:22.117404Z",
+  "generated_at": "2026-10-10T00:33:06.564681Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,13 +9,13 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 319
+      "items": 320
     },
     "conmebol.json": {
       "items": 90
     },
     "internacional.json": {
-      "items": 113
+      "items": 115
     },
     "social.json": {
       "items": 0
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 161
+      "items": 163
     },
     "current_tables.json": {
       "items": 0
@@ -236,7 +236,7 @@
       "id": "wikipedia_copa_bolivia",
       "name": "Wikipedia - Copa Bolivia 2026",
       "ok": true,
-      "items": 22
+      "items": 30
     },
     {
       "id": "wikipedia_libertadores",
@@ -296,7 +296,7 @@
       "id": "marca_futbol",
       "name": "Marca - Fútbol",
       "ok": true,
-      "items": 69
+      "items": 70
     },
     {
       "id": "as_futbol",
@@ -314,7 +314,7 @@
       "id": "goal_espanol",
       "name": "Goal.com (español)",
       "ok": true,
-      "items": 40
+      "items": 39
     },
     {
       "id": "foxsports_latam",
@@ -352,8 +352,8 @@
     }
   ],
   "totals": {
-    "items_before_filter": 741,
-    "items_after_filter_dedupe": 522,
+    "items_before_filter": 749,
+    "items_after_filter_dedupe": 525,
     "web_sources_ok": 43,
     "web_sources_error": 6,
     "social_items": 0

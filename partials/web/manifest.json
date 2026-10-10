@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-10T13:21:00.961127Z",
+  "generated_at": "2026-10-10T18:17:28.835553Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,13 +9,13 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 320
+      "items": 257
     },
     "conmebol.json": {
       "items": 90
     },
     "internacional.json": {
-      "items": 157
+      "items": 156
     },
     "social.json": {
       "items": 0
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 186
+      "items": 147
     },
     "current_tables.json": {
       "items": 0
@@ -187,14 +187,14 @@
     {
       "id": "larazon_futbol_boliviano",
       "name": "La Razón - Fútbol Profesional Boliviano",
-      "ok": true,
-      "items": 72
+      "ok": false,
+      "items": 0
     },
     {
       "id": "vision360_futbol_boliviano",
       "name": "Visión 360 - Fútbol Boliviano",
       "ok": true,
-      "items": 42
+      "items": 41
     },
     {
       "id": "oxigeno_deportes",
@@ -296,19 +296,19 @@
       "id": "marca_futbol",
       "name": "Marca - Fútbol",
       "ok": true,
-      "items": 70
+      "items": 69
     },
     {
       "id": "as_futbol",
       "name": "AS.com - Fútbol",
       "ok": true,
-      "items": 52
+      "items": 51
     },
     {
       "id": "ole_futbol_internacional",
       "name": "Olé - Fútbol Internacional",
       "ok": true,
-      "items": 21
+      "items": 20
     },
     {
       "id": "goal_espanol",
@@ -339,6 +339,10 @@
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://eldeber.com.bo/deportes"
     },
     {
+      "source": "larazon_futbol_boliviano",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://larazon.bo/categoria/marcas/futbol-profesional-boliviano/"
+    },
+    {
       "source": "conmebol_eliminatorias",
       "error": "HTTPError: 404 Client Error: Not Found for url: https://www.conmebol.com/eliminatorias/"
     },
@@ -348,10 +352,10 @@
     }
   ],
   "totals": {
-    "items_before_filter": 802,
-    "items_after_filter_dedupe": 567,
-    "web_sources_ok": 44,
-    "web_sources_error": 5,
+    "items_before_filter": 726,
+    "items_after_filter_dedupe": 503,
+    "web_sources_ok": 43,
+    "web_sources_error": 6,
     "social_items": 0
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-10-11T01:38:49.950643Z",
+  "generated_at": "2026-10-11T08:24:49.083035Z",
   "policy": "datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback",
   "assets_policy": "club_logo > country_flag > none",
   "team_assets": {
@@ -546,7 +546,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-10-11T01:37:15.643133Z",
+        "scraped_at": "2026-10-11T08:23:33.524487Z",
         "extra": {
           "header": [
             "Fecha",
@@ -2997,7 +2997,7 @@
             [
               "Fecha 21",
               "Oriente Petrolero",
-              "–",
+              "1 – 0",
               "ABB",
               "Ramón Aguilera Costas",
               "10 de octubre",
@@ -4664,7 +4664,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-11T01:37:15.180286Z",
+        "scraped_at": "2026-10-11T08:23:33.154615Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -4729,6 +4729,19 @@
             ],
             [
               "4",
+              "Oriente Petrolero",
+              "33",
+              "21",
+              "10",
+              "3",
+              "8",
+              "37",
+              "27",
+              "+10",
+              "Primera fase de Copa Sudamericana"
+            ],
+            [
+              "5",
               "Real Potosí",
               "32",
               "20",
@@ -4738,19 +4751,6 @@
               "27",
               "14",
               "+13",
-              "Primera fase de Copa Sudamericana"
-            ],
-            [
-              "5",
-              "Oriente Petrolero",
-              "30",
-              "20",
-              "9",
-              "3",
-              "8",
-              "36",
-              "27",
-              "+9",
               "Primera fase de Copa Sudamericana"
             ],
             [
@@ -4848,13 +4848,13 @@
               "13",
               "ABB",
               "20",
-              "20",
+              "21",
               "6",
               "2",
-              "12",
+              "13",
               "31",
-              "45",
-              "− 14",
+              "46",
+              "− 15",
               ""
             ],
             [
@@ -4902,8 +4902,8 @@
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-3-400x400.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-1-400x400.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-11-400x400.png",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rphoto_2026-08-13_18-38-56.jpg/250px-Rphoto_2026-08-13_18-38-56.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-2-400x400.png",
             "",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-9-400x400.png",
@@ -4926,8 +4926,8 @@
             "La Paz",
             "Bolivia",
             "La Paz",
-            "Potos",
             "Santa Cruz",
+            "Potos",
             "Cochabamba",
             "Santa Cruz",
             "Potos",
@@ -4945,8 +4945,8 @@
             "club_logo",
             "club_logo",
             "club_logo",
-            "club_logo",
             "none",
+            "club_logo",
             "club_logo",
             "none",
             "club_logo",
@@ -4974,7 +4974,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-11T01:37:15.701061Z",
+        "scraped_at": "2026-10-11T08:23:33.569170Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5073,7 +5073,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-11T01:37:15.715138Z",
+        "scraped_at": "2026-10-11T08:23:33.579942Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5150,7 +5150,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-11T01:37:15.745521Z",
+        "scraped_at": "2026-10-11T08:23:33.603546Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5430,7 +5430,7 @@
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-10-11T01:37:16.189411Z",
+        "scraped_at": "2026-10-11T08:23:34.334930Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6616,7 +6616,7 @@
         "source_name": "Series — Serie A + Series — Serie B + Series — Serie C + Series — Serie D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-10-11T01:37:16.093843Z",
+        "scraped_at": "2026-10-11T08:23:34.251245Z",
         "extra": {
           "rows": [
             [
@@ -6928,7 +6928,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-10-11T01:37:18.744062Z",
+        "scraped_at": "2026-10-11T08:23:36.641842Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7438,7 +7438,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-10-11T01:37:18.744062Z",
+        "scraped_at": "2026-10-11T08:23:36.641842Z",
         "extra": {
           "rows": [
             [
@@ -7920,7 +7920,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-11T01:37:18.230403Z",
+        "scraped_at": "2026-10-11T08:23:36.197394Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7983,7 +7983,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-11T01:37:18.247563Z",
+        "scraped_at": "2026-10-11T08:23:36.212003Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -8044,7 +8044,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-10-11T01:37:18.744062Z",
+        "scraped_at": "2026-10-11T08:23:36.641842Z",
         "extra": {
           "rows": [
             [
@@ -8522,7 +8522,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-10-11T01:37:17.640260Z",
+        "scraped_at": "2026-10-11T08:23:35.683036Z",
         "extra": {
           "rows": [
             [
@@ -9040,7 +9040,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-10-11T01:37:21.909729Z",
+        "scraped_at": "2026-10-11T08:23:39.411385Z",
         "extra": {
           "header": [
             "Fecha",
@@ -9822,7 +9822,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-10-11T01:37:21.909729Z",
+        "scraped_at": "2026-10-11T08:23:39.411385Z",
         "extra": {
           "rows": [
             [
@@ -10304,7 +10304,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-11T01:37:21.037064Z",
+        "scraped_at": "2026-10-11T08:23:38.673719Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10388,7 +10388,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-11T01:37:21.056069Z",
+        "scraped_at": "2026-10-11T08:23:38.689791Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10455,7 +10455,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-10-11T01:37:21.909729Z",
+        "scraped_at": "2026-10-11T08:23:39.411385Z",
         "extra": {
           "rows": [
             [
@@ -10933,7 +10933,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-10-11T01:37:20.068315Z",
+        "scraped_at": "2026-10-11T08:23:37.805585Z",
         "extra": {
           "rows": [
             [
@@ -11455,7 +11455,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-11T01:35:14.573114Z",
+        "scraped_at": "2026-10-11T08:21:35.775509Z",
         "source_id": "lostiempos_deportes",
         "source_name": "Los Tiempos - Deportes",
         "source_type": "media",
@@ -11467,32 +11467,27 @@
         "extra": {
           "rows": [
             [
-              "1 Ávila revela que Paz sugirió a Urioste para fiscal general interino Ver más",
-              "2 Defensa de Mariaca: Se llevaron documentos sobre \"caso oro, maletas y gasolina basura\" Ver más"
+              "1 Dirigencia de la Csutcb se reúne en un ampliado nacional este sábado Ver más",
+              "2 Democracia boliviana cumple 44 años con alertas por el debilitamiento institucional y la pérdida de confianza Ver más"
             ],
             [
-              "3 Trump anuncia que Rusia venderá diésel a EEUU y al mundo Ver más",
-              "4 Hallan explosivos en casa de un allegado de Del Castillo Ver más"
+              "3 Ucrania ataca petrolera rusa tras acuerdo de Trump y Putin Ver más",
+              "4 Iluminan de rosa monumentos emblemáticos en Santa Cruz para concienciar sobre el diagnóstico temprano del cáncer de mama Ver más"
             ],
             [
-              "5 Rescatan a un puma y un mono araña en Santa Cruz Ver más",
-              "6 Gobernación entrega 44 toneladas de forraje a los afectados por los incendios en Mizque Ver más"
+              "5 Justicia ratifica detención preventiva de Mariaca en dos audiencias y suspende una tercera Ver más",
+              "6 Fiscalía activa sello rojo de Interpol y alertas migratorias contra Eduardo del Castillo Ver más"
             ],
             [
-              "7 Defensa afirma que las marchas pacíficas están garantizadas, pero no se permitirán bloqueos Ver más",
-              "8 Radio RKC denuncia que la ATT revocó “seis licencias de frecuencias radioeléctricas” Ver más"
-            ],
-            [
-              "9 Dirigencia de la Csutcb se reúne en un ampliado nacional este sábado Ver más",
-              "10 Democracia boliviana cumple 44 años con alertas por el debilitamiento institucional y la pérdida de confianza Ver más"
+              "7 Ministerio de Trabajo confirma asueto de media jornada por el Día de la Mujer para el lunes 12 de octubre Ver más",
+              "8 Rodrigo Paz conmemora los 44 años de democracia con un llamado a defenderla Ver más"
             ]
           ],
           "logos": [
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/9/paz_reconoce_a_fge_urioste.jpg?itok=3z6qHuCp",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/9/dos_pts_dpa.jpg?itok=KCV0rdXO",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/9/puma_rescatado_ed.jpg?itok=Ccvm3xti",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/9/justiniano_ffaa_ed_ok.jpg?itok=coyuuIZE",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/10/campesinos_ed_va.jpg?itok=RRs6pAUM"
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/10/campesinos_ed_va.jpg?itok=RRs6pAUM",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/10/ucrania_ataque_va_ed_ok.jpg?itok=Fj9PVJAr",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/10/mariaca_contumarca_ed_va.jpg?itok=JPpvp35-",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2010/3/8/109742.jpg?itok=I4baCbPt"
           ],
           "strong_standings": false,
           "row_groups": null,
@@ -11503,7 +11498,7 @@
               "published_at": null
             }
           ],
-          "selection_score": 0.92,
+          "selection_score": 0.916,
           "selected_as_current": true,
           "selection_reason": "única tabla de posiciones detectada para esta competición"
         },

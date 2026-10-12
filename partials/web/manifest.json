@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-12T04:38:58.103280Z",
+  "generated_at": "2026-10-12T12:51:29.000709Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -15,7 +15,7 @@
       "items": 90
     },
     "internacional.json": {
-      "items": 118
+      "items": 159
     },
     "social.json": {
       "items": 0
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 152
+      "items": 147
     },
     "current_tables.json": {
       "items": 0
@@ -301,8 +301,8 @@
     {
       "id": "as_futbol",
       "name": "AS.com - Fútbol",
-      "ok": false,
-      "items": 0
+      "ok": true,
+      "items": 52
     },
     {
       "id": "ole_futbol_internacional",
@@ -340,15 +340,11 @@
     },
     {
       "source": "abi_deportes",
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f9fda16bb90>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f4c9eb1a150>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
     },
     {
       "source": "conmebol_eliminatorias",
       "error": "HTTPError: 404 Client Error: Not Found for url: https://www.conmebol.com/eliminatorias/"
-    },
-    {
-      "source": "as_futbol",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://as.com/futbol/"
     },
     {
       "source": "foxsports_latam",
@@ -356,10 +352,10 @@
     }
   ],
   "totals": {
-    "items_before_filter": 735,
-    "items_after_filter_dedupe": 518,
-    "web_sources_ok": 42,
-    "web_sources_error": 7,
+    "items_before_filter": 787,
+    "items_after_filter_dedupe": 559,
+    "web_sources_ok": 43,
+    "web_sources_error": 6,
     "social_items": 0
   }
 }

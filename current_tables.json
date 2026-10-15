@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-10-15T01:17:44.564764Z",
+  "generated_at": "2026-10-15T07:04:42.772369Z",
   "policy": "datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback",
   "assets_policy": "club_logo > country_flag > none",
   "team_assets": {
@@ -546,7 +546,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-10-15T01:16:18.464055Z",
+        "scraped_at": "2026-10-15T07:03:38.249159Z",
         "extra": {
           "header": [
             "Fecha",
@@ -4664,7 +4664,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-15T01:16:18.257677Z",
+        "scraped_at": "2026-10-15T07:03:37.969182Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -4974,7 +4974,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-15T01:16:18.486518Z",
+        "scraped_at": "2026-10-15T07:03:38.283256Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5073,7 +5073,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-15T01:16:18.491867Z",
+        "scraped_at": "2026-10-15T07:03:38.291561Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5150,7 +5150,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-15T01:16:18.503859Z",
+        "scraped_at": "2026-10-15T07:03:38.309501Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5430,7 +5430,7 @@
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-10-15T01:16:19.066606Z",
+        "scraped_at": "2026-10-15T07:03:38.863816Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6616,7 +6616,7 @@
         "source_name": "Series — Serie A + Series — Serie B + Series — Serie C + Series — Serie D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-10-15T01:16:19.025406Z",
+        "scraped_at": "2026-10-15T07:03:38.800709Z",
         "extra": {
           "rows": [
             [
@@ -6928,7 +6928,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-10-15T01:16:20.290647Z",
+        "scraped_at": "2026-10-15T07:03:40.608093Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7339,7 +7339,7 @@
             [
               "Semifinales",
               "Fluminense",
-              "vs.",
+              "1:2 (0:1)",
               "Palmeiras",
               "Estadio Maracaná , Río de Janeiro",
               "14 de octubre, 21:30 ( UTC-3 )",
@@ -7438,7 +7438,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-10-15T01:16:20.290647Z",
+        "scraped_at": "2026-10-15T07:03:40.608093Z",
         "extra": {
           "rows": [
             [
@@ -7920,7 +7920,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-15T01:16:20.064131Z",
+        "scraped_at": "2026-10-15T07:03:40.257040Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7983,7 +7983,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-15T01:16:20.071586Z",
+        "scraped_at": "2026-10-15T07:03:40.268334Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -8044,7 +8044,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-10-15T01:16:20.290647Z",
+        "scraped_at": "2026-10-15T07:03:40.608093Z",
         "extra": {
           "rows": [
             [
@@ -8522,7 +8522,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-10-15T01:16:19.808850Z",
+        "scraped_at": "2026-10-15T07:03:39.864951Z",
         "extra": {
           "rows": [
             [
@@ -9040,7 +9040,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-10-15T01:16:21.736801Z",
+        "scraped_at": "2026-10-15T07:03:42.885352Z",
         "extra": {
           "header": [
             "Fecha",
@@ -9822,7 +9822,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-10-15T01:16:21.736801Z",
+        "scraped_at": "2026-10-15T07:03:42.885352Z",
         "extra": {
           "rows": [
             [
@@ -10304,7 +10304,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-15T01:16:21.330466Z",
+        "scraped_at": "2026-10-15T07:03:42.259866Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10381,7 +10381,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-15T01:16:21.338603Z",
+        "scraped_at": "2026-10-15T07:03:42.274063Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10448,7 +10448,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-10-15T01:16:21.736801Z",
+        "scraped_at": "2026-10-15T07:03:42.885352Z",
         "extra": {
           "rows": [
             [
@@ -10926,7 +10926,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-10-15T01:16:20.917414Z",
+        "scraped_at": "2026-10-15T07:03:41.581688Z",
         "extra": {
           "rows": [
             [
@@ -11448,7 +11448,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-15T01:14:17.928205Z",
+        "scraped_at": "2026-10-15T07:01:41.101776Z",
         "source_id": "lostiempos_deportes",
         "source_name": "Los Tiempos - Deportes",
         "source_type": "media",
@@ -11460,32 +11460,32 @@
         "extra": {
           "rows": [
             [
-              "1 Gobierno alerta por avance del crimen en Santa Cruz tras asalto a una joyería Ver más",
-              "2 Hombre asesinado en un taller en Santa Cruz fue presentado como piloto de Marset el 2023 Ver más"
+              "1 Tres muertes violentas en el trópico, familiares piden investigar Ver más",
+              "2 Caso Mariaca: Fiscalía anuncia que excoordinador de La Paz será Imputado por dos delitos Ver más"
             ],
             [
-              "3 Incendios vuelven a afectar al Parque Tunari en Bellavista y Potrero Ver más",
-              "4 TSJ alerta de traba para juicios de responsabilidades Ver más"
+              "3 Juan Carlos Prado vence en su debut y avanza en el Bolivia Open Ver más",
+              "4 Gobierno: Decreto de electricidad es para \"que las tarifas no suban de manera abrupta\" Ver más"
             ],
             [
-              "5 Cisterneros paralizan la venta de agua en rechazo a ley municipal Ver más",
-              "6 ¿Quién era Johan Guzmán, el hombre acribillado en Santa Cruz de la Sierra? Ver más"
+              "5 El Conamaq se desmarca de marchas, la Csutcb se divide y los evistas insisten Ver más",
+              "6 Evistas deciden iniciar su marcha a La Paz en 23 días más Ver más"
             ],
             [
-              "7 Tres bomberos resultaron heridos en el incendio en Potrero, en Quillacollo Ver más",
-              "8 Hay 5 aprehendidos y un muerto por un enfrentamiento en La Paz Ver más"
+              "7 Sigue en trámite acusación contra García Linera y Evo, éste dice que no se defenderá Ver más",
+              "8 Semapa inicia pruebas hidráulicas por 15 días en ocho pipetas y cisternas podrán cargar sin costo Ver más"
             ],
             [
-              "9 Alcalde de El Alto defiende el estadio de Villa Ingenio ante el retorno de la Verde al Siles Ver más",
-              "10 Registro para recibir el Juancito Pinto cierra este viernes Ver más"
+              "9 FMI advierte que la economía de Bolivia será la única que se contraerá en un 3% este año Ver más",
+              "10 Exportaciones de madera boliviana cerrarían 2026 en su nivel más bajo en más de tres décadas Ver más"
             ]
           ],
           "logos": [
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/14/6_p_1_gadsc.jpg?itok=9CVFuZ43",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/14/7_se_1_lopezzzzzzzzzz.jpg?itok=1gt4lc_j",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/14/8_me_1_lopezzzzzzzzz.jpg?itok=buO4LObY",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/14/9_me_1_rrss.jpg?itok=1LVYVmv7",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/14/11_dep_1_car.jpg?itok=XYiBc72B"
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/14/tropico_vehiculo_va.jpg?itok=wHeJrt_F",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/14/prado_open_bolivia_va.jpg?itok=qCA0VFm9",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/14/3_p_1_rkc.jpg?itok=YTXGuth1",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/14/4_p_1_abi.jpg?itok=URnTQkbb",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/14/5_eco_1_jamessssssssss.jpg?itok=9yyepGPm"
           ],
           "strong_standings": false,
           "row_groups": null,

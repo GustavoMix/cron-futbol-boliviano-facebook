@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-10-16T01:05:11.868395Z",
+  "generated_at": "2026-10-16T06:51:07.931620Z",
   "policy": "datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback",
   "assets_policy": "club_logo > country_flag > none",
   "team_assets": {
@@ -546,7 +546,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-10-16T01:04:08.170248Z",
+        "scraped_at": "2026-10-16T06:50:07.695083Z",
         "extra": {
           "header": [
             "Fecha",
@@ -4664,7 +4664,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-16T01:04:07.984245Z",
+        "scraped_at": "2026-10-16T06:50:07.283703Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -4974,7 +4974,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-16T01:04:08.192966Z",
+        "scraped_at": "2026-10-16T06:50:07.748918Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5073,7 +5073,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-16T01:04:08.198421Z",
+        "scraped_at": "2026-10-16T06:50:07.761724Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5150,7 +5150,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-16T01:04:08.210425Z",
+        "scraped_at": "2026-10-16T06:50:07.790195Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5430,7 +5430,7 @@
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-10-16T01:04:08.578165Z",
+        "scraped_at": "2026-10-16T06:50:08.165762Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6616,7 +6616,7 @@
         "source_name": "Series — Serie A + Series — Serie B + Series — Serie C + Series — Serie D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-10-16T01:04:08.535396Z",
+        "scraped_at": "2026-10-16T06:50:08.080552Z",
         "extra": {
           "rows": [
             [
@@ -6928,7 +6928,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-10-16T01:04:09.857038Z",
+        "scraped_at": "2026-10-16T06:50:10.524119Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7309,7 +7309,7 @@
             [
               "Semifinales",
               "Estudiantes (LP)",
-              "vs.",
+              "0:0",
               "Flamengo",
               "Estadio Jorge Luis Hirschi , La Plata",
               "15 de octubre, 21:30 ( UTC-3 )",
@@ -7438,7 +7438,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-10-16T01:04:09.857038Z",
+        "scraped_at": "2026-10-16T06:50:10.524119Z",
         "extra": {
           "rows": [
             [
@@ -7920,7 +7920,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-16T01:04:09.617014Z",
+        "scraped_at": "2026-10-16T06:50:10.046847Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7953,7 +7953,7 @@
               "Bruno Henrique",
               "Flamengo",
               "5",
-              "10"
+              "11"
             ]
           ],
           "logos": [
@@ -7983,7 +7983,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-16T01:04:09.624402Z",
+        "scraped_at": "2026-10-16T06:50:10.062383Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -8044,7 +8044,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-10-16T01:04:09.857038Z",
+        "scraped_at": "2026-10-16T06:50:10.524119Z",
         "extra": {
           "rows": [
             [
@@ -8522,7 +8522,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-10-16T01:04:09.365847Z",
+        "scraped_at": "2026-10-16T06:50:09.504621Z",
         "extra": {
           "rows": [
             [
@@ -9040,7 +9040,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-10-16T01:04:11.336076Z",
+        "scraped_at": "2026-10-16T06:50:13.266208Z",
         "extra": {
           "header": [
             "Fecha",
@@ -9822,7 +9822,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-10-16T01:04:11.336076Z",
+        "scraped_at": "2026-10-16T06:50:13.266208Z",
         "extra": {
           "rows": [
             [
@@ -10304,7 +10304,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-16T01:04:10.931064Z",
+        "scraped_at": "2026-10-16T06:50:12.510434Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10381,7 +10381,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-16T01:04:10.939316Z",
+        "scraped_at": "2026-10-16T06:50:12.527060Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10448,7 +10448,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-10-16T01:04:11.336076Z",
+        "scraped_at": "2026-10-16T06:50:13.266208Z",
         "extra": {
           "rows": [
             [
@@ -10926,7 +10926,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-10-16T01:04:10.507701Z",
+        "scraped_at": "2026-10-16T06:50:11.681784Z",
         "extra": {
           "rows": [
             [
@@ -11448,7 +11448,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-16T01:02:14.541879Z",
+        "scraped_at": "2026-10-16T06:48:12.006290Z",
         "source_id": "lostiempos_deportes",
         "source_name": "Los Tiempos - Deportes",
         "source_type": "media",
@@ -11460,32 +11460,32 @@
         "extra": {
           "rows": [
             [
-              "1 Instituyen dispositivo para denunciar corrupción en la Justicia, fiscalías y Policía Ver más",
-              "2 Santuario de aves: Sacan algas de Alalay Ver más"
+              "1 La Alcaldía comienza la demolición de casas y de antiguos ambientes de la UMSS en la Av. Oquendo Ver más",
+              "2 Gobierno y choferes acuerdan un incremento del 35% en las tarifas del transporte interdepartamental Ver más"
             ],
             [
-              "3 Gobierno confirma captura de tres sospechosos del atraco a la joyería en Santa Cruz Ver más",
-              "4 Semapa fija en Bs 10 el turril de agua solidaria para el sur Ver más"
+              "3 Cae banda de atracadores y recuperan joyas robadas de una joyería, confirmó ministro Oviedo Ver más",
+              "4 Maduro y Flores se declaran no culpables de represión sistemática y tortura ante el juez Ver más"
             ],
             [
-              "5 Rescatan a víctima de secuestro en Colcapirhua Ver más",
-              "6 Gobierno añade tres factores para calcular tarifas eléctricas en Bolivia con el Decreto 5770 Ver más"
+              "5 “No le sacaron solo el nódulo”: explica Estol sobre la cirugía del papa Ver más",
+              "6 Kast llega este viernes a Bolivia con una agenda de 11 puntos; la seguridad es uno de los temas centrales Ver más"
             ],
             [
-              "7 Hubo 1.168 muertos y 15.187 hechos de tránsito en 9 meses Ver más",
-              "8 Exportaciones de madera cerrarán 2026 en su nivel más bajo en 30 años Ver más"
+              "7 Rige norma para denunciar corrupción en la Policía, Órgano Judicial y Fiscalía Ver más",
+              "8 Sala plena del TSJ elige a Carlos Ortega como presidente y asumirá en enero del 2027 en reemplazo de Saucedo Ver más"
             ],
             [
-              "9 El campeón sigue en carrera: Hugo Dellien avanza a los cuartos de final del Bolivia Open Ver más",
-              "10 La Selección de ráquetbol será comandada por el destacado Conrrado Moscoso Ver más"
+              "9 La Policía aprehende a 5 sospechosos por el asalto a joyería en Santa Cruz Ver más",
+              "10 Romer Saucedo continuará al frente del TSJ hasta enero de 2027 Ver más"
             ]
           ],
           "logos": [
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/14/decret_anticorr.jpg?itok=BiqDT5rD",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/14/detenido_atracos_1_ed_va.jpg?itok=5k2zUl9A",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/14/secuestro_colcapirhua_ed_va.jpg?itok=bBN8c4uI",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/14/siniestro_en_vila_vila_14-10-26_rrss.jpg?itok=ia5RAd8R",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/14/dellien_3_ok.jpg?itok=ebkckhvf"
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/15/oquendo_demolicion_ed_va.jpg?itok=m9-b0lf7",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/15/atra.jpg?itok=P-wOIDmM",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/15/2_mu_1_vatican_news.jpg?itok=ntHRifrM",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/15/3_p_1_oprpp.jpg?itok=Ib4bQOrW",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/15/4_p_1_rrss.jpg?itok=QkaYzvTB"
           ],
           "strong_standings": false,
           "row_groups": null,

@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-10-16T20:38:30.124293Z",
+  "generated_at": "2026-10-16T23:20:21.724580Z",
   "policy": "datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback",
   "assets_policy": "club_logo > country_flag > none",
   "team_assets": {
@@ -546,7 +546,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-10-16T20:36:44.464864Z",
+        "scraped_at": "2026-10-16T23:18:31.386121Z",
         "extra": {
           "header": [
             "Fecha",
@@ -3087,7 +3087,7 @@
             [
               "Fecha 22",
               "ABB",
-              "–",
+              "0 – 1",
               "Real Potosí",
               "Municipal de El Alto",
               "16 de octubre",
@@ -4664,7 +4664,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-16T20:36:44.278623Z",
+        "scraped_at": "2026-10-16T23:18:31.206773Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -4730,14 +4730,14 @@
             [
               "4",
               "Real Potosí",
-              "35",
-              "21",
-              "9",
+              "38",
+              "22",
+              "10",
               "8",
               "4",
-              "28",
+              "29",
               "14",
-              "+14",
+              "+15",
               "Primera fase de Copa Sudamericana"
             ],
             [
@@ -4848,13 +4848,13 @@
               "13",
               "ABB",
               "20",
-              "21",
+              "22",
               "6",
               "2",
-              "13",
+              "14",
               "31",
-              "46",
-              "− 15",
+              "47",
+              "− 16",
               ""
             ],
             [
@@ -4974,7 +4974,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-16T20:36:44.487624Z",
+        "scraped_at": "2026-10-16T23:18:31.407989Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5073,7 +5073,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-16T20:36:44.493038Z",
+        "scraped_at": "2026-10-16T23:18:31.413316Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5150,7 +5150,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-16T20:36:44.504861Z",
+        "scraped_at": "2026-10-16T23:18:31.424826Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5430,7 +5430,7 @@
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-10-16T20:36:44.771346Z",
+        "scraped_at": "2026-10-16T23:18:31.949485Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6616,7 +6616,7 @@
         "source_name": "Series — Serie A + Series — Serie B + Series — Serie C + Series — Serie D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-10-16T20:36:44.729056Z",
+        "scraped_at": "2026-10-16T23:18:31.909516Z",
         "extra": {
           "rows": [
             [
@@ -6928,7 +6928,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-10-16T20:36:45.955559Z",
+        "scraped_at": "2026-10-16T23:18:33.081423Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7438,7 +7438,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-10-16T20:36:45.955559Z",
+        "scraped_at": "2026-10-16T23:18:33.081423Z",
         "extra": {
           "rows": [
             [
@@ -7920,7 +7920,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-16T20:36:45.713911Z",
+        "scraped_at": "2026-10-16T23:18:32.863680Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -7983,7 +7983,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-16T20:36:45.721602Z",
+        "scraped_at": "2026-10-16T23:18:32.870904Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -8044,7 +8044,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-10-16T20:36:45.955559Z",
+        "scraped_at": "2026-10-16T23:18:33.081423Z",
         "extra": {
           "rows": [
             [
@@ -8522,7 +8522,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-10-16T20:36:45.454314Z",
+        "scraped_at": "2026-10-16T23:18:32.601847Z",
         "extra": {
           "rows": [
             [
@@ -9040,7 +9040,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-10-16T20:36:47.500788Z",
+        "scraped_at": "2026-10-16T23:18:34.750077Z",
         "extra": {
           "header": [
             "Fecha",
@@ -9822,7 +9822,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-10-16T20:36:47.500788Z",
+        "scraped_at": "2026-10-16T23:18:34.750077Z",
         "extra": {
           "rows": [
             [
@@ -10304,7 +10304,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-16T20:36:47.108598Z",
+        "scraped_at": "2026-10-16T23:18:34.388529Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10381,7 +10381,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-16T20:36:47.116922Z",
+        "scraped_at": "2026-10-16T23:18:34.396267Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10448,7 +10448,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-10-16T20:36:47.500788Z",
+        "scraped_at": "2026-10-16T23:18:34.750077Z",
         "extra": {
           "rows": [
             [
@@ -10926,7 +10926,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-10-16T20:36:46.669094Z",
+        "scraped_at": "2026-10-16T23:18:33.976298Z",
         "extra": {
           "rows": [
             [
@@ -11448,7 +11448,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-10-16T20:34:47.938607Z",
+        "scraped_at": "2026-10-16T23:16:27.112308Z",
         "source_id": "lostiempos_deportes",
         "source_name": "Los Tiempos - Deportes",
         "source_type": "media",
@@ -11460,32 +11460,32 @@
         "extra": {
           "rows": [
             [
-              "1 Evo señala que el empresario Miguel Rockholt sería quien envió el currículum del fiscal Urioste a la ALP Ver más",
-              "2 Brasil aprueba la semana laboral de cinco días en un triunfo de Lula da Silva previo a las elecciones Ver más"
+              "1 Brasil aprueba reducir la semana laboral de seis a cinco días Ver más",
+              "2 Policía: tres reos coordinaron un secuestro desde el penal El Abra Ver más"
             ],
             [
-              "3 Gobierno y choferes acuerdan un incremento del 35% en las tarifas del transporte interdepartamental Ver más",
-              "4 Presidentes Paz y Kast hablarán de comercio, hidrocarburos y seguridad Ver más"
+              "3 Paz en víspera de visita de Kast: “nuestros hijos no tienen que morir por cuentas del pasado” Ver más",
+              "4 Bombardeos rusos dejan miles de hogares sin electricidad en Ucrania Ver más"
             ],
             [
-              "5 Maduro y Flores se declaran no culpables de represión sistemática y tortura ante el juez Ver más",
-              "6 La COB declara emergencia y rechaza decretos; no apoyará acciones políticas Ver más"
+              "5 Aprueban proyecto de ley transferencia de bienes inmuebles municipales Ver más",
+              "6 La Selección de fútbol jugará dos partidos amistosos ante Perú y Ecuador en noviembre Ver más"
             ],
             [
-              "7 Kast llega este viernes a Bolivia con una agenda de 11 puntos; la seguridad es uno de los temas centrales Ver más",
-              "8 Sube la tarifa para viajes entre departamentos en un 35% tras acuerdo con los transportistas Ver más"
+              "7 Accidente de tránsito múltiple en Santa Cruz deja tres fallecidos Ver más",
+              "8 El Llajta Rock 2026 llega renovado y con mucha fuerza a Cochabamba Ver más"
             ],
             [
-              "9 Sala plena del TSJ elige a Carlos Ortega como presidente y asumirá en enero del 2027 en reemplazo de Saucedo Ver más",
-              "10 Alcaldía proyecta 6 carriles y ciclovía tras demolición en la Oquendo Ver más"
+              "9 COB, liderada por Argollo, se declara en emergencia Ver más",
+              "10 Iglesia rechaza la ley de eutanasia y pide que los cuidados paliativos sean más accesibles Ver más"
             ]
           ],
           "logos": [
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/1/evo_conferencia_ed_listo.jpg?itok=uMhEEMSe",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/15/tariofas.jpg?itok=DHdCoB6t",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/15/madurooo.jpg?itok=MKkwpFUG",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/15/kast.jpg?itok=-ujs00dc",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/15/sala_plena.jpg?itok=S8ATYfbZ"
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/15/lula_ed_va.jpg?itok=6Scen1Ql",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/15/ensayo_colorados_btv.jpg?itok=LW9dJipG",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/15/diputs_patrimo_edil.jpg.jpeg?itok=30Sx2VHU",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/15/4_bum_cotoca_abi.jpg?itok=6fTjoZ7g",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/15/cob_en_cocha.jpg?itok=MTjyDgPI"
           ],
           "strong_standings": false,
           "row_groups": null,

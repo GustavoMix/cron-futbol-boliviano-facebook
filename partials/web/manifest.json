@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-19T05:51:38.846545Z",
+  "generated_at": "2026-10-19T12:26:19.184325Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,13 +9,13 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 312
+      "items": 306
     },
     "conmebol.json": {
       "items": 90
     },
     "internacional.json": {
-      "items": 159
+      "items": 161
     },
     "social.json": {
       "items": 0
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 143
+      "items": 140
     },
     "current_tables.json": {
       "items": 0
@@ -37,14 +37,14 @@
     {
       "id": "fbf_noticias",
       "name": "Federación Boliviana de Fútbol - Noticias",
-      "ok": true,
-      "items": 3
+      "ok": false,
+      "items": 0
     },
     {
       "id": "fbf_profesional",
       "name": "FBF - División Profesional",
-      "ok": true,
-      "items": 6
+      "ok": false,
+      "items": 0
     },
     {
       "id": "promediosinfo_bolivia",
@@ -55,20 +55,20 @@
     {
       "id": "fbf_copa_pacena",
       "name": "FBF - Copa Paceña",
-      "ok": true,
-      "items": 6
+      "ok": false,
+      "items": 0
     },
     {
       "id": "fbf_sub19",
       "name": "FBF - Liga Nacional Sub-19",
-      "ok": true,
-      "items": 5
+      "ok": false,
+      "items": 0
     },
     {
       "id": "fbf_sub16",
       "name": "FBF - Liga Nacional Sub-16",
-      "ok": true,
-      "items": 5
+      "ok": false,
+      "items": 0
     },
     {
       "id": "conmebol_libertadores",
@@ -296,7 +296,7 @@
       "id": "marca_futbol",
       "name": "Marca - Fútbol",
       "ok": true,
-      "items": 69
+      "items": 70
     },
     {
       "id": "as_futbol",
@@ -331,8 +331,28 @@
   ],
   "errors": [
     {
+      "source": "fbf_noticias",
+      "error": "HTTPError: 522 Server Error: <none> for url: https://fbf.com.bo/noticias/"
+    },
+    {
+      "source": "fbf_profesional",
+      "error": "HTTPError: 522 Server Error: <none> for url: https://fbf.com.bo/torneos/division-profesional/"
+    },
+    {
       "source": "promediosinfo_bolivia",
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://promediosinfo.com/liga/bolivia.html"
+    },
+    {
+      "source": "fbf_copa_pacena",
+      "error": "HTTPError: 522 Server Error: <none> for url: https://fbf.com.bo/torneos/copa-pacena/"
+    },
+    {
+      "source": "fbf_sub19",
+      "error": "HTTPError: 522 Server Error: <none> for url: https://fbf.com.bo/torneos/liga-nacional-sub-19/"
+    },
+    {
+      "source": "fbf_sub16",
+      "error": "HTTPError: 522 Server Error: <none> for url: https://fbf.com.bo/torneos/liga-nacional-sub-16/"
     },
     {
       "source": "eldeber_deportes",
@@ -340,7 +360,7 @@
     },
     {
       "source": "abi_deportes",
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f31d857e270>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f25d3886ed0>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
     },
     {
       "source": "conmebol_eliminatorias",
@@ -352,10 +372,10 @@
     }
   ],
   "totals": {
-    "items_before_filter": 786,
-    "items_after_filter_dedupe": 561,
-    "web_sources_ok": 43,
-    "web_sources_error": 6,
+    "items_before_filter": 762,
+    "items_after_filter_dedupe": 557,
+    "web_sources_ok": 38,
+    "web_sources_error": 11,
     "social_items": 0
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-21T13:33:45.449465Z",
+  "generated_at": "2026-10-21T18:29:47.382342Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -15,7 +15,7 @@
       "items": 93
     },
     "internacional.json": {
-      "items": 164
+      "items": 161
     },
     "social.json": {
       "items": 0
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 117
+      "items": 116
     },
     "current_tables.json": {
       "items": 0
@@ -134,7 +134,7 @@
       "id": "unitel_atodo_deporte",
       "name": "Unitel - A Todo Deporte",
       "ok": true,
-      "items": 14
+      "items": 13
     },
     {
       "id": "unitel_division_profesional",
@@ -194,7 +194,7 @@
       "id": "vision360_futbol_boliviano",
       "name": "Visión 360 - Fútbol Boliviano",
       "ok": true,
-      "items": 36
+      "items": 38
     },
     {
       "id": "oxigeno_deportes",
@@ -308,7 +308,7 @@
       "id": "ole_futbol_internacional",
       "name": "Olé - Fútbol Internacional",
       "ok": true,
-      "items": 22
+      "items": 21
     },
     {
       "id": "goal_espanol",
@@ -344,7 +344,7 @@
     },
     {
       "source": "abi_deportes",
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f42e3bc7860>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7fb3c2898ec0>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
     },
     {
       "source": "conmebol_eliminatorias",
@@ -357,7 +357,7 @@
   ],
   "totals": {
     "items_before_filter": 721,
-    "items_after_filter_dedupe": 508,
+    "items_after_filter_dedupe": 505,
     "web_sources_ok": 42,
     "web_sources_error": 7,
     "social_items": 0

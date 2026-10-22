@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-22T13:34:13.885040Z",
+  "generated_at": "2026-10-22T18:25:13.754188Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,13 +9,13 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 306
+      "items": 309
     },
     "conmebol.json": {
-      "items": 93
+      "items": 94
     },
     "internacional.json": {
-      "items": 162
+      "items": 161
     },
     "social.json": {
       "items": 0
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 145
+      "items": 141
     },
     "current_tables.json": {
       "items": 0
@@ -188,13 +188,13 @@
       "id": "larazon_futbol_boliviano",
       "name": "La Razón - Fútbol Profesional Boliviano",
       "ok": true,
-      "items": 66
+      "items": 70
     },
     {
       "id": "vision360_futbol_boliviano",
       "name": "Visión 360 - Fútbol Boliviano",
       "ok": true,
-      "items": 37
+      "items": 36
     },
     {
       "id": "oxigeno_deportes",
@@ -242,7 +242,7 @@
       "id": "wikipedia_libertadores",
       "name": "Wikipedia - Copa Libertadores 2026",
       "ok": true,
-      "items": 80
+      "items": 81
     },
     {
       "id": "wikipedia_sudamericana",
@@ -340,7 +340,7 @@
     },
     {
       "source": "abi_deportes",
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f78b0160230>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7fd0ff5f36b0>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
     },
     {
       "source": "conmebol_eliminatorias",
@@ -352,8 +352,8 @@
     }
   ],
   "totals": {
-    "items_before_filter": 787,
-    "items_after_filter_dedupe": 561,
+    "items_before_filter": 791,
+    "items_after_filter_dedupe": 564,
     "web_sources_ok": 43,
     "web_sources_error": 6,
     "social_items": 0

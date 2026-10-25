@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-10-25T17:30:09.316747Z",
+  "generated_at": "2026-10-25T20:30:17.602523Z",
   "architecture": "3 Facebook groups + 1 web group; feed editorial + fases KO verificadas por serie completa",
   "facebook_groups": [
     {
@@ -24,16 +24,16 @@
   ],
   "totals": {
     "facebook_items": 0,
-    "web_latest_items": 200,
-    "app_feed_items": 141
+    "web_latest_items": 185,
+    "app_feed_items": 112
   },
   "web": {
-    "generated_at": "2026-10-25T17:30:09.180823Z",
+    "generated_at": "2026-10-25T20:30:17.434631Z",
     "totals": {
-      "items_before_filter": 788,
-      "items_after_filter_dedupe": 565,
-      "web_sources_ok": 43,
-      "web_sources_error": 6,
+      "items_before_filter": 662,
+      "items_after_filter_dedupe": 464,
+      "web_sources_ok": 41,
+      "web_sources_error": 8,
       "social_items": 0
     },
     "errors": [
@@ -46,12 +46,20 @@
         "error": "HTTPError: 403 Client Error: Forbidden for url: https://eldeber.com.bo/deportes"
       },
       {
+        "source": "larazon_futbol_boliviano",
+        "error": "HTTPError: 403 Client Error: Forbidden for url: https://larazon.bo/categoria/marcas/futbol-profesional-boliviano/"
+      },
+      {
         "source": "abi_deportes",
-        "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f1964aeff50>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+        "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f45625ac710>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
       },
       {
         "source": "conmebol_eliminatorias",
         "error": "HTTPError: 404 Client Error: Not Found for url: https://www.conmebol.com/eliminatorias/"
+      },
+      {
+        "source": "as_futbol",
+        "error": "HTTPError: 403 Client Error: Forbidden for url: https://as.com/futbol/"
       },
       {
         "source": "foxsports_latam",

@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-25T23:06:20.062784Z",
+  "generated_at": "2026-10-26T03:33:10.159959Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,7 +9,7 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 313
+      "items": 309
     },
     "conmebol.json": {
       "items": 94
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 143
+      "items": 141
     },
     "current_tables.json": {
       "items": 0
@@ -188,13 +188,13 @@
       "id": "larazon_futbol_boliviano",
       "name": "La Razón - Fútbol Profesional Boliviano",
       "ok": true,
-      "items": 72
+      "items": 70
     },
     {
       "id": "vision360_futbol_boliviano",
       "name": "Visión 360 - Fútbol Boliviano",
       "ok": true,
-      "items": 34
+      "items": 35
     },
     {
       "id": "oxigeno_deportes",
@@ -296,7 +296,7 @@
       "id": "marca_futbol",
       "name": "Marca - Fútbol",
       "ok": true,
-      "items": 69
+      "items": 70
     },
     {
       "id": "as_futbol",
@@ -340,7 +340,7 @@
     },
     {
       "source": "abi_deportes",
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7fc1994c0c50>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f90a6c5a360>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
     },
     {
       "source": "conmebol_eliminatorias",
@@ -353,7 +353,7 @@
   ],
   "totals": {
     "items_before_filter": 789,
-    "items_after_filter_dedupe": 569,
+    "items_after_filter_dedupe": 565,
     "web_sources_ok": 43,
     "web_sources_error": 6,
     "social_items": 0

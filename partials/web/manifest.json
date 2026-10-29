@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-29T09:30:57.377896Z",
+  "generated_at": "2026-10-29T16:43:29.567638Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -12,10 +12,10 @@
       "items": 312
     },
     "conmebol.json": {
-      "items": 94
+      "items": 95
     },
     "internacional.json": {
-      "items": 165
+      "items": 162
     },
     "social.json": {
       "items": 0
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 143
+      "items": 146
     },
     "current_tables.json": {
       "items": 0
@@ -188,13 +188,13 @@
       "id": "larazon_futbol_boliviano",
       "name": "La Razón - Fútbol Profesional Boliviano",
       "ok": true,
-      "items": 72
+      "items": 71
     },
     {
       "id": "vision360_futbol_boliviano",
       "name": "Visión 360 - Fútbol Boliviano",
       "ok": true,
-      "items": 36
+      "items": 35
     },
     {
       "id": "oxigeno_deportes",
@@ -314,7 +314,7 @@
       "id": "goal_espanol",
       "name": "Goal.com (español)",
       "ok": true,
-      "items": 40
+      "items": 39
     },
     {
       "id": "foxsports_latam",
@@ -340,7 +340,7 @@
     },
     {
       "source": "abi_deportes",
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7face13c2a80>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7efdb4baa900>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
     },
     {
       "source": "conmebol_eliminatorias",
@@ -352,8 +352,8 @@
     }
   ],
   "totals": {
-    "items_before_filter": 793,
-    "items_after_filter_dedupe": 571,
+    "items_before_filter": 790,
+    "items_after_filter_dedupe": 569,
     "web_sources_ok": 43,
     "web_sources_error": 6,
     "social_items": 0

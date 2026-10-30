@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-29T21:38:35.484871Z",
+  "generated_at": "2026-10-30T01:42:23.927522Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,13 +9,13 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 309
+      "items": 310
     },
     "conmebol.json": {
       "items": 94
     },
     "internacional.json": {
-      "items": 160
+      "items": 162
     },
     "social.json": {
       "items": 0
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 141
+      "items": 143
     },
     "current_tables.json": {
       "items": 0
@@ -61,8 +61,8 @@
     {
       "id": "fbf_sub19",
       "name": "FBF - Liga Nacional Sub-19",
-      "ok": true,
-      "items": 5
+      "ok": false,
+      "items": 0
     },
     {
       "id": "fbf_sub16",
@@ -188,7 +188,7 @@
       "id": "larazon_futbol_boliviano",
       "name": "La Razón - Fútbol Profesional Boliviano",
       "ok": true,
-      "items": 71
+      "items": 72
     },
     {
       "id": "vision360_futbol_boliviano",
@@ -335,12 +335,16 @@
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://promediosinfo.com/liga/bolivia.html"
     },
     {
+      "source": "fbf_sub19",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='fbf.com.bo', port=443): Read timed out. (read timeout=25)"
+    },
+    {
       "source": "eldeber_deportes",
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://eldeber.com.bo/deportes"
     },
     {
       "source": "abi_deportes",
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7fb4f0c54980>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7fdad3fb8050>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
     },
     {
       "source": "conmebol_eliminatorias",
@@ -352,10 +356,10 @@
     }
   ],
   "totals": {
-    "items_before_filter": 789,
-    "items_after_filter_dedupe": 563,
-    "web_sources_ok": 43,
-    "web_sources_error": 6,
+    "items_before_filter": 785,
+    "items_after_filter_dedupe": 566,
+    "web_sources_ok": 42,
+    "web_sources_error": 7,
     "social_items": 0
   }
 }

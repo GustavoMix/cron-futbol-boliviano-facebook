@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-11-04T17:08:17.894266Z",
+  "generated_at": "2026-11-04T23:25:09.162048Z",
   "policy": "datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback",
   "assets_policy": "club_logo > country_flag > none",
   "team_assets": {
@@ -546,7 +546,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-11-04T17:07:06.402993Z",
+        "scraped_at": "2026-11-04T23:20:49.304026Z",
         "extra": {
           "header": [
             "Fecha",
@@ -3432,7 +3432,7 @@
             [
               "Fecha 24",
               "Real Tomayapo",
-              "–",
+              "1 – 2",
               "Blooming",
               "IV Centenario",
               "2 de noviembre",
@@ -4664,7 +4664,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-04T17:07:06.067132Z",
+        "scraped_at": "2026-11-04T23:20:49.111892Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -4781,6 +4781,19 @@
             ],
             [
               "8",
+              "Blooming",
+              "31",
+              "24",
+              "7",
+              "10",
+              "7",
+              "33",
+              "26",
+              "+7",
+              ""
+            ],
+            [
+              "9",
               "Independiente Petrolero",
               "30",
               "24",
@@ -4793,7 +4806,7 @@
               ""
             ],
             [
-              "9",
+              "10",
               "Guabirá",
               "30",
               "24",
@@ -4806,7 +4819,7 @@
               ""
             ],
             [
-              "10",
+              "11",
               "Real Oruro",
               "28",
               "24",
@@ -4816,19 +4829,6 @@
               "38",
               "57",
               "− 19",
-              ""
-            ],
-            [
-              "11",
-              "Blooming",
-              "28",
-              "23",
-              "6",
-              "10",
-              "7",
-              "31",
-              "25",
-              "+6",
               ""
             ],
             [
@@ -4874,13 +4874,13 @@
               "15",
               "Real Tomayapo",
               "20",
-              "23",
+              "24",
               "5",
               "5",
-              "13",
-              "16",
-              "40",
-              "− 24",
+              "14",
+              "17",
+              "42",
+              "− 25",
               "Promoción"
             ],
             [
@@ -4906,10 +4906,10 @@
             "",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-2-400x400.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-9-400x400.png",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-4-400x400.png",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Escudo_Club_Independiente_Petrolero.png/250px-Escudo_Club_Independiente_Petrolero.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-4-400x400.png",
             "https://flagcdn.com/w80/bo.png",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/U_de_Vinto.png/250px-U_de_Vinto.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "",
@@ -4930,10 +4930,10 @@
             "Santa Cruz",
             "Cochabamba",
             "Potos",
+            "Santa Cruz",
             "Chuquisaca",
             "Santa Cruz",
             "Bolivia",
-            "Santa Cruz",
             "Bolivia",
             "Cochabamba",
             "La Paz",
@@ -4950,8 +4950,8 @@
             "club_logo",
             "club_logo",
             "club_logo",
-            "none",
             "club_logo",
+            "none",
             "club_logo",
             "country_flag",
             "club_logo",
@@ -4974,7 +4974,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-04T17:07:06.444204Z",
+        "scraped_at": "2026-11-04T23:20:49.327374Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5073,7 +5073,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-04T17:07:06.454880Z",
+        "scraped_at": "2026-11-04T23:20:49.333006Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5150,7 +5150,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-04T17:07:06.477877Z",
+        "scraped_at": "2026-11-04T23:20:49.345187Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5430,7 +5430,7 @@
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-11-04T17:07:07.127092Z",
+        "scraped_at": "2026-11-04T23:20:49.710528Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6616,7 +6616,7 @@
         "source_name": "Series — Serie A + Series — Serie B + Series — Serie C + Series — Serie D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-11-04T17:07:07.029273Z",
+        "scraped_at": "2026-11-04T23:20:49.664928Z",
         "extra": {
           "rows": [
             [
@@ -6928,7 +6928,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-11-04T17:07:09.055223Z",
+        "scraped_at": "2026-11-04T23:20:50.987117Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7455,7 +7455,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-11-04T17:07:09.055223Z",
+        "scraped_at": "2026-11-04T23:20:50.987117Z",
         "extra": {
           "rows": [
             [
@@ -7937,7 +7937,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-04T17:07:08.651931Z",
+        "scraped_at": "2026-11-04T23:20:50.741502Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -8000,7 +8000,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-04T17:07:08.664534Z",
+        "scraped_at": "2026-11-04T23:20:50.749287Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -8061,7 +8061,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-11-04T17:07:09.055223Z",
+        "scraped_at": "2026-11-04T23:20:50.987117Z",
         "extra": {
           "rows": [
             [
@@ -8539,7 +8539,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-11-04T17:07:08.207694Z",
+        "scraped_at": "2026-11-04T23:20:50.455596Z",
         "extra": {
           "rows": [
             [
@@ -9057,7 +9057,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-11-04T17:07:11.863035Z",
+        "scraped_at": "2026-11-04T23:20:52.539455Z",
         "extra": {
           "header": [
             "Fecha",
@@ -9856,7 +9856,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-11-04T17:07:11.863035Z",
+        "scraped_at": "2026-11-04T23:20:52.539455Z",
         "extra": {
           "rows": [
             [
@@ -10338,7 +10338,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-04T17:07:11.102650Z",
+        "scraped_at": "2026-11-04T23:20:52.136165Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10415,7 +10415,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-04T17:07:11.116201Z",
+        "scraped_at": "2026-11-04T23:20:52.144641Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10482,7 +10482,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-11-04T17:07:11.863035Z",
+        "scraped_at": "2026-11-04T23:20:52.539455Z",
         "extra": {
           "rows": [
             [
@@ -10960,7 +10960,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-11-04T17:07:10.211355Z",
+        "scraped_at": "2026-11-04T23:20:51.683005Z",
         "extra": {
           "rows": [
             [
@@ -11482,7 +11482,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-04T17:05:56.474709Z",
+        "scraped_at": "2026-11-04T23:19:59.182998Z",
         "source_id": "lostiempos_deportes",
         "source_name": "Los Tiempos - Deportes",
         "source_type": "media",
@@ -11494,32 +11494,32 @@
         "extra": {
           "rows": [
             [
-              "1 “Bolivia Day”: Gobierno presenta las potencialidades del país para atraer inversiones Ver más",
-              "2 El color del otoño alrededor del mundo: un recorrido visual Ver más"
+              "1 En un mes y medio, convierten 1.825 vehículos a GNV en toda Bolivia Ver más",
+              "2 Angerer hace historia en Juegos Olímpicos de la Juventud Dakar 2026 Ver más"
             ],
             [
-              "3 Suman amenazas contra Maldonado y el Gobierno le brinda todo su respaldo Ver más",
-              "4 Samuel critica viaje de Paz y ministros a Europa: \"Falta mucho trabajo, sobran muchos viajes y celebraciones\" Ver más"
+              "3 Comunicado Viva Bonus Ver más",
+              "4 Capturan a 6 jóvenes presuntos reclutadores del PCC Ver más"
             ],
             [
-              "5 Una comisión de fiscales pesquisará audios de Cerimedo Ver más",
-              "6 Declaran emergencia por sequía en 7 municipios de Cochabamba Ver más"
+              "5 Dolor en el fútbol por la muerte de Jesús de Miguel del CD Tenerife tras rodillazo Ver más",
+              "6 Ministro Oviedo: Todos sabemos que Saucedo y Mariaca eran muy amigos, andaban y vivían juntos en Sucre Ver más"
             ],
             [
-              "7 Evistas amenazan a militares y policías: \"Si tocan a Evo, despídanse de sus familias\" Ver más",
-              "8 El gigante Boeing 777-9 aterriza en Sucre para realizar pruebas operacionales a gran altitud Ver más"
+              "7 Gobierno quiere auditoría del sistema de radares Ver más",
+              "8 Fallece Luis Rico, el trovador que hizo de la historia una canción Ver más"
             ],
             [
-              "9 Marcha de Manaco logra apoyo de la COB, alcalde y concejales Ver más",
-              "10 Loza rechaza propuesta del Gobierno de asignar el 1% de coparticipación a las Gobernaciones Ver más"
+              "9 Rosmery Ruiz es presidenta temporal en ejercicio del TSJ Ver más",
+              "10 Acción de amparo pide anular elección de la directiva de Diputados Ver más"
             ]
           ],
           "logos": [
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/3/paz_en_espana.jpg?itok=Cq--Z2WN",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/4/5_p_1_tiempossssss.jpg?itok=VNHWv3PM",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/3/urioste_en_santa_cruz_erbol.jpg?itok=hc_k8r7H",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/3/evooo.jpg?itok=Q3CFbJZ_",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/4/7_me_1_ftfcbba.jpg?itok=dCYRqs6m"
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/3/gas_vehiculos.jpeg?itok=_zieH2-N",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/4/comunicado_viva_bonus.jpg?itok=cSYRrrzb",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/4/11_dep_1_la_liga.jpg?itok=YlckWnK9",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/3/radares_evo_archivo.jpg?itok=RqgryECn",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/4/nea_presi_tsj_cds.jpg?itok=YJC303yH"
           ],
           "strong_standings": false,
           "row_groups": null,

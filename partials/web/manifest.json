@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-11-05T05:32:58.502564Z",
+  "generated_at": "2026-11-05T14:07:20.717540Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,13 +9,13 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 312
+      "items": 310
     },
     "conmebol.json": {
-      "items": 89
+      "items": 95
     },
     "internacional.json": {
-      "items": 164
+      "items": 125
     },
     "social.json": {
       "items": 0
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 208
+      "items": 195
     },
     "current_tables.json": {
       "items": 0
@@ -73,20 +73,20 @@
     {
       "id": "conmebol_libertadores",
       "name": "CONMEBOL Libertadores",
-      "ok": false,
-      "items": 0
+      "ok": true,
+      "items": 4
     },
     {
       "id": "conmebol_sudamericana",
       "name": "CONMEBOL Sudamericana",
-      "ok": false,
-      "items": 0
+      "ok": true,
+      "items": 4
     },
     {
       "id": "conmebol_sub17",
       "name": "CONMEBOL Sub-17",
-      "ok": false,
-      "items": 0
+      "ok": true,
+      "items": 4
     },
     {
       "id": "fifa_bolivia",
@@ -134,7 +134,7 @@
       "id": "unitel_atodo_deporte",
       "name": "Unitel - A Todo Deporte",
       "ok": true,
-      "items": 14
+      "items": 12
     },
     {
       "id": "unitel_division_profesional",
@@ -188,13 +188,13 @@
       "id": "larazon_futbol_boliviano",
       "name": "La Razón - Fútbol Profesional Boliviano",
       "ok": true,
-      "items": 71
+      "items": 73
     },
     {
       "id": "vision360_futbol_boliviano",
       "name": "Visión 360 - Fútbol Boliviano",
       "ok": true,
-      "items": 34
+      "items": 35
     },
     {
       "id": "oxigeno_deportes",
@@ -271,7 +271,7 @@
     {
       "id": "conmebol_copa_america",
       "name": "CONMEBOL Copa América",
-      "ok": false,
+      "ok": true,
       "items": 0
     },
     {
@@ -296,13 +296,13 @@
       "id": "marca_futbol",
       "name": "Marca - Fútbol",
       "ok": true,
-      "items": 70
+      "items": 71
     },
     {
       "id": "as_futbol",
       "name": "AS.com - Fútbol",
-      "ok": true,
-      "items": 52
+      "ok": false,
+      "items": 0
     },
     {
       "id": "ole_futbol_internacional",
@@ -335,28 +335,16 @@
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://promediosinfo.com/liga/bolivia.html"
     },
     {
-      "source": "conmebol_libertadores",
-      "error": "ReadTimeout: HTTPSConnectionPool(host='www.conmebol.com', port=443): Read timed out. (read timeout=25)"
-    },
-    {
-      "source": "conmebol_sudamericana",
-      "error": "ReadTimeout: HTTPSConnectionPool(host='www.conmebol.com', port=443): Read timed out. (read timeout=25)"
-    },
-    {
-      "source": "conmebol_sub17",
-      "error": "ReadTimeout: HTTPSConnectionPool(host='www.conmebol.com', port=443): Read timed out. (read timeout=25)"
-    },
-    {
       "source": "eldeber_deportes",
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://eldeber.com.bo/deportes"
     },
     {
-      "source": "conmebol_copa_america",
-      "error": "ReadTimeout: HTTPSConnectionPool(host='www.conmebol.com', port=443): Read timed out. (read timeout=25)"
+      "source": "conmebol_eliminatorias",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://www.conmebol.com/eliminatorias/"
     },
     {
-      "source": "conmebol_eliminatorias",
-      "error": "ReadTimeout: HTTPSConnectionPool(host='www.conmebol.com', port=443): Read timed out. (read timeout=25)"
+      "source": "as_futbol",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://as.com/futbol/"
     },
     {
       "source": "foxsports_latam",
@@ -364,10 +352,10 @@
     }
   ],
   "totals": {
-    "items_before_filter": 787,
-    "items_after_filter_dedupe": 565,
-    "web_sources_ok": 40,
-    "web_sources_error": 9,
+    "items_before_filter": 749,
+    "items_after_filter_dedupe": 530,
+    "web_sources_ok": 43,
+    "web_sources_error": 6,
     "social_items": 0
   }
 }

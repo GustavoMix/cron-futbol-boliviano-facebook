@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-11-06T17:55:09.160965Z",
+  "generated_at": "2026-11-06T22:49:11.065416Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,13 +9,13 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 300
+      "items": 250
     },
     "conmebol.json": {
       "items": 95
     },
     "internacional.json": {
-      "items": 161
+      "items": 160
     },
     "social.json": {
       "items": 0
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 185
+      "items": 163
     },
     "current_tables.json": {
       "items": 0
@@ -187,8 +187,8 @@
     {
       "id": "larazon_futbol_boliviano",
       "name": "La Razón - Fútbol Profesional Boliviano",
-      "ok": true,
-      "items": 72
+      "ok": false,
+      "items": 0
     },
     {
       "id": "vision360_futbol_boliviano",
@@ -217,8 +217,8 @@
     {
       "id": "redpat_deportes",
       "name": "RED PAT - Deportes",
-      "ok": false,
-      "items": 0
+      "ok": true,
+      "items": 10
     },
     {
       "id": "reduno_stats",
@@ -236,7 +236,7 @@
       "id": "wikipedia_copa_bolivia",
       "name": "Wikipedia - Copa Bolivia 2026",
       "ok": true,
-      "items": 30
+      "items": 34
     },
     {
       "id": "wikipedia_libertadores",
@@ -339,8 +339,8 @@
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://eldeber.com.bo/deportes"
     },
     {
-      "source": "redpat_deportes",
-      "error": "ConnectionError: HTTPSConnectionPool(host='www.redpat.tv', port=443): Max retries exceeded with url: /categoria/deportes (Caused by NewConnectionError(\"HTTPSConnection(host='www.redpat.tv', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      "source": "larazon_futbol_boliviano",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://larazon.bo/categoria/marcas/futbol-profesional-boliviano/"
     },
     {
       "source": "conmebol_eliminatorias",
@@ -352,8 +352,8 @@
     }
   ],
   "totals": {
-    "items_before_filter": 793,
-    "items_after_filter_dedupe": 556,
+    "items_before_filter": 735,
+    "items_after_filter_dedupe": 505,
     "web_sources_ok": 43,
     "web_sources_error": 6,
     "social_items": 0

@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-11-07T16:12:12.710104Z",
+  "generated_at": "2026-11-07T20:44:42.254847Z",
   "policy": "datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback",
   "assets_policy": "club_logo > country_flag > none",
   "team_assets": {
@@ -546,7 +546,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-11-07T16:10:16.638804Z",
+        "scraped_at": "2026-11-07T20:43:28.542299Z",
         "extra": {
           "header": [
             "Fecha",
@@ -3447,7 +3447,7 @@
             [
               "Fecha 25",
               "Independiente Petrolero",
-              "–",
+              "0 – 2",
               "Real Tomayapo",
               "Olímpico Patria",
               "6 de noviembre",
@@ -4664,7 +4664,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-07T16:10:16.339034Z",
+        "scraped_at": "2026-11-07T20:43:28.237580Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -4796,13 +4796,13 @@
               "9",
               "Independiente Petrolero",
               "30",
-              "24",
+              "25",
               "8",
               "6",
-              "10",
+              "11",
               "32",
-              "40",
-              "− 8",
+              "42",
+              "− 10",
               ""
             ],
             [
@@ -4846,6 +4846,19 @@
             ],
             [
               "13",
+              "Real Tomayapo",
+              "23",
+              "25",
+              "6",
+              "5",
+              "14",
+              "19",
+              "42",
+              "− 23",
+              ""
+            ],
+            [
+              "14",
               "Universitario de Vinto",
               "21",
               "24",
@@ -4858,7 +4871,7 @@
               ""
             ],
             [
-              "14",
+              "15",
               "ABB",
               "20",
               "24",
@@ -4868,19 +4881,6 @@
               "35",
               "54",
               "− 19",
-              ""
-            ],
-            [
-              "15",
-              "Real Tomayapo",
-              "20",
-              "24",
-              "5",
-              "5",
-              "14",
-              "17",
-              "42",
-              "− 25",
               "Promoción"
             ],
             [
@@ -4911,9 +4911,9 @@
             "",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_Oruro_Royal.png?width=200",
             "https://flagcdn.com/w80/bo.png",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-6-400x400.png",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/U_de_Vinto.png/250px-U_de_Vinto.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
             "",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-6-400x400.png",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
           ],
           "strong_standings": true,
@@ -4935,9 +4935,9 @@
             "Santa Cruz",
             "Bolivia",
             "Bolivia",
+            "Tarija",
             "Cochabamba",
             "La Paz",
-            "Tarija",
             "Bolivia"
           ],
           "badge_types": [
@@ -4955,8 +4955,8 @@
             "club_logo",
             "country_flag",
             "club_logo",
-            "none",
             "club_logo",
+            "none",
             "club_logo"
           ]
         },
@@ -4974,7 +4974,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-07T16:10:16.675131Z",
+        "scraped_at": "2026-11-07T20:43:28.579754Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5073,7 +5073,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-07T16:10:16.683849Z",
+        "scraped_at": "2026-11-07T20:43:28.588623Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5150,7 +5150,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-07T16:10:16.703034Z",
+        "scraped_at": "2026-11-07T20:43:28.607938Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5430,7 +5430,7 @@
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-11-07T16:10:17.006089Z",
+        "scraped_at": "2026-11-07T20:43:29.071439Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6616,7 +6616,7 @@
         "source_name": "Series — Serie A + Series — Serie B + Series — Serie C + Series — Serie D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-11-07T16:10:16.934857Z",
+        "scraped_at": "2026-11-07T20:43:28.993613Z",
         "extra": {
           "rows": [
             [
@@ -6928,7 +6928,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-11-07T16:10:18.888510Z",
+        "scraped_at": "2026-11-07T20:43:31.156215Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7455,7 +7455,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-11-07T16:10:18.888510Z",
+        "scraped_at": "2026-11-07T20:43:31.156215Z",
         "extra": {
           "rows": [
             [
@@ -7937,7 +7937,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-07T16:10:18.506552Z",
+        "scraped_at": "2026-11-07T20:43:30.771019Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -8000,7 +8000,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-07T16:10:18.518549Z",
+        "scraped_at": "2026-11-07T20:43:30.783431Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -8061,7 +8061,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-11-07T16:10:18.888510Z",
+        "scraped_at": "2026-11-07T20:43:31.156215Z",
         "extra": {
           "rows": [
             [
@@ -8539,7 +8539,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-11-07T16:10:18.061889Z",
+        "scraped_at": "2026-11-07T20:43:30.326400Z",
         "extra": {
           "rows": [
             [
@@ -9057,7 +9057,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-11-07T16:10:21.115089Z",
+        "scraped_at": "2026-11-07T20:43:33.635962Z",
         "extra": {
           "header": [
             "Fecha",
@@ -9856,7 +9856,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-11-07T16:10:21.115089Z",
+        "scraped_at": "2026-11-07T20:43:33.635962Z",
         "extra": {
           "rows": [
             [
@@ -10338,7 +10338,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-07T16:10:20.476674Z",
+        "scraped_at": "2026-11-07T20:43:32.988517Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10415,7 +10415,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-07T16:10:20.489791Z",
+        "scraped_at": "2026-11-07T20:43:33.002251Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10482,7 +10482,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-11-07T16:10:21.115089Z",
+        "scraped_at": "2026-11-07T20:43:33.635962Z",
         "extra": {
           "rows": [
             [
@@ -10960,7 +10960,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-11-07T16:10:19.781820Z",
+        "scraped_at": "2026-11-07T20:43:32.262313Z",
         "extra": {
           "rows": [
             [
@@ -11482,7 +11482,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-07T16:08:29.794538Z",
+        "scraped_at": "2026-11-07T20:42:13.667331Z",
         "source_id": "lostiempos_deportes",
         "source_name": "Los Tiempos - Deportes",
         "source_type": "media",
@@ -11494,32 +11494,32 @@
         "extra": {
           "rows": [
             [
-              "1 Cumbre Iberoamericana: Paz resalta apoyo de la CAF como un socio estratégico de Bolivia Ver más",
-              "2 Semapa lleva agua a comunidades afectadas por la sequía en Aiquile Ver más"
+              "1 Nueve vehículos, un yate y una avioneta: el saldo de los allanamientos al dueño de Ueno Bank en Paraguay Ver más",
+              "2 En pleno paro de salud, hallan un churrasco de sindicalistas en el hospital San Juan de Dios Ver más"
             ],
             [
-              "3 Pedro Alliana asume como nuevo presidente de Paraguay Ver más",
-              "4 Pese a rechazo de Libre y Unidad, el PDC posesiona a Castro en Diputados Ver más"
+              "3 Lara presenta recurso contra Ávila en el TCP Ver más",
+              "4 Paz se reúne con el Rey de España: \"Agradecemos su cercanía con Bolivia\" Ver más"
             ],
             [
-              "5 Lara denuncia “usurpación de funciones” tras la instalación de la sesión del Legislativo sin su presencia Ver más",
-              "6 León XIV inicia en Uruguay su gira por Latinoamérica Ver más"
+              "5 Con cinco nuevas incorporaciones, Bolivia presenta a la nómina para amistosos contra Perú y Ecuador Ver más",
+              "6 Oviedo revela que las maletas \"contenían marihuana químicamente alterada que tiene un valor muy alto\" Ver más"
             ],
             [
-              "7 Aprehenden a familiares de Saucedo y Rojas le atribuye propiedad de maletas Ver más",
-              "8 En pleno paro de salud, hallan un churrasco de sindicalistas en el hospital San Juan de Dios Ver más"
+              "7 Mesa lanzará este domingo “Bolivia Siglo XXI”; tiene cinco cronologías, una biografía y seis documentales Ver más",
+              "8 “Me dan ganas de irme, me cansé de la chacota”, Lara critica la impuntualidad en la ALP Ver más"
             ],
             [
-              "9 Nueve vehículos, un yate y una avioneta: el saldo de los allanamientos al dueño de Ueno Bank en Paraguay Ver más",
-              "10 Ministerio alista la venta de 672 departamentos de la Villa Suramericana Ver más"
+              "9 Ministro de Defensa y autoridades de Pando acuerdan cuatro acciones para fortalecer la prevención de desastres Ver más",
+              "10 Fiscal Urioste ratifica que Saucedo será juzgado por la vía ordinaria y descarta juicio de responsabilidades Ver más"
             ]
           ],
           "logos": [
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/6/2_eco_1_frpp.jpg?itok=xNrxtIl3",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/6/vice_paraguay_ed.jpg?itok=ZO9lnoFK",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/6/lara_usurpacion_ed_ok.jpg?itok=gZaUhIcH",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/6/4_p_1_el_deberrr.jpg?itok=o5an77W8",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/6/yate_ed_ok.jpg?itok=YUQTdDgD"
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/6/yate_ed_ok.jpg?itok=YUQTdDgD",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/6/lara_en_alp_6-11-26_vepb.jpg?itok=626fZShD",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/6/seleccion_convocados_ok.jpg?itok=IZuud-gh",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2023/2/2/4_p2_apg.jpg?itok=7yTQDx3A",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/7/onu_45.jpg?itok=N3nI_bqw"
           ],
           "strong_standings": false,
           "row_groups": null,

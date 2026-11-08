@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-11-07T20:44:51.802567Z",
+  "generated_at": "2026-11-08T00:17:15.797733Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,13 +9,13 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 307
+      "items": 308
     },
     "conmebol.json": {
-      "items": 95
+      "items": 94
     },
     "internacional.json": {
-      "items": 161
+      "items": 162
     },
     "social.json": {
       "items": 0
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 208
+      "items": 206
     },
     "current_tables.json": {
       "items": 0
@@ -134,7 +134,7 @@
       "id": "unitel_atodo_deporte",
       "name": "Unitel - A Todo Deporte",
       "ok": true,
-      "items": 12
+      "items": 14
     },
     {
       "id": "unitel_division_profesional",
@@ -188,13 +188,13 @@
       "id": "larazon_futbol_boliviano",
       "name": "La Razón - Fútbol Profesional Boliviano",
       "ok": true,
-      "items": 72
+      "items": 71
     },
     {
       "id": "vision360_futbol_boliviano",
       "name": "Visión 360 - Fútbol Boliviano",
       "ok": true,
-      "items": 38
+      "items": 37
     },
     {
       "id": "oxigeno_deportes",
@@ -296,7 +296,7 @@
       "id": "marca_futbol",
       "name": "Marca - Fútbol",
       "ok": true,
-      "items": 67
+      "items": 68
     },
     {
       "id": "as_futbol",
@@ -348,8 +348,8 @@
     }
   ],
   "totals": {
-    "items_before_filter": 803,
-    "items_after_filter_dedupe": 563,
+    "items_before_filter": 804,
+    "items_after_filter_dedupe": 564,
     "web_sources_ok": 44,
     "web_sources_error": 5,
     "social_items": 0

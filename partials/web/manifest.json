@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-11-09T23:20:10.025526Z",
+  "generated_at": "2026-11-10T06:11:08.231607Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,7 +9,7 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 247
+      "items": 308
     },
     "conmebol.json": {
       "items": 94
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 172
+      "items": 206
     },
     "current_tables.json": {
       "items": 0
@@ -187,14 +187,14 @@
     {
       "id": "larazon_futbol_boliviano",
       "name": "La Razón - Fútbol Profesional Boliviano",
-      "ok": false,
-      "items": 0
+      "ok": true,
+      "items": 72
     },
     {
       "id": "vision360_futbol_boliviano",
       "name": "Visión 360 - Fútbol Boliviano",
       "ok": true,
-      "items": 36
+      "items": 37
     },
     {
       "id": "oxigeno_deportes",
@@ -339,10 +339,6 @@
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://eldeber.com.bo/deportes"
     },
     {
-      "source": "larazon_futbol_boliviano",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://larazon.bo/categoria/marcas/futbol-profesional-boliviano/"
-    },
-    {
       "source": "conmebol_eliminatorias",
       "error": "HTTPError: 404 Client Error: Not Found for url: https://www.conmebol.com/eliminatorias/"
     },
@@ -352,10 +348,10 @@
     }
   ],
   "totals": {
-    "items_before_filter": 733,
-    "items_after_filter_dedupe": 501,
-    "web_sources_ok": 43,
-    "web_sources_error": 6,
+    "items_before_filter": 806,
+    "items_after_filter_dedupe": 562,
+    "web_sources_ok": 44,
+    "web_sources_error": 5,
     "social_items": 0
   }
 }

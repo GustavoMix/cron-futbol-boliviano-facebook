@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-11-12T08:03:20.391729Z",
+  "generated_at": "2026-11-12T17:27:24.869814Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,13 +9,13 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 347
+      "items": 285
     },
     "conmebol.json": {
       "items": 95
     },
     "internacional.json": {
-      "items": 166
+      "items": 162
     },
     "social.json": {
       "items": 0
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 192
+      "items": 163
     },
     "current_tables.json": {
       "items": 0
@@ -134,7 +134,7 @@
       "id": "unitel_atodo_deporte",
       "name": "Unitel - A Todo Deporte",
       "ok": true,
-      "items": 14
+      "items": 13
     },
     {
       "id": "unitel_division_profesional",
@@ -187,14 +187,14 @@
     {
       "id": "larazon_futbol_boliviano",
       "name": "La Razón - Fútbol Profesional Boliviano",
-      "ok": true,
-      "items": 70
+      "ok": false,
+      "items": 0
     },
     {
       "id": "vision360_futbol_boliviano",
       "name": "Visión 360 - Fútbol Boliviano",
       "ok": true,
-      "items": 37
+      "items": 38
     },
     {
       "id": "oxigeno_deportes",
@@ -296,13 +296,13 @@
       "id": "marca_futbol",
       "name": "Marca - Fútbol",
       "ok": true,
-      "items": 70
+      "items": 67
     },
     {
       "id": "as_futbol",
       "name": "AS.com - Fútbol",
       "ok": true,
-      "items": 52
+      "items": 51
     },
     {
       "id": "ole_futbol_internacional",
@@ -331,8 +331,12 @@
   ],
   "errors": [
     {
+      "source": "larazon_futbol_boliviano",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://larazon.bo/categoria/marcas/futbol-profesional-boliviano/"
+    },
+    {
       "source": "abi_deportes",
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x79ae52211970>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x70279aa21d30>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
     },
     {
       "source": "conmebol_eliminatorias",
@@ -344,10 +348,10 @@
     }
   ],
   "totals": {
-    "items_before_filter": 877,
-    "items_after_filter_dedupe": 608,
-    "web_sources_ok": 45,
-    "web_sources_error": 4,
+    "items_before_filter": 803,
+    "items_after_filter_dedupe": 542,
+    "web_sources_ok": 44,
+    "web_sources_error": 5,
     "social_items": 0
   }
 }

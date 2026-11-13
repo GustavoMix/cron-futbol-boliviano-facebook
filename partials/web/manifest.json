@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-11-13T14:04:29.077582Z",
+  "generated_at": "2026-11-13T21:17:12.260715Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,13 +9,13 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 351
+      "items": 289
     },
     "conmebol.json": {
-      "items": 95
+      "items": 97
     },
     "internacional.json": {
-      "items": 165
+      "items": 164
     },
     "social.json": {
       "items": 0
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 206
+      "items": 165
     },
     "current_tables.json": {
       "items": 0
@@ -187,14 +187,14 @@
     {
       "id": "larazon_futbol_boliviano",
       "name": "La Razón - Fútbol Profesional Boliviano",
-      "ok": true,
-      "items": 72
+      "ok": false,
+      "items": 0
     },
     {
       "id": "vision360_futbol_boliviano",
       "name": "Visión 360 - Fútbol Boliviano",
       "ok": true,
-      "items": 37
+      "items": 36
     },
     {
       "id": "oxigeno_deportes",
@@ -296,7 +296,7 @@
       "id": "marca_futbol",
       "name": "Marca - Fútbol",
       "ok": true,
-      "items": 69
+      "items": 70
     },
     {
       "id": "as_futbol",
@@ -331,8 +331,12 @@
   ],
   "errors": [
     {
+      "source": "larazon_futbol_boliviano",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://larazon.bo/categoria/marcas/futbol-profesional-boliviano/"
+    },
+    {
       "source": "abi_deportes",
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x740dc189bfb0>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7c7132a68620>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
     },
     {
       "source": "conmebol_eliminatorias",
@@ -344,10 +348,10 @@
     }
   ],
   "totals": {
-    "items_before_filter": 878,
-    "items_after_filter_dedupe": 611,
-    "web_sources_ok": 45,
-    "web_sources_error": 4,
+    "items_before_filter": 806,
+    "items_after_filter_dedupe": 550,
+    "web_sources_ok": 44,
+    "web_sources_error": 5,
     "social_items": 0
   }
 }

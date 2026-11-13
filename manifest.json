@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-11-13T14:04:29.225616Z",
+  "generated_at": "2026-11-13T21:17:12.442115Z",
   "architecture": "3 Facebook groups + 1 web group; feed editorial + fases KO verificadas por serie completa",
   "facebook_groups": [
     {
@@ -25,21 +25,25 @@
   "totals": {
     "facebook_items": 0,
     "web_latest_items": 200,
-    "app_feed_items": 206
+    "app_feed_items": 165
   },
   "web": {
-    "generated_at": "2026-11-13T14:04:29.077582Z",
+    "generated_at": "2026-11-13T21:17:12.260715Z",
     "totals": {
-      "items_before_filter": 878,
-      "items_after_filter_dedupe": 611,
-      "web_sources_ok": 45,
-      "web_sources_error": 4,
+      "items_before_filter": 806,
+      "items_after_filter_dedupe": 550,
+      "web_sources_ok": 44,
+      "web_sources_error": 5,
       "social_items": 0
     },
     "errors": [
       {
+        "source": "larazon_futbol_boliviano",
+        "error": "HTTPError: 403 Client Error: Forbidden for url: https://larazon.bo/categoria/marcas/futbol-profesional-boliviano/"
+      },
+      {
         "source": "abi_deportes",
-        "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x740dc189bfb0>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+        "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7c7132a68620>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
       },
       {
         "source": "conmebol_eliminatorias",

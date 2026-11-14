@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-11-14T02:03:56.528922Z",
+  "generated_at": "2026-11-14T09:56:20.186385Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,13 +9,13 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 343
+      "items": 354
     },
     "conmebol.json": {
       "items": 98
     },
     "internacional.json": {
-      "items": 164
+      "items": 165
     },
     "social.json": {
       "items": 0
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 201
+      "items": 209
     },
     "current_tables.json": {
       "items": 0
@@ -217,8 +217,8 @@
     {
       "id": "redpat_deportes",
       "name": "RED PAT - Deportes",
-      "ok": false,
-      "items": 0
+      "ok": true,
+      "items": 10
     },
     {
       "id": "reduno_stats",
@@ -332,11 +332,7 @@
   "errors": [
     {
       "source": "abi_deportes",
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x70c023dfa270>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
-    },
-    {
-      "source": "redpat_deportes",
-      "error": "ReadTimeout: HTTPSConnectionPool(host='www.redpat.tv', port=443): Read timed out. (read timeout=25)"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x740ae3f2afc0>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
     },
     {
       "source": "conmebol_eliminatorias",
@@ -348,10 +344,10 @@
     }
   ],
   "totals": {
-    "items_before_filter": 867,
-    "items_after_filter_dedupe": 605,
-    "web_sources_ok": 44,
-    "web_sources_error": 5,
+    "items_before_filter": 877,
+    "items_after_filter_dedupe": 617,
+    "web_sources_ok": 45,
+    "web_sources_error": 4,
     "social_items": 0
   }
 }

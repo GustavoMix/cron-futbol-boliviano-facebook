@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-11-15T16:11:28.926436Z",
+  "generated_at": "2026-11-15T21:32:25.813173Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,13 +9,13 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 277
+      "items": 285
     },
     "conmebol.json": {
       "items": 98
     },
     "internacional.json": {
-      "items": 181
+      "items": 185
     },
     "social.json": {
       "items": 0
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 177
+      "items": 186
     },
     "current_tables.json": {
       "items": 0
@@ -50,7 +50,7 @@
       "id": "promediosinfo_bolivia",
       "name": "Promedios Info - Liga Boliviana",
       "ok": true,
-      "items": 5
+      "items": 4
     },
     {
       "id": "fbf_copa_pacena",
@@ -217,8 +217,8 @@
     {
       "id": "redpat_deportes",
       "name": "RED PAT - Deportes",
-      "ok": false,
-      "items": 0
+      "ok": true,
+      "items": 10
     },
     {
       "id": "reduno_stats",
@@ -290,7 +290,7 @@
       "id": "espn_futbol",
       "name": "ESPN - Fútbol",
       "ok": true,
-      "items": 18
+      "items": 22
     },
     {
       "id": "marca_futbol",
@@ -336,11 +336,7 @@
     },
     {
       "source": "abi_deportes",
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x74071dc885f0>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
-    },
-    {
-      "source": "redpat_deportes",
-      "error": "ReadTimeout: HTTPSConnectionPool(host='www.redpat.tv', port=443): Read timed out. (read timeout=25)"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7e9f6be1ed20>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
     },
     {
       "source": "conmebol_eliminatorias",
@@ -352,10 +348,10 @@
     }
   ],
   "totals": {
-    "items_before_filter": 812,
-    "items_after_filter_dedupe": 556,
-    "web_sources_ok": 43,
-    "web_sources_error": 6,
+    "items_before_filter": 825,
+    "items_after_filter_dedupe": 568,
+    "web_sources_ok": 44,
+    "web_sources_error": 5,
     "social_items": 0
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-11-18T03:24:21.073243Z",
+  "generated_at": "2026-11-18T12:45:00.192895Z",
   "architecture": "3 Facebook groups + 1 web group; feed editorial + fases KO verificadas por serie completa",
   "facebook_groups": [
     {
@@ -25,25 +25,33 @@
   "totals": {
     "facebook_items": 0,
     "web_latest_items": 200,
-    "app_feed_items": 206
+    "app_feed_items": 168
   },
   "web": {
-    "generated_at": "2026-11-18T03:24:20.914749Z",
+    "generated_at": "2026-11-18T12:45:00.053055Z",
     "totals": {
-      "items_before_filter": 880,
-      "items_after_filter_dedupe": 619,
-      "web_sources_ok": 45,
-      "web_sources_error": 4,
+      "items_before_filter": 756,
+      "items_after_filter_dedupe": 520,
+      "web_sources_ok": 43,
+      "web_sources_error": 6,
       "social_items": 0
     },
     "errors": [
       {
+        "source": "larazon_futbol_boliviano",
+        "error": "HTTPError: 403 Client Error: Forbidden for url: https://larazon.bo/categoria/marcas/futbol-profesional-boliviano/"
+      },
+      {
         "source": "abi_deportes",
-        "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7cbfb43f5760>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+        "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f37fbd0f5f0>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
       },
       {
         "source": "conmebol_eliminatorias",
         "error": "HTTPError: 404 Client Error: Not Found for url: https://www.conmebol.com/eliminatorias/"
+      },
+      {
+        "source": "as_futbol",
+        "error": "HTTPError: 403 Client Error: Forbidden for url: https://as.com/futbol/"
       },
       {
         "source": "foxsports_latam",

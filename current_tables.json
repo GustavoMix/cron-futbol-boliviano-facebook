@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-11-21T22:53:55.084140Z",
+  "generated_at": "2026-11-22T02:55:31.663321Z",
   "policy": "datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback",
   "assets_policy": "club_logo > country_flag > none",
   "team_assets": {
@@ -546,7 +546,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-11-21T22:52:25.106122Z",
+        "scraped_at": "2026-11-22T02:53:51.375082Z",
         "extra": {
           "header": [
             "Fecha",
@@ -3567,7 +3567,7 @@
             [
               "Fecha 26",
               "Real Tomayapo",
-              "–",
+              "1 – 5",
               "Nacional Potosí",
               "IV Centenario",
               "21 de noviembre",
@@ -3582,7 +3582,7 @@
             [
               "Fecha 26",
               "ABB",
-              "–",
+              "1 – 2",
               "Aurora",
               "Municipal de El Alto",
               "21 de noviembre",
@@ -3597,7 +3597,7 @@
             [
               "Fecha 26",
               "Oriente Petrolero",
-              "–",
+              "2 – 2",
               "Independiente Petrolero",
               "Ramón Aguilera Costas",
               "21 de noviembre",
@@ -4664,7 +4664,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-21T22:52:24.815994Z",
+        "scraped_at": "2026-11-22T02:53:51.094099Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -4730,13 +4730,13 @@
             [
               "4",
               "Oriente Petrolero",
-              "41",
-              "25",
-              "12",
-              "5",
-              "8",
               "42",
-              "30",
+              "26",
+              "12",
+              "6",
+              "8",
+              "44",
+              "32",
               "+12",
               "Primera fase de Copa Sudamericana"
             ],
@@ -4756,27 +4756,27 @@
             [
               "6",
               "Aurora",
-              "36",
-              "25",
-              "8",
+              "39",
+              "26",
+              "9",
               "12",
               "5",
-              "36",
-              "32",
-              "+4",
+              "38",
+              "33",
+              "+5",
               "Primera fase de Copa Sudamericana"
             ],
             [
               "7",
               "Nacional Potosí",
-              "33",
-              "25",
-              "9",
+              "36",
+              "26",
+              "10",
               "6",
               "10",
-              "37",
-              "33",
-              "+4",
+              "42",
+              "34",
+              "+8",
               ""
             ],
             [
@@ -4807,6 +4807,19 @@
             ],
             [
               "10",
+              "Independiente Petrolero",
+              "31",
+              "26",
+              "8",
+              "7",
+              "11",
+              "34",
+              "44",
+              "− 10",
+              ""
+            ],
+            [
+              "11",
               "Blooming",
               "31",
               "25",
@@ -4816,19 +4829,6 @@
               "33",
               "27",
               "+6",
-              ""
-            ],
-            [
-              "11",
-              "Independiente Petrolero",
-              "30",
-              "25",
-              "8",
-              "6",
-              "11",
-              "32",
-              "42",
-              "− 10",
               ""
             ],
             [
@@ -4848,13 +4848,13 @@
               "13",
               "Real Tomayapo",
               "23",
-              "25",
+              "26",
               "6",
               "5",
-              "14",
-              "19",
-              "42",
-              "− 23",
+              "15",
+              "20",
+              "47",
+              "− 27",
               ""
             ],
             [
@@ -4887,13 +4887,13 @@
               "16",
               "ABB",
               "20",
-              "25",
+              "26",
               "6",
               "2",
-              "17",
-              "37",
-              "57",
-              "− 20",
+              "18",
+              "38",
+              "59",
+              "− 21",
               "Descenso de categoría"
             ]
           ],
@@ -4908,8 +4908,8 @@
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-9-400x400.png",
             "https://promediosinfo.com/imgs/min/16x16x3704.png.pagespeed.ic.uodDwE8_eS.png",
             "https://promediosinfo.com/imgs/min/16x16x20252.png.pagespeed.ic.xKzClSxIxa.png",
-            "https://fbf.com.bo/wp-content/uploads/2025/12/1-4-400x400.png",
             "https://promediosinfo.com/imgs/min/16x16x15702.png.pagespeed.ic.1mTMh1dKmw.png",
+            "https://fbf.com.bo/wp-content/uploads/2025/12/1-4-400x400.png",
             "https://promediosinfo.com/imgs/min/16x16x17760.png.pagespeed.ic.P_DIGvD9hC.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-6-400x400.png",
             "https://promediosinfo.com/imgs/min/16x16x17762.png.pagespeed.ic.F7ig11QhTN.png",
@@ -4932,8 +4932,8 @@
             "Potos",
             "Santa Cruz",
             "Bolivia",
-            "Santa Cruz",
             "Chuquisaca",
+            "Santa Cruz",
             "Bolivia",
             "Tarija",
             "Cochabamba",
@@ -4974,7 +4974,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-21T22:49:03.645275Z",
+        "scraped_at": "2026-11-22T02:50:28.690806Z",
         "source_id": "promediosinfo_bolivia",
         "source_name": "Promedios Info - Liga Boliviana",
         "source_type": "aggregator",
@@ -5156,7 +5156,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-21T22:49:03.648874Z",
+        "scraped_at": "2026-11-22T02:50:28.694069Z",
         "source_id": "promediosinfo_bolivia",
         "source_name": "Promedios Info - Liga Boliviana",
         "source_type": "aggregator",
@@ -5317,7 +5317,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-21T22:52:25.168237Z",
+        "scraped_at": "2026-11-22T02:53:51.435215Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5597,7 +5597,7 @@
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-11-21T22:52:25.488410Z",
+        "scraped_at": "2026-11-22T02:53:51.737696Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6783,7 +6783,7 @@
         "source_name": "Series — Serie A + Series — Serie B + Series — Serie C + Series — Serie D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-11-21T22:52:25.413629Z",
+        "scraped_at": "2026-11-22T02:53:51.665161Z",
         "extra": {
           "rows": [
             [
@@ -7095,7 +7095,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-11-21T22:52:27.269231Z",
+        "scraped_at": "2026-11-22T02:53:53.509887Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7622,7 +7622,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-11-21T22:52:27.269231Z",
+        "scraped_at": "2026-11-22T02:53:53.509887Z",
         "extra": {
           "rows": [
             [
@@ -8104,7 +8104,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-21T22:52:26.908332Z",
+        "scraped_at": "2026-11-22T02:53:53.142827Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -8167,7 +8167,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-21T22:52:26.919730Z",
+        "scraped_at": "2026-11-22T02:53:53.154679Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -8228,7 +8228,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-11-21T22:52:27.269231Z",
+        "scraped_at": "2026-11-22T02:53:53.509887Z",
         "extra": {
           "rows": [
             [
@@ -8706,7 +8706,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-11-21T22:52:26.478534Z",
+        "scraped_at": "2026-11-22T02:53:52.707665Z",
         "extra": {
           "rows": [
             [
@@ -9224,7 +9224,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-11-21T22:52:29.514976Z",
+        "scraped_at": "2026-11-22T02:53:55.732768Z",
         "extra": {
           "header": [
             "Fecha",
@@ -9905,7 +9905,7 @@
             [
               "Final",
               "Atlético Mineiro",
-              "vs.",
+              "0:2 (0:1)",
               "Boca Juniors",
               "Estadio Metropolitano Roberto Meléndez , Barranquilla",
               "21 de noviembre, 17:30 ( UTC-5 )",
@@ -10023,7 +10023,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-11-21T22:52:29.514976Z",
+        "scraped_at": "2026-11-22T02:53:55.732768Z",
         "extra": {
           "rows": [
             [
@@ -10495,7 +10495,7 @@
         }
       },
       "top_scorers": {
-        "id": "6b5b95f0dccf7f350241",
+        "id": "ca61bdcb69d00f4f79bb",
         "kind": "top_scorers",
         "title": "Goleadores",
         "text": "",
@@ -10505,7 +10505,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-21T22:52:28.903771Z",
+        "scraped_at": "2026-11-22T02:53:55.120848Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10541,6 +10541,12 @@
               "7"
             ],
             [
+              "Miguel Merentiel",
+              "Boca Juniors",
+              "5",
+              "9"
+            ],
+            [
               "Adson",
               "Vasco da Gama",
               "5",
@@ -10550,7 +10556,7 @@
               "Bernard",
               "Atlético Mineiro",
               "5",
-              "12"
+              "13"
             ]
           ],
           "logos": [
@@ -10558,13 +10564,14 @@
             "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/20px-Flag_of_Uruguay.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
             "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/20px-Flag_of_Brazil.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
             "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/20px-Flag_of_Uruguay.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
             "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/20px-Flag_of_Brazil.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
             "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/20px-Flag_of_Brazil.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
           ],
           "strong_standings": false,
           "row_groups": null,
           "related_sources": [],
-          "selection_score": 0.974,
+          "selection_score": 0.978,
           "selected_as_current": true,
           "selection_reason": "prioriza fuente oficial/autoridad + tipo de tabla + cantidad de filas"
         },
@@ -10572,7 +10579,7 @@
         "published_display": ""
       },
       "assists": {
-        "id": "b1d6d459f3e3f53d6d6e",
+        "id": "a8e06587588eeb0b23f4",
         "kind": "assists",
         "title": "Asistentes",
         "text": "",
@@ -10582,7 +10589,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-21T22:52:28.916666Z",
+        "scraped_at": "2026-11-22T02:53:55.133152Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10622,6 +10629,11 @@
               "Francisco González",
               "O'Higgins",
               "4"
+            ],
+            [
+              "Sebastián Villa",
+              "Boca Juniors",
+              "4"
             ]
           ],
           "logos": [
@@ -10630,12 +10642,13 @@
             "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/20px-Flag_of_Uruguay.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
             "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/20px-Flag_of_Uruguay.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
             "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/20px-Flag_of_Colombia.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
           ],
           "strong_standings": false,
           "row_groups": null,
           "related_sources": [],
-          "selection_score": 0.974,
+          "selection_score": 0.978,
           "selected_as_current": true,
           "selection_reason": "prioriza fuente oficial/autoridad + tipo de tabla + cantidad de filas"
         },
@@ -10649,7 +10662,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-11-21T22:52:29.514976Z",
+        "scraped_at": "2026-11-22T02:53:55.732768Z",
         "extra": {
           "rows": [
             [
@@ -11127,7 +11140,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-11-21T22:52:28.207387Z",
+        "scraped_at": "2026-11-22T02:53:54.436111Z",
         "extra": {
           "rows": [
             [
@@ -11649,7 +11662,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-21T22:49:17.317177Z",
+        "scraped_at": "2026-11-22T02:50:43.665561Z",
         "source_id": "lostiempos_deportes",
         "source_name": "Los Tiempos - Deportes",
         "source_type": "media",
@@ -11661,32 +11674,32 @@
         "extra": {
           "rows": [
             [
-              "1 Aprehenden a exfuncionaria del Viceministerio de Transparencia por cobrar para trámites Ver más",
-              "2 Estudiantes bolivianos presentan dificultades en lectura y matemática, según evaluación de la Unesco Ver más"
+              "1 Dispersan con gases marchas de maestros en La Paz y Cochabamba Ver más",
+              "2 Envían a Chonchocoro y Palmasola a los implicados en el caso Zeballos Ver más"
             ],
             [
-              "3 Legisladores abren la posibilidad de una \"prórroga\" de Urioste; desde Libre la rechazan Ver más",
-              "4 Comunicado Viva 01 Ver más"
+              "3 Detienen a ‘El Chapo Isidro’ tras operativo armado que paralizó a Guasave, Sinaloa Ver más",
+              "4 Beneficiarios de la Renta Dignidad recibirán este mes un total de Bs 850 Ver más"
             ],
             [
-              "5 Santa Cruz: Policía confirma la aprehensión de cinco miembros del PCC en operativo Ver más",
-              "6 Justicia envía a la cárcel a los tres detenidos por el rapto de un bebé en Quillacollo Ver más"
+              "5 El Banco Unión fortalece su estrategia de prevención del fraude y promueve la seguridad financiera Ver más",
+              "6 Más de 60 perros y gatos buscan un nuevo hogar en la campaña de adopción de Zoonosis Ver más"
             ],
             [
-              "7 Cúrcuma boliviana recibe reconocimiento internacional y abre nuevas oportunidades para la producción nacional Ver más",
-              "8 Cerimedo llega a su audiencia en La Paz; buscará su libertad en el caso ganancias ilícitas Ver más"
+              "7 Estudiantes bolivianos presentan dificultades en lectura y matemática, según evaluación de la Unesco Ver más",
+              "8 Comunicado Viva 01 Ver más"
             ],
             [
-              "9 EEUU plantea \"operaciones militares\" contra el crimen en Honduras Ver más",
-              "10 Cerimedo continuará detenido en Chonchocoro Ver más"
+              "9 Justicia envía a la cárcel a los tres detenidos por el rapto de un bebé en Quillacollo Ver más",
+              "10 Defensa inicia operaciones de interceptación de aeronaves ilícitas en el este del país Ver más"
             ]
           ],
           "logos": [
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/20/arpende.jpg?itok=U-2_23-2",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/20/urioste.jpg?itok=3o_J2VvP",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/20/pcc.jpg?itok=JnhsFg5U",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/20/curcuma.jpg?itok=2gMNkdxA",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/20/acuerdo_usa_hondus_el_mundo_tegu.jpg?itok=hdDUUtdh"
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/20/idos_cl.jpg?itok=8CByWW9K",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/21/isidro_ed_va.jpg?itok=3vaQhI6O",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/21/banco_union_fraude_ok.jpg?itok=ZyDZBkuX",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/21/educacion_estudiantes_ed_ok.jpg?itok=VdjraaeG",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/21/bebe_robado_ed_ok.jpg?itok=YBIZb-cL"
           ],
           "strong_standings": false,
           "row_groups": null,

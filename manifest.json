@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-11-21T22:54:10.088363Z",
+  "generated_at": "2026-11-22T02:55:46.521355Z",
   "architecture": "3 Facebook groups + 1 web group; feed editorial + fases KO verificadas por serie completa",
   "facebook_groups": [
     {
@@ -25,13 +25,13 @@
   "totals": {
     "facebook_items": 0,
     "web_latest_items": 200,
-    "app_feed_items": 168
+    "app_feed_items": 167
   },
   "web": {
-    "generated_at": "2026-11-21T22:54:09.954453Z",
+    "generated_at": "2026-11-22T02:55:46.393898Z",
     "totals": {
       "items_before_filter": 793,
-      "items_after_filter_dedupe": 546,
+      "items_after_filter_dedupe": 545,
       "web_sources_ok": 43,
       "web_sources_error": 6,
       "social_items": 0
@@ -43,11 +43,11 @@
       },
       {
         "source": "oxigeno_deportes",
-        "error": "ConnectTimeout: HTTPSConnectionPool(host='oxigeno.bo', port=443): Max retries exceeded with url: /categorias/deportes/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='oxigeno.bo', port=443) at 0x7d3b7dc10410>, 'Connection to oxigeno.bo timed out. (connect timeout=25)'))"
+        "error": "ConnectTimeout: HTTPSConnectionPool(host='oxigeno.bo', port=443): Max retries exceeded with url: /categorias/deportes/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='oxigeno.bo', port=443) at 0x7c80794a70b0>, 'Connection to oxigeno.bo timed out. (connect timeout=25)'))"
       },
       {
         "source": "abi_deportes",
-        "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7d3b7dc86090>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+        "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7c807918f0e0>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
       },
       {
         "source": "conmebol_eliminatorias",

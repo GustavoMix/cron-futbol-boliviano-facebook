@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-11-22T18:19:53.391218Z",
+  "generated_at": "2026-11-23T00:03:42.765036Z",
   "policy": "datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback",
   "assets_policy": "club_logo > country_flag > none",
   "team_assets": {
@@ -546,7 +546,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-11-22T18:17:54.694468Z",
+        "scraped_at": "2026-11-23T00:02:34.868334Z",
         "extra": {
           "header": [
             "Fecha",
@@ -3612,7 +3612,7 @@
             [
               "Fecha 26",
               "Real Potosí",
-              "–",
+              "1 – 0",
               "Bolívar",
               "Víctor Agustín Ugarte",
               "22 de noviembre",
@@ -4664,7 +4664,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-22T18:17:54.390675Z",
+        "scraped_at": "2026-11-23T00:02:34.574731Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -4692,13 +4692,13 @@
               "1",
               "Bolívar",
               "60",
-              "25",
+              "26",
               "19",
               "3",
-              "3",
+              "4",
               "61",
-              "24",
-              "+37",
+              "25",
+              "+36",
               "Fase de grupos de Copa Libertadores"
             ],
             [
@@ -4729,6 +4729,19 @@
             ],
             [
               "4",
+              "Real Potosí",
+              "43",
+              "26",
+              "11",
+              "10",
+              "5",
+              "33",
+              "18",
+              "+15",
+              "Primera fase de Copa Sudamericana"
+            ],
+            [
+              "5",
               "Oriente Petrolero",
               "42",
               "26",
@@ -4738,19 +4751,6 @@
               "44",
               "32",
               "+12",
-              "Primera fase de Copa Sudamericana"
-            ],
-            [
-              "5",
-              "Real Potosí",
-              "40",
-              "25",
-              "10",
-              "10",
-              "5",
-              "32",
-              "18",
-              "+14",
               "Primera fase de Copa Sudamericana"
             ],
             [
@@ -4872,19 +4872,6 @@
             ],
             [
               "15",
-              "GV San José",
-              "20",
-              "25",
-              "4",
-              "8",
-              "13",
-              "30",
-              "47",
-              "− 17",
-              "Promoción"
-            ],
-            [
-              "16",
               "ABB",
               "20",
               "26",
@@ -4894,6 +4881,19 @@
               "38",
               "59",
               "− 21",
+              "Promoción"
+            ],
+            [
+              "16",
+              "GV San José",
+              "20",
+              "25",
+              "4",
+              "8",
+              "13",
+              "30",
+              "47",
+              "− 17",
               "Descenso de categoría"
             ]
           ],
@@ -4902,8 +4902,8 @@
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-3-400x400.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-1-400x400.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-11-400x400.png",
-            "https://promediosinfo.com/imgs/min/16x16x3707.png.pagespeed.ic.1mTMh1dKmw.png",
             "https://promediosinfo.com/imgs/min/16x16x3708.png.pagespeed.ic.GheyjPKFjT.png",
+            "https://promediosinfo.com/imgs/min/16x16x3707.png.pagespeed.ic.1mTMh1dKmw.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-2-400x400.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-9-400x400.png",
             "https://promediosinfo.com/imgs/min/16x16x3704.png.pagespeed.ic.uodDwE8_eS.png",
@@ -4913,8 +4913,8 @@
             "https://promediosinfo.com/imgs/min/16x16x17760.png.pagespeed.ic.P_DIGvD9hC.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-6-400x400.png",
             "https://promediosinfo.com/imgs/min/16x16x17762.png.pagespeed.ic.F7ig11QhTN.png",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "https://promediosinfo.com/imgs/min/16x16x17743.png.pagespeed.ic.qMqbGh1HDk.png"
+            "https://promediosinfo.com/imgs/min/16x16x17743.png.pagespeed.ic.qMqbGh1HDk.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png/250px-Escudo_GV_Club_Deportivo_San_Jos%C3%A9_PNG.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
           ],
           "strong_standings": true,
           "row_groups": null,
@@ -4926,8 +4926,8 @@
             "La Paz",
             "Bolivia",
             "La Paz",
-            "Santa Cruz",
             "Potos",
+            "Santa Cruz",
             "Cochabamba",
             "Potos",
             "Santa Cruz",
@@ -4937,8 +4937,8 @@
             "Bolivia",
             "Tarija",
             "Cochabamba",
-            "Bolivia",
-            "La Paz"
+            "La Paz",
+            "Bolivia"
           ],
           "badge_types": [
             "none",
@@ -4974,7 +4974,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-22T18:15:02.358246Z",
+        "scraped_at": "2026-11-22T23:59:58.995115Z",
         "source_id": "promediosinfo_bolivia",
         "source_name": "Promedios Info - Liga Boliviana",
         "source_type": "aggregator",
@@ -5156,7 +5156,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-22T18:15:02.361460Z",
+        "scraped_at": "2026-11-22T23:59:58.998599Z",
         "source_id": "promediosinfo_bolivia",
         "source_name": "Promedios Info - Liga Boliviana",
         "source_type": "aggregator",
@@ -5317,7 +5317,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-22T18:17:54.759697Z",
+        "scraped_at": "2026-11-23T00:02:34.932232Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5597,7 +5597,7 @@
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-11-22T18:17:55.379811Z",
+        "scraped_at": "2026-11-23T00:02:35.393128Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6783,7 +6783,7 @@
         "source_name": "Series — Serie A + Series — Serie B + Series — Serie C + Series — Serie D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-11-22T18:17:55.309764Z",
+        "scraped_at": "2026-11-23T00:02:35.319841Z",
         "extra": {
           "rows": [
             [
@@ -7095,7 +7095,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-11-22T18:17:57.698476Z",
+        "scraped_at": "2026-11-23T00:02:37.426159Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7622,7 +7622,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-11-22T18:17:57.698476Z",
+        "scraped_at": "2026-11-23T00:02:37.426159Z",
         "extra": {
           "rows": [
             [
@@ -8104,7 +8104,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-22T18:17:57.315522Z",
+        "scraped_at": "2026-11-23T00:02:37.045827Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -8167,7 +8167,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-22T18:17:57.328139Z",
+        "scraped_at": "2026-11-23T00:02:37.057896Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -8228,7 +8228,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-11-22T18:17:57.698476Z",
+        "scraped_at": "2026-11-23T00:02:37.426159Z",
         "extra": {
           "rows": [
             [
@@ -8706,7 +8706,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-11-22T18:17:56.847278Z",
+        "scraped_at": "2026-11-23T00:02:36.594635Z",
         "extra": {
           "rows": [
             [
@@ -9224,7 +9224,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-11-22T18:18:00.164933Z",
+        "scraped_at": "2026-11-23T00:02:39.852943Z",
         "extra": {
           "header": [
             "Fecha",
@@ -10023,7 +10023,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-11-22T18:18:00.164933Z",
+        "scraped_at": "2026-11-23T00:02:39.852943Z",
         "extra": {
           "rows": [
             [
@@ -10505,7 +10505,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-22T18:17:59.559268Z",
+        "scraped_at": "2026-11-23T00:02:39.241047Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10589,7 +10589,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-22T18:17:59.572014Z",
+        "scraped_at": "2026-11-23T00:02:39.254819Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10662,7 +10662,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-11-22T18:18:00.164933Z",
+        "scraped_at": "2026-11-23T00:02:39.852943Z",
         "extra": {
           "rows": [
             [
@@ -11140,7 +11140,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-11-22T18:17:58.872428Z",
+        "scraped_at": "2026-11-23T00:02:38.544695Z",
         "extra": {
           "rows": [
             [
@@ -11662,7 +11662,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-22T18:15:17.645645Z",
+        "scraped_at": "2026-11-23T00:00:29.630323Z",
         "source_id": "lostiempos_deportes",
         "source_name": "Los Tiempos - Deportes",
         "source_type": "media",
@@ -11674,32 +11674,32 @@
         "extra": {
           "rows": [
             [
-              "1 Defensa inicia operaciones de interceptación de aeronaves ilícitas en el este del país Ver más",
-              "2 Astronomía y Astronáutica: Vallunos Mendoza y Padilla brillan Ver más"
+              "1 Evo critica el silencio del presidente por el caso Aisem Ver más",
+              "2 Tras 18 años, Bolivia y EEUU abren nuevo ciclo de relaciones Ver más"
             ],
             [
-              "3 Magisterio urbano pide dialogar con el presidente y marchará el 27 de noviembre Ver más",
-              "4 El Nacional Ecuestre 2026 fue exitoso y ahora se apunta a Lima 2027 Ver más"
+              "3 ¡Qué calor! Cochabamba registrará una temperatura máxima de 36 grados Ver más",
+              "4 Bajo la mirada de EEuu y el Escudo de las Américas Ver más"
             ],
             [
-              "5 Defensa activa tres aeronaves de transporte de la FAB para emergencias por El Niño Ver más",
-              "6 ABB se hunde con sus resultados tras perder en casa ante Aurora Ver más"
+              "5 Detienen a un policía que pretendía ingresar droga y chips a El Abra después del atentado contra Zeballos Ver más",
+              "6 Vínculo diplomático entre EEUU y bolivia rige hace 177 años Ver más"
             ],
             [
-              "7 PIL denuncia que paro sindical impide acopiar un millón de litros de leche Ver más",
-              "8 Bolivia debuta con victoria sobre Francia en el Mundial de Fútsal de Talla Baja Ver más"
+              "7 “Ni siquiera habían abierto los ojos”: rescatan a más de 500 crías de cotorras en Villa Montes Ver más",
+              "8 Cambian de penal a dos acusados del atentado contra Zeballos y exfiscal permanece en El Abra Ver más"
             ],
             [
-              "9 Bono PEPE II: pago comienza este lunes y beneficiarios cobrarán según su día de nacimiento Ver más",
-              "10 Bolívar hace una visita de alto riesgo Ver más"
+              "9 Presidente de Israel recibe a Ávila y Castro Ver más",
+              "10 Envían a la cárcel a un checo y a un inglés por tráfico de armas Ver más"
             ]
           ],
           "logos": [
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/21/avion_fab_ed_va.jpg?itok=RPgWLSDN",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/21/maestros_gasificados_cl_ed_ok.jpg?itok=RAqGEodL",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/21/aviones_defensa_ed.jpg?itok=yBACsU-i",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/21/pil_camiones_ed_va.jpg?itok=DqEWPL_3",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/21/dinero_va.jpg?itok=J18naB1N"
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/22/evo_aisem_ed_ok.jpg?itok=kEtjKDN_",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/22/calor_termometro.jpg?itok=x0uBX_5k",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/22/el_abra_zeballos_ed.jpg?itok=RcagMrUi",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/22/cotorras_ed_ok.jpg?itok=QwJcJj57",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/22/bolivia_israel_ed_ok.jpg?itok=JO2t3_JV"
           ],
           "strong_standings": false,
           "row_groups": null,

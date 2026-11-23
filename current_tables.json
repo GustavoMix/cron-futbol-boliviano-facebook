@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-11-23T00:03:42.765036Z",
+  "generated_at": "2026-11-23T08:40:34.184497Z",
   "policy": "datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback",
   "assets_policy": "club_logo > country_flag > none",
   "team_assets": {
@@ -546,7 +546,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-11-23T00:02:34.868334Z",
+        "scraped_at": "2026-11-23T08:39:22.813816Z",
         "extra": {
           "header": [
             "Fecha",
@@ -3627,7 +3627,7 @@
             [
               "Fecha 26",
               "The Strongest",
-              "–",
+              "4 – 0",
               "Blooming",
               "Hernando Siles",
               "22 de noviembre",
@@ -3642,7 +3642,7 @@
             [
               "Fecha 26",
               "San Antonio Bulo Bulo",
-              "–",
+              "0 – 3",
               "Always Ready",
               "Félix Capriles",
               "22 de noviembre",
@@ -4664,7 +4664,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-23T00:02:34.574731Z",
+        "scraped_at": "2026-11-23T08:39:22.403463Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -4704,27 +4704,27 @@
             [
               "2",
               "Always Ready",
-              "57",
-              "25",
-              "17",
+              "60",
+              "26",
+              "18",
               "6",
               "2",
-              "61",
+              "64",
               "19",
-              "+42",
+              "+45",
               "Fase de grupos de Copa Libertadores"
             ],
             [
               "3",
               "The Strongest",
-              "48",
-              "25",
-              "14",
+              "51",
+              "26",
+              "15",
               "6",
               "5",
-              "46",
+              "50",
               "29",
-              "+17",
+              "+21",
               "Fase 1 de Copa Libertadores"
             ],
             [
@@ -4822,26 +4822,26 @@
               "11",
               "Blooming",
               "31",
-              "25",
+              "26",
               "7",
               "10",
-              "8",
+              "9",
               "33",
-              "27",
-              "+6",
+              "31",
+              "+2",
               ""
             ],
             [
               "12",
               "San Antonio Bulo Bulo",
               "27",
-              "25",
+              "26",
               "8",
               "3",
-              "14",
+              "15",
               "28",
-              "50",
-              "− 22",
+              "53",
+              "− 25",
               ""
             ],
             [
@@ -4974,7 +4974,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-22T23:59:58.995115Z",
+        "scraped_at": "2026-11-23T08:37:05.035946Z",
         "source_id": "promediosinfo_bolivia",
         "source_name": "Promedios Info - Liga Boliviana",
         "source_type": "aggregator",
@@ -5006,14 +5006,20 @@
             [
               "3",
               "Willie (Independiente Petrolero)",
-              "11",
+              "12",
               "1"
             ],
             [
               "3",
               "Felipe Fajardo Juan (ABB)",
-              "11",
-              "4"
+              "12",
+              "5"
+            ],
+            [
+              "5",
+              "L. Alí (Real Potosí)",
+              "9",
+              "1"
             ],
             [
               "5",
@@ -5028,86 +5034,80 @@
               "3"
             ],
             [
-              "7",
+              "8",
               "J. Flores (Oriente Petrolero)",
               "8",
               "1"
             ],
             [
-              "7",
+              "8",
               "A. Terrazas (San Antonio Bulo Bulo)",
               "8",
               "3"
             ],
             [
-              "9",
-              "L. Alí (Real Potosí)",
+              "10",
+              "N. Roldán (Oriente Petrolero)",
               "7",
-              "1"
+              "0"
             ],
             [
-              "9",
+              "10",
               "A. Estacio (The Strongest)",
               "7",
               "2"
             ],
             [
-              "11",
+              "10",
+              "R. Ramallo (Aurora)",
+              "7",
+              "3"
+            ],
+            [
+              "13",
               "G. Peredo (Guabirá)",
               "6",
               "0"
             ],
             [
-              "11",
+              "13",
               "M. Cauteruccio (Bolívar)",
               "6",
               "0"
             ],
             [
-              "11",
+              "13",
               "M. Rangel (Aurora)",
               "6",
               "0"
             ],
             [
-              "11",
+              "13",
               "D. Asprilla (Bolívar)",
               "6",
               "0"
             ],
             [
-              "11",
-              "N. Roldán (Oriente Petrolero)",
+              "13",
+              "R. Eguez (Real Tomayapo)",
               "6",
               "0"
             ],
             [
-              "11",
+              "13",
               "Jeferson Rivas (Real Potosí)",
               "6",
               "2"
             ],
             [
-              "11",
-              "R. Ramallo (Aurora)",
-              "6",
-              "3"
-            ],
-            [
-              "11",
+              "13",
               "L. Corulo (Real Oruro)",
               "6",
               "5"
             ],
             [
-              "19",
-              "A. Quiñonez (Real Oruro)",
-              "5",
-              "0"
-            ],
-            [
-              "19",
-              "J. Velásquez (Bolívar)",
+              "20",
+              "A. Torrico (Nacional Potosí)",
               "5",
               "0"
             ]
@@ -5118,22 +5118,22 @@
             "https://promediosinfo.com/imgs/min/16x16x22266.png.pagespeed.ic.ixZhq1Z0YT.png",
             "https://promediosinfo.com/imgs/min/16x16x15702.png.pagespeed.ic.1mTMh1dKmw.png",
             "https://promediosinfo.com/imgs/min/16x16x17743.png.pagespeed.ic.qMqbGh1HDk.png",
+            "https://promediosinfo.com/imgs/min/16x16x3708.png.pagespeed.ic.GheyjPKFjT.png",
             "https://promediosinfo.com/imgs/min/16x16x3711.png.pagespeed.ic.0-cv3QuKi8.png",
             "https://promediosinfo.com/imgs/min/16x16x3702.png.pagespeed.ic.DeVBSbILJj.png",
             "https://promediosinfo.com/imgs/min/16x16x3707.png.pagespeed.ic.1mTMh1dKmw.png",
             "https://promediosinfo.com/imgs/min/16x16x17760.png.pagespeed.ic.P_DIGvD9hC.png",
-            "https://promediosinfo.com/imgs/min/16x16x3708.png.pagespeed.ic.GheyjPKFjT.png",
+            "https://promediosinfo.com/imgs/min/16x16x3707.png.pagespeed.ic.1mTMh1dKmw.png",
             "https://promediosinfo.com/imgs/min/16x16x3711.png.pagespeed.ic.0-cv3QuKi8.png",
+            "https://promediosinfo.com/imgs/min/16x16x3637.png.pagespeed.ic.l1svMNblCI.png",
             "https://promediosinfo.com/imgs/min/16x16x3704.png.pagespeed.ic.uodDwE8_eS.png",
             "https://promediosinfo.com/imgs/min/16x16x3702.png.pagespeed.ic.DeVBSbILJj.png",
             "https://promediosinfo.com/imgs/min/16x16x3637.png.pagespeed.ic.l1svMNblCI.png",
             "https://promediosinfo.com/imgs/min/16x16x3702.png.pagespeed.ic.DeVBSbILJj.png",
-            "https://promediosinfo.com/imgs/min/16x16x3707.png.pagespeed.ic.1mTMh1dKmw.png",
+            "https://promediosinfo.com/imgs/min/16x16x15708.png.pagespeed.ic.iJddW0Thm_.png",
             "https://promediosinfo.com/imgs/min/16x16x3708.png.pagespeed.ic.GheyjPKFjT.png",
-            "https://promediosinfo.com/imgs/min/16x16x3637.png.pagespeed.ic.l1svMNblCI.png",
             "https://promediosinfo.com/imgs/min/16x16x20252.png.pagespeed.ic.xKzClSxIxa.png",
-            "https://promediosinfo.com/imgs/min/16x16x20252.png.pagespeed.ic.xKzClSxIxa.png",
-            "https://promediosinfo.com/imgs/min/16x16x3702.png.pagespeed.ic.DeVBSbILJj.png"
+            "https://promediosinfo.com/imgs/min/16x16x3706.png.pagespeed.ic.szHEoV78x9.png"
           ],
           "strong_standings": false,
           "row_groups": null,
@@ -5156,7 +5156,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-22T23:59:58.998599Z",
+        "scraped_at": "2026-11-23T08:37:05.039268Z",
         "source_id": "promediosinfo_bolivia",
         "source_name": "Promedios Info - Liga Boliviana",
         "source_type": "aggregator",
@@ -5184,22 +5184,22 @@
             ],
             [
               "3",
-              "G. Sotomayor (The Strongest)",
+              "A. Torrico (Nacional Potosí)",
               "6"
             ],
             [
               "4",
-              "C. Melgar (Bolívar)",
+              "G. Sotomayor (The Strongest)",
               "6"
             ],
             [
               "5",
-              "R. Ramallo (Aurora)",
-              "5"
+              "C. Melgar (Bolívar)",
+              "6"
             ],
             [
               "6",
-              "A. Torrico (Nacional Potosí)",
+              "R. Ramallo (Aurora)",
               "5"
             ],
             [
@@ -5229,72 +5229,72 @@
             ],
             [
               "12",
+              "S. Torres (Independiente Petrolero)",
+              "5"
+            ],
+            [
+              "13",
               "A. Estacio (The Strongest)",
               "4"
             ],
             [
-              "13",
+              "14",
               "L. Figueroa (ABB)",
               "4"
             ],
             [
-              "14",
-              "R. Matheus (Bolívar)",
-              "4"
-            ],
-            [
               "15",
-              "A. Chumacero (ABB)",
+              "M. Ortiz (Aurora)",
               "4"
             ],
             [
               "16",
-              "Moresche (Gualberto Villarroel SJ)",
+              "J. Rojas (Real Potosí)",
               "4"
             ],
             [
               "17",
-              "R. Lima (Always Ready)",
+              "R. Matheus (Bolívar)",
               "4"
             ],
             [
               "18",
-              "S. Torres (Independiente Petrolero)",
+              "A. Chumacero (ABB)",
               "4"
             ],
             [
               "19",
-              "M. Calero (Gualberto Villarroel SJ)",
+              "Moresche (Gualberto Villarroel SJ)",
               "4"
             ],
             [
               "20",
-              "Felipe Fajardo Juan (ABB)",
-              "3"
+              "R. Lima (Always Ready)",
+              "4"
             ]
           ],
           "logos": [
             "",
             "https://promediosinfo.com/imgs/min/16x16x3700.png.pagespeed.ic.LFpLxGxQfS.png",
             "https://promediosinfo.com/imgs/min/16x16x3704.png.pagespeed.ic.uodDwE8_eS.png",
+            "https://promediosinfo.com/imgs/min/16x16x3706.png.pagespeed.ic.szHEoV78x9.png",
             "https://promediosinfo.com/imgs/min/16x16x3711.png.pagespeed.ic.0-cv3QuKi8.png",
             "https://promediosinfo.com/imgs/min/16x16x3702.png.pagespeed.ic.DeVBSbILJj.png",
             "https://promediosinfo.com/imgs/min/16x16x3637.png.pagespeed.ic.l1svMNblCI.png",
-            "https://promediosinfo.com/imgs/min/16x16x3706.png.pagespeed.ic.szHEoV78x9.png",
             "https://promediosinfo.com/imgs/min/16x16x3701.png.pagespeed.ic.HewCJdbGZm.png",
             "https://promediosinfo.com/imgs/min/16x16x3706.png.pagespeed.ic.szHEoV78x9.png",
             "https://promediosinfo.com/imgs/min/16x16x3707.png.pagespeed.ic.1mTMh1dKmw.png",
             "https://promediosinfo.com/imgs/min/16x16x3637.png.pagespeed.ic.l1svMNblCI.png",
             "https://promediosinfo.com/imgs/min/16x16x3700.png.pagespeed.ic.LFpLxGxQfS.png",
+            "https://promediosinfo.com/imgs/min/16x16x15702.png.pagespeed.ic.1mTMh1dKmw.png",
             "https://promediosinfo.com/imgs/min/16x16x3711.png.pagespeed.ic.0-cv3QuKi8.png",
             "https://promediosinfo.com/imgs/min/16x16x17743.png.pagespeed.ic.qMqbGh1HDk.png",
+            "https://promediosinfo.com/imgs/min/16x16x3637.png.pagespeed.ic.l1svMNblCI.png",
+            "https://promediosinfo.com/imgs/min/16x16x3708.png.pagespeed.ic.GheyjPKFjT.png",
             "https://promediosinfo.com/imgs/min/16x16x3702.png.pagespeed.ic.DeVBSbILJj.png",
             "https://promediosinfo.com/imgs/min/16x16x17743.png.pagespeed.ic.qMqbGh1HDk.png",
             "https://promediosinfo.com/imgs/min/16x16x22266.png.pagespeed.ic.ixZhq1Z0YT.png",
-            "https://promediosinfo.com/imgs/min/16x16x3700.png.pagespeed.ic.LFpLxGxQfS.png",
-            "https://promediosinfo.com/imgs/min/16x16x15702.png.pagespeed.ic.1mTMh1dKmw.png",
-            "https://promediosinfo.com/imgs/min/16x16x22266.png.pagespeed.ic.ixZhq1Z0YT.png",
-            "https://promediosinfo.com/imgs/min/16x16x17743.png.pagespeed.ic.qMqbGh1HDk.png"
+            "https://promediosinfo.com/imgs/min/16x16x3700.png.pagespeed.ic.LFpLxGxQfS.png"
           ],
           "strong_standings": false,
           "row_groups": null,
@@ -5317,7 +5317,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-23T00:02:34.932232Z",
+        "scraped_at": "2026-11-23T08:39:22.901585Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5597,7 +5597,7 @@
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-11-23T00:02:35.393128Z",
+        "scraped_at": "2026-11-23T08:39:23.412393Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6783,7 +6783,7 @@
         "source_name": "Series — Serie A + Series — Serie B + Series — Serie C + Series — Serie D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-11-23T00:02:35.319841Z",
+        "scraped_at": "2026-11-23T08:39:23.339696Z",
         "extra": {
           "rows": [
             [
@@ -7095,7 +7095,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-11-23T00:02:37.426159Z",
+        "scraped_at": "2026-11-23T08:39:25.745552Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7622,7 +7622,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-11-23T00:02:37.426159Z",
+        "scraped_at": "2026-11-23T08:39:25.745552Z",
         "extra": {
           "rows": [
             [
@@ -8104,7 +8104,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-23T00:02:37.045827Z",
+        "scraped_at": "2026-11-23T08:39:25.226385Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -8167,7 +8167,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-23T00:02:37.057896Z",
+        "scraped_at": "2026-11-23T08:39:25.243156Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -8228,7 +8228,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-11-23T00:02:37.426159Z",
+        "scraped_at": "2026-11-23T08:39:25.745552Z",
         "extra": {
           "rows": [
             [
@@ -8706,7 +8706,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-11-23T00:02:36.594635Z",
+        "scraped_at": "2026-11-23T08:39:24.616975Z",
         "extra": {
           "rows": [
             [
@@ -9224,7 +9224,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-11-23T00:02:39.852943Z",
+        "scraped_at": "2026-11-23T08:39:28.646206Z",
         "extra": {
           "header": [
             "Fecha",
@@ -10023,7 +10023,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-11-23T00:02:39.852943Z",
+        "scraped_at": "2026-11-23T08:39:28.646206Z",
         "extra": {
           "rows": [
             [
@@ -10505,7 +10505,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-23T00:02:39.241047Z",
+        "scraped_at": "2026-11-23T08:39:27.889495Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10589,7 +10589,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-23T00:02:39.254819Z",
+        "scraped_at": "2026-11-23T08:39:27.905025Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10662,7 +10662,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-11-23T00:02:39.852943Z",
+        "scraped_at": "2026-11-23T08:39:28.646206Z",
         "extra": {
           "rows": [
             [
@@ -11140,7 +11140,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-11-23T00:02:38.544695Z",
+        "scraped_at": "2026-11-23T08:39:27.047716Z",
         "extra": {
           "rows": [
             [
@@ -11662,7 +11662,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-23T00:00:29.630323Z",
+        "scraped_at": "2026-11-23T08:37:29.746203Z",
         "source_id": "lostiempos_deportes",
         "source_name": "Los Tiempos - Deportes",
         "source_type": "media",
@@ -11674,32 +11674,32 @@
         "extra": {
           "rows": [
             [
-              "1 Evo critica el silencio del presidente por el caso Aisem Ver más",
-              "2 Tras 18 años, Bolivia y EEUU abren nuevo ciclo de relaciones Ver más"
+              "1 Tras 18 años, Bolivia y EEUU abren nuevo ciclo de relaciones Ver más",
+              "2 Evo critica el silencio del presidente por el caso Aisem Ver más"
             ],
             [
-              "3 ¡Qué calor! Cochabamba registrará una temperatura máxima de 36 grados Ver más",
-              "4 Bajo la mirada de EEuu y el Escudo de las Américas Ver más"
+              "3 Bajo la mirada de EEuu y el Escudo de las Américas Ver más",
+              "4 ¡Qué calor! Cochabamba registrará una temperatura máxima de 36 grados Ver más"
             ],
             [
-              "5 Detienen a un policía que pretendía ingresar droga y chips a El Abra después del atentado contra Zeballos Ver más",
-              "6 Vínculo diplomático entre EEUU y bolivia rige hace 177 años Ver más"
+              "5 Vínculo diplomático entre EEUU y bolivia rige hace 177 años Ver más",
+              "6 Detienen a un policía que pretendía ingresar droga y chips a El Abra después del atentado contra Zeballos Ver más"
             ],
             [
-              "7 “Ni siquiera habían abierto los ojos”: rescatan a más de 500 crías de cotorras en Villa Montes Ver más",
-              "8 Cambian de penal a dos acusados del atentado contra Zeballos y exfiscal permanece en El Abra Ver más"
+              "7 Cambian de penal a dos acusados del atentado contra Zeballos y exfiscal permanece en El Abra Ver más",
+              "8 “Ni siquiera habían abierto los ojos”: rescatan a más de 500 crías de cotorras en Villa Montes Ver más"
             ],
             [
-              "9 Presidente de Israel recibe a Ávila y Castro Ver más",
-              "10 Envían a la cárcel a un checo y a un inglés por tráfico de armas Ver más"
+              "9 Envían a la cárcel a un checo y a un inglés por tráfico de armas Ver más",
+              "10 Presidente de Israel recibe a Ávila y Castro Ver más"
             ]
           ],
           "logos": [
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/22/evo_aisem_ed_ok.jpg?itok=kEtjKDN_",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/22/calor_termometro.jpg?itok=x0uBX_5k",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/22/el_abra_zeballos_ed.jpg?itok=RcagMrUi",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/22/cotorras_ed_ok.jpg?itok=QwJcJj57",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/22/bolivia_israel_ed_ok.jpg?itok=JO2t3_JV"
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/22/2_esp_michel_1_rrss.jpg?itok=ARKhws2g",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/22/3_esp_michel_1_frpp.jpg?itok=N9pT8f_2",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/22/22-11-2026_michel_-_embajadores_eeuu_web.jpg.jpeg?itok=bX8NYGpW",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/22/3_se_1_rochaaaa.jpg?itok=hmeSq-YS",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/22/3_se_2_policia_boliviana.jpg?itok=WJeRDU-3"
           ],
           "strong_standings": false,
           "row_groups": null,

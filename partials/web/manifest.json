@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-11-23T20:58:51.598620Z",
+  "generated_at": "2026-11-24T05:16:14.657978Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,13 +9,13 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 352
+      "items": 348
     },
     "conmebol.json": {
       "items": 98
     },
     "internacional.json": {
-      "items": 129
+      "items": 166
     },
     "social.json": {
       "items": 0
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 189
+      "items": 193
     },
     "current_tables.json": {
       "items": 0
@@ -188,13 +188,13 @@
       "id": "larazon_futbol_boliviano",
       "name": "La Razón - Fútbol Profesional Boliviano",
       "ok": true,
-      "items": 73
+      "items": 72
     },
     {
       "id": "vision360_futbol_boliviano",
       "name": "Visión 360 - Fútbol Boliviano",
       "ok": true,
-      "items": 34
+      "items": 33
     },
     {
       "id": "oxigeno_deportes",
@@ -296,13 +296,13 @@
       "id": "marca_futbol",
       "name": "Marca - Fútbol",
       "ok": true,
-      "items": 70
+      "items": 69
     },
     {
       "id": "as_futbol",
       "name": "AS.com - Fútbol",
-      "ok": false,
-      "items": 0
+      "ok": true,
+      "items": 52
     },
     {
       "id": "ole_futbol_internacional",
@@ -332,15 +332,11 @@
   "errors": [
     {
       "source": "abi_deportes",
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x71009143c890>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7f6dc0a30b30>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
     },
     {
       "source": "conmebol_eliminatorias",
       "error": "HTTPError: 404 Client Error: Not Found for url: https://www.conmebol.com/eliminatorias/"
-    },
-    {
-      "source": "as_futbol",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://as.com/futbol/"
     },
     {
       "source": "foxsports_latam",
@@ -348,10 +344,10 @@
     }
   ],
   "totals": {
-    "items_before_filter": 828,
-    "items_after_filter_dedupe": 579,
-    "web_sources_ok": 44,
-    "web_sources_error": 5,
+    "items_before_filter": 877,
+    "items_after_filter_dedupe": 612,
+    "web_sources_ok": 45,
+    "web_sources_error": 4,
     "social_items": 0
   }
 }

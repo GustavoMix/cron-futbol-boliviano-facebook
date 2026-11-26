@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-11-26T04:02:37.044896Z",
+  "generated_at": "2026-11-26T14:48:18.271454Z",
   "architecture": "3 Facebook groups + 1 web group; feed editorial + fases KO verificadas por serie completa",
   "facebook_groups": [
     {
@@ -25,21 +25,33 @@
   "totals": {
     "facebook_items": 0,
     "web_latest_items": 200,
-    "app_feed_items": 193
+    "app_feed_items": 199
   },
   "web": {
-    "generated_at": "2026-11-26T04:02:36.894986Z",
+    "generated_at": "2026-11-26T14:48:18.138259Z",
     "totals": {
-      "items_before_filter": 830,
-      "items_after_filter_dedupe": 582,
-      "web_sources_ok": 44,
-      "web_sources_error": 5,
+      "items_before_filter": 848,
+      "items_after_filter_dedupe": 598,
+      "web_sources_ok": 41,
+      "web_sources_error": 8,
       "social_items": 0
     },
     "errors": [
       {
         "source": "abi_deportes",
-        "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x736585734da0>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+        "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7d9a2582b470>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+      },
+      {
+        "source": "uefa_champions_league",
+        "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.uefa.com/uefachampionsleague/"
+      },
+      {
+        "source": "uefa_europa_league",
+        "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.uefa.com/uefaeuropaleague/"
+      },
+      {
+        "source": "uefa_nations_league",
+        "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.uefa.com/uefanationsleague/"
       },
       {
         "source": "conmebol_eliminatorias",

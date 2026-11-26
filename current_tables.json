@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-11-25T21:11:58.999727Z",
+  "generated_at": "2026-11-26T04:02:20.676734Z",
   "policy": "datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback",
   "assets_policy": "club_logo > country_flag > none",
   "team_assets": {
@@ -546,7 +546,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-11-25T21:10:05.987747Z",
+        "scraped_at": "2026-11-26T04:01:16.414275Z",
         "extra": {
           "header": [
             "Fecha",
@@ -4664,7 +4664,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-25T21:10:05.589706Z",
+        "scraped_at": "2026-11-26T04:01:16.120441Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -4974,7 +4974,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-25T21:07:46.777482Z",
+        "scraped_at": "2026-11-26T03:58:11.101525Z",
         "source_id": "promediosinfo_bolivia",
         "source_name": "Promedios Info - Liga Boliviana",
         "source_type": "aggregator",
@@ -5156,7 +5156,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-25T21:07:46.782262Z",
+        "scraped_at": "2026-11-26T03:58:11.104715Z",
         "source_id": "promediosinfo_bolivia",
         "source_name": "Promedios Info - Liga Boliviana",
         "source_type": "aggregator",
@@ -5317,7 +5317,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-25T21:10:06.074549Z",
+        "scraped_at": "2026-11-26T04:01:16.480604Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5597,7 +5597,7 @@
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-11-25T21:10:06.528728Z",
+        "scraped_at": "2026-11-26T04:01:17.002056Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6783,7 +6783,7 @@
         "source_name": "Series — Serie A + Series — Serie B + Series — Serie C + Series — Serie D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-11-25T21:10:06.435692Z",
+        "scraped_at": "2026-11-26T04:01:16.929512Z",
         "extra": {
           "rows": [
             [
@@ -7085,6 +7085,41 @@
             "club_logo"
           ]
         }
+      },
+      "top_scorers": {
+        "id": "dec3a1ca78b46966114d",
+        "kind": "top_scorers",
+        "title": "Tabla de goleadores",
+        "text": "",
+        "url": "https://es.wikipedia.org/wiki/Copa_Bolivia_2026",
+        "image_url": "",
+        "video_url": "",
+        "thumbnail_url": "",
+        "media_type": "none",
+        "published_at": null,
+        "scraped_at": "2026-11-26T04:01:17.112095Z",
+        "source_id": "wikipedia_copa_bolivia",
+        "source_name": "Wikipedia - Copa Bolivia 2026",
+        "source_type": "encyclopedia",
+        "source_authority": 0.92,
+        "scope": "bolivia",
+        "competition": "copa_division_profesional",
+        "rank_score": 0.74,
+        "stale": false,
+        "extra": {
+          "rows": [
+            {
+              "goals": 78,
+              "players_text": "266 (3.41 por partido) Goleador Jeferson Rivas (12) Cronología Edición 2025 Edición 2026 Edición 2027 [ editar datos en Wikidata ] La Copa Bolivia 2026 , también conocida como «Copa Paceña» por motivos de patrocinio, fue la 3.ª edición de la Copa Bolivia de Primera División. Esta edición otorgará al ganador un cupo directo a la Copa Libertadores 2027 como Bolivia 3 y el cupo a la Copa Sudamericana 2027 como Bolivia 1. Sistema de juego [ editar código · editar ] El torneo contó con la participaci"
+            }
+          ],
+          "related_sources": [],
+          "selection_score": 0.954,
+          "selected_as_current": true,
+          "selection_reason": "prioriza fuente oficial/autoridad + tipo de tabla + cantidad de filas"
+        },
+        "published_date": "",
+        "published_display": ""
       }
     },
     "libertadores": {
@@ -7095,7 +7130,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-11-25T21:10:09.111283Z",
+        "scraped_at": "2026-11-26T04:01:19.430752Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7622,7 +7657,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-11-25T21:10:09.111283Z",
+        "scraped_at": "2026-11-26T04:01:19.430752Z",
         "extra": {
           "rows": [
             [
@@ -8104,7 +8139,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-25T21:10:08.597991Z",
+        "scraped_at": "2026-11-26T04:01:19.019132Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -8167,7 +8202,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-25T21:10:08.614130Z",
+        "scraped_at": "2026-11-26T04:01:19.032939Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -8228,7 +8263,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-11-25T21:10:09.111283Z",
+        "scraped_at": "2026-11-26T04:01:19.430752Z",
         "extra": {
           "rows": [
             [
@@ -8706,7 +8741,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-11-25T21:10:07.935044Z",
+        "scraped_at": "2026-11-26T04:01:18.515146Z",
         "extra": {
           "rows": [
             [
@@ -9224,7 +9259,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-11-25T21:10:12.272192Z",
+        "scraped_at": "2026-11-26T04:01:21.813830Z",
         "extra": {
           "header": [
             "Fecha",
@@ -10023,7 +10058,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-11-25T21:10:12.272192Z",
+        "scraped_at": "2026-11-26T04:01:21.813830Z",
         "extra": {
           "rows": [
             [
@@ -10505,7 +10540,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-25T21:10:11.398546Z",
+        "scraped_at": "2026-11-26T04:01:21.197269Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10589,7 +10624,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-25T21:10:11.416342Z",
+        "scraped_at": "2026-11-26T04:01:21.210028Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10662,7 +10697,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-11-25T21:10:12.272192Z",
+        "scraped_at": "2026-11-26T04:01:21.813830Z",
         "extra": {
           "rows": [
             [
@@ -11140,7 +11175,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-11-25T21:10:10.439938Z",
+        "scraped_at": "2026-11-26T04:01:20.472191Z",
         "extra": {
           "rows": [
             [
@@ -11662,7 +11697,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-25T21:08:05.629477Z",
+        "scraped_at": "2026-11-26T03:59:22.814433Z",
         "source_id": "lostiempos_deportes",
         "source_name": "Los Tiempos - Deportes",
         "source_type": "media",
@@ -11674,32 +11709,32 @@
         "extra": {
           "rows": [
             [
-              "1 Miss Universo 2026: dónde y a qué hora ver la gran final del certamen de belleza Ver más",
-              "2 Colombia: De la Espriella advierte a autor de ataque que pagará con sangre Ver más"
+              "1 Paraguay: acusan a Santiago Peña por lavado de activos y cohecho Ver más",
+              "2 Fallece Piotr Nawrot, impulsor del patrimonio musical de las misiones Ver más"
             ],
             [
-              "3 Los pasajes están garantizados: la selección boliviana de Talla Baja podrá concentrarse solo en jugar Ver más",
-              "4 Lara solicita reunión a Paz para informarle resultados de su viaje a EEUU Ver más"
+              "3 Caso Aisem: Lara sienta denuncia penal contra 3 diputados Ver más",
+              "4 Auríferos del norte paceño, en emergencia por precio del diésel Ver más"
             ],
             [
-              "5 La COB, mineros sindicalizados y el magisterio alistan marcha el viernes Ver más",
-              "6 Bilbao advierte a Paz: \"Si hablamos de audios, se quedaría con menos de cuatro en el Ejecutivo\" Ver más"
+              "5 Sobrevivientes de Bolivia presentan al Defensor del Pueblo de Madrid el caso de abuso eclesial Ver más",
+              "6 Marset dice que fue “secuestrado” en Bolivia Ver más"
             ],
             [
-              "7 Gobierno alista registro para identificar familias en situación de pobreza Ver más",
-              "8 Bilbao dice que existen “audios mucho más fuertes” que involucran al Ejecutivo Ver más"
+              "7 Manaco exige a sindicato desalojar su planta industrial Ver más",
+              "8 El Gobierno aprueba tres créditos externos por $us 1.250 millones para \"engrosar\" las reservas líquidas Ver más"
             ],
             [
-              "9 Urioste dice que las denuncias contra diputados y Quiroga por el caso Aisem serán resueltas \"a fondo\" Ver más",
-              "10 Investigan muerte de un joven tras pelea clandestina en discoteca de La Paz Ver más"
+              "9 Cochabamba se prepara para ser la Ciudad de la Navidad Ver más",
+              "10 Mariaca entra en la mira de la Fiscalía por el caso maletas; anuncian más implicados Ver más"
             ]
           ],
           "logos": [
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/24/m7vjoozd3zb2hbjb5oepimcjka.jpg?itok=k5Qp8upx",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/25/talla.jpg?itok=ybQLWQ_U",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/25/3_p_1_jamessssssssss.jpg?itok=-Xbae0Ym",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/24/archivo_villa_carreno_tarata_cl.jpg?itok=mSFYKbiz",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/25/urioste.jpg?itok=G3nu4NI8"
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/25/12_dc_cartelera_1.jpg?itok=ACrwYYAq",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/25/trois_cochons_erbol.jpg?itok=R348rH6h",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/25/espa.jpg?itok=NPtLFK24",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/24/movilizados_en_manaco_3-11-26_ftfc.jpg?itok=Dvuk47l6",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/24/navidad_4_ok.jpg?itok=UCSx6xAj"
           ],
           "strong_standings": false,
           "row_groups": null,

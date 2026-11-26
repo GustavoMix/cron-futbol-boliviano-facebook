@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-11-26T14:48:18.138259Z",
+  "generated_at": "2026-11-26T23:35:08.418448Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,13 +9,13 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 353
+      "items": 345
     },
     "conmebol.json": {
       "items": 98
     },
     "internacional.json": {
-      "items": 147
+      "items": 169
     },
     "social.json": {
       "items": 0
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 199
+      "items": 185
     },
     "current_tables.json": {
       "items": 0
@@ -188,7 +188,7 @@
       "id": "larazon_futbol_boliviano",
       "name": "La Razón - Fútbol Profesional Boliviano",
       "ok": true,
-      "items": 69
+      "items": 70
     },
     {
       "id": "vision360_futbol_boliviano",
@@ -253,19 +253,19 @@
     {
       "id": "uefa_champions_league",
       "name": "UEFA Champions League",
-      "ok": false,
+      "ok": true,
       "items": 0
     },
     {
       "id": "uefa_europa_league",
       "name": "UEFA Europa League",
-      "ok": false,
+      "ok": true,
       "items": 0
     },
     {
       "id": "uefa_nations_league",
       "name": "UEFA Nations League / Eurocopa",
-      "ok": false,
+      "ok": true,
       "items": 0
     },
     {
@@ -290,7 +290,7 @@
       "id": "espn_futbol",
       "name": "ESPN - Fútbol",
       "ok": true,
-      "items": 19
+      "items": 0
     },
     {
       "id": "marca_futbol",
@@ -301,8 +301,8 @@
     {
       "id": "as_futbol",
       "name": "AS.com - Fútbol",
-      "ok": false,
-      "items": 0
+      "ok": true,
+      "items": 52
     },
     {
       "id": "ole_futbol_internacional",
@@ -314,7 +314,7 @@
       "id": "goal_espanol",
       "name": "Goal.com (español)",
       "ok": true,
-      "items": 39
+      "items": 40
     },
     {
       "id": "foxsports_latam",
@@ -332,27 +332,11 @@
   "errors": [
     {
       "source": "abi_deportes",
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7d9a2582b470>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
-    },
-    {
-      "source": "uefa_champions_league",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.uefa.com/uefachampionsleague/"
-    },
-    {
-      "source": "uefa_europa_league",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.uefa.com/uefaeuropaleague/"
-    },
-    {
-      "source": "uefa_nations_league",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.uefa.com/uefanationsleague/"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x786dfce20740>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
     },
     {
       "source": "conmebol_eliminatorias",
       "error": "HTTPError: 404 Client Error: Not Found for url: https://www.conmebol.com/eliminatorias/"
-    },
-    {
-      "source": "as_futbol",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://as.com/futbol/"
     },
     {
       "source": "foxsports_latam",
@@ -360,10 +344,10 @@
     }
   ],
   "totals": {
-    "items_before_filter": 848,
-    "items_after_filter_dedupe": 598,
-    "web_sources_ok": 41,
-    "web_sources_error": 8,
+    "items_before_filter": 883,
+    "items_after_filter_dedupe": 612,
+    "web_sources_ok": 45,
+    "web_sources_error": 4,
     "social_items": 0
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-11-26T23:35:08.418448Z",
+  "generated_at": "2026-11-27T07:03:10.283355Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,13 +9,13 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 345
+      "items": 284
     },
     "conmebol.json": {
       "items": 98
     },
     "internacional.json": {
-      "items": 169
+      "items": 168
     },
     "social.json": {
       "items": 0
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 185
+      "items": 156
     },
     "current_tables.json": {
       "items": 0
@@ -187,8 +187,8 @@
     {
       "id": "larazon_futbol_boliviano",
       "name": "La Razón - Fútbol Profesional Boliviano",
-      "ok": true,
-      "items": 70
+      "ok": false,
+      "items": 0
     },
     {
       "id": "vision360_futbol_boliviano",
@@ -331,8 +331,12 @@
   ],
   "errors": [
     {
+      "source": "larazon_futbol_boliviano",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://larazon.bo/categoria/marcas/futbol-profesional-boliviano/"
+    },
+    {
       "source": "abi_deportes",
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x786dfce20740>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x791205869220>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
     },
     {
       "source": "conmebol_eliminatorias",
@@ -344,10 +348,10 @@
     }
   ],
   "totals": {
-    "items_before_filter": 883,
-    "items_after_filter_dedupe": 612,
-    "web_sources_ok": 45,
-    "web_sources_error": 4,
+    "items_before_filter": 813,
+    "items_after_filter_dedupe": 550,
+    "web_sources_ok": 44,
+    "web_sources_error": 5,
     "social_items": 0
   }
 }

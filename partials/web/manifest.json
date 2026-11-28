@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-11-27T17:28:29.475021Z",
+  "generated_at": "2026-11-28T01:14:11.733703Z",
   "timezone": "America/La_Paz",
   "ranking_policy": {
     "news_social": "72% frescura + 28% autoridad de fuente",
@@ -9,13 +9,13 @@
   },
   "files": {
     "bolivia.json": {
-      "items": 346
+      "items": 343
     },
     "conmebol.json": {
       "items": 98
     },
     "internacional.json": {
-      "items": 168
+      "items": 164
     },
     "social.json": {
       "items": 0
@@ -27,7 +27,7 @@
       "items": 0
     },
     "app_feed.json": {
-      "items": 188
+      "items": 200
     },
     "current_tables.json": {
       "items": 0
@@ -188,13 +188,13 @@
       "id": "larazon_futbol_boliviano",
       "name": "La Razón - Fútbol Profesional Boliviano",
       "ok": true,
-      "items": 72
+      "items": 71
     },
     {
       "id": "vision360_futbol_boliviano",
       "name": "Visión 360 - Fútbol Boliviano",
       "ok": true,
-      "items": 38
+      "items": 39
     },
     {
       "id": "oxigeno_deportes",
@@ -205,8 +205,8 @@
     {
       "id": "atb_deportes",
       "name": "ATB Digital - Deportes",
-      "ok": true,
-      "items": 10
+      "ok": false,
+      "items": 0
     },
     {
       "id": "abi_deportes",
@@ -296,7 +296,7 @@
       "id": "marca_futbol",
       "name": "Marca - Fútbol",
       "ok": true,
-      "items": 70
+      "items": 69
     },
     {
       "id": "as_futbol",
@@ -314,7 +314,7 @@
       "id": "goal_espanol",
       "name": "Goal.com (español)",
       "ok": true,
-      "items": 40
+      "items": 39
     },
     {
       "id": "foxsports_latam",
@@ -331,8 +331,12 @@
   ],
   "errors": [
     {
+      "source": "atb_deportes",
+      "error": "ConnectionError: HTTPSConnectionPool(host='www.atb.com.bo', port=443): Max retries exceeded with url: /categoria/deportes/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.atb.com.bo', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+    },
+    {
       "source": "abi_deportes",
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7e5a02dd6db0>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7963ac1f00b0>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
     },
     {
       "source": "conmebol_eliminatorias",
@@ -344,10 +348,10 @@
     }
   ],
   "totals": {
-    "items_before_filter": 885,
-    "items_after_filter_dedupe": 612,
-    "web_sources_ok": 45,
-    "web_sources_error": 4,
+    "items_before_filter": 873,
+    "items_after_filter_dedupe": 605,
+    "web_sources_ok": 44,
+    "web_sources_error": 5,
     "social_items": 0
   }
 }

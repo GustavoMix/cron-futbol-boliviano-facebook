@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-11-27T17:28:29.620766Z",
+  "generated_at": "2026-11-28T01:14:11.856989Z",
   "architecture": "3 Facebook groups + 1 web group; feed editorial + fases KO verificadas por serie completa",
   "facebook_groups": [
     {
@@ -25,21 +25,25 @@
   "totals": {
     "facebook_items": 0,
     "web_latest_items": 200,
-    "app_feed_items": 187
+    "app_feed_items": 198
   },
   "web": {
-    "generated_at": "2026-11-27T17:28:29.475021Z",
+    "generated_at": "2026-11-28T01:14:11.733703Z",
     "totals": {
-      "items_before_filter": 885,
-      "items_after_filter_dedupe": 612,
-      "web_sources_ok": 45,
-      "web_sources_error": 4,
+      "items_before_filter": 873,
+      "items_after_filter_dedupe": 605,
+      "web_sources_ok": 44,
+      "web_sources_error": 5,
       "social_items": 0
     },
     "errors": [
       {
+        "source": "atb_deportes",
+        "error": "ConnectionError: HTTPSConnectionPool(host='www.atb.com.bo', port=443): Max retries exceeded with url: /categoria/deportes/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.atb.com.bo', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+      },
+      {
         "source": "abi_deportes",
-        "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7e5a02dd6db0>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
+        "error": "ConnectTimeout: HTTPSConnectionPool(host='abi.bo', port=443): Max retries exceeded with url: /category/noticas/deporte/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='abi.bo', port=443) at 0x7963ac1f00b0>, 'Connection to abi.bo timed out. (connect timeout=25)'))"
       },
       {
         "source": "conmebol_eliminatorias",

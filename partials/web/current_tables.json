@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-11-27T17:28:13.300314Z",
+  "generated_at": "2026-11-28T01:13:54.614772Z",
   "policy": "datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback",
   "assets_policy": "club_logo > country_flag > none",
   "team_assets": {
@@ -546,7 +546,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-11-27T17:26:22.980763Z",
+        "scraped_at": "2026-11-28T01:12:26.905354Z",
         "extra": {
           "header": [
             "Fecha",
@@ -3686,21 +3686,6 @@
             ],
             [
               "Fecha 27",
-              "ABB",
-              "–",
-              "Real Tomayapo",
-              "Municipal de El Alto",
-              "27 de noviembre",
-              "15:00",
-              "https://promediosinfo.com/imgs/min/16x16x17743.png.pagespeed.ic.qMqbGh1HDk.png",
-              "https://fbf.com.bo/wp-content/uploads/2025/12/1-6-400x400.png",
-              "La Paz",
-              "Tarija",
-              "club_logo",
-              "club_logo"
-            ],
-            [
-              "Fecha 27",
               "Independiente Petrolero",
               "–",
               "Real Oruro",
@@ -3711,6 +3696,21 @@
               "https://promediosinfo.com/imgs/min/16x16x20252.png.pagespeed.ic.xKzClSxIxa.png",
               "Chuquisaca",
               "Bolivia",
+              "club_logo",
+              "club_logo"
+            ],
+            [
+              "Fecha 27",
+              "ABB",
+              "–",
+              "Real Tomayapo",
+              "Municipal de El Alto",
+              "27 de noviembre",
+              "20:00",
+              "https://promediosinfo.com/imgs/min/16x16x17743.png.pagespeed.ic.qMqbGh1HDk.png",
+              "https://fbf.com.bo/wp-content/uploads/2025/12/1-6-400x400.png",
+              "La Paz",
+              "Tarija",
               "club_logo",
               "club_logo"
             ],
@@ -4374,8 +4374,8 @@
             "Bolivia",
             "Bolivia",
             "Cochabamba",
-            "La Paz",
             "Chuquisaca",
+            "La Paz",
             "Bolivia",
             "Santa Cruz",
             "Potos",
@@ -4616,8 +4616,8 @@
             "Bolivia",
             "Santa Cruz",
             "Bolivia",
-            "Tarija",
             "Bolivia",
+            "Tarija",
             "Potos",
             "Cochabamba",
             "Santa Cruz",
@@ -4664,7 +4664,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-27T17:26:22.677045Z",
+        "scraped_at": "2026-11-28T01:12:26.586363Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -4725,7 +4725,7 @@
               "50",
               "29",
               "+21",
-              "Fase 1 de Copa Libertadores"
+              "Fase 2 de Copa Libertadores [ a ]"
             ],
             [
               "4",
@@ -4738,7 +4738,7 @@
               "33",
               "18",
               "+15",
-              "Primera fase de Copa Sudamericana"
+              "Fase 1 de Copa Libertadores"
             ],
             [
               "5",
@@ -4751,7 +4751,7 @@
               "44",
               "32",
               "+12",
-              "Primera fase de Copa Sudamericana"
+              "Primera fase de Copa Sudamericana [ b ]"
             ],
             [
               "6",
@@ -4764,7 +4764,7 @@
               "38",
               "33",
               "+5",
-              "Primera fase de Copa Sudamericana"
+              "Primera fase de Copa Sudamericana [ b ]"
             ],
             [
               "7",
@@ -4777,7 +4777,7 @@
               "42",
               "34",
               "+8",
-              ""
+              "Primera fase de Copa Sudamericana [ b ]"
             ],
             [
               "8",
@@ -4790,7 +4790,7 @@
               "43",
               "50",
               "− 7",
-              ""
+              "Primera fase de Copa Sudamericana [ b ]"
             ],
             [
               "9",
@@ -4974,7 +4974,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-27T17:24:03.918852Z",
+        "scraped_at": "2026-11-28T01:10:09.111675Z",
         "source_id": "promediosinfo_bolivia",
         "source_name": "Promedios Info - Liga Boliviana",
         "source_type": "aggregator",
@@ -5156,7 +5156,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-27T17:24:03.922089Z",
+        "scraped_at": "2026-11-28T01:10:09.114888Z",
         "source_id": "promediosinfo_bolivia",
         "source_name": "Promedios Info - Liga Boliviana",
         "source_type": "aggregator",
@@ -5317,7 +5317,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-27T17:26:23.043767Z",
+        "scraped_at": "2026-11-28T01:12:26.973559Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5597,7 +5597,7 @@
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-11-27T17:26:23.418944Z",
+        "scraped_at": "2026-11-28T01:12:27.298110Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6783,7 +6783,7 @@
         "source_name": "Series — Serie A + Series — Serie B + Series — Serie C + Series — Serie D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-11-27T17:26:23.345480Z",
+        "scraped_at": "2026-11-28T01:12:27.226851Z",
         "extra": {
           "rows": [
             [
@@ -7097,7 +7097,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-27T17:26:23.525455Z",
+        "scraped_at": "2026-11-28T01:12:27.401850Z",
         "source_id": "wikipedia_copa_bolivia",
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "source_type": "encyclopedia",
@@ -7110,7 +7110,7 @@
           "rows": [
             {
               "goals": 78,
-              "players_text": "266 (3.41 por partido) Goleador Jeferson Rivas (12) Cronología Edición 2025 Edición 2026 Edición 2027 [ editar datos en Wikidata ] La Copa Bolivia 2026 , también conocida como «Copa Paceña» por motivos de patrocinio, fue la 3.ª edición de la Copa Bolivia de Primera División. Esta edición otorgará al ganador un cupo directo a la Copa Libertadores 2027 como Bolivia 3 y el cupo a la Copa Sudamericana 2027 como Bolivia 1. Sistema de juego [ editar código · editar ] El torneo contó con la participaci"
+              "players_text": "266 (3.41 por partido) Goleador Jeferson Rivas (12) Cronología Edición 2025 Edición 2026 Edición 2027 [ editar datos en Wikidata ] La Copa Bolivia 2026 , también conocida como «Copa Paceña» por motivos de patrocinio, fue la 3.ª edición de la Copa Bolivia de Primera División. Esta edición otorgó al ganador un cupo directo a la Copa Libertadores 2027 como Bolivia 3 y el cupo a la Copa Sudamericana 2027 como Bolivia 1 para el subcampeón. Sistema de juego [ editar ] El torneo contó con la participac"
             }
           ],
           "related_sources": [],
@@ -7130,7 +7130,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-11-27T17:26:25.335755Z",
+        "scraped_at": "2026-11-28T01:12:29.214747Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7657,7 +7657,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-11-27T17:26:25.335755Z",
+        "scraped_at": "2026-11-28T01:12:29.214747Z",
         "extra": {
           "rows": [
             [
@@ -8139,7 +8139,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-27T17:26:24.954571Z",
+        "scraped_at": "2026-11-28T01:12:28.831892Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -8202,7 +8202,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-27T17:26:24.966304Z",
+        "scraped_at": "2026-11-28T01:12:28.843874Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -8263,7 +8263,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-11-27T17:26:25.335755Z",
+        "scraped_at": "2026-11-28T01:12:29.214747Z",
         "extra": {
           "rows": [
             [
@@ -8741,7 +8741,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-11-27T17:26:24.494825Z",
+        "scraped_at": "2026-11-28T01:12:28.391168Z",
         "extra": {
           "rows": [
             [
@@ -9259,7 +9259,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-11-27T17:26:27.719043Z",
+        "scraped_at": "2026-11-28T01:12:31.524774Z",
         "extra": {
           "header": [
             "Fecha",
@@ -10058,7 +10058,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-11-27T17:26:27.719043Z",
+        "scraped_at": "2026-11-28T01:12:31.524774Z",
         "extra": {
           "rows": [
             [
@@ -10540,7 +10540,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-27T17:26:27.067791Z",
+        "scraped_at": "2026-11-28T01:12:30.910109Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10624,7 +10624,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-27T17:26:27.080713Z",
+        "scraped_at": "2026-11-28T01:12:30.923001Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10697,7 +10697,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-11-27T17:26:27.719043Z",
+        "scraped_at": "2026-11-28T01:12:31.524774Z",
         "extra": {
           "rows": [
             [
@@ -11175,7 +11175,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-11-27T17:26:26.362343Z",
+        "scraped_at": "2026-11-28T01:12:30.171981Z",
         "extra": {
           "rows": [
             [
@@ -11697,7 +11697,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-27T17:24:27.517757Z",
+        "scraped_at": "2026-11-28T01:10:23.700069Z",
         "source_id": "lostiempos_deportes",
         "source_name": "Los Tiempos - Deportes",
         "source_type": "media",
@@ -11709,32 +11709,32 @@
         "extra": {
           "rows": [
             [
-              "1 Histórico: la Selección pasa a semifinales de la Copa Mundial de Fútbol de Talla Baja en Marruecos Ver más",
-              "2 Colombia: secuestradores se disfrazaron para intentar escapar y uno fue abatido Ver más"
+              "1 Policía gasifica la marcha de la COD y maestros en Cochabamba Ver más",
+              "2 Hay orden de aprehensión para el exministro de Defensa, Zavaleta Ver más"
             ],
             [
-              "3 \"El programa se está cumpliendo\": El BCB espera que el FMI concrete el segundo desembolso del crédito en diciembre Ver más",
-              "4 Manfred evalúa el impacto del alza del diésel y plantea avanzar en la transición energética Ver más"
+              "3 Un golpe de Jordy Alemán al arquero Christian Martínez desata escándalo Ver más",
+              "4 Obispos de Bolivia se reúnen con León XIV Ver más"
             ],
             [
-              "5 Fiscalía, Gobierno y Vicepresidencia anuncian pesquisas por caso “pegas” Ver más",
-              "6 Trasladan a Rubén Aparicio al TDJ para audiencia de apelación Ver más"
+              "5 Lara expresa respaldo a Cochamanidis frente a supuestos procesos por fiscalización Ver más",
+              "6 Filme El perro en el año del perro proyecta su primera ruta por festivales internacionales Ver más"
             ],
             [
-              "7 Gobierno culpa a sindicalistas de parte de la crisis educativa Ver más",
-              "8 Tiroteo en San Matías: un policía antidrogas herido tras choque con sicarios Ver más"
+              "7 Fiscal de La Paz niega favoritismo en el caso de presunto cuoteo Ver más",
+              "8 Oviedo habló con Cochamanidis sobre supuesta investigación Ver más"
             ],
             [
-              "9 Fiscal vincula a Mariaca en caso maletas tras acusación de Zeballos y Quezada Ver más",
-              "10 Autotransporte declara \"paro indefinido\" desde el lunes contra el alza del diésel Ver más"
+              "9 Riada inunda Tipuani y deja al menos 180 familias afectadas Ver más",
+              "10 Gobierno convoca a transportistas a dialogar este domingo Ver más"
             ]
           ],
           "logos": [
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/26/talla_baja_editar_ok.jpg?itok=9aCgCp2L",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/10/2/logotipo_del_fmi.jpg?itok=IdN6zhI2",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/26/3_p_1_rrss.jpg?itok=T1TyJwqI",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/26/4_p_1_ministerio_de_educacion.jpg?itok=lAitrTFO",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/26/5_p_1_fge.jpg?itok=oE8oPEk-"
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/27/gasificados_plaza_ha_ed_va.jpg?itok=MBGzb1IJ",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/27/10_dep_1_rrss.jpg?itok=MHGZcy4H",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/26/lara_conferencia.jpg?itok=DWRk8gQU",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/27/fiscal_paceno_erbol.jpg?itok=t5EnK3Qy",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/27/tipu.jpg?itok=0xoVVNuh"
           ],
           "strong_standings": false,
           "row_groups": null,

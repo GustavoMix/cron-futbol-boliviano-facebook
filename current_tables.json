@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-11-28T01:13:54.614772Z",
+  "generated_at": "2026-11-28T09:54:04.530613Z",
   "policy": "datos vigentes; fases KO solo confirman clasificados cuando la serie ida/vuelta terminó; escudo real o bandera-país como fallback",
   "assets_policy": "club_logo > country_flag > none",
   "team_assets": {
@@ -546,7 +546,7 @@
         "source_name": "Wikipedia - División Profesional 2026",
         "scope": "bolivia",
         "competition": "division_profesional",
-        "scraped_at": "2026-11-28T01:12:26.905354Z",
+        "scraped_at": "2026-11-28T09:52:57.717052Z",
         "extra": {
           "header": [
             "Fecha",
@@ -3687,7 +3687,7 @@
             [
               "Fecha 27",
               "Independiente Petrolero",
-              "–",
+              "4 – 1",
               "Real Oruro",
               "Olímpico Patria",
               "27 de noviembre",
@@ -3706,7 +3706,7 @@
               "Real Tomayapo",
               "Municipal de El Alto",
               "27 de noviembre",
-              "20:00",
+              "22:00",
               "https://promediosinfo.com/imgs/min/16x16x17743.png.pagespeed.ic.qMqbGh1HDk.png",
               "https://fbf.com.bo/wp-content/uploads/2025/12/1-6-400x400.png",
               "La Paz",
@@ -4664,7 +4664,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-28T01:12:26.586363Z",
+        "scraped_at": "2026-11-28T09:52:57.490244Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -4794,28 +4794,28 @@
             ],
             [
               "9",
-              "Real Oruro",
-              "31",
-              "26",
+              "Independiente Petrolero",
+              "34",
+              "27",
               "9",
-              "4",
-              "13",
-              "41",
-              "61",
-              "− 20",
+              "7",
+              "11",
+              "38",
+              "45",
+              "− 7",
               ""
             ],
             [
               "10",
-              "Independiente Petrolero",
+              "Real Oruro",
               "31",
-              "26",
-              "8",
-              "7",
-              "11",
-              "34",
-              "44",
-              "− 10",
+              "27",
+              "9",
+              "4",
+              "14",
+              "42",
+              "65",
+              "− 23",
               ""
             ],
             [
@@ -4907,8 +4907,8 @@
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-2-400x400.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-9-400x400.png",
             "https://promediosinfo.com/imgs/min/16x16x3704.png.pagespeed.ic.uodDwE8_eS.png",
-            "https://promediosinfo.com/imgs/min/16x16x20252.png.pagespeed.ic.xKzClSxIxa.png",
             "https://promediosinfo.com/imgs/min/16x16x15702.png.pagespeed.ic.1mTMh1dKmw.png",
+            "https://promediosinfo.com/imgs/min/16x16x20252.png.pagespeed.ic.xKzClSxIxa.png",
             "https://fbf.com.bo/wp-content/uploads/2025/12/1-4-400x400.png",
             "https://promediosinfo.com/imgs/min/16x16x17760.png.pagespeed.ic.P_DIGvD9hC.png",
             "https://promediosinfo.com/imgs/min/16x16x17762.png.pagespeed.ic.F7ig11QhTN.png",
@@ -4931,8 +4931,8 @@
             "Cochabamba",
             "Potos",
             "Santa Cruz",
-            "Bolivia",
             "Chuquisaca",
+            "Bolivia",
             "Santa Cruz",
             "Bolivia",
             "Cochabamba",
@@ -4974,7 +4974,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-28T01:10:09.111675Z",
+        "scraped_at": "2026-11-28T09:50:34.642490Z",
         "source_id": "promediosinfo_bolivia",
         "source_name": "Promedios Info - Liga Boliviana",
         "source_type": "aggregator",
@@ -5156,7 +5156,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-28T01:10:09.114888Z",
+        "scraped_at": "2026-11-28T09:50:34.644977Z",
         "source_id": "promediosinfo_bolivia",
         "source_name": "Promedios Info - Liga Boliviana",
         "source_type": "aggregator",
@@ -5317,7 +5317,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-28T01:12:26.973559Z",
+        "scraped_at": "2026-11-28T09:52:57.771770Z",
         "source_id": "wikipedia_division_profesional",
         "source_name": "Wikipedia - División Profesional 2026",
         "source_type": "encyclopedia",
@@ -5597,7 +5597,7 @@
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-11-28T01:12:27.298110Z",
+        "scraped_at": "2026-11-28T09:52:58.167641Z",
         "extra": {
           "header": [
             "Fecha",
@@ -6783,7 +6783,7 @@
         "source_name": "Series — Serie A + Series — Serie B + Series — Serie C + Series — Serie D",
         "scope": "bolivia",
         "competition": "copa_division_profesional",
-        "scraped_at": "2026-11-28T01:12:27.226851Z",
+        "scraped_at": "2026-11-28T09:52:58.106331Z",
         "extra": {
           "rows": [
             [
@@ -7097,7 +7097,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-28T01:12:27.401850Z",
+        "scraped_at": "2026-11-28T09:52:58.257155Z",
         "source_id": "wikipedia_copa_bolivia",
         "source_name": "Wikipedia - Copa Bolivia 2026",
         "source_type": "encyclopedia",
@@ -7130,7 +7130,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-11-28T01:12:29.214747Z",
+        "scraped_at": "2026-11-28T09:52:59.720356Z",
         "extra": {
           "header": [
             "Fecha",
@@ -7657,7 +7657,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-11-28T01:12:29.214747Z",
+        "scraped_at": "2026-11-28T09:52:59.720356Z",
         "extra": {
           "rows": [
             [
@@ -8139,7 +8139,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-28T01:12:28.831892Z",
+        "scraped_at": "2026-11-28T09:52:59.414542Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -8202,7 +8202,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-28T01:12:28.843874Z",
+        "scraped_at": "2026-11-28T09:52:59.424304Z",
         "source_id": "wikipedia_libertadores",
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "source_type": "encyclopedia",
@@ -8263,7 +8263,7 @@
         "source_name": "Wikipedia - Copa Libertadores 2026",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-11-28T01:12:29.214747Z",
+        "scraped_at": "2026-11-28T09:52:59.720356Z",
         "extra": {
           "rows": [
             [
@@ -8741,7 +8741,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "libertadores",
-        "scraped_at": "2026-11-28T01:12:28.391168Z",
+        "scraped_at": "2026-11-28T09:52:59.047806Z",
         "extra": {
           "rows": [
             [
@@ -9259,7 +9259,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-11-28T01:12:31.524774Z",
+        "scraped_at": "2026-11-28T09:53:01.406153Z",
         "extra": {
           "header": [
             "Fecha",
@@ -10058,7 +10058,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-11-28T01:12:31.524774Z",
+        "scraped_at": "2026-11-28T09:53:01.406153Z",
         "extra": {
           "rows": [
             [
@@ -10540,7 +10540,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-28T01:12:30.910109Z",
+        "scraped_at": "2026-11-28T09:53:00.971946Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10624,7 +10624,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-28T01:12:30.923001Z",
+        "scraped_at": "2026-11-28T09:53:00.981113Z",
         "source_id": "wikipedia_sudamericana",
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "source_type": "encyclopedia",
@@ -10697,7 +10697,7 @@
         "source_name": "Wikipedia - Copa Sudamericana 2026",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-11-28T01:12:31.524774Z",
+        "scraped_at": "2026-11-28T09:53:01.406153Z",
         "extra": {
           "rows": [
             [
@@ -11175,7 +11175,7 @@
         "source_name": "Grupo A + Grupo B + Grupo C + Grupo D + Grupo E + Grupo F + Grupo G + Grupo H",
         "scope": "conmebol",
         "competition": "sudamericana",
-        "scraped_at": "2026-11-28T01:12:30.171981Z",
+        "scraped_at": "2026-11-28T09:53:00.465517Z",
         "extra": {
           "rows": [
             [
@@ -11697,7 +11697,7 @@
         "thumbnail_url": "",
         "media_type": "none",
         "published_at": null,
-        "scraped_at": "2026-11-28T01:10:23.700069Z",
+        "scraped_at": "2026-11-28T09:51:02.809016Z",
         "source_id": "lostiempos_deportes",
         "source_name": "Los Tiempos - Deportes",
         "source_type": "media",
@@ -11709,32 +11709,32 @@
         "extra": {
           "rows": [
             [
-              "1 Policía gasifica la marcha de la COD y maestros en Cochabamba Ver más",
-              "2 Hay orden de aprehensión para el exministro de Defensa, Zavaleta Ver más"
+              "1 Choferes exigen anular el alza del diésel a Bs 20,57 para instalar el diálogo Ver más",
+              "2 Bolivia exportó 458.000 toneladas de quinua y acumuló $us 1.411 millones entre 2010 y 2025 Ver más"
             ],
             [
-              "3 Un golpe de Jordy Alemán al arquero Christian Martínez desata escándalo Ver más",
-              "4 Obispos de Bolivia se reúnen con León XIV Ver más"
+              "3 Hallan arsenales de armas de fuego y 11.200 proyectiles en Santa Cruz Ver más",
+              "4 Elecciones en España: migración, vivienda y un país partido en dos Ver más"
             ],
             [
-              "5 Lara expresa respaldo a Cochamanidis frente a supuestos procesos por fiscalización Ver más",
-              "6 Filme El perro en el año del perro proyecta su primera ruta por festivales internacionales Ver más"
+              "5 Avances en sostenibilidad: impulsan la transformación de procesos productivos en simposio internacional Ver más",
+              "6 Nexocorp y BNB sellan alianza para ofrecer 10% de descuento todos los viernes en Farmacorp y Amarket Ver más"
             ],
             [
-              "7 Fiscal de La Paz niega favoritismo en el caso de presunto cuoteo Ver más",
-              "8 Oviedo habló con Cochamanidis sobre supuesta investigación Ver más"
+              "7 Un cívico y una diputada revelan que son amedrentados por hacer denuncias Ver más",
+              "8 La Policía secuestra dinamita, fulminantes y dinero a usarse en marcha de la COB y pide \"no incitar a la violencia\" Ver más"
             ],
             [
-              "9 Riada inunda Tipuani y deja al menos 180 familias afectadas Ver más",
-              "10 Gobierno convoca a transportistas a dialogar este domingo Ver más"
+              "9 Los Tiempos recibe el Tunari de Oro 2026 como “Mejor Periódico de Cochabamba” Ver más",
+              "10 COB, maestros, mineros y campesinos ratifican marcha; el Gobierno advierte Ver más"
             ]
           ],
           "logos": [
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/27/gasificados_plaza_ha_ed_va.jpg?itok=MBGzb1IJ",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/27/10_dep_1_rrss.jpg?itok=MHGZcy4H",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/26/lara_conferencia.jpg?itok=DWRk8gQU",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/27/fiscal_paceno_erbol.jpg?itok=t5EnK3Qy",
-            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/27/tipu.jpg?itok=0xoVVNuh"
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/9/29/choferes.jpg?itok=B9ib6SnT",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/27/armas_en_scrz_cdpsc.jpg?itok=A_d1QckK",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/27/simposio.jpg?itok=ZJj-4AOH",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/27/3_p_1_rrss.jpg?itok=sLfoas0a",
+            "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_3/public/media_imagen/2026/11/28/los_tiempos_premio_tunari_ed_ok.jpg?itok=mxP1Avvr"
           ],
           "strong_standings": false,
           "row_groups": null,
